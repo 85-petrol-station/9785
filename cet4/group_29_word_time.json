@@ -1,0 +1,93 @@
+[
+  {
+    "group_id": 29,
+    "full_text": "church",
+    "segment_index": 1,
+    "audio_file": "group29_seg_0001.mp3",
+    "audio_path": "group_29_audio/group29_seg_0001.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "circumstance",
+    "segment_index": 2,
+    "audio_file": "group29_seg_0002.mp3",
+    "audio_path": "group_29_audio/group29_seg_0002.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "site",
+    "segment_index": 3,
+    "audio_file": "group29_seg_0003.mp3",
+    "audio_path": "group_29_audio/group29_seg_0003.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "coarse",
+    "segment_index": 4,
+    "audio_file": "group29_seg_0004.mp3",
+    "audio_path": "group_29_audio/group29_seg_0004.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "coherence",
+    "segment_index": 5,
+    "audio_file": "group29_seg_0005.mp3",
+    "audio_path": "group_29_audio/group29_seg_0005.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "collar",
+    "segment_index": 6,
+    "audio_file": "group29_seg_0006.mp3",
+    "audio_path": "group_29_audio/group29_seg_0006.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "column",
+    "segment_index": 7,
+    "audio_file": "group29_seg_0007.mp3",
+    "audio_path": "group_29_audio/group29_seg_0007.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "comparative",
+    "segment_index": 8,
+    "audio_file": "group29_seg_0008.mp3",
+    "audio_path": "group_29_audio/group29_seg_0008.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "compel",
+    "segment_index": 9,
+    "audio_file": "group29_seg_0009.mp3",
+    "audio_path": "group_29_audio/group29_seg_0009.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "compulsory",
+    "segment_index": 10,
+    "audio_file": "group29_seg_0010.mp3",
+    "audio_path": "group_29_audio/group29_seg_0010.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "concerning",
+    "segment_index": 11,
+    "audio_file": "group29_seg_0011.mp3",
+    "audio_path": "group_29_audio/group29_seg_0011.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "condense",
+    "segment_index": 12,
+    "audio_file": "group29_seg_0012.mp3",
+    "audio_path": "group_29_audio/group29_seg_0012.mp3"
+  },
+  {
+    "group_id": 29,
+    "full_text": "confirm",
+    "segment_index": 13,
+    "audio_file": "group29_seg_0013.mp3",
+    "audio_path": "group_29_audio/group29_seg_0013.mp3"
+  }
+]

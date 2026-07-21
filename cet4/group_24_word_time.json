@@ -1,0 +1,100 @@
+[
+  {
+    "group_id": 24,
+    "full_text": "hall",
+    "segment_index": 1,
+    "audio_file": "group24_seg_0001.mp3",
+    "audio_path": "group_24_audio/group24_seg_0001.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "harmonious",
+    "segment_index": 2,
+    "audio_file": "group24_seg_0002.mp3",
+    "audio_path": "group_24_audio/group24_seg_0002.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "hall",
+    "segment_index": 3,
+    "audio_file": "group24_seg_0003.mp3",
+    "audio_path": "group_24_audio/group24_seg_0003.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "heat",
+    "segment_index": 4,
+    "audio_file": "group24_seg_0004.mp3",
+    "audio_path": "group_24_audio/group24_seg_0004.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "idealistic",
+    "segment_index": 5,
+    "audio_file": "group24_seg_0005.mp3",
+    "audio_path": "group_24_audio/group24_seg_0005.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "idle",
+    "segment_index": 6,
+    "audio_file": "group24_seg_0006.mp3",
+    "audio_path": "group_24_audio/group24_seg_0006.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "implement",
+    "segment_index": 7,
+    "audio_file": "group24_seg_0007.mp3",
+    "audio_path": "group_24_audio/group24_seg_0007.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "impulse",
+    "segment_index": 8,
+    "audio_file": "group24_seg_0008.mp3",
+    "audio_path": "group_24_audio/group24_seg_0008.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "inclusive",
+    "segment_index": 9,
+    "audio_file": "group24_seg_0009.mp3",
+    "audio_path": "group_24_audio/group24_seg_0009.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "indicate",
+    "segment_index": 10,
+    "audio_file": "group24_seg_0010.mp3",
+    "audio_path": "group_24_audio/group24_seg_0010.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "indirect",
+    "segment_index": 11,
+    "audio_file": "group24_seg_0011.mp3",
+    "audio_path": "group_24_audio/group24_seg_0011.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "infant",
+    "segment_index": 12,
+    "audio_file": "group24_seg_0012.mp3",
+    "audio_path": "group_24_audio/group24_seg_0012.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "infectious",
+    "segment_index": 13,
+    "audio_file": "group24_seg_0013.mp3",
+    "audio_path": "group_24_audio/group24_seg_0013.mp3"
+  },
+  {
+    "group_id": 24,
+    "full_text": "video",
+    "segment_index": 14,
+    "audio_file": "group24_seg_0014.mp3",
+    "audio_path": "group_24_audio/group24_seg_0014.mp3"
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "_说明": "===========================================================",
+  "_说明2": " 此文件为网站所有可修改文字的统一配置文件",
+  "_说明3": " 修改此文件中的文字后，刷新网页即可看到效果",
+  "_说明4": " 将此文件上传到服务器后，在 HTML 中修改 CONFIG_URL 即可",
+  "_说明5": " 不会写代码的人只需要修改冒号右边引号内的文字即可",
+  "_说明6": "===========================================================",
+
+  "site": {
+    "logoText": "IBO学习站",
+    "searchPlaceholder": "一博好帅！"
+  },
+
+  "mainPage": {
+    "pageTitle": "首页",
+    "navTabs": {
+      "drama": "追剧学习",
+      "trending": "热门视频",
+      "cet": "四六级词汇",
+      "bbc": " NEWS"
+    },
+    "banners": {
+      "drama": "追剧学习",
+      "trending": "热门视频",
+      "bbc": "NEWS"
+    },
+    "voiceSectionTitle": "yibo语音"
+  },
+
+    "tabbar": {
+    "home": "首页",
+    "study": "加油站",
+    "my": "ibo"
+  },
+
+  "dramaPage": {
+    "title": "追剧学习",
+    "searchPlaceholder": "搜索视频"
+  },
+
+  "trendingPage": {
+    "title": "热门视频",
+    "searchPlaceholder": "搜索视频"
+  },
+
+  "oilPage": {
+    "title": "加油站",
+    "fanTitle": "0805学习区"
+  },
+
+  "idolPage": {
+    "title": "我的",
+    "nicknamePlaceholder": "请输入昵称",
+    "signPlaceholder": "填写个性签名",
+    "starBannerPlaceholder": "+ 点击添加追星banner",
+    "starBannerText": "Star Journey",
+    "debutBtnText": " Set My Fan Debut Date for yibo",
+    "confirmDateBtn": "确认开始日期",
+    "checkinCalendar": "打卡日历",
+    "todayMood": "今日心情",
+    "moodLabels": {
+      "mood1": "Happy",
+      "mood2": "Wronged",
+      "mood3": "Cry",
+      "mood4": "Sad",
+      "mood5": "Try",
+      "mood6": "Speechless",
+      "mood7": "Tired",
+      "mood8": "Joy",
+      "mood9": "Dark",
+      "mood10": "Broken"
+    }
+  }
+}

@@ -1,0 +1,9305 @@
+{
+  "abolish": {
+    "word": "abolish",
+    "type": "cet4",
+    "phonetic": "[əˈbɒlɪʃ]",
+    "meaning": "废除；废止",
+    "pos": "v."
+  },
+  "absent": {
+    "word": "absent",
+    "type": "cet4",
+    "phonetic": "[ˈæbsənt, æbˈsent]",
+    "meaning": "缺少的；缺席的；心不在焉的",
+    "pos": "adj."
+  },
+  "absorb": {
+    "word": "absorb",
+    "type": "cet4",
+    "phonetic": "[əbˈzɔːb]",
+    "meaning": "吸收；吸引；使专心",
+    "pos": "v."
+  },
+  "abstract": {
+    "word": "abstract",
+    "type": "cet4",
+    "phonetic": "[ˈæbstrækt, æbˈstrækt]",
+    "meaning": "摘要；抽象的；提取",
+    "pos": "n./adj./v."
+  },
+  "abuse": {
+    "word": "abuse",
+    "type": "cet4",
+    "phonetic": "[əˈbjuːz, əˈbjuːs]",
+    "meaning": "滥用；虐待",
+    "pos": "v./n."
+  },
+  "academic": {
+    "word": "academic",
+    "type": "cet4",
+    "phonetic": "[ˌækəˈdemɪk]",
+    "meaning": "学术的；学院的",
+    "pos": "adj."
+  },
+  "accelerate": {
+    "word": "accelerate",
+    "type": "cet4",
+    "phonetic": "[əkˈseləreɪt]",
+    "meaning": "（使）加速",
+    "pos": "v."
+  },
+  "accept": {
+    "word": "accept",
+    "type": "cet4",
+    "phonetic": "[əkˈsept]",
+    "meaning": "接受；忍受；同意",
+    "pos": "v."
+  },
+  "accommodate": {
+    "word": "accommodate",
+    "type": "cet4",
+    "phonetic": "[əˈkɒmədeɪt]",
+    "meaning": "提供住宿；容纳",
+    "pos": "v."
+  },
+  "accommodation": {
+    "word": "accommodation",
+    "type": "cet4",
+    "phonetic": "[əˌkɒməˈdeɪʃn]",
+    "meaning": "住处；住宿",
+    "pos": "n."
+  },
+  "accord": {
+    "word": "accord",
+    "type": "cet4",
+    "phonetic": "[əˈkɔːd]",
+    "meaning": "符合；给予；协议；条约",
+    "pos": "v./n."
+  },
+  "accordance": {
+    "word": "accordance",
+    "type": "cet4",
+    "phonetic": "[əˈkɔːdns]",
+    "meaning": "符合；一致",
+    "pos": "n."
+  },
+  "accordingly": {
+    "word": "accordingly",
+    "type": "cet4",
+    "phonetic": "[əˈkɔːdɪŋli]",
+    "meaning": "相应地；照着；因此",
+    "pos": "adv."
+  },
+  "account": {
+    "word": "account",
+    "type": "cet4",
+    "phonetic": "[əˈkaʊnt]",
+    "meaning": "账户；描述；认为是",
+    "pos": "n./v."
+  },
+  "accountable": {
+    "word": "accountable",
+    "type": "cet4",
+    "phonetic": "[əˈkaʊntəbl]",
+    "meaning": "负责任的",
+    "pos": "adj."
+  },
+  "accumulate": {
+    "word": "accumulate",
+    "type": "cet4",
+    "phonetic": "[əˈkjuːmjəleɪt]",
+    "meaning": "积累",
+    "pos": "v."
+  },
+  "accurate": {
+    "word": "accurate",
+    "type": "cet4",
+    "phonetic": "[ˈækjərət]",
+    "meaning": "精确的；准确的",
+    "pos": "adj."
+  },
+  "accuse": {
+    "word": "accuse",
+    "type": "cet4",
+    "phonetic": "[əˈkjuːz]",
+    "meaning": "控告；指控；谴责",
+    "pos": "v."
+  },
+  "accustom": {
+    "word": "accustom",
+    "type": "cet4",
+    "phonetic": "[əˈkʌstəm]",
+    "meaning": "使习惯于；使适应",
+    "pos": "v."
+  },
+  "acid": {
+    "word": "acid",
+    "type": "cet4",
+    "phonetic": "[ˈæsɪd]",
+    "meaning": "酸的；酸性的；酸",
+    "pos": "adj./n."
+  },
+  "acknowledge": {
+    "word": "acknowledge",
+    "type": "cet4",
+    "phonetic": "[əkˈnɒlɪdʒ]",
+    "meaning": "承认；感谢",
+    "pos": "v."
+  },
+  "acquaint": {
+    "word": "acquaint",
+    "type": "cet4",
+    "phonetic": "[əˈkweɪnt]",
+    "meaning": "使熟悉；使了解",
+    "pos": "v."
+  },
+  "acquaintance": {
+    "word": "acquaintance",
+    "type": "cet4",
+    "phonetic": "[əˈkweɪntəns]",
+    "meaning": "熟人",
+    "pos": "n."
+  },
+  "acute": {
+    "word": "acute",
+    "type": "cet4",
+    "phonetic": "[əˈkjuːt]",
+    "meaning": "十分严重的；急性的；灵敏的",
+    "pos": "adj."
+  },
+  "adapt": {
+    "word": "adapt",
+    "type": "cet4",
+    "phonetic": "[əˈdæpt]",
+    "meaning": "改编；适应",
+    "pos": "v."
+  },
+  "addition": {
+    "word": "addition",
+    "type": "cet4",
+    "phonetic": "[əˈdɪʃn]",
+    "meaning": "增加；加法",
+    "pos": "n."
+  },
+  "additional": {
+    "word": "additional",
+    "type": "cet4",
+    "phonetic": "[əˈdɪʃənl]",
+    "meaning": "额外的；附加的",
+    "pos": "adj."
+  },
+  "adequate": {
+    "word": "adequate",
+    "type": "cet4",
+    "phonetic": "[ˈædɪkwət]",
+    "meaning": "足够的",
+    "pos": "adj."
+  },
+  "adjust": {
+    "word": "adjust",
+    "type": "cet4",
+    "phonetic": "[əˈdʒʌst]",
+    "meaning": "调整；调节；适应",
+    "pos": "v."
+  },
+  "administer": {
+    "word": "administer",
+    "type": "cet4",
+    "phonetic": "[ədˈmɪnɪstə(r)]",
+    "meaning": "管理；执行",
+    "pos": "v."
+  },
+  "adoption": {
+    "word": "adoption",
+    "type": "cet4",
+    "phonetic": "[əˈdɒpʃn]",
+    "meaning": "采用；收养",
+    "pos": "n."
+  },
+  "advance": {
+    "word": "advance",
+    "type": "cet4",
+    "phonetic": "[ədˈvɑːns]",
+    "meaning": "前进；（使）进展；事先的",
+    "pos": "n./v./adj."
+  },
+  "advanced": {
+    "word": "advanced",
+    "type": "cet4",
+    "phonetic": "[ədˈvɑːnst]",
+    "meaning": "先进的；高等的；高级的；年老的",
+    "pos": "adj."
+  },
+  "advocate": {
+    "word": "advocate",
+    "type": "cet4",
+    "phonetic": "[ˈædvəkeɪt]",
+    "meaning": "提倡；支持；支持者；拥护者",
+    "pos": "v./n."
+  },
+  "affair": {
+    "word": "affair",
+    "type": "cet4",
+    "phonetic": "[əˈfeə(r)]",
+    "meaning": "事情；事件；暧昧关系",
+    "pos": "n."
+  },
+  "aggressive": {
+    "word": "aggressive",
+    "type": "cet4",
+    "phonetic": "[əˈɡresɪv]",
+    "meaning": "有进取心的；挑衅的；侵略的",
+    "pos": "adj."
+  },
+  "agriculture": {
+    "word": "agriculture",
+    "type": "cet4",
+    "phonetic": "[ˈæɡrɪkʌltʃə(r)]",
+    "meaning": "农业",
+    "pos": "n."
+  },
+  "alcohol": {
+    "word": "alcohol",
+    "type": "cet4",
+    "phonetic": "[ˈælkəhɒl]",
+    "meaning": "酒精",
+    "pos": "n."
+  },
+  "alert": {
+    "word": "alert",
+    "type": "cet4",
+    "phonetic": "[əˈlɜːt]",
+    "meaning": "警惕的；机敏的；警戒；使警觉",
+    "pos": "adj./n./v."
+  },
+  "allege": {
+    "word": "allege",
+    "type": "cet4",
+    "phonetic": "[əˈledʒ]",
+    "meaning": "断言；宣称",
+    "pos": "v."
+  },
+  "alleged": {
+    "word": "alleged",
+    "type": "cet4",
+    "phonetic": "[əˈledʒd]",
+    "meaning": "声称的；涉嫌的",
+    "pos": "adj."
+  },
+  "alley": {
+    "word": "alley",
+    "type": "cet4",
+    "phonetic": "[ˈæli]",
+    "meaning": "小街；小巷；胡同",
+    "pos": "n."
+  },
+  "alternative": {
+    "word": "alternative",
+    "type": "cet4",
+    "phonetic": "[ɔːlˈtɜːnətɪv]",
+    "meaning": "供选择的；可替代的；可供选择的事物",
+    "pos": "adj./n."
+  },
+  "altitude": {
+    "word": "altitude",
+    "type": "cet4",
+    "phonetic": "[ˈæltɪtjuːd]",
+    "meaning": "海拔；高度；高处",
+    "pos": "n."
+  },
+  "amateur": {
+    "word": "amateur",
+    "type": "cet4",
+    "phonetic": "[ˈæmətə(r)]",
+    "meaning": "业余爱好者；业余的",
+    "pos": "n./adj."
+  },
+  "ambition": {
+    "word": "ambition",
+    "type": "cet4",
+    "phonetic": "[æmˈbɪʃn]",
+    "meaning": "雄心；抱负",
+    "pos": "n."
+  },
+  "ambitious": {
+    "word": "ambitious",
+    "type": "cet4",
+    "phonetic": "[æmˈbɪʃəs]",
+    "meaning": "有抱负的；野心勃勃的",
+    "pos": "adj."
+  },
+  "ample": {
+    "word": "ample",
+    "type": "cet4",
+    "phonetic": "[ˈæmpl]",
+    "meaning": "充足的；足够的",
+    "pos": "adj."
+  },
+  "amuse": {
+    "word": "amuse",
+    "type": "cet4",
+    "phonetic": "[əˈmjuːz]",
+    "meaning": "逗乐；（使）娱乐",
+    "pos": "v."
+  },
+  "ancestor": {
+    "word": "ancestor",
+    "type": "cet4",
+    "phonetic": "[ˈænsestə(r)]",
+    "meaning": "祖宗；祖先",
+    "pos": "n."
+  },
+  "anchor": {
+    "word": "anchor",
+    "type": "cet4",
+    "phonetic": "[ˈæŋkə(r)]",
+    "meaning": "锚；抛锚",
+    "pos": "n./v."
+  },
+  "annoy": {
+    "word": "annoy",
+    "type": "cet4",
+    "phonetic": "[əˈnɔɪ]",
+    "meaning": "使恼怒；使生气",
+    "pos": "v."
+  },
+  "annual": {
+    "word": "annual",
+    "type": "cet4",
+    "phonetic": "[ˈænjuəl]",
+    "meaning": "每年的；年度的；年刊",
+    "pos": "adj./n."
+  },
+  "anticipate": {
+    "word": "anticipate",
+    "type": "cet4",
+    "phonetic": "[ænˈtɪsɪpeɪt]",
+    "meaning": "预料；预期；期望",
+    "pos": "v."
+  },
+  "antique": {
+    "word": "antique",
+    "type": "cet4",
+    "phonetic": "[ænˈtiːk]",
+    "meaning": "古董；文物；古老的；古董的",
+    "pos": "n./adj."
+  },
+  "anxious": {
+    "word": "anxious",
+    "type": "cet4",
+    "phonetic": "[ˈæŋkʃəs]",
+    "meaning": "焦虑的；急切的",
+    "pos": "adj."
+  },
+  "appeal": {
+    "word": "appeal",
+    "type": "cet4",
+    "phonetic": "[əˈpiːl]",
+    "meaning": "呼吁；上诉；吸引力",
+    "pos": "v./n."
+  },
+  "appearance": {
+    "word": "appearance",
+    "type": "cet4",
+    "phonetic": "[əˈpɪərəns]",
+    "meaning": "外貌；出现",
+    "pos": "n."
+  },
+  "appetite": {
+    "word": "appetite",
+    "type": "cet4",
+    "phonetic": "[ˈæpɪtaɪt]",
+    "meaning": "食欲；胃口；欲望",
+    "pos": "n."
+  },
+  "applicable": {
+    "word": "applicable",
+    "type": "cet4",
+    "phonetic": "[ˈæplɪkəbl]",
+    "meaning": "适当的；可应用的",
+    "pos": "adj."
+  },
+  "application": {
+    "word": "application",
+    "type": "cet4",
+    "phonetic": "[ˌæplɪˈkeɪʃn]",
+    "meaning": "应用；申请；应用程序",
+    "pos": "n."
+  },
+  "approach": {
+    "word": "approach",
+    "type": "cet4",
+    "phonetic": "[əˈprəʊtʃ]",
+    "meaning": "接近；方法",
+    "pos": "v./n."
+  },
+  "approval": {
+    "word": "approval",
+    "type": "cet4",
+    "phonetic": "[əˈpruːvl]",
+    "meaning": "赞成；同意；批准",
+    "pos": "n."
+  },
+  "approximate": {
+    "word": "approximate",
+    "type": "cet4",
+    "phonetic": "[əˈprɒksɪmət]",
+    "meaning": "近似的",
+    "pos": "adj."
+  },
+  "aptitude": {
+    "word": "aptitude",
+    "type": "cet4",
+    "phonetic": "[ˈæptɪtjuːd]",
+    "meaning": "能力；天赋",
+    "pos": "n."
+  },
+  "arbitrary": {
+    "word": "arbitrary",
+    "type": "cet4",
+    "phonetic": "[ˈɑːbɪtrəri]",
+    "meaning": "随意的；专横的",
+    "pos": "adj."
+  },
+  "arise": {
+    "word": "arise",
+    "type": "cet4",
+    "phonetic": "[əˈraɪz]",
+    "meaning": "出现；由…引起；上升",
+    "pos": "v."
+  },
+  "arouse": {
+    "word": "arouse",
+    "type": "cet4",
+    "phonetic": "[əˈraʊz]",
+    "meaning": "唤醒；引起；激起",
+    "pos": "v."
+  },
+  "arrange": {
+    "word": "arrange",
+    "type": "cet4",
+    "phonetic": "[əˈreɪndʒ]",
+    "meaning": "整理；排列；安排",
+    "pos": "v."
+  },
+  "arrest": {
+    "word": "arrest",
+    "type": "cet4",
+    "phonetic": "[əˈrest]",
+    "meaning": "逮捕",
+    "pos": "v./n."
+  },
+  "arrival": {
+    "word": "arrival",
+    "type": "cet4",
+    "phonetic": "[əˈraɪvl]",
+    "meaning": "抵达；到达",
+    "pos": "n."
+  },
+  "artificial": {
+    "word": "artificial",
+    "type": "cet4",
+    "phonetic": "[ˌɑːtɪˈfɪʃl]",
+    "meaning": "人造的；人工的",
+    "pos": "adj."
+  },
+  "ash": {
+    "word": "ash",
+    "type": "cet4",
+    "phonetic": "[æʃ]",
+    "meaning": "灰；灰烬；骨灰",
+    "pos": "n."
+  },
+  "ashamed": {
+    "word": "ashamed",
+    "type": "cet4",
+    "phonetic": "[əˈʃeɪmd]",
+    "meaning": "羞愧的；惭愧的",
+    "pos": "adj."
+  },
+  "assemble": {
+    "word": "assemble",
+    "type": "cet4",
+    "phonetic": "[əˈsembl]",
+    "meaning": "集合；装配",
+    "pos": "v."
+  },
+  "assess": {
+    "word": "assess",
+    "type": "cet4",
+    "phonetic": "[əˈses]",
+    "meaning": "评定；估价",
+    "pos": "v."
+  },
+  "asset": {
+    "word": "asset",
+    "type": "cet4",
+    "phonetic": "[ˈæset]",
+    "meaning": "资产；有用的人或物",
+    "pos": "n."
+  },
+  "assistance": {
+    "word": "assistance",
+    "type": "cet4",
+    "phonetic": "[əˈsɪstəns]",
+    "meaning": "帮助；援助",
+    "pos": "n."
+  },
+  "assume": {
+    "word": "assume",
+    "type": "cet4",
+    "phonetic": "[əˈsjuːm]",
+    "meaning": "假定；承担；呈现",
+    "pos": "v."
+  },
+  "assure": {
+    "word": "assure",
+    "type": "cet4",
+    "phonetic": "[əˈʃʊə(r)]",
+    "meaning": "使确信；确保",
+    "pos": "v."
+  },
+  "attain": {
+    "word": "attain",
+    "type": "cet4",
+    "phonetic": "[əˈteɪn]",
+    "meaning": "达到；获得",
+    "pos": "v."
+  },
+  "attorney": {
+    "word": "attorney",
+    "type": "cet4",
+    "phonetic": "[əˈtɜːni]",
+    "meaning": "律师",
+    "pos": "n."
+  },
+  "attribute": {
+    "word": "attribute",
+    "type": "cet4",
+    "phonetic": "[əˈtrɪbjuːt, ˈætrɪbjuːt]",
+    "meaning": "把…归因于；属性",
+    "pos": "v./n."
+  },
+  "authentic": {
+    "word": "authentic",
+    "type": "cet4",
+    "phonetic": "[ɔːˈθentɪk]",
+    "meaning": "真正的；可靠的",
+    "pos": "adj."
+  },
+  "authority": {
+    "word": "authority",
+    "type": "cet4",
+    "phonetic": "[ɔːˈθɒrəti]",
+    "meaning": "权力；权威",
+    "pos": "n."
+  },
+  "automate": {
+    "word": "automate",
+    "type": "cet4",
+    "phonetic": "[ˈɔːtəmeɪt]",
+    "meaning": "自动化",
+    "pos": "v."
+  },
+  "automatic": {
+    "word": "automatic",
+    "type": "cet4",
+    "phonetic": "[ˌɔːtəˈmætɪk]",
+    "meaning": "自动的",
+    "pos": "adj."
+  },
+  "auxiliary": {
+    "word": "auxiliary",
+    "type": "cet4",
+    "phonetic": "[ɔːɡˈzɪliəri]",
+    "meaning": "辅助的；备用的",
+    "pos": "adj."
+  },
+  "available": {
+    "word": "available",
+    "type": "cet4",
+    "phonetic": "[əˈveɪləbl]",
+    "meaning": "可获得的；有空的",
+    "pos": "adj."
+  },
+  "avenue": {
+    "word": "avenue",
+    "type": "cet4",
+    "phonetic": "[ˈævənjuː]",
+    "meaning": "大街；林荫道；途径",
+    "pos": "n."
+  },
+  "award": {
+    "word": "award",
+    "type": "cet4",
+    "phonetic": "[əˈwɔːd]",
+    "meaning": "奖品；奖金",
+    "pos": "n."
+  },
+  "aware": {
+    "word": "aware",
+    "type": "cet4",
+    "phonetic": "[əˈweə(r)]",
+    "meaning": "意识到的；知道的",
+    "pos": "adj."
+  },
+  "awesome": {
+    "word": "awesome",
+    "type": "cet4",
+    "phonetic": "[ˈɔːsəm]",
+    "meaning": "令人惊叹的；很好的",
+    "pos": "adj."
+  },
+  "awkward": {
+    "word": "awkward",
+    "type": "cet4",
+    "phonetic": "[ˈɔːkwəd]",
+    "meaning": "令人尴尬的；笨拙的",
+    "pos": "adj."
+  },
+  "bacteria": {
+    "word": "bacteria",
+    "type": "cet4",
+    "phonetic": "[bækˈtɪəriə]",
+    "meaning": "（bacterium的复数）细菌",
+    "pos": "n."
+  },
+  "badge": {
+    "word": "badge",
+    "type": "cet4",
+    "phonetic": "[bædʒ]",
+    "meaning": "徽章；标记；象征",
+    "pos": "n."
+  },
+  "baggage": {
+    "word": "baggage",
+    "type": "cet4",
+    "phonetic": "[ˈbæɡɪdʒ]",
+    "meaning": "行李",
+    "pos": "n."
+  },
+  "balance": {
+    "word": "balance",
+    "type": "cet4",
+    "phonetic": "[ˈbæləns]",
+    "meaning": "平衡；余额；保持平衡",
+    "pos": "n./v."
+  },
+  "ballot": {
+    "word": "ballot",
+    "type": "cet4",
+    "phonetic": "[ˈbælət]",
+    "meaning": "投票；投票选举；投票",
+    "pos": "n./v."
+  },
+  "ban": {
+    "word": "ban",
+    "type": "cet4",
+    "phonetic": "[bæn]",
+    "meaning": "禁止",
+    "pos": "v./n."
+  },
+  "bandage": {
+    "word": "bandage",
+    "type": "cet4",
+    "phonetic": "[ˈbændɪdʒ]",
+    "meaning": "绷带；用绷带包扎",
+    "pos": "n./v."
+  },
+  "banknote": {
+    "word": "banknote",
+    "type": "cet4",
+    "phonetic": "[ˈbæŋknəʊt]",
+    "meaning": "钞票；纸币",
+    "pos": "n."
+  },
+  "bankrupt": {
+    "word": "bankrupt",
+    "type": "cet4",
+    "phonetic": "[ˈbæŋkrʌpt]",
+    "meaning": "破产的；使破产；破产者",
+    "pos": "adj./v./n."
+  },
+  "banquet": {
+    "word": "banquet",
+    "type": "cet4",
+    "phonetic": "[ˈbæŋkwɪt]",
+    "meaning": "宴会",
+    "pos": "n."
+  },
+  "barrier": {
+    "word": "barrier",
+    "type": "cet4",
+    "phonetic": "[ˈbæriə(r)]",
+    "meaning": "屏障；障碍",
+    "pos": "n."
+  },
+  "beard": {
+    "word": "beard",
+    "type": "cet4",
+    "phonetic": "[bɪəd]",
+    "meaning": "胡须；络腮胡子",
+    "pos": "n."
+  },
+  "betray": {
+    "word": "betray",
+    "type": "cet4",
+    "phonetic": "[bɪˈtreɪ]",
+    "meaning": "出卖；背叛；泄露；辜负",
+    "pos": "v."
+  },
+  "beverage": {
+    "word": "beverage",
+    "type": "cet4",
+    "phonetic": "[ˈbevərɪdʒ]",
+    "meaning": "饮料",
+    "pos": "n."
+  },
+  "bias": {
+    "word": "bias",
+    "type": "cet4",
+    "phonetic": "[ˈbaɪəs]",
+    "meaning": "偏见；偏爱；使有偏见；使偏向",
+    "pos": "n./v."
+  },
+  "bible": {
+    "word": "Bible",
+    "type": "cet4",
+    "phonetic": "[ˈbaɪbl]",
+    "meaning": "基督教的《圣经》",
+    "pos": "n."
+  },
+  "bid": {
+    "word": "bid",
+    "type": "cet4",
+    "phonetic": "[bɪd]",
+    "meaning": "出价；投标；努力争取",
+    "pos": "v./n."
+  },
+  "blame": {
+    "word": "blame",
+    "type": "cet4",
+    "phonetic": "[bleɪm]",
+    "meaning": "责怪；把…归咎于；责任",
+    "pos": "v./n."
+  },
+  "blank": {
+    "word": "blank",
+    "type": "cet4",
+    "phonetic": "[blæŋk]",
+    "meaning": "空白的；空白",
+    "pos": "adj./n."
+  },
+  "blast": {
+    "word": "blast",
+    "type": "cet4",
+    "phonetic": "[blɑːst]",
+    "meaning": "爆炸；突如其来的强劲气流；炸毁；爆破",
+    "pos": "n./v."
+  },
+  "blend": {
+    "word": "blend",
+    "type": "cet4",
+    "phonetic": "[blend]",
+    "meaning": "混合；融合；混合体",
+    "pos": "v./n."
+  },
+  "blur": {
+    "word": "blur",
+    "type": "cet4",
+    "phonetic": "[blɜː(r)]",
+    "meaning": "（使）模糊不清；模糊形状",
+    "pos": "v./n."
+  },
+  "board": {
+    "word": "board",
+    "type": "cet4",
+    "phonetic": "[bɔːd]",
+    "meaning": "板；董事会；伙食；膳食；登上（船、车、飞机）；寄宿",
+    "pos": "n./v."
+  },
+  "boast": {
+    "word": "boast",
+    "type": "cet4",
+    "phonetic": "[bəʊst]",
+    "meaning": "夸耀；吹嘘；自夸；夸耀",
+    "pos": "v./n."
+  },
+  "bonus": {
+    "word": "bonus",
+    "type": "cet4",
+    "phonetic": "[ˈbəʊnəs]",
+    "meaning": "奖金；红利",
+    "pos": "n."
+  },
+  "boom": {
+    "word": "boom",
+    "type": "cet4",
+    "phonetic": "[buːm]",
+    "meaning": "繁荣；激增；繁荣昌盛；轰鸣",
+    "pos": "n./v."
+  },
+  "bother": {
+    "word": "bother",
+    "type": "cet4",
+    "phonetic": "[ˈbɒðə(r)]",
+    "meaning": "麻烦；打扰；麻烦；困难",
+    "pos": "v./n."
+  },
+  "bound": {
+    "word": "bound",
+    "type": "cet4",
+    "phonetic": "[baʊnd]",
+    "meaning": "必然的；有义务的；受约束的；界限；跳跃；捆绑；跳跃",
+    "pos": "adj./n./v."
+  },
+  "boundary": {
+    "word": "boundary",
+    "type": "cet4",
+    "phonetic": "[ˈbaʊndri]",
+    "meaning": "分界线；边界",
+    "pos": "n."
+  },
+  "brag": {
+    "word": "brag",
+    "type": "cet4",
+    "phonetic": "[bræɡ]",
+    "meaning": "吹嘘；夸耀",
+    "pos": "v."
+  },
+  "branch": {
+    "word": "branch",
+    "type": "cet4",
+    "phonetic": "[brɑːntʃ]",
+    "meaning": "树枝；分支；支路；分开；分岔",
+    "pos": "n./v."
+  },
+  "breadth": {
+    "word": "breadth",
+    "type": "cet4",
+    "phonetic": "[bredθ]",
+    "meaning": "宽度；阔度；广泛",
+    "pos": "n."
+  },
+  "breed": {
+    "word": "breed",
+    "type": "cet4",
+    "phonetic": "[briːd]",
+    "meaning": "品种；繁殖；养育；引起",
+    "pos": "n./v."
+  },
+  "brief": {
+    "word": "brief",
+    "type": "cet4",
+    "phonetic": "[briːf]",
+    "meaning": "简短的；简洁的；短暂的",
+    "pos": "adj."
+  },
+  "bright": {
+    "word": "bright",
+    "type": "cet4",
+    "phonetic": "[braɪt]",
+    "meaning": "明亮的；聪明的；鲜艳的",
+    "pos": "adj."
+  },
+  "brilliant": {
+    "word": "brilliant",
+    "type": "cet4",
+    "phonetic": "[ˈbrɪliənt]",
+    "meaning": "明亮的；才华横溢的；杰出的",
+    "pos": "adj."
+  },
+  "broadcast": {
+    "word": "broadcast",
+    "type": "cet4",
+    "phonetic": "[ˈbrɔːdkɑːst]",
+    "meaning": "广播；播送；散布",
+    "pos": "n./v."
+  },
+  "broaden": {
+    "word": "broaden",
+    "type": "cet4",
+    "phonetic": "[ˈbrɔːdn]",
+    "meaning": "（使）变宽；（使）扩大",
+    "pos": "v."
+  },
+  "brochure": {
+    "word": "brochure",
+    "type": "cet4",
+    "phonetic": "[ˈbrəʊʃə(r)]",
+    "meaning": "手册；小册子",
+    "pos": "n."
+  },
+  "bubble": {
+    "word": "bubble",
+    "type": "cet4",
+    "phonetic": "[ˈbʌbl]",
+    "meaning": "泡；冒泡；沸腾；充满",
+    "pos": "n./v."
+  },
+  "budget": {
+    "word": "budget",
+    "type": "cet4",
+    "phonetic": "[ˈbʌdʒɪt]",
+    "meaning": "预算；把…编入预算；价格低廉的",
+    "pos": "n./v./adj."
+  },
+  "bulletin": {
+    "word": "bulletin",
+    "type": "cet4",
+    "phonetic": "[ˈbʊlətɪn]",
+    "meaning": "新闻简报；公告",
+    "pos": "n."
+  },
+  "bundle": {
+    "word": "bundle",
+    "type": "cet4",
+    "phonetic": "[ˈbʌndl]",
+    "meaning": "捆；一批",
+    "pos": "n."
+  },
+  "burst": {
+    "word": "burst",
+    "type": "cet4",
+    "phonetic": "[bɜːst]",
+    "meaning": "（使）爆裂；猛冲；突然出现；突发；裂口",
+    "pos": "v./n."
+  },
+  "bury": {
+    "word": "bury",
+    "type": "cet4",
+    "phonetic": "[ˈberi]",
+    "meaning": "埋葬；葬；埋葬",
+    "pos": "v./n."
+  },
+  "cabinet": {
+    "word": "cabinet",
+    "type": "cet4",
+    "phonetic": "[ˈkæbɪnət]",
+    "meaning": "储藏柜；内阁",
+    "pos": "n."
+  },
+  "cable": {
+    "word": "cable",
+    "type": "cet4",
+    "phonetic": "[ˈkeɪbl]",
+    "meaning": "电缆；缆绳；电报",
+    "pos": "n."
+  },
+  "calculating": {
+    "word": "calculating",
+    "type": "cet4",
+    "phonetic": "[ˈkælkjuleɪtɪŋ]",
+    "meaning": "精明的；有心计的；精于计算的",
+    "pos": "adj."
+  },
+  "campaign": {
+    "word": "campaign",
+    "type": "cet4",
+    "phonetic": "[kæmˈpeɪn]",
+    "meaning": "活动；战役",
+    "pos": "n."
+  },
+  "candidate": {
+    "word": "candidate",
+    "type": "cet4",
+    "phonetic": "[ˈkændɪdət]",
+    "meaning": "候选人；应试者",
+    "pos": "n."
+  },
+  "capable": {
+    "word": "capable",
+    "type": "cet4",
+    "phonetic": "[ˈkeɪpəbl]",
+    "meaning": "有能力的；能干的",
+    "pos": "adj."
+  },
+  "capacity": {
+    "word": "capacity",
+    "type": "cet4",
+    "phonetic": "[kəˈpæsəti]",
+    "meaning": "容量；能力",
+    "pos": "n."
+  },
+  "capital": {
+    "word": "capital",
+    "type": "cet4",
+    "phonetic": "[ˈkæpɪtl]",
+    "meaning": "资本；首都；大写字母",
+    "pos": "n."
+  },
+  "cast": {
+    "word": "cast",
+    "type": "cet4",
+    "phonetic": "[kɑːst]",
+    "meaning": "投；扔；抛",
+    "pos": "v."
+  },
+  "casual": {
+    "word": "casual",
+    "type": "cet4",
+    "phonetic": "[ˈkæʒuəl]",
+    "meaning": "漫不经心的；非正式的；偶然的",
+    "pos": "adj."
+  },
+  "category": {
+    "word": "category",
+    "type": "cet4",
+    "phonetic": "[ˈkætəɡəri]",
+    "meaning": "种类；类别；范畴",
+    "pos": "n."
+  },
+  "cater": {
+    "word": "cater",
+    "type": "cet4",
+    "phonetic": "[ˈkeɪtə(r)]",
+    "meaning": "提供饮食服务；迎合",
+    "pos": "v."
+  },
+  "cease": {
+    "word": "cease",
+    "type": "cet4",
+    "phonetic": "[siːs]",
+    "meaning": "终止；结束；停止",
+    "pos": "v./n."
+  },
+  "ceremony": {
+    "word": "ceremony",
+    "type": "cet4",
+    "phonetic": "[ˈserəməni]",
+    "meaning": "典礼；仪式",
+    "pos": "n."
+  },
+  "chaos": {
+    "word": "chaos",
+    "type": "cet4",
+    "phonetic": "[ˈkeɪɒs]",
+    "meaning": "混乱；杂乱；紊乱",
+    "pos": "n."
+  },
+  "characteristic": {
+    "word": "characteristic",
+    "type": "cet4",
+    "phonetic": "[ˌkærəktəˈrɪstɪk]",
+    "meaning": "特征；典型的",
+    "pos": "n./adj."
+  },
+  "charge": {
+    "word": "charge",
+    "type": "cet4",
+    "phonetic": "[tʃɑːdʒ]",
+    "meaning": "收费；控告；掌管；电荷；充电；控诉",
+    "pos": "n./v."
+  },
+  "chief": {
+    "word": "chief",
+    "type": "cet4",
+    "phonetic": "[tʃiːf]",
+    "meaning": "主要的；首席的",
+    "pos": "adj."
+  },
+  "chill": {
+    "word": "chill",
+    "type": "cet4",
+    "phonetic": "[tʃɪl]",
+    "meaning": "（使）变冷；使感到害怕；寒冷；害怕；寒冷的",
+    "pos": "v./n./adj."
+  },
+  "choke": {
+    "word": "choke",
+    "type": "cet4",
+    "phonetic": "[tʃəʊk]",
+    "meaning": "窒息；阻塞",
+    "pos": "v./n."
+  },
+  "christ": {
+    "word": "Christ",
+    "type": "cet4",
+    "phonetic": "[kraɪst]",
+    "meaning": "基督；耶稣基督",
+    "pos": "n."
+  },
+  "christian": {
+    "word": "Christian",
+    "type": "cet4",
+    "phonetic": "[ˈkrɪstʃən]",
+    "meaning": "基督教徒；基督教的；基督教徒的",
+    "pos": "n./adj."
+  },
+  "circuit": {
+    "word": "circuit",
+    "type": "cet4",
+    "phonetic": "[ˈsɜːkɪt]",
+    "meaning": "环行；巡回；电路",
+    "pos": "n."
+  },
+  "circular": {
+    "word": "circular",
+    "type": "cet4",
+    "phonetic": "[ˈsɜːkjələ(r)]",
+    "meaning": "圆的；环形的；循环的",
+    "pos": "adj."
+  },
+  "circulate": {
+    "word": "circulate",
+    "type": "cet4",
+    "phonetic": "[ˈsɜːkjəleɪt]",
+    "meaning": "循环；流传",
+    "pos": "v."
+  },
+  "circumstance": {
+    "word": "circumstance",
+    "type": "cet4",
+    "phonetic": "[ˈsɜːkəmstæns]",
+    "meaning": "条件；环境；状况",
+    "pos": "n."
+  },
+  "cite": {
+    "word": "cite",
+    "type": "cet4",
+    "phonetic": "[saɪt]",
+    "meaning": "引用；列举",
+    "pos": "v."
+  },
+  "citizen": {
+    "word": "citizen",
+    "type": "cet4",
+    "phonetic": "[ˈsɪtɪzn]",
+    "meaning": "市民",
+    "pos": "n."
+  },
+  "civil": {
+    "word": "civil",
+    "type": "cet4",
+    "phonetic": "[ˈsɪvl]",
+    "meaning": "公民的；民事的",
+    "pos": "adj."
+  },
+  "civilization": {
+    "word": "civilization",
+    "type": "cet4",
+    "phonetic": "[ˌsɪvəlaɪˈzeɪʃn]",
+    "meaning": "文明；开化",
+    "pos": "n."
+  },
+  "claim": {
+    "word": "claim",
+    "type": "cet4",
+    "phonetic": "[kleɪm]",
+    "meaning": "宣称；声称；索取",
+    "pos": "v./n."
+  },
+  "clarify": {
+    "word": "clarify",
+    "type": "cet4",
+    "phonetic": "[ˈklærəfaɪ]",
+    "meaning": "阐明；澄清",
+    "pos": "v."
+  },
+  "clash": {
+    "word": "clash",
+    "type": "cet4",
+    "phonetic": "[klæʃ]",
+    "meaning": "冲突；争论",
+    "pos": "v./n."
+  },
+  "classification": {
+    "word": "classification",
+    "type": "cet4",
+    "phonetic": "[ˌklæsɪfɪˈkeɪʃn]",
+    "meaning": "分类；分级；类别；等级分类法",
+    "pos": "n."
+  },
+  "classify": {
+    "word": "classify",
+    "type": "cet4",
+    "phonetic": "[ˈklæsɪfaɪ]",
+    "meaning": "把…分类",
+    "pos": "v."
+  },
+  "claw": {
+    "word": "claw",
+    "type": "cet4",
+    "phonetic": "[klɔː]",
+    "meaning": "爪；脚爪；螯",
+    "pos": "n."
+  },
+  "click": {
+    "word": "click",
+    "type": "cet4",
+    "phonetic": "[klɪk]",
+    "meaning": "点击；（使发出）咔嗒声",
+    "pos": "v."
+  },
+  "clue": {
+    "word": "clue",
+    "type": "cet4",
+    "phonetic": "[kluː]",
+    "meaning": "线索；提示",
+    "pos": "n."
+  },
+  "coarse": {
+    "word": "coarse",
+    "type": "cet4",
+    "phonetic": "[kɔːs]",
+    "meaning": "粗的；粗糙的；粗俗的",
+    "pos": "adj."
+  },
+  "coast": {
+    "word": "coast",
+    "type": "cet4",
+    "phonetic": "[kəʊst]",
+    "meaning": "海岸；海滨",
+    "pos": "n."
+  },
+  "coherence": {
+    "word": "coherence",
+    "type": "cet4",
+    "phonetic": "[kəʊˈhɪərəns]",
+    "meaning": "一致；连贯性",
+    "pos": "n."
+  },
+  "coherent": {
+    "word": "coherent",
+    "type": "cet4",
+    "phonetic": "[kəʊˈhɪərənt]",
+    "meaning": "合乎逻辑的；有条理的",
+    "pos": "adj."
+  },
+  "cohesion": {
+    "word": "cohesion",
+    "type": "cet4",
+    "phonetic": "[kəʊˈhiːʒn]",
+    "meaning": "结合；凝聚性；内聚力",
+    "pos": "n."
+  },
+  "coincidence": {
+    "word": "coincidence",
+    "type": "cet4",
+    "phonetic": "[kəʊˈɪnsɪdəns]",
+    "meaning": "巧合",
+    "pos": "n."
+  },
+  "collaborate": {
+    "word": "collaborate",
+    "type": "cet4",
+    "phonetic": "[kəˈlæbəreɪt]",
+    "meaning": "合作",
+    "pos": "v."
+  },
+  "collaboration": {
+    "word": "collaboration",
+    "type": "cet4",
+    "phonetic": "[kəˌlæbəˈreɪʃn]",
+    "meaning": "合作",
+    "pos": "n."
+  },
+  "collapse": {
+    "word": "collapse",
+    "type": "cet4",
+    "phonetic": "[kəˈlæps]",
+    "meaning": "倒塌；崩溃",
+    "pos": "v./n."
+  },
+  "colleague": {
+    "word": "colleague",
+    "type": "cet4",
+    "phonetic": "[ˈkɒliːɡ]",
+    "meaning": "同事；同僚",
+    "pos": "n."
+  },
+  "collision": {
+    "word": "collision",
+    "type": "cet4",
+    "phonetic": "[kəˈlɪʒn]",
+    "meaning": "碰撞；冲突；抵触",
+    "pos": "n."
+  },
+  "colony": {
+    "word": "colony",
+    "type": "cet4",
+    "phonetic": "[ˈkɒləni]",
+    "meaning": "殖民地；群；群体",
+    "pos": "n."
+  },
+  "column": {
+    "word": "column",
+    "type": "cet4",
+    "phonetic": "[ˈkɒləm]",
+    "meaning": "柱；支柱；圆柱；栏；专栏",
+    "pos": "n."
+  },
+  "combat": {
+    "word": "combat",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmbæt]",
+    "meaning": "搏斗；战斗",
+    "pos": "n./v."
+  },
+  "combination": {
+    "word": "combination",
+    "type": "cet4",
+    "phonetic": "[ˌkɒmbɪˈneɪʃn]",
+    "meaning": "组合；联合",
+    "pos": "n."
+  },
+  "command": {
+    "word": "command",
+    "type": "cet4",
+    "phonetic": "[kəˈmɑːnd]",
+    "meaning": "命令；指示",
+    "pos": "v./n."
+  },
+  "commander": {
+    "word": "commander",
+    "type": "cet4",
+    "phonetic": "[kəˈmɑːndə(r)]",
+    "meaning": "司令官；指挥官",
+    "pos": "n."
+  },
+  "commence": {
+    "word": "commence",
+    "type": "cet4",
+    "phonetic": "[kəˈmens]",
+    "meaning": "开始；着手",
+    "pos": "v."
+  },
+  "commerce": {
+    "word": "commerce",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmɜːs]",
+    "meaning": "商业；商务",
+    "pos": "n."
+  },
+  "commercial": {
+    "word": "commercial",
+    "type": "cet4",
+    "phonetic": "[kəˈmɜːʃl]",
+    "meaning": "商业的；广告",
+    "pos": "adj./n."
+  },
+  "commission": {
+    "word": "commission",
+    "type": "cet4",
+    "phonetic": "[kəˈmɪʃn]",
+    "meaning": "委员会；佣金",
+    "pos": "n."
+  },
+  "commit": {
+    "word": "commit",
+    "type": "cet4",
+    "phonetic": "[kəˈmɪt]",
+    "meaning": "犯罪；承诺",
+    "pos": "v."
+  },
+  "committee": {
+    "word": "committee",
+    "type": "cet4",
+    "phonetic": "[kəˈmɪti]",
+    "meaning": "委员会；全体委员",
+    "pos": "n."
+  },
+  "commodity": {
+    "word": "commodity",
+    "type": "cet4",
+    "phonetic": "[kəˈmɒdəti]",
+    "meaning": "商品；有用之物",
+    "pos": "n."
+  },
+  "commune": {
+    "word": "commune",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmjuːn]",
+    "meaning": "公社",
+    "pos": "n."
+  },
+  "communism": {
+    "word": "communism",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmjunɪzəm]",
+    "meaning": "共产主义",
+    "pos": "n."
+  },
+  "communist": {
+    "word": "communist",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmjənɪst]",
+    "meaning": "共产主义者；共产主义的",
+    "pos": "n./adj."
+  },
+  "community": {
+    "word": "community",
+    "type": "cet4",
+    "phonetic": "[kəˈmjuːnəti]",
+    "meaning": "社区；社会；社团",
+    "pos": "n."
+  },
+  "compact": {
+    "word": "compact",
+    "type": "cet4",
+    "phonetic": "[kəmˈpækt]",
+    "meaning": "紧凑的；体积小的；协议",
+    "pos": "adj./n."
+  },
+  "comparative": {
+    "word": "comparative",
+    "type": "cet4",
+    "phonetic": "[kəmˈpærətɪv]",
+    "meaning": "比较的；相比的",
+    "pos": "adj."
+  },
+  "compatible": {
+    "word": "compatible",
+    "type": "cet4",
+    "phonetic": "[kəmˈpætəbl]",
+    "meaning": "兼容的；和睦共处的；志趣相投的",
+    "pos": "adj."
+  },
+  "compel": {
+    "word": "compel",
+    "type": "cet4",
+    "phonetic": "[kəmˈpel]",
+    "meaning": "强迫；引起",
+    "pos": "v."
+  },
+  "complex": {
+    "word": "complex",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmpleks]",
+    "meaning": "复杂的",
+    "pos": "adj."
+  },
+  "comply": {
+    "word": "comply",
+    "type": "cet4",
+    "phonetic": "[kəmˈplaɪ]",
+    "meaning": "服从；顺从；遵从；遵守",
+    "pos": "v."
+  },
+  "component": {
+    "word": "component",
+    "type": "cet4",
+    "phonetic": "[kəmˈpəʊnənt]",
+    "meaning": "成分；部件",
+    "pos": "n."
+  },
+  "compose": {
+    "word": "compose",
+    "type": "cet4",
+    "phonetic": "[kəmˈpəʊz]",
+    "meaning": "组成；创作；使镇静",
+    "pos": "v."
+  },
+  "composition": {
+    "word": "composition",
+    "type": "cet4",
+    "phonetic": "[ˌkɒmpəˈzɪʃn]",
+    "meaning": "构成；作品；作文",
+    "pos": "n."
+  },
+  "compound": {
+    "word": "compound",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmpaʊnd]",
+    "meaning": "化合物；复合的；混合；恶化",
+    "pos": "n./adj./v."
+  },
+  "comprehend": {
+    "word": "comprehend",
+    "type": "cet4",
+    "phonetic": "[ˌkɒmprɪˈhend]",
+    "meaning": "理解",
+    "pos": "v."
+  },
+  "comprehension": {
+    "word": "comprehension",
+    "type": "cet4",
+    "phonetic": "[ˌkɒmprɪˈhenʃn]",
+    "meaning": "理解力",
+    "pos": "n."
+  },
+  "comprehensive": {
+    "word": "comprehensive",
+    "type": "cet4",
+    "phonetic": "[ˌkɒmprɪˈhensɪv]",
+    "meaning": "综合性的",
+    "pos": "adj."
+  },
+  "compress": {
+    "word": "compress",
+    "type": "cet4",
+    "phonetic": "[kəmˈpres]",
+    "meaning": "压缩；精简",
+    "pos": "v."
+  },
+  "comprise": {
+    "word": "comprise",
+    "type": "cet4",
+    "phonetic": "[kəmˈpraɪz]",
+    "meaning": "包含；包括；由…组成",
+    "pos": "v."
+  },
+  "compromise": {
+    "word": "compromise",
+    "type": "cet4",
+    "phonetic": "[ˈkɒmprəmaɪz]",
+    "meaning": "妥协；和解",
+    "pos": "v./n."
+  },
+  "compulsory": {
+    "word": "compulsory",
+    "type": "cet4",
+    "phonetic": "[kəmˈpʌlsəri]",
+    "meaning": "强制性的；必修的；义务的",
+    "pos": "adj."
+  },
+  "conceal": {
+    "word": "conceal",
+    "type": "cet4",
+    "phonetic": "[kənˈsiːl]",
+    "meaning": "隐藏；隐瞒",
+    "pos": "v."
+  },
+  "concept": {
+    "word": "concept",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnsept]",
+    "meaning": "概念；观念",
+    "pos": "n."
+  },
+  "concerning": {
+    "word": "concerning",
+    "type": "cet4",
+    "phonetic": "[kənˈsɜːnɪŋ]",
+    "meaning": "关于；涉及",
+    "pos": "prep."
+  },
+  "concrete": {
+    "word": "concrete",
+    "type": "cet4",
+    "phonetic": "[ˈkɒŋkriːt]",
+    "meaning": "实在的；具体的；混凝土",
+    "pos": "adj./n."
+  },
+  "condemn": {
+    "word": "condemn",
+    "type": "cet4",
+    "phonetic": "[kənˈdem]",
+    "meaning": "谴责；指责；判刑",
+    "pos": "v."
+  },
+  "condense": {
+    "word": "condense",
+    "type": "cet4",
+    "phonetic": "[kənˈdens]",
+    "meaning": "使浓缩；简缩",
+    "pos": "v."
+  },
+  "conduct": {
+    "word": "conduct",
+    "type": "cet4",
+    "phonetic": "[kənˈdʌkt]",
+    "meaning": "组织；指挥；引导；行为举止",
+    "pos": "v./n."
+  },
+  "conference": {
+    "word": "conference",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnfərəns]",
+    "meaning": "会议；讨论会",
+    "pos": "n."
+  },
+  "confess": {
+    "word": "confess",
+    "type": "cet4",
+    "phonetic": "[kənˈfes]",
+    "meaning": "承认；坦白",
+    "pos": "v."
+  },
+  "confine": {
+    "word": "confine",
+    "type": "cet4",
+    "phonetic": "[kənˈfaɪn]",
+    "meaning": "限制；禁闭",
+    "pos": "v."
+  },
+  "confirm": {
+    "word": "confirm",
+    "type": "cet4",
+    "phonetic": "[kənˈfɜːm]",
+    "meaning": "确认；确定；批准",
+    "pos": "v."
+  },
+  "conflict": {
+    "word": "conflict",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnflɪkt]",
+    "meaning": "冲突；斗争",
+    "pos": "n./v."
+  },
+  "confront": {
+    "word": "confront",
+    "type": "cet4",
+    "phonetic": "[kənˈfrʌnt]",
+    "meaning": "面对；对抗",
+    "pos": "v."
+  },
+  "congress": {
+    "word": "congress",
+    "type": "cet4",
+    "phonetic": "[ˈkɒŋɡres]",
+    "meaning": "代表大会；国会；议会",
+    "pos": "n."
+  },
+  "conjunction": {
+    "word": "conjunction",
+    "type": "cet4",
+    "phonetic": "[kənˈdʒʌŋkʃn]",
+    "meaning": "连词；结合",
+    "pos": "n."
+  },
+  "conquer": {
+    "word": "conquer",
+    "type": "cet4",
+    "phonetic": "[ˈkɒŋkə(r)]",
+    "meaning": "征服；克服",
+    "pos": "v."
+  },
+  "conquest": {
+    "word": "conquest",
+    "type": "cet4",
+    "phonetic": "[ˈkɒŋkwest]",
+    "meaning": "征服；克服",
+    "pos": "n."
+  },
+  "conscience": {
+    "word": "conscience",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnʃəns]",
+    "meaning": "良心；道德心",
+    "pos": "n."
+  },
+  "conscientious": {
+    "word": "conscientious",
+    "type": "cet4",
+    "phonetic": "[ˌkɒnʃiˈenʃəs]",
+    "meaning": "勤勉认真的；一丝不苟的",
+    "pos": "adj."
+  },
+  "conscious": {
+    "word": "conscious",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnʃəs]",
+    "meaning": "意识到的；有知觉的；刻意的",
+    "pos": "adj."
+  },
+  "consciousness": {
+    "word": "consciousness",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnʃəsnəs]",
+    "meaning": "意识；知觉；观念",
+    "pos": "n."
+  },
+  "consent": {
+    "word": "consent",
+    "type": "cet4",
+    "phonetic": "[kənˈsent]",
+    "meaning": "同意；赞成",
+    "pos": "n./v."
+  },
+  "consequence": {
+    "word": "consequence",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnsɪkwəns]",
+    "meaning": "结果；后果",
+    "pos": "n."
+  },
+  "consequently": {
+    "word": "consequently",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnsɪkwəntli]",
+    "meaning": "因此；所以",
+    "pos": "adv."
+  },
+  "conservative": {
+    "word": "conservative",
+    "type": "cet4",
+    "phonetic": "[kənˈsɜːvətɪv]",
+    "meaning": "保守的；保守的人；保守党",
+    "pos": "adj./n."
+  },
+  "conserve": {
+    "word": "conserve",
+    "type": "cet4",
+    "phonetic": "[kənˈsɜːv]",
+    "meaning": "节约；保护",
+    "pos": "v."
+  },
+  "considerable": {
+    "word": "considerable",
+    "type": "cet4",
+    "phonetic": "[kənˈsɪdərəbl]",
+    "meaning": "相当大（或多）的",
+    "pos": "adj."
+  },
+  "considerate": {
+    "word": "considerate",
+    "type": "cet4",
+    "phonetic": "[kənˈsɪdərət]",
+    "meaning": "体贴的；体谅的",
+    "pos": "adj."
+  },
+  "consist": {
+    "word": "consist",
+    "type": "cet4",
+    "phonetic": "[kənˈsɪst]",
+    "meaning": "由…组成",
+    "pos": "v."
+  },
+  "consistent": {
+    "word": "consistent",
+    "type": "cet4",
+    "phonetic": "[kənˈsɪstənt]",
+    "meaning": "一致的；连续的",
+    "pos": "adj."
+  },
+  "consolidate": {
+    "word": "consolidate",
+    "type": "cet4",
+    "phonetic": "[kənˈsɒlɪdeɪt]",
+    "meaning": "（使）巩固；（使）强化；（使）合并",
+    "pos": "v."
+  },
+  "constant": {
+    "word": "constant",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnstənt]",
+    "meaning": "不断的；恒定的",
+    "pos": "adj."
+  },
+  "constitute": {
+    "word": "constitute",
+    "type": "cet4",
+    "phonetic": "[ˈkɒnstɪtjuːt]",
+    "meaning": "组成；构成；建立；制定",
+    "pos": "v."
+  },
+  "constitution": {
+    "word": "constitution",
+    "type": "cet4",
+    "phonetic": "[ˌkɒnstɪˈtjuːʃn]",
+    "meaning": "宪法；章程；体质；构造",
+    "pos": "n."
+  },
+  "construct": {
+    "word": "construct",
+    "type": "cet4",
+    "phonetic": "[kənˈstrʌkt]",
+    "meaning": "建造；修建",
+    "pos": "v."
+  },
+  "consult": {
+    "word": "consult",
+    "type": "cet4",
+    "phonetic": "[kənˈsʌlt]",
+    "meaning": "咨询；请教；协商；查阅",
+    "pos": "v."
+  },
+  "consultant": {
+    "word": "consultant",
+    "type": "cet4",
+    "phonetic": "[kənˈsʌltənt]",
+    "meaning": "顾问",
+    "pos": "n."
+  },
+  "consumption": {
+    "word": "consumption",
+    "type": "cet4",
+    "phonetic": "[kənˈsʌmpʃn]",
+    "meaning": "消耗；消费",
+    "pos": "n."
+  },
+  "contact": {
+    "word": "contact",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntækt]",
+    "meaning": "接触；联系",
+    "pos": "n./v."
+  },
+  "contain": {
+    "word": "contain",
+    "type": "cet4",
+    "phonetic": "[kənˈteɪn]",
+    "meaning": "包含；容纳",
+    "pos": "v."
+  },
+  "contaminate": {
+    "word": "contaminate",
+    "type": "cet4",
+    "phonetic": "[kənˈtæmɪneɪt]",
+    "meaning": "污染；弄脏；腐蚀",
+    "pos": "v."
+  },
+  "contemporary": {
+    "word": "contemporary",
+    "type": "cet4",
+    "phonetic": "[kənˈtemprəri]",
+    "meaning": "当代的；现代的",
+    "pos": "adj."
+  },
+  "contend": {
+    "word": "contend",
+    "type": "cet4",
+    "phonetic": "[kənˈtend]",
+    "meaning": "声称；主张；竞争",
+    "pos": "v."
+  },
+  "content": {
+    "word": "content",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntent]",
+    "meaning": "内容；目录；满意的；使满意",
+    "pos": "n./adj./v."
+  },
+  "contest": {
+    "word": "contest",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntest]",
+    "meaning": "竞赛；争取赢得",
+    "pos": "n./v."
+  },
+  "context": {
+    "word": "context",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntekst]",
+    "meaning": "上下文；背景；环境",
+    "pos": "n."
+  },
+  "continent": {
+    "word": "continent",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntɪnənt]",
+    "meaning": "大陆；洲",
+    "pos": "n."
+  },
+  "continuous": {
+    "word": "continuous",
+    "type": "cet4",
+    "phonetic": "[kənˈtɪnjuəs]",
+    "meaning": "连续不断的；持续的",
+    "pos": "adj."
+  },
+  "contract": {
+    "word": "contract",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntrækt, kənˈtrækt]",
+    "meaning": "合同；契约；缩小；感染",
+    "pos": "n./v."
+  },
+  "contradict": {
+    "word": "contradict",
+    "type": "cet4",
+    "phonetic": "[ˌkɒntrəˈdɪkt]",
+    "meaning": "反驳；与…矛盾",
+    "pos": "v."
+  },
+  "contrary": {
+    "word": "contrary",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntrəri]",
+    "meaning": "相反的；对立的；相反",
+    "pos": "adj./n."
+  },
+  "contrast": {
+    "word": "contrast",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntrɑːst]",
+    "meaning": "对比；对照",
+    "pos": "v./n."
+  },
+  "controversy": {
+    "word": "controversy",
+    "type": "cet4",
+    "phonetic": "[ˈkɒntrəvɜːsi]",
+    "meaning": "争论；辩论",
+    "pos": "n."
+  },
+  "convention": {
+    "word": "convention",
+    "type": "cet4",
+    "phonetic": "[kənˈvenʃn]",
+    "meaning": "习俗；惯例；大会；公约",
+    "pos": "n."
+  },
+  "conventional": {
+    "word": "conventional",
+    "type": "cet4",
+    "phonetic": "[kənˈvenʃənl]",
+    "meaning": "传统的；依照惯例的",
+    "pos": "adj."
+  },
+  "conversation": {
+    "word": "conversation",
+    "type": "cet4",
+    "phonetic": "[ˌkɒnvəˈseɪʃn]",
+    "meaning": "（非正式的）谈话；交谈",
+    "pos": "n."
+  },
+  "converse": {
+    "word": "converse",
+    "type": "cet4",
+    "phonetic": "[kənˈvɜːs, ˈkɒnvɜːs]",
+    "meaning": "交谈；谈话；相反的事物",
+    "pos": "v./n."
+  },
+  "convert": {
+    "word": "convert",
+    "type": "cet4",
+    "phonetic": "[kənˈvɜːt]",
+    "meaning": "（使）转变；（使）皈依",
+    "pos": "v."
+  },
+  "convey": {
+    "word": "convey",
+    "type": "cet4",
+    "phonetic": "[kənˈveɪ]",
+    "meaning": "表达；传送",
+    "pos": "v."
+  },
+  "convince": {
+    "word": "convince",
+    "type": "cet4",
+    "phonetic": "[kənˈvɪns]",
+    "meaning": "使确信；使信服",
+    "pos": "v."
+  },
+  "cooperation": {
+    "word": "cooperation",
+    "type": "cet4",
+    "phonetic": "[kəʊˌɒpəˈreɪʃn]",
+    "meaning": "合作；协助",
+    "pos": "n."
+  },
+  "coordinate": {
+    "word": "coordinate",
+    "type": "cet4",
+    "phonetic": "[kəʊˈɔːdɪneɪt]",
+    "meaning": "（使）协调；搭配；坐标",
+    "pos": "v./n."
+  },
+  "cope": {
+    "word": "cope",
+    "type": "cet4",
+    "phonetic": "[kəʊp]",
+    "meaning": "应付",
+    "pos": "v."
+  },
+  "copyright": {
+    "word": "copyright",
+    "type": "cet4",
+    "phonetic": "[ˈkɒpiraɪt]",
+    "meaning": "版权；著作权",
+    "pos": "n."
+  },
+  "corporation": {
+    "word": "corporation",
+    "type": "cet4",
+    "phonetic": "[ˌkɔːpəˈreɪʃn]",
+    "meaning": "公司；企业；法人",
+    "pos": "n."
+  },
+  "correspond": {
+    "word": "correspond",
+    "type": "cet4",
+    "phonetic": "[ˌkɒrəˈspɒnd]",
+    "meaning": "相符合；一致；通信",
+    "pos": "v."
+  },
+  "corresponding": {
+    "word": "corresponding",
+    "type": "cet4",
+    "phonetic": "[ˌkɒrəˈspɒndɪŋ]",
+    "meaning": "符合的；相应的",
+    "pos": "adj."
+  },
+  "corrupt": {
+    "word": "corrupt",
+    "type": "cet4",
+    "phonetic": "[kəˈrʌpt]",
+    "meaning": "贪污的；使腐化；使堕落",
+    "pos": "adj./v."
+  },
+  "costly": {
+    "word": "costly",
+    "type": "cet4",
+    "phonetic": "[ˈkɒstli]",
+    "meaning": "昂贵的；价钱高的；代价高的；损失大的",
+    "pos": "adj."
+  },
+  "council": {
+    "word": "council",
+    "type": "cet4",
+    "phonetic": "[ˈkaʊnsl]",
+    "meaning": "理事会；委员会",
+    "pos": "n."
+  },
+  "counsel": {
+    "word": "counsel",
+    "type": "cet4",
+    "phonetic": "[ˈkaʊnsl]",
+    "meaning": "建议；劝告；法律顾问；劝告；建议",
+    "pos": "n./v."
+  },
+  "counter": {
+    "word": "counter",
+    "type": "cet4",
+    "phonetic": "[ˈkaʊntə(r)]",
+    "meaning": "柜台；对立面；反面的；反驳",
+    "pos": "n./adj./v."
+  },
+  "counterpart": {
+    "word": "counterpart",
+    "type": "cet4",
+    "phonetic": "[ˈkaʊntəpɑːt]",
+    "meaning": "职位（或作用）相当的人；对应的事物",
+    "pos": "n."
+  },
+  "court": {
+    "word": "court",
+    "type": "cet4",
+    "phonetic": "[kɔːt]",
+    "meaning": "法院；法庭；球场；宫廷",
+    "pos": "n."
+  },
+  "crack": {
+    "word": "crack",
+    "type": "cet4",
+    "phonetic": "[kræk]",
+    "meaning": "裂缝；缝隙；（使）破裂",
+    "pos": "n./v."
+  },
+  "craft": {
+    "word": "craft",
+    "type": "cet4",
+    "phonetic": "[krɑːft]",
+    "meaning": "工艺；手艺；飞行器",
+    "pos": "n."
+  },
+  "crash": {
+    "word": "crash",
+    "type": "cet4",
+    "phonetic": "[kræʃ]",
+    "meaning": "碰撞；撞击",
+    "pos": "v./n."
+  },
+  "credit": {
+    "word": "credit",
+    "type": "cet4",
+    "phonetic": "[ˈkredɪt]",
+    "meaning": "信用；信用贷款",
+    "pos": "n."
+  },
+  "crisis": {
+    "word": "crisis",
+    "type": "cet4",
+    "phonetic": "[ˈkraɪsɪs]",
+    "meaning": "危机；危难时刻（复数crises）",
+    "pos": "n."
+  },
+  "criterion": {
+    "word": "criterion",
+    "type": "cet4",
+    "phonetic": "[kraɪˈtɪəriən]",
+    "meaning": "标准（复数criteria）",
+    "pos": "n."
+  },
+  "critical": {
+    "word": "critical",
+    "type": "cet4",
+    "phonetic": "[ˈkrɪtɪkl]",
+    "meaning": "批判的；极其重要的",
+    "pos": "adj."
+  },
+  "criticism": {
+    "word": "criticism",
+    "type": "cet4",
+    "phonetic": "[ˈkrɪtɪsɪzəm]",
+    "meaning": "批评；评论",
+    "pos": "n."
+  },
+  "criticize": {
+    "word": "criticize",
+    "type": "cet4",
+    "phonetic": "[ˈkrɪtɪsaɪz]",
+    "meaning": "批评；指责；评论",
+    "pos": "v."
+  },
+  "crown": {
+    "word": "crown",
+    "type": "cet4",
+    "phonetic": "[kraʊn]",
+    "meaning": "王冠；冕；花冠；桂冠；冠军",
+    "pos": "n."
+  },
+  "crucial": {
+    "word": "crucial",
+    "type": "cet4",
+    "phonetic": "[ˈkruːʃl]",
+    "meaning": "关键性的；至关重要的",
+    "pos": "adj."
+  },
+  "crude": {
+    "word": "crude",
+    "type": "cet4",
+    "phonetic": "[kruːd]",
+    "meaning": "天然的；粗略的；粗鲁的",
+    "pos": "adj."
+  },
+  "cruise": {
+    "word": "cruise",
+    "type": "cet4",
+    "phonetic": "[kruːz]",
+    "meaning": "巡游；巡航；乘船游览",
+    "pos": "v./n."
+  },
+  "crush": {
+    "word": "crush",
+    "type": "cet4",
+    "phonetic": "[krʌʃ]",
+    "meaning": "压碎；压坏",
+    "pos": "v."
+  },
+  "cubic": {
+    "word": "cubic",
+    "type": "cet4",
+    "phonetic": "[ˈkjuːbɪk]",
+    "meaning": "立方的；立方体的",
+    "pos": "adj."
+  },
+  "cultivate": {
+    "word": "cultivate",
+    "type": "cet4",
+    "phonetic": "[ˈkʌltɪveɪt]",
+    "meaning": "耕作；培养",
+    "pos": "v."
+  },
+  "curb": {
+    "word": "curb",
+    "type": "cet4",
+    "phonetic": "[kɜːb]",
+    "meaning": "抑制；控制",
+    "pos": "v./n."
+  },
+  "currency": {
+    "word": "currency",
+    "type": "cet4",
+    "phonetic": "[ˈkʌrənsi]",
+    "meaning": "货币；通用",
+    "pos": "n."
+  },
+  "curriculum": {
+    "word": "curriculum",
+    "type": "cet4",
+    "phonetic": "[kəˈrɪkjələm]",
+    "meaning": "课程",
+    "pos": "n."
+  },
+  "custom": {
+    "word": "custom",
+    "type": "cet4",
+    "phonetic": "[ˈkʌstəm]",
+    "meaning": "风俗；习惯",
+    "pos": "n."
+  },
+  "customs": {
+    "word": "customs",
+    "type": "cet4",
+    "phonetic": "[ˈkʌstəmz]",
+    "meaning": "海关；关税",
+    "pos": "n."
+  },
+  "dare": {
+    "word": "dare",
+    "type": "cet4",
+    "phonetic": "[deə(r)]",
+    "meaning": "敢；胆敢；挑战；激将",
+    "pos": "v./aux./n."
+  },
+  "dash": {
+    "word": "dash",
+    "type": "cet4",
+    "phonetic": "[dæʃ]",
+    "meaning": "猛冲；使…破灭；破折号；少量",
+    "pos": "v./n."
+  },
+  "debate": {
+    "word": "debate",
+    "type": "cet4",
+    "phonetic": "[dɪˈbeɪt]",
+    "meaning": "讨论；辩论",
+    "pos": "n./v."
+  },
+  "decade": {
+    "word": "decade",
+    "type": "cet4",
+    "phonetic": "[ˈdekeɪd]",
+    "meaning": "十年",
+    "pos": "n."
+  },
+  "decay": {
+    "word": "decay",
+    "type": "cet4",
+    "phonetic": "[dɪˈkeɪ]",
+    "meaning": "衰退；腐烂；腐朽",
+    "pos": "n./v."
+  },
+  "deceive": {
+    "word": "deceive",
+    "type": "cet4",
+    "phonetic": "[dɪˈsiːv]",
+    "meaning": "欺骗；蒙骗",
+    "pos": "v."
+  },
+  "decent": {
+    "word": "decent",
+    "type": "cet4",
+    "phonetic": "[ˈdiːsnt]",
+    "meaning": "体面的；得体的；像样的；高雅的",
+    "pos": "adj."
+  },
+  "declare": {
+    "word": "declare",
+    "type": "cet4",
+    "phonetic": "[dɪˈkleə(r)]",
+    "meaning": "声明；宣告",
+    "pos": "v."
+  },
+  "decline": {
+    "word": "decline",
+    "type": "cet4",
+    "phonetic": "[dɪˈklaɪn]",
+    "meaning": "减少；下降",
+    "pos": "v./n."
+  },
+  "decorate": {
+    "word": "decorate",
+    "type": "cet4",
+    "phonetic": "[ˈdekəreɪt]",
+    "meaning": "装饰；装潢",
+    "pos": "v."
+  },
+  "decoration": {
+    "word": "decoration",
+    "type": "cet4",
+    "phonetic": "[ˌdekəˈreɪʃn]",
+    "meaning": "装饰；装饰品",
+    "pos": "n."
+  },
+  "deed": {
+    "word": "deed",
+    "type": "cet4",
+    "phonetic": "[diːd]",
+    "meaning": "行为；行动；契约；证书",
+    "pos": "n."
+  },
+  "defeat": {
+    "word": "defeat",
+    "type": "cet4",
+    "phonetic": "[dɪˈfiːt]",
+    "meaning": "战胜；击败；失败",
+    "pos": "v./n."
+  },
+  "defect": {
+    "word": "defect",
+    "type": "cet4",
+    "phonetic": "[ˈdiːfekt]",
+    "meaning": "缺陷；缺点",
+    "pos": "n."
+  },
+  "defense": {
+    "word": "defense",
+    "type": "cet4",
+    "phonetic": "[dɪˈfens]",
+    "meaning": "防卫；保护；辩护",
+    "pos": "n."
+  },
+  "deficient": {
+    "word": "deficient",
+    "type": "cet4",
+    "phonetic": "[dɪˈfɪʃnt]",
+    "meaning": "不足的；有缺陷的",
+    "pos": "adj."
+  },
+  "deficit": {
+    "word": "deficit",
+    "type": "cet4",
+    "phonetic": "[ˈdefɪsɪt]",
+    "meaning": "赤字",
+    "pos": "n."
+  },
+  "define": {
+    "word": "define",
+    "type": "cet4",
+    "phonetic": "[dɪˈfaɪn]",
+    "meaning": "阐明；给…下定义；界定",
+    "pos": "v."
+  },
+  "definite": {
+    "word": "definite",
+    "type": "cet4",
+    "phonetic": "[ˈdefɪnət]",
+    "meaning": "确定的；肯定的",
+    "pos": "adj."
+  },
+  "definition": {
+    "word": "definition",
+    "type": "cet4",
+    "phonetic": "[ˌdefɪˈnɪʃn]",
+    "meaning": "定义",
+    "pos": "n."
+  },
+  "defy": {
+    "word": "defy",
+    "type": "cet4",
+    "phonetic": "[dɪˈfaɪ]",
+    "meaning": "反抗；不服从",
+    "pos": "v."
+  },
+  "delay": {
+    "word": "delay",
+    "type": "cet4",
+    "phonetic": "[dɪˈleɪ]",
+    "meaning": "延迟；延期",
+    "pos": "v./n."
+  },
+  "delete": {
+    "word": "delete",
+    "type": "cet4",
+    "phonetic": "[dɪˈliːt]",
+    "meaning": "删除",
+    "pos": "v."
+  },
+  "deliberate": {
+    "word": "deliberate",
+    "type": "cet4",
+    "phonetic": "[dɪˈlɪbərət]",
+    "meaning": "故意的；不慌不忙的；仔细考虑",
+    "pos": "adj./v."
+  },
+  "deliberately": {
+    "word": "deliberately",
+    "type": "cet4",
+    "phonetic": "[dɪˈlɪbərətli]",
+    "meaning": "故意；不慌不忙地",
+    "pos": "adv."
+  },
+  "delicate": {
+    "word": "delicate",
+    "type": "cet4",
+    "phonetic": "[ˈdelɪkət]",
+    "meaning": "精致的；脆弱的；微妙的",
+    "pos": "adj."
+  },
+  "delighted": {
+    "word": "delighted",
+    "type": "cet4",
+    "phonetic": "[dɪˈlaɪtɪd]",
+    "meaning": "高兴的；快乐的",
+    "pos": "adj."
+  },
+  "democracy": {
+    "word": "democracy",
+    "type": "cet4",
+    "phonetic": "[dɪˈmɒkrəsi]",
+    "meaning": "民主；民主政体",
+    "pos": "n."
+  },
+  "democratic": {
+    "word": "democratic",
+    "type": "cet4",
+    "phonetic": "[ˌdeməˈkrætɪk]",
+    "meaning": "民主的",
+    "pos": "adj."
+  },
+  "demonstrate": {
+    "word": "demonstrate",
+    "type": "cet4",
+    "phonetic": "[ˈdemənstreɪt]",
+    "meaning": "证明；证实",
+    "pos": "v."
+  },
+  "dense": {
+    "word": "dense",
+    "type": "cet4",
+    "phonetic": "[dens]",
+    "meaning": "密集的",
+    "pos": "adj."
+  },
+  "density": {
+    "word": "density",
+    "type": "cet4",
+    "phonetic": "[ˈdensəti]",
+    "meaning": "密度",
+    "pos": "n."
+  },
+  "deny": {
+    "word": "deny",
+    "type": "cet4",
+    "phonetic": "[dɪˈnaɪ]",
+    "meaning": "否定；否认；拒绝",
+    "pos": "v."
+  },
+  "depart": {
+    "word": "depart",
+    "type": "cet4",
+    "phonetic": "[dɪˈpɑːt]",
+    "meaning": "离开；出发；启程；离职",
+    "pos": "v."
+  },
+  "department": {
+    "word": "department",
+    "type": "cet4",
+    "phonetic": "[dɪˈpɑːtmənt]",
+    "meaning": "部门；部；司",
+    "pos": "n."
+  },
+  "departure": {
+    "word": "departure",
+    "type": "cet4",
+    "phonetic": "[dɪˈpɑːtʃə(r)]",
+    "meaning": "离开；启程",
+    "pos": "n."
+  },
+  "deposit": {
+    "word": "deposit",
+    "type": "cet4",
+    "phonetic": "[dɪˈpɒzɪt]",
+    "meaning": "储存；放置；订金；存款",
+    "pos": "v./n."
+  },
+  "depress": {
+    "word": "depress",
+    "type": "cet4",
+    "phonetic": "[dɪˈpres]",
+    "meaning": "使沮丧；使萧条",
+    "pos": "v."
+  },
+  "depression": {
+    "word": "depression",
+    "type": "cet4",
+    "phonetic": "[dɪˈpreʃn]",
+    "meaning": "抑郁；萧条期",
+    "pos": "n."
+  },
+  "deprive": {
+    "word": "deprive",
+    "type": "cet4",
+    "phonetic": "[dɪˈpraɪv]",
+    "meaning": "剥夺；使丧失",
+    "pos": "v."
+  },
+  "deputy": {
+    "word": "deputy",
+    "type": "cet4",
+    "phonetic": "[ˈdepjuti]",
+    "meaning": "副手；代理",
+    "pos": "n."
+  },
+  "derive": {
+    "word": "derive",
+    "type": "cet4",
+    "phonetic": "[dɪˈraɪv]",
+    "meaning": "（使）起源；获得",
+    "pos": "v."
+  },
+  "deserve": {
+    "word": "deserve",
+    "type": "cet4",
+    "phonetic": "[dɪˈzɜːv]",
+    "meaning": "值得；应受",
+    "pos": "v."
+  },
+  "despair": {
+    "word": "despair",
+    "type": "cet4",
+    "phonetic": "[dɪˈspeə(r)]",
+    "meaning": "绝望",
+    "pos": "n./v."
+  },
+  "despite": {
+    "word": "despite",
+    "type": "cet4",
+    "phonetic": "[dɪˈspaɪt]",
+    "meaning": "尽管；不管",
+    "pos": "prep."
+  },
+  "destroy": {
+    "word": "destroy",
+    "type": "cet4",
+    "phonetic": "[dɪˈstrɔɪ]",
+    "meaning": "破坏；毁坏",
+    "pos": "v."
+  },
+  "destruction": {
+    "word": "destruction",
+    "type": "cet4",
+    "phonetic": "[dɪˈstrʌkʃn]",
+    "meaning": "破坏；毁灭",
+    "pos": "n."
+  },
+  "detail": {
+    "word": "detail",
+    "type": "cet4",
+    "phonetic": "[ˈdiːteɪl]",
+    "meaning": "细节；详情",
+    "pos": "n."
+  },
+  "detect": {
+    "word": "detect",
+    "type": "cet4",
+    "phonetic": "[dɪˈtekt]",
+    "meaning": "查明；检测",
+    "pos": "v."
+  },
+  "detective": {
+    "word": "detective",
+    "type": "cet4",
+    "phonetic": "[dɪˈtektɪv]",
+    "meaning": "侦探；刑侦的",
+    "pos": "n./adj."
+  },
+  "deteriorate": {
+    "word": "deteriorate",
+    "type": "cet4",
+    "phonetic": "[dɪˈtɪəriəreɪt]",
+    "meaning": "恶化",
+    "pos": "v."
+  },
+  "determine": {
+    "word": "determine",
+    "type": "cet4",
+    "phonetic": "[dɪˈtɜːmɪn]",
+    "meaning": "决定；决心",
+    "pos": "v."
+  },
+  "device": {
+    "word": "device",
+    "type": "cet4",
+    "phonetic": "[dɪˈvaɪs]",
+    "meaning": "装置；设备；方法；手段",
+    "pos": "n."
+  },
+  "devise": {
+    "word": "devise",
+    "type": "cet4",
+    "phonetic": "[dɪˈvaɪz]",
+    "meaning": "发明；设计；想出",
+    "pos": "v."
+  },
+  "devote": {
+    "word": "devote",
+    "type": "cet4",
+    "phonetic": "[dɪˈvəʊt]",
+    "meaning": "奉献；专用于",
+    "pos": "v."
+  },
+  "devotion": {
+    "word": "devotion",
+    "type": "cet4",
+    "phonetic": "[dɪˈvəʊʃn]",
+    "meaning": "奉献；忠诚",
+    "pos": "n."
+  },
+  "diagnose": {
+    "word": "diagnose",
+    "type": "cet4",
+    "phonetic": "[ˈdaɪəɡnəʊz]",
+    "meaning": "诊断",
+    "pos": "v."
+  },
+  "diagnosis": {
+    "word": "diagnosis",
+    "type": "cet4",
+    "phonetic": "[ˌdaɪəɡˈnəʊsɪs]",
+    "meaning": "诊断；判断",
+    "pos": "n."
+  },
+  "dial": {
+    "word": "dial",
+    "type": "cet4",
+    "phonetic": "[ˈdaɪəl]",
+    "meaning": "拨号；拨（电话号码）；表盘；刻度盘",
+    "pos": "v./n."
+  },
+  "dialect": {
+    "word": "dialect",
+    "type": "cet4",
+    "phonetic": "[ˈdaɪəlekt]",
+    "meaning": "方言；土语；地方话",
+    "pos": "n."
+  },
+  "dictate": {
+    "word": "dictate",
+    "type": "cet4",
+    "phonetic": "[dɪkˈteɪt]",
+    "meaning": "口述；命令；使听写；命令；规定",
+    "pos": "v./n."
+  },
+  "dictation": {
+    "word": "dictation",
+    "type": "cet4",
+    "phonetic": "[dɪkˈteɪʃn]",
+    "meaning": "听写；口述",
+    "pos": "n."
+  },
+  "diet": {
+    "word": "diet",
+    "type": "cet4",
+    "phonetic": "[ˈdaɪət]",
+    "meaning": "饮食；节食",
+    "pos": "n./v."
+  },
+  "digest": {
+    "word": "digest",
+    "type": "cet4",
+    "phonetic": "[daɪˈdʒest]",
+    "meaning": "消化；领会；摘要；文摘",
+    "pos": "v./n."
+  },
+  "dignity": {
+    "word": "dignity",
+    "type": "cet4",
+    "phonetic": "[ˈdɪɡnəti]",
+    "meaning": "尊严；尊贵；高尚",
+    "pos": "n."
+  },
+  "dilemma": {
+    "word": "dilemma",
+    "type": "cet4",
+    "phonetic": "[dɪˈlemə]",
+    "meaning": "（进退两难的）窘境；困境",
+    "pos": "n."
+  },
+  "dimension": {
+    "word": "dimension",
+    "type": "cet4",
+    "phonetic": "[daɪˈmenʃn]",
+    "meaning": "维度；方面",
+    "pos": "n."
+  },
+  "diminish": {
+    "word": "diminish",
+    "type": "cet4",
+    "phonetic": "[dɪˈmɪnɪʃ]",
+    "meaning": "减少；降低",
+    "pos": "v."
+  },
+  "dioxide": {
+    "word": "dioxide",
+    "type": "cet4",
+    "phonetic": "[daɪˈɒksaɪd]",
+    "meaning": "二氧化物",
+    "pos": "n."
+  },
+  "diplomatic": {
+    "word": "diplomatic",
+    "type": "cet4",
+    "phonetic": "[ˌdɪpləˈmætɪk]",
+    "meaning": "外交的；灵活变通的",
+    "pos": "adj."
+  },
+  "dirt": {
+    "word": "dirt",
+    "type": "cet4",
+    "phonetic": "[dɜːt]",
+    "meaning": "尘土；污物；污垢",
+    "pos": "n."
+  },
+  "discard": {
+    "word": "discard",
+    "type": "cet4",
+    "phonetic": "[dɪˈskɑːd]",
+    "meaning": "丢弃；抛弃",
+    "pos": "v."
+  },
+  "discharge": {
+    "word": "discharge",
+    "type": "cet4",
+    "phonetic": "[dɪsˈtʃɑːdʒ]",
+    "meaning": "释放；解雇；排放；排出（物）",
+    "pos": "v./n."
+  },
+  "discipline": {
+    "word": "discipline",
+    "type": "cet4",
+    "phonetic": "[ˈdɪsəplɪn]",
+    "meaning": "纪律；训练；科目；训练；惩罚",
+    "pos": "n./v."
+  },
+  "discount": {
+    "word": "discount",
+    "type": "cet4",
+    "phonetic": "[ˈdɪskaʊnt]",
+    "meaning": "折扣",
+    "pos": "n."
+  },
+  "discriminate": {
+    "word": "discriminate",
+    "type": "cet4",
+    "phonetic": "[dɪˈskrɪmɪneɪt]",
+    "meaning": "辨别；歧视",
+    "pos": "v."
+  },
+  "discrimination": {
+    "word": "discrimination",
+    "type": "cet4",
+    "phonetic": "[dɪˌskrɪmɪˈneɪʃn]",
+    "meaning": "歧视；辨别；区别；识别",
+    "pos": "n."
+  },
+  "disguise": {
+    "word": "disguise",
+    "type": "cet4",
+    "phonetic": "[dɪsˈɡaɪz]",
+    "meaning": "伪装；假扮",
+    "pos": "v./n."
+  },
+  "disgust": {
+    "word": "disgust",
+    "type": "cet4",
+    "phonetic": "[dɪsˈɡʌst]",
+    "meaning": "厌恶；反感；使厌恶；使反感",
+    "pos": "n./v."
+  },
+  "disintegrate": {
+    "word": "disintegrate",
+    "type": "cet4",
+    "phonetic": "[dɪsˈɪntɪɡreɪt]",
+    "meaning": "瓦解；解体",
+    "pos": "v."
+  },
+  "dismiss": {
+    "word": "dismiss",
+    "type": "cet4",
+    "phonetic": "[dɪsˈmɪs]",
+    "meaning": "解雇；遣散；解散；驳回",
+    "pos": "v."
+  },
+  "disobey": {
+    "word": "disobey",
+    "type": "cet4",
+    "phonetic": "[ˌdɪsəˈbeɪ]",
+    "meaning": "不服从；违反",
+    "pos": "v."
+  },
+  "dispatch": {
+    "word": "dispatch",
+    "type": "cet4",
+    "phonetic": "[dɪˈspætʃ]",
+    "meaning": "派遣",
+    "pos": "v./n."
+  },
+  "display": {
+    "word": "display",
+    "type": "cet4",
+    "phonetic": "[dɪˈspleɪ]",
+    "meaning": "展示；陈列",
+    "pos": "n./v."
+  },
+  "dispose": {
+    "word": "dispose",
+    "type": "cet4",
+    "phonetic": "[dɪˈspəʊz]",
+    "meaning": "布置；安排",
+    "pos": "v."
+  },
+  "dispute": {
+    "word": "dispute",
+    "type": "cet4",
+    "phonetic": "[dɪˈspjuːt]",
+    "meaning": "争论；辩论",
+    "pos": "n./v."
+  },
+  "disrupt": {
+    "word": "disrupt",
+    "type": "cet4",
+    "phonetic": "[dɪsˈrʌpt]",
+    "meaning": "扰乱；使中断",
+    "pos": "v."
+  },
+  "dissolve": {
+    "word": "dissolve",
+    "type": "cet4",
+    "phonetic": "[dɪˈzɒlv]",
+    "meaning": "使溶解；解除；消除",
+    "pos": "v."
+  },
+  "distinct": {
+    "word": "distinct",
+    "type": "cet4",
+    "phonetic": "[dɪˈstɪŋkt]",
+    "meaning": "明显的；清楚的",
+    "pos": "adj."
+  },
+  "distinction": {
+    "word": "distinction",
+    "type": "cet4",
+    "phonetic": "[dɪˈstɪŋkʃn]",
+    "meaning": "差别；优秀；荣誉",
+    "pos": "n."
+  },
+  "distinguished": {
+    "word": "distinguished",
+    "type": "cet4",
+    "phonetic": "[dɪˈstɪŋɡwɪʃt]",
+    "meaning": "卓越的；杰出的",
+    "pos": "adj."
+  },
+  "distress": {
+    "word": "distress",
+    "type": "cet4",
+    "phonetic": "[dɪˈstres]",
+    "meaning": "痛苦；悲伤；贫困；使悲伤",
+    "pos": "n./v."
+  },
+  "distribute": {
+    "word": "distribute",
+    "type": "cet4",
+    "phonetic": "[dɪˈstrɪbjuːt]",
+    "meaning": "分配",
+    "pos": "v."
+  },
+  "district": {
+    "word": "district",
+    "type": "cet4",
+    "phonetic": "[ˈdɪstrɪkt]",
+    "meaning": "区；地区；区域",
+    "pos": "n."
+  },
+  "disturb": {
+    "word": "disturb",
+    "type": "cet4",
+    "phonetic": "[dɪˈstɜːb]",
+    "meaning": "扰乱；打扰；妨碍；使不安",
+    "pos": "v."
+  },
+  "diverse": {
+    "word": "diverse",
+    "type": "cet4",
+    "phonetic": "[daɪˈvɜːs]",
+    "meaning": "不同的；多种多样的",
+    "pos": "adj."
+  },
+  "domestic": {
+    "word": "domestic",
+    "type": "cet4",
+    "phonetic": "[dəˈmestɪk]",
+    "meaning": "国内的；家庭的；驯养的",
+    "pos": "adj."
+  },
+  "dominant": {
+    "word": "dominant",
+    "type": "cet4",
+    "phonetic": "[ˈdɒmɪnənt]",
+    "meaning": "占优势的；占支配地位的",
+    "pos": "adj."
+  },
+  "dominate": {
+    "word": "dominate",
+    "type": "cet4",
+    "phonetic": "[ˈdɒmɪneɪt]",
+    "meaning": "支配；占有优势",
+    "pos": "v."
+  },
+  "draft": {
+    "word": "draft",
+    "type": "cet4",
+    "phonetic": "[drɑːft]",
+    "meaning": "草稿；草案；起草；草拟",
+    "pos": "n./v."
+  },
+  "drain": {
+    "word": "drain",
+    "type": "cet4",
+    "phonetic": "[dreɪn]",
+    "meaning": "排空；流出；下水道；排水管",
+    "pos": "v./n."
+  },
+  "drainage": {
+    "word": "drainage",
+    "type": "cet4",
+    "phonetic": "[ˈdreɪnɪdʒ]",
+    "meaning": "排水；排水系统",
+    "pos": "n."
+  },
+  "dramatic": {
+    "word": "dramatic",
+    "type": "cet4",
+    "phonetic": "[drəˈmætɪk]",
+    "meaning": "戏剧的",
+    "pos": "adj."
+  },
+  "drawback": {
+    "word": "drawback",
+    "type": "cet4",
+    "phonetic": "[ˈdrɔːbæk]",
+    "meaning": "缺点；缺陷；不利条件",
+    "pos": "n."
+  },
+  "drought": {
+    "word": "drought",
+    "type": "cet4",
+    "phonetic": "[draʊt]",
+    "meaning": "干旱；旱灾",
+    "pos": "n."
+  },
+  "dump": {
+    "word": "dump",
+    "type": "cet4",
+    "phonetic": "[dʌmp]",
+    "meaning": "垃圾场；倾倒；倾销",
+    "pos": "n./v."
+  },
+  "durable": {
+    "word": "durable",
+    "type": "cet4",
+    "phonetic": "[ˈdjʊərəbl]",
+    "meaning": "耐用的；持久的",
+    "pos": "adj."
+  },
+  "dynamic": {
+    "word": "dynamic",
+    "type": "cet4",
+    "phonetic": "[daɪˈnæmɪk]",
+    "meaning": "动力；活力；充满活力的；动力的",
+    "pos": "n./adj."
+  },
+  "earnest": {
+    "word": "earnest",
+    "type": "cet4",
+    "phonetic": "[ˈɜːnɪst]",
+    "meaning": "认真的；真诚的；诚挚的",
+    "pos": "adj."
+  },
+  "ease": {
+    "word": "ease",
+    "type": "cet4",
+    "phonetic": "[iːz]",
+    "meaning": "容易；安逸；缓和；减轻",
+    "pos": "n./v."
+  },
+  "echo": {
+    "word": "echo",
+    "type": "cet4",
+    "phonetic": "[ˈekəʊ]",
+    "meaning": "回声；反响；发出回声",
+    "pos": "n./v."
+  },
+  "edition": {
+    "word": "edition",
+    "type": "cet4",
+    "phonetic": "[ɪˈdɪʃn]",
+    "meaning": "版本",
+    "pos": "n."
+  },
+  "editor": {
+    "word": "editor",
+    "type": "cet4",
+    "phonetic": "[ˈedɪtə(r)]",
+    "meaning": "编辑；编者",
+    "pos": "n."
+  },
+  "effective": {
+    "word": "effective",
+    "type": "cet4",
+    "phonetic": "[ɪˈfektɪv]",
+    "meaning": "有效的；起作用的",
+    "pos": "adj."
+  },
+  "efficient": {
+    "word": "efficient",
+    "type": "cet4",
+    "phonetic": "[ɪˈfɪʃnt]",
+    "meaning": "有效率的",
+    "pos": "adj."
+  },
+  "elaborate": {
+    "word": "elaborate",
+    "type": "cet4",
+    "phonetic": "[ɪˈlæbərət]",
+    "meaning": "精心制作的；复杂的；详尽的",
+    "pos": "adj."
+  },
+  "elastic": {
+    "word": "elastic",
+    "type": "cet4",
+    "phonetic": "[ɪˈlæstɪk]",
+    "meaning": "有弹性的；灵活的；松紧带",
+    "pos": "adj./n."
+  },
+  "elect": {
+    "word": "elect",
+    "type": "cet4",
+    "phonetic": "[ɪˈlekt]",
+    "meaning": "选举",
+    "pos": "v."
+  },
+  "elegant": {
+    "word": "elegant",
+    "type": "cet4",
+    "phonetic": "[ˈelɪɡənt]",
+    "meaning": "优雅的；文雅的",
+    "pos": "adj."
+  },
+  "element": {
+    "word": "element",
+    "type": "cet4",
+    "phonetic": "[ˈelɪmənt]",
+    "meaning": "元素；要素",
+    "pos": "n."
+  },
+  "elementary": {
+    "word": "elementary",
+    "type": "cet4",
+    "phonetic": "[ˌelɪˈmentri]",
+    "meaning": "基本的；初级的",
+    "pos": "adj."
+  },
+  "eliminate": {
+    "word": "eliminate",
+    "type": "cet4",
+    "phonetic": "[ɪˈlɪmɪneɪt]",
+    "meaning": "排除；消除；淘汰",
+    "pos": "v."
+  },
+  "elite": {
+    "word": "elite",
+    "type": "cet4",
+    "phonetic": "[eɪˈliːt]",
+    "meaning": "精英；精英的",
+    "pos": "n./adj."
+  },
+  "embrace": {
+    "word": "embrace",
+    "type": "cet4",
+    "phonetic": "[ɪmˈbreɪs]",
+    "meaning": "拥抱；包括",
+    "pos": "v."
+  },
+  "emerge": {
+    "word": "emerge",
+    "type": "cet4",
+    "phonetic": "[iˈmɜːdʒ]",
+    "meaning": "出现；浮现；暴露；摆脱",
+    "pos": "v."
+  },
+  "emergence": {
+    "word": "emergence",
+    "type": "cet4",
+    "phonetic": "[iˈmɜːdʒəns]",
+    "meaning": "出现；发生；浮现",
+    "pos": "n."
+  },
+  "emergency": {
+    "word": "emergency",
+    "type": "cet4",
+    "phonetic": "[iˈmɜːdʒənsi]",
+    "meaning": "紧急情况；突发事件；紧急的",
+    "pos": "n./adj."
+  },
+  "emission": {
+    "word": "emission",
+    "type": "cet4",
+    "phonetic": "[iˈmɪʃn]",
+    "meaning": "排放物；排放；（光、热、气等的）散发",
+    "pos": "n."
+  },
+  "emit": {
+    "word": "emit",
+    "type": "cet4",
+    "phonetic": "[iˈmɪt]",
+    "meaning": "发出；射出；散发（光、热、声音、气等）",
+    "pos": "v."
+  },
+  "emperor": {
+    "word": "emperor",
+    "type": "cet4",
+    "phonetic": "[ˈempərə(r)]",
+    "meaning": "皇帝",
+    "pos": "n."
+  },
+  "emphasize": {
+    "word": "emphasize",
+    "type": "cet4",
+    "phonetic": "[ˈemfəsaɪz]",
+    "meaning": "强调；重读；重视",
+    "pos": "v."
+  },
+  "enclose": {
+    "word": "enclose",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkləʊz]",
+    "meaning": "围住",
+    "pos": "v."
+  },
+  "encounter": {
+    "word": "encounter",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkaʊntə(r)]",
+    "meaning": "遭遇；遇到",
+    "pos": "v./n."
+  },
+  "endure": {
+    "word": "endure",
+    "type": "cet4",
+    "phonetic": "[ɪnˈdjʊə(r)]",
+    "meaning": "忍受；容忍",
+    "pos": "v."
+  },
+  "enemy": {
+    "word": "enemy",
+    "type": "cet4",
+    "phonetic": "[ˈenəmi]",
+    "meaning": "敌人；仇敌",
+    "pos": "n."
+  },
+  "enforce": {
+    "word": "enforce",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfɔːs]",
+    "meaning": "强制实施；强制执行；强迫",
+    "pos": "v."
+  },
+  "engage": {
+    "word": "engage",
+    "type": "cet4",
+    "phonetic": "[ɪnˈɡeɪdʒ]",
+    "meaning": "从事；吸引；聘用；交战",
+    "pos": "v."
+  },
+  "enhance": {
+    "word": "enhance",
+    "type": "cet4",
+    "phonetic": "[ɪnˈhɑːns]",
+    "meaning": "提高；增强",
+    "pos": "v."
+  },
+  "enlighten": {
+    "word": "enlighten",
+    "type": "cet4",
+    "phonetic": "[ɪnˈlaɪtn]",
+    "meaning": "启发；开导；阐明",
+    "pos": "v."
+  },
+  "enormous": {
+    "word": "enormous",
+    "type": "cet4",
+    "phonetic": "[ɪˈnɔːməs]",
+    "meaning": "巨大的；庞大的",
+    "pos": "adj."
+  },
+  "enquire": {
+    "word": "enquire",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkwaɪə(r)]",
+    "meaning": "询问；打听；调查（亦作inquire）",
+    "pos": "v."
+  },
+  "enquiry": {
+    "word": "enquiry",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkwaɪəri]",
+    "meaning": "询问；调查；探索（亦作inquiry）",
+    "pos": "n."
+  },
+  "enroll": {
+    "word": "enroll",
+    "type": "cet4",
+    "phonetic": "[ɪnˈrəʊl]",
+    "meaning": "注册；登记；加入（亦作 enrol）",
+    "pos": "v."
+  },
+  "ensure": {
+    "word": "ensure",
+    "type": "cet4",
+    "phonetic": "[ɪnˈʃʊə(r)]",
+    "meaning": "保证",
+    "pos": "v."
+  },
+  "enterprise": {
+    "word": "enterprise",
+    "type": "cet4",
+    "phonetic": "[ˈentəpraɪz]",
+    "meaning": "企业；事业心",
+    "pos": "n."
+  },
+  "entertain": {
+    "word": "entertain",
+    "type": "cet4",
+    "phonetic": "[ˌentəˈteɪn]",
+    "meaning": "娱乐；招待",
+    "pos": "v."
+  },
+  "enthusiasm": {
+    "word": "enthusiasm",
+    "type": "cet4",
+    "phonetic": "[ɪnˈθjuːziæzəm]",
+    "meaning": "热情",
+    "pos": "n."
+  },
+  "enthusiastic": {
+    "word": "enthusiastic",
+    "type": "cet4",
+    "phonetic": "[ɪnˌθjuːziˈæstɪk]",
+    "meaning": "热情的",
+    "pos": "adj."
+  },
+  "entitle": {
+    "word": "entitle",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtaɪtl]",
+    "meaning": "给予（某人）权利；给…题名",
+    "pos": "v."
+  },
+  "entrepreneur": {
+    "word": "entrepreneur",
+    "type": "cet4",
+    "phonetic": "[ˌɒntrəprəˈnɜː(r)]",
+    "meaning": "企业家",
+    "pos": "n."
+  },
+  "entry": {
+    "word": "entry",
+    "type": "cet4",
+    "phonetic": "[ˈentri]",
+    "meaning": "入口；进入；登记；条目",
+    "pos": "n."
+  },
+  "envy": {
+    "word": "envy",
+    "type": "cet4",
+    "phonetic": "[ˈenvi]",
+    "meaning": "忌妒；羡慕",
+    "pos": "v./n."
+  },
+  "equal": {
+    "word": "equal",
+    "type": "cet4",
+    "phonetic": "[ˈiːkwəl]",
+    "meaning": "相等的；平等的；能胜任的",
+    "pos": "adj."
+  },
+  "equality": {
+    "word": "equality",
+    "type": "cet4",
+    "phonetic": "[iˈkwɒləti]",
+    "meaning": "相等；等同；平等",
+    "pos": "n."
+  },
+  "equip": {
+    "word": "equip",
+    "type": "cet4",
+    "phonetic": "[ɪˈkwɪp]",
+    "meaning": "装备；配备；使有能力",
+    "pos": "v."
+  },
+  "equipment": {
+    "word": "equipment",
+    "type": "cet4",
+    "phonetic": "[ɪˈkwɪpmənt]",
+    "meaning": "装备；设备；配备",
+    "pos": "n."
+  },
+  "equivalent": {
+    "word": "equivalent",
+    "type": "cet4",
+    "phonetic": "[ɪˈkwɪvələnt]",
+    "meaning": "等价的；相等的；等价物；等量",
+    "pos": "adj./n."
+  },
+  "erect": {
+    "word": "erect",
+    "type": "cet4",
+    "phonetic": "[ɪˈrekt]",
+    "meaning": "建立；竖立；创立；直立的；垂直的",
+    "pos": "v./adj."
+  },
+  "error": {
+    "word": "error",
+    "type": "cet4",
+    "phonetic": "[ˈerə(r)]",
+    "meaning": "错误；差错",
+    "pos": "n."
+  },
+  "escape": {
+    "word": "escape",
+    "type": "cet4",
+    "phonetic": "[ɪˈskeɪp]",
+    "meaning": "逃跑；漏出",
+    "pos": "v./n."
+  },
+  "essence": {
+    "word": "essence",
+    "type": "cet4",
+    "phonetic": "[ˈesns]",
+    "meaning": "本质；实质；精髓",
+    "pos": "n."
+  },
+  "essential": {
+    "word": "essential",
+    "type": "cet4",
+    "phonetic": "[ɪˈsenʃl]",
+    "meaning": "基本的；必要的；极其重要的",
+    "pos": "adj."
+  },
+  "estate": {
+    "word": "estate",
+    "type": "cet4",
+    "phonetic": "[ɪˈsteɪt]",
+    "meaning": "庄园；地产；财产；遗产",
+    "pos": "n."
+  },
+  "estimate": {
+    "word": "estimate",
+    "type": "cet4",
+    "phonetic": "[ˈestɪmeɪt]",
+    "meaning": "估计；估算",
+    "pos": "v."
+  },
+  "ethic": {
+    "word": "ethic",
+    "type": "cet4",
+    "phonetic": "[ˈeθɪk]",
+    "meaning": "道德规范；伦理",
+    "pos": "n."
+  },
+  "evaluate": {
+    "word": "evaluate",
+    "type": "cet4",
+    "phonetic": "[ɪˈvæljueɪt]",
+    "meaning": "评估；估价",
+    "pos": "v."
+  },
+  "evaporate": {
+    "word": "evaporate",
+    "type": "cet4",
+    "phonetic": "[ɪˈvæpəreɪt]",
+    "meaning": "蒸发；挥发；消失",
+    "pos": "v."
+  },
+  "evidence": {
+    "word": "evidence",
+    "type": "cet4",
+    "phonetic": "[ˈevɪdəns]",
+    "meaning": "证据；证明",
+    "pos": "n."
+  },
+  "evident": {
+    "word": "evident",
+    "type": "cet4",
+    "phonetic": "[ˈevɪdənt]",
+    "meaning": "明显的；显然的",
+    "pos": "adj."
+  },
+  "evil": {
+    "word": "evil",
+    "type": "cet4",
+    "phonetic": "[ˈiːvl]",
+    "meaning": "坏的；邪恶的；邪恶；祸害",
+    "pos": "adj./n."
+  },
+  "evolution": {
+    "word": "evolution",
+    "type": "cet4",
+    "phonetic": "[ˌiːvəˈluːʃn]",
+    "meaning": "进化；演化；发展",
+    "pos": "n."
+  },
+  "evolve": {
+    "word": "evolve",
+    "type": "cet4",
+    "phonetic": "[iˈvɒlv]",
+    "meaning": "发展；进化",
+    "pos": "v."
+  },
+  "exaggerate": {
+    "word": "exaggerate",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzædʒəreɪt]",
+    "meaning": "夸大；夸张",
+    "pos": "v."
+  },
+  "exceed": {
+    "word": "exceed",
+    "type": "cet4",
+    "phonetic": "[ɪkˈsiːd]",
+    "meaning": "超出；超过；超越",
+    "pos": "v."
+  },
+  "exceedingly": {
+    "word": "exceedingly",
+    "type": "cet4",
+    "phonetic": "[ɪkˈsiːdɪŋli]",
+    "meaning": "非常；极其",
+    "pos": "adv."
+  },
+  "excess": {
+    "word": "excess",
+    "type": "cet4",
+    "phonetic": "[ɪkˈses]",
+    "meaning": "过量；过度；超额的",
+    "pos": "n./adj."
+  },
+  "excessive": {
+    "word": "excessive",
+    "type": "cet4",
+    "phonetic": "[ɪkˈsesɪv]",
+    "meaning": "过分的；过度的",
+    "pos": "adj."
+  },
+  "exclaim": {
+    "word": "exclaim",
+    "type": "cet4",
+    "phonetic": "[ɪkˈskleɪm]",
+    "meaning": "呼喊；惊叫",
+    "pos": "v."
+  },
+  "exclusively": {
+    "word": "exclusively",
+    "type": "cet4",
+    "phonetic": "[ɪkˈskluːsɪvli]",
+    "meaning": "仅仅；专门地",
+    "pos": "adv."
+  },
+  "execute": {
+    "word": "execute",
+    "type": "cet4",
+    "phonetic": "[ˈeksɪkjuːt]",
+    "meaning": "实施；执行；处死",
+    "pos": "v."
+  },
+  "executive": {
+    "word": "executive",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzekjətɪv]",
+    "meaning": "主管领导；管理人员；行政的",
+    "pos": "n./adj."
+  },
+  "exert": {
+    "word": "exert",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɜːt]",
+    "meaning": "运用；发挥；尽力；施加",
+    "pos": "v."
+  },
+  "exhaust": {
+    "word": "exhaust",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɔːst]",
+    "meaning": "使筋疲力尽；耗尽",
+    "pos": "v."
+  },
+  "exhausted": {
+    "word": "exhausted",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɔːstɪd]",
+    "meaning": "筋疲力尽的；耗尽的",
+    "pos": "adj."
+  },
+  "exhibit": {
+    "word": "exhibit",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɪbɪt]",
+    "meaning": "展览；展出；表现；显出",
+    "pos": "v."
+  },
+  "exhibition": {
+    "word": "exhibition",
+    "type": "cet4",
+    "phonetic": "[ˌeksɪˈbɪʃn]",
+    "meaning": "展览；表现；展览会",
+    "pos": "n."
+  },
+  "exist": {
+    "word": "exist",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɪst]",
+    "meaning": "存在；生存",
+    "pos": "v."
+  },
+  "existence": {
+    "word": "existence",
+    "type": "cet4",
+    "phonetic": "[ɪɡˈzɪstəns]",
+    "meaning": "存在；生活（方式）",
+    "pos": "n."
+  },
+  "expel": {
+    "word": "expel",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspel]",
+    "meaning": "开除；驱逐出境",
+    "pos": "v."
+  },
+  "experienced": {
+    "word": "experienced",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspɪəriənst]",
+    "meaning": "有经验的；熟练的",
+    "pos": "adj."
+  },
+  "experimental": {
+    "word": "experimental",
+    "type": "cet4",
+    "phonetic": "[ɪkˌsperɪˈmentl]",
+    "meaning": "实验性的；试验性的",
+    "pos": "adj."
+  },
+  "expert": {
+    "word": "expert",
+    "type": "cet4",
+    "phonetic": "[ˈekspɜːt]",
+    "meaning": "专家；行家；专业的",
+    "pos": "n./adj."
+  },
+  "expertise": {
+    "word": "expertise",
+    "type": "cet4",
+    "phonetic": "[ˌekspɜːˈtiːz]",
+    "meaning": "专长；专门技能",
+    "pos": "n."
+  },
+  "explicit": {
+    "word": "explicit",
+    "type": "cet4",
+    "phonetic": "[ɪkˈsplɪsɪt]",
+    "meaning": "明确的；详述的",
+    "pos": "adj."
+  },
+  "explode": {
+    "word": "explode",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspləʊd]",
+    "meaning": "（使）爆炸；爆发",
+    "pos": "v."
+  },
+  "exploit": {
+    "word": "exploit",
+    "type": "cet4",
+    "phonetic": "[ɪkˈsplɔɪt]",
+    "meaning": "利用；开采；剥削",
+    "pos": "v."
+  },
+  "explosion": {
+    "word": "explosion",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspləʊʒn]",
+    "meaning": "爆炸；激增",
+    "pos": "n."
+  },
+  "explosive": {
+    "word": "explosive",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspləʊsɪv]",
+    "meaning": "易爆炸的；猛增的；暴躁的；炸药",
+    "pos": "adj./n."
+  },
+  "expose": {
+    "word": "expose",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspəʊz]",
+    "meaning": "暴露；揭露",
+    "pos": "v."
+  },
+  "exposure": {
+    "word": "exposure",
+    "type": "cet4",
+    "phonetic": "[ɪkˈspəʊʒə(r)]",
+    "meaning": "面临；暴露；揭发",
+    "pos": "n."
+  },
+  "extend": {
+    "word": "extend",
+    "type": "cet4",
+    "phonetic": "[ɪkˈstend]",
+    "meaning": "延伸；扩展",
+    "pos": "v."
+  },
+  "extension": {
+    "word": "extension",
+    "type": "cet4",
+    "phonetic": "[ɪkˈstenʃn]",
+    "meaning": "延伸；延长",
+    "pos": "n."
+  },
+  "extensive": {
+    "word": "extensive",
+    "type": "cet4",
+    "phonetic": "[ɪkˈstensɪv]",
+    "meaning": "广阔的；广泛的",
+    "pos": "adj."
+  },
+  "extinguish": {
+    "word": "extinguish",
+    "type": "cet4",
+    "phonetic": "[ɪkˈstɪŋɡwɪʃ]",
+    "meaning": "熄灭；消灭；使破灭",
+    "pos": "v."
+  },
+  "extraordinary": {
+    "word": "extraordinary",
+    "type": "cet4",
+    "phonetic": "[ɪkˈstrɔːdnri]",
+    "meaning": "非同寻常的",
+    "pos": "adj."
+  },
+  "facilitate": {
+    "word": "facilitate",
+    "type": "cet4",
+    "phonetic": "[fəˈsɪlɪteɪt]",
+    "meaning": "促进；促使",
+    "pos": "v."
+  },
+  "facility": {
+    "word": "facility",
+    "type": "cet4",
+    "phonetic": "[fəˈsɪləti]",
+    "meaning": "设备；设施",
+    "pos": "n."
+  },
+  "faculty": {
+    "word": "faculty",
+    "type": "cet4",
+    "phonetic": "[ˈfæklti]",
+    "meaning": "天赋；能力；系；院；全体教职人员",
+    "pos": "n."
+  },
+  "fade": {
+    "word": "fade",
+    "type": "cet4",
+    "phonetic": "[feɪd]",
+    "meaning": "（使）褪色；淡出；逐渐消失",
+    "pos": "v."
+  },
+  "faithful": {
+    "word": "faithful",
+    "type": "cet4",
+    "phonetic": "[ˈfeɪθfl]",
+    "meaning": "忠诚的；如实的",
+    "pos": "adj."
+  },
+  "famine": {
+    "word": "famine",
+    "type": "cet4",
+    "phonetic": "[ˈfæmɪn]",
+    "meaning": "饥荒",
+    "pos": "n."
+  },
+  "fancy": {
+    "word": "fancy",
+    "type": "cet4",
+    "phonetic": "[ˈfænsi]",
+    "meaning": "幻想；想象力；喜欢；爱好；想要；认为",
+    "pos": "n./v."
+  },
+  "farewell": {
+    "word": "farewell",
+    "type": "cet4",
+    "phonetic": "[ˌfeəˈwel]",
+    "meaning": "告别；欢送",
+    "pos": "n."
+  },
+  "fasten": {
+    "word": "fasten",
+    "type": "cet4",
+    "phonetic": "[ˈfɑːsn]",
+    "meaning": "系牢；扎牢",
+    "pos": "v."
+  },
+  "fatal": {
+    "word": "fatal",
+    "type": "cet4",
+    "phonetic": "[ˈfeɪtl]",
+    "meaning": "致命的；灾难性的",
+    "pos": "adj."
+  },
+  "fate": {
+    "word": "fate",
+    "type": "cet4",
+    "phonetic": "[feɪt]",
+    "meaning": "命运",
+    "pos": "n."
+  },
+  "fatigue": {
+    "word": "fatigue",
+    "type": "cet4",
+    "phonetic": "[fəˈtiːɡ]",
+    "meaning": "疲劳；劳累",
+    "pos": "n."
+  },
+  "fault": {
+    "word": "fault",
+    "type": "cet4",
+    "phonetic": "[fɔːlt]",
+    "meaning": "缺点；过失；故障",
+    "pos": "n."
+  },
+  "faulty": {
+    "word": "faulty",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːlti]",
+    "meaning": "有错误的；有缺陷的",
+    "pos": "adj."
+  },
+  "favor": {
+    "word": "favor",
+    "type": "cet4",
+    "phonetic": "[ˈfeɪvə]",
+    "meaning": "赞同；喜爱；有利于",
+    "pos": "n./v."
+  },
+  "feasible": {
+    "word": "feasible",
+    "type": "cet4",
+    "phonetic": "[ˈfiːzəbl]",
+    "meaning": "可行的",
+    "pos": "adj."
+  },
+  "feature": {
+    "word": "feature",
+    "type": "cet4",
+    "phonetic": "[ˈfiːtʃə(r)]",
+    "meaning": "特征；特色",
+    "pos": "n."
+  },
+  "federal": {
+    "word": "federal",
+    "type": "cet4",
+    "phonetic": "[ˈfedərəl]",
+    "meaning": "联邦的；联盟的",
+    "pos": "adj."
+  },
+  "feedback": {
+    "word": "feedback",
+    "type": "cet4",
+    "phonetic": "[ˈfiːdbæk]",
+    "meaning": "反馈",
+    "pos": "n."
+  },
+  "fellow": {
+    "word": "fellow",
+    "type": "cet4",
+    "phonetic": "[ˈfeləʊ]",
+    "meaning": "男人；家伙；伙伴；同事",
+    "pos": "n."
+  },
+  "fertile": {
+    "word": "fertile",
+    "type": "cet4",
+    "phonetic": "[ˈfɜːtaɪl]",
+    "meaning": "肥沃的；富饶的；可繁殖的",
+    "pos": "adj."
+  },
+  "fertilizer": {
+    "word": "fertilizer",
+    "type": "cet4",
+    "phonetic": "[ˈfɜːtəlaɪzə(r)]",
+    "meaning": "肥料",
+    "pos": "n."
+  },
+  "fierce": {
+    "word": "fierce",
+    "type": "cet4",
+    "phonetic": "[fɪəs]",
+    "meaning": "凶猛的；猛烈的；激烈的；强烈的",
+    "pos": "adj."
+  },
+  "filter": {
+    "word": "filter",
+    "type": "cet4",
+    "phonetic": "[ˈfɪltə(r)]",
+    "meaning": "过滤；过滤器",
+    "pos": "v./n."
+  },
+  "finite": {
+    "word": "finite",
+    "type": "cet4",
+    "phonetic": "[ˈfaɪnaɪt]",
+    "meaning": "有限的",
+    "pos": "adj."
+  },
+  "flesh": {
+    "word": "flesh",
+    "type": "cet4",
+    "phonetic": "[fleʃ]",
+    "meaning": "肉；皮肤；果肉",
+    "pos": "n."
+  },
+  "flexible": {
+    "word": "flexible",
+    "type": "cet4",
+    "phonetic": "[ˈfleksəbl]",
+    "meaning": "灵活的",
+    "pos": "adj."
+  },
+  "float": {
+    "word": "float",
+    "type": "cet4",
+    "phonetic": "[fləʊt]",
+    "meaning": "浮动；漂浮",
+    "pos": "v."
+  },
+  "fluctuate": {
+    "word": "fluctuate",
+    "type": "cet4",
+    "phonetic": "[ˈflʌktʃueɪt]",
+    "meaning": "波动；起伏",
+    "pos": "v."
+  },
+  "fluent": {
+    "word": "fluent",
+    "type": "cet4",
+    "phonetic": "[ˈfluːənt]",
+    "meaning": "流利的；流畅的",
+    "pos": "adj."
+  },
+  "fluid": {
+    "word": "fluid",
+    "type": "cet4",
+    "phonetic": "[ˈfluːɪd]",
+    "meaning": "液体；流动的",
+    "pos": "n./adj."
+  },
+  "forbid": {
+    "word": "forbid",
+    "type": "cet4",
+    "phonetic": "[fəˈbɪd]",
+    "meaning": "禁止；不许；阻止",
+    "pos": "v."
+  },
+  "forecast": {
+    "word": "forecast",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːkɑːst]",
+    "meaning": "预测；预报",
+    "pos": "n./v."
+  },
+  "foremost": {
+    "word": "foremost",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːməʊst]",
+    "meaning": "最重要的；最前的",
+    "pos": "adj."
+  },
+  "forge": {
+    "word": "forge",
+    "type": "cet4",
+    "phonetic": "[fɔːdʒ]",
+    "meaning": "伪造；锻造；稳步前进",
+    "pos": "v."
+  },
+  "format": {
+    "word": "format",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːmæt]",
+    "meaning": "形式；版式；格式",
+    "pos": "n."
+  },
+  "former": {
+    "word": "former",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːmə(r)]",
+    "meaning": "以前的；前者的",
+    "pos": "adj./n."
+  },
+  "formula": {
+    "word": "formula",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːmjələ]",
+    "meaning": "公式；方程式；配方",
+    "pos": "n."
+  },
+  "formulate": {
+    "word": "formulate",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːmjuleɪt]",
+    "meaning": "规划；制定；确切表达",
+    "pos": "v."
+  },
+  "forthcoming": {
+    "word": "forthcoming",
+    "type": "cet4",
+    "phonetic": "[ˌfɔːθˈkʌmɪŋ]",
+    "meaning": "即将发生的",
+    "pos": "adj."
+  },
+  "forum": {
+    "word": "forum",
+    "type": "cet4",
+    "phonetic": "[ˈfɔːrəm]",
+    "meaning": "论坛；讨论会",
+    "pos": "n."
+  },
+  "foster": {
+    "word": "foster",
+    "type": "cet4",
+    "phonetic": "[ˈfɒstə(r)]",
+    "meaning": "促进；培养；领养；寄养的",
+    "pos": "v./adj."
+  },
+  "foundation": {
+    "word": "foundation",
+    "type": "cet4",
+    "phonetic": "[faʊnˈdeɪʃn]",
+    "meaning": "基础；地基；基金会",
+    "pos": "n."
+  },
+  "fraction": {
+    "word": "fraction",
+    "type": "cet4",
+    "phonetic": "[ˈfrækʃn]",
+    "meaning": "小部分；分数",
+    "pos": "n."
+  },
+  "fragment": {
+    "word": "fragment",
+    "type": "cet4",
+    "phonetic": "[ˈfræɡmənt]",
+    "meaning": "碎片；片段",
+    "pos": "n."
+  },
+  "framework": {
+    "word": "framework",
+    "type": "cet4",
+    "phonetic": "[ˈfreɪmwɜːk]",
+    "meaning": "框架；结构；体制",
+    "pos": "n."
+  },
+  "freight": {
+    "word": "freight",
+    "type": "cet4",
+    "phonetic": "[freɪt]",
+    "meaning": "货运；货物；货运",
+    "pos": "n./v."
+  },
+  "frontier": {
+    "word": "frontier",
+    "type": "cet4",
+    "phonetic": "[ˈfrʌntɪə(r)]",
+    "meaning": "边境；边疆；边界",
+    "pos": "n."
+  },
+  "fruitful": {
+    "word": "fruitful",
+    "type": "cet4",
+    "phonetic": "[ˈfruːtfl]",
+    "meaning": "成果丰硕的",
+    "pos": "adj."
+  },
+  "frustration": {
+    "word": "frustration",
+    "type": "cet4",
+    "phonetic": "[frʌˈstreɪʃn]",
+    "meaning": "挫败；沮丧",
+    "pos": "n."
+  },
+  "fulfill": {
+    "word": "fulfill",
+    "type": "cet4",
+    "phonetic": "[fʊlˈfɪl]",
+    "meaning": "履行；满足；完成；实现",
+    "pos": "v."
+  },
+  "fund": {
+    "word": "fund",
+    "type": "cet4",
+    "phonetic": "[fʌnd]",
+    "meaning": "基金；资金",
+    "pos": "n."
+  },
+  "fundamental": {
+    "word": "fundamental",
+    "type": "cet4",
+    "phonetic": "[ˌfʌndəˈmentl]",
+    "meaning": "基础的；基本的；根本的",
+    "pos": "adj."
+  },
+  "furnish": {
+    "word": "furnish",
+    "type": "cet4",
+    "phonetic": "[ˈfɜːnɪʃ]",
+    "meaning": "布置家具；提供",
+    "pos": "v."
+  },
+  "furniture": {
+    "word": "furniture",
+    "type": "cet4",
+    "phonetic": "[ˈfɜːnɪtʃə(r)]",
+    "meaning": "家具",
+    "pos": "n."
+  },
+  "fuss": {
+    "word": "fuss",
+    "type": "cet4",
+    "phonetic": "[fʌs]",
+    "meaning": "大惊小怪；大发牢骚；过分关心；瞎忙活",
+    "pos": "n./v."
+  },
+  "gang": {
+    "word": "gang",
+    "type": "cet4",
+    "phonetic": "[ɡæŋ]",
+    "meaning": "帮；一伙；一群",
+    "pos": "n."
+  },
+  "gather": {
+    "word": "gather",
+    "type": "cet4",
+    "phonetic": "[ˈɡæðə(r)]",
+    "meaning": "聚集；集合；收集",
+    "pos": "v."
+  },
+  "gene": {
+    "word": "gene",
+    "type": "cet4",
+    "phonetic": "[dʒiːn]",
+    "meaning": "基因",
+    "pos": "n."
+  },
+  "generation": {
+    "word": "generation",
+    "type": "cet4",
+    "phonetic": "[ˌdʒenəˈreɪʃn]",
+    "meaning": "一代；一代人；产生",
+    "pos": "n."
+  },
+  "generator": {
+    "word": "generator",
+    "type": "cet4",
+    "phonetic": "[ˈdʒenəreɪtə(r)]",
+    "meaning": "发电机；发生器；电力公司",
+    "pos": "n."
+  },
+  "genius": {
+    "word": "genius",
+    "type": "cet4",
+    "phonetic": "[ˈdʒiːniəs]",
+    "meaning": "天才；天赋；天资",
+    "pos": "n."
+  },
+  "genuine": {
+    "word": "genuine",
+    "type": "cet4",
+    "phonetic": "[ˈdʒenjuɪn]",
+    "meaning": "真的；真诚的",
+    "pos": "adj."
+  },
+  "geology": {
+    "word": "geology",
+    "type": "cet4",
+    "phonetic": "[dʒiˈɒlədʒi]",
+    "meaning": "地质学；地质",
+    "pos": "n."
+  },
+  "germ": {
+    "word": "germ",
+    "type": "cet4",
+    "phonetic": "[dʒɜːm]",
+    "meaning": "细菌；微生物；萌芽；胚胎",
+    "pos": "n."
+  },
+  "glance": {
+    "word": "glance",
+    "type": "cet4",
+    "phonetic": "[ɡlɑːns]",
+    "meaning": "一瞥；瞥一眼；浏览",
+    "pos": "n./v."
+  },
+  "glimpse": {
+    "word": "glimpse",
+    "type": "cet4",
+    "phonetic": "[ɡlɪmps]",
+    "meaning": "瞥见；一瞥",
+    "pos": "v./n."
+  },
+  "glory": {
+    "word": "glory",
+    "type": "cet4",
+    "phonetic": "[ˈglɔːri]",
+    "meaning": "荣誉；光荣",
+    "pos": "n."
+  },
+  "goodness": {
+    "word": "goodness",
+    "type": "cet4",
+    "phonetic": "[ˈɡʊdnəs]",
+    "meaning": "天哪；善良；美德；精华",
+    "pos": "int./n."
+  },
+  "gossip": {
+    "word": "gossip",
+    "type": "cet4",
+    "phonetic": "[ˈɡɒsɪp]",
+    "meaning": "流言蜚语；闲聊；说三道四",
+    "pos": "n./v."
+  },
+  "governor": {
+    "word": "governor",
+    "type": "cet4",
+    "phonetic": "[ˈɡʌvənə(r)]",
+    "meaning": "主管；董事；总裁",
+    "pos": "n."
+  },
+  "graceful": {
+    "word": "graceful",
+    "type": "cet4",
+    "phonetic": "[ˈgreɪsfl]",
+    "meaning": "优美的；优雅的；得体的",
+    "pos": "adj."
+  },
+  "gradual": {
+    "word": "gradual",
+    "type": "cet4",
+    "phonetic": "[ˈɡrædʒuəl]",
+    "meaning": "逐渐的；逐步的",
+    "pos": "adj."
+  },
+  "grand": {
+    "word": "grand",
+    "type": "cet4",
+    "phonetic": "[ɡrænd]",
+    "meaning": "宏伟的；壮丽的；总结的",
+    "pos": "adj."
+  },
+  "grant": {
+    "word": "grant",
+    "type": "cet4",
+    "phonetic": "[ɡrɑːnt]",
+    "meaning": "授予；允许；承认；拨款；补助金",
+    "pos": "v./n."
+  },
+  "grasp": {
+    "word": "grasp",
+    "type": "cet4",
+    "phonetic": "[ɡrɑːsp]",
+    "meaning": "抓紧；抓住；理解；掌握；理解（力）",
+    "pos": "v./n."
+  },
+  "gratitude": {
+    "word": "gratitude",
+    "type": "cet4",
+    "phonetic": "[ˈgrætɪtjuːd]",
+    "meaning": "感谢；感激",
+    "pos": "n."
+  },
+  "grave": {
+    "word": "grave",
+    "type": "cet4",
+    "phonetic": "[ɡreɪv]",
+    "meaning": "坟墓；严重的；严肃的",
+    "pos": "n./adj."
+  },
+  "gravity": {
+    "word": "gravity",
+    "type": "cet4",
+    "phonetic": "[ˈɡrævəti]",
+    "meaning": "重力；地心引力；严重性",
+    "pos": "n."
+  },
+  "greedy": {
+    "word": "greedy",
+    "type": "cet4",
+    "phonetic": "[ˈɡriːdi]",
+    "meaning": "贪婪的；贪吃的",
+    "pos": "adj."
+  },
+  "greet": {
+    "word": "greet",
+    "type": "cet4",
+    "phonetic": "[ɡriːt]",
+    "meaning": "问候；招呼；迎接；对…作出反应",
+    "pos": "v."
+  },
+  "greeting": {
+    "word": "greeting",
+    "type": "cet4",
+    "phonetic": "[ˈɡriːtɪŋ]",
+    "meaning": "问候；招呼；致敬；迎接",
+    "pos": "n."
+  },
+  "grief": {
+    "word": "grief",
+    "type": "cet4",
+    "phonetic": "[ɡriːf]",
+    "meaning": "悲伤；悲痛心事；忧虑",
+    "pos": "n."
+  },
+  "grin": {
+    "word": "grin",
+    "type": "cet4",
+    "phonetic": "[ɡrɪn]",
+    "meaning": "咧着嘴笑",
+    "pos": "v./n."
+  },
+  "gross": {
+    "word": "gross",
+    "type": "cet4",
+    "phonetic": "[ɡrəʊs]",
+    "meaning": "总的；粗鲁的；严重的；令人恶心的",
+    "pos": "adj."
+  },
+  "guarantee": {
+    "word": "guarantee",
+    "type": "cet4",
+    "phonetic": "[ˌɡærənˈtiː]",
+    "meaning": "保证；担保",
+    "pos": "n./v."
+  },
+  "guidance": {
+    "word": "guidance",
+    "type": "cet4",
+    "phonetic": "[ˈgaɪdns]",
+    "meaning": "指导；指引",
+    "pos": "n."
+  },
+  "guideline": {
+    "word": "guideline",
+    "type": "cet4",
+    "phonetic": "[ˈɡaɪdlaɪn]",
+    "meaning": "指导方针；指南；准则",
+    "pos": "n."
+  },
+  "guilty": {
+    "word": "guilty",
+    "type": "cet4",
+    "phonetic": "[ˈɡɪlti]",
+    "meaning": "羞愧的；内疚的",
+    "pos": "adj."
+  },
+  "gulf": {
+    "word": "gulf",
+    "type": "cet4",
+    "phonetic": "[ɡʌlf]",
+    "meaning": "鸿沟；分歧；隔阂",
+    "pos": "n."
+  },
+  "habitat": {
+    "word": "habitat",
+    "type": "cet4",
+    "phonetic": "[ˈhæbɪtæt]",
+    "meaning": "栖息地",
+    "pos": "n."
+  },
+  "hack": {
+    "word": "hack",
+    "type": "cet4",
+    "phonetic": "[hæk]",
+    "meaning": "砍；劈；非法侵入；砍；雇佣文人",
+    "pos": "v./n."
+  },
+  "handkerchief": {
+    "word": "handkerchief",
+    "type": "cet4",
+    "phonetic": "[ˈhæŋkətʃɪf]",
+    "meaning": "手帕；纸巾",
+    "pos": "n."
+  },
+  "hardship": {
+    "word": "hardship",
+    "type": "cet4",
+    "phonetic": "[ˈhɑːdʃɪp]",
+    "meaning": "艰难；困苦",
+    "pos": "n."
+  },
+  "harmonious": {
+    "word": "harmonious",
+    "type": "cet4",
+    "phonetic": "[hɑːˈməʊniəs]",
+    "meaning": "和谐的；协调的",
+    "pos": "adj."
+  },
+  "harmony": {
+    "word": "harmony",
+    "type": "cet4",
+    "phonetic": "[ˈhɑːməni]",
+    "meaning": "融洽；和谐",
+    "pos": "n."
+  },
+  "harness": {
+    "word": "harness",
+    "type": "cet4",
+    "phonetic": "[ˈhɑːnɪs]",
+    "meaning": "利用；控制；给…上挽具",
+    "pos": "v."
+  },
+  "harsh": {
+    "word": "harsh",
+    "type": "cet4",
+    "phonetic": "[hɑːʃ]",
+    "meaning": "严厉的；恶劣的；粗糙的",
+    "pos": "adj."
+  },
+  "haste": {
+    "word": "haste",
+    "type": "cet4",
+    "phonetic": "[heɪst]",
+    "meaning": "急速；急忙；草率",
+    "pos": "n."
+  },
+  "hatred": {
+    "word": "hatred",
+    "type": "cet4",
+    "phonetic": "[ˈheɪtrɪd]",
+    "meaning": "仇恨；憎恨；敌意",
+    "pos": "n."
+  },
+  "haunt": {
+    "word": "haunt",
+    "type": "cet4",
+    "phonetic": "[hɔːnt]",
+    "meaning": "出没；难以忘却；常去的场所",
+    "pos": "v./n."
+  },
+  "hazard": {
+    "word": "hazard",
+    "type": "cet4",
+    "phonetic": "[ˈhæzəd]",
+    "meaning": "危险；危害",
+    "pos": "n."
+  },
+  "hazardous": {
+    "word": "hazardous",
+    "type": "cet4",
+    "phonetic": "[ˈhæzədəs]",
+    "meaning": "危险的；有害的",
+    "pos": "adj."
+  },
+  "headache": {
+    "word": "headache",
+    "type": "cet4",
+    "phonetic": "[ˈhedeɪk]",
+    "meaning": "头痛；令人头痛的事",
+    "pos": "n."
+  },
+  "headline": {
+    "word": "headline",
+    "type": "cet4",
+    "phonetic": "[ˈhedlaɪn]",
+    "meaning": "标题；新闻提要；给…加标题",
+    "pos": "n./v."
+  },
+  "headquarters": {
+    "word": "headquarters",
+    "type": "cet4",
+    "phonetic": "[ˈhedˈkwɔːtəz]",
+    "meaning": "司令部；总部",
+    "pos": "n."
+  },
+  "hereby": {
+    "word": "hereby",
+    "type": "cet4",
+    "phonetic": "[ˌhɪəˈbaɪ]",
+    "meaning": "特此；以此",
+    "pos": "adv."
+  },
+  "highlight": {
+    "word": "highlight",
+    "type": "cet4",
+    "phonetic": "[ˈhaɪlaɪt]",
+    "meaning": "强调；彰显；亮点；最精彩的部分",
+    "pos": "v./n."
+  },
+  "hinder": {
+    "word": "hinder",
+    "type": "cet4",
+    "phonetic": "[ˈhɪndə(r)]",
+    "meaning": "妨碍；阻碍",
+    "pos": "v."
+  },
+  "honour": {
+    "word": "honour",
+    "type": "cet4",
+    "phonetic": "[ˈɒnə(r)]",
+    "meaning": "荣幸；尊敬；敬意；尊敬（亦作honor）",
+    "pos": "n./v."
+  },
+  "horizon": {
+    "word": "horizon",
+    "type": "cet4",
+    "phonetic": "[həˈraɪzn]",
+    "meaning": "地平线；眼界；视野",
+    "pos": "n."
+  },
+  "horizontal": {
+    "word": "horizontal",
+    "type": "cet4",
+    "phonetic": "[ˌhɒrɪˈzɒntl]",
+    "meaning": "水平的",
+    "pos": "adj."
+  },
+  "hospitable": {
+    "word": "hospitable",
+    "type": "cet4",
+    "phonetic": "[hɒˈspɪtəbl]",
+    "meaning": "好客的；适宜的",
+    "pos": "adj."
+  },
+  "hostile": {
+    "word": "hostile",
+    "type": "cet4",
+    "phonetic": "[ˈhɒstaɪl]",
+    "meaning": "敌对的；怀敌意的；敌方的",
+    "pos": "adj."
+  },
+  "humble": {
+    "word": "humble",
+    "type": "cet4",
+    "phonetic": "[ˈhʌmbl]",
+    "meaning": "谦逊的",
+    "pos": "adj."
+  },
+  "ideal": {
+    "word": "ideal",
+    "type": "cet4",
+    "phonetic": "[aɪˈdiːəl]",
+    "meaning": "理想的；想象的；理想；典范",
+    "pos": "adj./n."
+  },
+  "idealistic": {
+    "word": "idealistic",
+    "type": "cet4",
+    "phonetic": "[ˌaɪdiəˈlɪstɪk]",
+    "meaning": "理想主义的；空想的",
+    "pos": "adj."
+  },
+  "identical": {
+    "word": "identical",
+    "type": "cet4",
+    "phonetic": "[aɪˈdentɪkl]",
+    "meaning": "相同的",
+    "pos": "adj."
+  },
+  "identify": {
+    "word": "identify",
+    "type": "cet4",
+    "phonetic": "[aɪˈdentɪfaɪ]",
+    "meaning": "确认；认出；鉴定",
+    "pos": "v."
+  },
+  "illustrate": {
+    "word": "illustrate",
+    "type": "cet4",
+    "phonetic": "[ˈɪləstreɪt]",
+    "meaning": "阐明；说明",
+    "pos": "v."
+  },
+  "imitate": {
+    "word": "imitate",
+    "type": "cet4",
+    "phonetic": "[ˈɪmɪteɪt]",
+    "meaning": "模仿；仿效",
+    "pos": "v."
+  },
+  "immediate": {
+    "word": "immediate",
+    "type": "cet4",
+    "phonetic": "[ɪˈmiːdiət]",
+    "meaning": "立即的；目前的",
+    "pos": "adj."
+  },
+  "immense": {
+    "word": "immense",
+    "type": "cet4",
+    "phonetic": "[ɪˈmens]",
+    "meaning": "巨大的",
+    "pos": "adj."
+  },
+  "imperial": {
+    "word": "imperial",
+    "type": "cet4",
+    "phonetic": "[ɪmˈpɪriəl]",
+    "meaning": "帝国的；（度量衡）英制的",
+    "pos": "adj."
+  },
+  "implement": {
+    "word": "implement",
+    "type": "cet4",
+    "phonetic": "[ˈɪmplɪmənt]",
+    "meaning": "执行；贯彻；工具",
+    "pos": "v./n."
+  },
+  "implication": {
+    "word": "implication",
+    "type": "cet4",
+    "phonetic": "[ˌɪmplɪˈkeɪʃn]",
+    "meaning": "可能的影响；暗指；牵涉",
+    "pos": "n."
+  },
+  "implicit": {
+    "word": "implicit",
+    "type": "cet4",
+    "phonetic": "[ɪmˈplɪsɪt]",
+    "meaning": "含蓄的；内含的",
+    "pos": "adj."
+  },
+  "imply": {
+    "word": "imply",
+    "type": "cet4",
+    "phonetic": "[ɪmˈplaɪ]",
+    "meaning": "暗示；说明",
+    "pos": "v."
+  },
+  "impose": {
+    "word": "impose",
+    "type": "cet4",
+    "phonetic": "[ɪmˈpəʊz]",
+    "meaning": "把…强加于；强制实行",
+    "pos": "v."
+  },
+  "imposing": {
+    "word": "imposing",
+    "type": "cet4",
+    "phonetic": "[ɪmˈpəʊzɪŋ]",
+    "meaning": "令人印象深刻的；壮观的",
+    "pos": "adj."
+  },
+  "impulse": {
+    "word": "impulse",
+    "type": "cet4",
+    "phonetic": "[ˈɪmpʌls]",
+    "meaning": "冲动；推动力；推动；一时兴起的",
+    "pos": "n./v./adj."
+  },
+  "incentive": {
+    "word": "incentive",
+    "type": "cet4",
+    "phonetic": "[ɪnˈsentɪv]",
+    "meaning": "激励；动机；刺激",
+    "pos": "n."
+  },
+  "incidence": {
+    "word": "incidence",
+    "type": "cet4",
+    "phonetic": "[ˈɪnsɪdəns]",
+    "meaning": "发生率；发生范围",
+    "pos": "n."
+  },
+  "incline": {
+    "word": "incline",
+    "type": "cet4",
+    "phonetic": "[ɪnˈklaɪn]",
+    "meaning": "倾向于；斜坡",
+    "pos": "v./n."
+  },
+  "inclusive": {
+    "word": "inclusive",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkluːsɪv]",
+    "meaning": "包括的；包容广阔的",
+    "pos": "adj."
+  },
+  "increase": {
+    "word": "increase",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkriːs]",
+    "meaning": "增加；（使）增加；（使）增长",
+    "pos": "v."
+  },
+  "increasingly": {
+    "word": "increasingly",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkriːsɪŋli]",
+    "meaning": "日益增长地；越来越多地",
+    "pos": "adv."
+  },
+  "incredible": {
+    "word": "incredible",
+    "type": "cet4",
+    "phonetic": "[ɪnˈkredəbl]",
+    "meaning": "难以置信的；极好的",
+    "pos": "adj."
+  },
+  "index": {
+    "word": "index",
+    "type": "cet4",
+    "phonetic": "[ˈɪndeks]",
+    "meaning": "索引；指标",
+    "pos": "n."
+  },
+  "indicate": {
+    "word": "indicate",
+    "type": "cet4",
+    "phonetic": "[ˈɪndɪkeɪt]",
+    "meaning": "表明；暗示",
+    "pos": "v."
+  },
+  "indication": {
+    "word": "indication",
+    "type": "cet4",
+    "phonetic": "[ˌɪndɪˈkeɪʃn]",
+    "meaning": "迹象；表示；表明",
+    "pos": "n."
+  },
+  "indifferent": {
+    "word": "indifferent",
+    "type": "cet4",
+    "phonetic": "[ɪnˈdɪfrənt]",
+    "meaning": "漠不关心的",
+    "pos": "adj."
+  },
+  "indirect": {
+    "word": "indirect",
+    "type": "cet4",
+    "phonetic": "[ˌɪndəˈrekt]",
+    "meaning": "间接的；迂回的",
+    "pos": "adj."
+  },
+  "indispensable": {
+    "word": "indispensable",
+    "type": "cet4",
+    "phonetic": "[ˌɪndɪˈspensəbl]",
+    "meaning": "不可缺少的",
+    "pos": "adj."
+  },
+  "industrialize": {
+    "word": "industrialize",
+    "type": "cet4",
+    "phonetic": "[ɪnˈdʌstriəlaɪz]",
+    "meaning": "（使）工业化",
+    "pos": "v."
+  },
+  "inevitable": {
+    "word": "inevitable",
+    "type": "cet4",
+    "phonetic": "[ɪnˈevɪtəbl]",
+    "meaning": "不可避免的；必然发生的",
+    "pos": "adj."
+  },
+  "infect": {
+    "word": "infect",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfekt]",
+    "meaning": "传染；感染",
+    "pos": "v."
+  },
+  "infectious": {
+    "word": "infectious",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfekʃəs]",
+    "meaning": "传染的；有感染力的",
+    "pos": "adj."
+  },
+  "infer": {
+    "word": "infer",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfɜː(r)]",
+    "meaning": "推断；推论",
+    "pos": "v."
+  },
+  "inferior": {
+    "word": "inferior",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfɪəriə(r)]",
+    "meaning": "较差的；低等的",
+    "pos": "adj."
+  },
+  "infinite": {
+    "word": "infinite",
+    "type": "cet4",
+    "phonetic": "[ˈɪnfɪnət]",
+    "meaning": "无限的；极大的",
+    "pos": "adj."
+  },
+  "inflate": {
+    "word": "inflate",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfleɪt]",
+    "meaning": "（使）充气；（使）膨胀",
+    "pos": "v."
+  },
+  "inflation": {
+    "word": "inflation",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfleɪʃn]",
+    "meaning": "通货膨胀",
+    "pos": "n."
+  },
+  "inform": {
+    "word": "inform",
+    "type": "cet4",
+    "phonetic": "[ɪnˈfɔːm]",
+    "meaning": "通知；了解",
+    "pos": "v."
+  },
+  "ingredient": {
+    "word": "ingredient",
+    "type": "cet4",
+    "phonetic": "[ɪnˈɡriːdiənt]",
+    "meaning": "部分；原料",
+    "pos": "n."
+  },
+  "inhabit": {
+    "word": "inhabit",
+    "type": "cet4",
+    "phonetic": "[ɪnˈhæbɪt]",
+    "meaning": "居住于；栖息在",
+    "pos": "v."
+  },
+  "inhabitant": {
+    "word": "inhabitant",
+    "type": "cet4",
+    "phonetic": "[ɪnˈhæbɪtənt]",
+    "meaning": "居民；栖息动物",
+    "pos": "n."
+  },
+  "inherit": {
+    "word": "inherit",
+    "type": "cet4",
+    "phonetic": "[ɪnˈherɪt]",
+    "meaning": "继承（遗产）；遗传",
+    "pos": "v."
+  },
+  "initial": {
+    "word": "initial",
+    "type": "cet4",
+    "phonetic": "[ɪˈnɪʃl]",
+    "meaning": "最初的；开始的",
+    "pos": "adj."
+  },
+  "initiate": {
+    "word": "initiate",
+    "type": "cet4",
+    "phonetic": "[ɪˈnɪʃieɪt]",
+    "meaning": "开始；发起",
+    "pos": "v."
+  },
+  "initiative": {
+    "word": "initiative",
+    "type": "cet4",
+    "phonetic": "[ɪˈnɪʃətɪv]",
+    "meaning": "倡议；自发性；主动性",
+    "pos": "n."
+  },
+  "injection": {
+    "word": "injection",
+    "type": "cet4",
+    "phonetic": "[ɪnˈdʒekʃn]",
+    "meaning": "注射；注入",
+    "pos": "n."
+  },
+  "injure": {
+    "word": "injure",
+    "type": "cet4",
+    "phonetic": "[ˈɪndʒə(r)]",
+    "meaning": "伤害；损害；损伤",
+    "pos": "v."
+  },
+  "injury": {
+    "word": "injury",
+    "type": "cet4",
+    "phonetic": "[ˈɪndʒəri]",
+    "meaning": "伤害；损伤",
+    "pos": "n."
+  },
+  "innocent": {
+    "word": "innocent",
+    "type": "cet4",
+    "phonetic": "[ˈɪnəsnt]",
+    "meaning": "无辜的；清白的；无罪的",
+    "pos": "adj."
+  },
+  "innovate": {
+    "word": "innovate",
+    "type": "cet4",
+    "phonetic": "[ˈɪnəveɪt]",
+    "meaning": "创新；改革",
+    "pos": "v."
+  },
+  "innovation": {
+    "word": "innovation",
+    "type": "cet4",
+    "phonetic": "[ˌɪnəˈveɪʃn]",
+    "meaning": "创新；革新",
+    "pos": "n."
+  },
+  "innovative": {
+    "word": "innovative",
+    "type": "cet4",
+    "phonetic": "[ˈɪnəveɪtɪv]",
+    "meaning": "革新的；创新的",
+    "pos": "adj."
+  },
+  "input": {
+    "word": "input",
+    "type": "cet4",
+    "phonetic": "[ˈɪnpʊt]",
+    "meaning": "输入；投入",
+    "pos": "n./v."
+  },
+  "insane": {
+    "word": "insane",
+    "type": "cet4",
+    "phonetic": "[ɪnˈseɪn]",
+    "meaning": "精神失常的；疯狂的",
+    "pos": "adj."
+  },
+  "insight": {
+    "word": "insight",
+    "type": "cet4",
+    "phonetic": "[ˈɪnsaɪt]",
+    "meaning": "洞悉；洞察力",
+    "pos": "n."
+  },
+  "insist": {
+    "word": "insist",
+    "type": "cet4",
+    "phonetic": "[ɪnˈsɪst]",
+    "meaning": "坚持；坚持要求",
+    "pos": "v."
+  },
+  "inspect": {
+    "word": "inspect",
+    "type": "cet4",
+    "phonetic": "[ɪnˈspekt]",
+    "meaning": "检查；视察；检阅",
+    "pos": "v."
+  },
+  "install": {
+    "word": "install",
+    "type": "cet4",
+    "phonetic": "[ɪnˈstɔːl]",
+    "meaning": "安装；任命",
+    "pos": "v."
+  },
+  "installment": {
+    "word": "installment",
+    "type": "cet4",
+    "phonetic": "[ɪnˈstɔːlmənt]",
+    "meaning": "分期付款",
+    "pos": "n."
+  },
+  "instance": {
+    "word": "instance",
+    "type": "cet4",
+    "phonetic": "[ˈɪnstəns]",
+    "meaning": "例子；实例；事例",
+    "pos": "n."
+  },
+  "instant": {
+    "word": "instant",
+    "type": "cet4",
+    "phonetic": "[ˈɪnstənt]",
+    "meaning": "立即的；瞬间",
+    "pos": "adj./n."
+  },
+  "instinct": {
+    "word": "instinct",
+    "type": "cet4",
+    "phonetic": "[ˈɪnstɪŋkt]",
+    "meaning": "本能；天性",
+    "pos": "n."
+  },
+  "institute": {
+    "word": "institute",
+    "type": "cet4",
+    "phonetic": "[ˈɪnstɪtjuːt]",
+    "meaning": "机构；研究院",
+    "pos": "n."
+  },
+  "institution": {
+    "word": "institution",
+    "type": "cet4",
+    "phonetic": "[ˌɪnstɪˈtjuːʃn]",
+    "meaning": "机构；制度；习俗",
+    "pos": "n."
+  },
+  "instruction": {
+    "word": "instruction",
+    "type": "cet4",
+    "phonetic": "[ɪnˈstrʌkʃn]",
+    "meaning": "教授；指示；命令",
+    "pos": "n."
+  },
+  "instrument": {
+    "word": "instrument",
+    "type": "cet4",
+    "phonetic": "[ˈɪnstrəmənt]",
+    "meaning": "仪器；工具；乐器；手段",
+    "pos": "n."
+  },
+  "insult": {
+    "word": "insult",
+    "type": "cet4",
+    "phonetic": "[ɪnˈsʌlt, ˈɪnsʌlt]",
+    "meaning": "侮辱；冒犯",
+    "pos": "v./n."
+  },
+  "insurance": {
+    "word": "insurance",
+    "type": "cet4",
+    "phonetic": "[ɪnˈʃʊərəns]",
+    "meaning": "保险；保险费",
+    "pos": "n."
+  },
+  "insure": {
+    "word": "insure",
+    "type": "cet4",
+    "phonetic": "[ɪnˈʃʊə(r)]",
+    "meaning": "投保；承保",
+    "pos": "v."
+  },
+  "intact": {
+    "word": "intact",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtækt]",
+    "meaning": "完整的",
+    "pos": "adj."
+  },
+  "intake": {
+    "word": "intake",
+    "type": "cet4",
+    "phonetic": "[ˈɪnteɪk]",
+    "meaning": "摄取量；摄入",
+    "pos": "n."
+  },
+  "intangible": {
+    "word": "intangible",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtændʒəbl]",
+    "meaning": "无形的；难以形容的",
+    "pos": "adj."
+  },
+  "integrate": {
+    "word": "integrate",
+    "type": "cet4",
+    "phonetic": "[ˈɪntɪɡreɪt]",
+    "meaning": "（使）合并；融入群体",
+    "pos": "v."
+  },
+  "integrity": {
+    "word": "integrity",
+    "type": "cet4",
+    "phonetic": "[ɪnˈteɡrəti]",
+    "meaning": "完整；诚实；正直",
+    "pos": "n."
+  },
+  "intelligence": {
+    "word": "intelligence",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtelɪdʒəns]",
+    "meaning": "智力；才智；情报",
+    "pos": "n."
+  },
+  "intelligent": {
+    "word": "intelligent",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtelɪdʒənt]",
+    "meaning": "聪明的；有才智的；智能的",
+    "pos": "adj."
+  },
+  "intense": {
+    "word": "intense",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtens]",
+    "meaning": "强烈的；激烈的",
+    "pos": "adj."
+  },
+  "intensive": {
+    "word": "intensive",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtensɪv]",
+    "meaning": "加强的；集中的",
+    "pos": "adj."
+  },
+  "interfere": {
+    "word": "interfere",
+    "type": "cet4",
+    "phonetic": "[ˌɪntəˈfɪə(r)]",
+    "meaning": "干涉；干扰；妨碍",
+    "pos": "v."
+  },
+  "interior": {
+    "word": "interior",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtɪəriə(r)]",
+    "meaning": "内部的；内部；内地",
+    "pos": "adj./n."
+  },
+  "intermediate": {
+    "word": "intermediate",
+    "type": "cet4",
+    "phonetic": "[ˌɪntəˈmiːdiət]",
+    "meaning": "中间的；中级的",
+    "pos": "adj."
+  },
+  "international": {
+    "word": "international",
+    "type": "cet4",
+    "phonetic": "[ˌɪntəˈnæʃnəl]",
+    "meaning": "国际的",
+    "pos": "adj."
+  },
+  "interpret": {
+    "word": "interpret",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtɜːprət]",
+    "meaning": "解释；说明；口译",
+    "pos": "v."
+  },
+  "interrupt": {
+    "word": "interrupt",
+    "type": "cet4",
+    "phonetic": "[ˌɪntəˈrʌpt]",
+    "meaning": "打断；打扰",
+    "pos": "v."
+  },
+  "interval": {
+    "word": "interval",
+    "type": "cet4",
+    "phonetic": "[ˈɪntəvl]",
+    "meaning": "间隔；休息时间",
+    "pos": "n."
+  },
+  "intimate": {
+    "word": "intimate",
+    "type": "cet4",
+    "phonetic": "[ˈɪntɪmət, ˈɪntɪmeɪt]",
+    "meaning": "亲密的；透露；密友",
+    "pos": "adj./v./n."
+  },
+  "intrude": {
+    "word": "intrude",
+    "type": "cet4",
+    "phonetic": "[ɪnˈtruːd]",
+    "meaning": "闯入；侵入",
+    "pos": "v."
+  },
+  "invade": {
+    "word": "invade",
+    "type": "cet4",
+    "phonetic": "[ɪnˈveɪd]",
+    "meaning": "入侵；侵略；干扰",
+    "pos": "v."
+  },
+  "invaluable": {
+    "word": "invaluable",
+    "type": "cet4",
+    "phonetic": "[ɪnˈvæljuəbl]",
+    "meaning": "非常宝贵的；无价的",
+    "pos": "adj."
+  },
+  "invasion": {
+    "word": "invasion",
+    "type": "cet4",
+    "phonetic": "[ɪnˈveɪʒn]",
+    "meaning": "入侵；侵略",
+    "pos": "n."
+  },
+  "investigate": {
+    "word": "investigate",
+    "type": "cet4",
+    "phonetic": "[ɪnˈvestɪɡeɪt]",
+    "meaning": "调查",
+    "pos": "v."
+  },
+  "invisible": {
+    "word": "invisible",
+    "type": "cet4",
+    "phonetic": "[ɪnˈvɪzəbl]",
+    "meaning": "看不见的；无形的",
+    "pos": "adj."
+  },
+  "irrational": {
+    "word": "irrational",
+    "type": "cet4",
+    "phonetic": "[ɪˈræʃənl]",
+    "meaning": "不合理的",
+    "pos": "adj."
+  },
+  "irregular": {
+    "word": "irregular",
+    "type": "cet4",
+    "phonetic": "[ɪˈregjələ(r)]",
+    "meaning": "不规则的；无规律的",
+    "pos": "adj."
+  },
+  "irrigate": {
+    "word": "irrigate",
+    "type": "cet4",
+    "phonetic": "[ˈɪrɪɡeɪt]",
+    "meaning": "灌溉；冲洗",
+    "pos": "v."
+  },
+  "isolate": {
+    "word": "isolate",
+    "type": "cet4",
+    "phonetic": "[ˈaɪsəleɪt]",
+    "meaning": "使隔离；使分离",
+    "pos": "v."
+  },
+  "issue": {
+    "word": "issue",
+    "type": "cet4",
+    "phonetic": "[ˈɪʃuː]",
+    "meaning": "争论的问题；公布；发行",
+    "pos": "n./v."
+  },
+  "jail": {
+    "word": "jail",
+    "type": "cet4",
+    "phonetic": "[dʒeɪl]",
+    "meaning": "监狱；监禁",
+    "pos": "n./v."
+  },
+  "jealous": {
+    "word": "jealous",
+    "type": "cet4",
+    "phonetic": "[ˈdʒeləs]",
+    "meaning": "妒忌的",
+    "pos": "adj."
+  },
+  "joint": {
+    "word": "joint",
+    "type": "cet4",
+    "phonetic": "[dʒɔɪnt]",
+    "meaning": "联合的；共同的",
+    "pos": "adj."
+  },
+  "journal": {
+    "word": "journal",
+    "type": "cet4",
+    "phonetic": "[ˈdʒɜːnl]",
+    "meaning": "杂志；期刊；日记",
+    "pos": "n."
+  },
+  "journalism": {
+    "word": "journalism",
+    "type": "cet4",
+    "phonetic": "[ˈdʒɜːnəlɪzəm]",
+    "meaning": "新闻业",
+    "pos": "n."
+  },
+  "judgement": {
+    "word": "judgement",
+    "type": "cet4",
+    "phonetic": "[ˈdʒʌdʒmənt]",
+    "meaning": "判断；判决；意见（亦作judgment）",
+    "pos": "n."
+  },
+  "jury": {
+    "word": "jury",
+    "type": "cet4",
+    "phonetic": "[ˈdʒʊəri]",
+    "meaning": "陪审团；评委会",
+    "pos": "n."
+  },
+  "justice": {
+    "word": "justice",
+    "type": "cet4",
+    "phonetic": "[ˈdʒʌstɪs]",
+    "meaning": "公正；正义；司法",
+    "pos": "n."
+  },
+  "knot": {
+    "word": "knot",
+    "type": "cet4",
+    "phonetic": "[nɒt]",
+    "meaning": "绳结；痉挛；把…打成结",
+    "pos": "n./v."
+  },
+  "label": {
+    "word": "label",
+    "type": "cet4",
+    "phonetic": "[ˈleɪbl]",
+    "meaning": "标签；标记；贴标签于…",
+    "pos": "n./v."
+  },
+  "labour": {
+    "word": "labour",
+    "type": "cet4",
+    "phonetic": "[ˈleɪbə(r)]",
+    "meaning": "劳动；工作；劳工（亦作labor）",
+    "pos": "n."
+  },
+  "land": {
+    "word": "land",
+    "type": "cet4",
+    "phonetic": "[lænd]",
+    "meaning": "陆地；土地；地区；使降落；使着陆",
+    "pos": "n./v."
+  },
+  "landlord": {
+    "word": "landlord",
+    "type": "cet4",
+    "phonetic": "[ˈlændlɔːd]",
+    "meaning": "地主；房东；店主；业主",
+    "pos": "n."
+  },
+  "latter": {
+    "word": "latter",
+    "type": "cet4",
+    "phonetic": "[ˈlætə(r)]",
+    "meaning": "后者的；后面的",
+    "pos": "adj."
+  },
+  "launch": {
+    "word": "launch",
+    "type": "cet4",
+    "phonetic": "[lɔːntʃ]",
+    "meaning": "发射；发起；发行",
+    "pos": "v."
+  },
+  "layout": {
+    "word": "layout",
+    "type": "cet4",
+    "phonetic": "[ˈleɪaʊt]",
+    "meaning": "布局；安排",
+    "pos": "n."
+  },
+  "leap": {
+    "word": "leap",
+    "type": "cet4",
+    "phonetic": "[liːp]",
+    "meaning": "跳；跃；跳跃",
+    "pos": "v./n."
+  },
+  "lease": {
+    "word": "lease",
+    "type": "cet4",
+    "phonetic": "[liːs]",
+    "meaning": "租约；出租；租用",
+    "pos": "n./v."
+  },
+  "legislate": {
+    "word": "legislate",
+    "type": "cet4",
+    "phonetic": "[ˈledʒɪsleɪt]",
+    "meaning": "立法；制定法律",
+    "pos": "v."
+  },
+  "leisure": {
+    "word": "leisure",
+    "type": "cet4",
+    "phonetic": "[ˈleʒə(r)]",
+    "meaning": "空闲；闲暇；空闲的；闲暇的",
+    "pos": "n./adj."
+  },
+  "lessen": {
+    "word": "lessen",
+    "type": "cet4",
+    "phonetic": "[ˈlesn]",
+    "meaning": "减少；减轻",
+    "pos": "v."
+  },
+  "liable": {
+    "word": "liable",
+    "type": "cet4",
+    "phonetic": "[ˈlaɪəbl]",
+    "meaning": "有责任的；很可能发生的",
+    "pos": "adj."
+  },
+  "liberate": {
+    "word": "liberate",
+    "type": "cet4",
+    "phonetic": "[ˈlɪbəreɪt]",
+    "meaning": "解放；释放",
+    "pos": "v."
+  },
+  "liberty": {
+    "word": "liberty",
+    "type": "cet4",
+    "phonetic": "[ˈlɪbəti]",
+    "meaning": "自由",
+    "pos": "n."
+  },
+  "liquid": {
+    "word": "liquid",
+    "type": "cet4",
+    "phonetic": "[ˈlɪkwɪd]",
+    "meaning": "液体；液体的",
+    "pos": "n./adj."
+  },
+  "literal": {
+    "word": "literal",
+    "type": "cet4",
+    "phonetic": "[ˈlɪtərəl]",
+    "meaning": "字面意义的；文字的；完全按原文的",
+    "pos": "adj."
+  },
+  "loan": {
+    "word": "loan",
+    "type": "cet4",
+    "phonetic": "[ləʊn]",
+    "meaning": "贷款；借出；借出",
+    "pos": "n./v."
+  },
+  "lobby": {
+    "word": "lobby",
+    "type": "cet4",
+    "phonetic": "[ˈlɒbi]",
+    "meaning": "大厅；游说（团体）；游说",
+    "pos": "n./v."
+  },
+  "logic": {
+    "word": "logic",
+    "type": "cet4",
+    "phonetic": "[ˈlɒdʒɪk]",
+    "meaning": "逻辑",
+    "pos": "n."
+  },
+  "logical": {
+    "word": "logical",
+    "type": "cet4",
+    "phonetic": "[ˈlɒdʒɪkl]",
+    "meaning": "符合逻辑的；合乎情理的",
+    "pos": "adj."
+  },
+  "loyal": {
+    "word": "loyal",
+    "type": "cet4",
+    "phonetic": "[ˈlɔɪəl]",
+    "meaning": "忠诚的；忠贞的",
+    "pos": "adj."
+  },
+  "loyalty": {
+    "word": "loyalty",
+    "type": "cet4",
+    "phonetic": "[ˈlɔɪəlti]",
+    "meaning": "忠诚；忠实",
+    "pos": "n."
+  },
+  "lunar": {
+    "word": "lunar",
+    "type": "cet4",
+    "phonetic": "[ˈluːnə(r)]",
+    "meaning": "月亮的；阴历的",
+    "pos": "adj."
+  },
+  "luxurious": {
+    "word": "luxurious",
+    "type": "cet4",
+    "phonetic": "[lʌɡˈʒʊəriəs]",
+    "meaning": "奢侈的",
+    "pos": "adj."
+  },
+  "luxury": {
+    "word": "luxury",
+    "type": "cet4",
+    "phonetic": "[ˈlʌkʃəri]",
+    "meaning": "奢侈；奢华",
+    "pos": "n."
+  },
+  "magnetic": {
+    "word": "magnetic",
+    "type": "cet4",
+    "phonetic": "[mægˈnetɪk]",
+    "meaning": "磁性的；有吸引力的",
+    "pos": "adj."
+  },
+  "maiden": {
+    "word": "maiden",
+    "type": "cet4",
+    "phonetic": "[ˈmeɪdn]",
+    "meaning": "少女；首次的",
+    "pos": "n./adj."
+  },
+  "mailbox": {
+    "word": "mailbox",
+    "type": "cet4",
+    "phonetic": "[ˈmeɪlbɒks]",
+    "meaning": "邮筒；信箱；电子邮箱",
+    "pos": "n."
+  },
+  "mainland": {
+    "word": "mainland",
+    "type": "cet4",
+    "phonetic": "[ˈmeɪnlænd]",
+    "meaning": "大陆",
+    "pos": "n."
+  },
+  "maintain": {
+    "word": "maintain",
+    "type": "cet4",
+    "phonetic": "[meɪnˈteɪn]",
+    "meaning": "保持；维持；维修",
+    "pos": "v."
+  },
+  "majority": {
+    "word": "majority",
+    "type": "cet4",
+    "phonetic": "[məˈdʒɒrəti]",
+    "meaning": "多数；大多数",
+    "pos": "n."
+  },
+  "manipulate": {
+    "word": "manipulate",
+    "type": "cet4",
+    "phonetic": "[məˈnɪpjuleɪt]",
+    "meaning": "操作；操纵",
+    "pos": "v."
+  },
+  "manner": {
+    "word": "manner",
+    "type": "cet4",
+    "phonetic": "[ˈmænə(r)]",
+    "meaning": "方式；举止；礼貌",
+    "pos": "n."
+  },
+  "manual": {
+    "word": "manual",
+    "type": "cet4",
+    "phonetic": "[ˈmænjuəl]",
+    "meaning": "手工的；手动的；说明书",
+    "pos": "adj./n."
+  },
+  "manufacture": {
+    "word": "manufacture",
+    "type": "cet4",
+    "phonetic": "[ˌmænjuˈfæktʃə(r)]",
+    "meaning": "（用机器大量）生产；制造；批量生产",
+    "pos": "v./n."
+  },
+  "marathon": {
+    "word": "marathon",
+    "type": "cet4",
+    "phonetic": "[ˈmærəθən]",
+    "meaning": "马拉松赛跑；马拉松式的活动",
+    "pos": "n."
+  },
+  "margin": {
+    "word": "margin",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːdʒɪn]",
+    "meaning": "边缘；页边的空白",
+    "pos": "n."
+  },
+  "marine": {
+    "word": "marine",
+    "type": "cet4",
+    "phonetic": "[məˈriːn]",
+    "meaning": "海洋的；海运的",
+    "pos": "adj."
+  },
+  "marshal": {
+    "word": "marshal",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːʃl]",
+    "meaning": "元帅；司仪；执行官；安排",
+    "pos": "n./v."
+  },
+  "marvel": {
+    "word": "marvel",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːvl]",
+    "meaning": "奇迹；感到惊奇",
+    "pos": "n./v."
+  },
+  "marvelous": {
+    "word": "marvelous",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːvələs]",
+    "meaning": "令人惊异的；了不起的",
+    "pos": "adj."
+  },
+  "marxist": {
+    "word": "Marxist",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːksɪst]",
+    "meaning": "马克思主义者；马克思主义的",
+    "pos": "n./adj."
+  },
+  "masterpiece": {
+    "word": "masterpiece",
+    "type": "cet4",
+    "phonetic": "[ˈmɑːstəpiːs]",
+    "meaning": "杰作；代表作；名著",
+    "pos": "n."
+  },
+  "mature": {
+    "word": "mature",
+    "type": "cet4",
+    "phonetic": "[məˈtʃʊə(r)]",
+    "meaning": "成熟的；成熟",
+    "pos": "adj./v."
+  },
+  "maximum": {
+    "word": "maximum",
+    "type": "cet4",
+    "phonetic": "[ˈmæksɪməm]",
+    "meaning": "最大量（值）；最大量（值）的",
+    "pos": "n./adj."
+  },
+  "measurement": {
+    "word": "measurement",
+    "type": "cet4",
+    "phonetic": "[ˈmeʒəmənt]",
+    "meaning": "测量；尺寸",
+    "pos": "n."
+  },
+  "mechanical": {
+    "word": "mechanical",
+    "type": "cet4",
+    "phonetic": "[məˈkænɪkl]",
+    "meaning": "机械（驱动）的；机械般的",
+    "pos": "adj."
+  },
+  "medical": {
+    "word": "medical",
+    "type": "cet4",
+    "phonetic": "[ˈmedɪkl]",
+    "meaning": "医学的；医疗的",
+    "pos": "adj."
+  },
+  "medium": {
+    "word": "medium",
+    "type": "cet4",
+    "phonetic": "[ˈmiːdiəm]",
+    "meaning": "中等的；媒介",
+    "pos": "adj./n."
+  },
+  "mend": {
+    "word": "mend",
+    "type": "cet4",
+    "phonetic": "[mend]",
+    "meaning": "修理；修补",
+    "pos": "v."
+  },
+  "mercifully": {
+    "word": "mercifully",
+    "type": "cet4",
+    "phonetic": "[ˈmɜːsɪfəli]",
+    "meaning": "（不幸中）幸运地；仁慈地",
+    "pos": "adv."
+  },
+  "mercy": {
+    "word": "mercy",
+    "type": "cet4",
+    "phonetic": "[ˈmɜːsi]",
+    "meaning": "仁慈；慈悲；恩惠",
+    "pos": "n."
+  },
+  "merit": {
+    "word": "merit",
+    "type": "cet4",
+    "phonetic": "[ˈmerɪt]",
+    "meaning": "优点；长处；功绩",
+    "pos": "n."
+  },
+  "migrant": {
+    "word": "migrant",
+    "type": "cet4",
+    "phonetic": "[ˈmaɪgrənt]",
+    "meaning": "移民；候鸟",
+    "pos": "n."
+  },
+  "migrate": {
+    "word": "migrate",
+    "type": "cet4",
+    "phonetic": "[maɪˈgreɪt]",
+    "meaning": "迁徙；迁移",
+    "pos": "v."
+  },
+  "mineral": {
+    "word": "mineral",
+    "type": "cet4",
+    "phonetic": "[ˈmɪnərəl]",
+    "meaning": "矿物；矿物质",
+    "pos": "n."
+  },
+  "minister": {
+    "word": "minister",
+    "type": "cet4",
+    "phonetic": "[ˈmɪnɪstə(r)]",
+    "meaning": "部长；大臣",
+    "pos": "n."
+  },
+  "ministry": {
+    "word": "ministry",
+    "type": "cet4",
+    "phonetic": "[ˈmɪnɪstri]",
+    "meaning": "（政府的）部；神职；牧师职位",
+    "pos": "n."
+  },
+  "minor": {
+    "word": "minor",
+    "type": "cet4",
+    "phonetic": "[ˈmaɪnə(r)]",
+    "meaning": "少数的；次要的；较小的",
+    "pos": "adj."
+  },
+  "minority": {
+    "word": "minority",
+    "type": "cet4",
+    "phonetic": "[maɪˈnɒrəti]",
+    "meaning": "少数；少数民族",
+    "pos": "n."
+  },
+  "miracle": {
+    "word": "miracle",
+    "type": "cet4",
+    "phonetic": "[ˈmɪrəkl]",
+    "meaning": "奇迹",
+    "pos": "n."
+  },
+  "miserable": {
+    "word": "miserable",
+    "type": "cet4",
+    "phonetic": "[ˈmɪzrəbl]",
+    "meaning": "痛苦的；悲惨的",
+    "pos": "adj."
+  },
+  "mislead": {
+    "word": "mislead",
+    "type": "cet4",
+    "phonetic": "[ˌmɪsˈliːd]",
+    "meaning": "误导",
+    "pos": "v."
+  },
+  "mission": {
+    "word": "mission",
+    "type": "cet4",
+    "phonetic": "[ˈmɪʃn]",
+    "meaning": "任务；使命；使团",
+    "pos": "n."
+  },
+  "moderate": {
+    "word": "moderate",
+    "type": "cet4",
+    "phonetic": "[ˈmɒdərət]",
+    "meaning": "适中的；温和的；缓和",
+    "pos": "adj./v."
+  },
+  "modest": {
+    "word": "modest",
+    "type": "cet4",
+    "phonetic": "[ˈmɒdɪst]",
+    "meaning": "谦虚的；适中的；朴素的",
+    "pos": "adj."
+  },
+  "modify": {
+    "word": "modify",
+    "type": "cet4",
+    "phonetic": "[ˈmɒdɪfaɪ]",
+    "meaning": "修饰；修改；缓和",
+    "pos": "v."
+  },
+  "moist": {
+    "word": "moist",
+    "type": "cet4",
+    "phonetic": "[mɔɪst]",
+    "meaning": "潮湿的；湿润的",
+    "pos": "adj."
+  },
+  "moisture": {
+    "word": "moisture",
+    "type": "cet4",
+    "phonetic": "[ˈmɔɪstʃə(r)]",
+    "meaning": "潮气；水分",
+    "pos": "n."
+  },
+  "monetary": {
+    "word": "monetary",
+    "type": "cet4",
+    "phonetic": "[ˈmʌnɪtri]",
+    "meaning": "货币的；金融的",
+    "pos": "adj."
+  },
+  "mop": {
+    "word": "mop",
+    "type": "cet4",
+    "phonetic": "[mɒp]",
+    "meaning": "拖把；墩布；用布擦掉；用拖把擦干净",
+    "pos": "n./v."
+  },
+  "moral": {
+    "word": "moral",
+    "type": "cet4",
+    "phonetic": "[ˈmɒrəl]",
+    "meaning": "道德的；道义上的；道德；寓意",
+    "pos": "adj./n."
+  },
+  "mortgage": {
+    "word": "mortgage",
+    "type": "cet4",
+    "phonetic": "[ˈmɔːgɪdʒ]",
+    "meaning": "按揭贷款",
+    "pos": "n."
+  },
+  "motivate": {
+    "word": "motivate",
+    "type": "cet4",
+    "phonetic": "[ˈməʊtɪveɪt]",
+    "meaning": "激励；激发；成为…的动机",
+    "pos": "v."
+  },
+  "motivation": {
+    "word": "motivation",
+    "type": "cet4",
+    "phonetic": "[ˌməʊtɪˈveɪʃn]",
+    "meaning": "动机；动力",
+    "pos": "n."
+  },
+  "mount": {
+    "word": "mount",
+    "type": "cet4",
+    "phonetic": "[maʊnt]",
+    "meaning": "登上；增加",
+    "pos": "v."
+  },
+  "multiple": {
+    "word": "multiple",
+    "type": "cet4",
+    "phonetic": "[ˈmʌltɪpl]",
+    "meaning": "多个的；多种的",
+    "pos": "adj."
+  },
+  "multiply": {
+    "word": "multiply",
+    "type": "cet4",
+    "phonetic": "[ˈmʌltɪplaɪ]",
+    "meaning": "乘；倍增",
+    "pos": "v."
+  },
+  "municipal": {
+    "word": "municipal",
+    "type": "cet4",
+    "phonetic": "[mjuːˈnɪsɪpl]",
+    "meaning": "市政的；城市的",
+    "pos": "adj."
+  },
+  "murder": {
+    "word": "murder",
+    "type": "cet4",
+    "phonetic": "[ˈmɜːdə(r)]",
+    "meaning": "谋杀",
+    "pos": "n./v."
+  },
+  "mutual": {
+    "word": "mutual",
+    "type": "cet4",
+    "phonetic": "[ˈmjuːtʃuəl]",
+    "meaning": "相互的；共同的",
+    "pos": "adj."
+  },
+  "mystery": {
+    "word": "mystery",
+    "type": "cet4",
+    "phonetic": "[ˈmɪstri]",
+    "meaning": "神秘（性）；神秘的事物；悬疑（故事）",
+    "pos": "n."
+  },
+  "nationality": {
+    "word": "nationality",
+    "type": "cet4",
+    "phonetic": "[ˌnæʃəˈnæləti]",
+    "meaning": "国籍；民族",
+    "pos": "n."
+  },
+  "native": {
+    "word": "native",
+    "type": "cet4",
+    "phonetic": "[ˈneɪtɪv]",
+    "meaning": "本地的；土著的；本地人",
+    "pos": "adj./n."
+  },
+  "natural": {
+    "word": "natural",
+    "type": "cet4",
+    "phonetic": "[ˈnætʃrəl]",
+    "meaning": "自然界的；天然的；天生的；正常的",
+    "pos": "adj."
+  },
+  "navigate": {
+    "word": "navigate",
+    "type": "cet4",
+    "phonetic": "[ˈnævɪɡeɪt]",
+    "meaning": "导航；航行",
+    "pos": "v."
+  },
+  "navy": {
+    "word": "navy",
+    "type": "cet4",
+    "phonetic": "[ˈneɪvi]",
+    "meaning": "海军",
+    "pos": "n."
+  },
+  "neglect": {
+    "word": "neglect",
+    "type": "cet4",
+    "phonetic": "[nɪˈɡlekt]",
+    "meaning": "忽略；忽视",
+    "pos": "n./v."
+  },
+  "negotiate": {
+    "word": "negotiate",
+    "type": "cet4",
+    "phonetic": "[nɪˈɡəʊʃieɪt]",
+    "meaning": "谈判；协商",
+    "pos": "v."
+  },
+  "neutral": {
+    "word": "neutral",
+    "type": "cet4",
+    "phonetic": "[ˈnjuːtrəl]",
+    "meaning": "中立的；中性的",
+    "pos": "adj."
+  },
+  "nevertheless": {
+    "word": "nevertheless",
+    "type": "cet4",
+    "phonetic": "[ˌnevəðəˈles]",
+    "meaning": "然而；不过；尽管如此",
+    "pos": "adv./conj."
+  },
+  "nightmare": {
+    "word": "nightmare",
+    "type": "cet4",
+    "phonetic": "[ˈnaɪtmeə(r)]",
+    "meaning": "噩梦；可怕的事物",
+    "pos": "n."
+  },
+  "nonsense": {
+    "word": "nonsense",
+    "type": "cet4",
+    "phonetic": "[ˈnɒnsns]",
+    "meaning": "胡说；废话；愚蠢的行为",
+    "pos": "n."
+  },
+  "noticeable": {
+    "word": "noticeable",
+    "type": "cet4",
+    "phonetic": "[ˈnəʊtɪsəbl]",
+    "meaning": "显而易见的；显著的",
+    "pos": "adj."
+  },
+  "notion": {
+    "word": "notion",
+    "type": "cet4",
+    "phonetic": "[ˈnəʊʃn]",
+    "meaning": "观念；概念；理解",
+    "pos": "n."
+  },
+  "nourish": {
+    "word": "nourish",
+    "type": "cet4",
+    "phonetic": "[ˈnʌrɪʃ]",
+    "meaning": "滋养；养育",
+    "pos": "v."
+  },
+  "nuclear": {
+    "word": "nuclear",
+    "type": "cet4",
+    "phonetic": "[ˈnjuːkliə(r)]",
+    "meaning": "原子核的；核能的",
+    "pos": "adj."
+  },
+  "nuisance": {
+    "word": "nuisance",
+    "type": "cet4",
+    "phonetic": "[ˈnjuːsns]",
+    "meaning": "讨厌的人或行为；麻烦事",
+    "pos": "n."
+  },
+  "numerous": {
+    "word": "numerous",
+    "type": "cet4",
+    "phonetic": "[ˈnjuːmərəs]",
+    "meaning": "众多的；许多的",
+    "pos": "adj."
+  },
+  "obese": {
+    "word": "obese",
+    "type": "cet4",
+    "phonetic": "[əʊˈbiːs]",
+    "meaning": "肥胖的；病态肥胖的",
+    "pos": "adj."
+  },
+  "obey": {
+    "word": "obey",
+    "type": "cet4",
+    "phonetic": "[əˈbeɪ]",
+    "meaning": "服从；遵守",
+    "pos": "v."
+  },
+  "object": {
+    "word": "object",
+    "type": "cet4",
+    "phonetic": "[ˈɒbdʒɪkt, əbˈdʒekt]",
+    "meaning": "物体；目标；反对",
+    "pos": "n./v."
+  },
+  "oblige": {
+    "word": "oblige",
+    "type": "cet4",
+    "phonetic": "[əˈblaɪdʒ]",
+    "meaning": "迫使；帮忙",
+    "pos": "v."
+  },
+  "observe": {
+    "word": "observe",
+    "type": "cet4",
+    "phonetic": "[əbˈzɜːv]",
+    "meaning": "观察；看到",
+    "pos": "v."
+  },
+  "obstacle": {
+    "word": "obstacle",
+    "type": "cet4",
+    "phonetic": "[ˈɒbstəkl]",
+    "meaning": "障碍；障碍物",
+    "pos": "n."
+  },
+  "obtain": {
+    "word": "obtain",
+    "type": "cet4",
+    "phonetic": "[əbˈteɪn]",
+    "meaning": "获得；得到",
+    "pos": "v."
+  },
+  "obvious": {
+    "word": "obvious",
+    "type": "cet4",
+    "phonetic": "[ˈɒbviəs]",
+    "meaning": "明显的；显然的",
+    "pos": "adj."
+  },
+  "occasion": {
+    "word": "occasion",
+    "type": "cet4",
+    "phonetic": "[əˈkeɪʒn]",
+    "meaning": "时机；场合",
+    "pos": "n."
+  },
+  "occasional": {
+    "word": "occasional",
+    "type": "cet4",
+    "phonetic": "[əˈkeɪʒənl]",
+    "meaning": "偶然的；临时的",
+    "pos": "adj."
+  },
+  "occupation": {
+    "word": "occupation",
+    "type": "cet4",
+    "phonetic": "[ˌɒkjuˈpeɪʃn]",
+    "meaning": "占领；职业",
+    "pos": "n."
+  },
+  "occupy": {
+    "word": "occupy",
+    "type": "cet4",
+    "phonetic": "[ˈɒkjupaɪ]",
+    "meaning": "占领；占用",
+    "pos": "v."
+  },
+  "old-fashioned": {
+    "word": "old-fashioned",
+    "type": "cet4",
+    "phonetic": "[ˌəʊld ˈfæʃnd]",
+    "meaning": "陈旧的；过时的；守旧的",
+    "pos": "adj."
+  },
+  "olympic": {
+    "word": "Olympic",
+    "type": "cet4",
+    "phonetic": "[əˈlɪmpɪk]",
+    "meaning": "奥林匹克运动会的",
+    "pos": "adj."
+  },
+  "omit": {
+    "word": "omit",
+    "type": "cet4",
+    "phonetic": "[əˈmɪt]",
+    "meaning": "省略；删掉；遗漏",
+    "pos": "v."
+  },
+  "operate": {
+    "word": "operate",
+    "type": "cet4",
+    "phonetic": "[ˈɒpəreɪt]",
+    "meaning": "操作；运营；运转；动手术",
+    "pos": "v."
+  },
+  "operation": {
+    "word": "operation",
+    "type": "cet4",
+    "phonetic": "[ˌɒpəˈreɪʃn]",
+    "meaning": "操作；手术；运算；行动；运转",
+    "pos": "n."
+  },
+  "operational": {
+    "word": "operational",
+    "type": "cet4",
+    "phonetic": "[ˌɒpəˈreɪʃənl]",
+    "meaning": "操作上的；可使用的",
+    "pos": "adj."
+  },
+  "operator": {
+    "word": "operator",
+    "type": "cet4",
+    "phonetic": "[ˈɒpəreɪtə(r)]",
+    "meaning": "操作人员；接线员；经营者",
+    "pos": "n."
+  },
+  "opponent": {
+    "word": "opponent",
+    "type": "cet4",
+    "phonetic": "[əˈpəʊnənt]",
+    "meaning": "对手；反对者；竞争者",
+    "pos": "n."
+  },
+  "oppose": {
+    "word": "oppose",
+    "type": "cet4",
+    "phonetic": "[əˈpəʊz]",
+    "meaning": "反对；反抗",
+    "pos": "v."
+  },
+  "opposite": {
+    "word": "opposite",
+    "type": "cet4",
+    "phonetic": "[ˈɒpəzɪt]",
+    "meaning": "对面的；对面的人（物）；在…对面",
+    "pos": "adj./n./prep."
+  },
+  "optimism": {
+    "word": "optimism",
+    "type": "cet4",
+    "phonetic": "[ˈɒptɪmɪzəm]",
+    "meaning": "乐观；乐观主义",
+    "pos": "n."
+  },
+  "optional": {
+    "word": "optional",
+    "type": "cet4",
+    "phonetic": "[ˈɒpʃənl]",
+    "meaning": "可选择的",
+    "pos": "adj."
+  },
+  "orbit": {
+    "word": "orbit",
+    "type": "cet4",
+    "phonetic": "[ˈɔːbɪt]",
+    "meaning": "环绕…运行；轨道",
+    "pos": "v./n."
+  },
+  "ordinary": {
+    "word": "ordinary",
+    "type": "cet4",
+    "phonetic": "[ˈɔːdnri]",
+    "meaning": "平常的；平凡的",
+    "pos": "adj."
+  },
+  "organ": {
+    "word": "organ",
+    "type": "cet4",
+    "phonetic": "[ˈɔːɡən]",
+    "meaning": "器官；机构；管风琴",
+    "pos": "n."
+  },
+  "organic": {
+    "word": "organic",
+    "type": "cet4",
+    "phonetic": "[ɔːˈɡænɪk]",
+    "meaning": "有机的",
+    "pos": "adj."
+  },
+  "organism": {
+    "word": "organism",
+    "type": "cet4",
+    "phonetic": "[ˈɔːgənɪzəm]",
+    "meaning": "有机体；生物体",
+    "pos": "n."
+  },
+  "orient": {
+    "word": "orient",
+    "type": "cet4",
+    "phonetic": "[ˈɔːrient]",
+    "meaning": "朝向；面对；确定方向；适应",
+    "pos": "v."
+  },
+  "oriental": {
+    "word": "oriental",
+    "type": "cet4",
+    "phonetic": "[ˌɔːriˈentl]",
+    "meaning": "东方的；东方人的；东方人",
+    "pos": "adj./n."
+  },
+  "origin": {
+    "word": "origin",
+    "type": "cet4",
+    "phonetic": "[ˈɒrɪdʒɪn]",
+    "meaning": "起源；开端",
+    "pos": "n."
+  },
+  "original": {
+    "word": "original",
+    "type": "cet4",
+    "phonetic": "[əˈrɪdʒənl]",
+    "meaning": "原来的；首创的",
+    "pos": "adj."
+  },
+  "ought": {
+    "word": "ought",
+    "type": "cet4",
+    "phonetic": "[ˈɔːt]",
+    "meaning": "应当；应该",
+    "pos": "aux./v."
+  },
+  "outer": {
+    "word": "outer",
+    "type": "cet4",
+    "phonetic": "[ˈaʊtə(r)]",
+    "meaning": "远离中心的；外面的",
+    "pos": "adj."
+  },
+  "oval": {
+    "word": "oval",
+    "type": "cet4",
+    "phonetic": "[ˈəʊvl]",
+    "meaning": "卵形的；椭圆的；椭圆形；卵形",
+    "pos": "adj./n."
+  },
+  "overcome": {
+    "word": "overcome",
+    "type": "cet4",
+    "phonetic": "[ˌəʊvəˈkʌm]",
+    "meaning": "战胜；克服；解决",
+    "pos": "v."
+  },
+  "overlook": {
+    "word": "overlook",
+    "type": "cet4",
+    "phonetic": "[ˌəʊvəˈlʊk]",
+    "meaning": "忽视；检查；俯瞰；从高处能看到的景色",
+    "pos": "v./n."
+  },
+  "ozone": {
+    "word": "ozone",
+    "type": "cet4",
+    "phonetic": "[ˈəʊzəʊn]",
+    "meaning": "臭氧",
+    "pos": "n."
+  },
+  "packet": {
+    "word": "packet",
+    "type": "cet4",
+    "phonetic": "[ˈpækɪt]",
+    "meaning": "小包裹",
+    "pos": "n."
+  },
+  "panel": {
+    "word": "panel",
+    "type": "cet4",
+    "phonetic": "[ˈpænl]",
+    "meaning": "嵌板；镶板；专家咨询组",
+    "pos": "n."
+  },
+  "parade": {
+    "word": "parade",
+    "type": "cet4",
+    "phonetic": "[pəˈreɪd]",
+    "meaning": "游行；检阅；游行",
+    "pos": "n./v."
+  },
+  "parallel": {
+    "word": "parallel",
+    "type": "cet4",
+    "phonetic": "[ˈpærəlel]",
+    "meaning": "平行的；相似的",
+    "pos": "adj."
+  },
+  "parcel": {
+    "word": "parcel",
+    "type": "cet4",
+    "phonetic": "[ˈpɑːsl]",
+    "meaning": "包裹；邮包；一块地",
+    "pos": "n."
+  },
+  "parliament": {
+    "word": "parliament",
+    "type": "cet4",
+    "phonetic": "[ˈpɑːləmənt]",
+    "meaning": "议会；国会",
+    "pos": "n."
+  },
+  "partial": {
+    "word": "partial",
+    "type": "cet4",
+    "phonetic": "[ˈpɑːʃl]",
+    "meaning": "部分的；偏袒的",
+    "pos": "adj."
+  },
+  "particle": {
+    "word": "particle",
+    "type": "cet4",
+    "phonetic": "[ˈpɑːtɪkl]",
+    "meaning": "粒子；微粒",
+    "pos": "n."
+  },
+  "particular": {
+    "word": "particular",
+    "type": "cet4",
+    "phonetic": "[pəˈtɪkjələ(r)]",
+    "meaning": "特殊的；特定的；挑剔的",
+    "pos": "adj."
+  },
+  "particularly": {
+    "word": "particularly",
+    "type": "cet4",
+    "phonetic": "[pəˈtɪkjələli]",
+    "meaning": "尤其；特别",
+    "pos": "adv."
+  },
+  "passion": {
+    "word": "passion",
+    "type": "cet4",
+    "phonetic": "[ˈpæʃn]",
+    "meaning": "激情；热情；爱好",
+    "pos": "n."
+  },
+  "passionate": {
+    "word": "passionate",
+    "type": "cet4",
+    "phonetic": "[ˈpæʃənət]",
+    "meaning": "狂热的",
+    "pos": "adj."
+  },
+  "passive": {
+    "word": "passive",
+    "type": "cet4",
+    "phonetic": "[ˈpæsɪv]",
+    "meaning": "被动的；消极的",
+    "pos": "adj."
+  },
+  "patch": {
+    "word": "patch",
+    "type": "cet4",
+    "phonetic": "[pætʃ]",
+    "meaning": "补丁；眼罩；小片；修补；缝补",
+    "pos": "n./v."
+  },
+  "patent": {
+    "word": "patent",
+    "type": "cet4",
+    "phonetic": "[ˈpætnt]",
+    "meaning": "专利权；明显的；有专利的；获得专利权",
+    "pos": "n./adj./v."
+  },
+  "pattern": {
+    "word": "pattern",
+    "type": "cet4",
+    "phonetic": "[ˈpætn]",
+    "meaning": "模式；方式；范例；图案",
+    "pos": "n."
+  },
+  "paw": {
+    "word": "paw",
+    "type": "cet4",
+    "phonetic": "[pɔː]",
+    "meaning": "爪；用爪；抓",
+    "pos": "n./v."
+  },
+  "peculiar": {
+    "word": "peculiar",
+    "type": "cet4",
+    "phonetic": "[pɪˈkjuːliə(r)]",
+    "meaning": "奇怪的；特殊的",
+    "pos": "adj."
+  },
+  "peer": {
+    "word": "peer",
+    "type": "cet4",
+    "phonetic": "[pɪə(r)]",
+    "meaning": "同龄人；盯着看；端详",
+    "pos": "n./v."
+  },
+  "penalty": {
+    "word": "penalty",
+    "type": "cet4",
+    "phonetic": "[ˈpenəlti]",
+    "meaning": "惩罚；处罚；刑罚",
+    "pos": "n."
+  },
+  "penetrate": {
+    "word": "penetrate",
+    "type": "cet4",
+    "phonetic": "[ˈpenətreɪt]",
+    "meaning": "穿过；渗透",
+    "pos": "v."
+  },
+  "pension": {
+    "word": "pension",
+    "type": "cet4",
+    "phonetic": "[ˈpenʃn]",
+    "meaning": "养老金；退休金；补助金；发给…养老金",
+    "pos": "n./v."
+  },
+  "perceive": {
+    "word": "perceive",
+    "type": "cet4",
+    "phonetic": "[pəˈsiːv]",
+    "meaning": "认为；理解；察觉",
+    "pos": "v."
+  },
+  "percent": {
+    "word": "percent",
+    "type": "cet4",
+    "phonetic": "[pəˈsent]",
+    "meaning": "百分比；百分之…",
+    "pos": "n."
+  },
+  "peril": {
+    "word": "peril",
+    "type": "cet4",
+    "phonetic": "[ˈperəl]",
+    "meaning": "危险",
+    "pos": "n."
+  },
+  "permanent": {
+    "word": "permanent",
+    "type": "cet4",
+    "phonetic": "[ˈpɜːmənənt]",
+    "meaning": "永久的；长久的",
+    "pos": "adj."
+  },
+  "perseverance": {
+    "word": "perseverance",
+    "type": "cet4",
+    "phonetic": "[ˌpɜːsəˈvɪərəns]",
+    "meaning": "毅力；韧性",
+    "pos": "n."
+  },
+  "persevere": {
+    "word": "persevere",
+    "type": "cet4",
+    "phonetic": "[ˌpɜːsəˈvɪə(r)]",
+    "meaning": "坚持",
+    "pos": "v."
+  },
+  "persist": {
+    "word": "persist",
+    "type": "cet4",
+    "phonetic": "[pəˈsɪst]",
+    "meaning": "坚持；执意",
+    "pos": "v."
+  },
+  "perspective": {
+    "word": "perspective",
+    "type": "cet4",
+    "phonetic": "[pəˈspektɪv]",
+    "meaning": "观点；看法；透视；视角",
+    "pos": "n."
+  },
+  "persuade": {
+    "word": "persuade",
+    "type": "cet4",
+    "phonetic": "[pəˈsweɪd]",
+    "meaning": "劝说；说服",
+    "pos": "v."
+  },
+  "pessimistic": {
+    "word": "pessimistic",
+    "type": "cet4",
+    "phonetic": "[ˌpesɪˈmɪstɪk]",
+    "meaning": "悲观的；悲观主义的",
+    "pos": "adj."
+  },
+  "phase": {
+    "word": "phase",
+    "type": "cet4",
+    "phonetic": "[feɪz]",
+    "meaning": "阶段；时期",
+    "pos": "n."
+  },
+  "phenomenon": {
+    "word": "phenomenon",
+    "type": "cet4",
+    "phonetic": "[fəˈnɒmɪnən]",
+    "meaning": "现象（复数phenomena）",
+    "pos": "n."
+  },
+  "philosopher": {
+    "word": "philosopher",
+    "type": "cet4",
+    "phonetic": "[fəˈlɒsəfə(r)]",
+    "meaning": "哲学家",
+    "pos": "n."
+  },
+  "phrase": {
+    "word": "phrase",
+    "type": "cet4",
+    "phonetic": "[freɪz]",
+    "meaning": "短语；词组；成语；惯用语",
+    "pos": "n."
+  },
+  "physicist": {
+    "word": "physicist",
+    "type": "cet4",
+    "phonetic": "[ˈfɪzɪsɪst]",
+    "meaning": "物理学家",
+    "pos": "n."
+  },
+  "pierce": {
+    "word": "pierce",
+    "type": "cet4",
+    "phonetic": "[pɪəs]",
+    "meaning": "刺穿；穿透",
+    "pos": "v."
+  },
+  "pile": {
+    "word": "pile",
+    "type": "cet4",
+    "phonetic": "[paɪl]",
+    "meaning": "堆；堆叠",
+    "pos": "n./v."
+  },
+  "pillar": {
+    "word": "pillar",
+    "type": "cet4",
+    "phonetic": "[ˈpɪlə(r)]",
+    "meaning": "柱子；核心；支柱",
+    "pos": "n."
+  },
+  "pioneer": {
+    "word": "pioneer",
+    "type": "cet4",
+    "phonetic": "[ˌpaɪəˈnɪə(r)]",
+    "meaning": "先锋；先驱",
+    "pos": "n."
+  },
+  "pitch": {
+    "word": "pitch",
+    "type": "cet4",
+    "phonetic": "[pɪtʃ]",
+    "meaning": "球场；音调；投；掷",
+    "pos": "n./v."
+  },
+  "pity": {
+    "word": "pity",
+    "type": "cet4",
+    "phonetic": "[ˈpɪti]",
+    "meaning": "同情；怜悯；遗憾；同情",
+    "pos": "n./v."
+  },
+  "plain": {
+    "word": "plain",
+    "type": "cet4",
+    "phonetic": "[pleɪn]",
+    "meaning": "清楚的；朴素的；平凡的；坦诚的；平原",
+    "pos": "adj./n."
+  },
+  "plantation": {
+    "word": "plantation",
+    "type": "cet4",
+    "phonetic": "[plɑːnˈteɪʃn]",
+    "meaning": "种植园；人造林",
+    "pos": "n."
+  },
+  "platform": {
+    "word": "platform",
+    "type": "cet4",
+    "phonetic": "[ˈplætfɔːm]",
+    "meaning": "平台；站台；讲台；纲领",
+    "pos": "n."
+  },
+  "pleasant": {
+    "word": "pleasant",
+    "type": "cet4",
+    "phonetic": "[ˈpleznt]",
+    "meaning": "令人愉快的；友好的；可喜的",
+    "pos": "adj."
+  },
+  "pleasure": {
+    "word": "pleasure",
+    "type": "cet4",
+    "phonetic": "[ˈpleʒə(r)]",
+    "meaning": "愉快；快乐；乐事；满足；娱乐",
+    "pos": "n."
+  },
+  "pledge": {
+    "word": "pledge",
+    "type": "cet4",
+    "phonetic": "[pledʒ]",
+    "meaning": "正式承诺；使保证；保证；誓言",
+    "pos": "v./n."
+  },
+  "plentiful": {
+    "word": "plentiful",
+    "type": "cet4",
+    "phonetic": "[ˈplentɪfl]",
+    "meaning": "丰富的；众多的",
+    "pos": "adj."
+  },
+  "plough": {
+    "word": "plough",
+    "type": "cet4",
+    "phonetic": "[plaʊ]",
+    "meaning": "犁；犁；耕",
+    "pos": "n./v."
+  },
+  "plunge": {
+    "word": "plunge",
+    "type": "cet4",
+    "phonetic": "[plʌndʒ]",
+    "meaning": "暴跌；骤降；暴跌；猛降",
+    "pos": "v./n."
+  },
+  "poem": {
+    "word": "poem",
+    "type": "cet4",
+    "phonetic": "[ˈpəʊɪm]",
+    "meaning": "诗",
+    "pos": "n."
+  },
+  "poet": {
+    "word": "poet",
+    "type": "cet4",
+    "phonetic": "[ˈpəʊɪt]",
+    "meaning": "诗人",
+    "pos": "n."
+  },
+  "poetry": {
+    "word": "poetry",
+    "type": "cet4",
+    "phonetic": "[ˈpəʊətri]",
+    "meaning": "诗集；诗歌",
+    "pos": "n."
+  },
+  "poison": {
+    "word": "poison",
+    "type": "cet4",
+    "phonetic": "[ˈpɔɪzn]",
+    "meaning": "毒药",
+    "pos": "n."
+  },
+  "poisonous": {
+    "word": "poisonous",
+    "type": "cet4",
+    "phonetic": "[ˈpɔɪzənəs]",
+    "meaning": "有毒的；引起中毒的",
+    "pos": "adj."
+  },
+  "political": {
+    "word": "political",
+    "type": "cet4",
+    "phonetic": "[pəˈlɪtɪkl]",
+    "meaning": "政治的；党派的",
+    "pos": "adj."
+  },
+  "poll": {
+    "word": "poll",
+    "type": "cet4",
+    "phonetic": "[pəʊl]",
+    "meaning": "民意测验；计票；投票数；获得（票数）",
+    "pos": "n./v."
+  },
+  "port": {
+    "word": "port",
+    "type": "cet4",
+    "phonetic": "[pɔːt]",
+    "meaning": "港；港口；港口城市",
+    "pos": "n."
+  },
+  "portable": {
+    "word": "portable",
+    "type": "cet4",
+    "phonetic": "[ˈpɔːtəbl]",
+    "meaning": "轻便的；手提的；便携式的",
+    "pos": "adj."
+  },
+  "portion": {
+    "word": "portion",
+    "type": "cet4",
+    "phonetic": "[ˈpɔːʃn]",
+    "meaning": "部分；一份",
+    "pos": "n."
+  },
+  "portrait": {
+    "word": "portrait",
+    "type": "cet4",
+    "phonetic": "[ˈpɔːtreɪt]",
+    "meaning": "肖像；描绘",
+    "pos": "n."
+  },
+  "possess": {
+    "word": "possess",
+    "type": "cet4",
+    "phonetic": "[pəˈzes]",
+    "meaning": "拥有；具有（品质或能力）",
+    "pos": "v."
+  },
+  "possession": {
+    "word": "possession",
+    "type": "cet4",
+    "phonetic": "[pəˈzeʃn]",
+    "meaning": "拥有；个人财产",
+    "pos": "n."
+  },
+  "postpone": {
+    "word": "postpone",
+    "type": "cet4",
+    "phonetic": "[pəˈspəʊn]",
+    "meaning": "推迟；延迟；延期",
+    "pos": "v."
+  },
+  "practically": {
+    "word": "practically",
+    "type": "cet4",
+    "phonetic": "[ˈpræktɪkli]",
+    "meaning": "实际地；几乎",
+    "pos": "adv."
+  },
+  "pray": {
+    "word": "pray",
+    "type": "cet4",
+    "phonetic": "[preɪ]",
+    "meaning": "祷告；祈祷",
+    "pos": "v."
+  },
+  "precaution": {
+    "word": "precaution",
+    "type": "cet4",
+    "phonetic": "[prɪˈkɔːʃn]",
+    "meaning": "预防措施",
+    "pos": "n."
+  },
+  "precise": {
+    "word": "precise",
+    "type": "cet4",
+    "phonetic": "[prɪˈsaɪs]",
+    "meaning": "精确的；准确的",
+    "pos": "adj."
+  },
+  "predict": {
+    "word": "predict",
+    "type": "cet4",
+    "phonetic": "[prɪˈdɪkt]",
+    "meaning": "预测；预言",
+    "pos": "v."
+  },
+  "preferable": {
+    "word": "preferable",
+    "type": "cet4",
+    "phonetic": "[ˈprefrəbl]",
+    "meaning": "更好的；更合适的",
+    "pos": "adj."
+  },
+  "preference": {
+    "word": "preference",
+    "type": "cet4",
+    "phonetic": "[ˈprefrəns]",
+    "meaning": "偏爱；喜爱",
+    "pos": "n."
+  },
+  "prejudice": {
+    "word": "prejudice",
+    "type": "cet4",
+    "phonetic": "[ˈpredʒudɪs]",
+    "meaning": "偏见；成见",
+    "pos": "n."
+  },
+  "preliminary": {
+    "word": "preliminary",
+    "type": "cet4",
+    "phonetic": "[prɪˈlɪmɪnəri]",
+    "meaning": "预备的；初步的",
+    "pos": "adj."
+  },
+  "premier": {
+    "word": "premier",
+    "type": "cet4",
+    "phonetic": "[ˈpremiə(r)]",
+    "meaning": "总理；首相；首要的",
+    "pos": "n./adj."
+  },
+  "prescribe": {
+    "word": "prescribe",
+    "type": "cet4",
+    "phonetic": "[prɪˈskraɪb]",
+    "meaning": "开处方",
+    "pos": "v."
+  },
+  "preserve": {
+    "word": "preserve",
+    "type": "cet4",
+    "phonetic": "[prɪˈzɜːv]",
+    "meaning": "保护；维持；保存",
+    "pos": "v."
+  },
+  "pretend": {
+    "word": "pretend",
+    "type": "cet4",
+    "phonetic": "[prɪˈtend]",
+    "meaning": "假装；装作",
+    "pos": "v."
+  },
+  "prevail": {
+    "word": "prevail",
+    "type": "cet4",
+    "phonetic": "[prɪˈveɪl]",
+    "meaning": "盛行；流行",
+    "pos": "v."
+  },
+  "prevent": {
+    "word": "prevent",
+    "type": "cet4",
+    "phonetic": "[prɪˈvent]",
+    "meaning": "预防；防止",
+    "pos": "v."
+  },
+  "priest": {
+    "word": "priest",
+    "type": "cet4",
+    "phonetic": "[priːst]",
+    "meaning": "牧师；神父；祭司",
+    "pos": "n."
+  },
+  "principal": {
+    "word": "principal",
+    "type": "cet4",
+    "phonetic": "[ˈprɪnsəpl]",
+    "meaning": "主要的；校长",
+    "pos": "adj./n."
+  },
+  "principle": {
+    "word": "principle",
+    "type": "cet4",
+    "phonetic": "[ˈprɪnsəpl]",
+    "meaning": "原则",
+    "pos": "n."
+  },
+  "prior": {
+    "word": "prior",
+    "type": "cet4",
+    "phonetic": "[ˈpraɪə(r)]",
+    "meaning": "先前的；优先的",
+    "pos": "adj."
+  },
+  "priority": {
+    "word": "priority",
+    "type": "cet4",
+    "phonetic": "[praɪˈɒrəti]",
+    "meaning": "优先；优先权",
+    "pos": "n."
+  },
+  "privilege": {
+    "word": "privilege",
+    "type": "cet4",
+    "phonetic": "[ˈprɪvəlɪdʒ]",
+    "meaning": "特权；优惠",
+    "pos": "n."
+  },
+  "procedure": {
+    "word": "procedure",
+    "type": "cet4",
+    "phonetic": "[prəˈsiːdʒə(r)]",
+    "meaning": "程序；步骤",
+    "pos": "n."
+  },
+  "proceed": {
+    "word": "proceed",
+    "type": "cet4",
+    "phonetic": "[prəˈsiːd]",
+    "meaning": "继续做；前往；行进",
+    "pos": "v."
+  },
+  "procession": {
+    "word": "procession",
+    "type": "cet4",
+    "phonetic": "[prəˈseʃn]",
+    "meaning": "队伍；（人或车辆的）行列",
+    "pos": "n."
+  },
+  "proclaim": {
+    "word": "proclaim",
+    "type": "cet4",
+    "phonetic": "[prəˈkleɪm]",
+    "meaning": "宣布；表明",
+    "pos": "v."
+  },
+  "prohibit": {
+    "word": "prohibit",
+    "type": "cet4",
+    "phonetic": "[prəˈhɪbɪt]",
+    "meaning": "禁止；阻止",
+    "pos": "v."
+  },
+  "prominent": {
+    "word": "prominent",
+    "type": "cet4",
+    "phonetic": "[ˈprɒmɪnənt]",
+    "meaning": "突出的；杰出的",
+    "pos": "adj."
+  },
+  "prompt": {
+    "word": "prompt",
+    "type": "cet4",
+    "phonetic": "[prɒmpt]",
+    "meaning": "迅速的；立刻的；促使；导致",
+    "pos": "adj./v."
+  },
+  "proof": {
+    "word": "proof",
+    "type": "cet4",
+    "phonetic": "[pruːf]",
+    "meaning": "证明；证据；防…的",
+    "pos": "n./adj."
+  },
+  "proper": {
+    "word": "proper",
+    "type": "cet4",
+    "phonetic": "[ˈprɒpə(r)]",
+    "meaning": "正确的；恰当的；合乎体统的",
+    "pos": "adj."
+  },
+  "property": {
+    "word": "property",
+    "type": "cet4",
+    "phonetic": "[ˈprɒpəti]",
+    "meaning": "财产；资产；性质",
+    "pos": "n."
+  },
+  "proportional": {
+    "word": "proportional",
+    "type": "cet4",
+    "phonetic": "[prəˈpɔːʃənl]",
+    "meaning": "成比例的；相称的",
+    "pos": "adj."
+  },
+  "propose": {
+    "word": "propose",
+    "type": "cet4",
+    "phonetic": "[prəˈpəʊz]",
+    "meaning": "提议；求婚",
+    "pos": "v."
+  },
+  "prospect": {
+    "word": "prospect",
+    "type": "cet4",
+    "phonetic": "[ˈprɒspekt]",
+    "meaning": "展望；前景；景色",
+    "pos": "n."
+  },
+  "prosperity": {
+    "word": "prosperity",
+    "type": "cet4",
+    "phonetic": "[prɒˈsperəti]",
+    "meaning": "繁荣；昌盛；兴旺",
+    "pos": "n."
+  },
+  "prosperous": {
+    "word": "prosperous",
+    "type": "cet4",
+    "phonetic": "[ˈprɒspərəs]",
+    "meaning": "繁荣的；兴旺的",
+    "pos": "adj."
+  },
+  "protest": {
+    "word": "protest",
+    "type": "cet4",
+    "phonetic": "[ˈprəʊtest]",
+    "meaning": "抗议；反对；抗议活动",
+    "pos": "v./n."
+  },
+  "provided": {
+    "word": "provided",
+    "type": "cet4",
+    "phonetic": "[prəˈvaɪdɪd]",
+    "meaning": "在…条件下；假如",
+    "pos": "conj."
+  },
+  "provision": {
+    "word": "provision",
+    "type": "cet4",
+    "phonetic": "[prəˈvɪʒn]",
+    "meaning": "预备；供应；规定；条款",
+    "pos": "n."
+  },
+  "provoke": {
+    "word": "provoke",
+    "type": "cet4",
+    "phonetic": "[prəˈvəʊk]",
+    "meaning": "激怒；引起",
+    "pos": "v."
+  },
+  "psychological": {
+    "word": "psychological",
+    "type": "cet4",
+    "phonetic": "[ˌsaɪkəˈlɒdʒɪkl]",
+    "meaning": "心理的；心理学上的",
+    "pos": "adj."
+  },
+  "psychology": {
+    "word": "psychology",
+    "type": "cet4",
+    "phonetic": "[saɪˈkɒlədʒi]",
+    "meaning": "心理学；心理",
+    "pos": "n."
+  },
+  "pump": {
+    "word": "pump",
+    "type": "cet4",
+    "phonetic": "[pʌmp]",
+    "meaning": "泵；用泵输送",
+    "pos": "n./v."
+  },
+  "punctual": {
+    "word": "punctual",
+    "type": "cet4",
+    "phonetic": "[ˈpʌŋktʃuəl]",
+    "meaning": "按时的；准时的",
+    "pos": "adj."
+  },
+  "purchase": {
+    "word": "purchase",
+    "type": "cet4",
+    "phonetic": "[ˈpɜːtʃəs]",
+    "meaning": "购买",
+    "pos": "v./n."
+  },
+  "pursue": {
+    "word": "pursue",
+    "type": "cet4",
+    "phonetic": "[pəˈsjuː]",
+    "meaning": "追求；追赶",
+    "pos": "v."
+  },
+  "pursuit": {
+    "word": "pursuit",
+    "type": "cet4",
+    "phonetic": "[pəˈsjuːt]",
+    "meaning": "追赶；追求；爱好",
+    "pos": "n."
+  },
+  "puzzle": {
+    "word": "puzzle",
+    "type": "cet4",
+    "phonetic": "[ˈpʌzl]",
+    "meaning": "谜；智力游戏；难题；迷惑；使困惑",
+    "pos": "n./v."
+  },
+  "quality": {
+    "word": "quality",
+    "type": "cet4",
+    "phonetic": "[ˈkwɒləti]",
+    "meaning": "质量；品质；特性",
+    "pos": "n."
+  },
+  "quarrel": {
+    "word": "quarrel",
+    "type": "cet4",
+    "phonetic": "[ˈkwɒrəl]",
+    "meaning": "争吵",
+    "pos": "n./v."
+  },
+  "quarter": {
+    "word": "quarter",
+    "type": "cet4",
+    "phonetic": "[ˈkwɔːtə(r)]",
+    "meaning": "四分之一；一刻钟；季度",
+    "pos": "n."
+  },
+  "queue": {
+    "word": "queue",
+    "type": "cet4",
+    "phonetic": "[kjuː]",
+    "meaning": "队列；排队；排队等候",
+    "pos": "n./v."
+  },
+  "quotation": {
+    "word": "quotation",
+    "type": "cet4",
+    "phonetic": "[kwəʊˈteɪʃn]",
+    "meaning": "报价；引用；引文",
+    "pos": "n."
+  },
+  "racial": {
+    "word": "racial",
+    "type": "cet4",
+    "phonetic": "[ˈreɪʃl]",
+    "meaning": "种族的；人种的",
+    "pos": "adj."
+  },
+  "radical": {
+    "word": "radical",
+    "type": "cet4",
+    "phonetic": "[ˈrædɪkl]",
+    "meaning": "激进的；根本的；激进分子",
+    "pos": "adj./n."
+  },
+  "railroad": {
+    "word": "railroad",
+    "type": "cet4",
+    "phonetic": "[ˈreɪlrəʊd]",
+    "meaning": "铁路；迫使…做",
+    "pos": "n./v."
+  },
+  "ratio": {
+    "word": "ratio",
+    "type": "cet4",
+    "phonetic": "[ˈreɪʃiəʊ]",
+    "meaning": "比率；比例",
+    "pos": "n."
+  },
+  "rational": {
+    "word": "rational",
+    "type": "cet4",
+    "phonetic": "[ˈræʃnəl]",
+    "meaning": "合理的；理性的",
+    "pos": "adj."
+  },
+  "realistic": {
+    "word": "realistic",
+    "type": "cet4",
+    "phonetic": "[ˌriːəˈlɪstɪk]",
+    "meaning": "现实的；实际的",
+    "pos": "adj."
+  },
+  "realm": {
+    "word": "realm",
+    "type": "cet4",
+    "phonetic": "[relm]",
+    "meaning": "领域；范围；王国",
+    "pos": "n."
+  },
+  "rear": {
+    "word": "rear",
+    "type": "cet4",
+    "phonetic": "[rɪə(r)]",
+    "meaning": "后部；背面；臀部；后面的；抚养；饲养",
+    "pos": "n./adj./v."
+  },
+  "rebel": {
+    "word": "rebel",
+    "type": "cet4",
+    "phonetic": "[rɪˈbel, ˈrebl]",
+    "meaning": "反抗；造反；反叛；反叛者",
+    "pos": "v./n."
+  },
+  "reception": {
+    "word": "reception",
+    "type": "cet4",
+    "phonetic": "[rɪˈsepʃn]",
+    "meaning": "接待处；招待会；接收",
+    "pos": "n."
+  },
+  "reckon": {
+    "word": "reckon",
+    "type": "cet4",
+    "phonetic": "[ˈrekən]",
+    "meaning": "认为；预计；估计",
+    "pos": "v."
+  },
+  "recognition": {
+    "word": "recognition",
+    "type": "cet4",
+    "phonetic": "[ˌrekəɡˈnɪʃn]",
+    "meaning": "认出；承认",
+    "pos": "n."
+  },
+  "recognize": {
+    "word": "recognize",
+    "type": "cet4",
+    "phonetic": "[ˈrekəɡnaɪz]",
+    "meaning": "识别出；承认",
+    "pos": "v."
+  },
+  "recommend": {
+    "word": "recommend",
+    "type": "cet4",
+    "phonetic": "[ˌrekəˈmend]",
+    "meaning": "推荐；劝告",
+    "pos": "v."
+  },
+  "recreation": {
+    "word": "recreation",
+    "type": "cet4",
+    "phonetic": "[ˌriːkriˈeɪʃn]",
+    "meaning": "娱乐；娱乐活动",
+    "pos": "n."
+  },
+  "recruit": {
+    "word": "recruit",
+    "type": "cet4",
+    "phonetic": "[rɪˈkruːt]",
+    "meaning": "招募；招聘",
+    "pos": "v."
+  },
+  "refer": {
+    "word": "refer",
+    "type": "cet4",
+    "phonetic": "[rɪˈfɜː(r)]",
+    "meaning": "谈及；查阅；参考；提交",
+    "pos": "v."
+  },
+  "refine": {
+    "word": "refine",
+    "type": "cet4",
+    "phonetic": "[rɪˈfaɪn]",
+    "meaning": "精炼；提纯；改善",
+    "pos": "v."
+  },
+  "refined": {
+    "word": "refined",
+    "type": "cet4",
+    "phonetic": "[rɪˈfaɪnd]",
+    "meaning": "精炼的；有教养的",
+    "pos": "adj."
+  },
+  "reform": {
+    "word": "reform",
+    "type": "cet4",
+    "phonetic": "[rɪˈfɔːm]",
+    "meaning": "改良；改革",
+    "pos": "v./n."
+  },
+  "refrain": {
+    "word": "refrain",
+    "type": "cet4",
+    "phonetic": "[rɪˈfreɪn]",
+    "meaning": "克制",
+    "pos": "v."
+  },
+  "refresh": {
+    "word": "refresh",
+    "type": "cet4",
+    "phonetic": "[rɪˈfreʃ]",
+    "meaning": "使恢复；更新；使想起",
+    "pos": "v."
+  },
+  "refrigerator": {
+    "word": "refrigerator",
+    "type": "cet4",
+    "phonetic": "[rɪˈfrɪdʒəreɪtə(r)]",
+    "meaning": "冰箱；冷藏库",
+    "pos": "n."
+  },
+  "regarding": {
+    "word": "regarding",
+    "type": "cet4",
+    "phonetic": "[rɪˈɡɑːdɪŋ]",
+    "meaning": "关于",
+    "pos": "prep."
+  },
+  "region": {
+    "word": "region",
+    "type": "cet4",
+    "phonetic": "[ˈriːdʒən]",
+    "meaning": "区域；地区；领域",
+    "pos": "n."
+  },
+  "register": {
+    "word": "register",
+    "type": "cet4",
+    "phonetic": "[ˈredʒɪstə(r)]",
+    "meaning": "登记；注册；登记簿",
+    "pos": "v./n."
+  },
+  "regret": {
+    "word": "regret",
+    "type": "cet4",
+    "phonetic": "[rɪˈɡret]",
+    "meaning": "后悔；对…感到遗憾；懊悔",
+    "pos": "v./n."
+  },
+  "regular": {
+    "word": "regular",
+    "type": "cet4",
+    "phonetic": "[ˈregjələ(r)]",
+    "meaning": "定期的；经常的；常客",
+    "pos": "adj./n."
+  },
+  "regulate": {
+    "word": "regulate",
+    "type": "cet4",
+    "phonetic": "[ˈregjuleɪt]",
+    "meaning": "管理；控制；调整；调节",
+    "pos": "v."
+  },
+  "reinforce": {
+    "word": "reinforce",
+    "type": "cet4",
+    "phonetic": "[ˌriːɪnˈfɔːs]",
+    "meaning": "增援；加强；巩固",
+    "pos": "v."
+  },
+  "reject": {
+    "word": "reject",
+    "type": "cet4",
+    "phonetic": "[rɪˈdʒekt]",
+    "meaning": "拒绝",
+    "pos": "v."
+  },
+  "relation": {
+    "word": "relation",
+    "type": "cet4",
+    "phonetic": "[rɪˈleɪʃn]",
+    "meaning": "关系；联系；亲戚",
+    "pos": "n."
+  },
+  "relativity": {
+    "word": "relativity",
+    "type": "cet4",
+    "phonetic": "[ˌreləˈtɪvəti]",
+    "meaning": "相对论；相对性",
+    "pos": "n."
+  },
+  "relevant": {
+    "word": "relevant",
+    "type": "cet4",
+    "phonetic": "[ˈreləvənt]",
+    "meaning": "相关的",
+    "pos": "adj."
+  },
+  "reliability": {
+    "word": "reliability",
+    "type": "cet4",
+    "phonetic": "[rɪˌlaɪəˈbɪləti]",
+    "meaning": "可靠性",
+    "pos": "n."
+  },
+  "reliable": {
+    "word": "reliable",
+    "type": "cet4",
+    "phonetic": "[rɪˈlaɪəbl]",
+    "meaning": "可靠的",
+    "pos": "adj."
+  },
+  "religious": {
+    "word": "religious",
+    "type": "cet4",
+    "phonetic": "[rɪˈlɪdʒəs]",
+    "meaning": "宗教的；虔诚的",
+    "pos": "adj."
+  },
+  "reluctant": {
+    "word": "reluctant",
+    "type": "cet4",
+    "phonetic": "[rɪˈlʌktənt]",
+    "meaning": "不情愿的；勉强的",
+    "pos": "adj."
+  },
+  "remark": {
+    "word": "remark",
+    "type": "cet4",
+    "phonetic": "[rɪˈmɑːk]",
+    "meaning": "评论",
+    "pos": "v./n."
+  },
+  "remarkable": {
+    "word": "remarkable",
+    "type": "cet4",
+    "phonetic": "[rɪˈmɑːkəbl]",
+    "meaning": "引人注目的；非凡的",
+    "pos": "adj."
+  },
+  "remedy": {
+    "word": "remedy",
+    "type": "cet4",
+    "phonetic": "[ˈremədi]",
+    "meaning": "改正；治疗方法；补救措施",
+    "pos": "v./n."
+  },
+  "remote": {
+    "word": "remote",
+    "type": "cet4",
+    "phonetic": "[rɪˈməʊt]",
+    "meaning": "遥远的；偏僻的；远程的；远程",
+    "pos": "adj./n."
+  },
+  "remove": {
+    "word": "remove",
+    "type": "cet4",
+    "phonetic": "[rɪˈmuːv]",
+    "meaning": "移开；搬走；脱掉",
+    "pos": "v."
+  },
+  "render": {
+    "word": "render",
+    "type": "cet4",
+    "phonetic": "[ˈrendə(r)]",
+    "meaning": "提供；翻译；表达；回报",
+    "pos": "v."
+  },
+  "renovate": {
+    "word": "renovate",
+    "type": "cet4",
+    "phonetic": "[ˈrenəveɪt]",
+    "meaning": "翻新；修复",
+    "pos": "v."
+  },
+  "represent": {
+    "word": "represent",
+    "type": "cet4",
+    "phonetic": "[ˌreprɪˈzent]",
+    "meaning": "代表；陈述",
+    "pos": "v."
+  },
+  "representative": {
+    "word": "representative",
+    "type": "cet4",
+    "phonetic": "[ˌreprɪˈzentətɪv]",
+    "meaning": "典型的；有代表性的；代表",
+    "pos": "adj./n."
+  },
+  "reproduce": {
+    "word": "reproduce",
+    "type": "cet4",
+    "phonetic": "[ˌriːprəˈdjuːs]",
+    "meaning": "繁殖；生殖；复制；使再生",
+    "pos": "v."
+  },
+  "republic": {
+    "word": "republic",
+    "type": "cet4",
+    "phonetic": "[rɪˈpʌblɪk]",
+    "meaning": "共和国；共和政体",
+    "pos": "n."
+  },
+  "reputation": {
+    "word": "reputation",
+    "type": "cet4",
+    "phonetic": "[ˌrepjuˈteɪʃn]",
+    "meaning": "名誉；名声",
+    "pos": "n."
+  },
+  "rescue": {
+    "word": "rescue",
+    "type": "cet4",
+    "phonetic": "[ˈreskjuː]",
+    "meaning": "援救；营救",
+    "pos": "v./n."
+  },
+  "resemble": {
+    "word": "resemble",
+    "type": "cet4",
+    "phonetic": "[rɪˈzembl]",
+    "meaning": "像；与…相似",
+    "pos": "v."
+  },
+  "resent": {
+    "word": "resent",
+    "type": "cet4",
+    "phonetic": "[rɪˈzent]",
+    "meaning": "愤恨；怨恨",
+    "pos": "v."
+  },
+  "reserve": {
+    "word": "reserve",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɜːv]",
+    "meaning": "预定；保留",
+    "pos": "v."
+  },
+  "reside": {
+    "word": "reside",
+    "type": "cet4",
+    "phonetic": "[rɪˈzaɪd]",
+    "meaning": "居住在",
+    "pos": "v."
+  },
+  "residence": {
+    "word": "residence",
+    "type": "cet4",
+    "phonetic": "[ˈrezɪdəns]",
+    "meaning": "住处；住宅",
+    "pos": "n."
+  },
+  "resident": {
+    "word": "resident",
+    "type": "cet4",
+    "phonetic": "[ˈrezɪdənt]",
+    "meaning": "居民；居住的",
+    "pos": "n./adj."
+  },
+  "resign": {
+    "word": "resign",
+    "type": "cet4",
+    "phonetic": "[rɪˈzaɪn]",
+    "meaning": "辞职",
+    "pos": "v."
+  },
+  "resist": {
+    "word": "resist",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɪst]",
+    "meaning": "抵抗；反抗",
+    "pos": "v."
+  },
+  "resistance": {
+    "word": "resistance",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɪstəns]",
+    "meaning": "反对；抵抗",
+    "pos": "n."
+  },
+  "resistant": {
+    "word": "resistant",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɪstənt]",
+    "meaning": "抵抗的；抗…的",
+    "pos": "adj."
+  },
+  "resolution": {
+    "word": "resolution",
+    "type": "cet4",
+    "phonetic": "[ˌrezəˈluːʃn]",
+    "meaning": "决议；决心；解决",
+    "pos": "n."
+  },
+  "resolve": {
+    "word": "resolve",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɒlv]",
+    "meaning": "解决；决心",
+    "pos": "v."
+  },
+  "resort": {
+    "word": "resort",
+    "type": "cet4",
+    "phonetic": "[rɪˈzɔːt]",
+    "meaning": "求助；诉诸于；度假胜地",
+    "pos": "v./n."
+  },
+  "respective": {
+    "word": "respective",
+    "type": "cet4",
+    "phonetic": "[rɪˈspektɪv]",
+    "meaning": "各自的；各个的",
+    "pos": "adj."
+  },
+  "restless": {
+    "word": "restless",
+    "type": "cet4",
+    "phonetic": "[ˈrestləs]",
+    "meaning": "坐立不安的；不耐烦的",
+    "pos": "adj."
+  },
+  "restore": {
+    "word": "restore",
+    "type": "cet4",
+    "phonetic": "[rɪˈstɔː(r)]",
+    "meaning": "恢复；归还；修复",
+    "pos": "v."
+  },
+  "restrain": {
+    "word": "restrain",
+    "type": "cet4",
+    "phonetic": "[rɪˈstreɪn]",
+    "meaning": "约束；管制；抑制",
+    "pos": "v."
+  },
+  "restrict": {
+    "word": "restrict",
+    "type": "cet4",
+    "phonetic": "[rɪˈstrɪkt]",
+    "meaning": "限制；限定；约束",
+    "pos": "v."
+  },
+  "resume": {
+    "word": "resume",
+    "type": "cet4",
+    "phonetic": "[rɪˈzjuːm]",
+    "meaning": "重新开始",
+    "pos": "v."
+  },
+  "retail": {
+    "word": "retail",
+    "type": "cet4",
+    "phonetic": "[ˈriːteɪl]",
+    "meaning": "零售",
+    "pos": "n./v."
+  },
+  "retain": {
+    "word": "retain",
+    "type": "cet4",
+    "phonetic": "[rɪˈteɪn]",
+    "meaning": "保持；保留",
+    "pos": "v."
+  },
+  "retreat": {
+    "word": "retreat",
+    "type": "cet4",
+    "phonetic": "[rɪˈtriːt]",
+    "meaning": "后退；撤退；躲避",
+    "pos": "v./n."
+  },
+  "reveal": {
+    "word": "reveal",
+    "type": "cet4",
+    "phonetic": "[rɪˈviːl]",
+    "meaning": "揭示；暴露",
+    "pos": "v."
+  },
+  "revenue": {
+    "word": "revenue",
+    "type": "cet4",
+    "phonetic": "[ˈrevənjuː]",
+    "meaning": "财政收入；税收",
+    "pos": "n."
+  },
+  "reverse": {
+    "word": "reverse",
+    "type": "cet4",
+    "phonetic": "[rɪˈvɜːs]",
+    "meaning": "颠倒；反转；相反的",
+    "pos": "v./adj."
+  },
+  "revise": {
+    "word": "revise",
+    "type": "cet4",
+    "phonetic": "[rɪˈvaɪz]",
+    "meaning": "修订；修改；复习；校订",
+    "pos": "v./n."
+  },
+  "revolt": {
+    "word": "revolt",
+    "type": "cet4",
+    "phonetic": "[rɪˈvəʊlt]",
+    "meaning": "反抗；反叛",
+    "pos": "v./n."
+  },
+  "revolution": {
+    "word": "revolution",
+    "type": "cet4",
+    "phonetic": "[ˌrevəˈluːʃn]",
+    "meaning": "革命；旋转",
+    "pos": "n."
+  },
+  "revolutionary": {
+    "word": "revolutionary",
+    "type": "cet4",
+    "phonetic": "[ˌrevəˈluːʃənəri]",
+    "meaning": "革命的；革命者",
+    "pos": "adj./n."
+  },
+  "rhythm": {
+    "word": "rhythm",
+    "type": "cet4",
+    "phonetic": "[ˈrɪðəm]",
+    "meaning": "节奏；韵律",
+    "pos": "n."
+  },
+  "ridge": {
+    "word": "ridge",
+    "type": "cet4",
+    "phonetic": "[rɪdʒ]",
+    "meaning": "脊；山脉；垄",
+    "pos": "n."
+  },
+  "ridiculous": {
+    "word": "ridiculous",
+    "type": "cet4",
+    "phonetic": "[rɪˈdɪkjələs]",
+    "meaning": "荒谬的；可笑的",
+    "pos": "adj."
+  },
+  "rigid": {
+    "word": "rigid",
+    "type": "cet4",
+    "phonetic": "[ˈrɪdʒɪd]",
+    "meaning": "严格的；僵硬的；刚硬的",
+    "pos": "adj."
+  },
+  "rival": {
+    "word": "rival",
+    "type": "cet4",
+    "phonetic": "[ˈraɪvl]",
+    "meaning": "对手；竞争者；竞争",
+    "pos": "n./v."
+  },
+  "romantic": {
+    "word": "romantic",
+    "type": "cet4",
+    "phonetic": "[rəʊˈmæntɪk]",
+    "meaning": "浪漫的",
+    "pos": "adj."
+  },
+  "root": {
+    "word": "root",
+    "type": "cet4",
+    "phonetic": "[ruːt]",
+    "meaning": "根；根源；根基；生根",
+    "pos": "n./v."
+  },
+  "rotate": {
+    "word": "rotate",
+    "type": "cet4",
+    "phonetic": "[rəʊˈteɪt]",
+    "meaning": "旋转；轮流",
+    "pos": "v."
+  },
+  "rouse": {
+    "word": "rouse",
+    "type": "cet4",
+    "phonetic": "[raʊz]",
+    "meaning": "激起；使振奋；唤醒",
+    "pos": "v."
+  },
+  "routine": {
+    "word": "routine",
+    "type": "cet4",
+    "phonetic": "[ruːˈtiːn]",
+    "meaning": "常规；常规的；日常的",
+    "pos": "n./adj."
+  },
+  "royal": {
+    "word": "royal",
+    "type": "cet4",
+    "phonetic": "[ˈrɔɪəl]",
+    "meaning": "王室的；皇家的；盛大的",
+    "pos": "adj."
+  },
+  "rumour": {
+    "word": "rumour",
+    "type": "cet4",
+    "phonetic": "[ˈruːmə(r)]",
+    "meaning": "谣言（亦作rumor）",
+    "pos": "n."
+  },
+  "rural": {
+    "word": "rural",
+    "type": "cet4",
+    "phonetic": "[ˈrʊərəl]",
+    "meaning": "乡村的；农村的",
+    "pos": "adj."
+  },
+  "sacrifice": {
+    "word": "sacrifice",
+    "type": "cet4",
+    "phonetic": "[ˈsækrɪfaɪs]",
+    "meaning": "牺牲；祭献；牺牲；祭品",
+    "pos": "v./n."
+  },
+  "scarce": {
+    "word": "scarce",
+    "type": "cet4",
+    "phonetic": "[skeəs]",
+    "meaning": "缺乏的；稀少的；几乎不；简直不",
+    "pos": "adj./adv."
+  },
+  "scatter": {
+    "word": "scatter",
+    "type": "cet4",
+    "phonetic": "[ˈskætə(r)]",
+    "meaning": "撒播；撒；驱散；散落",
+    "pos": "v./n."
+  },
+  "scenery": {
+    "word": "scenery",
+    "type": "cet4",
+    "phonetic": "[ˈsiːnəri]",
+    "meaning": "风景；舞台布景",
+    "pos": "n."
+  },
+  "scent": {
+    "word": "scent",
+    "type": "cet4",
+    "phonetic": "[sent]",
+    "meaning": "香味；气息；察觉；嗅出；察觉出",
+    "pos": "n./v."
+  },
+  "schema": {
+    "word": "schema",
+    "type": "cet4",
+    "phonetic": "[ˈskiːmə]",
+    "meaning": "模式；纲要；图解",
+    "pos": "n."
+  },
+  "scholar": {
+    "word": "scholar",
+    "type": "cet4",
+    "phonetic": "[ˈskɒlə(r)]",
+    "meaning": "学者",
+    "pos": "n."
+  },
+  "scold": {
+    "word": "scold",
+    "type": "cet4",
+    "phonetic": "[skəʊld]",
+    "meaning": "训斥；责骂",
+    "pos": "v."
+  },
+  "scratch": {
+    "word": "scratch",
+    "type": "cet4",
+    "phonetic": "[skrætʃ]",
+    "meaning": "搔；抓；划伤",
+    "pos": "v./n."
+  },
+  "scream": {
+    "word": "scream",
+    "type": "cet4",
+    "phonetic": "[skriːm]",
+    "meaning": "尖叫；高声喊；呼啸而过；尖叫",
+    "pos": "v./n."
+  },
+  "secretary": {
+    "word": "secretary",
+    "type": "cet4",
+    "phonetic": "[ˈsekrətri]",
+    "meaning": "秘书；干事；大臣",
+    "pos": "n."
+  },
+  "section": {
+    "word": "section",
+    "type": "cet4",
+    "phonetic": "[ˈsekʃn]",
+    "meaning": "部门；部分；一段",
+    "pos": "n."
+  },
+  "seek": {
+    "word": "seek",
+    "type": "cet4",
+    "phonetic": "[siːk]",
+    "meaning": "寻找；谋求；试图",
+    "pos": "v."
+  },
+  "segment": {
+    "word": "segment",
+    "type": "cet4",
+    "phonetic": "[ˈseɡmənt]",
+    "meaning": "部分；段；分割",
+    "pos": "n./v."
+  },
+  "seize": {
+    "word": "seize",
+    "type": "cet4",
+    "phonetic": "[siːz]",
+    "meaning": "抓住；逮捕；夺取",
+    "pos": "v."
+  },
+  "sensible": {
+    "word": "sensible",
+    "type": "cet4",
+    "phonetic": "[ˈsensəbl]",
+    "meaning": "明智的；意识到的",
+    "pos": "adj."
+  },
+  "sensitive": {
+    "word": "sensitive",
+    "type": "cet4",
+    "phonetic": "[ˈsensətɪv]",
+    "meaning": "敏感的；灵敏的",
+    "pos": "adj."
+  },
+  "separate": {
+    "word": "separate",
+    "type": "cet4",
+    "phonetic": "[ˈseprət]",
+    "meaning": "单独的；分开的；（使）分开；分离",
+    "pos": "adj./v."
+  },
+  "sequence": {
+    "word": "sequence",
+    "type": "cet4",
+    "phonetic": "[ˈsiːkwəns]",
+    "meaning": "顺序；次序",
+    "pos": "n."
+  },
+  "settlement": {
+    "word": "settlement",
+    "type": "cet4",
+    "phonetic": "[ˈsetlmənt]",
+    "meaning": "定居点；解决；结算；移民",
+    "pos": "n."
+  },
+  "severe": {
+    "word": "severe",
+    "type": "cet4",
+    "phonetic": "[sɪˈvɪə(r)]",
+    "meaning": "严重的；严厉的；恶劣的；严峻的",
+    "pos": "adj."
+  },
+  "shade": {
+    "word": "shade",
+    "type": "cet4",
+    "phonetic": "[ʃeɪd]",
+    "meaning": "阴凉处；遮光物；暗部；为…遮阳",
+    "pos": "n./v."
+  },
+  "shelter": {
+    "word": "shelter",
+    "type": "cet4",
+    "phonetic": "[ˈʃeltə(r)]",
+    "meaning": "庇护处；躲避；保护",
+    "pos": "n./v."
+  },
+  "shift": {
+    "word": "shift",
+    "type": "cet4",
+    "phonetic": "[ʃɪft]",
+    "meaning": "移动；改变",
+    "pos": "v./n."
+  },
+  "shiver": {
+    "word": "shiver",
+    "type": "cet4",
+    "phonetic": "[ˈʃɪvə(r)]",
+    "meaning": "颤抖；哆嗦",
+    "pos": "v./n."
+  },
+  "shortage": {
+    "word": "shortage",
+    "type": "cet4",
+    "phonetic": "[ˈʃɔːtɪdʒ]",
+    "meaning": "不足；缺少；短缺",
+    "pos": "n."
+  },
+  "shrink": {
+    "word": "shrink",
+    "type": "cet4",
+    "phonetic": "[ʃrɪŋk]",
+    "meaning": "（使）缩小；（使）收缩；缩水；退缩",
+    "pos": "v."
+  },
+  "sight": {
+    "word": "sight",
+    "type": "cet4",
+    "phonetic": "[saɪt]",
+    "meaning": "视力；视觉；情景；景点",
+    "pos": "n."
+  },
+  "sightseeing": {
+    "word": "sightseeing",
+    "type": "cet4",
+    "phonetic": "[ˈsaɪtsiːɪŋ]",
+    "meaning": "观光；游览",
+    "pos": "n."
+  },
+  "significance": {
+    "word": "significance",
+    "type": "cet4",
+    "phonetic": "[sɪgˈnɪfɪkəns]",
+    "meaning": "意义；重要性",
+    "pos": "n."
+  },
+  "significant": {
+    "word": "significant",
+    "type": "cet4",
+    "phonetic": "[sɪgˈnɪfɪkənt]",
+    "meaning": "显著的；重要的",
+    "pos": "adj."
+  },
+  "sincere": {
+    "word": "sincere",
+    "type": "cet4",
+    "phonetic": "[sɪnˈsɪə(r)]",
+    "meaning": "真诚的；诚挚的；诚实的",
+    "pos": "adj."
+  },
+  "sincerely": {
+    "word": "sincerely",
+    "type": "cet4",
+    "phonetic": "[sɪnˈsɪəli]",
+    "meaning": "真诚地；诚实地",
+    "pos": "adv."
+  },
+  "sink": {
+    "word": "sink",
+    "type": "cet4",
+    "phonetic": "[sɪŋk]",
+    "meaning": "（使）下沉；水池；水槽",
+    "pos": "v./n."
+  },
+  "situation": {
+    "word": "situation",
+    "type": "cet4",
+    "phonetic": "[ˌsɪtʃuˈeɪʃn]",
+    "meaning": "形势；情况；位置",
+    "pos": "n."
+  },
+  "sketch": {
+    "word": "sketch",
+    "type": "cet4",
+    "phonetic": "[sketʃ]",
+    "meaning": "画素描；概述；素描；小品；概述",
+    "pos": "v./n."
+  },
+  "skillful": {
+    "word": "skillful",
+    "type": "cet4",
+    "phonetic": "[ˈskɪlfl]",
+    "meaning": "熟练的；巧妙的",
+    "pos": "adj."
+  },
+  "slave": {
+    "word": "slave",
+    "type": "cet4",
+    "phonetic": "[sleɪv]",
+    "meaning": "奴隶；苦干",
+    "pos": "n./v."
+  },
+  "slender": {
+    "word": "slender",
+    "type": "cet4",
+    "phonetic": "[ˈslendə(r)]",
+    "meaning": "纤细的；苗条的",
+    "pos": "adj."
+  },
+  "slide": {
+    "word": "slide",
+    "type": "cet4",
+    "phonetic": "[slaɪd]",
+    "meaning": "滑动；下滑；衰落；幻灯片；滑动；滑梯",
+    "pos": "v./n."
+  },
+  "soak": {
+    "word": "soak",
+    "type": "cet4",
+    "phonetic": "[səʊk]",
+    "meaning": "浸泡",
+    "pos": "v./n."
+  },
+  "solemn": {
+    "word": "solemn",
+    "type": "cet4",
+    "phonetic": "[ˈsɒləm]",
+    "meaning": "庄严的；严肃的",
+    "pos": "adj."
+  },
+  "solid": {
+    "word": "solid",
+    "type": "cet4",
+    "phonetic": "[ˈsɒlɪd]",
+    "meaning": "固体的；结实的；可靠的；固体",
+    "pos": "adj./n."
+  },
+  "sophisticated": {
+    "word": "sophisticated",
+    "type": "cet4",
+    "phonetic": "[səˈfɪstɪkeɪtɪd]",
+    "meaning": "见多识广的；老练的；复杂巧妙的",
+    "pos": "adj."
+  },
+  "sorrow": {
+    "word": "sorrow",
+    "type": "cet4",
+    "phonetic": "[ˈsɒrəʊ]",
+    "meaning": "悲伤",
+    "pos": "n."
+  },
+  "sorrowful": {
+    "word": "sorrowful",
+    "type": "cet4",
+    "phonetic": "[ˈsɒrəʊfl]",
+    "meaning": "悲伤的",
+    "pos": "adj."
+  },
+  "spacious": {
+    "word": "spacious",
+    "type": "cet4",
+    "phonetic": "[ˈspeɪʃəs]",
+    "meaning": "宽敞的",
+    "pos": "adj."
+  },
+  "sparkle": {
+    "word": "sparkle",
+    "type": "cet4",
+    "phonetic": "[ˈspɑːkl]",
+    "meaning": "闪烁；活力；闪耀",
+    "pos": "n./v."
+  },
+  "specialize": {
+    "word": "specialize",
+    "type": "cet4",
+    "phonetic": "[ˈspeʃəlaɪz]",
+    "meaning": "专攻；专门从事",
+    "pos": "v."
+  },
+  "species": {
+    "word": "species",
+    "type": "cet4",
+    "phonetic": "[ˈspiːʃiːz]",
+    "meaning": "物种",
+    "pos": "n."
+  },
+  "specific": {
+    "word": "specific",
+    "type": "cet4",
+    "phonetic": "[spəˈsɪfɪk]",
+    "meaning": "明确的；具体的",
+    "pos": "adj."
+  },
+  "specify": {
+    "word": "specify",
+    "type": "cet4",
+    "phonetic": "[ˈspesɪfaɪ]",
+    "meaning": "具体说明；明确指出",
+    "pos": "v."
+  },
+  "speculate": {
+    "word": "speculate",
+    "type": "cet4",
+    "phonetic": "[ˈspekjuleɪt]",
+    "meaning": "推测；推断；猜测；投机",
+    "pos": "v."
+  },
+  "splendid": {
+    "word": "splendid",
+    "type": "cet4",
+    "phonetic": "[ˈsplendɪd]",
+    "meaning": "辉煌的；极佳的；壮丽的；豪华的",
+    "pos": "adj."
+  },
+  "split": {
+    "word": "split",
+    "type": "cet4",
+    "phonetic": "[splɪt]",
+    "meaning": "分裂；分开；分手",
+    "pos": "v."
+  },
+  "spoil": {
+    "word": "spoil",
+    "type": "cet4",
+    "phonetic": "[spɔɪl]",
+    "meaning": "破坏；溺爱",
+    "pos": "v."
+  },
+  "sponsor": {
+    "word": "sponsor",
+    "type": "cet4",
+    "phonetic": "[ˈspɒnsə(r)]",
+    "meaning": "赞助商；赞助",
+    "pos": "n./v."
+  },
+  "spur": {
+    "word": "spur",
+    "type": "cet4",
+    "phonetic": "[spɜː(r)]",
+    "meaning": "刺激；鼓舞",
+    "pos": "n./v."
+  },
+  "squeeze": {
+    "word": "squeeze",
+    "type": "cet4",
+    "phonetic": "[skwiːz]",
+    "meaning": "挤；压",
+    "pos": "v."
+  },
+  "stability": {
+    "word": "stability",
+    "type": "cet4",
+    "phonetic": "[stəˈbɪləti]",
+    "meaning": "稳定（性）；稳固（性）",
+    "pos": "n."
+  },
+  "stable": {
+    "word": "stable",
+    "type": "cet4",
+    "phonetic": "[ˈsteɪbl]",
+    "meaning": "稳定的；牢固的",
+    "pos": "adj."
+  },
+  "stadium": {
+    "word": "stadium",
+    "type": "cet4",
+    "phonetic": "[ˈsteɪdiəm]",
+    "meaning": "体育场；运动场",
+    "pos": "n."
+  },
+  "startle": {
+    "word": "startle",
+    "type": "cet4",
+    "phonetic": "[ˈstɑːtl]",
+    "meaning": "使惊吓",
+    "pos": "v."
+  },
+  "static": {
+    "word": "static",
+    "type": "cet4",
+    "phonetic": "[ˈstætɪk]",
+    "meaning": "静止的；静态的；静电",
+    "pos": "adj./n."
+  },
+  "statistic": {
+    "word": "statistic",
+    "type": "cet4",
+    "phonetic": "[stəˈtɪstɪk]",
+    "meaning": "统计数据；统计学（复数statistics）",
+    "pos": "n."
+  },
+  "status": {
+    "word": "status",
+    "type": "cet4",
+    "phonetic": "[ˈsteɪtəs]",
+    "meaning": "地位；身份；状况",
+    "pos": "n."
+  },
+  "steady": {
+    "word": "steady",
+    "type": "cet4",
+    "phonetic": "[ˈstedi]",
+    "meaning": "稳定的；稳固的",
+    "pos": "adj."
+  },
+  "steer": {
+    "word": "steer",
+    "type": "cet4",
+    "phonetic": "[stɪə(r)]",
+    "meaning": "驾驶；行驶；引导；控制",
+    "pos": "v."
+  },
+  "stimulate": {
+    "word": "stimulate",
+    "type": "cet4",
+    "phonetic": "[ˈstɪmjuleɪt]",
+    "meaning": "刺激；激励；激发",
+    "pos": "v."
+  },
+  "sting": {
+    "word": "sting",
+    "type": "cet4",
+    "phonetic": "[stɪŋ]",
+    "meaning": "刺；刺痛",
+    "pos": "v./n."
+  },
+  "straightforward": {
+    "word": "straightforward",
+    "type": "cet4",
+    "phonetic": "[ˌstreɪtˈfɔːwəd]",
+    "meaning": "简单的；易懂的；坦率的",
+    "pos": "adj."
+  },
+  "strategic": {
+    "word": "strategic",
+    "type": "cet4",
+    "phonetic": "[strəˈtiːdʒɪk]",
+    "meaning": "战略的；策略的",
+    "pos": "adj."
+  },
+  "strategy": {
+    "word": "strategy",
+    "type": "cet4",
+    "phonetic": "[ˈstrætədʒi]",
+    "meaning": "战略；策略",
+    "pos": "n."
+  },
+  "strength": {
+    "word": "strength",
+    "type": "cet4",
+    "phonetic": "[streŋθ]",
+    "meaning": "力量；毅力；实力；长处",
+    "pos": "n."
+  },
+  "strengthen": {
+    "word": "strengthen",
+    "type": "cet4",
+    "phonetic": "[ˈstreŋθn]",
+    "meaning": "加强；增强",
+    "pos": "v."
+  },
+  "stretch": {
+    "word": "stretch",
+    "type": "cet4",
+    "phonetic": "[stretʃ]",
+    "meaning": "伸展；张开；延伸",
+    "pos": "v./n."
+  },
+  "strike": {
+    "word": "strike",
+    "type": "cet4",
+    "phonetic": "[straɪk]",
+    "meaning": "撞击；罢工；突然想到",
+    "pos": "v."
+  },
+  "string": {
+    "word": "string",
+    "type": "cet4",
+    "phonetic": "[strɪŋ]",
+    "meaning": "线；绳；一串；系；悬挂",
+    "pos": "n./v."
+  },
+  "strive": {
+    "word": "strive",
+    "type": "cet4",
+    "phonetic": "[straɪv]",
+    "meaning": "努力；奋斗",
+    "pos": "v."
+  },
+  "structure": {
+    "word": "structure",
+    "type": "cet4",
+    "phonetic": "[ˈstrʌktʃə(r)]",
+    "meaning": "结构；构造；建筑物",
+    "pos": "n."
+  },
+  "subject": {
+    "word": "subject",
+    "type": "cet4",
+    "phonetic": "[ˈsʌbdʒɪkt, səbˈdʒekt]",
+    "meaning": "主题；学科；实验对象；可能受…影响；使臣服；使遭受",
+    "pos": "n./adj./v."
+  },
+  "submarine": {
+    "word": "submarine",
+    "type": "cet4",
+    "phonetic": "[ˌsʌbməˈriːn]",
+    "meaning": "水下的；海底的；潜水艇",
+    "pos": "adj./n."
+  },
+  "submerge": {
+    "word": "submerge",
+    "type": "cet4",
+    "phonetic": "[səbˈmɜːdʒ]",
+    "meaning": "淹没；潜入水中",
+    "pos": "v."
+  },
+  "submit": {
+    "word": "submit",
+    "type": "cet4",
+    "phonetic": "[səbˈmɪt]",
+    "meaning": "呈递；提交；服从",
+    "pos": "v."
+  },
+  "subsequent": {
+    "word": "subsequent",
+    "type": "cet4",
+    "phonetic": "[ˈsʌbsɪkwənt]",
+    "meaning": "随后的；后来的",
+    "pos": "adj."
+  },
+  "substance": {
+    "word": "substance",
+    "type": "cet4",
+    "phonetic": "[ˈsʌbstəns]",
+    "meaning": "物质；实质",
+    "pos": "n."
+  },
+  "substantial": {
+    "word": "substantial",
+    "type": "cet4",
+    "phonetic": "[səbˈstænʃl]",
+    "meaning": "大量的；牢固的",
+    "pos": "adj."
+  },
+  "substitute": {
+    "word": "substitute",
+    "type": "cet4",
+    "phonetic": "[ˈsʌbstɪtjuːt]",
+    "meaning": "代替者；替代品；用…代替；替代性的",
+    "pos": "n./v./adj."
+  },
+  "successive": {
+    "word": "successive",
+    "type": "cet4",
+    "phonetic": "[səkˈsesɪv]",
+    "meaning": "连续的；相继的",
+    "pos": "adj."
+  },
+  "sufficient": {
+    "word": "sufficient",
+    "type": "cet4",
+    "phonetic": "[səˈfɪʃnt]",
+    "meaning": "足够的；充分的",
+    "pos": "adj."
+  },
+  "summit": {
+    "word": "summit",
+    "type": "cet4",
+    "phonetic": "[ˈsʌmɪt]",
+    "meaning": "最高点；首脑会议；峰会；顶峰",
+    "pos": "n."
+  },
+  "superficial": {
+    "word": "superficial",
+    "type": "cet4",
+    "phonetic": "[ˌsuːpəˈfɪʃl]",
+    "meaning": "表面的；肤浅的",
+    "pos": "adj."
+  },
+  "superior": {
+    "word": "superior",
+    "type": "cet4",
+    "phonetic": "[suːˈpɪəriə(r)]",
+    "meaning": "更高的；更好的；有优越感的",
+    "pos": "adj."
+  },
+  "supplement": {
+    "word": "supplement",
+    "type": "cet4",
+    "phonetic": "[ˈsʌplɪmənt]",
+    "meaning": "补充；增补",
+    "pos": "v./n."
+  },
+  "supreme": {
+    "word": "supreme",
+    "type": "cet4",
+    "phonetic": "[suːˈpriːm]",
+    "meaning": "最高的；至高无上的；最重要的",
+    "pos": "adj."
+  },
+  "surface": {
+    "word": "surface",
+    "type": "cet4",
+    "phonetic": "[ˈsɜːfɪs]",
+    "meaning": "表面；表层；外观",
+    "pos": "n."
+  },
+  "surge": {
+    "word": "surge",
+    "type": "cet4",
+    "phonetic": "[sɜːdʒ]",
+    "meaning": "激增；涌动",
+    "pos": "v./n."
+  },
+  "surrounding": {
+    "word": "surrounding",
+    "type": "cet4",
+    "phonetic": "[səˈraʊndɪŋ]",
+    "meaning": "周围的",
+    "pos": "adj."
+  },
+  "suspect": {
+    "word": "suspect",
+    "type": "cet4",
+    "phonetic": "[səˈspekt]",
+    "meaning": "怀疑；嫌疑犯",
+    "pos": "v./n."
+  },
+  "suspend": {
+    "word": "suspend",
+    "type": "cet4",
+    "phonetic": "[səˈspend]",
+    "meaning": "推迟；使暂停；吊；悬",
+    "pos": "v."
+  },
+  "sustain": {
+    "word": "sustain",
+    "type": "cet4",
+    "phonetic": "[səˈsteɪn]",
+    "meaning": "保持；维持（生命、生存）",
+    "pos": "v."
+  },
+  "sway": {
+    "word": "sway",
+    "type": "cet4",
+    "phonetic": "[sweɪ]",
+    "meaning": "摇动；摇摆；影响",
+    "pos": "v./n."
+  },
+  "swear": {
+    "word": "swear",
+    "type": "cet4",
+    "phonetic": "[sweə(r)]",
+    "meaning": "发誓；宣誓；咒骂；说脏话",
+    "pos": "v."
+  },
+  "sweater": {
+    "word": "sweater",
+    "type": "cet4",
+    "phonetic": "[ˈswetə(r)]",
+    "meaning": "毛绒衣；针织衫",
+    "pos": "n."
+  },
+  "swell": {
+    "word": "swell",
+    "type": "cet4",
+    "phonetic": "[swel]",
+    "meaning": "肿胀",
+    "pos": "v."
+  },
+  "swing": {
+    "word": "swing",
+    "type": "cet4",
+    "phonetic": "[swɪŋ]",
+    "meaning": "摇摆；转向；转动；秋千；摇摆",
+    "pos": "v./n."
+  },
+  "switch": {
+    "word": "switch",
+    "type": "cet4",
+    "phonetic": "[swɪtʃ]",
+    "meaning": "开关；电闸；转变；转变；改变；转换",
+    "pos": "n./v."
+  },
+  "sympathetic": {
+    "word": "sympathetic",
+    "type": "cet4",
+    "phonetic": "[ˌsɪmpəˈθetɪk]",
+    "meaning": "同情的；赞同的",
+    "pos": "adj."
+  },
+  "sympathize": {
+    "word": "sympathize",
+    "type": "cet4",
+    "phonetic": "[ˈsɪmpəθaɪz]",
+    "meaning": "同情；支持",
+    "pos": "v."
+  },
+  "symptom": {
+    "word": "symptom",
+    "type": "cet4",
+    "phonetic": "[ˈsɪmptəm]",
+    "meaning": "症状；征兆",
+    "pos": "n."
+  },
+  "synthetic": {
+    "word": "synthetic",
+    "type": "cet4",
+    "phonetic": "[sɪnˈθetɪk]",
+    "meaning": "综合的；合成的；人造的；合成物",
+    "pos": "adj./n."
+  },
+  "tackle": {
+    "word": "tackle",
+    "type": "cet4",
+    "phonetic": "[ˈtækl]",
+    "meaning": "处理；应付",
+    "pos": "v."
+  },
+  "tale": {
+    "word": "tale",
+    "type": "cet4",
+    "phonetic": "[teɪl]",
+    "meaning": "故事；传说",
+    "pos": "n."
+  },
+  "tame": {
+    "word": "tame",
+    "type": "cet4",
+    "phonetic": "[teɪm]",
+    "meaning": "驯服的；温顺的；驯化；驯服",
+    "pos": "adj./v."
+  },
+  "tangible": {
+    "word": "tangible",
+    "type": "cet4",
+    "phonetic": "[ˈtændʒəbl]",
+    "meaning": "有形的；实际的；可触摸的",
+    "pos": "adj."
+  },
+  "technical": {
+    "word": "technical",
+    "type": "cet4",
+    "phonetic": "[ˈteknɪkl]",
+    "meaning": "技术的；工艺的；专业的",
+    "pos": "adj."
+  },
+  "technique": {
+    "word": "technique",
+    "type": "cet4",
+    "phonetic": "[tekˈniːk]",
+    "meaning": "技巧；技能；技术",
+    "pos": "n."
+  },
+  "tedious": {
+    "word": "tedious",
+    "type": "cet4",
+    "phonetic": "[ˈtiːdiəs]",
+    "meaning": "冗长的；单调乏味的",
+    "pos": "adj."
+  },
+  "temper": {
+    "word": "temper",
+    "type": "cet4",
+    "phonetic": "[ˈtempə(r)]",
+    "meaning": "脾气；怒气；情绪；使缓和；使温和",
+    "pos": "n./v."
+  },
+  "temporary": {
+    "word": "temporary",
+    "type": "cet4",
+    "phonetic": "[ˈtemprəri]",
+    "meaning": "暂时的；临时的",
+    "pos": "adj."
+  },
+  "temptation": {
+    "word": "temptation",
+    "type": "cet4",
+    "phonetic": "[tempˈteɪʃn]",
+    "meaning": "诱惑；引诱",
+    "pos": "n."
+  },
+  "tense": {
+    "word": "tense",
+    "type": "cet4",
+    "phonetic": "[tens]",
+    "meaning": "紧张的；绷紧的；拉紧；时态",
+    "pos": "adj./v./n."
+  },
+  "tension": {
+    "word": "tension",
+    "type": "cet4",
+    "phonetic": "[ˈtenʃn]",
+    "meaning": "紧张；拉紧；张力",
+    "pos": "n."
+  },
+  "terminal": {
+    "word": "terminal",
+    "type": "cet4",
+    "phonetic": "[ˈtɜːmɪnl]",
+    "meaning": "末端的；终点的；晚期的；末端",
+    "pos": "adj./n."
+  },
+  "territory": {
+    "word": "territory",
+    "type": "cet4",
+    "phonetic": "[ˈterətri]",
+    "meaning": "领土；领域",
+    "pos": "n."
+  },
+  "terror": {
+    "word": "terror",
+    "type": "cet4",
+    "phonetic": "[ˈterə(r)]",
+    "meaning": "恐怖；惊骇；小捣蛋",
+    "pos": "n."
+  },
+  "theoretical": {
+    "word": "theoretical",
+    "type": "cet4",
+    "phonetic": "[ˌθɪəˈretɪkl]",
+    "meaning": "理论（上）的",
+    "pos": "adj."
+  },
+  "theory": {
+    "word": "theory",
+    "type": "cet4",
+    "phonetic": "[ˈθɪəri]",
+    "meaning": "理论；原理",
+    "pos": "n."
+  },
+  "therapy": {
+    "word": "therapy",
+    "type": "cet4",
+    "phonetic": "[ˈθerəpi]",
+    "meaning": "治疗；疗法",
+    "pos": "n."
+  },
+  "thorough": {
+    "word": "thorough",
+    "type": "cet4",
+    "phonetic": "[ˈθʌrə]",
+    "meaning": "彻底的；全面的",
+    "pos": "adj."
+  },
+  "thought": {
+    "word": "thought",
+    "type": "cet4",
+    "phonetic": "[θɔːt]",
+    "meaning": "思想；思考；想法；关心",
+    "pos": "n."
+  },
+  "thoughtful": {
+    "word": "thoughtful",
+    "type": "cet4",
+    "phonetic": "[ˈθɔːtfl]",
+    "meaning": "沉思的；周到的；体贴的",
+    "pos": "adj."
+  },
+  "threaten": {
+    "word": "threaten",
+    "type": "cet4",
+    "phonetic": "[ˈθretn]",
+    "meaning": "威胁；恐吓",
+    "pos": "v."
+  },
+  "thrive": {
+    "word": "thrive",
+    "type": "cet4",
+    "phonetic": "[θraɪv]",
+    "meaning": "兴旺；繁荣；旺盛",
+    "pos": "v."
+  },
+  "thrust": {
+    "word": "thrust",
+    "type": "cet4",
+    "phonetic": "[θrʌst]",
+    "meaning": "插；刺；猛推；插；戳；推力；要点",
+    "pos": "v./n."
+  },
+  "thunder": {
+    "word": "thunder",
+    "type": "cet4",
+    "phonetic": "[ˈθʌndə(r)]",
+    "meaning": "雷（声）；打雷；怒吼",
+    "pos": "n./v."
+  },
+  "token": {
+    "word": "token",
+    "type": "cet4",
+    "phonetic": "[ˈtəʊkən]",
+    "meaning": "代币；象征；装样子的",
+    "pos": "n./adj."
+  },
+  "tolerance": {
+    "word": "tolerance",
+    "type": "cet4",
+    "phonetic": "[ˈtɒlərəns]",
+    "meaning": "忍受；宽容；耐受度",
+    "pos": "n."
+  },
+  "tolerant": {
+    "word": "tolerant",
+    "type": "cet4",
+    "phonetic": "[ˈtɒlərənt]",
+    "meaning": "容忍的；宽容的",
+    "pos": "adj."
+  },
+  "tolerate": {
+    "word": "tolerate",
+    "type": "cet4",
+    "phonetic": "[ˈtɒləreɪt]",
+    "meaning": "容许；容忍；允许",
+    "pos": "v."
+  },
+  "tough": {
+    "word": "tough",
+    "type": "cet4",
+    "phonetic": "[tʌf]",
+    "meaning": "坚强的；艰难的；艰苦的",
+    "pos": "adj."
+  },
+  "trace": {
+    "word": "trace",
+    "type": "cet4",
+    "phonetic": "[treɪs]",
+    "meaning": "痕迹；追踪；追溯",
+    "pos": "n./v."
+  },
+  "trademark": {
+    "word": "trademark",
+    "type": "cet4",
+    "phonetic": "[ˈtreɪdmɑːk]",
+    "meaning": "商标；特征；标记",
+    "pos": "n."
+  },
+  "tragedy": {
+    "word": "tragedy",
+    "type": "cet4",
+    "phonetic": "[ˈtrædʒədi]",
+    "meaning": "悲剧；惨事；惨案",
+    "pos": "n."
+  },
+  "trail": {
+    "word": "trail",
+    "type": "cet4",
+    "phonetic": "[treɪl]",
+    "meaning": "痕迹；小径；跟踪；拖；拉",
+    "pos": "n./v."
+  },
+  "transaction": {
+    "word": "transaction",
+    "type": "cet4",
+    "phonetic": "[trænˈzækʃn]",
+    "meaning": "交易；办理",
+    "pos": "n."
+  },
+  "transfer": {
+    "word": "transfer",
+    "type": "cet4",
+    "phonetic": "[trænsˈfɜː(r)]",
+    "meaning": "转移；搬迁",
+    "pos": "v./n."
+  },
+  "transit": {
+    "word": "transit",
+    "type": "cet4",
+    "phonetic": "[ˈtrænzɪt]",
+    "meaning": "运输；通过；交通运输体系",
+    "pos": "n."
+  },
+  "transition": {
+    "word": "transition",
+    "type": "cet4",
+    "phonetic": "[trænˈzɪʃn]",
+    "meaning": "过渡；转变",
+    "pos": "n."
+  },
+  "transmission": {
+    "word": "transmission",
+    "type": "cet4",
+    "phonetic": "[trænzˈmɪʃn]",
+    "meaning": "传递；传播",
+    "pos": "n."
+  },
+  "transmit": {
+    "word": "transmit",
+    "type": "cet4",
+    "phonetic": "[trænzˈmɪt]",
+    "meaning": "传输；输送；传染",
+    "pos": "v."
+  },
+  "transparent": {
+    "word": "transparent",
+    "type": "cet4",
+    "phonetic": "[trænsˈpærənt]",
+    "meaning": "透明的；显而易见的",
+    "pos": "adj."
+  },
+  "trap": {
+    "word": "trap",
+    "type": "cet4",
+    "phonetic": "[træp]",
+    "meaning": "陷阱；圈套；陷入困境；捕捉",
+    "pos": "n./v."
+  },
+  "trash": {
+    "word": "trash",
+    "type": "cet4",
+    "phonetic": "[træʃ]",
+    "meaning": "垃圾；劣质品；捣毁",
+    "pos": "n./v."
+  },
+  "treaty": {
+    "word": "treaty",
+    "type": "cet4",
+    "phonetic": "[ˈtriːti]",
+    "meaning": "条约；协议；协定",
+    "pos": "n."
+  },
+  "tremble": {
+    "word": "tremble",
+    "type": "cet4",
+    "phonetic": "[ˈtrembl]",
+    "meaning": "颤抖；战栗；焦虑；颤抖",
+    "pos": "v./n."
+  },
+  "tremendous": {
+    "word": "tremendous",
+    "type": "cet4",
+    "phonetic": "[trəˈmendəs]",
+    "meaning": "巨大的；极大的",
+    "pos": "adj."
+  },
+  "trial": {
+    "word": "trial",
+    "type": "cet4",
+    "phonetic": "[ˈtraɪəl]",
+    "meaning": "审讯；试验；考验",
+    "pos": "n."
+  },
+  "trifle": {
+    "word": "trifle",
+    "type": "cet4",
+    "phonetic": "[ˈtraɪfl]",
+    "meaning": "琐事；有点儿；稍微",
+    "pos": "n."
+  },
+  "trigger": {
+    "word": "trigger",
+    "type": "cet4",
+    "phonetic": "[ˈtrɪɡə(r)]",
+    "meaning": "扳机；引发；触发",
+    "pos": "n./v."
+  },
+  "trim": {
+    "word": "trim",
+    "type": "cet4",
+    "phonetic": "[trɪm]",
+    "meaning": "整齐的；苗条的；修剪；装饰（物）",
+    "pos": "adj./v./n."
+  },
+  "triumph": {
+    "word": "triumph",
+    "type": "cet4",
+    "phonetic": "[ˈtraɪʌmf]",
+    "meaning": "胜利；成功；战胜",
+    "pos": "n./v."
+  },
+  "troop": {
+    "word": "troop",
+    "type": "cet4",
+    "phonetic": "[truːp]",
+    "meaning": "一群士兵；群；成群地走",
+    "pos": "n./v."
+  },
+  "troublesome": {
+    "word": "troublesome",
+    "type": "cet4",
+    "phonetic": "[ˈtrʌblsəm]",
+    "meaning": "令人烦恼的；引起麻烦的",
+    "pos": "adj."
+  },
+  "trunk": {
+    "word": "trunk",
+    "type": "cet4",
+    "phonetic": "[trʌŋk]",
+    "meaning": "树干；大衣箱；象鼻；躯干",
+    "pos": "n."
+  },
+  "tunnel": {
+    "word": "tunnel",
+    "type": "cet4",
+    "phonetic": "[ˈtʌnl]",
+    "meaning": "隧道；坑道；地道",
+    "pos": "n."
+  },
+  "twin": {
+    "word": "twin",
+    "type": "cet4",
+    "phonetic": "[twɪn]",
+    "meaning": "双胞胎中一人；双胞胎的；成双的",
+    "pos": "n./adj."
+  },
+  "twist": {
+    "word": "twist",
+    "type": "cet4",
+    "phonetic": "[twɪst]",
+    "meaning": "扭曲；扭伤；拧；扭曲；转动",
+    "pos": "v./n."
+  },
+  "typical": {
+    "word": "typical",
+    "type": "cet4",
+    "phonetic": "[ˈtɪpɪkl]",
+    "meaning": "典型的",
+    "pos": "adj."
+  },
+  "ultimate": {
+    "word": "ultimate",
+    "type": "cet4",
+    "phonetic": "[ˈʌltɪmət]",
+    "meaning": "最后的；最终的；终极的",
+    "pos": "adj."
+  },
+  "unconscious": {
+    "word": "unconscious",
+    "type": "cet4",
+    "phonetic": "[ʌnˈkɒnʃəs]",
+    "meaning": "不省人事的；无意识的",
+    "pos": "adj."
+  },
+  "undergo": {
+    "word": "undergo",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈɡəʊ]",
+    "meaning": "经历；遭受",
+    "pos": "v."
+  },
+  "undergraduate": {
+    "word": "undergraduate",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈɡrædʒuət]",
+    "meaning": "大学本科生",
+    "pos": "n."
+  },
+  "underline": {
+    "word": "underline",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈlaɪn]",
+    "meaning": "强调；在…下划线",
+    "pos": "v."
+  },
+  "undermine": {
+    "word": "undermine",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈmaɪn]",
+    "meaning": "逐渐削弱；破坏；暗中损害",
+    "pos": "v."
+  },
+  "underneath": {
+    "word": "underneath",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈniːθ]",
+    "meaning": "在…下面；在…底下",
+    "pos": "prep."
+  },
+  "undertake": {
+    "word": "undertake",
+    "type": "cet4",
+    "phonetic": "[ˌʌndəˈteɪk]",
+    "meaning": "承担；从事；承诺",
+    "pos": "v."
+  },
+  "unique": {
+    "word": "unique",
+    "type": "cet4",
+    "phonetic": "[juˈniːk]",
+    "meaning": "独特的；独一无二的",
+    "pos": "adj."
+  },
+  "universal": {
+    "word": "universal",
+    "type": "cet4",
+    "phonetic": "[ˌjuːnɪˈvɜːsl]",
+    "meaning": "普遍的；通用的；全体的；共同的",
+    "pos": "adj."
+  },
+  "upper": {
+    "word": "upper",
+    "type": "cet4",
+    "phonetic": "[ˈʌpə(r)]",
+    "meaning": "上面的；较高的",
+    "pos": "adj."
+  },
+  "urban": {
+    "word": "urban",
+    "type": "cet4",
+    "phonetic": "[ˈɜːbən]",
+    "meaning": "城市的；城镇的；都市的",
+    "pos": "adj."
+  },
+  "urgent": {
+    "word": "urgent",
+    "type": "cet4",
+    "phonetic": "[ˈɜːdʒənt]",
+    "meaning": "急迫的；紧急的",
+    "pos": "adj."
+  },
+  "utility": {
+    "word": "utility",
+    "type": "cet4",
+    "phonetic": "[juːˈtɪləti]",
+    "meaning": "实用；效用；公共事业",
+    "pos": "n."
+  },
+  "utilize": {
+    "word": "utilize",
+    "type": "cet4",
+    "phonetic": "[ˈjuːtəlaɪz]",
+    "meaning": "利用；使用",
+    "pos": "v."
+  },
+  "utmost": {
+    "word": "utmost",
+    "type": "cet4",
+    "phonetic": "[ˈʌtməʊst]",
+    "meaning": "最大的；极度的；极限（亦作uttermost）",
+    "pos": "adj./n."
+  },
+  "utter": {
+    "word": "utter",
+    "type": "cet4",
+    "phonetic": "[ˈʌtə(r)]",
+    "meaning": "完全的；彻底的；说出；讲",
+    "pos": "adj./v."
+  },
+  "vacant": {
+    "word": "vacant",
+    "type": "cet4",
+    "phonetic": "[ˈveɪkənt]",
+    "meaning": "空的；空缺的；呆滞的",
+    "pos": "adj."
+  },
+  "vacuum": {
+    "word": "vacuum",
+    "type": "cet4",
+    "phonetic": "[ˈvækjuəm]",
+    "meaning": "真空；真空吸尘器；用吸尘器打扫；真空的",
+    "pos": "n./v./adj."
+  },
+  "vague": {
+    "word": "vague",
+    "type": "cet4",
+    "phonetic": "[veɪɡ]",
+    "meaning": "模糊的；不明确的",
+    "pos": "adj."
+  },
+  "valid": {
+    "word": "valid",
+    "type": "cet4",
+    "phonetic": "[ˈvælɪd]",
+    "meaning": "有效的；正当的",
+    "pos": "adj."
+  },
+  "vanish": {
+    "word": "vanish",
+    "type": "cet4",
+    "phonetic": "[ˈvænɪʃ]",
+    "meaning": "突然不见；消失",
+    "pos": "v."
+  },
+  "variable": {
+    "word": "variable",
+    "type": "cet4",
+    "phonetic": "[ˈveəriəbl]",
+    "meaning": "变量；多变的；易变的",
+    "pos": "n./adj."
+  },
+  "vast": {
+    "word": "vast",
+    "type": "cet4",
+    "phonetic": "[vɑːst]",
+    "meaning": "巨大的；大量的；巨额的；广阔的",
+    "pos": "adj."
+  },
+  "vehicle": {
+    "word": "vehicle",
+    "type": "cet4",
+    "phonetic": "[ˈviːəkl]",
+    "meaning": "车辆；工具；手段",
+    "pos": "n."
+  },
+  "velocity": {
+    "word": "velocity",
+    "type": "cet4",
+    "phonetic": "[vəˈlɒsəti]",
+    "meaning": "速度；高速",
+    "pos": "n."
+  },
+  "venture": {
+    "word": "venture",
+    "type": "cet4",
+    "phonetic": "[ˈventʃə(r)]",
+    "meaning": "（风险的）企业；冒险行动；敢于去",
+    "pos": "n./v."
+  },
+  "verify": {
+    "word": "verify",
+    "type": "cet4",
+    "phonetic": "[ˈverɪfaɪ]",
+    "meaning": "核实；查证",
+    "pos": "v."
+  },
+  "version": {
+    "word": "version",
+    "type": "cet4",
+    "phonetic": "[ˈvɜːʃn]",
+    "meaning": "版本；样式；说法",
+    "pos": "n."
+  },
+  "vertical": {
+    "word": "vertical",
+    "type": "cet4",
+    "phonetic": "[ˈvɜːtɪkl]",
+    "meaning": "垂直的；直立的；纵向的",
+    "pos": "adj."
+  },
+  "veteran": {
+    "word": "veteran",
+    "type": "cet4",
+    "phonetic": "[ˈvetərən]",
+    "meaning": "老兵；老手",
+    "pos": "n."
+  },
+  "vibrate": {
+    "word": "vibrate",
+    "type": "cet4",
+    "phonetic": "[ˈvaɪbreɪt]",
+    "meaning": "（使）颤动",
+    "pos": "v."
+  },
+  "viewpoint": {
+    "word": "viewpoint",
+    "type": "cet4",
+    "phonetic": "[ˈvjuːpɔɪnt]",
+    "meaning": "观点；意见；角度",
+    "pos": "n."
+  },
+  "vigor": {
+    "word": "vigor",
+    "type": "cet4",
+    "phonetic": "[ˈvɪɡə]",
+    "meaning": "活力；精力；热情",
+    "pos": "n."
+  },
+  "vigorous": {
+    "word": "vigorous",
+    "type": "cet4",
+    "phonetic": "[ˈvɪɡərəs]",
+    "meaning": "充满活力的",
+    "pos": "adj."
+  },
+  "violate": {
+    "word": "violate",
+    "type": "cet4",
+    "phonetic": "[ˈvaɪəleɪt]",
+    "meaning": "侵犯；违反；违背",
+    "pos": "v."
+  },
+  "violent": {
+    "word": "violent",
+    "type": "cet4",
+    "phonetic": "[ˈvaɪələnt]",
+    "meaning": "暴力的；猛烈的",
+    "pos": "adj."
+  },
+  "virtually": {
+    "word": "virtually",
+    "type": "cet4",
+    "phonetic": "[ˈvɜːtʃuəli]",
+    "meaning": "实质上；事实上；几乎",
+    "pos": "adv."
+  },
+  "virtue": {
+    "word": "virtue",
+    "type": "cet4",
+    "phonetic": "[ˈvɜːtʃuː]",
+    "meaning": "美德；德行；优点",
+    "pos": "n."
+  },
+  "virus": {
+    "word": "virus",
+    "type": "cet4",
+    "phonetic": "[ˈvaɪrəs]",
+    "meaning": "病毒",
+    "pos": "n."
+  },
+  "visible": {
+    "word": "visible",
+    "type": "cet4",
+    "phonetic": "[ˈvɪzəbl]",
+    "meaning": "可见的",
+    "pos": "adj."
+  },
+  "vision": {
+    "word": "vision",
+    "type": "cet4",
+    "phonetic": "[ˈvɪʒn]",
+    "meaning": "视力；视野",
+    "pos": "n."
+  },
+  "vital": {
+    "word": "vital",
+    "type": "cet4",
+    "phonetic": "[ˈvaɪtl]",
+    "meaning": "至关重要的；生命的；充满生机的",
+    "pos": "adj."
+  },
+  "vitamin": {
+    "word": "vitamin",
+    "type": "cet4",
+    "phonetic": "[ˈvɪtəmɪn]",
+    "meaning": "维生素；维他命",
+    "pos": "n."
+  },
+  "vivid": {
+    "word": "vivid",
+    "type": "cet4",
+    "phonetic": "[ˈvɪvɪd]",
+    "meaning": "生动的；清晰的",
+    "pos": "adj."
+  },
+  "vocation": {
+    "word": "vocation",
+    "type": "cet4",
+    "phonetic": "[vəʊˈkeɪʃn]",
+    "meaning": "职业；工作；使命感",
+    "pos": "n."
+  },
+  "volume": {
+    "word": "volume",
+    "type": "cet4",
+    "phonetic": "[ˈvɒljuːm]",
+    "meaning": "卷；册；量；体积；音量",
+    "pos": "n."
+  },
+  "voluntary": {
+    "word": "voluntary",
+    "type": "cet4",
+    "phonetic": "[ˈvɒləntri]",
+    "meaning": "自愿的；志愿的",
+    "pos": "adj."
+  },
+  "voyage": {
+    "word": "voyage",
+    "type": "cet4",
+    "phonetic": "[ˈvɔɪɪdʒ]",
+    "meaning": "航行；航海",
+    "pos": "v./n."
+  },
+  "wander": {
+    "word": "wander",
+    "type": "cet4",
+    "phonetic": "[ˈwɒndə(r)]",
+    "meaning": "徘徊；漫步；游荡",
+    "pos": "v."
+  },
+  "waterproof": {
+    "word": "waterproof",
+    "type": "cet4",
+    "phonetic": "[ˈwɔːtəpruːf]",
+    "meaning": "防水的；防水衣物；雨衣；使防水",
+    "pos": "adj./n./v."
+  },
+  "weave": {
+    "word": "weave",
+    "type": "cet4",
+    "phonetic": "[wiːv]",
+    "meaning": "编织",
+    "pos": "v."
+  },
+  "welfare": {
+    "word": "welfare",
+    "type": "cet4",
+    "phonetic": "[ˈwelfeə(r)]",
+    "meaning": "福利；幸福",
+    "pos": "n."
+  },
+  "well-off": {
+    "word": "well-off",
+    "type": "cet4",
+    "phonetic": "[ˌwel ˈɒf]",
+    "meaning": "富裕的",
+    "pos": "adj."
+  },
+  "whereas": {
+    "word": "whereas",
+    "type": "cet4",
+    "phonetic": "[ˌweərˈæz]",
+    "meaning": "然而；但是；尽管",
+    "pos": "conj."
+  },
+  "whisper": {
+    "word": "whisper",
+    "type": "cet4",
+    "phonetic": "[ˈwɪspə(r)]",
+    "meaning": "耳语；谣传；耳语；低语",
+    "pos": "n./v."
+  },
+  "wicked": {
+    "word": "wicked",
+    "type": "cet4",
+    "phonetic": "[ˈwɪkɪd]",
+    "meaning": "邪恶的；淘气的",
+    "pos": "adj."
+  },
+  "willing": {
+    "word": "willing",
+    "type": "cet4",
+    "phonetic": "[ˈwɪlɪŋ]",
+    "meaning": "乐意的；自愿的",
+    "pos": "adj."
+  },
+  "withdraw": {
+    "word": "withdraw",
+    "type": "cet4",
+    "phonetic": "[wɪðˈdrɔː]",
+    "meaning": "撤回；退出；收回；提取",
+    "pos": "v."
+  },
+  "withstand": {
+    "word": "withstand",
+    "type": "cet4",
+    "phonetic": "[wɪðˈstænd]",
+    "meaning": "承受；经受住",
+    "pos": "v."
+  },
+  "witness": {
+    "word": "witness",
+    "type": "cet4",
+    "phonetic": "[ˈwɪtnəs]",
+    "meaning": "目击者；证人；目击",
+    "pos": "n./v."
+  },
+  "world-wide": {
+    "word": "worldwide",
+    "type": "cet4",
+    "phonetic": "[wɜːld waɪd]",
+    "meaning": "遍及全世界的",
+    "pos": "adj."
+  },
+  "worship": {
+    "word": "worship",
+    "type": "cet4",
+    "phonetic": "[ˈwɜːʃɪp]",
+    "meaning": "礼拜；崇拜；崇拜；爱慕",
+    "pos": "n./v."
+  },
+  "wound": {
+    "word": "wound",
+    "type": "cet4",
+    "phonetic": "[waʊnd]",
+    "meaning": "（身体或心灵上的）伤；伤口",
+    "pos": "n."
+  },
+  "wreck": {
+    "word": "wreck",
+    "type": "cet4",
+    "phonetic": "[rek]",
+    "meaning": "失事；残骸；破坏；毁坏",
+    "pos": "n./v."
+  }
+}

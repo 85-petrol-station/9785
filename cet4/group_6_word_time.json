@@ -1,0 +1,604 @@
+[
+  {
+    "group_id": 6,
+    "full_text": "generation",
+    "segment_index": 1,
+    "audio_file": "group6_seg_0001.mp3",
+    "audio_path": "group_6_audio/group6_seg_0001.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "refer",
+    "segment_index": 2,
+    "audio_file": "group6_seg_0002.mp3",
+    "audio_path": "group_6_audio/group6_seg_0002.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "dialogue",
+    "segment_index": 3,
+    "audio_file": "group6_seg_0003.mp3",
+    "audio_path": "group_6_audio/group6_seg_0003.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "cream",
+    "segment_index": 4,
+    "audio_file": "group6_seg_0004.mp3",
+    "audio_path": "group_6_audio/group6_seg_0004.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "bone",
+    "segment_index": 5,
+    "audio_file": "group6_seg_0005.mp3",
+    "audio_path": "group_6_audio/group6_seg_0005.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "deed",
+    "segment_index": 6,
+    "audio_file": "group6_seg_0006.mp3",
+    "audio_path": "group_6_audio/group6_seg_0006.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "berry",
+    "segment_index": 7,
+    "audio_file": "group6_seg_0007.mp3",
+    "audio_path": "group_6_audio/group6_seg_0007.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "scent",
+    "segment_index": 8,
+    "audio_file": "group6_seg_0008.mp3",
+    "audio_path": "group_6_audio/group6_seg_0008.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "coast",
+    "segment_index": 9,
+    "audio_file": "group6_seg_0009.mp3",
+    "audio_path": "group_6_audio/group6_seg_0009.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "inch",
+    "segment_index": 10,
+    "audio_file": "group6_seg_0010.mp3",
+    "audio_path": "group_6_audio/group6_seg_0010.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "envelope",
+    "segment_index": 11,
+    "audio_file": "group6_seg_0011.mp3",
+    "audio_path": "group_6_audio/group6_seg_0011.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "handkerchief",
+    "segment_index": 12,
+    "audio_file": "group6_seg_0012.mp3",
+    "audio_path": "group_6_audio/group6_seg_0012.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "regular",
+    "segment_index": 13,
+    "audio_file": "group6_seg_0013.mp3",
+    "audio_path": "group_6_audio/group6_seg_0013.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "model",
+    "segment_index": 14,
+    "audio_file": "group6_seg_0014.mp3",
+    "audio_path": "group_6_audio/group6_seg_0014.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pleasure",
+    "segment_index": 15,
+    "audio_file": "group6_seg_0015.mp3",
+    "audio_path": "group_6_audio/group6_seg_0015.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pot",
+    "segment_index": 16,
+    "audio_file": "group6_seg_0016.mp3",
+    "audio_path": "group_6_audio/group6_seg_0016.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "length",
+    "segment_index": 17,
+    "audio_file": "group6_seg_0017.mp3",
+    "audio_path": "group_6_audio/group6_seg_0017.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "plain",
+    "segment_index": 18,
+    "audio_file": "group6_seg_0018.mp3",
+    "audio_path": "group_6_audio/group6_seg_0018.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "nail",
+    "segment_index": 19,
+    "audio_file": "group6_seg_0019.mp3",
+    "audio_path": "group_6_audio/group6_seg_0019.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "sweater",
+    "segment_index": 20,
+    "audio_file": "group6_seg_0020.mp3",
+    "audio_path": "group_6_audio/group6_seg_0020.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "patent",
+    "segment_index": 21,
+    "audio_file": "group6_seg_0021.mp3",
+    "audio_path": "group_6_audio/group6_seg_0021.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "treasure",
+    "segment_index": 22,
+    "audio_file": "group6_seg_0022.mp3",
+    "audio_path": "group_6_audio/group6_seg_0022.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "shade",
+    "segment_index": 23,
+    "audio_file": "group6_seg_0023.mp3",
+    "audio_path": "group_6_audio/group6_seg_0023.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "trail",
+    "segment_index": 24,
+    "audio_file": "group6_seg_0024.mp3",
+    "audio_path": "group_6_audio/group6_seg_0024.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "branch",
+    "segment_index": 25,
+    "audio_file": "group6_seg_0025.mp3",
+    "audio_path": "group_6_audio/group6_seg_0025.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "bush",
+    "segment_index": 26,
+    "audio_file": "group6_seg_0026.mp3",
+    "audio_path": "group_6_audio/group6_seg_0026.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "laboratory",
+    "segment_index": 27,
+    "audio_file": "group6_seg_0027.mp3",
+    "audio_path": "group_6_audio/group6_seg_0027.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "shelf",
+    "segment_index": 28,
+    "audio_file": "group6_seg_0028.mp3",
+    "audio_path": "group_6_audio/group6_seg_0028.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "Internet",
+    "segment_index": 29,
+    "audio_file": "group6_seg_0029.mp3",
+    "audio_path": "group_6_audio/group6_seg_0029.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "within",
+    "segment_index": 30,
+    "audio_file": "group6_seg_0030.mp3",
+    "audio_path": "group_6_audio/group6_seg_0030.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "temper",
+    "segment_index": 31,
+    "audio_file": "group6_seg_0031.mp3",
+    "audio_path": "group_6_audio/group6_seg_0031.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "soldier",
+    "segment_index": 32,
+    "audio_file": "group6_seg_0032.mp3",
+    "audio_path": "group_6_audio/group6_seg_0032.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "prison",
+    "segment_index": 33,
+    "audio_file": "group6_seg_0033.mp3",
+    "audio_path": "group_6_audio/group6_seg_0033.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "medicine",
+    "segment_index": 34,
+    "audio_file": "group6_seg_0034.mp3",
+    "audio_path": "group_6_audio/group6_seg_0034.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "sort",
+    "segment_index": 35,
+    "audio_file": "group6_seg_0035.mp3",
+    "audio_path": "group_6_audio/group6_seg_0035.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "throughout",
+    "segment_index": 36,
+    "audio_file": "group6_seg_0036.mp3",
+    "audio_path": "group_6_audio/group6_seg_0036.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "sweep",
+    "segment_index": 37,
+    "audio_file": "group6_seg_0037.mp3",
+    "audio_path": "group_6_audio/group6_seg_0037.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "seize",
+    "segment_index": 38,
+    "audio_file": "group6_seg_0038.mp3",
+    "audio_path": "group_6_audio/group6_seg_0038.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "otherwise",
+    "segment_index": 39,
+    "audio_file": "group6_seg_0039.mp3",
+    "audio_path": "group_6_audio/group6_seg_0039.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pleasant",
+    "segment_index": 40,
+    "audio_file": "group6_seg_0040.mp3",
+    "audio_path": "group_6_audio/group6_seg_0040.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "needle",
+    "segment_index": 41,
+    "audio_file": "group6_seg_0041.mp3",
+    "audio_path": "group_6_audio/group6_seg_0041.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "proper",
+    "segment_index": 42,
+    "audio_file": "group6_seg_0042.mp3",
+    "audio_path": "group_6_audio/group6_seg_0042.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "mouth",
+    "segment_index": 43,
+    "audio_file": "group6_seg_0043.mp3",
+    "audio_path": "group_6_audio/group6_seg_0043.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "sail",
+    "segment_index": 44,
+    "audio_file": "group6_seg_0044.mp3",
+    "audio_path": "group_6_audio/group6_seg_0044.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "hatch",
+    "segment_index": 45,
+    "audio_file": "group6_seg_0045.mp3",
+    "audio_path": "group_6_audio/group6_seg_0045.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "flow",
+    "segment_index": 46,
+    "audio_file": "group6_seg_0046.mp3",
+    "audio_path": "group_6_audio/group6_seg_0046.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "peach",
+    "segment_index": 47,
+    "audio_file": "group6_seg_0047.mp3",
+    "audio_path": "group_6_audio/group6_seg_0047.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "fist",
+    "segment_index": 48,
+    "audio_file": "group6_seg_0048.mp3",
+    "audio_path": "group_6_audio/group6_seg_0048.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "lip",
+    "segment_index": 49,
+    "audio_file": "group6_seg_0049.mp3",
+    "audio_path": "group_6_audio/group6_seg_0049.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "seed",
+    "segment_index": 50,
+    "audio_file": "group6_seg_0050.mp3",
+    "audio_path": "group_6_audio/group6_seg_0050.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "particular",
+    "segment_index": 51,
+    "audio_file": "group6_seg_0051.mp3",
+    "audio_path": "group_6_audio/group6_seg_0051.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "mailbox",
+    "segment_index": 52,
+    "audio_file": "group6_seg_0052.mp3",
+    "audio_path": "group_6_audio/group6_seg_0052.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "code",
+    "segment_index": 53,
+    "audio_file": "group6_seg_0053.mp3",
+    "audio_path": "group_6_audio/group6_seg_0053.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "boil",
+    "segment_index": 54,
+    "audio_file": "group6_seg_0054.mp3",
+    "audio_path": "group_6_audio/group6_seg_0054.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "district",
+    "segment_index": 55,
+    "audio_file": "group6_seg_0055.mp3",
+    "audio_path": "group_6_audio/group6_seg_0055.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "cottage",
+    "segment_index": 56,
+    "audio_file": "group6_seg_0056.mp3",
+    "audio_path": "group_6_audio/group6_seg_0056.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "hereby",
+    "segment_index": 57,
+    "audio_file": "group6_seg_0057.mp3",
+    "audio_path": "group_6_audio/group6_seg_0057.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "jail",
+    "segment_index": 58,
+    "audio_file": "group6_seg_0058.mp3",
+    "audio_path": "group_6_audio/group6_seg_0058.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "sketch",
+    "segment_index": 59,
+    "audio_file": "group6_seg_0059.mp3",
+    "audio_path": "group_6_audio/group6_seg_0059.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "thought",
+    "segment_index": 60,
+    "audio_file": "group6_seg_0060.mp3",
+    "audio_path": "group_6_audio/group6_seg_0060.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "startle",
+    "segment_index": 61,
+    "audio_file": "group6_seg_0061.mp3",
+    "audio_path": "group_6_audio/group6_seg_0061.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "iron",
+    "segment_index": 62,
+    "audio_file": "group6_seg_0062.mp3",
+    "audio_path": "group_6_audio/group6_seg_0062.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "tap",
+    "segment_index": 63,
+    "audio_file": "group6_seg_0063.mp3",
+    "audio_path": "group_6_audio/group6_seg_0063.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "upward",
+    "segment_index": 64,
+    "audio_file": "group6_seg_0064.mp3",
+    "audio_path": "group_6_audio/group6_seg_0064.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "tight",
+    "segment_index": 65,
+    "audio_file": "group6_seg_0065.mp3",
+    "audio_path": "group_6_audio/group6_seg_0065.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "surface",
+    "segment_index": 66,
+    "audio_file": "group6_seg_0066.mp3",
+    "audio_path": "group_6_audio/group6_seg_0066.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "physics",
+    "segment_index": 67,
+    "audio_file": "group6_seg_0067.mp3",
+    "audio_path": "group_6_audio/group6_seg_0067.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "path",
+    "segment_index": 68,
+    "audio_file": "group6_seg_0068.mp3",
+    "audio_path": "group_6_audio/group6_seg_0068.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "narrow",
+    "segment_index": 69,
+    "audio_file": "group6_seg_0069.mp3",
+    "audio_path": "group_6_audio/group6_seg_0069.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "ceiling",
+    "segment_index": 70,
+    "audio_file": "group6_seg_0070.mp3",
+    "audio_path": "group_6_audio/group6_seg_0070.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "accept",
+    "segment_index": 71,
+    "audio_file": "group6_seg_0071.mp3",
+    "audio_path": "group_6_audio/group6_seg_0071.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "diet",
+    "segment_index": 72,
+    "audio_file": "group6_seg_0072.mp3",
+    "audio_path": "group_6_audio/group6_seg_0072.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pledge",
+    "segment_index": 73,
+    "audio_file": "group6_seg_0073.mp3",
+    "audio_path": "group_6_audio/group6_seg_0073.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "servant",
+    "segment_index": 74,
+    "audio_file": "group6_seg_0074.mp3",
+    "audio_path": "group_6_audio/group6_seg_0074.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "phrase",
+    "segment_index": 75,
+    "audio_file": "group6_seg_0075.mp3",
+    "audio_path": "group_6_audio/group6_seg_0075.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "telegram",
+    "segment_index": 76,
+    "audio_file": "group6_seg_0076.mp3",
+    "audio_path": "group_6_audio/group6_seg_0076.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "steak",
+    "segment_index": 77,
+    "audio_file": "group6_seg_0077.mp3",
+    "audio_path": "group_6_audio/group6_seg_0077.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "ski",
+    "segment_index": 78,
+    "audio_file": "group6_seg_0078.mp3",
+    "audio_path": "group_6_audio/group6_seg_0078.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "technical",
+    "segment_index": 79,
+    "audio_file": "group6_seg_0079.mp3",
+    "audio_path": "group_6_audio/group6_seg_0079.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "puzzle",
+    "segment_index": 80,
+    "audio_file": "group6_seg_0080.mp3",
+    "audio_path": "group_6_audio/group6_seg_0080.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "spoon",
+    "segment_index": 81,
+    "audio_file": "group6_seg_0081.mp3",
+    "audio_path": "group_6_audio/group6_seg_0081.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pearl",
+    "segment_index": 82,
+    "audio_file": "group6_seg_0082.mp3",
+    "audio_path": "group_6_audio/group6_seg_0082.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "upstairs",
+    "segment_index": 83,
+    "audio_file": "group6_seg_0083.mp3",
+    "audio_path": "group_6_audio/group6_seg_0083.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "thief",
+    "segment_index": 84,
+    "audio_file": "group6_seg_0084.mp3",
+    "audio_path": "group_6_audio/group6_seg_0084.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "pipe",
+    "segment_index": 85,
+    "audio_file": "group6_seg_0085.mp3",
+    "audio_path": "group_6_audio/group6_seg_0085.mp3"
+  },
+  {
+    "group_id": 6,
+    "full_text": "broad",
+    "segment_index": 86,
+    "audio_file": "group6_seg_0086.mp3",
+    "audio_path": "group_6_audio/group6_seg_0086.mp3"
+  }
+]
