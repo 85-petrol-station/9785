@@ -27,34 +27,6 @@
     "meaning": "反常的，不规则的；变态的（adj.）",
     "audio": "audio_small/a/abnormal.mp3"
   },
-  "aboard": {
-    "word": "aboard",
-    "type": "cet6",
-    "phonetic": "/əˈbɔːrd/",
-    "meaning": "adv. 在（飞机、火车、船）上；骑在（马）上；（喻）新入伙；（棒球）在垒上prep.  在 （船或飞机）上",
-    "audio": "audio_small/a/aboard.mp3"
-  },
-  "about": {
-    "word": "about",
-    "type": "cet6",
-    "phonetic": "/əˈbaʊt/",
-    "meaning": "adv.附近,大约,转向,左右,周围;prep.在附近,关于,在...周围,忙于",
-    "audio": "audio_small/a/about.mp3"
-  },
-  "above": {
-    "word": "above",
-    "type": "cet6",
-    "phonetic": "/əˈbʌv/",
-    "meaning": "adj.上面的,上述的,上文的;adv.在上面;prep.在...上方,过于,超出",
-    "audio": "audio_small/a/above.mp3"
-  },
-  "abroad": {
-    "word": "abroad",
-    "type": "cet6",
-    "phonetic": "/əˈbrɔːd/",
-    "meaning": "在国外；到海外adj. 往国外的n. 海外；异国（adv.）",
-    "audio": "audio_small/a/abroad.mp3"
-  },
   "absence": {
     "word": "absence",
     "type": "cet6",
@@ -2782,22 +2754,15 @@
     "word": "battle",
     "type": "cet6",
     "phonetic": "/ˈbætl/",
-    "meaning": "n. 战役；斗争vi. 斗争；作战vt. 与…作战n. (Battle)人名；(英)巴特尔；(法)巴特勒；(西)巴特莱",
+    "meaning": "n. 战役；斗争vi. 斗争；作战vt. 与…作战",
     "audio": "audio_small/b/battle.mp3"
   },
   "bay": {
     "word": "bay",
     "type": "cet6",
     "phonetic": "/beɪ/",
-    "meaning": "贝；巴伊；(匈)鲍伊",
+    "meaning": "n.海湾，隔间，分隔区，犬吠声 v.（猎犬）狂吠，低吼",
     "audio": "audio_small/b/bay.mp3"
-  },
-  "beach": {
-    "word": "beach",
-    "type": "cet6",
-    "phonetic": "/biːtʃ/",
-    "meaning": "n. 海滩；湖滨vt. 将…拖上岸vi. 搁浅；定居n. (Beach)人名；(英)比奇",
-    "audio": "audio_small/b/beach.mp3"
   },
   "beam": {
     "word": "beam",
@@ -2810,7 +2775,7 @@
     "word": "bean",
     "type": "cet6",
     "phonetic": "/biːn/",
-    "meaning": "n. 豆；嘴峰；毫无价值的东西vt. 击…的头部n. (Bean)人名；(英)比恩",
+    "meaning": "n. 豆；嘴峰；毫无价值的东西vt. 击…的头部",
     "audio": "audio_small/b/bean.mp3"
   },
   "bear": {
@@ -2855,13 +2820,6 @@
     "meaning": "美；美丽；美人；美好的东西（n.）",
     "audio": "audio_small/b/beauty.mp3"
   },
-  "because": {
-    "word": "because",
-    "type": "cet6",
-    "phonetic": "/bɪˈkəz,bɪˈkɔːz/",
-    "meaning": "因为，由于prep. 因为某人（某事物）（conj.）",
-    "audio": "audio_small/b/because.mp3"
-  },
   "become": {
     "word": "become",
     "type": "cet6",
@@ -2869,40 +2827,12 @@
     "meaning": "成为；变得；变成vt. 适合；相称（vi.）",
     "audio": "audio_small/b/become.mp3"
   },
-  "bed": {
-    "word": "bed",
-    "type": "cet6",
-    "phonetic": "/bed/",
-    "meaning": "n. 床；基础；河底，海底vt. 使睡觉；安置，嵌入；栽种vi.\n上床；分层",
-    "audio": "audio_small/b/bed.mp3"
-  },
-  "bee": {
-    "word": "bee",
-    "type": "cet6",
-    "phonetic": "/biː/",
-    "meaning": "语)美；比(女子教名Beatrix和Beatrice的昵称)",
-    "audio": "audio_small/b/bee.mp3"
-  },
   "beef": {
     "word": "beef",
     "type": "cet6",
     "phonetic": "/biːf/",
     "meaning": "牛肉；肌肉；食用牛；牢骚vi. 抱怨，告发；发牢骚vt. 养；加强（n.）",
     "audio": "audio_small/b/beef.mp3"
-  },
-  "beer": {
-    "word": "beer",
-    "type": "cet6",
-    "phonetic": "/bɪr/",
-    "meaning": "尔；[纺] 比尔",
-    "audio": "audio_small/b/beer.mp3"
-  },
-  "before": {
-    "word": "before",
-    "type": "cet6",
-    "phonetic": "/bɪˈfɔːr/",
-    "meaning": "adv.在前,以前 prep.在...之前 conj.在...之前,与其...宁可",
-    "audio": "audio_small/b/before.mp3"
   },
   "beg": {
     "word": "beg",
@@ -3128,27 +3058,6 @@
     "meaning": "圣经（n.）",
     "audio": "audio_small/b/bible.mp3"
   },
-  "bicycle": {
-    "word": "bicycle",
-    "type": "cet6",
-    "phonetic": "/ˈbaɪsɪkl/",
-    "meaning": "自行车vi. 骑脚踏车vt. 骑自行车运送（n.）",
-    "audio": "audio_small/b/bicycle.mp3"
-  },
-  "big": {
-    "word": "big",
-    "type": "cet6",
-    "phonetic": "/bɪɡ/",
-    "meaning": "adj. 大的；重要的；量大的adv. 大量地；顺利；夸大地n.\n（Big）（土）比格（人名）",
-    "audio": "audio_small/b/big.mp3"
-  },
-  "bike": {
-    "word": "bike",
-    "type": "cet6",
-    "phonetic": "/baɪk/",
-    "meaning": "n. 自行车；脚踏车vi. 骑自行车（或摩托车）n. (Bike)人名；(土、土库、塞)比克",
-    "audio": "audio_small/b/bike.mp3"
-  },
   "bill": {
     "word": "bill",
     "type": "cet6",
@@ -3177,13 +3086,6 @@
     "meaning": "（一个地区全部的）生物；生物学（n.）",
     "audio": "audio_small/b/biology.mp3"
   },
-  "bird": {
-    "word": "bird",
-    "type": "cet6",
-    "phonetic": "/bɜːrd/",
-    "meaning": "n. 鸟；家伙；羽毛球vt. 向…喝倒彩；起哄vi. 猎鸟；观察研究野鸟n. (Bird)人名；(英、西)伯德",
-    "audio": "audio_small/b/bird.mp3"
-  },
   "birth": {
     "word": "birth",
     "type": "cet6",
@@ -3191,26 +3093,12 @@
     "meaning": "出生；血统，出身；起源（n.）",
     "audio": "audio_small/b/birth.mp3"
   },
-  "birthday": {
-    "word": "birthday",
-    "type": "cet6",
-    "phonetic": "/ˈbɜːrθdeɪ/",
-    "meaning": "生日，诞辰；诞生的日子（n.）",
-    "audio": "audio_small/b/birthday.mp3"
-  },
   "biscuit": {
     "word": "biscuit",
     "type": "cet6",
     "phonetic": "/ˈbɪskɪt/",
     "meaning": "小点心，饼干（n.）",
     "audio": "audio_small/b/biscuit.mp3"
-  },
-  "bit": {
-    "word": "bit",
-    "type": "cet6",
-    "phonetic": "/bɪt/",
-    "meaning": "n.小块,少量,片刻,马嚼子,辅币vt.上马嚼子,控制 vbl.咬 n.[计]位,比特",
-    "audio": "audio_small/b/bit.mp3"
   },
   "bite": {
     "word": "bite",
@@ -3232,13 +3120,6 @@
     "phonetic": "/ˈbɪtərli/",
     "meaning": "苦涩地，悲痛地，残酷地，怨恨地；极其，非常，强烈地（adv.）",
     "audio": "audio_small/b/bitterly.mp3"
-  },
-  "black": {
-    "word": "black",
-    "type": "cet6",
-    "phonetic": "/blæk/",
-    "meaning": "n.黑色,黑颜料,黑人adj.黑色的,弄脏了的,忧郁的",
-    "audio": "audio_small/b/black.mp3"
   },
   "blackboard": {
     "word": "blackboard",
@@ -4465,13 +4346,6 @@
     "meaning": "名；坎帕斯；康皮斯",
     "audio": "audio_small/c/campus.mp3"
   },
-  "can": {
-    "word": "can",
-    "type": "cet6",
-    "phonetic": "/kæn; kən/",
-    "meaning": "vt.装进罐中,把食品装罐n.罐头,铁罐 conj.能,可以",
-    "audio": "audio_small/c/can.mp3"
-  },
   "canada": {
     "word": "canada",
     "type": "cet6",
@@ -4497,7 +4371,7 @@
     "word": "cancel",
     "type": "cet6",
     "phonetic": "/ˈkænsl/",
-    "meaning": "（Cancel）（法）康塞尔（人名）",
+    "meaning": "v. 取消；撤销；终止；抵消；抵消",
     "audio": "audio_small/c/cancel.mp3"
   },
   "cancer": {
@@ -5795,13 +5669,6 @@
     "meaning": "vt. 使化合；使联合，使结合vi. 联合，结合；化合n. 联合收割机；联合企业",
     "audio": "audio_small/c/combine.mp3"
   },
-  "come": {
-    "word": "come",
-    "type": "cet6",
-    "phonetic": "/kʌm/",
-    "meaning": "vi. 来；开始；出现；发生；变成；到达vt. 做；假装；将满（…岁）int. 嗨！n. (Come)人名；(英)科姆；(阿尔巴)乔梅",
-    "audio": "audio_small/c/come.mp3"
-  },
   "comfort": {
     "word": "comfort",
     "type": "cet6",
@@ -5925,7 +5792,7 @@
     "word": "companion",
     "type": "cet6",
     "phonetic": "/kəmˈpænjən/",
-    "meaning": "n. 同伴；朋友；指南；手册vt. 陪伴n. (Companion)人名； (英)康帕宁",
+    "meaning": "n. 同伴；朋友；指南；手册vt. 陪伴",
     "audio": "audio_small/c/companion.mp3"
   },
   "company": {
@@ -16694,48 +16561,6 @@
     "meaning": "adv. 永远；曾经；究竟n. (Ever)人名；(英)埃弗；(俄)叶韦尔；(西、法)埃韦尔",
     "audio": "audio_small/e/ever.mp3"
   },
-  "every": {
-    "word": "every",
-    "type": "cet6",
-    "phonetic": "/ˈevri/",
-    "meaning": "adj. 每一的，每个的；每隔……的；（用于强调）所有可能的，完全可能的n. (Every) （美、荷、瑞典）埃夫里（人名）",
-    "audio": "audio_small/e/every.mp3"
-  },
-  "everybody": {
-    "word": "everybody",
-    "type": "cet6",
-    "phonetic": "/ˈevribɑːdi,ˈevribʌdi/",
-    "meaning": "每个人，人人（pron.）",
-    "audio": "audio_small/e/everybody.mp3"
-  },
-  "everyday": {
-    "word": "everyday",
-    "type": "cet6",
-    "phonetic": "/ˈevrideɪ/",
-    "meaning": "每天的，日常的n. 平时；寻常日子（adj.）",
-    "audio": "audio_small/e/everyday.mp3"
-  },
-  "everyone": {
-    "word": "everyone",
-    "type": "cet6",
-    "phonetic": "/ˈevriwʌn/",
-    "meaning": "每个人；人人（pron.）",
-    "audio": "audio_small/e/everyone.mp3"
-  },
-  "everything": {
-    "word": "everything",
-    "type": "cet6",
-    "phonetic": "/ˈevriθɪŋ/",
-    "meaning": "pron. 每件事物，（有关的）一切，万事；形势，情况； 重要的东西n. (Everything) （印、美、澳）艾维辛（人名）",
-    "audio": "audio_small/e/everything.mp3"
-  },
-  "everywhere": {
-    "word": "everywhere",
-    "type": "cet6",
-    "phonetic": "/ˈevriwer/",
-    "meaning": "到处n. 每个地方（adv.）",
-    "audio": "audio_small/e/everywhere.mp3"
-  },
   "evidence": {
     "word": "evidence",
     "type": "cet6",
@@ -17904,13 +17729,6 @@
     "phonetic": "/fɪt/",
     "meaning": "n.突然发作,适合,痉挛,一阵adj.合适的,恰当的,健康的,,准备好的vt.适合,安装,使合身,使适应,使合格vi.适合,符合",
     "audio": "audio_small/f/fit.mp3"
-  },
-  "five": {
-    "word": "five",
-    "type": "cet6",
-    "phonetic": "/faɪv/",
-    "meaning": "n. 五，五个；五美元钞票num. 五，五个adj. 五的；五个的n.\n(Five)人名；(挪)菲弗",
-    "audio": "audio_small/f/five.mp3"
   },
   "fix": {
     "word": "fix",
@@ -20306,13 +20124,6 @@
     "meaning": "水平的；地平线的；同一阶层的n. 水平线，水平面；水平位置（adj.）",
     "audio": "audio_small/h/horizontal.mp3"
   },
-  "horn": {
-    "word": "horn",
-    "type": "cet6",
-    "phonetic": "/hɔːrn/",
-    "meaning": "、波、芬、希、瑞典)霍恩；奥尔恩；(柬)洪",
-    "audio": "audio_small/h/horn.mp3"
-  },
   "horror": {
     "word": "horror",
     "type": "cet6",
@@ -21496,13 +21307,6 @@
     "meaning": "vi. 发行；流出；造成……结果；传下",
     "audio": "audio_small/i/issue.mp3"
   },
-  "it": {
-    "word": "it",
-    "type": "cet6",
-    "phonetic": "/ɪt/",
-    "meaning": "pron.它;Italy,意大利;Information Technology,信息技术",
-    "audio": "audio_small/i/it.mp3"
-  },
   "italian": {
     "word": "italian",
     "type": "cet6",
@@ -21523,20 +21327,6 @@
     "phonetic": "/ˈaɪtəm/",
     "meaning": "逐条列出",
     "audio": "audio_small/i/item.mp3"
-  },
-  "its": {
-    "word": "its",
-    "type": "cet6",
-    "phonetic": "/ɪts/",
-    "meaning": "pron. 它的n. (Its)人名；(俄)伊茨",
-    "audio": "audio_small/i/its.mp3"
-  },
-  "itself": {
-    "word": "itself",
-    "type": "cet6",
-    "phonetic": "/ɪtˈself/",
-    "meaning": "它自己；它本身（pron.）",
-    "audio": "audio_small/i/itself.mp3"
   },
   "jacket": {
     "word": "jacket",
@@ -21565,20 +21355,6 @@
     "phonetic": "/ˈdʒænjueri/",
     "meaning": "一月（n.）",
     "audio": "audio_small/j/january.mp3"
-  },
-  "japan": {
-    "word": "japan",
-    "type": "cet6",
-    "phonetic": "/dʒəˈpæn/",
-    "meaning": "日本（东亚国家名）（n.）",
-    "audio": "audio_small/j/japan.mp3"
-  },
-  "japanese": {
-    "word": "japanese",
-    "type": "cet6",
-    "phonetic": "/ˌdʒæpəˈniːz/",
-    "meaning": "日本（人）的；日语的n. 日本人；日语（adj.）",
-    "audio": "audio_small/j/japanese.mp3"
   },
   "jar": {
     "word": "jar",
@@ -21636,33 +21412,12 @@
     "meaning": "犹太人的；犹太族的（adj.）",
     "audio": "audio_small/j/jewish.mp3"
   },
-  "job": {
-    "word": "job",
-    "type": "cet6",
-    "phonetic": "/dʒɑːb/",
-    "meaning": "n.工作,零活,口职位,事情,圣经约伯,极有耐心的人vi.做零工, 打杂,做股票经纪,假公济私vt.代客买卖(股票,货物等),批发, 承包,欺骗",
-    "audio": "audio_small/j/job.mp3"
-  },
-  "join": {
-    "word": "join",
-    "type": "cet6",
-    "phonetic": "/dʒɔɪn/",
-    "meaning": "vt. 参加；结合；连接vi. 加入；参加；结合n. 结合；连接；接合点n. (Join)人名；(法)茹安",
-    "audio": "audio_small/j/join.mp3"
-  },
   "joint": {
     "word": "joint",
     "type": "cet6",
     "phonetic": "/dʒɔɪnt/",
     "meaning": "的,连接的,合办的vt.连接,接合,使有接头vi.贴合,生节 n. 玩笑，笑话；笑柄vt. 开…的玩笑vi. 开玩笑",
     "audio": "audio_small/j/joint.mp3"
-  },
-  "joke": {
-    "word": "joke",
-    "type": "cet6",
-    "phonetic": "/dʒoʊk/",
-    "meaning": "乔克；(塞)约凯",
-    "audio": "audio_small/j/joke.mp3"
   },
   "jolly": {
     "word": "jolly",
@@ -21860,27 +21615,6 @@
     "meaning": "[计量] 公里；[计量] 千米（等于kilometre）（n.）",
     "audio": "audio_small/k/kilometer.mp3"
   },
-  "kind": {
-    "word": "kind",
-    "type": "cet6",
-    "phonetic": "/kaɪnd/",
-    "meaning": "金德；(瑞典)欣德",
-    "audio": "audio_small/k/kind.mp3"
-  },
-  "kindness": {
-    "word": "kindness",
-    "type": "cet6",
-    "phonetic": "/ˈkaɪndnəs/",
-    "meaning": "仁慈；好意；友好的行为",
-    "audio": "audio_small/k/kindness.mp3"
-  },
-  "king": {
-    "word": "king",
-    "type": "cet6",
-    "phonetic": "/kɪŋ/",
-    "meaning": "n.国王,君主,(部落的)首领,纸牌中的Kvt.立...为王vi.做国王,统治",
-    "audio": "audio_small/k/king.mp3"
-  },
   "kingdom": {
     "word": "kingdom",
     "type": "cet6",
@@ -21957,13 +21691,6 @@
     "phonetic": "/nɑːt/",
     "meaning": "n. （绳等的）结；节瘤，疙瘩；海里/小时（航速单位）vt.\n打结vi. 打结n. (Knot)人名；(英)诺特",
     "audio": "audio_small/k/knot.mp3"
-  },
-  "know": {
-    "word": "know",
-    "type": "cet6",
-    "phonetic": "/noʊ/",
-    "meaning": "知道；认识；懂得vi. 了解；熟悉；确信（vt.）",
-    "audio": "audio_small/k/know.mp3"
   },
   "knowledge": {
     "word": "knowledge",
@@ -23161,13 +22888,6 @@
     "phonetic": "/məˈdʒɔːrə(cid:415)/",
     "meaning": "多数；成年（n.）",
     "audio": "audio_small/m/majority.mp3"
-  },
-  "make": {
-    "word": "make",
-    "type": "cet6",
-    "phonetic": "/meɪk/",
-    "meaning": "vt.制造,安排,使成为,认为,产生,获得,进行,构成vi.开始,前进,增大,被制造,被处理n.制造,构造,性情",
-    "audio": "audio_small/m/make.mp3"
   },
   "male": {
     "word": "male",
@@ -24891,13 +24611,6 @@
     "meaning": "[化学] 氮（n.）",
     "audio": "audio_small/n/nitrogen.mp3"
   },
-  "no": {
-    "word": "no",
-    "type": "cet6",
-    "phonetic": "/noʊ/",
-    "meaning": "n.否定,投反对票者adj.没有,不许,反对adv.不,并不,毫不\n[域] Norway ,挪威",
-    "audio": "audio_small/n/no.mp3"
-  },
   "norway": {
     "word": "norway",
     "type": "cet6",
@@ -25079,13 +24792,6 @@
     "phonetic": "/noʊˈvembər/",
     "meaning": "十一月（n.）",
     "audio": "audio_small/n/november.mp3"
-  },
-  "now": {
-    "word": "now",
-    "type": "cet6",
-    "phonetic": "/naʊ/",
-    "meaning": "现在；如今；立刻adj. 现在的n. 现在；目前conj. 由于；既然（adv.）",
-    "audio": "audio_small/n/now.mp3"
   },
   "nowadays": {
     "word": "nowadays",
@@ -25492,13 +25198,6 @@
     "phonetic": "/ˈɑːpʃənl/",
     "meaning": "可选择的，随意的（adj.）",
     "audio": "audio_small/o/optional.mp3"
-  },
-  "or": {
-    "word": "or",
-    "type": "cet6",
-    "phonetic": "/ɔːr/",
-    "meaning": "玛)；(柬)奥；(土、匈、土库、阿塞、瑞典)奥尔",
-    "audio": "audio_small/o/or.mp3"
   },
   "oral": {
     "word": "oral",
@@ -35426,13 +35125,6 @@
     "meaning": "不愿意的；不情愿的；勉强的（adj.）",
     "audio": "audio_small/u/unwilling.mp3"
   },
-  "up": {
-    "word": "up",
-    "type": "cet6",
-    "phonetic": "/ʌp/",
-    "meaning": "向上的,上行的",
-    "audio": "audio_small/u/up.mp3"
-  },
   "upon": {
     "word": "upon",
     "type": "cet6",
@@ -36603,13 +36295,6 @@
     "meaning": "adj. 野生的；野蛮的；狂热的；荒凉的n. 荒野adv. 疯狂地；胡乱地n. (Wild)人名；(英) 尔德；(法、德、葡、捷、匈)维尔德",
     "audio": "audio_small/w/wild.mp3"
   },
-  "will": {
-    "word": "will",
-    "type": "cet6",
-    "phonetic": "/wɪl/",
-    "meaning": "n.意志,决心,意向,遗嘱v.aux.将,愿意,必须",
-    "audio": "audio_small/w/will.mp3"
-  },
   "willing": {
     "word": "willing",
     "type": "cet6",
@@ -36757,40 +36442,12 @@
     "meaning": "n. 证人；目击者；证据vt. 目击；证明；为…作证vi. 作证人\nn. (Witness)人名；(津)威特尼斯",
     "audio": "audio_small/w/witness.mp3"
   },
-  "wolf": {
-    "word": "wolf",
-    "type": "cet6",
-    "phonetic": "/wʊlf/",
-    "meaning": "名；沃尔夫",
-    "audio": "audio_small/w/wolf.mp3"
-  },
-  "woman": {
-    "word": "woman",
-    "type": "cet6",
-    "phonetic": "/ˈwʊmən/",
-    "meaning": "妇女；女性；成年女子（n.）",
-    "audio": "audio_small/w/woman.mp3"
-  },
   "wonder": {
     "word": "wonder",
     "type": "cet6",
     "phonetic": "/ˈwʌndər/",
     "meaning": "非凡的,奇妙的",
     "audio": "audio_small/w/wonder.mp3"
-  },
-  "wonderful": {
-    "word": "wonderful",
-    "type": "cet6",
-    "phonetic": "/ˈwʌndərfl/",
-    "meaning": "极好的，精彩的，绝妙的；奇妙的；美妙；胜；神妙（adj.）",
-    "audio": "audio_small/w/wonderful.mp3"
-  },
-  "wood": {
-    "word": "wood",
-    "type": "cet6",
-    "phonetic": "/wʊd/",
-    "meaning": "n. 木材；木制品；树林vi. 收集木材vt. 植林于；给…添加木柴n. (Wood)人名；(英、法、西、葡、阿拉伯)伍德",
-    "audio": "audio_small/w/wood.mp3"
   },
   "wooden": {
     "word": "wooden",
@@ -36810,29 +36467,8 @@
     "word": "woollen",
     "type": "cet6",
     "phonetic": "/ˈwʊlən/",
-    "meaning": "adj. 羊毛制的；毛纺织业的n. 毛织品n. (Woollen) （美、英\n、德）伍伦（人名）",
+    "meaning": "adj. 羊毛制的；毛纺织业的n. 毛织品",
     "audio": "audio_small/w/woollen.mp3"
-  },
-  "word": {
-    "word": "word",
-    "type": "cet6",
-    "phonetic": "/wɜːrd/",
-    "meaning": "n. [语] 单词；话语；消息；诺言；命令vt. 用言辞表达n.\n(Word)人名；(英)沃德",
-    "audio": "audio_small/w/word.mp3"
-  },
-  "work": {
-    "word": "work",
-    "type": "cet6",
-    "phonetic": "/wɜːrk/",
-    "meaning": "转,起作用,造成,产生,经营,(使)渐渐移动,煅制",
-    "audio": "audio_small/w/work.mp3"
-  },
-  "worker": {
-    "word": "worker",
-    "type": "cet6",
-    "phonetic": "/ˈwɜːrkər/",
-    "meaning": "工人，劳动者；职蚁n. （Worker）（英）沃克（人名）（n.）",
-    "audio": "audio_small/w/worker.mp3"
   },
   "workman": {
     "word": "workman",

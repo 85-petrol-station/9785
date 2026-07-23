@@ -2222,28 +2222,21 @@
     "word": "battle",
     "type": "cet4",
     "phonetic": "/ˈbætl/",
-    "meaning": "n. 战役；斗争vi. 斗争；作战vt. 与…作战n. (Battle)人名；(英)巴特尔；(法)巴特勒；(西)巴特莱",
+    "meaning": "n. 战役；斗争vi. 斗争；作战vt. 与…作战",
     "audio": "audio_small/b/battle.mp3"
   },
   "bay": {
     "word": "bay",
     "type": "cet4",
     "phonetic": "/beɪ/",
-    "meaning": "贝；巴伊；(匈)鲍伊",
+    "meaning": "n.海湾，隔间，分隔区，犬吠声 v.（猎犬）狂吠，低吼",
     "audio": "audio_small/b/bay.mp3"
-  },
-  "be": {
-    "word": "be",
-    "type": "cet4",
-    "phonetic": "/bi,biː/",
-    "meaning": "vt. 是； 有，存在； 做，成为； 发生n. ",
-    "audio": "audio_small/b/be.mp3"
   },
   "beach": {
     "word": "beach",
     "type": "cet4",
     "phonetic": "/biːtʃ/",
-    "meaning": "n. 海滩；湖滨vt. 将…拖上岸vi. 搁浅；定居n. (Beach)人名；(英)比奇",
+    "meaning": "n. 海滩；湖滨vt. 将…拖上岸vi. 搁浅；定居",
     "audio": "audio_small/b/beach.mp3"
   },
   "beam": {
@@ -2327,7 +2320,7 @@
     "word": "beer",
     "type": "cet4",
     "phonetic": "/bɪr/",
-    "meaning": "尔；[纺] 比尔",
+    "meaning": "n. 啤酒",
     "audio": "audio_small/b/beer.mp3"
   },
   "before": {
@@ -2341,21 +2334,21 @@
     "word": "beg",
     "type": "cet4",
     "phonetic": "/beɡ/",
-    "meaning": "巴基)贝格",
+    "meaning": "v.乞讨，乞求，请求，恳求",
     "audio": "audio_small/b/beg.mp3"
   },
   "beggar": {
     "word": "beggar",
     "type": "cet4",
     "phonetic": "/ˈbeɡər/",
-    "meaning": "乞丐；穷人；家伙vt. 使贫穷；使沦为乞丐（n.）",
+    "meaning": "n.乞丐；穷人",
     "audio": "audio_small/b/beggar.mp3"
   },
   "begin": {
     "word": "begin",
     "type": "cet4",
     "phonetic": "/bɪˈɡɪn/",
-    "meaning": "开始vi. 开始；首先（vt.）",
+    "meaning": "vt.开始 vi.开始；首先",
     "audio": "audio_small/b/begin.mp3"
   },
   "beginner": {
@@ -2369,7 +2362,7 @@
     "word": "beginning",
     "type": "cet4",
     "phonetic": "/bɪˈɡɪnɪŋ/",
-    "meaning": "开始；起点v. 开始；创建（begin的ing形式）（n.）",
+    "meaning": "n.开始；起点 v.开始；创建",
     "audio": "audio_small/b/beginning.mp3"
   },
   "behalf": {
@@ -3611,13 +3604,6 @@
     "meaning": "名；坎帕斯；康皮斯",
     "audio": "audio_small/c/campus.mp3"
   },
-  "can": {
-    "word": "can",
-    "type": "cet4",
-    "phonetic": "/kæn; kən/",
-    "meaning": "vt.装进罐中,把食品装罐n.罐头,铁罐 conj.能,可以",
-    "audio": "audio_small/c/can.mp3"
-  },
   "canada": {
     "word": "canada",
     "type": "cet4",
@@ -3636,14 +3622,14 @@
     "word": "canal",
     "type": "cet4",
     "phonetic": "/kəˈnæl/",
-    "meaning": "n. 运河；[地理] 水道；[建] 管道；灌溉水渠vt. 在…开凿运\n河n. (Canal)人名；(英、法、西、意、葡)卡纳尔；(土)贾纳尔",
+    "meaning": "n. 运河；[地理] 水道；[建] 管道；灌溉水渠vt. 在…开凿运",
     "audio": "audio_small/c/canal.mp3"
   },
   "cancel": {
     "word": "cancel",
     "type": "cet4",
     "phonetic": "/ˈkænsl/",
-    "meaning": "（Cancel）（法）康塞尔（人名）",
+    "meaning": "v. 取消；撤销；终止；抵消；抵消",
     "audio": "audio_small/c/cancel.mp3"
   },
   "cancer": {
@@ -9099,13 +9085,6 @@
     "meaning": "adv. 永远；曾经；究竟n. (Ever)人名；(英)埃弗；(俄)叶韦尔；(西、法)埃韦尔",
     "audio": "audio_small/e/ever.mp3"
   },
-  "every": {
-    "word": "every",
-    "type": "cet4",
-    "phonetic": "/ˈevri/",
-    "meaning": "adj. 每一的，每个的；每隔……的；（用于强调）所有可能的，完全可能的n. (Every) （美、荷、瑞典）埃夫里（人名）",
-    "audio": "audio_small/e/every.mp3"
-  },
   "everybody": {
     "word": "everybody",
     "type": "cet4",
@@ -10309,13 +10288,6 @@
     "phonetic": "/fɪt/",
     "meaning": "n.突然发作,适合,痉挛,一阵adj.合适的,恰当的,健康的,,准备好的vt.适合,安装,使合身,使适应,使合格vi.适合,符合",
     "audio": "audio_small/f/fit.mp3"
-  },
-  "five": {
-    "word": "five",
-    "type": "cet4",
-    "phonetic": "/faɪv/",
-    "meaning": "n. 五，五个；五美元钞票num. 五，五个adj. 五的；五个的n.\n(Five)人名；(挪)菲弗",
-    "audio": "audio_small/f/five.mp3"
   },
   "fix": {
     "word": "fix",
@@ -12750,21 +12722,21 @@
     "word": "honourable",
     "type": "cet4",
     "phonetic": "/ˈɑːnərəbl/",
-    "meaning": "adj. 荣誉的；值得尊敬的；表示尊敬的；正直的（honorable 的英式写法）",
+    "meaning": "adj. 荣誉的；值得尊敬的；表示尊敬的；正直的",
     "audio": "audio_small/h/honourable.mp3"
   },
   "hook": {
     "word": "hook",
     "type": "cet4",
     "phonetic": "/hʊk/",
-    "meaning": "n. 挂钩，吊钩vt. 钩住；引上钩vi. 钩住；弯成钩状n.\n(Hook)人名；(德、荷)霍克；(英)胡克",
+    "meaning": "n. 挂钩，吊钩vt. 钩住；引上钩vi. 钩住；弯成钩状",
     "audio": "audio_small/h/hook.mp3"
   },
   "hope": {
     "word": "hope",
     "type": "cet4",
     "phonetic": "/hoʊp/",
-    "meaning": "v. 希望；希望能够n. 希望；希望的东西；被寄予希望的人\n（或物）；好的迹象；信赖感；可能性n. (Hope) （美）奥普\n（人名）",
+    "meaning": "v. 希望；希望能够n. 希望；希望的东西；被寄予希望的人（或物）；好的迹象；信赖感；可能性",
     "audio": "audio_small/h/hope.mp3"
   },
   "hopeful": {
@@ -12794,13 +12766,6 @@
     "phonetic": "/ˌhɔːrɪˈzɑːntl/",
     "meaning": "水平的；地平线的；同一阶层的n. 水平线，水平面；水平位置（adj.）",
     "audio": "audio_small/h/horizontal.mp3"
-  },
-  "horn": {
-    "word": "horn",
-    "type": "cet4",
-    "phonetic": "/hɔːrn/",
-    "meaning": "、波、芬、希、瑞典)霍恩；奥尔恩；(柬)洪",
-    "audio": "audio_small/h/horn.mp3"
   },
   "horror": {
     "word": "horror",
@@ -14125,13 +14090,6 @@
     "meaning": "vi. 发行；流出；造成……结果；传下",
     "audio": "audio_small/i/issue.mp3"
   },
-  "it": {
-    "word": "it",
-    "type": "cet4",
-    "phonetic": "/ɪt/",
-    "meaning": "pron.它;Italy,意大利;Information Technology,信息技术",
-    "audio": "audio_small/i/it.mp3"
-  },
   "italian": {
     "word": "italian",
     "type": "cet4",
@@ -14152,20 +14110,6 @@
     "phonetic": "/ˈaɪtəm/",
     "meaning": "逐条列出",
     "audio": "audio_small/i/item.mp3"
-  },
-  "its": {
-    "word": "its",
-    "type": "cet4",
-    "phonetic": "/ɪts/",
-    "meaning": "pron. 它的n. (Its)人名；(俄)伊茨",
-    "audio": "audio_small/i/its.mp3"
-  },
-  "itself": {
-    "word": "itself",
-    "type": "cet4",
-    "phonetic": "/ɪtˈself/",
-    "meaning": "它自己；它本身（pron.）",
-    "audio": "audio_small/i/itself.mp3"
   },
   "jacket": {
     "word": "jacket",
@@ -14269,14 +14213,14 @@
     "word": "job",
     "type": "cet4",
     "phonetic": "/dʒɑːb/",
-    "meaning": "n.工作,零活,口职位,事情,圣经约伯,极有耐心的人vi.做零工, 打杂,做股票经纪,假公济私vt.代客买卖(股票,货物等),批发, 承包,欺骗",
+    "meaning": "n.工作，职业，活儿，任务",
     "audio": "audio_small/j/job.mp3"
   },
   "join": {
     "word": "join",
     "type": "cet4",
     "phonetic": "/dʒɔɪn/",
-    "meaning": "vt. 参加；结合；连接vi. 加入；参加；结合n. 结合；连接；接合点n. (Join)人名；(法)茹安",
+    "meaning": "vt. 参加；结合；连接vi. 加入；参加；结合n. 结合；连接；接合点",
     "audio": "audio_small/j/join.mp3"
   },
   "joint": {
@@ -14290,7 +14234,7 @@
     "word": "joke",
     "type": "cet4",
     "phonetic": "/dʒoʊk/",
-    "meaning": "乔克；(塞)约凯",
+    "meaning": "n. 笑话；玩笑 v. 开玩笑，打趣",
     "audio": "audio_small/j/joke.mp3"
   },
   "jolly": {
@@ -14495,13 +14439,6 @@
     "phonetic": "/kɪˈlɑːmɪtər/",
     "meaning": "[计量] 公里；[计量] 千米（等于kilometre）（n.）",
     "audio": "audio_small/k/kilometer.mp3"
-  },
-  "kind": {
-    "word": "kind",
-    "type": "cet4",
-    "phonetic": "/kaɪnd/",
-    "meaning": "金德；(瑞典)欣德",
-    "audio": "audio_small/k/kind.mp3"
   },
   "kindness": {
     "word": "kindness",
@@ -17639,13 +17576,6 @@
     "meaning": "[化学] 氮（n.）",
     "audio": "audio_small/n/nitrogen.mp3"
   },
-  "no": {
-    "word": "no",
-    "type": "cet4",
-    "phonetic": "/noʊ/",
-    "meaning": "n.否定,投反对票者adj.没有,不许,反对adv.不,并不,毫不\n[域] Norway ,挪威",
-    "audio": "audio_small/n/no.mp3"
-  },
   "norway": {
     "word": "norway",
     "type": "cet4",
@@ -17827,13 +17757,6 @@
     "phonetic": "/noʊˈvembər/",
     "meaning": "十一月（n.）",
     "audio": "audio_small/n/november.mp3"
-  },
-  "now": {
-    "word": "now",
-    "type": "cet4",
-    "phonetic": "/naʊ/",
-    "meaning": "现在；如今；立刻adj. 现在的n. 现在；目前conj. 由于；既然（adv.）",
-    "audio": "audio_small/n/now.mp3"
   },
   "nowadays": {
     "word": "nowadays",
@@ -18296,13 +18219,6 @@
     "phonetic": "/ˈɑːpʃənl/",
     "meaning": "可选择的，随意的（adj.）",
     "audio": "audio_small/o/optional.mp3"
-  },
-  "or": {
-    "word": "or",
-    "type": "cet4",
-    "phonetic": "/ɔːr/",
-    "meaning": "玛)；(柬)奥；(土、匈、土库、阿塞、瑞典)奥尔",
-    "audio": "audio_small/o/or.mp3"
   },
   "oral": {
     "word": "oral",
@@ -28517,13 +28433,6 @@
     "meaning": "不愿意的；不情愿的；勉强的（adj.）",
     "audio": "audio_small/u/unwilling.mp3"
   },
-  "up": {
-    "word": "up",
-    "type": "cet4",
-    "phonetic": "/ʌp/",
-    "meaning": "向上的,上行的",
-    "audio": "audio_small/u/up.mp3"
-  },
   "upon": {
     "word": "upon",
     "type": "cet4",
@@ -29669,7 +29578,7 @@
     "word": "wicked",
     "type": "cet4",
     "phonetic": "/ˈwɪkɪd/",
-    "meaning": "邪恶的；恶劣的；不道德的；顽皮的adv. 俚语非常，很（adj.）",
+    "meaning": "adj.邪恶的；恶劣的；不道德的；顽皮的adv. 俚语非常，很",
     "audio": "audio_small/w/wicked.mp3"
   },
   "wide": {
@@ -29725,15 +29634,8 @@
     "word": "wild",
     "type": "cet4",
     "phonetic": "/waɪld/",
-    "meaning": "adj. 野生的；野蛮的；狂热的；荒凉的n. 荒野adv. 疯狂地；胡乱地n. (Wild)人名；(英) 尔德；(法、德、葡、捷、匈)维尔德",
+    "meaning": "adj. 野生的；野蛮的；狂热的；荒凉的n. 荒野adv. 疯狂地；胡乱地",
     "audio": "audio_small/w/wild.mp3"
-  },
-  "will": {
-    "word": "will",
-    "type": "cet4",
-    "phonetic": "/wɪl/",
-    "meaning": "n.意志,决心,意向,遗嘱v.aux.将,愿意,必须",
-    "audio": "audio_small/w/will.mp3"
   },
   "willing": {
     "word": "willing",
@@ -29826,26 +29728,12 @@
     "meaning": "人名；怀斯",
     "audio": "audio_small/w/wise.mp3"
   },
-  "wish": {
-    "word": "wish",
-    "type": "cet4",
-    "phonetic": "/wɪʃ/",
-    "meaning": "n.愿望,心愿,请求,所愿望的事物,祝愿v.希望,想要,但愿,祝贺",
-    "audio": "audio_small/w/wish.mp3"
-  },
   "wit": {
     "word": "wit",
     "type": "cet4",
     "phonetic": "/wɪt/",
     "meaning": "古知道；即",
     "audio": "audio_small/w/wit.mp3"
-  },
-  "with": {
-    "word": "with",
-    "type": "cet4",
-    "phonetic": "/wɪð,wɪθ/",
-    "meaning": "prep.有,以,用,同...,由于,和...一致,赞成,关于,就",
-    "audio": "audio_small/w/with.mp3"
   },
   "withdraw": {
     "word": "withdraw",
@@ -29886,15 +29774,8 @@
     "word": "wolf",
     "type": "cet4",
     "phonetic": "/wʊlf/",
-    "meaning": "名；沃尔夫",
+    "meaning": "n.狼，v. 狼吞虎咽",
     "audio": "audio_small/w/wolf.mp3"
-  },
-  "woman": {
-    "word": "woman",
-    "type": "cet4",
-    "phonetic": "/ˈwʊmən/",
-    "meaning": "妇女；女性；成年女子（n.）",
-    "audio": "audio_small/w/woman.mp3"
   },
   "wonder": {
     "word": "wonder",
