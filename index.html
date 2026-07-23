@@ -2308,6 +2308,39 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
 }
 </style>
 
+<script>
+// 本地图片统一按 WebP → JPG → PNG 顺序加载。
+// data/blob 地址属于用户上传内容，保持原样。
+function webpFirstImagePath(path) {
+  const value = String(path || '');
+  if (!value || /^(data:|blob:)/i.test(value)) return value;
+  return value.replace(/\.(?:webp|jpe?g|png)(?=([?#].*)?$)/i, '.webp');
+}
+function setWebpFirstImage(img, path) {
+  if (!img) return;
+  delete img.dataset.imageBase;
+  delete img.dataset.imageSuffix;
+  delete img.dataset.imageFormatIndex;
+  img.src = webpFirstImagePath(path);
+}
+function fallbackImageFormat(img) {
+  if (!img || /^(data:|blob:)/i.test(img.src || '')) return;
+  if (!img.dataset.imageBase) {
+    const raw = img.getAttribute('src') || '';
+    const match = raw.match(/^(.*)\.(?:webp|jpe?g|png)((?:[?#].*)?)$/i);
+    if (!match) { img.onerror = null; return; }
+    img.dataset.imageBase = match[1];
+    img.dataset.imageSuffix = match[2] || '';
+    img.dataset.imageFormatIndex = '0';
+  }
+  const formats = ['webp', 'jpg', 'png'];
+  const nextIndex = Number(img.dataset.imageFormatIndex || 0) + 1;
+  if (nextIndex >= formats.length) { img.onerror = null; return; }
+  img.dataset.imageFormatIndex = String(nextIndex);
+  img.src = `${img.dataset.imageBase}.${formats[nextIndex]}${img.dataset.imageSuffix || ''}`;
+}
+</script>
+
 <body>
 
 <div class="modal-overlay" id="modalOverlay"></div>
@@ -2369,7 +2402,7 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
 
 <div id="mainPage" class="page active">
   <div class="header">
-    <img src="logo.webp" class="logo">
+    <img src="logo.webp" class="logo" onerror="fallbackImageFormat(this)">
     <div class="logo-text">XX学习站</div>
     <!-- 主题切换按钮：跟随标题栏布局，始终位于最右侧 -->
     <button class="theme-toggle-btn" id="themeToggle" type="button" aria-label="切换主题"></button>
@@ -2392,15 +2425,15 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
 
   <div class="swiper" id="bannerSwiper">
     <div class="banner-card" onclick="showPage('dramaPage')">
-      <img src="banner1.webp" class="banner-img">
+      <img src="banner1.webp" class="banner-img" onerror="fallbackImageFormat(this)">
       <div class="banner-text">追剧学习</div>
     </div>
     <div class="banner-card" onclick="showPage('TrendingPage')">
-      <img src="banner2.webp" class="banner-img">
+      <img src="banner2.webp" class="banner-img" onerror="fallbackImageFormat(this)">
       <div class="banner-text">热门视频</div>
     </div>
     <div class="banner-card" onclick="showPage('bbcPage')">
-      <img src="banner3.webp" class="banner-img">
+      <img src="banner3.webp" class="banner-img" onerror="fallbackImageFormat(this)">
       <div class="banner-text">NEWS</div>
     </div>
   </div>
@@ -2470,7 +2503,7 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
   <!-- 学习站学习模块 -->
 <!-- 顶部16:7居中Logo -->
 <div class="gas-top-logo" style="width:87%;margin:15px auto 0;aspect-ratio:16/8;border-radius:16px;overflow:hidden;">
-    <img src="gas_banner.webp" alt="学习站LOGO" style="width:100%;height:100%;object-fit:cover;display:block;">
+    <img src="gas_banner.webp" onerror="fallbackImageFormat(this)" alt="学习站LOGO" style="width:100%;height:100%;object-fit:cover;display:block;">
 </div>
 
 <div class="practice-title" style="padding:20px 16px 12px;font-size:17px;color:rgb(32, 184, 118);font-weight:600;">XX粉丝学习专区</div>
@@ -2479,19 +2512,19 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
 <div class="practice-btn-box" style="display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:0 16px;">
     <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid rgba(100, 235, 118, 0.3);cursor:pointer;" onclick="showPage('cet4Page')">
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:rgb(32, 184, 118);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">CET4</div>
-        <img class="practice-icon" src="icon_cet4.png" onerror="this.onerror=null;this.src='icon_cet4.webp'" alt="CET4" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img class="practice-icon" src="icon_cet4.webp" onerror="fallbackImageFormat(this)" alt="CET4" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
     <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid rgba(100, 235, 118, 0.3);cursor:pointer;" onclick="showPage('cet6Page')">
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:rgb(32, 184, 118);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">CET6</div>
-        <img class="practice-icon" src="icon_cet6.png" onerror="this.onerror=null;this.src='icon_cet6.webp'" alt="CET6" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img class="practice-icon" src="icon_cet6.webp" onerror="fallbackImageFormat(this)" alt="CET6" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
     <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid rgba(100, 235, 118, 0.3);cursor:pointer;" onclick="showPage('articleWritePage')">
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:rgb(32, 184, 118);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">文章默写</div>
-        <img class="practice-icon" src="icon_article.png" onerror="this.onerror=null;this.src='icon_article.webp'" alt="文章默写" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img class="practice-icon" src="icon_article.webp" onerror="fallbackImageFormat(this)" alt="文章默写" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
     <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid rgba(100, 235, 118, 0.3);cursor:pointer;" onclick="showPage('sentenceWritePage')">
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:rgb(32, 184, 118);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">收藏夹</div>
-        <img class="practice-icon" src="icon_sentence.png" onerror="this.onerror=null;this.src='icon_sentence.webp'" alt="收藏夹" style="width:100%;height:100%;object-fit:cover;display:block;">
+        <img class="practice-icon" src="icon_sentence.webp" onerror="fallbackImageFormat(this)" alt="收藏夹" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
 </div>
 
@@ -2744,7 +2777,7 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
   <div class="secondary-header idol-profile-header">
     <input type="file" id="avatarInput" class="avatar-input" accept="image/*">
     <div class="idol-profile-row">
-      <img src="logo.webp" class="idol-avatar" id="avatarPreview" onclick="document.getElementById('avatarInput').click()">
+      <img src="logo.webp" class="idol-avatar" id="avatarPreview" onerror="fallbackImageFormat(this)" onclick="document.getElementById('avatarInput').click()">
       <div class="idol-profile-text">
         <input type="text" class="idol-name" id="idolName" placeholder="请输入昵称">
         <input type="text" class="idol-sign" id="idolSign" placeholder="填写个性签名">
@@ -2760,7 +2793,7 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
       <span id="starBannerPlaceholder" style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);color:var(--color-text-secondary);font-size:13px;pointer-events:none;">+ 点击添加追星banner</span>
       <!-- 标题在图片左上 -->
       <div style="position:absolute;top:10px;left:12px;display:flex;align-items:center;gap:6px;pointer-events:none;">
-        <span style="font-size:16px;font-weight:bold;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.6);">Star Journey</span>
+        <span data-site-text="idolPage.starBannerText" style="font-size:16px;font-weight:bold;color:#fff;text-shadow:0 1px 3px rgba(0,0,0,0.6);">Star Journey</span>
         <svg viewBox="0 0 24 24" width="18" height="18" fill="rgb(32, 184, 118)"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
       </div>
       <!-- 天数在图片右下 -->
@@ -2771,13 +2804,13 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
     <input type="file" id="starBannerUpload" accept="image/*" style="display:none;" onchange="uploadStarBanner(event)">
     <div style="display:flex;align-items:center;gap:12px;margin-top:8px;" id="starTrackerArea">
       <input type="date" id="starStartDate" style="display:none;padding:6px 10px;border-radius:8px;border:1px solid rgba(100, 235, 118,0.3);background:var(--bg-input);color:var(--color-text);font-size:14px;" onchange="saveStarStartDate()">
-      <button id="starStartBtn" onclick="toggleStarDatePicker()" style="padding:8px 14px;border-radius:20px;border:1px solid rgba(100, 235, 118,0.5);background:transparent;color:#20b876;font-size:14px;cursor:pointer;"> Set My Fan Debut Date for XX</button>
+      <button id="starStartBtn" data-site-text="idolPage.debutBtnText" onclick="toggleStarDatePicker()" style="padding:8px 14px;border-radius:20px;border:1px solid rgba(100, 235, 118,0.5);background:transparent;color:#20b876;font-size:14px;cursor:pointer;"> Set My Fan Debut Date for XX</button>
     </div>
   </div>
 
   <!-- ===== 模块3：打卡日历 ===== -->
   <div class="idol-module" style="background:transparent;border:1px solid rgba(100, 235, 118,0.4);box-shadow:0 0 12px rgba(100, 235, 118,0.15);">
-    <div class="idol-module-title">打卡日历</div>
+    <div class="idol-module-title" data-site-text="idolPage.checkinCalendar">打卡日历</div>
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px;">
       <button onclick="changeCalendarMonth(-1)" style="background:transparent;border:none;cursor:pointer;display:grid;place-items:center;width:24px;height:24px;"><svg viewBox="0 0 24 24" width="14" height="14" fill="var(--color-text)"><path d="M15 18l-6-6 6-6 1.4 1.4-4.6 4.6 4.6 4.6z"/></svg></button>
       <span id="calendarTitle" style="font-size:16px;font-weight:bold;color:#20b876;"></span>
@@ -2787,47 +2820,47 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
     <div style="display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center;" id="calendarGrid"></div>
     <!-- 心情选择 -->
     <div style="margin-top:10px;">
-      <div style="font-size:13px;color:#20b876;margin-bottom:6px;">今日心情</div>
+      <div data-site-text="idolPage.todayMood" style="font-size:13px;color:#20b876;margin-bottom:6px;">今日心情</div>
       <div style="display:flex;gap:10px;flex-wrap:wrap;" id="moodSelector">
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="1" onclick="setTodayMood(1)"><img src="mood1.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Happy</span>
+          <div class="mood-circle" data-mood="1" onclick="setTodayMood(1)"><img src="mood1.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood1" style="font-size:11px;color:var(--color-text-secondary);">Happy</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="2" onclick="setTodayMood(2)"><img src="mood2.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Wronged</span>
+          <div class="mood-circle" data-mood="2" onclick="setTodayMood(2)"><img src="mood2.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood2" style="font-size:11px;color:var(--color-text-secondary);">Wronged</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="3" onclick="setTodayMood(3)"><img src="mood3.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Cry</span>
+          <div class="mood-circle" data-mood="3" onclick="setTodayMood(3)"><img src="mood3.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood3" style="font-size:11px;color:var(--color-text-secondary);">Cry</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="4" onclick="setTodayMood(4)"><img src="mood4.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Sad</span>
+          <div class="mood-circle" data-mood="4" onclick="setTodayMood(4)"><img src="mood4.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood4" style="font-size:11px;color:var(--color-text-secondary);">Sad</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="5" onclick="setTodayMood(5)"><img src="mood5.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Try</span>
+          <div class="mood-circle" data-mood="5" onclick="setTodayMood(5)"><img src="mood5.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood5" style="font-size:11px;color:var(--color-text-secondary);">Try</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="6" onclick="setTodayMood(6)"><img src="mood6.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Speechless</span>
+          <div class="mood-circle" data-mood="6" onclick="setTodayMood(6)"><img src="mood6.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood6" style="font-size:11px;color:var(--color-text-secondary);">Speechless</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="7" onclick="setTodayMood(7)"><img src="mood7.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Tired</span>
+          <div class="mood-circle" data-mood="7" onclick="setTodayMood(7)"><img src="mood7.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood7" style="font-size:11px;color:var(--color-text-secondary);">Tired</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="8" onclick="setTodayMood(8)"><img src="mood8.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Joy</span>
+          <div class="mood-circle" data-mood="8" onclick="setTodayMood(8)"><img src="mood8.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood8" style="font-size:11px;color:var(--color-text-secondary);">Joy</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="9" onclick="setTodayMood(9)"><img src="mood9.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Dark</span>
+          <div class="mood-circle" data-mood="9" onclick="setTodayMood(9)"><img src="mood9.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood9" style="font-size:11px;color:var(--color-text-secondary);">Dark</span>
         </div>
         <div style="display:flex;flex-direction:column;align-items:center;gap:4px;">
-          <div class="mood-circle" data-mood="10" onclick="setTodayMood(10)"><img src="mood10.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="this.style.display='none'"></div>
-          <span style="font-size:11px;color:var(--color-text-secondary);">Broken</span>
+          <div class="mood-circle" data-mood="10" onclick="setTodayMood(10)"><img src="mood10.webp" style="width:100%;height:100%;border-radius:50%;object-fit:cover;" onerror="fallbackImageFormat(this)"></div>
+          <span data-site-text="idolPage.moodLabels.mood10" style="font-size:11px;color:var(--color-text-secondary);">Broken</span>
         </div>
       </div>
     </div>
@@ -3086,7 +3119,7 @@ button:not(.theme-toggle-btn):not(:disabled):hover {
 
 <!-- 答题对错弹窗图片 -->
 <div id="answerPopup" style="position:fixed; left:40px; right:0; top: 16%; display:flex; align-items:center; justify-content:center; z-index:9999; pointer-events:none; visibility:hidden;">
-  <img id="popupIcon" style="width:220px; height:220px;">
+  <img id="popupIcon" onerror="fallbackImageFormat(this)" style="width:220px; height:220px;">
 </div>
 
 <!-- ===================== CET4 拼写答题页 ===================== -->
@@ -3403,6 +3436,18 @@ function applySiteTextToDOM() {
       });
     } catch(e) { /* 选择器不存在则跳过 */ }
   });
+
+  // 声明式自动绑定：HTML 添加 data-site-text="配置路径" 后，
+  // 修改 site-text.json 并刷新页面即可更新，不需要再改 JS 映射表。
+  document.querySelectorAll('[data-site-text]').forEach(el => {
+    const text = getSiteText(el.dataset.siteText);
+    if (text === null || text === undefined) return;
+    const type = el.dataset.siteTextType || 'text';
+    if (type === 'placeholder') el.placeholder = text;
+    else if (type === 'value') el.value = text;
+    else if (type === 'html') el.innerHTML = text;
+    else el.textContent = text;
+  });
 }
 
 // 加载外链文字配置
@@ -3485,6 +3530,7 @@ function escapeHtml(value) {
     "'": '&#39;'
   })[char]);
 }
+
 function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -3694,9 +3740,7 @@ async function resolveAsset(candidates) {
 async function resolveSharedVideoAssets(inputName) {
   const base = getBaseNameFromInput(inputName);
   const ext = getFileExtension(inputName);
-  const imgCandidates = ['webp', 'jpg', 'jpeg', 'png'].includes(ext)
-    ? [inputName]
-    : [`${base}.webp`, `${base}.jpg`, `${base}.jpeg`, `${base}.png`];
+  const imgCandidates = [`${base}.webp`, `${base}.jpg`, `${base}.png`];
   const vidCandidates = ['mp4', 'm4v', 'mov', 'webm'].includes(ext)
     ? [inputName]
     : [`${base}.mp4`, `${base}.m4v`, `${base}.mov`, `${base}.webm`];
@@ -3714,9 +3758,7 @@ async function resolveSharedNewsAssets(inputName) {
     ? [inputName]
     : [`${base}.mp3`, `${base}.m4a`, `${base}.wav`, `${base}.aac`];
   const subCandidates = ext === 'vtt' ? [inputName] : [`${base}.vtt`];
-  const bannerCandidates = ['webp', 'jpg', 'jpeg', 'png'].includes(ext)
-    ? [inputName]
-    : [`${base}.webp`, `${base}.jpg`, `${base}.jpeg`, `${base}.png`];
+  const bannerCandidates = [`${base}.webp`, `${base}.jpg`, `${base}.png`];
   return {
     base,
     audio: await resolveAsset(audioCandidates),
@@ -4015,20 +4057,40 @@ function initTheme() {
 // playWrongSound()
 
 let _wordLibPromise = null;
+
+// CET 词库历史上同时存在「按单词索引的对象」和「单词数组」两种格式。
+// 统一转成小写单词索引，保证字幕高亮、点击查询和练习页使用同一份结构。
+function normalizeWordDictionary(data, defaultType) {
+  const normalized = {};
+  const entries = Array.isArray(data)
+    ? data.map(item => [item && item.word, item])
+    : Object.entries(data || {});
+
+  entries.forEach(([key, value]) => {
+    if (!value || typeof value !== 'object') return;
+    const word = String(value.word || key || '').trim().toLowerCase();
+    if (!word) return;
+    normalized[word] = { ...value, word, type: value.type || defaultType };
+  });
+  return normalized;
+}
+
 function ensureWordLibrary() {
   if (!_wordLibPromise) {
     _wordLibPromise = (async () => {
       let allWords = {};
       // 分别加载各词库，单个失败不影响其他
       try {
-        cet4Words = await fetch("cet4.json").then(r => r.json());
+        const cet4Data = await fetch("cet4.json").then(r => r.json());
+        cet4Words = normalizeWordDictionary(cet4Data, "cet4");
         for (let w in cet4Words) allWords[w] = { ...cet4Words[w], type: "cet4" };
         console.log("✅ CET4词库加载完成: " + Object.keys(cet4Words).length + "词");
       } catch (err) {
         console.log("⚠️ CET4词库加载失败:", err.message);
       }
       try {
-        cet6Words = await fetch("cet6.json").then(r => r.json());
+        const cet6Data = await fetch("cet6.json").then(r => r.json());
+        cet6Words = normalizeWordDictionary(cet6Data, "cet6");
         for (let w in cet6Words) allWords[w] = { ...cet6Words[w], type: "cet6" };
         console.log("✅ CET6词库加载完成: " + Object.keys(cet6Words).length + "词");
       } catch (err) {
@@ -4164,7 +4226,7 @@ function renderDramaVideos() {
     <div class="video-item">
       <div class="video-card" onclick="openVideo(${videoId})">
         <div class="video-del-btn" onclick="deleteVideo(event,this)">×</div>
-        <img src="${escapeHtml(item.img)}" class="video-card-img">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       </div>
       <input class="video-name" type="text" value="${escapeHtml(item.title)}" onblur="saveDramaVideoName(this, ${videoId})">
@@ -4183,7 +4245,7 @@ function renderGTVideos() {
     <div class="video-item">
       <div class="video-card" onclick="openVideo(${videoId})">
         <div class="video-del-btn" onclick="deleteVideo(event,this)">×</div>
-        <img src="${escapeHtml(item.img)}" class="video-card-img">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       </div>
       <input class="video-name" type="text" value="${escapeHtml(item.title)}" onblur="saveGTVideoName(this, ${videoId})">
@@ -4466,7 +4528,6 @@ document.addEventListener("click", e => {
       </div>
       <p>释义：${escapeHtml(info.meaning)}</p>
       <p>音标：${escapeHtml(info.phonetic)}</p>
-      <p>词性：${escapeHtml(info.pos)}</p>
       <p>等级：${escapeHtml(info.type.toUpperCase())}</p>
           `;
   } else if (e.target.classList.contains("translate-token")) {
@@ -4481,7 +4542,6 @@ document.addEventListener("click", e => {
         <span class="popup-star${isWordCollected2 ? ' collected' : ''}" data-word="${escapeHtml(token)}" style="cursor:pointer;font-size:14px;color:#20b876;flex-shrink:0;">${isWordCollected2 ? '★' : '☆'}</span>
         <div class="popup-info">
           <span class="info-meaning">${escapeHtml(info.meaning || '暂无释义')}</span>
-          <span class="info-pos">${escapeHtml(info.pos || '暂无词性')}</span>
           <span class="info-phonetic">${escapeHtml(info.phonetic || '暂无音标')}</span>
         </div>
       </div>
@@ -5078,7 +5138,7 @@ function toggleStarDatePicker() {
   if (input.style.display === 'none') {
     input.style.display = 'block';
     input.valueAsDate = new Date();
-    btn.innerText = '确认开始日期';
+    btn.innerText = getSiteText('idolPage.confirmDateBtn') || '确认开始日期';
   } else {
     saveStarStartDate();
   }
@@ -5216,7 +5276,10 @@ function openMoodPopup(key) {
   document.getElementById('moodPopupNote').style.opacity = '1';
   document.getElementById('saveMoodBtn').style.display = 'block';
   document.querySelectorAll('.weather-emoji').forEach(el => { el.style.pointerEvents = 'auto'; });
-  const moodNames = ['','Happy','Wronged','Cry','Sad','Try','Speechless','Tired','Joy','Dark','Broken'];
+  const moodNames = [''];
+  for (let i = 1; i <= 10; i++) {
+    moodNames[i] = getSiteText(`idolPage.moodLabels.mood${i}`) || '';
+  }
   const moods = getMoods();
   const mood = moods[key] || '';
   const moodImg = mood ? ('mood' + mood + '.webp') : '';
@@ -5444,7 +5507,7 @@ window.renderBbcNews = window.renderBbcNews || function() {
         <div style="font-size:10px; color:var(--color-text-secondary); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${escapeHtml(item.time)}</div>
       </div>
       <div style="width:70px; height:70px; border-radius:10px; overflow:hidden; background:#000;flex-shrink:0;">
-        <img src="${escapeHtml(item.img)}" style="width:100%;height:100%;object-fit:cover;" onerror="this.onerror=null;this.src='news_1.webp'">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" style="width:100%;height:100%;object-fit:cover;" onerror="fallbackImageFormat(this)">
       </div>
       <div class="bbc-del-btn" onclick="event.stopPropagation();deleteBbcNews(${index})"
            style="position:absolute; top:6px; right:6px; width:20px; height:20px;
@@ -5521,14 +5584,14 @@ window.deleteBbcNews = window.deleteBbcNews || function(index) {
 
 async function openBbcDetail(index) {
   const item = currentNewsList[index];
+
+  // 新闻字幕依赖 CET 词库生成高亮；等待加载完成，避免首次进入详情时没有单词卡。
+  await ensureWordLibrary();
   
   const bannerImg = document.getElementById('bbcDetailBanner');
   bannerImg.src = '';
-  bannerImg.src = item.banner;
-  bannerImg.onerror = function() {
-    this.onerror = null;
-    this.src = 'news_1.webp';
-  };
+  setWebpFirstImage(bannerImg, item.banner);
+  bannerImg.onerror = function() { fallbackImageFormat(this); };
   
   document.getElementById('bbcDetailTitle').innerText = item.name;
   document.getElementById('bbcDetailTime').innerText = item.time;
@@ -6357,7 +6420,7 @@ window.selectExamOption = window.selectExamOption || function(el, correctAnswer)
 
   const popup = document.getElementById("answerPopup");
   const popupIcon = document.getElementById("popupIcon");
-  popupIcon.src = isCorrect ? "right.webp" : "wrong.webp";
+  setWebpFirstImage(popupIcon, isCorrect ? "right.webp" : "wrong.webp");
   popup.style.visibility = "visible";
 
   setTimeout(() => {
@@ -6415,7 +6478,7 @@ window.autoSpeakExamWord = window.autoSpeakExamWord || function() {
 window.showPopup = window.showPopup || function(isCorrect){
   const popup = document.getElementById("answerPopup");
   const popupIcon = document.getElementById("popupIcon");
-  popupIcon.src = isCorrect ? "right.webp" : "wrong.webp";
+  setWebpFirstImage(popupIcon, isCorrect ? "right.webp" : "wrong.webp");
   popup.style.visibility = "visible";
   setTimeout(()=>{
     popup.style.visibility = "hidden";
@@ -6889,7 +6952,7 @@ window.selectExamOptionCet6 = window.selectExamOptionCet6 || function(el, correc
 
   const popup = document.getElementById("answerPopup");
   const popupIcon = document.getElementById("popupIcon");
-  popupIcon.src = isCorrect ? "right.webp" : "wrong.webp";
+  setWebpFirstImage(popupIcon, isCorrect ? "right.webp" : "wrong.webp");
   popup.style.visibility = "visible";
 
   setTimeout(() => {
@@ -7112,7 +7175,7 @@ function renderArticleList() {
         </div>
       </div>
       <div style="width:70px; height:70px; border-radius:10px; overflow:hidden; background:#000;flex-shrink:0;">
-        <img src="${escapeHtml(article.img)}" style="width:100%;height:100%;object-fit:cover;" onerror="this.onerror=null;this.src='news_1.webp'">
+        <img src="${escapeHtml(webpFirstImagePath(article.img))}" style="width:100%;height:100%;object-fit:cover;" onerror="fallbackImageFormat(this)">
       </div>
       ${isSelected ? '<div style="position:absolute;right:10px;top:50%;transform:translateY(-50%);color:#20b876;font-size:20px;">✓</div>' : ''}
     </div>`;
@@ -8455,6 +8518,28 @@ function playWordFromAudio(word) {
     return true;
   }
 
+  // 回退：尝试播放 audio_small/ 下的独立单词 MP3（词库中 audio 字段）
+  var wordKey = word.toLowerCase();
+  var wordInfo = (wordLibrary && wordLibrary[wordKey]) ||
+                 (cet4Words && cet4Words[wordKey]) ||
+                 (cet6Words && cet6Words[wordKey]);
+  if (wordInfo && wordInfo.audio) {
+    stopWordAudio();
+    if (!wordAudioPlayer) {
+      wordAudioPlayer = new Audio();
+      wordAudioPlayer.preload = 'auto';
+    }
+    wordAudioPlayer.src = wordInfo.audio;
+    wordAudioPlayer.currentTime = 0;
+    var mp3Promise = wordAudioPlayer.play();
+    if (mp3Promise && typeof mp3Promise.catch === 'function') {
+      mp3Promise.catch(function() {
+        speakTextSafely(word, { lang: 'en-US', rate: 0.9 });
+      });
+    }
+    return true;
+  }
+
   if (!wordAudioMapCache) return false;
 
   // 按优先级查找：当前CET上下文 → 另一个CET → 放弃
@@ -8465,23 +8550,58 @@ function playWordFromAudio(word) {
 
   var audioInfo = section[word] || section[word.toLowerCase()] ||
                   fallbackSection[word] || fallbackSection[word.toLowerCase()];
-  if (!audioInfo) return false;
+  if (!audioInfo) {
+    // 回退：word-audio-map 中找不到，尝试独立 MP3
+    var wk = word.toLowerCase();
+    var wi = (wordLibrary && wordLibrary[wk]) || (cet4Words && cet4Words[wk]) || (cet6Words && cet6Words[wk]);
+    if (wi && wi.audio) {
+      stopWordAudio();
+      if (!wordAudioPlayer) { wordAudioPlayer = new Audio(); wordAudioPlayer.preload = 'auto'; }
+      wordAudioPlayer.src = wi.audio; wordAudioPlayer.currentTime = 0;
+      var p = wordAudioPlayer.play();
+      if (p && typeof p.catch === 'function') { p.catch(function() { speakTextSafely(word, { lang: 'en-US', rate: 0.9 }); }); }
+      return true;
+    }
+    return false;
+  }
 
   var jsonUrl = audioInfo.json;
   var mp3Url = audioInfo.mp3;
 
   // 检查时间轴缓存
   if (!timingCache[jsonUrl]) {
-    // 异步加载时间轴 JSON，此次播放回退 TTS
-    loadTimingJson(jsonUrl).then(function(timeline) {
-      // 缓存已就绪，下次点击即可使用音频
-    });
+    // 异步加载时间轴 JSON
+    loadTimingJson(jsonUrl).then(function(timeline) {});
+    // 回退：时间轴未缓存，先用独立 MP3
+    var wk = word.toLowerCase();
+    var wi = (wordLibrary && wordLibrary[wk]) || (cet4Words && cet4Words[wk]) || (cet6Words && cet6Words[wk]);
+    if (wi && wi.audio) {
+      stopWordAudio();
+      if (!wordAudioPlayer) { wordAudioPlayer = new Audio(); wordAudioPlayer.preload = 'auto'; }
+      wordAudioPlayer.src = wi.audio; wordAudioPlayer.currentTime = 0;
+      var p = wordAudioPlayer.play();
+      if (p && typeof p.catch === 'function') { p.catch(function() { speakTextSafely(word, { lang: 'en-US', rate: 0.9 }); }); }
+      return true;
+    }
     return false;
   }
 
   var timeline = timingCache[jsonUrl];
   var cue = timeline[word.toLowerCase()];
-  if (!cue) return false;
+  if (!cue) {
+    // 回退：时间轴中无此词，尝试独立 MP3
+    var wk2 = word.toLowerCase();
+    var wi2 = (wordLibrary && wordLibrary[wk2]) || (cet4Words && cet4Words[wk2]) || (cet6Words && cet6Words[wk2]);
+    if (wi2 && wi2.audio) {
+      stopWordAudio();
+      if (!wordAudioPlayer) { wordAudioPlayer = new Audio(); wordAudioPlayer.preload = 'auto'; }
+      wordAudioPlayer.src = wi2.audio; wordAudioPlayer.currentTime = 0;
+      var p2 = wordAudioPlayer.play();
+      if (p2 && typeof p2.catch === 'function') { p2.catch(function() { speakTextSafely(word, { lang: 'en-US', rate: 0.9 }); }); }
+      return true;
+    }
+    return false;
+  }
 
   stopWordAudio();
 
@@ -8942,7 +9062,7 @@ function deleteVoice(e, btn) {
 // 全局背景图自动加载：同名文件存在多个格式时优先使用 WebP。
 (function loadSiteBackground() {
   var baseName = 'global-background';
-  var candidates = [baseName + '.webp', baseName + '.png', baseName + '.jpg'];
+  var candidates = [baseName + '.webp', baseName + '.jpg', baseName + '.png'];
   var index = 0;
 
   function tryNext() {
@@ -8959,8 +9079,12 @@ function deleteVoice(e, btn) {
   tryNext();
 })();
 
-// 喇叭图标自动fallback：webp → png → jpg → SVG
-(function(){document.querySelectorAll('img.speaker-icon-fb').forEach(function(img){img.onerror=function(){var s=this.src;if(s.indexOf('.webp')>0)this.src=s.replace('.webp','.png');else if(s.indexOf('.png')>0)this.src=s.replace('.png','.jpg');else{this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OCIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSIjNjRlYjc2Ij48cGF0aCBkPSJNMyA5djZoNGw1IDVWNEw3IDlIM3ptMTMuNSAzYzAtMS43Ny0xLjAyLTMuMjktMi41LTQuMDN2OC4wNWMxLjQ4LS43MyAyLjUtMi4yNSAyLjUtNC4wMnpNMTQgMy4yM3YyLjA2YzIuODkuODYgNSAzLjU0IDUgNi43MXMtMi4xMSA1Ljg1LTUgNi43MXYyLjA2YzQuMDEtLjkxIDctNC40OSA3LTguNzdzLTIuOTktNy44Ni03LTguNzd6Ii8+PC9zdmc+';}}})})();
+// 喇叭图标同样使用 WebP → JPG → PNG 回退顺序。
+(function(){
+  document.querySelectorAll('img.speaker-icon-fb').forEach(function(img){
+    img.onerror = function(){ fallbackImageFormat(this); };
+  });
+})();
 </script>
 
 </body>

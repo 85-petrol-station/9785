@@ -7,8 +7,8 @@
   "_说明6": "===========================================================",
 
   "site": {
-    "logoText": "IBO学习站",
-    "searchPlaceholder": "一博好帅！"
+    "logoText": "IBO英语学习加油站",
+    "searchPlaceholder": "一博酷盖！"
   },
 
   "mainPage": {
@@ -24,7 +24,7 @@
       "trending": "热门视频",
       "bbc": "NEWS"
     },
-    "voiceSectionTitle": "yibo语音"
+    "voiceSectionTitle": "博言博语"
   },
 
     "tabbar": {
@@ -54,7 +54,7 @@
     "signPlaceholder": "填写个性签名",
     "starBannerPlaceholder": "+ 点击添加追星banner",
     "starBannerText": "Star Journey",
-    "debutBtnText": " Set My Fan Debut Date for yibo",
+    "debutBtnText": " Set My Fan Debut Date for Wangyibo",
     "confirmDateBtn": "确认开始日期",
     "checkinCalendar": "打卡日历",
     "todayMood": "今日心情",
