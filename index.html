@@ -2796,9 +2796,9 @@ function fallbackImageFormat(img) {
   <!-- 手稿里的 已默/待默/全部 标签 -->
   <div style="display:flex; margin:6px 16px; align-items:center;">
     <div style="flex:1; display:flex; background:var(--bg-nav); border-radius:10px; padding:2px;">
-      <div class="article-tab-btn active" data-tab="written" onclick="switchArticleTab('written')" style="flex:1; text-align:center; border-radius:8px; font-size:14px; transition:all 0.2s;">已默</div>
+      <div class="article-tab-btn" data-tab="written" onclick="switchArticleTab('written')" style="flex:1; text-align:center; border-radius:8px; font-size:14px; transition:all 0.2s;">已默</div>
       <div class="article-tab-btn" data-tab="pending" onclick="switchArticleTab('pending')" style="flex:1; text-align:center; border-radius:8px; font-size:14px; transition:all 0.2s;">待默</div>
-      <div class="article-tab-btn" data-tab="all" onclick="switchArticleTab('all')" style="flex:1; text-align:center; border-radius:8px; font-size:14px; transition:all 0.2s;">全部</div>
+      <div class="article-tab-btn active" data-tab="all" onclick="switchArticleTab('all')" style="flex:1; text-align:center; border-radius:8px; font-size:14px; transition:all 0.2s;">全部</div>
     </div>
   </div>
 
@@ -3070,9 +3070,10 @@ function fallbackImageFormat(img) {
     <div id="moodPopupDateEn" style="font-size:11px;opacity:0.5;margin-bottom:4px;"></div>
     <textarea id="moodPopupNote" placeholder="记录心情…" maxlength="1000" oninput="updateMoodCharCount()" style="width:100%;height:200px;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.3);background:rgba(255,255,255,0.1);color:#fff;font-size:12px;resize:none;outline:none;"></textarea>
     <div id="moodCharCount" style="font-size:10px;color:rgba(255,255,255,0.5);text-align:right;margin-top:2px;">0/1000字</div>
-    <div style="display:flex;gap:8px;margin-top:4px;">
+    <div id="moodPopupActions" style="display:flex;gap:8px;margin-top:4px;">
+      <button class="mood-popup-action" id="deleteMoodBtn" onclick="deleteMoodDiary()" style="flex:1;border-radius:5px;border:1px solid rgba(255,255,255,0.55);background:transparent;color:#fff;font-size:11px;cursor:pointer;">删除</button>
       <button class="mood-popup-action" id="saveMoodBtn" onclick="saveMoodNote()" style="flex:1;border-radius:5px;border:none;background:rgba(255,255,255,0.85);color:#20b876;font-size:11px;cursor:pointer;">保存</button>
-      <button class="mood-popup-action" onclick="generateMoodPoster()" style="flex:1;border-radius:5px;border:none;background:#fff;color:#20b876;font-size:11px;cursor:pointer;">生成海报</button>
+      <button class="mood-popup-action" id="downloadMoodBtn" onclick="generateMoodPoster()" style="flex:1;border-radius:5px;border:none;background:#fff;color:#20b876;font-size:11px;cursor:pointer;">下载日历</button>
     </div>
   </div>
 </div>
@@ -3918,7 +3919,9 @@ async function resolveSharedVideoAssets(inputName) {
   return {
     base,
     img: await resolveAsset(imgCandidates),
-    vid: await resolveAsset(vidCandidates)
+    vid: await resolveAsset(vidCandidates),
+    audio: `${base}.mp3`,
+    sub: `${base}.vtt`
   };
 }
 
@@ -3989,15 +3992,16 @@ async function addSharedVideoFromAdmin() {
     alert('请填写视频名称和基础名，例如 Drama1_1');
     return;
   }
-  const { base, img, vid } = await resolveSharedVideoAssets(inputName);
+  const { base, img, vid, audio, sub } = await resolveSharedVideoAssets(inputName);
   if (!img || !vid) {
     alert(`无法自动匹配到同名资源，请确认 ${base}.jpg 和 ${base}.mp4 等文件已经放在项目根目录`);
     return;
   }
   const list = readSharedList('dramaVideos', []);
-  list.unshift({ img, vid, title });
+  list.unshift({ img, vid, title, audio, sub });
   writeSharedList('dramaVideos', list);
   renderDramaVideos();
+  await refreshVideoDictationArticles();
   document.getElementById('adminDramaVideoName').value = '';
   document.getElementById('adminDramaVideoTitle').value = '';
   exportSiteContentJson();
@@ -4013,15 +4017,16 @@ async function addSharedVideoToGTFromAdmin() {
     alert('请填写视频名称和基础名，例如 Trending1_1');
     return;
   }
-  const { base, img, vid } = await resolveSharedVideoAssets(inputName);
+  const { base, img, vid, audio, sub } = await resolveSharedVideoAssets(inputName);
   if (!img || !vid) {
     alert(`无法自动匹配到同名资源，请确认 ${base}.jpg 和 ${base}.mp4 等文件已经放在项目根目录`);
     return;
   }
   const list = readSharedList('gtVideos', []);
-  list.unshift({ img, vid, title });
+  list.unshift({ img, vid, title, audio, sub });
   writeSharedList('gtVideos', list);
   renderGTVideos();
+  await refreshVideoDictationArticles();
   document.getElementById('adminGtVideoName').value = '';
   document.getElementById('adminGtVideoTitle').value = '';
   exportSiteContentJson();
@@ -4353,6 +4358,59 @@ function parseVtt(text){
   }
   return res;
 }
+
+let videoDictationArticles = [];
+
+async function buildVideoDictationArticle(item, sourceName) {
+  const base = getBaseNameFromInput(item.vid || item.audio || item.sub || '');
+  if (!base) return null;
+
+  const audio = item.audio || `${base}.mp3`;
+  const sub = item.sub || `${base}.vtt`;
+  try {
+    const res = await fetch(sub);
+    if (!res.ok) return null;
+    const cues = parseVtt(await res.text());
+    const content = cues
+      .map(cue => [cue.en, cue.zh].filter(Boolean).join('\n'))
+      .filter(Boolean)
+      .join('\n\n')
+      .trim();
+    if (!content) return null;
+    return {
+      name: item.title || base,
+      time: sourceName,
+      img: item.img || 'logo.webp',
+      banner: item.img || 'logo.webp',
+      audio,
+      sub,
+      content
+    };
+  } catch (err) {
+    console.warn('视频字幕未能加入文章默写:', sub, err);
+    return null;
+  }
+}
+
+async function refreshVideoDictationArticles() {
+  const tasks = [];
+  readSharedList('dramaVideos', []).forEach(item => {
+    tasks.push(buildVideoDictationArticle(item, '追剧学习'));
+  });
+  readSharedList('gtVideos', []).forEach(item => {
+    tasks.push(buildVideoDictationArticle(item, '热门视频'));
+  });
+  videoDictationArticles = (await Promise.all(tasks)).filter(Boolean);
+  refreshArticleListWhenOpen();
+}
+
+function getAllDictationArticles() {
+  return [
+    ...videoDictationArticles,
+    ...readSharedList('bbcNewsList', [])
+  ];
+}
+
 async function loadSubtitle(videoSrc){
   const subSrc = videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.vtt');
   try{
@@ -4382,7 +4440,7 @@ async function refreshFromBackend() {
   renderGTVideos();
   ensureDefaultBbcNews();
   renderBbcNews();
-  refreshArticleListWhenOpen();
+  await refreshVideoDictationArticles();
 }
 
 function renderDramaVideos() {
@@ -4851,7 +4909,7 @@ function showPage(id) {
   if (adminBtn) adminBtn.style.display = id === 'mainPage' ? 'block' : 'none';
 }
 
-function addNewVideoCard() {
+async function addNewVideoCard() {
   const img = document.getElementById('imgName').value.trim();
   const vid = document.getElementById('videoName').value.trim();
   const title = document.getElementById('videoTitle').value.trim() || '新视频';
@@ -4860,6 +4918,7 @@ function addNewVideoCard() {
   list.unshift({ img, vid, title });
   writeSharedList('dramaVideos', list);
   renderDramaVideos();
+  await refreshVideoDictationArticles();
   document.getElementById('imgName').value = '';
   document.getElementById('videoName').value = '';
   document.getElementById('videoTitle').value = '';
@@ -4876,6 +4935,7 @@ function deleteVideo(e, btn) {
   gtList = gtList.filter(v => v.vid !== vidSrc);
   writeSharedList('gtVideos', gtList);
   item.remove();
+  refreshVideoDictationArticles();
   persistSharedContentToServer();
 }
 
@@ -5047,16 +5107,17 @@ async function addNewVideoCardGT() {
     return;
   }
 
-  const { img, vid } = await resolveSharedVideoAssets(inputName);
+  const { img, vid, audio, sub } = await resolveSharedVideoAssets(inputName);
   if (!img || !vid) {
     alert(`无法自动匹配到同名资源，请确认 ${inputName}.jpg 和 ${inputName}.mp4 已经放在项目根目录`);
     return;
   }
 
   let list = readSharedList('gtVideos', []);
-  list.unshift({ img, vid, title });
+  list.unshift({ img, vid, title, audio, sub });
   writeSharedList('gtVideos', list);
   renderGTVideos();
+  await refreshVideoDictationArticles();
   document.getElementById('gtVideoBaseName').value = '';
   document.getElementById('gtVideoTitle').value = '';
   exportSiteContentJson();
@@ -5396,6 +5457,7 @@ function autoCheckin(type) {
 function setTodayMood(slot) {
   const today = new Date();
   const key = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  if (isCalendarDateCompleted(key)) return;
   const moods = getMoods();
   moods[key] = '' + slot;
   localStorage.setItem('idolMoods', JSON.stringify(moods));
@@ -5407,8 +5469,13 @@ function setTodayMood(slot) {
 let _popupDateKey = '';
 function getNotes() { return readLocalJson('idolNotes', {}); }
 function getWeathers() { return readLocalJson('idolWeathers', {}); }
+function isCalendarDateCompleted(key) {
+  const entry = getCheckins()[key];
+  return Array.isArray(entry) ? entry.length > 0 : Boolean(entry);
+}
 function setWeather(type) {
   if (!_popupDateKey) return;
+  if (isCalendarDateCompleted(_popupDateKey)) return;
   const ws = getWeathers();
   ws[_popupDateKey] = type;
   localStorage.setItem('idolWeathers', JSON.stringify(ws));
@@ -5417,11 +5484,17 @@ function setWeather(type) {
 function openMoodPopup(key) {
   _popupDateKey = key;
   const parts = key.split('-');
-  // 日历中的任意日期均可补充或修改心情记录。
-  document.getElementById('moodPopupNote').readOnly = false;
-  document.getElementById('moodPopupNote').style.opacity = '1';
-  document.getElementById('saveMoodBtn').style.display = 'block';
-  document.querySelectorAll('.weather-emoji').forEach(el => { el.style.pointerEvents = 'auto'; });
+  const completed = isCalendarDateCompleted(key);
+  const noteEl = document.getElementById('moodPopupNote');
+  noteEl.readOnly = completed;
+  noteEl.style.opacity = completed ? '0.75' : '1';
+  document.getElementById('saveMoodBtn').style.display = completed ? 'none' : 'block';
+  document.getElementById('deleteMoodBtn').style.display = completed ? 'none' : 'block';
+  document.getElementById('downloadMoodBtn').style.display = 'block';
+  document.querySelectorAll('.weather-emoji').forEach(el => {
+    el.style.pointerEvents = completed ? 'none' : 'auto';
+    el.style.cursor = completed ? 'default' : 'pointer';
+  });
   const moodNames = [''];
   for (let i = 1; i <= 10; i++) {
     moodNames[i] = getSiteText(`idolPage.moodLabels.mood${i}`) || '';
@@ -5449,10 +5522,27 @@ function openMoodPopup(key) {
 }
 function saveMoodNote() {
   if (!_popupDateKey) return;
+  if (isCalendarDateCompleted(_popupDateKey)) return;
   const notes = getNotes();
   notes[_popupDateKey] = document.getElementById('moodPopupNote').value.trim();
   localStorage.setItem('idolNotes', JSON.stringify(notes));
   closeMoodPopup();
+}
+function deleteMoodDiary() {
+  if (!_popupDateKey || isCalendarDateCompleted(_popupDateKey)) return;
+  if (!confirm('确定删除这天的日记吗？')) return;
+  const key = _popupDateKey;
+  const notes = getNotes();
+  const weathers = getWeathers();
+  const moods = getMoods();
+  delete notes[key];
+  delete weathers[key];
+  delete moods[key];
+  localStorage.setItem('idolNotes', JSON.stringify(notes));
+  localStorage.setItem('idolWeathers', JSON.stringify(weathers));
+  localStorage.setItem('idolMoods', JSON.stringify(moods));
+  closeMoodPopup();
+  renderCalendar();
 }
 function updateMoodCharCount() {
   const len = document.getElementById('moodPopupNote').value.length;
@@ -7189,7 +7279,7 @@ window.autoSpeakExamWord6 = window.autoSpeakExamWord6 || function() {
 }
 
 // ===================== 文章默写模块逻辑（智能对比 + 打分 + 错误单词） =====================
-let currentArticleTab = "written";
+let currentArticleTab = "all";
 let writtenArticles = readLocalJson('writtenArticles', []);
 let currentArticleIndex = -1;  // 当前选中的文章索引
 let allNewsArticles = [];
@@ -7318,8 +7408,8 @@ function switchArticleTab(tab) {
 
 // 🔥 同步立即渲染文章列表（无延迟、无等待、打开就显示）
 function renderArticleList() {
-  // 直接读取本地数据，不异步
-  allNewsArticles = readSharedList('bbcNewsList', []);
+  // NEWS 与追剧/热门视频字幕共用同一套文章默写格式
+  allNewsArticles = getAllDictationArticles();
   const container = document.getElementById("articleListContainer");
   
   let filteredArticles = allNewsArticles;
@@ -8029,7 +8119,7 @@ function extractSentencesFromArticle(article) {
 
 // 从所有 NEWS 文章中提取句子（按换行拆分）
 function extractSentencesFromArticles() {
-  const articles = readSharedList('bbcNewsList', []);
+  const articles = getAllDictationArticles();
   let sentences = [];
   articles.forEach(article => {
     sentences = sentences.concat(extractSentencesFromArticle(article));
@@ -8341,7 +8431,7 @@ function startSentenceWrite() {
 // 🔥 修复：文章默写页面打开时强制刷新文章列表
 const articleWritePageEl = document.getElementById("articleWritePage");
 function refreshArticleListWhenOpen() {
-  allNewsArticles = readSharedList('bbcNewsList', []);
+  allNewsArticles = getAllDictationArticles();
   renderArticleList();
 }
 
@@ -9098,9 +9188,8 @@ function playSentenceFromNewsAudio() {
   // 停止系统发音
   cancelSpeechSafely();
 
-  // 找到当前文章对应的音频
-  const allNews = readSharedList('bbcNewsList', []);
-  const article = allNews.find(n => n.name === sen.articleName);
+  // NEWS 与视频默写都播放当前文章关联的原音频
+  const article = currentListenArticle;
   if (!article || !article.audio) {
     safeSpeak(sen.text);
     return;

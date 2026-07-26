@@ -3,133 +3,126 @@
     "word": "abandon",
     "type": "cet4",
     "phonetic": "/əˈbændən/",
-    "meaning": "遗弃；离开；放弃；终止；陷入n. 放任，狂热（v.）",
+    "meaning": "v. 遗弃；离开；放弃；终止；陷入 n. 放任，狂热",
     "audio": "audio_small/a/abandon.mp3"
   },
   "ability": {
     "word": "ability",
     "type": "cet4",
     "phonetic": "/əˈbɪləti/",
-    "meaning": "能力，能耐；才能（n.）",
+    "meaning": "n.能力，能耐；才能",
     "audio": "audio_small/a/ability.mp3"
   },
   "able": {
     "word": "able",
     "type": "cet4",
     "phonetic": "/ˈeɪbl/",
-    "meaning": "能够的；有能力的（adj.）",
+    "meaning": "adj. 能；[经管] 有能力的；能干的",
     "audio": "audio_small/a/able.mp3"
   },
   "abnormal": {
     "word": "abnormal",
     "type": "cet4",
     "phonetic": "/æbˈnɔːrml/",
-    "meaning": "反常的，不规则的；变态的（adj.）",
+    "meaning": "adj.反常的，不规则的；变态的",
     "audio": "audio_small/a/abnormal.mp3"
   },
   "aboard": {
     "word": "aboard",
     "type": "cet4",
     "phonetic": "/əˈbɔːrd/",
-    "meaning": "adv. 在（飞机、火车、船）上；骑在（马）上；（喻）新入伙；（棒球）在垒上prep.  在 （船或飞机）上",
+    "meaning": "adv.在（飞机、火车、船）上；骑在（马）上；（喻）新入伙；（棒球）在垒上 prep.在 （船或飞机）上",
     "audio": "audio_small/a/aboard.mp3"
-  },
-  "about": {
-    "word": "about",
-    "type": "cet4",
-    "phonetic": "/əˈbaʊt/",
-    "meaning": "adv.附近,大约,转向,左右,周围;prep.在附近,关于,在...周围,忙于",
-    "audio": "audio_small/a/about.mp3"
   },
   "above": {
     "word": "above",
     "type": "cet4",
     "phonetic": "/əˈbʌv/",
-    "meaning": "adj.上面的,上述的,上文的;adv.在上面;prep.在...上方,过于,超出",
+    "meaning": "adj.上面的,上述的,上文的;adv.在上面; prep.在...上方,过于,超出",
     "audio": "audio_small/a/above.mp3"
   },
   "abroad": {
     "word": "abroad",
     "type": "cet4",
     "phonetic": "/əˈbrɔːd/",
-    "meaning": "在国外；到海外adj. 往国外的n. 海外；异国（adv.）",
+    "meaning": "adv.在国外；到海外 adj.往国外的 n.海外；异国",
     "audio": "audio_small/a/abroad.mp3"
   },
   "absence": {
     "word": "absence",
     "type": "cet4",
     "phonetic": "/ˈæbsəns/",
-    "meaning": "没有；缺乏；缺席；不注意（n.）",
+    "meaning": "n.没有；缺乏；缺席；不注意",
     "audio": "audio_small/a/absence.mp3"
   },
   "absent": {
     "word": "absent",
     "type": "cet4",
     "phonetic": "/ˈæbsənt/",
-    "meaning": "缺席的；缺少的；心不在焉的；茫然的vt. 使缺席（adj.）",
+    "meaning": "adj.缺席的；缺少的；心不在焉的；茫然的 vt. 使缺席",
     "audio": "audio_small/a/absent.mp3"
   },
   "absolute": {
     "word": "absolute",
     "type": "cet4",
     "phonetic": "/ˈæbsəluːt/",
-    "meaning": "adj.绝对的；完全的；专制的n. 绝对；绝对事物",
+    "meaning": "adj.绝对的；完全的；专制的 n. 绝对；绝对事物",
     "audio": "audio_small/a/absolute.mp3"
   },
   "absolutely": {
     "word": "absolutely",
     "type": "cet4",
     "phonetic": "/ˈæbsəluːtli/",
-    "meaning": "adv. 绝对地，完全地；当然，没错",
+    "meaning": "adv. 绝对地；完全地",
     "audio": "audio_small/a/absolutely.mp3"
   },
   "absorb": {
     "word": "absorb",
     "type": "cet4",
     "phonetic": "/əbˈzɔːb/",
-    "meaning": "吸收；吸引；承受；理解；使…全神贯注（vt.）",
+    "meaning": "vt. 吸收；吸引；承受；理解；使…全神贯注",
     "audio": "audio_small/a/absorb.mp3"
   },
   "abstract": {
     "word": "abstract",
     "type": "cet4",
     "phonetic": "/ˈæbstrækt/",
-    "meaning": "抽象的；摘要；提取（adj./n./v.）",
+    "meaning": "adj. 抽象的；n. 摘要；梗概 v. 提取、摘录；提炼",
     "audio": "audio_small/a/abstract.mp3"
   },
   "abundant": {
     "word": "abundant",
     "type": "cet4",
     "phonetic": "/əˈbʌndənt/",
-    "meaning": "丰富的；充裕的；盛产的（adj.）",
+    "meaning": "adj.大量的；丰盛的；充裕的",
     "audio": "audio_small/a/abundant.mp3"
   },
   "abuse": {
     "word": "abuse",
     "type": "cet4",
     "phonetic": "/əˈbjuːs/",
-    "meaning": "n. 滥用；虐待；辱骂；弊端；恶习，陋习vt. 滥用；虐待；辱骂n. (Abuse)人名；(英)阿比斯",
+    "meaning": "n. 滥用；虐待；辱骂；弊端；恶习，陋习 vt. 滥用；虐待；辱骂",
     "audio": "audio_small/a/abuse.mp3"
   },
   "academic": {
     "word": "academic",
     "type": "cet4",
     "phonetic": "/ˌækəˈdemɪk/",
-    "meaning": "学术的；理论的；学院的n. 大学生，大学教师；学者（adj.）",
+    "meaning": "adj. 学术的；理论的；学院的 n. 大学生，大学教师；学者",
     "audio": "audio_small/a/academic.mp3"
   },
   "academy": {
     "word": "academy",
     "type": "cet4",
     "phonetic": "/əˈkædəmi/",
-    "meaning": "学院；研究院；学会；专科院校（n.）",
+    "meaning": "n. 学院；研究院；学会；专科院校",
     "audio": "audio_small/a/academy.mp3"
   },
   "accelerate": {
     "word": "accelerate",
     "type": "cet4",
     "phonetic": "/əkˈseləreɪt/",
-    "meaning": "使……加快；使……增速vi. 加速；促进；增加（vt.）",
+    "meaning": "vt.使……加快；使……增速 vi.加速；促进；增加",
     "audio": "audio_small/a/accelerate.mp3"
   },
   "acceleration": {
@@ -150,7 +143,7 @@
     "word": "accept",
     "type": "cet4",
     "phonetic": "/əkˈsept/",
-    "meaning": "接受；承认；承担；承兑；容纳vi. 承认；同意；承兑（vt.）",
+    "meaning": "vt.接受；承认；承担；承兑；容纳 vi.承认；同意；承兑",
     "audio": "audio_small/a/accept.mp3"
   },
   "acceptable": {
@@ -171,14 +164,14 @@
     "word": "access",
     "type": "cet4",
     "phonetic": "/ˈækses/",
-    "meaning": "进入；接近；使用权（n./v.）",
+    "meaning": "n.入口；通道,使用或接近的机会/权利",
     "audio": "audio_small/a/access.mp3"
   },
   "accessory": {
     "word": "accessory",
     "type": "cet4",
     "phonetic": "/əkˈsesəri/",
-    "meaning": "配件；附件；[法] 从犯adj. 副的；同谋的；附属的（n.）",
+    "meaning": "n. 配件；附件；从犯 adj. 副的；同谋的；附属的",
     "audio": "audio_small/a/accessory.mp3"
   },
   "accident": {
@@ -192,14 +185,14 @@
     "word": "accidental",
     "type": "cet4",
     "phonetic": "/ˌæksɪˈdentl/",
-    "meaning": "特性；临时记号",
+    "meaning": "adj.意外的；偶然的；附属的；临时记号的 n.次要方面；非主要的特性；临时记号",
     "audio": "audio_small/a/accidental.mp3"
   },
   "accommodate": {
     "word": "accommodate",
     "type": "cet4",
     "phonetic": "/əˈkɑːmədeɪt/",
-    "meaning": "容纳；使适应；供应；调解vi. 适应；调解（vt.）",
+    "meaning": "vt.容纳；使适应；供应；调解 vi.适应；调解",
     "audio": "audio_small/a/accommodate.mp3"
   },
   "accommodation": {
@@ -213,7 +206,7 @@
     "word": "accompany",
     "type": "cet4",
     "phonetic": "/əˈkʌmpəni/",
-    "meaning": "陪伴，伴随；伴奏vi. 伴奏，伴唱（vt.）",
+    "meaning": "vt.陪伴，伴随；伴奏 vi.伴奏，伴唱",
     "audio": "audio_small/a/accompany.mp3"
   },
   "accomplish": {
@@ -227,7 +220,7 @@
     "word": "accord",
     "type": "cet4",
     "phonetic": "/əˈkɔːrd/",
-    "meaning": "符合；一致；协议；自愿vt. 使一致；给予vi. 符合；一致（n.）",
+    "meaning": "n.符合；一致；协议；自愿 vt.使一致；给予 vi.符合；一致",
     "audio": "audio_small/a/accord.mp3"
   },
   "accordance": {
@@ -248,21 +241,21 @@
     "word": "account",
     "type": "cet4",
     "phonetic": "/əˈkaʊnt/",
-    "meaning": "账户；描述；认为（n./v.）",
+    "meaning": "n.账户；解释；账目，账单；理由；描述 vi.解释；导致；报账 vt.认为；把…视为",
     "audio": "audio_small/a/account.mp3"
   },
   "accumulate": {
     "word": "accumulate",
     "type": "cet4",
     "phonetic": "/əˈkjuːmjəleɪt/",
-    "meaning": "累积；积聚vt. 积攒（vi.）",
+    "meaning": "vi.累积；积聚 vt.积攒",
     "audio": "audio_small/a/accumulate.mp3"
   },
   "accuracy": {
     "word": "accuracy",
     "type": "cet4",
     "phonetic": "/ˈækjərəsi/",
-    "meaning": "[数] 精确度，准确性（n.）",
+    "meaning": "精确度，准确性（n.）",
     "audio": "audio_small/a/accuracy.mp3"
   },
   "accurate": {
@@ -276,7 +269,7 @@
     "word": "accuse",
     "type": "cet4",
     "phonetic": "/əˈkjuːz/",
-    "meaning": "控告，指控；谴责；归咎于vi. 指责；控告（vt.）",
+    "meaning": "vt.控告，指控；谴责；归咎于 vi.指责；控告",
     "audio": "audio_small/a/accuse.mp3"
   },
   "accustom": {
@@ -290,24 +283,23 @@
     "word": "accustomed",
     "type": "cet4",
     "phonetic": "/əˈkʌstəmd/",
-    "meaning": "习惯的；通常的；独有的v. 使习惯于（accustom的过去分词）（adj.）",
+    "meaning": "adj.习惯的；通常的；独有的 v.使习惯于（accustom的过去分词）",
     "audio": "audio_small/a/accustomed.mp3"
   },
   "ache": {
     "word": "ache",
     "type": "cet4",
     "phonetic": "/eɪk/",
-    "meaning": "n.疼痛vi.觉得疼痛,渴望",
+    "meaning": "n.疼痛 vi.觉得疼痛,渴望",
     "audio": "audio_small/a/ache.mp3"
   },
   "achieve": {
     "word": "achieve",
     "type": "cet4",
     "phonetic": "/əˈtʃiːv/",
-    "meaning": "果，如愿以偿",
+    "meaning": "vt.取得；获得；实现；成功 vi.达到预期的目的，实现预期的结果，如愿以偿",
     "audio": "audio_small/a/achieve.mp3"
   },
-  
   "achievement": {
     "word": "achievement",
     "type": "cet4",
@@ -319,7 +311,7 @@
     "word": "acid",
     "type": "cet4",
     "phonetic": "/ˈæsɪd/",
-    "meaning": "酸；俚迷幻药adj. 酸的；讽刺的；刻薄的（n.）",
+    "meaning": "n.酸；俚迷幻药 adj.酸的；讽刺的；刻薄的",
     "audio": "audio_small/a/acid.mp3"
   },
   "acquaintance": {
@@ -347,28 +339,28 @@
     "word": "across",
     "type": "cet4",
     "phonetic": "/əˈkrɔːs/",
-    "meaning": "adv.横过,交叉地,在对面 prep.越过,交叉,在...的那边,在...\n对面那边",
+    "meaning": "adv.横过,交叉地,在对面 prep.越过,交叉,在...的那边,在...对面那边",
     "audio": "audio_small/a/across.mp3"
   },
   "act": {
     "word": "act",
     "type": "cet4",
     "phonetic": "/ækt/",
-    "meaning": "行动；表演；起作用（n./v.）",
+    "meaning": "n.幕,法案,法令,动作,举动,节目,(戏剧的)幕 vi.行动,产生...的效果,担当,表演,假装,表现,见效 vt.扮演,装作",
     "audio": "audio_small/a/act.mp3"
   },
   "action": {
     "word": "action",
     "type": "cet4",
     "phonetic": "/ˈækʃn/",
-    "meaning": "n. 行动；活动；功能；战斗；情节n. （Action）（英）埃克申（人名）",
+    "meaning": "n. 行动；活动；功能；战斗；情节",
     "audio": "audio_small/a/action.mp3"
   },
   "active": {
     "word": "active",
     "type": "cet4",
     "phonetic": "/ˈæktɪv/",
-    "meaning": "积极的；活跃的；主动的（adj.）",
+    "meaning": "adj.积极的；活跃的；主动的；有效的；现役的 n.主动语态；积极分子",
     "audio": "audio_small/a/active.mp3"
   },
   "activity": {
@@ -739,7 +731,7 @@
     "word": "aid",
     "type": "cet4",
     "phonetic": "/eɪd/",
-    "meaning": "n. 援助；帮助；助手；帮助者vt. 援助；帮助；有助于vi. 帮助n. (Aid)人名；(阿拉伯、印、英)艾德",
+    "meaning": "n. 援助；帮助；助手；帮助者vt. 援助；帮助；有助于vi. 帮助",
     "audio": "audio_small/a/aid.mp3"
   },
   "aim": {
@@ -809,7 +801,7 @@
     "word": "alloy",
     "type": "cet4",
     "phonetic": "/ˈælɔɪ; əˈlɔɪ/",
-    "meaning": "n. 合金v. 把……铸成合金；使……减低成色n. (Alloy) （美\n、法、英、巴、加）阿洛伊（人名）",
+    "meaning": "n. 合金v. 把……铸成合金；使……减低成色",
     "audio": "audio_small/a/alloy.mp3"
   },
   "almost": {
@@ -851,7 +843,7 @@
     "word": "alter",
     "type": "cet4",
     "phonetic": "/ˈɔːltər/",
-    "meaning": "vt. 改变，更改vi. 改变；修改n. （Alter）（美、德）阿尔特（人名）",
+    "meaning": "vt. 改变，更改vi. 改变；修改",
     "audio": "audio_small/a/alter.mp3"
   },
   "alternative": {
@@ -998,7 +990,7 @@
     "word": "anger",
     "type": "cet4",
     "phonetic": "/ˈæŋɡər/",
-    "meaning": "n. 怒，愤怒；忿怒vt. 使发怒，激怒；恼火vi. 发怒；恼火n. (Anger)人名；(罗)安杰尔；(法)安热；(德、捷、瑞典)安格尔",
+    "meaning": "n. 怒，愤怒；忿怒vt. 使发怒，激怒；恼火vi. 发怒；恼火",
     "audio": "audio_small/a/anger.mp3"
   },
   "ankle": {
@@ -1054,7 +1046,7 @@
     "word": "ant",
     "type": "cet4",
     "phonetic": "/ænt/",
-    "meaning": "n. 蚂蚁n. (Ant)人名；(土、芬)安特",
+    "meaning": "n. 蚂蚁",
     "audio": "audio_small/a/ant.mp3"
   },
   "anticipate": {
@@ -1320,14 +1312,14 @@
     "word": "area",
     "type": "cet4",
     "phonetic": "/ˈeriə/",
-    "meaning": "区域，地区；面积；范围n. （Area）（西）阿雷亚（人名）（n.）",
+    "meaning": "区域，地区；面积；范围（n.）",
     "audio": "audio_small/a/area.mp3"
   },
   "argue": {
     "word": "argue",
     "type": "cet4",
     "phonetic": "/ˈɑːrɡjuː/",
-    "meaning": "人名；阿格",
+    "meaning": "vi.争论，辩论；提出理由 vt.辩论，争论；证明；说服",
     "audio": "audio_small/a/argue.mp3"
   },
   "argument": {
@@ -1341,7 +1333,7 @@
     "word": "arise",
     "type": "cet4",
     "phonetic": "/əˈraɪz/",
-    "meaning": "vi. 出现；上升；起立n. (Arise) （美、印、德、英）阿里塞\n（人名）",
+    "meaning": "vi. 出现；上升；起立",
     "audio": "audio_small/a/arise.mp3"
   },
   "arithmetic": {
@@ -1418,7 +1410,7 @@
     "word": "arrow",
     "type": "cet4",
     "phonetic": "/ˈæroʊ/",
-    "meaning": "n. 箭，箭头；箭状物；箭头记号vt. 以箭头指示；箭一般地飞向n. (Arrow)人名；(英)阿罗",
+    "meaning": "n. 箭，箭头；箭状物；箭头记号vt. 以箭头指示；箭一般地飞向",
     "audio": "audio_small/a/arrow.mp3"
   },
   "art": {
@@ -1642,7 +1634,7 @@
     "word": "attack",
     "type": "cet4",
     "phonetic": "/əˈtæk/",
-    "meaning": "n. 攻击；抨击；疾病发作vt. 攻击；抨击；动手干vi. 攻击；腐蚀n. (Attack)人名；(瑞典)阿塔克",
+    "meaning": "n. 攻击；抨击；疾病发作vt. 攻击；抨击；动手干vi. 攻击；腐蚀",
     "audio": "audio_small/a/attack.mp3"
   },
   "attain": {
@@ -1796,14 +1788,14 @@
     "word": "automobile",
     "type": "cet4",
     "phonetic": "/ˈɔːtəməbiːl/",
-    "meaning": "n. 汽车vt. 驾驶汽车[ 过去式 automobiled 过去分词\nautomobiled 现在分词 automobiling ]",
+    "meaning": "n.汽车 vt.驾驶汽车",
     "audio": "audio_small/a/automobile.mp3"
   },
   "autumn": {
     "word": "autumn",
     "type": "cet4",
     "phonetic": "/ˈɔːtəm/",
-    "meaning": "n. 秋天；成熟期；渐衰期，凋落期adj. 秋天的，秋季的n.\n(Autumn)人名；(英)奥特姆",
+    "meaning": "n.秋天；成熟期；渐衰期，凋落期 adj.秋天的，秋季的",
     "audio": "audio_small/a/autumn.mp3"
   },
   "auxiliary": {
@@ -1908,7 +1900,7 @@
     "word": "ax",
     "type": "cet4",
     "phonetic": "/æks/",
-    "meaning": "v. 削减，删除；用斧修整；解雇；询问n. 斧头；爵士乐器\n（尤指吉他或萨克斯管）n. (Ax) （德、芬）阿克斯（人名）",
+    "meaning": "v. 削减，删除；用斧修整；解雇；询问n. 斧头；爵士乐器",
     "audio": "audio_small/a/ax.mp3"
   },
   "axis": {
@@ -1957,7 +1949,7 @@
     "word": "bad",
     "type": "cet4",
     "phonetic": "/bæd/",
-    "meaning": "adj. 坏的；严重的；劣质的n. 坏事；坏人adv. 很，非常；坏地；邪恶地n. (Bad)人名；(罗)巴德",
+    "meaning": "adj. 坏的；严重的；劣质的n. 坏事；坏人adv. 很，非常；坏地；邪恶地",
     "audio": "audio_small/b/bad.mp3"
   },
   "badly": {
@@ -1992,7 +1984,7 @@
     "word": "bake",
     "type": "cet4",
     "phonetic": "/beɪk/",
-    "meaning": "vt. 烤，烘焙vi. 烘面包；被烤干；受热n. 烤；烘烤食品n.\n(Bake)人名；(德、瑞典)巴克",
+    "meaning": "vt. 烤，烘焙vi. 烘面包；被烤干；受热n. 烤；烘烤食品",
     "audio": "audio_small/b/bake.mp3"
   },
   "balance": {
@@ -2020,7 +2012,7 @@
     "word": "banana",
     "type": "cet4",
     "phonetic": "/bəˈnænə/",
-    "meaning": "n. 香蕉；喜剧演员；大鹰钩鼻n. （Banana）（葡、津）巴纳纳（人名）",
+    "meaning": "n. 香蕉；喜剧演员；大鹰钩鼻",
     "audio": "audio_small/b/banana.mp3"
   },
   "band": {
@@ -2041,7 +2033,7 @@
     "word": "bank",
     "type": "cet4",
     "phonetic": "/bæŋk/",
-    "meaning": "n. 银行；岸；浅滩；储库vt. 将…存入银行；倾斜转弯vi. 堆积；倾斜转弯n. (Bank)人名；(英、德、俄)班克；(法、匈)邦克",
+    "meaning": "n. 银行；岸；浅滩；储库vt. 将…存入银行；倾斜转弯vi. 堆积；倾斜转弯",
     "audio": "audio_small/b/bank.mp3"
   },
   "banner": {
@@ -2055,21 +2047,21 @@
     "word": "bar",
     "type": "cet4",
     "phonetic": "/bɑːr/",
-    "meaning": "n. 条，棒；酒吧；障碍；法庭vt. 禁止；阻拦prep. 除……外\nn. (Bar)人名；(阿拉伯、德、法、俄、罗、捷、波、葡、以) 巴尔",
+    "meaning": "n.条，棒；酒吧；障碍；法庭 vt.禁止；阻拦 prep. 除……外",
     "audio": "audio_small/b/bar.mp3"
   },
   "barber": {
     "word": "barber",
     "type": "cet4",
     "phonetic": "/ˈbɑːrbər/",
-    "meaning": "n. （为男子理发的）理发师；男子理发店v. 为（男子）理发；当理发师n. (Barber) （美）巴伯（人名）",
+    "meaning": "n. （为男子理发的）理发师；男子理发店v. 为（男子）理发；当理发师",
     "audio": "audio_small/b/barber.mp3"
   },
   "bare": {
     "word": "bare",
     "type": "cet4",
     "phonetic": "/ber/",
-    "meaning": "adj. 空的；赤裸的，无遮蔽的vt. 露出，使赤裸n. (Bare)人名；(英)贝尔",
+    "meaning": "adj. 空的；赤裸的，无遮蔽的vt. 露出，使赤裸",
     "audio": "audio_small/b/bare.mp3"
   },
   "bargain": {
@@ -2104,21 +2096,21 @@
     "word": "barrier",
     "type": "cet4",
     "phonetic": "/ˈbæriər/",
-    "meaning": "里耶（人名）",
+    "meaning": "n.障碍物，屏障；界线 vt.把……关入栅栏",
     "audio": "audio_small/b/barrier.mp3"
   },
   "base": {
     "word": "base",
     "type": "cet4",
     "phonetic": "/beɪs/",
-    "meaning": "基于... adj.卑鄙的,低级的",
+    "meaning": "n.底部,基础,根据地,基地,本部,基数,(运动)出发点 vt.以...作基础,基于... adj.卑鄙的,低级的",
     "audio": "audio_small/b/base.mp3"
   },
   "basic": {
     "word": "basic",
     "type": "cet4",
     "phonetic": "/ˈbeɪsɪk/",
-    "meaning": "基本的；基础的n. 基础；要素（adj.）",
+    "meaning": "adj.基本的；基础的 n.基础；要素",
     "audio": "audio_small/b/basic.mp3"
   },
   "basically": {
@@ -2146,35 +2138,28 @@
     "word": "basket",
     "type": "cet4",
     "phonetic": "/ˈbæskɪt/",
-    "meaning": "篮子；（篮球比赛的）得分；一篮之量；篮筐vt. 装入篮（n.）",
+    "meaning": "n.篮子；（篮球比赛的）得分；一篮之量；篮筐 vt.装入篮",
     "audio": "audio_small/b/basket.mp3"
-  },
-  "basketball": {
-    "word": "basketball",
-    "type": "cet4",
-    "phonetic": "/ˈbæskɪtbɔːl/",
-    "meaning": "篮球；篮球运动（n.）",
-    "audio": "audio_small/b/basketball.mp3"
   },
   "bat": {
     "word": "bat",
     "type": "cet4",
     "phonetic": "/bæt/",
-    "meaning": "达…vi. 轮到击球；用球棒击球",
+    "meaning": "n.蝙蝠；球棒；球拍；批处理文件的扩展名 vt.用球棒击球；击球率达… vi.轮到击球；用球棒击球",
     "audio": "audio_small/b/bat.mp3"
   },
   "bath": {
     "word": "bath",
     "type": "cet4",
     "phonetic": "/bæθ/",
-    "meaning": "沐浴；浴室；浴盆vt. 洗澡vi. 洗澡（n.）",
+    "meaning": "n.沐浴；浴室；浴盆vt. 洗澡 vi. 洗澡",
     "audio": "audio_small/b/bath.mp3"
   },
   "bathe": {
     "word": "bathe",
     "type": "cet4",
     "phonetic": "/beɪð/",
-    "meaning": "vt. 沐浴；用水洗vi. 洗澡；沐浴n. 洗澡；游泳n. (Bathe)人名；(德)巴特；(英)巴思",
+    "meaning": "vt.沐浴；用水洗 vi.洗澡；沐浴 n.洗澡；游泳",
     "audio": "audio_small/b/bathe.mp3"
   },
   "bathroom": {
@@ -2188,14 +2173,14 @@
     "word": "battery",
     "type": "cet4",
     "phonetic": "/ˈbætəri/",
-    "meaning": "[电] 电池，蓄电池n. [法]殴打n. [军]炮台，炮位（n.）",
+    "meaning": "n.电池，蓄电池，殴打，炮台，炮位",
     "audio": "audio_small/b/battery.mp3"
   },
   "battle": {
     "word": "battle",
     "type": "cet4",
     "phonetic": "/ˈbætl/",
-    "meaning": "n. 战役；斗争vi. 斗争；作战vt. 与…作战",
+    "meaning": "n.战役；斗争 vi.斗争；作战 vt.与…作战",
     "audio": "audio_small/b/battle.mp3"
   },
   "bay": {
@@ -2216,21 +2201,21 @@
     "word": "beam",
     "type": "cet4",
     "phonetic": "/biːm/",
-    "meaning": "…照射；流露vi. 照射；堆满笑容",
+    "meaning": "n.横梁；光线；电波；船宽；[计量] 秤杆 vt.发送；以梁支撑；用…照射；流露 vi.照射；堆满笑容",
     "audio": "audio_small/b/beam.mp3"
   },
   "bean": {
     "word": "bean",
     "type": "cet4",
     "phonetic": "/biːn/",
-    "meaning": "n. 豆；嘴峰；毫无价值的东西vt. 击…的头部n. (Bean)人名；(英)比恩",
+    "meaning": "n. 豆；嘴峰；毫无价值的东西vt. 击…的头部",
     "audio": "audio_small/b/bean.mp3"
   },
   "bear": {
     "word": "bear",
     "type": "cet4",
     "phonetic": "/ber/",
-    "meaning": "n.熊v.负担,忍受,带给,具有,挤,向",
+    "meaning": "n.熊 v.负担,忍受,带给,具有,挤,向",
     "audio": "audio_small/b/bear.mp3"
   },
   "beard": {
@@ -2251,15 +2236,8 @@
     "word": "beat",
     "type": "cet4",
     "phonetic": "/biːt/",
-    "meaning": "n.敲打,拍子,巡逻区域v.打,打败",
+    "meaning": "n.敲打,拍子,巡逻区域 v.打,打败",
     "audio": "audio_small/b/beat.mp3"
-  },
-  "beautiful": {
-    "word": "beautiful",
-    "type": "cet4",
-    "phonetic": "/ˈbjuːtɪfl/",
-    "meaning": "美丽的；出色的；迷人的（adj.）",
-    "audio": "audio_small/b/beautiful.mp3"
   },
   "beauty": {
     "word": "beauty",
@@ -2267,13 +2245,6 @@
     "phonetic": "/ˈbjuː(cid:415)/",
     "meaning": "美；美丽；美人；美好的东西（n.）",
     "audio": "audio_small/b/beauty.mp3"
-  },
-  "because": {
-    "word": "because",
-    "type": "cet4",
-    "phonetic": "/bɪˈkəz,bɪˈkɔːz/",
-    "meaning": "因为，由于prep. 因为某人（某事物）（conj.）",
-    "audio": "audio_small/b/because.mp3"
   },
   "become": {
     "word": "become",
@@ -2295,13 +2266,6 @@
     "phonetic": "/bɪr/",
     "meaning": "n. 啤酒",
     "audio": "audio_small/b/beer.mp3"
-  },
-  "before": {
-    "word": "before",
-    "type": "cet4",
-    "phonetic": "/bɪˈfɔːr/",
-    "meaning": "adv.在前,以前 prep.在...之前 conj.在...之前,与其...宁可",
-    "audio": "audio_small/b/before.mp3"
   },
   "beg": {
     "word": "beg",
@@ -2349,7 +2313,7 @@
     "word": "behave",
     "type": "cet4",
     "phonetic": "/bɪˈheɪv/",
-    "meaning": "守规矩；使表现得…",
+    "meaning": "vi.表现；（机器等）运转；举止端正；（事物）起某种作用 vt.使守规矩；使表现得…",
     "audio": "audio_small/b/behave.mp3"
   },
   "behavior": {
@@ -2366,13 +2330,6 @@
     "meaning": "adv.在后地 prep.在...之后",
     "audio": "audio_small/b/behind.mp3"
   },
-  "being": {
-    "word": "being",
-    "type": "cet4",
-    "phonetic": "/ˈbiːɪŋ/",
-    "meaning": "场；从事；就是；代表（be 的现在分词）",
-    "audio": "audio_small/b/being.mp3"
-  },
   "belief": {
     "word": "belief",
     "type": "cet4",
@@ -2384,14 +2341,14 @@
     "word": "believe",
     "type": "cet4",
     "phonetic": "/bɪˈliːv/",
-    "meaning": "信任；料想；笃信宗教vt. 相信；认为；信任（vi.）",
+    "meaning": "vi.信任；料想；笃信宗教 vt.相信；认为；信任",
     "audio": "audio_small/b/believe.mp3"
   },
   "bell": {
     "word": "bell",
     "type": "cet4",
     "phonetic": "/bel/",
-    "meaning": "n. 铃，钟；钟声，铃声；钟状物vt. 装钟于，系铃于vi. 鸣钟；成钟状鼓起",
+    "meaning": "n.铃，钟；钟声，铃声；钟状物 vt.装钟于，系铃于 vi.鸣钟；成钟状鼓起",
     "audio": "audio_small/b/bell.mp3"
   },
   "belong": {
@@ -2405,42 +2362,42 @@
     "word": "beloved",
     "type": "cet4",
     "phonetic": "/bɪ'lʌvɪd/",
-    "meaning": "心爱的；挚爱的n. 心爱的人；亲爱的教友（adj.）",
+    "meaning": "adj心爱的；挚爱的 n.心爱的人；亲爱的教友",
     "audio": "audio_small/b/beloved.mp3"
   },
   "below": {
     "word": "below",
     "type": "cet4",
     "phonetic": "/bɪˈloʊ/",
-    "meaning": "prep.在...下面,adv.在下,在页底",
+    "meaning": "prep.在...下面, adv.在下,在页底",
     "audio": "audio_small/b/below.mp3"
   },
   "belt": {
     "word": "belt",
     "type": "cet4",
     "phonetic": "/belt/",
-    "meaning": "n. 带；腰带；地带vt. 用带子系住；用皮带抽打vi. 猛击n.\n(Belt)人名；(英、法、德、西)贝尔特",
+    "meaning": "n.带；腰带；地带 vt.用带子系住；用皮带抽打 vi.猛击",
     "audio": "audio_small/b/belt.mp3"
   },
   "bench": {
     "word": "bench",
     "type": "cet4",
     "phonetic": "/bentʃ/",
-    "meaning": "本奇；本希；(丹)本克",
+    "meaning": "n.长凳；工作台；替补队员 vt.给…以席位；为…设置条凳",
     "audio": "audio_small/b/bench.mp3"
   },
   "bend": {
     "word": "bend",
     "type": "cet4",
     "phonetic": "/bend/",
-    "meaning": "v.弯曲,专心于,屈服n.弯曲",
+    "meaning": "v.弯曲,专心于,屈服 n.弯曲",
     "audio": "audio_small/b/bend.mp3"
   },
   "beneath": {
     "word": "beneath",
     "type": "cet4",
     "phonetic": "/bɪˈniːθ/",
-    "meaning": "在下方，在底下",
+    "meaning": "prep.在……之下；（对某人来说）不够好，不相称；低于，次于 n.在下方，在底下",
     "audio": "audio_small/b/beneath.mp3"
   },
   "beneficial": {
@@ -2454,42 +2411,35 @@
     "word": "benefit",
     "type": "cet4",
     "phonetic": "/ˈbenɪfɪt/",
-    "meaning": "利益，好处；救济金vt. 有益于，对…有益vi. 受益，得益（n.）",
+    "meaning": "n.利益，好处；救济金 vt.有益于，对…有益 vi.受益，得益",
     "audio": "audio_small/b/benefit.mp3"
   },
   "berry": {
     "word": "berry",
     "type": "cet4",
     "phonetic": "/ˈberi/",
-    "meaning": "n. 浆果（葡萄，番茄等）vi. 采集浆果n. (Berry)人名；(法\n、英、德、意、葡)贝里；(匈)拜里",
+    "meaning": "n. 浆果（葡萄，番茄等）vi. 采集浆果",
     "audio": "audio_small/b/berry.mp3"
   },
   "beside": {
     "word": "beside",
     "type": "cet4",
     "phonetic": "/bɪˈsaɪd/",
-    "meaning": "（不再）adv. 在附近；况且，此外",
+    "meaning": "prep.在旁边；与……相比；紧靠；除……以外（还）；除……以外（不再）adv.在附近；况且，此外",
     "audio": "audio_small/b/beside.mp3"
   },
   "besides": {
     "word": "besides",
     "type": "cet4",
     "phonetic": "/bɪˈsaɪdz/",
-    "meaning": "除……之外（还）adv. 况且，再说；此外，以及（prep.）",
+    "meaning": "prep.除……之外（还）adv.况且，再说；此外，以及",
     "audio": "audio_small/b/besides.mp3"
-  },
-  "best": {
-    "word": "best",
-    "type": "cet4",
-    "phonetic": "/best/",
-    "meaning": "adj.最好的adv.最好地,最,极n.最佳状态或作品,最好的东西",
-    "audio": "audio_small/b/best.mp3"
   },
   "bet": {
     "word": "bet",
     "type": "cet4",
     "phonetic": "/bet/",
-    "meaning": "n.赌,打赌v.赌,赌钱",
+    "meaning": "n.赌,打赌 v.赌,赌钱",
     "audio": "audio_small/b/bet.mp3"
   },
   "betray": {

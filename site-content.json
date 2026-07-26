@@ -45,12 +45,16 @@
     {
       "img": "Drama1_2.webp",
       "vid": "Drama1_2.mp4",
-      "title": "Exploring the Unknown with Wang Yibo S1 Teaser 2"
+      "title": "Exploring the Unknown with Wang Yibo S1 Teaser 2",
+      "audio": "Drama1_2.mp3",
+      "sub": "Drama1_2.vtt"
     },
     {
       "img": "Drama1_1.webp",
       "vid": "Drama1_1.mp4",
-      "title": "Exploring the Unknown with Wang Yibo S1 Teaser 1"
+      "title": "Exploring the Unknown with Wang Yibo S1 Teaser 1",
+      "audio": "Drama1_1.mp3",
+      "sub": "Drama1_1.vtt"
     }
   ],
   "gtVideos": [],
