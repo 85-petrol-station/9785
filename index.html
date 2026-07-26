@@ -146,6 +146,18 @@
     font-weight:bold;
     color:rgb(32, 184, 118);
   }
+  .logo-copy{
+    display:flex;
+    flex-direction:column;
+    gap:2px;
+    min-width:0;
+  }
+  .logo-disclaimer{
+    font-size:10px;
+    line-height:1.25;
+    color:var(--color-text-secondary);
+    font-weight:400;
+  }
 
   .practice-btn-item{
     position: relative;
@@ -979,6 +991,15 @@
     width: 100%;
     text-align: left;
     z-index: 6;
+  }
+
+  #dramaPage .video-name {
+    position: static;
+    background: none;
+    color: var(--color-text);
+    padding: 8px 2px 0;
+    border-radius: 0;
+    line-height: 1.4;
   }
 
   /* 搜索弹窗 */
@@ -2542,7 +2563,10 @@ function fallbackImageFormat(img) {
 <div id="mainPage" class="page active">
   <div class="header">
     <img src="logo.webp" class="logo" onerror="fallbackImageFormat(this)">
-    <div class="logo-text">XX学习站</div>
+    <div class="logo-copy">
+      <div class="logo-text">XX学习站</div>
+      <div class="logo-disclaimer">网页中内容和图片均来自网络，仅用于英语学习</div>
+    </div>
     <!-- 主题切换按钮：跟随标题栏布局，始终位于最右侧 -->
     <button class="theme-toggle-btn" id="themeToggle" type="button" aria-label="切换主题"></button>
   </div>
@@ -3971,7 +3995,7 @@ async function addSharedVideoFromAdmin() {
     return;
   }
   const list = readSharedList('dramaVideos', []);
-  list.push({ img, vid, title });
+  list.unshift({ img, vid, title });
   writeSharedList('dramaVideos', list);
   renderDramaVideos();
   document.getElementById('adminDramaVideoName').value = '';
@@ -3995,7 +4019,7 @@ async function addSharedVideoToGTFromAdmin() {
     return;
   }
   const list = readSharedList('gtVideos', []);
-  list.push({ img, vid, title });
+  list.unshift({ img, vid, title });
   writeSharedList('gtVideos', list);
   renderGTVideos();
   document.getElementById('adminGtVideoName').value = '';
@@ -4373,8 +4397,8 @@ function renderDramaVideos() {
         <div class="video-del-btn" onclick="deleteVideo(event,this)">×</div>
         <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
-        <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
       </div>
+      <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
     </div>`;
   });
   container.innerHTML = html;
@@ -4833,7 +4857,7 @@ function addNewVideoCard() {
   const title = document.getElementById('videoTitle').value.trim() || '新视频';
   if (!img || !vid) return;
   let list = readSharedList('dramaVideos', []);
-  list.push({ img, vid, title });
+  list.unshift({ img, vid, title });
   writeSharedList('dramaVideos', list);
   renderDramaVideos();
   document.getElementById('imgName').value = '';
@@ -5030,7 +5054,7 @@ async function addNewVideoCardGT() {
   }
 
   let list = readSharedList('gtVideos', []);
-  list.push({ img, vid, title });
+  list.unshift({ img, vid, title });
   writeSharedList('gtVideos', list);
   renderGTVideos();
   document.getElementById('gtVideoBaseName').value = '';
