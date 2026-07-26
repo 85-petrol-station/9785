@@ -1,0 +1,42 @@
+{
+  "voiceList": [
+    {
+      "name": "6",
+      "file": "voice6.mp3",
+      "duration": ""
+    },
+    {
+      "name": "5",
+      "file": "voice5.mp3",
+      "duration": "00:04"
+    },
+    {
+      "name": "4",
+      "file": "voice4.mp3",
+      "duration": "00:11"
+    },
+    {
+      "name": "2",
+      "file": "voice3.mp3",
+      "duration": "00:29"
+    },
+    {
+      "name": "1",
+      "file": "voice1.mp3",
+      "duration": "00:04"
+    }
+  ],
+  "dramaVideos": [],
+  "gtVideos": [],
+  "bbcNewsList": [
+    {
+      "name": "climbs into a new role",
+      "time": "By Xu Fan | chinadaily.com.cn | Updated: 2025-12-08 10:04",
+      "img": "thumbnail_1.webp",
+      "banner": "news_1.webp",
+      "audio": "audio_1.mp3",
+      "sub": "audio_1.vtt",
+      "content": "Singer-actor Wang has returned for the second season of Exploring the Unknown with Wang,\n歌手兼演员王一博回归《探索心境·王一博》第二季\n\nin which he unveils a new identity — a rock climber.\n在节目中，他展现了全新身份——攀岩爱好者\n\nProduced by the Discovery Channel and co-presented by Tencent Video and Warner Bros., the outdoor reality show has been streaming on Tencent Video since Nov 28.\n该户外真人秀由探索频道出品，腾讯视频与华纳兄弟联合呈现，自11月28日起在腾讯视频播出"
+    }
+  ]
+}
