@@ -602,12 +602,12 @@
     border-radius:50%;
     background:rgba(120,120,120,0.4);
     color:#fff;
-    font-size:12px;
-    display:grid;
-    place-items:center;
+    font-size:14px;
+    display:none;
+    align-items:center;
+    justify-content:center;
     cursor:pointer;
     z-index:5;
-    display:none;
   }
 
   .add-video-form{
@@ -1063,6 +1063,14 @@
     background: rgb(32, 184, 118) !important;
     border-color: rgb(32, 184, 118) !important;
   }
+  #bbcDetailPage .bbc-player-actions {
+    gap: 10px !important;
+  }
+  #bbcDetailPage .bbc-player-actions button {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
 
   /* 学习计划 */
   .plan-card {
@@ -1459,6 +1467,16 @@
 .cet-spell-pos { font-size:13px; color:var(--color-text-secondary); }
 .cet-spell-answer-area { flex:1; display:flex; flex-direction:column; justify-content:center; overflow-y:auto; padding:4px 0; }
 .cet-spell-inputs { display:flex; gap:6px; justify-content:center; flex-wrap:wrap; }
+.cet-spell-inputs input {
+  -webkit-appearance:none;
+  appearance:none;
+  border:none !important;
+  border-bottom:2px solid var(--color-text) !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  background:transparent !important;
+  outline:none;
+}
 .cet-spell-wrong-tip { color:#ff4444; font-size:14px; text-align:center; margin-top:10px; display:none; }
 .cet-spell-answer-show { font-size:18px; color:#20b876; text-align:center; margin-top:6px; display:none; }
 .cet-spell-actions { display:flex; gap:10px; justify-content:center; padding:8px 0; padding-bottom:calc(8px + env(safe-area-inset-bottom)); }
@@ -1782,7 +1800,36 @@
 body.admin-on .voice-del,
 body.admin-on .video-del-btn,
 body.admin-on .bbc-del-btn {
-  display: grid !important;
+  display: flex !important;
+}
+body.admin-on .voice-del {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+}
+body.admin-on .video-del-btn {
+  width: 24px !important;
+  height: 24px !important;
+  min-width: 24px !important;
+  min-height: 24px !important;
+}
+body.admin-on .bbc-del-btn {
+  width: 22px !important;
+  height: 22px !important;
+  min-width: 22px !important;
+  min-height: 22px !important;
+}
+body.admin-on .voice-del,
+body.admin-on .video-del-btn,
+body.admin-on .bbc-del-btn {
+  padding: 0 !important;
+  flex: 0 0 auto;
+  line-height: 1;
+  border: none !important;
+  border-radius: 50% !important;
+  box-shadow: none !important;
+  box-sizing: border-box;
 }
 
 .admin-login-btn {
@@ -1817,7 +1864,7 @@ body.admin-on .bbc-del-btn {
 	-webkit-overflow-scrolling: touch;
 }
 .admin-modal {
-  width: min(92vw, 420px);
+  width: min(90vw, 380px);
 	max-height: 85vh;
 	overflow-y: auto;
 	-webkit-overflow-scrolling: touch;
@@ -1826,36 +1873,48 @@ body.admin-on .bbc-del-btn {
   color: var(--color-text);
   border: 1px solid rgba(100, 235, 118,0.3);
   border-radius: 16px;
-  padding: 16px;
+  padding: 14px;
   box-shadow: 0 12px 32px rgba(0,0,0,0.3);
 }
 .admin-modal-title {
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   color: rgb(32, 184, 118);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 .admin-input {
   width: 100%;
-  padding: 9px 10px;
+  height: 36px;
+  padding: 6px 9px;
   border-radius: 8px;
   border: 1px solid rgba(100, 235, 118,0.25);
   background: var(--bg-input);
   color: var(--color-text);
-  margin-bottom: 8px;
+  margin-bottom: 6px;
+  font-size: 13px;
 }
 .admin-btn {
   width: 100%;
-  padding: 9px 10px;
+  height: 34px;
+  min-height: 34px !important;
+  padding: 0 10px;
   border: 0;
   border-radius: 8px;
   background: rgb(32, 184, 118);
   color: #fff;
-  margin-top: 4px;
+  margin-top: 3px;
+  font-size: 13px;
 }
 .admin-btn.secondary {
   background: rgba(120,120,120,0.7);
-  margin-top: 8px;
+  margin-top: 6px;
+}
+#adminDeleteModeBtn.active,
+html.light #adminDeleteModeBtn.active {
+  background: #20b876 !important;
+  color: #fff !important;
+  border-color: #20b876 !important;
+  box-shadow: 0 2px 8px rgba(32,184,118,0.24) !important;
 }
 .admin-help {
   font-size: 12px;
@@ -1958,6 +2017,16 @@ body::before { background: var(--bg-mask); }
 }
 #mainPage .nav {
   padding: 4px 16px 2px;
+}
+#mainPage .search-input {
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 999px;
+}
+#mainPage .nav-item {
+  min-height: 36px;
+  padding: 6px 10px;
+  border-radius: 999px;
 }
 #mainPage .swiper {
   margin-top: 5px;
@@ -2066,6 +2135,24 @@ button:active,
   color: var(--color-text) !important;
   box-shadow: 0 1px 4px rgba(0,0,0,0.14);
 }
+/* 四、六级词汇顶部筛选：紧凑胶囊框与居中文字 */
+#cet4Page .cet-filter-tabs,
+#cet6Page .cet-filter-tabs {
+  padding: 3px !important;
+  border-radius: 999px !important;
+}
+#cet4Page .cet4-tab-btn,
+#cet6Page .cet6-tab-btn {
+  min-height: 28px !important;
+  height: 28px !important;
+  padding: 0 8px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px !important;
+  font-size: 13px;
+  line-height: 1;
+}
 /* 文章默写筛选：紧凑高度、文字居中、绿色半透明选中态 */
 #articleWritePage .article-tab-btn {
   min-height: 32px !important;
@@ -2142,6 +2229,58 @@ html.light #sentenceWritePage .fav-tab-btn.active {
   background: transparent;
   padding-left: 0;
   padding-right: 0;
+}
+/* 句子听写按钮：压缩高度，保持轻巧、统一的视觉比例 */
+#sentenceListenPage #playSentenceBtn {
+  width: 50px !important;
+  height: 50px !important;
+  min-width: 50px !important;
+  min-height: 50px !important;
+  margin-bottom: 4px !important;
+  border-radius: 10px !important;
+}
+#sentenceListenPage #playSentenceBtn:hover,
+#sentenceListenPage #playSentenceBtn:focus,
+#sentenceListenPage #playSentenceBtn:focus-visible,
+#sentenceListenPage #playSentenceBtn:active,
+#sentenceListenPage #playSentenceBtn.touch-active {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+  outline: none !important;
+  filter: none !important;
+}
+#sentenceListenPage #sentenceSpeakerImg {
+  width: 42px !important;
+  height: 42px !important;
+  border-radius: 8px !important;
+}
+#sentenceListenPage #hintBtn {
+  min-width: 58px !important;
+  min-height: 28px !important;
+  height: 28px !important;
+  padding: 0 10px !important;
+  border-radius: 14px !important;
+  font-size: 12px !important;
+  font-weight: 600;
+  box-shadow: 0 2px 7px rgba(32, 184, 118, 0.2);
+}
+#sentenceListenPage .sentence-action-row {
+  gap: 8px !important;
+  margin-bottom: 14px !important;
+}
+#sentenceListenPage #submitSentenceBtn,
+#sentenceListenPage #nextSentenceBtn {
+  width: 88px !important;
+  min-width: 88px !important;
+  min-height: 36px !important;
+  height: 36px !important;
+  padding: 0 14px !important;
+  border-radius: 9px !important;
+  font-size: 14px !important;
+  line-height: 1 !important;
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(32, 184, 118, 0.2);
 }
 #sentenceWritePage .word-mask {
   min-height: 0 !important;
@@ -2376,22 +2515,22 @@ function fallbackImageFormat(img) {
     </div>
     <div id="adminPanelView" style="display:none;">
       <div class="admin-help" id="adminUserBadge" style="margin-bottom:10px;">已登录</div>
-      <div style="font-size:14px; margin-bottom:8px; color:rgb(32, 184, 118); font-weight:600;">新增内容</div>
+      <div style="font-size:14px; margin-bottom:8px; color:rgb(32, 184, 118); font-weight:600;">上传到首页语音</div>
       <input class="admin-input" id="adminVoiceName" placeholder="语音名称：上传语音">
       <input class="admin-input" id="adminVoiceFile" placeholder="音频文件名">
-      <button class="admin-btn" onclick="addSharedVoiceFromAdmin()">同步到共享语音</button>
+      <button class="admin-btn" onclick="addSharedVoiceFromAdmin()">同步到语音</button>
       <div style="font-size:13px; color:rgb(32, 184, 118); font-weight:600; margin-top:10px; margin-bottom:4px;">上传到追剧学习</div>
       <input class="admin-input" id="adminDramaVideoName" placeholder="基础名：Drama1_1">
-      <input class="admin-input" id="adminDramaVideoTitle" placeholder="视频名称（可选）">
+      <input class="admin-input" id="adminDramaVideoTitle" placeholder="视频名称">
       <button class="admin-btn" onclick="addSharedVideoFromAdmin()">同步到追剧学习</button>
       <div style="font-size:13px; color:rgb(32, 184, 118); font-weight:600; margin-top:10px; margin-bottom:4px;">上传到热门视频</div>
       <input class="admin-input" id="adminGtVideoName" placeholder="基础名：Trending1_1">
-      <input class="admin-input" id="adminGtVideoTitle" placeholder="视频名称（可选）">
+      <input class="admin-input" id="adminGtVideoTitle" placeholder="视频名称">
       <button class="admin-btn" onclick="addSharedVideoToGTFromAdmin()">同步到热门视频</button>
+      <div style="font-size:13px; color:rgb(32, 184, 118); font-weight:600; margin-top:10px; margin-bottom:4px;">上传到新闻</div>
       <input class="admin-input" id="adminNewsBase" placeholder="基础名：audio_1" style="margin-top:10px;">
       <input class="admin-input" id="adminNewsTitle" placeholder="新闻标题">
       <input class="admin-input" id="adminNewsTime" placeholder="时间信息">
-      <input class="admin-input" id="adminNewsBanner" placeholder="Banner（可选，留空则自动匹配同名图片）">
       <button class="admin-btn" onclick="addSharedNewsFromAdmin()">同步到共享新闻</button>
       <button class="admin-btn secondary" id="adminDeleteModeBtn" onclick="toggleDeleteMode()">开启删除模式</button>
       <div style="font-size:12px; color:var(--color-text-secondary); margin-top:6px;">开启后，语音、视频和新闻卡片会显示删除按钮。</div>
@@ -2540,7 +2679,7 @@ function fallbackImageFormat(img) {
 
   <!-- 顶部标签：已学 / 未学 / 全部 -->
   <div style="display:flex; gap:8px; margin:10px 16px; align-items:center;">
-    <div style="flex:1; display:flex; background:var(--bg-nav); border-radius:12px; padding:4px;">
+    <div class="cet-filter-tabs" style="flex:1; display:flex; background:var(--bg-nav); border-radius:12px; padding:4px;">
       <div class="cet4-tab-btn active" data-tab="todo" onclick="switchCet4Tab('todo')">未学</div>
       <div class="cet4-tab-btn" data-tab="learned" onclick="switchCet4Tab('learned')">已学</div>
       <div class="cet4-tab-btn" data-tab="mastered" onclick="switchCet4Tab('mastered')">熟练</div>
@@ -2554,6 +2693,7 @@ function fallbackImageFormat(img) {
     <button class="cet4-sort-btn active" data-sort="default" onclick="setCet4Sort('default', this)">默认</button>
     <button class="cet4-sort-btn" data-sort="asc" onclick="setCet4Sort('asc', this)">A→Z</button>
     <button class="cet4-sort-btn" data-sort="desc" onclick="setCet4Sort('desc', this)">Z→A</button>
+    <button class="cet4-sort-btn" data-sort="random" onclick="setCet4Sort('random', this)">乱序</button>
   </div>
 
   <!-- 统计信息 -->
@@ -2752,7 +2892,7 @@ function fallbackImageFormat(img) {
     <div id="sentenceWordInputs" style="display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:24px; pointer-events: auto !important;"></div>
 
     <!-- 提交 + 下一题 -->
-    <div style="display:flex; gap:10px; justify-content:center; margin-bottom:16px;">
+    <div class="sentence-action-row" style="display:flex; gap:10px; justify-content:center; margin-bottom:16px;">
       <button id="submitSentenceBtn" type="button" onclick="submitSentenceCheck()" style="width:100px; padding:10px 0; border-radius:10px; background:rgb(32, 184, 118); color:#fff; border:none; font-size:15px; cursor:pointer;">提交</button>
       <button id="nextSentenceBtn" type="button" style="width:100px; padding:10px 0; border-radius:10px; background:rgb(32, 184, 118); color:#fff; border:none; font-size:15px; cursor:pointer;">下一题</button>
     </div>
@@ -2995,7 +3135,7 @@ function fallbackImageFormat(img) {
       <span id="bbcAudioDuration" style="font-size:14px; color:var(--color-text-secondary); width:40px;">00:00</span>
     </div>
 
-    <div style="display:flex; justify-content:center; align-items:center; margin-top:10px; gap:6px;">
+    <div class="bbc-player-actions" style="display:flex; justify-content:center; align-items:center; margin-top:10px; gap:6px;">
       <button id="translateFullBtn" onclick="toggleNewsTranslation()" title="翻译" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:11px;">中</button>
       <button id="newsLoopBtn" onclick="toggleNewsLoop()" title="单句循环" style="flex:0 0 auto; width:28px; height:28px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; display:grid; place-items:center;">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--color-text)" stroke-width="2"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
@@ -3007,8 +3147,8 @@ function fallbackImageFormat(img) {
       <button onclick="nextNewsSubtitle()" title="下一句" style="flex:0 0 auto; width:28px; height:28px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; display:grid; place-items:center;">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="var(--color-text)"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
       </button>
-      <button id="speed08Btn" onclick="toggleBbcSpeedBtn(0.8, this)" title="0.8倍速" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:9px;">.8</button>
-      <button id="subToggleBtn" onclick="toggleNewsSubtitle()" title="字幕开关" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:11px;">字</button>
+      <button id="speed08Btn" onclick="toggleBbcSpeedBtn(0.8, this)" title="0.8倍速" style="flex:0 0 auto; width:28px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:10px;">0.8</button>
+      <button id="subToggleBtn" onclick="toggleNewsSubtitle()" title="字幕开关" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:11px;">幕</button>
     </div>
   </div>
 </div>
@@ -3024,7 +3164,7 @@ function fallbackImageFormat(img) {
 
   <!-- 顶部标签：未学 / 已学 / 全部 -->
   <div style="display:flex; gap:8px; margin:10px 16px; align-items:center;">
-    <div style="flex:1; display:flex; background:var(--bg-nav); border-radius:12px; padding:4px;">
+    <div class="cet-filter-tabs" style="flex:1; display:flex; background:var(--bg-nav); border-radius:12px; padding:4px;">
       <div class="cet6-tab-btn active" data-tab="todo" onclick="switchCet6Tab('todo')">未学</div>
       <div class="cet6-tab-btn" data-tab="learned" onclick="switchCet6Tab('learned')">已学</div>
       <div class="cet6-tab-btn" data-tab="mastered" onclick="switchCet6Tab('mastered')">熟练</div>
@@ -3038,6 +3178,7 @@ function fallbackImageFormat(img) {
     <button class="cet6-sort-btn active" data-sort="default" onclick="setCet6Sort('default', this)">默认</button>
     <button class="cet6-sort-btn" data-sort="asc" onclick="setCet6Sort('asc', this)">A→Z</button>
     <button class="cet6-sort-btn" data-sort="desc" onclick="setCet6Sort('desc', this)">Z→A</button>
+    <button class="cet6-sort-btn" data-sort="random" onclick="setCet6Sort('random', this)">乱序</button>
   </div>
 
   <!-- 统计信息 -->
@@ -3616,13 +3757,19 @@ function toggleDeleteMode() {
   deleteModeEnabled = !deleteModeEnabled;
   document.body.classList.toggle('admin-on', deleteModeEnabled);
   const btn = document.getElementById('adminDeleteModeBtn');
-  if (btn) btn.innerText = deleteModeEnabled ? (getSiteText('admin.disableDeleteMode')||'关闭删除模式') : (getSiteText('admin.enableDeleteMode')||'开启删除模式');
+  if (btn) {
+    btn.innerText = deleteModeEnabled ? (getSiteText('admin.disableDeleteMode')||'关闭删除模式') : (getSiteText('admin.enableDeleteMode')||'开启删除模式');
+    btn.classList.toggle('active', deleteModeEnabled);
+  }
 }
 function setDeleteMode(enabled) {
   deleteModeEnabled = enabled;
   document.body.classList.toggle('admin-on', enabled);
   const btn = document.getElementById('adminDeleteModeBtn');
-  if (btn) btn.innerText = enabled ? (getSiteText('admin.disableDeleteMode')||'关闭删除模式') : (getSiteText('admin.enableDeleteMode')||'开启删除模式');
+  if (btn) {
+    btn.innerText = enabled ? (getSiteText('admin.disableDeleteMode')||'关闭删除模式') : (getSiteText('admin.enableDeleteMode')||'开启删除模式');
+    btn.classList.toggle('active', enabled);
+  }
 }
 function toggleAdminModal() {
   const overlay = document.getElementById('adminModalOverlay');
@@ -3813,9 +3960,9 @@ async function addSharedVideoFromAdmin() {
     return;
   }
   const inputName = document.getElementById('adminDramaVideoName').value.trim();
-  const title = document.getElementById('adminDramaVideoTitle').value.trim() || '新视频';
-  if (!inputName) {
-    alert('请填写基础名，例如 Drama1_1');
+  const title = document.getElementById('adminDramaVideoTitle').value.trim();
+  if (!inputName || !title) {
+    alert('请填写视频名称和基础名，例如 Drama1_1');
     return;
   }
   const { base, img, vid } = await resolveSharedVideoAssets(inputName);
@@ -3837,9 +3984,9 @@ async function addSharedVideoToGTFromAdmin() {
     return;
   }
   const inputName = document.getElementById('adminGtVideoName').value.trim();
-  const title = document.getElementById('adminGtVideoTitle').value.trim() || '新视频';
-  if (!inputName) {
-    alert('请填写基础名，例如 Trending1_1');
+  const title = document.getElementById('adminGtVideoTitle').value.trim();
+  if (!inputName || !title) {
+    alert('请填写视频名称和基础名，例如 Trending1_1');
     return;
   }
   const { base, img, vid } = await resolveSharedVideoAssets(inputName);
@@ -3863,7 +4010,6 @@ async function addSharedNewsFromAdmin() {
   const inputName = document.getElementById('adminNewsBase').value.trim();
   const name = document.getElementById('adminNewsTitle').value.trim();
   const time = document.getElementById('adminNewsTime').value.trim();
-  const bannerInput = document.getElementById('adminNewsBanner').value.trim();
   if (!name || !time || !inputName) {
     alert('请填写新闻标题、时间和基础名');
     return;
@@ -3872,7 +4018,7 @@ async function addSharedNewsFromAdmin() {
   const { base, audio, sub, banner } = await resolveSharedNewsAssets(inputName);
   const audioUrl = audio || inputName;
   const subUrl = sub || '';
-  const bannerUrl = bannerInput || banner || 'logo.webp';
+  const bannerUrl = banner || 'logo.webp';
   if (!audioUrl || !subUrl) {
     alert(`无法自动匹配到同名资源，请确认 ${base}.mp3/.m4a 和 ${base}.vtt 已经放在项目根目录`);
     return;
@@ -3902,7 +4048,6 @@ async function addSharedNewsFromAdmin() {
   document.getElementById('adminNewsBase').value = '';
   document.getElementById('adminNewsTitle').value = '';
   document.getElementById('adminNewsTime').value = '';
-  document.getElementById('adminNewsBanner').value = '';
   exportSiteContentJson();
 }
 
@@ -4228,8 +4373,8 @@ function renderDramaVideos() {
         <div class="video-del-btn" onclick="deleteVideo(event,this)">×</div>
         <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
       </div>
-      <input class="video-name" type="text" value="${escapeHtml(item.title)}" onblur="saveDramaVideoName(this, ${videoId})">
     </div>`;
   });
   container.innerHTML = html;
@@ -4247,8 +4392,8 @@ function renderGTVideos() {
         <div class="video-del-btn" onclick="deleteVideo(event,this)">×</div>
         <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
       </div>
-      <input class="video-name" type="text" value="${escapeHtml(item.title)}" onblur="saveGTVideoName(this, ${videoId})">
     </div>`;
   });
   container.innerHTML = html;
@@ -4699,7 +4844,7 @@ function deleteVideo(e, btn) {
   e.stopPropagation();
   if (!confirm('确定删除？')) return;
   const item = btn.closest('.video-item');
-  const vidSrc = item.querySelector('.video-card').getAttribute('onclick').match(/'(.+?)'/)[1];
+  const vidSrc = item.querySelector('.video-card').getAttribute('onclick').match(/"(.+?)"/)[1];
   let dramaList = readSharedList('dramaVideos', []);
   dramaList = dramaList.filter(v => v.vid !== vidSrc);
   writeSharedList('dramaVideos', dramaList);
@@ -4707,6 +4852,7 @@ function deleteVideo(e, btn) {
   gtList = gtList.filter(v => v.vid !== vidSrc);
   writeSharedList('gtVideos', gtList);
   item.remove();
+  persistSharedContentToServer();
 }
 
 // ===================== IBO 图片裁切器 =====================
@@ -4962,7 +5108,7 @@ function renderVoiceList() {
     html += `
     <div class="voice-item" style="position:relative;">
       <!-- 新增删除按钮 -->
-      <div class="voice-del" onclick="deleteVoice(event,this)" style="position:absolute;top:4px;right:4px;width:22px;height:22px;border-radius:50%;background:rgba(180,180,180,0.6);color:#fff;place-items:center;font-size:14px;cursor:pointer;z-index:10;">×</div>
+      <div class="voice-del" onclick="deleteVoice(event,this)" style="position:absolute;top:4px;right:4px;width:22px;height:22px;border-radius:50%;background:rgba(180,180,180,0.6);color:#fff;align-items:center;justify-content:center;font-size:14px;cursor:pointer;z-index:10;">×</div>
       <img class="voice-avatar" src="logo.webp">
       <div class="voice-bar ${durClass}" onclick="playThisVoice(this)" style="position:relative;">
        <div class="voice-text">
@@ -5105,30 +5251,6 @@ function scrollToSearchWord() {
       card.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
   });
-}
-
-function saveDramaVideoName(inputEl, videoSrc) {
-  let newTitle = inputEl.value.trim();
-  let list = readSharedList('dramaVideos', []);
-  list = list.map(item => {
-    if (item.vid === videoSrc) {
-      item.title = newTitle;
-    }
-    return item;
-  });
-  writeSharedList('dramaVideos', list);
-}
-
-function saveGTVideoName(inputEl, videoSrc) {
-  let newTitle = inputEl.value.trim();
-  let list = readSharedList('gtVideos', []);
-  list = list.map(item => {
-    if (item.vid === videoSrc) {
-      item.title = newTitle;
-    }
-    return item;
-  });
-  writeSharedList('gtVideos', list);
 }
 
 // ===================== 模块2：Star Journey =====================
@@ -5512,8 +5634,7 @@ window.renderBbcNews = window.renderBbcNews || function() {
       <div class="bbc-del-btn" onclick="event.stopPropagation();deleteBbcNews(${index})"
            style="position:absolute; top:6px; right:6px; width:20px; height:20px;
                   border-radius:50%; background:rgba(120,120,120,0.5); color:#fff;
-                  display:grid; place-items:center; font-size:12px; cursor:pointer;
-                  display:none;">×</div>
+                  align-items:center; justify-content:center; font-size:14px; cursor:pointer;">×</div>
     </div>
     `;
   });
@@ -5559,6 +5680,7 @@ window.addBbcNews = window.addBbcNews || async function() {
     writeSharedList('bbcNewsList', list);
     renderBbcNews();
     refreshArticleListWhenOpen();
+    persistSharedContentToServer();
     alert('✅ 添加成功！正文已自动从 VTT 读取');
 
     // 清空表单
@@ -5580,6 +5702,7 @@ window.deleteBbcNews = window.deleteBbcNews || function(index) {
   writeSharedList('bbcNewsList', list);
   renderBbcNews();
   refreshArticleListWhenOpen();
+  persistSharedContentToServer();
 }
 
 async function openBbcDetail(index) {
@@ -5646,8 +5769,8 @@ async function openBbcDetail(index) {
   if (duration) duration.innerText = '00:00';
   const subtitleContainer = document.getElementById('newsSubtitleContainer');
   const subBtn = document.getElementById('subToggleBtn');
-  if (subtitleContainer) subtitleContainer.classList.remove('hide-sub');
-  if (subBtn) { subBtn.style.background = 'rgb(32, 184, 118)'; subBtn.style.color = '#fff'; }
+  if (subtitleContainer) subtitleContainer.classList.add('hide-sub');
+  if (subBtn) { subBtn.style.background = 'transparent'; subBtn.style.color = 'var(--color-text)'; }
   // 重置速度按钮
   document.querySelectorAll('#speed12Btn, #speed08Btn').forEach(b => {
     b.style.background = 'transparent'; b.style.color = 'var(--color-text)';
@@ -5962,9 +6085,9 @@ window.stopBbcAudioAndBack = window.stopBbcAudioAndBack || function() {
 window.syncBbcAdminDisplay = window.syncBbcAdminDisplay || function() {
   const bbcForm = document.getElementById('bbcNewsForm');
   const bbcDels = document.querySelectorAll('.bbc-del-btn');
-  if (adminMode) {
+  if (deleteModeEnabled) {
     bbcForm.style.display = 'block';
-    bbcDels.forEach(el => el.style.display = 'grid');
+    bbcDels.forEach(el => el.style.display = 'flex');
   } else {
     bbcForm.style.display = 'none';
     bbcDels.forEach(el => el.style.display = 'none');
@@ -5974,9 +6097,19 @@ window.syncBbcAdminDisplay = window.syncBbcAdminDisplay || function() {
 // ================== CET4 单词选择+答题逻辑 ==================
 let currentCet4Tab = "todo";
 let selectedCet4Words = [];
-let cet4SortOrder = "default"; // 排序：default | asc | desc
+let cet4SortOrder = "default"; // 排序：default | asc | desc | random
+let cet4RandomRanks = null;
 let currentExamIndex = 0;
 let examWordList = [];
+
+function createRandomWordRanks(words) {
+  const shuffled = [...words];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return new Map(shuffled.map((word, index) => [word, index]));
+}
 
 // 拼写模式专用变量
 let currentSpellIndex = 0;
@@ -5996,6 +6129,9 @@ window.switchCet4Tab = window.switchCet4Tab || function(tab) {
 // CET4 排序切换
 window.setCet4Sort = window.setCet4Sort || function(order, btn) {
   cet4SortOrder = order;
+  if (order === "random") {
+    cet4RandomRanks = createRandomWordRanks(Object.keys(cet4Words));
+  }
   document.querySelectorAll(".cet4-sort-btn").forEach(b => {
     b.classList.remove("active");
     b.style.background = "transparent";
@@ -6078,11 +6214,16 @@ window.renderCet4WordList = window.renderCet4WordList || async function() {
     wordList = wordList.filter(w => mastered4.includes(w.word));
   }
 
-  // 排序：正序 A→Z / 倒序 Z→A
+  // 排序：正序 A→Z / 倒序 Z→A / 乱序
   if (cet4SortOrder === "asc") {
     wordList.sort((a, b) => a.word.toLowerCase().localeCompare(b.word.toLowerCase()));
   } else if (cet4SortOrder === "desc") {
     wordList.sort((a, b) => b.word.toLowerCase().localeCompare(a.word.toLowerCase()));
+  } else if (cet4SortOrder === "random") {
+    if (!cet4RandomRanks) {
+      cet4RandomRanks = createRandomWordRanks(wordList.map(item => item.word));
+    }
+    wordList.sort((a, b) => (cet4RandomRanks.get(a.word) ?? 0) - (cet4RandomRanks.get(b.word) ?? 0));
   }
   // default: 保持原始顺序
 
@@ -6525,7 +6666,8 @@ window.showCurrentAnswer = window.showCurrentAnswer || function() {
 // ================== CET6 完整逻辑（和四级完全同款：未学/已学/全部 + 拼写 + 识词） ==================
 let currentCet6Tab = "todo";
 let selectedCet6Words = [];
-let cet6SortOrder = "default"; // 排序：default | asc | desc
+let cet6SortOrder = "default"; // 排序：default | asc | desc | random
+let cet6RandomRanks = null;
 let currentExamIndex6 = 0;
 let examWordList6 = [];
 
@@ -6547,6 +6689,9 @@ window.switchCet6Tab = window.switchCet6Tab || function(tab) {
 // CET6 排序切换
 window.setCet6Sort = window.setCet6Sort || function(order, btn) {
   cet6SortOrder = order;
+  if (order === "random") {
+    cet6RandomRanks = createRandomWordRanks(Object.keys(cet6Words));
+  }
   document.querySelectorAll(".cet6-sort-btn").forEach(b => {
     b.classList.remove("active");
     b.style.background = "transparent";
@@ -6625,11 +6770,16 @@ window.renderCet6WordList = window.renderCet6WordList || async function() {
     wordList = wordList.filter(w => mastered6.includes(w.word));
   }
 
-  // 排序：正序 A→Z / 倒序 Z→A
+  // 排序：正序 A→Z / 倒序 Z→A / 乱序
   if (cet6SortOrder === "asc") {
     wordList.sort((a, b) => a.word.toLowerCase().localeCompare(b.word.toLowerCase()));
   } else if (cet6SortOrder === "desc") {
     wordList.sort((a, b) => b.word.toLowerCase().localeCompare(a.word.toLowerCase()));
+  } else if (cet6SortOrder === "random") {
+    if (!cet6RandomRanks) {
+      cet6RandomRanks = createRandomWordRanks(wordList.map(item => item.word));
+    }
+    wordList.sort((a, b) => (cet6RandomRanks.get(a.word) ?? 0) - (cet6RandomRanks.get(b.word) ?? 0));
   }
   // default: 保持原始顺序
 

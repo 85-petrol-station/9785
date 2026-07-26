@@ -1903,26 +1903,12 @@
     "meaning": "算术，算法；数字（n.）",
     "audio": "audio_small/a/arithmetic.mp3"
   },
-  "arm": {
-    "word": "arm",
-    "type": "cet6",
-    "phonetic": "/ɑːrm/",
-    "meaning": "手臂；武器；袖子；装备；部门vi. 武装起来vt. 武装；备战（n.）",
-    "audio": "audio_small/a/arm.mp3"
-  },
   "army": {
     "word": "army",
     "type": "cet6",
     "phonetic": "/ˈɑːrmi/",
     "meaning": "陆军，军队（n.）",
     "audio": "audio_small/a/army.mp3"
-  },
-  "around": {
-    "word": "around",
-    "type": "cet6",
-    "phonetic": "/əˈraʊnd/",
-    "meaning": "adv.周围,四周,到处,大约,左右 prep.在...周围,四处",
-    "audio": "audio_small/a/around.mp3"
   },
   "arouse": {
     "word": "arouse",
@@ -1959,26 +1945,12 @@
     "meaning": "到来；到达；到达者（n.）",
     "audio": "audio_small/a/arrival.mp3"
   },
-  "arrive": {
-    "word": "arrive",
-    "type": "cet6",
-    "phonetic": "/əˈraɪv/",
-    "meaning": "到达；成功；达成；出生",
-    "audio": "audio_small/a/arrive.mp3"
-  },
   "arrow": {
     "word": "arrow",
     "type": "cet6",
     "phonetic": "/ˈæroʊ/",
     "meaning": "n. 箭，箭头；箭状物；箭头记号vt. 以箭头指示；箭一般地飞向n. (Arrow)人名；(英)阿罗",
     "audio": "audio_small/a/arrow.mp3"
-  },
-  "art": {
-    "word": "art",
-    "type": "cet6",
-    "phonetic": "/ɑːrt/",
-    "meaning": "n.艺术,艺术品,技术,巧妙,美术",
-    "audio": "audio_small/a/art.mp3"
   },
   "article": {
     "word": "article",
@@ -2008,13 +1980,6 @@
     "meaning": "艺术的；风雅的；有美感的（adj.）",
     "audio": "audio_small/a/artistic.mp3"
   },
-  "as": {
-    "word": "as",
-    "type": "cet6",
-    "phonetic": "/əz,æz/",
-    "meaning": "为 [域] American Samoa,东萨摩亚 [军] Air to Surface,空对地",
-    "audio": "audio_small/a/as.mp3"
-  },
   "ash": {
     "word": "ash",
     "type": "cet6",
@@ -2035,20 +2000,6 @@
     "phonetic": "/əˈsaɪd/",
     "meaning": "adv. 离开，撇开；在旁边n. 旁白；私语，悄悄话；离题的话 prep. 在…旁边",
     "audio": "audio_small/a/aside.mp3"
-  },
-  "ask": {
-    "word": "ask",
-    "type": "cet6",
-    "phonetic": "/æsk/",
-    "meaning": "vt. 问，询问；要求；需要；邀请；讨价vi. 问，询问；要求 n. （Ask）（芬、瑞典）阿斯克（人名）",
-    "audio": "audio_small/a/ask.mp3"
-  },
-  "asleep": {
-    "word": "asleep",
-    "type": "cet6",
-    "phonetic": "/əˈsliːp/",
-    "meaning": "进入睡眠状态（地）",
-    "audio": "audio_small/a/asleep.mp3"
   },
   "aspect": {
     "word": "aspect",
@@ -24037,13 +23988,6 @@
     "meaning": "置,安放,制作...的标本,上演",
     "audio": "audio_small/m/mount.mp3"
   },
-  "mountain": {
-    "word": "mountain",
-    "type": "cet6",
-    "phonetic": "/ˈmaʊntn/",
-    "meaning": "山；山脉",
-    "audio": "audio_small/m/mountain.mp3"
-  },
   "mourn": {
     "word": "mourn",
     "type": "cet6",
@@ -24055,7 +23999,7 @@
     "word": "mouse",
     "type": "cet6",
     "phonetic": "/maʊs/",
-    "meaning": "鼠标；老鼠；胆小羞怯的人vt. 探出vi. 捕鼠；窥探（n.）",
+    "meaning": "n.鼠标；老鼠；胆小羞怯的人vt. 探出vi. 捕鼠；窥探",
     "audio": "audio_small/m/mouse.mp3"
   },
   "mouth": {

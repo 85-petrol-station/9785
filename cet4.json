@@ -73,14 +73,14 @@
     "word": "absolute",
     "type": "cet4",
     "phonetic": "/ˈæbsəluːt/",
-    "meaning": "绝对的；完全的；专制的n. 绝对；绝对事物（adj.）",
+    "meaning": "adj.绝对的；完全的；专制的n. 绝对；绝对事物",
     "audio": "audio_small/a/absolute.mp3"
   },
   "absolutely": {
     "word": "absolutely",
     "type": "cet4",
     "phonetic": "/ˈæbsəluːtli/",
-    "meaning": "绝对地；完全地（adv.）",
+    "meaning": "adv. 绝对地，完全地；当然，没错",
     "audio": "audio_small/a/absolutely.mp3"
   },
   "absorb": {
@@ -307,6 +307,7 @@
     "meaning": "果，如愿以偿",
     "audio": "audio_small/a/achieve.mp3"
   },
+  
   "achievement": {
     "word": "achievement",
     "type": "cet4",
@@ -846,20 +847,6 @@
     "meaning": "公司，改变Google原有公司架构，旨在使其当下主要业务和长期投资",
     "audio": "audio_small/a/alphabet.mp3"
   },
-  "already": {
-    "word": "already",
-    "type": "cet4",
-    "phonetic": "/ɔːlˈredi/",
-    "meaning": "已经，早已；先前（adv.）",
-    "audio": "audio_small/a/already.mp3"
-  },
-  "also": {
-    "word": "also",
-    "type": "cet4",
-    "phonetic": "/ˈɔːlsoʊ/",
-    "meaning": "也；而且；同样conj. 并且；另外",
-    "audio": "audio_small/a/also.mp3"
-  },
   "alter": {
     "word": "alter",
     "type": "cet4",
@@ -901,13 +888,6 @@
     "phonetic": "/ˌæljəˈmɪniəm/",
     "meaning": "铝adj. 铝的（n.）",
     "audio": "audio_small/a/aluminium.mp3"
-  },
-  "always": {
-    "word": "always",
-    "type": "cet4",
-    "phonetic": "/ˈɔːlweɪz/",
-    "meaning": "永远，一直；总是；常常（adv.）",
-    "audio": "audio_small/a/always.mp3"
   },
   "amaze": {
     "word": "amaze",
@@ -1475,13 +1455,6 @@
     "phonetic": "/ɑːrˈtɪstɪk/",
     "meaning": "艺术的；风雅的；有美感的（adj.）",
     "audio": "audio_small/a/artistic.mp3"
-  },
-  "as": {
-    "word": "as",
-    "type": "cet4",
-    "phonetic": "/əz,æz/",
-    "meaning": "为 [域] American Samoa,东萨摩亚 [军] Air to Surface,空对地",
-    "audio": "audio_small/a/as.mp3"
   },
   "ash": {
     "word": "ash",
@@ -16397,14 +16370,21 @@
     "word": "messenger",
     "type": "cet4",
     "phonetic": "/ˈmesɪndʒər/",
-    "meaning": "n. 报信者，送信者；先驱n. (Messenger)人名；(德)梅森格；\n(英)梅辛杰",
+    "meaning": "n. 报信者，送信者；先驱",
     "audio": "audio_small/m/messenger.mp3"
+  },
+  "mentor": {
+  "word": "mentor",
+  "type": "cet4",
+  "phonetic": "/ˈmentɔː(r)/",
+  "meaning": "n. 导师，良师益友；v. 指导，辅导",
+  "audio": "audio_small/m/mentor.mp3"
   },
   "metal": {
     "word": "metal",
     "type": "cet4",
     "phonetic": "/ˈmetl/",
-    "meaning": "n. 金属；合金vt. 以金属覆盖adj. 金属制的n. （Metal）\n（捷、瑞典）梅塔尔（人名）",
+    "meaning": "n. 金属；合金vt. 以金属覆盖adj. 金属制的",
     "audio": "audio_small/m/metal.mp3"
   },
   "meter": {
@@ -16495,14 +16475,14 @@
     "word": "mild",
     "type": "cet4",
     "phonetic": "/maɪld/",
-    "meaning": "的一种）淡味麦芽啤酒n. （Mild）（瑞典、德、捷、芬）米尔德（人",
+    "meaning": "adj. 温和的，轻微的，清淡的，温暖的",
     "audio": "audio_small/m/mild.mp3"
   },
   "mile": {
     "word": "mile",
     "type": "cet4",
     "phonetic": "/maɪl/",
-    "meaning": "n. 英里；一英里赛跑；较大的距离n. (Mile)人名；(塞、匈、法)米莱",
+    "meaning": "n. 英里；一英里赛跑；较大的距离",
     "audio": "audio_small/m/mile.mp3"
   },
   "military": {
@@ -16511,13 +16491,6 @@
     "phonetic": "/ˈmɪləteri/",
     "meaning": "军事的；军人的；适于战争的n. 军队；军人（adj.）",
     "audio": "audio_small/m/military.mp3"
-  },
-  "milk": {
-    "word": "milk",
-    "type": "cet4",
-    "phonetic": "/mɪlk/",
-    "meaning": "n. 牛奶；乳状物vt. 榨取；挤…的奶vi. 挤奶n. (Milk)人名；(英)米尔克",
-    "audio": "audio_small/m/milk.mp3"
   },
   "mill": {
     "word": "mill",
@@ -16551,7 +16524,7 @@
     "word": "mine",
     "type": "cet4",
     "phonetic": "/maɪn/",
-    "meaning": "开矿，采矿；埋设地雷pron. 我的",
+    "meaning": "开矿，采矿；埋设地雷 pron. 我的",
     "audio": "audio_small/m/mine.mp3"
   },
   "miner": {
@@ -16565,7 +16538,7 @@
     "word": "mineral",
     "type": "cet4",
     "phonetic": "/ˈmɪnərəl/",
-    "meaning": "物的；矿质的",
+    "meaning": "adj. 矿物的；含矿物的（n.）",
     "audio": "audio_small/m/mineral.mp3"
   },
   "minimum": {
@@ -16607,7 +16580,7 @@
     "word": "minus",
     "type": "cet4",
     "phonetic": "/ˈmaɪnəs/",
-    "meaning": "adj.负的,减的 prep.减去n.负数",
+    "meaning": "adj.负的,减的 prep.减去 n.负数",
     "audio": "audio_small/m/minus.mp3"
   },
   "minute": {
@@ -16621,7 +16594,7 @@
     "word": "miracle",
     "type": "cet4",
     "phonetic": "/ˈmɪrəkl/",
-    "meaning": "克尔；(意、西)米拉克莱",
+    "meaning": "n. 奇迹，奇事，不可思议的人 / 事物",
     "audio": "audio_small/m/miracle.mp3"
   },
   "mirror": {
@@ -16649,7 +16622,7 @@
     "word": "miss",
     "type": "cet4",
     "phonetic": "/mɪs/",
-    "meaning": "察,错过,遗漏,逃脱vi.失败,击不中",
+    "meaning": "察,错过,遗漏,逃脱 vi.失败,击不中",
     "audio": "audio_small/m/miss.mp3"
   },
   "missile": {
@@ -16663,14 +16636,14 @@
     "word": "missing",
     "type": "cet4",
     "phonetic": "/ˈmɪsɪŋ/",
-    "meaning": "adj. 失踪的；缺少的v. 错过（miss的ing形式）；想念；漏掉 n. (Missing)人名；(德)米辛",
+    "meaning": "adj. 失踪的；缺少的v. 错过（miss的ing形式）；想念；漏掉",
     "audio": "audio_small/m/missing.mp3"
   },
   "mission": {
     "word": "mission",
     "type": "cet4",
     "phonetic": "/ˈmɪʃn/",
-    "meaning": "使命，任务；代表团；布道vt. 派遣；向……传教（n.）",
+    "meaning": "n.使命，任务；代表团；布道vt. 派遣；向……传教",
     "audio": "audio_small/m/mission.mp3"
   },
   "mist": {
@@ -16726,7 +16699,7 @@
     "word": "moan",
     "type": "cet4",
     "phonetic": "/moʊn/",
-    "meaning": "vi. 抱怨，悲叹；呻吟n. 呻吟声；悲叹vt. 抱怨；呻吟着说n.\n(Moan)人名；(法)莫昂",
+    "meaning": "vi. 抱怨，悲叹；呻吟n. 呻吟声；悲叹vt. 抱怨；呻吟着说",
     "audio": "audio_small/m/moan.mp3"
   },
   "mobile": {
@@ -16740,7 +16713,7 @@
     "word": "mode",
     "type": "cet4",
     "phonetic": "/moʊd/",
-    "meaning": "n. 模式；方式；风格；时尚n. (Mode)人名；(德、英、法、乍\n、瑞典)莫德",
+    "meaning": "n. 模式；方式；风格；时尚",
     "audio": "audio_small/m/mode.mp3"
   },
   "model": {
@@ -16866,14 +16839,14 @@
     "word": "moon",
     "type": "cet4",
     "phonetic": "/muːn/",
-    "meaning": "n. 月亮；月球；月光；卫星vi. 闲荡；出神vt. 虚度n.\n（Moon）（瑞典）莫恩；（柬）蒙；（英）穆恩；（缅）孟\n（人名）",
+    "meaning": "n. 月亮；月球；月光；卫星vi. 闲荡；出神vt. 虚度",
     "audio": "audio_small/m/moon.mp3"
   },
   "moral": {
     "word": "moral",
     "type": "cet4",
     "phonetic": "/ˈmɔːrəl/",
-    "meaning": "adj. 道德的；精神上的；品性端正的n. 道德；寓意n.\n(Moral)人名；(德、法、西、葡、土)莫拉尔",
+    "meaning": "adj. 道德的；精神上的；品性端正的n. 道德；寓意",
     "audio": "audio_small/m/moral.mp3"
   },
   "moreover": {
@@ -16894,7 +16867,7 @@
     "word": "mortal",
     "type": "cet4",
     "phonetic": "/ˈmɔːrtl/",
-    "meaning": "adj. 凡人的；致死的；终有一死的；不共戴天的n. 人类，凡人n. (Mortal)人名；(法、葡)莫塔尔",
+    "meaning": "adj. 凡人的；致死的；终有一死的；不共戴天的n. 人类，凡人",
     "audio": "audio_small/m/mortal.mp3"
   },
   "mosquito": {
@@ -16966,13 +16939,6 @@
     "phonetic": "/maʊnt/",
     "meaning": "置,安放,制作...的标本,上演",
     "audio": "audio_small/m/mount.mp3"
-  },
-  "mountain": {
-    "word": "mountain",
-    "type": "cet4",
-    "phonetic": "/ˈmaʊntn/",
-    "meaning": "山；山脉",
-    "audio": "audio_small/m/mountain.mp3"
   },
   "mourn": {
     "word": "mourn",
@@ -17251,7 +17217,7 @@
     "word": "natural",
     "type": "cet4",
     "phonetic": "/ˈnætʃrəl/",
-    "meaning": "adj. 自然的；物质的；天生的；不做作的n. 自然的事情；白痴；本位音n. (Natural)人名；(西)纳图拉尔",
+    "meaning": "adj. 自然的；物质的；天生的；不做作的n. 自然的事情；白痴；本位音",
     "audio": "audio_small/n/natural.mp3"
   },
   "naturally": {
@@ -17335,7 +17301,7 @@
     "word": "necessary",
     "type": "cet4",
     "phonetic": "/ˈnesəseri/",
-    "meaning": "瑟里（人名）",
+    "meaning": "adj. 必要的，必需的，必然的；n. 必需品",
     "audio": "audio_small/n/necessary.mp3"
   },
   "necessity": {
@@ -17370,7 +17336,7 @@
     "word": "needle",
     "type": "cet4",
     "phonetic": "/ˈniːdl/",
-    "meaning": "n. 针；指针；刺激；针状物vi. 缝纫；做针线vt. 刺激；用针缝n. (Needle)人名；(英)尼德尔",
+    "meaning": "n. 针；指针；刺激；针状物vi. 缝纫；做针线vt. 刺激；用针缝",
     "audio": "audio_small/n/needle.mp3"
   },
   "needless": {
@@ -17489,7 +17455,7 @@
     "word": "new",
     "type": "cet4",
     "phonetic": "/nuː/",
-    "meaning": "adj. 新的，新鲜的；更新的；初见的adv. 新近n. (New)人名；(英)纽",
+    "meaning": "adj. 新的，新鲜的；更新的；初见的adv. 新近",
     "audio": "audio_small/n/new.mp3"
   },
   "newly": {
@@ -17545,7 +17511,7 @@
     "word": "nine",
     "type": "cet4",
     "phonetic": "/naɪn/",
-    "meaning": "n. 九，九个num. 九；九个adj. 九的，九个的n. (Nine)人名；(塞)尼内",
+    "meaning": "n. 九，九个num. 九；九个adj. 九的，九个的",
     "audio": "audio_small/n/nine.mp3"
   },
   "nineteen": {
@@ -17608,7 +17574,7 @@
     "word": "noise",
     "type": "cet4",
     "phonetic": "/nɔɪz/",
-    "meaning": "n. [环境] 噪音；响声；杂音vt. 谣传vi. 发出声音；大声议论n. (Noise)人名；(英)诺伊斯",
+    "meaning": "n. [环境] 噪音；响声；杂音vt. 谣传vi. 发出声音；大声议论",
     "audio": "audio_small/n/noise.mp3"
   },
   "noisy": {
@@ -17643,14 +17609,14 @@
     "word": "nor",
     "type": "cet4",
     "phonetic": "/nɔːr/",
-    "meaning": "conj. 也不；也不是adv. 也不；也没有n. (Nor)人名；(中)挪\n(广东话·威妥玛)；(马来、俄)诺尔；(柬)诺",
+    "meaning": "conj. 也不；也不是adv. 也不；也没有",
     "audio": "audio_small/n/nor.mp3"
   },
   "normal": {
     "word": "normal",
     "type": "cet4",
     "phonetic": "/ˈnɔːrml/",
-    "meaning": "adj. 正常的；正规的；标准的n. 正常；标准；常 ；法线\n（数学）n. (Normal)人名；(德)诺马尔",
+    "meaning": "adj. 正常的；正规的；标准的 n. 正常；标准",
     "audio": "audio_small/n/normal.mp3"
   },
   "normally": {
@@ -17741,14 +17707,14 @@
     "word": "noun",
     "type": "cet4",
     "phonetic": "/naʊn/",
-    "meaning": "n. 名词n. (Noun)人名；(以)努恩",
+    "meaning": "n. 名词",
     "audio": "audio_small/n/noun.mp3"
   },
   "novel": {
     "word": "novel",
     "type": "cet4",
     "phonetic": "/ˈnɑːvl/",
-    "meaning": "新奇的；异常的n. 小说",
+    "meaning": "n. 长篇小说；adj. 新奇的，新颖的",
     "audio": "audio_small/n/novel.mp3"
   },
   "november": {
