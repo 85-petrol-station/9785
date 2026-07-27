@@ -445,6 +445,19 @@
     cursor:pointer;
   }
   .news-subtitle-option.active { background:#20b876; }
+  .news-mini-action {
+    width:28px !important;
+    height:28px !important;
+    min-width:28px !important;
+    min-height:28px !important;
+    flex:0 0 28px !important;
+    padding:0 !important;
+    border-radius:50% !important;
+    font-size:10px !important;
+    line-height:28px !important;
+    text-align:center;
+    box-sizing:border-box;
+  }
 
   .video-play-btn{
     position:absolute;
@@ -503,10 +516,19 @@
     cursor: default;
   }
   #newsSubtitleList .subtitle-item.news-en-only {
-    width:fit-content;
+    width:100%;
     max-width:100%;
     padding:6px 10px;
     line-height:1.3;
+  }
+  #newsSubtitleList .subtitle-item.news-en-only.played {
+    width:0;
+    height:0;
+    min-height:0;
+    padding:0;
+    margin:0;
+    border:0;
+    overflow:hidden;
   }
   #newsSubtitleList .news-en-only-row {
     display:flex;
@@ -3299,7 +3321,7 @@ function fallbackImageFormat(img) {
     </div>
 
     <div class="bbc-player-actions" style="display:flex; justify-content:center; align-items:center; margin-top:10px; gap:6px;">
-      <button id="newsSubtitleMenuBtn" onclick="openNewsSubtitleMenu()" title="字幕" style="flex:0 0 auto; width:22px; height:22px; padding:0; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:9px;">字</button>
+      <button class="news-mini-action" id="newsSubtitleMenuBtn" onclick="openNewsSubtitleMenu()" title="字幕" style="border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text);">字</button>
       <button id="newsLoopBtn" onclick="toggleNewsLoop()" title="单句循环" style="flex:0 0 auto; width:28px; height:28px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; display:grid; place-items:center;">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--color-text)" stroke-width="2"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
       </button>
@@ -3311,7 +3333,7 @@ function fallbackImageFormat(img) {
         <svg viewBox="0 0 24 24" width="14" height="14" fill="var(--color-text)"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
       </button>
       <button id="speed08Btn" onclick="toggleBbcSpeedBtn(0.8, this)" title="0.8倍速" style="flex:0 0 auto; width:28px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:10px;">0.8</button>
-      <button id="newsKnowledgeBtn" onclick="openNewsKnowledge()" title="知识点" style="flex:0 0 auto; width:26px; height:26px; padding:0; border-radius:50%; border:none; background:#20b876; color:#fff; font-size:10px;">知</button>
+      <button class="news-mini-action" id="newsKnowledgeBtn" onclick="openNewsKnowledge()" title="知识点" style="border:none; background:#20b876; color:#fff;">知</button>
     </div>
   </div>
 </div>
@@ -4799,6 +4821,9 @@ function jumpToSubtitle(index) {
 function openVideo(src, time = 0) {
   lastPageBeforeVideo = document.querySelector('.page.active').id;
   currentVideoSrc = src;
+  subVisible = true;
+  subtitleContainer.classList.remove('hide-sub');
+  subtitleSwitchBtn.innerText = getSiteText('videoPage.subtitleHide') || '隐藏字幕';
 
   showPage('videoPage');
   video.src = src;
@@ -5876,7 +5901,12 @@ function getNotes() { return readLocalJson('idolNotes', {}); }
 function getWeathers() { return readLocalJson('idolWeathers', {}); }
 function isCalendarDateCompleted(key) {
   const entry = getCheckins()[key];
-  return Array.isArray(entry) ? entry.length > 0 : Boolean(entry);
+  const hasCheckin = Array.isArray(entry) ? entry.length > 0 : Boolean(entry);
+  if (!hasCheckin) return false;
+  const selectedDate = new Date(`${key}T00:00:00`);
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
+  return selectedDate < today;
 }
 function setWeather(type) {
   if (!_popupDateKey) return;
