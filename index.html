@@ -249,7 +249,6 @@
   .nav-item.active:hover{background:#28cc85;border-color:#28cc85;}
   button:active, [onclick]:active, .nav-item:active, .tab:active, .banner-card:active,
   .touch-active {
-    transform: scale(0.98);
     filter: brightness(1.08);
   }
 
@@ -304,7 +303,7 @@
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-    padding:0 16px;
+    padding:0 16px 58px;
   }
   .video-box{
     width:100%;
@@ -321,18 +320,131 @@
   }
 
   .subtitle-switch-btn{
-    position:absolute;
-    right:12px;
-    top:12px;
-    padding:4px 9px;
-    background:rgba(100, 235, 118,0.9);
-    color:#fff;
-    border:none;
-    border-radius:6px;
-    font-size:10px;
-    z-index:15;
+    flex:1;
+    min-height:30px;
+    padding:4px 10px;
+    background:rgba(32,184,118,0.14);
+    color:#20b876;
+    border:1px solid rgba(32,184,118,0.42);
+    border-radius:10px;
+    font-size:12px;
+    font-weight:600;
     cursor:pointer;
   }
+  .video-action-bar {
+    position:fixed;
+    left:50%;
+    transform:translateX(-50%);
+    bottom:calc(8px + env(safe-area-inset-bottom));
+    z-index:20;
+    display:flex;
+    gap:10px;
+    width:calc(100% - 32px);
+    max-width:488px;
+    padding:5px;
+    border:1px solid rgba(32,184,118,0.22);
+    border-radius:14px;
+    background:color-mix(in srgb, var(--bg-card) 90%, transparent);
+    box-shadow:0 8px 24px rgba(0,0,0,0.24);
+    backdrop-filter:blur(12px);
+  }
+  .knowledge-btn {
+    flex:1;
+    min-height:30px;
+    padding:4px 10px;
+    border:0;
+    border-radius:10px;
+    background:#20b876;
+    color:#fff;
+    font-size:12px;
+    font-weight:600;
+    cursor:pointer;
+  }
+  .knowledge-overlay {
+    position:fixed;
+    inset:0;
+    z-index:12000;
+    display:none;
+    align-items:flex-end;
+    justify-content:center;
+    padding:16px;
+    background:rgba(0,0,0,0.58);
+  }
+  .knowledge-modal {
+    width:min(100%, 520px);
+    max-height:82vh;
+    overflow:auto;
+    padding:18px;
+    border:1px solid rgba(32,184,118,0.32);
+    border-radius:20px 20px 14px 14px;
+    background:var(--bg-card);
+    color:var(--color-text);
+    box-shadow:0 18px 50px rgba(0,0,0,0.42);
+  }
+  .knowledge-modal-header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:14px;
+  }
+  .knowledge-modal-title { font-size:18px; font-weight:700; color:#20b876; }
+  .knowledge-close {
+    width:28px;
+    height:28px;
+    min-width:28px !important;
+    min-height:28px !important;
+    flex:0 0 28px;
+    padding:0;
+    border:0;
+    border-radius:50%;
+    background:var(--bg-input);
+    color:var(--color-text);
+    line-height:28px;
+    text-align:center;
+    cursor:pointer;
+  }
+  .knowledge-section { margin-top:16px; }
+  .knowledge-section-title {
+    margin-bottom:8px;
+    font-size:13px;
+    font-weight:700;
+    color:#20b876;
+  }
+  .knowledge-card {
+    margin-bottom:8px;
+    padding:10px 12px;
+    border-radius:10px;
+    background:var(--bg-input);
+    line-height:1.55;
+  }
+  .knowledge-term { font-size:14px; font-weight:700; color:var(--color-text); }
+  .knowledge-meaning { margin-top:2px; font-size:12px; color:var(--color-text-secondary); }
+  .knowledge-example-en { font-size:13px; color:var(--color-text); }
+  .knowledge-example-zh { margin-top:3px; font-size:12px; color:var(--color-text-secondary); }
+  .knowledge-overlay.news-knowledge-compact .knowledge-modal { padding:14px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-modal-title { font-size:15px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-section { margin-top:12px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-section-title { font-size:11px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-card { padding:8px 10px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-term { font-size:12px; }
+  .knowledge-overlay.news-knowledge-compact .knowledge-meaning,
+  .knowledge-overlay.news-knowledge-compact .knowledge-example-en,
+  .knowledge-overlay.news-knowledge-compact .knowledge-example-zh { font-size:10px; }
+  .news-subtitle-option {
+    height:18px;
+    min-height:18px;
+    padding:0 6px;
+    border:0;
+    border-radius:4px;
+    background:rgba(128,128,128,0.1);
+    color:#fff;
+    font-size:11px;
+    line-height:18px;
+    white-space:nowrap;
+    cursor:pointer;
+  }
+  .news-subtitle-option.active { background:#20b876; }
 
   .video-play-btn{
     position:absolute;
@@ -389,6 +501,17 @@
   }
   #subtitleList .subtitle-item {
     cursor: default;
+  }
+  #newsSubtitleList .subtitle-item.news-en-only {
+    width:fit-content;
+    max-width:100%;
+    padding:6px 10px;
+    line-height:1.3;
+  }
+  #newsSubtitleList .news-en-only-row {
+    display:flex;
+    align-items:center;
+    gap:8px;
   }
   .subtitle-item.active {
     background: var(--bg-card-light) !important;
@@ -2095,7 +2218,7 @@ select:focus {
 button {
   font: inherit;
   letter-spacing: 0;
-  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease, opacity 0.18s ease, transform 0.12s ease;
+  transition: background-color 0.18s ease, color 0.18s ease, border-color 0.18s ease, opacity 0.18s ease;
 }
 button:focus-visible,
 [onclick]:focus-visible {
@@ -2105,7 +2228,6 @@ button:focus-visible,
 button:active,
 [onclick]:active,
 .touch-active {
-  transform: scale(0.97);
   filter: none;
 }
 .add-video-btn,
@@ -2646,12 +2768,28 @@ function fallbackImageFormat(img) {
     <div class="video-box" id="videoBox">
       <video id="videoPlayer" playsinline controls></video>
       <div class="video-play-btn" id="playBtn" onclick="togglePlayPause()">▶</div>
-      <button class="subtitle-switch-btn" id="subtitleSwitchBtn" onclick="toggleSubtitleShow()">隐藏字幕</button>
     </div>
 
     <div class="subtitle-container" id="subtitleContainer">
       <div id="subtitleList" class="subtitle-list"></div>
     </div>
+    <div class="video-action-bar">
+      <button class="subtitle-switch-btn" id="subtitleSwitchBtn" onclick="toggleSubtitleShow()">隐藏字幕</button>
+      <button class="knowledge-btn" onclick="openVideoKnowledge()">知识点</button>
+    </div>
+  </div>
+</div>
+
+<div class="knowledge-overlay" id="knowledgeOverlay" onclick="closeVideoKnowledge()">
+  <div class="knowledge-modal" role="dialog" aria-modal="true" aria-labelledby="knowledgeModalTitle" onclick="event.stopPropagation()">
+    <div class="knowledge-modal-header">
+      <div>
+        <div class="knowledge-modal-title" id="knowledgeModalTitle">本视频知识点</div>
+        <div id="knowledgeVideoName" style="margin-top:3px;font-size:11px;color:var(--color-text-secondary);"></div>
+      </div>
+      <button class="knowledge-close" aria-label="关闭知识点" onclick="closeVideoKnowledge()">✕</button>
+    </div>
+    <div id="knowledgeContent"></div>
   </div>
 </div>
 
@@ -3161,7 +3299,7 @@ function fallbackImageFormat(img) {
     </div>
 
     <div class="bbc-player-actions" style="display:flex; justify-content:center; align-items:center; margin-top:10px; gap:6px;">
-      <button id="translateFullBtn" onclick="toggleNewsTranslation()" title="翻译" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:11px;">中</button>
+      <button id="newsSubtitleMenuBtn" onclick="openNewsSubtitleMenu()" title="字幕" style="flex:0 0 auto; width:22px; height:22px; padding:0; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:9px;">字</button>
       <button id="newsLoopBtn" onclick="toggleNewsLoop()" title="单句循环" style="flex:0 0 auto; width:28px; height:28px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; display:grid; place-items:center;">
         <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="var(--color-text)" stroke-width="2"><path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 014-4h14"/><path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
       </button>
@@ -3173,7 +3311,18 @@ function fallbackImageFormat(img) {
         <svg viewBox="0 0 24 24" width="14" height="14" fill="var(--color-text)"><path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z"/></svg>
       </button>
       <button id="speed08Btn" onclick="toggleBbcSpeedBtn(0.8, this)" title="0.8倍速" style="flex:0 0 auto; width:28px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:10px;">0.8</button>
-      <button id="subToggleBtn" onclick="toggleNewsSubtitle()" title="字幕开关" style="flex:0 0 auto; width:26px; height:26px; border-radius:50%; border:0.5px solid var(--color-text-secondary); background:transparent; color:var(--color-text); font-size:11px;">幕</button>
+      <button id="newsKnowledgeBtn" onclick="openNewsKnowledge()" title="知识点" style="flex:0 0 auto; width:26px; height:26px; padding:0; border-radius:50%; border:none; background:#20b876; color:#fff; font-size:10px;">知</button>
+    </div>
+  </div>
+</div>
+
+<div class="knowledge-overlay" id="newsSubtitleMenuOverlay" onclick="closeNewsSubtitleMenu()">
+  <div class="knowledge-modal" id="newsSubtitleMenuPanel" style="position:fixed;width:auto;padding:8px;border:0;border-radius:14px;" onclick="event.stopPropagation()">
+    <div style="display:flex;flex-direction:column;gap:4px;">
+      <button class="news-subtitle-option" data-mode="zh" onclick="setNewsSubtitleMode('zh')">中文</button>
+      <button class="news-subtitle-option" data-mode="en" onclick="setNewsSubtitleMode('en')">英文</button>
+      <button class="news-subtitle-option" data-mode="off" onclick="setNewsSubtitleMode('off')">关闭</button>
+      <button class="news-subtitle-option" data-mode="all" onclick="setNewsSubtitleMode('all')">打开</button>
     </div>
   </div>
 </div>
@@ -3666,6 +3815,7 @@ let voiceAdminMode = false;
 let currentSubIndex = -1;
 let subtitles = [];
 let subVisible = true;
+let currentVideoSrc = '';
 let wordLibrary = {};
 let cet4Words = {}, cet6Words = {};
 let adminLoggedIn = false;
@@ -4172,31 +4322,7 @@ function resetStreak() {
 // NEWS 字幕语言切换：英文 / 中文 / 全部（修复按钮高亮 + 字幕联动）
 window.newsLangMode = window.newsLangMode || 'all';
 function showNewsLang(mode) {
-  window.newsLangMode = mode;
-
-  // 按钮高亮状态
-  document.getElementById('newsBtnEn').style.background = '#ccc';
-  document.getElementById('newsBtnZh').style.background = '#ccc';
-  document.getElementById('newsBtnAll').style.background = '#ccc';
-  document.getElementById('newsBtnEn').style.color = '#222';
-  document.getElementById('newsBtnZh').style.color = '#222';
-  document.getElementById('newsBtnAll').style.color = '#222';
-
-  if (mode === 'en') {
-    document.getElementById('newsBtnEn').style.background = '#20b876';
-    document.getElementById('newsBtnEn').style.color = '#fff';
-  }
-  if (mode === 'zh') {
-    document.getElementById('newsBtnZh').style.background = '#20b876';
-    document.getElementById('newsBtnZh').style.color = '#fff';
-  }
-  if (mode === 'all') {
-    document.getElementById('newsBtnAll').style.background = '#20b876';
-    document.getElementById('newsBtnAll').style.color = '#fff';
-  }
-
-  // 🔥 必须加这一句！！
-  renderNewsSubtitles();
+  setNewsSubtitleMode(mode);
 }
 
 // 主题切换核心功能
@@ -4252,30 +4378,32 @@ function normalizeWordDictionary(data, defaultType) {
 function ensureWordLibrary() {
   if (!_wordLibPromise) {
     _wordLibPromise = (async () => {
-      let allWords = {};
-      // 分别加载各词库，单个失败不影响其他
-      try {
-        const cet4Data = await fetch("cet4.json").then(r => r.json());
+      const allWords = {};
+      // 三份词库并行加载，单个失败不阻塞其他词库。
+      const [cet4Data, cet6Data, vocabulary] = await Promise.all([
+        fetch("cet4.json").then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch("cet6.json").then(r => r.ok ? r.json() : null).catch(() => null),
+        fetch("vocabulary.json").then(r => r.ok ? r.json() : null).catch(() => null)
+      ]);
+      if (cet4Data) {
         cet4Words = normalizeWordDictionary(cet4Data, "cet4");
         for (let w in cet4Words) allWords[w] = { ...cet4Words[w], type: "cet4" };
         console.log("✅ CET4词库加载完成: " + Object.keys(cet4Words).length + "词");
-      } catch (err) {
-        console.log("⚠️ CET4词库加载失败:", err.message);
+      } else {
+        console.log("⚠️ CET4词库加载失败");
       }
-      try {
-        const cet6Data = await fetch("cet6.json").then(r => r.json());
+      if (cet6Data) {
         cet6Words = normalizeWordDictionary(cet6Data, "cet6");
         for (let w in cet6Words) allWords[w] = { ...cet6Words[w], type: "cet6" };
         console.log("✅ CET6词库加载完成: " + Object.keys(cet6Words).length + "词");
-      } catch (err) {
-        console.log("⚠️ CET6词库加载失败:", err.message);
+      } else {
+        console.log("⚠️ CET6词库加载失败");
       }
-      try {
-        let vocabulary = await fetch("vocabulary.json").then(r => r.json());
+      if (vocabulary) {
         for (let w in vocabulary) allWords[w] = { ...vocabulary[w], type: "vocabulary" };
         console.log("✅ 词汇书加载完成: " + Object.keys(vocabulary).length + "词");
-      } catch (err) {
-        console.log("⚠️ 词汇书加载失败（如未使用可忽略）:", err.message);
+      } else {
+        console.log("⚠️ 词汇书加载失败（如未使用可忽略）");
       }
       wordLibrary = allWords;
       _wordFormCache = null; console.log("✅ 词库加载完成，共 " + Object.keys(wordLibrary).length + " 词");
@@ -4597,26 +4725,8 @@ function renderSubtitles() {
   if(!subtitles.length) return;
   const practice = getPracticeSentences();
   subtitles.forEach((item, index) => {
-    let enHtml = escapeHtml(item.en);
+    let enHtml = highlightSubtitleWords(item.en, false);
     let zhHtml = escapeHtml(item.zh);
-
-    // 单次正则替换（含变体：时态/单复数），避免级联破坏HTML
-    const formMap = getWordFormMap();
-    const formKeys = Object.keys(formMap).sort((a, b) => b.length - a.length);
-    if (formKeys.length) {
-      const escapedKeys = formKeys.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-      const pattern = escapedKeys.join('|');
-      const regEn = new RegExp(`\\b(${pattern})\\b`, "gi");
-      enHtml = enHtml.replace(regEn, (match) => {
-        const mapped = formMap[match.toLowerCase()];
-        if (!mapped) return match;
-        let enClass = '';
-        if (mapped.type === 'cet4') enClass = 'word-cet4';
-        else if (mapped.type === 'cet6') enClass = 'word-cet6';
-        else if (mapped.type === 'vocabulary') enClass = 'word-vocabulary';
-        return `<span class="${enClass}" data-word="${escapeHtml(mapped.baseWord)}">${match}</span>`;
-      });
-    }
     const text = item.en + ' ' + item.zh;
     const isCollected = practice.some(p => p.text === text);
     const div = document.createElement("div");
@@ -4632,29 +4742,28 @@ function renderSubtitles() {
   });
 }
 
-function highlightNewsSubtitleText(enText, zhText) {
-  let enHtml = escapeHtml(enText);
-  let zhHtml = escapeHtml(zhText || '');
-
-  // 单次正则替换英文（含变体：时态/单复数），避免级联破坏HTML
+function highlightSubtitleWords(text, isNews) {
   const formMap = getWordFormMap();
-  const formKeys = Object.keys(formMap).sort((a, b) => b.length - a.length);
-  if (formKeys.length) {
-    const escapedKeys = formKeys.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'));
-    const pattern = escapedKeys.join('|');
-    const regEn = new RegExp(`\\b(${pattern})\\b`, "gi");
-    enHtml = enHtml.replace(regEn, (match) => {
-      const mapped = formMap[match.toLowerCase()];
-      if (!mapped) return match;
-      let enClass = '';
-      if (mapped.type === 'cet4') enClass = 'news-word-cet4';
-      else if (mapped.type === 'cet6') enClass = 'news-word-cet6';
-      else if (mapped.type === 'vocabulary') enClass = 'news-word-vocabulary';
-      return `<span class="${enClass}" data-word="${escapeHtml(mapped.baseWord)}">${match}</span>`;
-    });
-  }
+  return String(text || '')
+    .split(/([A-Za-z]+(?:['-][A-Za-z]+)*)/)
+    .map(token => {
+      if (!/^[A-Za-z]+(?:['-][A-Za-z]+)*$/.test(token)) return escapeHtml(token);
+      const mapped = formMap[token.toLowerCase()];
+      if (!mapped) return escapeHtml(token);
+      let wordClass = '';
+      if (mapped.type === 'cet4') wordClass = isNews ? 'news-word-cet4' : 'word-cet4';
+      else if (mapped.type === 'cet6') wordClass = isNews ? 'news-word-cet6' : 'word-cet6';
+      else if (mapped.type === 'vocabulary') wordClass = isNews ? 'news-word-vocabulary' : 'word-vocabulary';
+      return `<span class="${wordClass}" data-word="${escapeHtml(mapped.baseWord)}">${escapeHtml(token)}</span>`;
+    })
+    .join('');
+}
 
-  return { enHtml, zhHtml };
+function highlightNewsSubtitleText(enText, zhText) {
+  return {
+    enHtml: highlightSubtitleWords(enText, true),
+    zhHtml: escapeHtml(zhText || '')
+  };
 }
 
 function syncSubtitles() {
@@ -4689,6 +4798,7 @@ function jumpToSubtitle(index) {
 }
 function openVideo(src, time = 0) {
   lastPageBeforeVideo = document.querySelector('.page.active').id;
+  currentVideoSrc = src;
 
   showPage('videoPage');
   video.src = src;
@@ -4704,6 +4814,273 @@ function openVideo(src, time = 0) {
     }
   });
 }
+
+const curatedVideoKnowledge = {
+  Drama1_1: {
+    words: [
+      ['rainforest', 'n. 热带雨林'],
+      ['untamed', 'adj. 未驯服的；原始自然的'],
+      ['reflection', 'n. 反思；深思'],
+      ['towering', 'adj. 高耸的'],
+      ['sacred', 'adj. 神圣的'],
+      ['peak', 'n. 山峰；顶峰'],
+      ['challenge', 'n. 挑战'],
+      ['explore', 'v. 探索']
+    ],
+    phrases: [
+      ['leave ... behind', '抛开；把……留在身后'],
+      ['go deep into', '深入；走进……深处'],
+      ['in search of', '寻找'],
+      ['remind sb. of sth.', '使某人想起某事'],
+      ['life’s ups and downs', '人生的起起伏伏']
+    ]
+  },
+  Drama1_2: {
+    words: [
+      ['confront', 'v. 面对；直面'],
+      ['mysterious', 'adj. 神秘的'],
+      ['vast', 'adj. 辽阔的；巨大的'],
+      ['isolated', 'adj. 孤立的'],
+      ['navigate', 'v. 找到方向；导航'],
+      ['embrace', 'v. 接纳；拥抱'],
+      ['adventure', 'n. 冒险'],
+      ['limit', 'n. 极限']
+    ],
+    phrases: [
+      ['be afraid of', '害怕……'],
+      ['confront one’s fears', '直面某人的恐惧'],
+      ['make it to the top', '成功到达顶峰'],
+      ['on one’s own', '独自；独立地'],
+      ['find out', '弄清楚；找到答案']
+    ]
+  }
+};
+
+function getCurrentVideoInfo() {
+  const allVideos = [
+    ...readSharedList('dramaVideos', []),
+    ...readSharedList('gtVideos', [])
+  ];
+  return allVideos.find(item => item.vid === currentVideoSrc) || {};
+}
+
+function getVideoCollectedWordMap() {
+  return readLocalJson('videoCollectedWords', {});
+}
+
+function getCurrentVideoCollectedWords() {
+  const base = getBaseNameFromInput(currentVideoSrc);
+  const map = getVideoCollectedWordMap();
+  return base && Array.isArray(map[base]) ? map[base] : [];
+}
+
+function isVideoWordCollected(word) {
+  return getCurrentVideoCollectedWords().includes(String(word).toLowerCase());
+}
+
+function addVideoCollectedWord(word) {
+  const base = getBaseNameFromInput(currentVideoSrc);
+  if (!base) return;
+  const map = getVideoCollectedWordMap();
+  const words = Array.isArray(map[base]) ? map[base] : [];
+  const normalized = String(word).toLowerCase();
+  if (!words.includes(normalized)) words.push(normalized);
+  map[base] = words;
+  localStorage.setItem('videoCollectedWords', JSON.stringify(map));
+}
+
+function removeVideoCollectedWord(word) {
+  const base = getBaseNameFromInput(currentVideoSrc);
+  if (!base) return;
+  const map = getVideoCollectedWordMap();
+  const normalized = String(word).toLowerCase();
+  map[base] = (Array.isArray(map[base]) ? map[base] : [])
+    .filter(item => item !== normalized);
+  localStorage.setItem('videoCollectedWords', JSON.stringify(map));
+}
+
+function getVideoKnowledgeWords() {
+  return getCurrentVideoCollectedWords().map(word => {
+    const info = wordLibrary[word] || {};
+    const detail = [info.pos, info.meaning].filter(Boolean).join(' ');
+    return [word, detail || '暂无词义'];
+  });
+}
+
+function getNewsKnowledgeKey() {
+  return currentNewsItem
+    ? String(currentNewsItem.sub || currentNewsItem.audio || currentNewsItem.name || '')
+    : '';
+}
+
+function getNewsCollectedWordMap() {
+  return readLocalJson('newsCollectedWords', {});
+}
+
+function getCurrentNewsCollectedWords() {
+  const key = getNewsKnowledgeKey();
+  const map = getNewsCollectedWordMap();
+  return key && Array.isArray(map[key]) ? map[key] : [];
+}
+
+function isNewsWordCollected(word) {
+  return getCurrentNewsCollectedWords().includes(String(word).toLowerCase());
+}
+
+function toggleNewsCollectedWord(word) {
+  const key = getNewsKnowledgeKey();
+  if (!key) return false;
+  const map = getNewsCollectedWordMap();
+  const words = Array.isArray(map[key]) ? map[key] : [];
+  const normalized = String(word).toLowerCase();
+  const exists = words.includes(normalized);
+  map[key] = exists
+    ? words.filter(item => item !== normalized)
+    : [...words, normalized];
+  localStorage.setItem('newsCollectedWords', JSON.stringify(map));
+  if (exists) removeCollectedWord(normalized);
+  else collectWord(normalized);
+  return !exists;
+}
+
+function getNewsKnowledgeWords() {
+  return getCurrentNewsCollectedWords().map(word => {
+    const info = wordLibrary[word] || {};
+    const detail = [info.pos, info.meaning].filter(Boolean).join(' ');
+    return [word, detail || '暂无词义'];
+  });
+}
+
+function buildFallbackKnowledge(sourceSubtitles = subtitles) {
+  const seen = new Set();
+  const words = [];
+  sourceSubtitles.forEach(cue => {
+    const tokens = (cue.en || '').match(/[A-Za-z][A-Za-z'-]{5,}/g) || [];
+    tokens.forEach(token => {
+      const key = token.toLowerCase();
+      if (seen.has(key) || words.length >= 8) return;
+      seen.add(key);
+      const info = wordLibrary[key] || {};
+      words.push([token, info.meaning || '视频字幕重点词']);
+    });
+  });
+
+  const commonPhrases = [
+    'be afraid of', 'find out', 'on my own', 'in search of', 'leave behind',
+    'make it to', 'grow up', 'go deep into', 'be able to', 'remind me of'
+  ];
+  const subtitleText = sourceSubtitles.map(cue => cue.en || '').join(' ').toLowerCase();
+  const phrases = commonPhrases
+    .filter(phrase => subtitleText.includes(phrase))
+    .slice(0, 10)
+    .map(phrase => [phrase, '字幕中的重点表达']);
+
+  return { words, phrases };
+}
+
+function findKnowledgeExample(term) {
+  const ignored = new Set([
+    'a', 'an', 'the', 'to', 'of', 'in', 'on', 'at', 'for',
+    'sb', 'sth', 'one', 'ones', 'someone', 'something'
+  ]);
+  const keywords = String(term)
+    .toLowerCase()
+    .replace(/[’']/g, '')
+    .match(/[a-z]+/g) || [];
+  const usefulKeywords = keywords.filter(word => !ignored.has(word));
+  if (!usefulKeywords.length) return null;
+
+  let bestCue = null;
+  let bestScore = 0;
+  const sourceSubtitles = document.getElementById('bbcDetailPage').classList.contains('active')
+    ? newsSubtitles
+    : subtitles;
+  sourceSubtitles.forEach(cue => {
+    const cueText = String(cue.en || '').toLowerCase().replace(/[’']/g, '');
+    const score = usefulKeywords.filter(word => cueText.includes(word)).length;
+    if (score > bestScore) {
+      bestScore = score;
+      bestCue = cue;
+    }
+  });
+  const requiredScore = usefulKeywords.length === 1 ? 1 : Math.min(2, usefulKeywords.length);
+  return bestScore >= requiredScore ? bestCue : null;
+}
+
+function renderKnowledgeSection(title, items, type) {
+  if (!items.length) return '';
+  const cards = items.map(item => {
+    if (type === 'example') {
+      return `<div class="knowledge-card">
+        <div class="knowledge-example-en">${escapeHtml(item.en || '')}</div>
+        <div class="knowledge-example-zh">${escapeHtml(item.zh || '')}</div>
+      </div>`;
+    }
+    const example = findKnowledgeExample(item[0]);
+    return `<div class="knowledge-card">
+      <div class="knowledge-term">${escapeHtml(item[0])}</div>
+      <div class="knowledge-meaning">${escapeHtml(item[1])}</div>
+      <div style="height:1px;background:rgba(128,128,128,0.18);margin:8px 0;"></div>
+      <div style="font-size:10px;font-weight:600;color:#20b876;margin-bottom:3px;">${type === 'phrase' ? '词组对应例句' : '单词对应例句'}</div>
+      <div class="knowledge-example-en">${escapeHtml(example ? example.en : `Learn and use “${item[0]}” in context.`)}</div>
+      <div class="knowledge-example-zh">${escapeHtml(example && example.zh ? example.zh : '结合语境学习并运用这个表达。')}</div>
+    </div>`;
+  }).join('');
+  return `<section class="knowledge-section">
+    <div class="knowledge-section-title">${escapeHtml(title)}</div>
+    ${cards}
+  </section>`;
+}
+
+function openVideoKnowledge() {
+  const base = getBaseNameFromInput(currentVideoSrc);
+  const videoInfo = getCurrentVideoInfo();
+  const knowledge = curatedVideoKnowledge[base] || buildFallbackKnowledge();
+  const collectedWords = getVideoKnowledgeWords();
+  const wordSection = collectedWords.length
+    ? renderKnowledgeSection('重点单词', collectedWords, 'word')
+    : `<section class="knowledge-section">
+        <div class="knowledge-section-title">重点单词</div>
+        <div class="knowledge-card" style="color:var(--color-text-secondary);font-size:12px;">
+          点击视频字幕中的单词，再点击星标收藏，单词会自动出现在这里。
+        </div>
+      </section>`;
+
+  document.getElementById('knowledgeVideoName').innerText =
+    videoInfo.title || base || '当前视频';
+  document.getElementById('knowledgeContent').innerHTML =
+    wordSection +
+    renderKnowledgeSection('重点词组', knowledge.phrases || [], 'phrase') ||
+    '<div style="padding:24px 0;text-align:center;color:var(--color-text-secondary);">暂无可提取的知识点</div>';
+  document.getElementById('knowledgeOverlay').classList.remove('news-knowledge-compact');
+  document.getElementById('knowledgeOverlay').style.display = 'flex';
+}
+
+function openNewsKnowledge() {
+  const words = getNewsKnowledgeWords();
+  const fallback = buildFallbackKnowledge(newsSubtitles);
+  const wordSection = words.length
+    ? renderKnowledgeSection('重点单词', words, 'word')
+    : `<section class="knowledge-section">
+        <div class="knowledge-section-title">重点单词</div>
+        <div class="knowledge-card" style="color:var(--color-text-secondary);font-size:12px;">
+          点击 NEWS 字幕中的单词，再点击星标收藏，单词会自动出现在这里。
+        </div>
+      </section>`;
+
+  document.getElementById('knowledgeVideoName').innerText =
+    currentNewsItem ? currentNewsItem.name : '当前 NEWS';
+  document.getElementById('knowledgeContent').innerHTML =
+    wordSection +
+    renderKnowledgeSection('重点词组', fallback.phrases || [], 'phrase');
+  document.getElementById('knowledgeOverlay').classList.add('news-knowledge-compact');
+  document.getElementById('knowledgeOverlay').style.display = 'flex';
+}
+
+function closeVideoKnowledge() {
+  document.getElementById('knowledgeOverlay').style.display = 'none';
+}
+
 function resetSubtitleState() {
   currentSubIndex = -1;
   document.querySelectorAll(".subtitle-item").forEach(el => {
@@ -4747,7 +5124,10 @@ document.addEventListener("click", e => {
       wordPopup.style.top = topPos + "px";
     }, 0);
 
-    const isWordCollected1 = getCollectedWords().some(c => c.word === word);
+    const inVideoPage = document.getElementById('videoPage').classList.contains('active');
+    const isWordCollected1 = inVideoPage
+      ? isVideoWordCollected(word)
+      : getCollectedWords().some(c => c.word === word);
     wordPopup.innerHTML = `
       <div class="popup-row">
         <span class="word-text">${escapeHtml(word)}</span>
@@ -4762,7 +5142,10 @@ document.addEventListener("click", e => {
     const word = token;
     const info = wordLibrary[word.toLowerCase()] || wordLibrary[word] || {};
     // 填充内容
-    const isWordCollected2 = getCollectedWords().some(c => c.word === token);
+    const inVideoPage = document.getElementById('videoPage').classList.contains('active');
+    const isWordCollected2 = inVideoPage
+      ? isVideoWordCollected(token)
+      : getCollectedWords().some(c => c.word === token);
     wordPopup.innerHTML = `
       <div class="popup-row">
         <div class="popup-word">${escapeHtml(token)}</div>
@@ -4804,14 +5187,20 @@ document.addEventListener("click", e => {
   } else if (e.target.classList.contains("popup-star")) {
     const s = e.target;
     const word = s.dataset.word || s.closest('.word-popup').querySelector('.word-text').innerText;
+    const inVideoPage = document.getElementById('videoPage').classList.contains('active');
     if (s.classList.contains('collected')) {
       removeCollectedWord(word);
+      if (inVideoPage) removeVideoCollectedWord(word);
       s.classList.remove('collected');
       s.textContent = '☆';
     } else {
       collectWord(word);
+      if (inVideoPage) addVideoCollectedWord(word);
       s.classList.add('collected');
       s.textContent = '★';
+    }
+    if (inVideoPage && document.getElementById('knowledgeOverlay').style.display === 'flex') {
+      openVideoKnowledge();
     }
   } else if (e.target.classList.contains("word-fav")) {
     const word = e.target.closest('.word-popup').querySelector('.word-text').innerText;
@@ -4866,6 +5255,7 @@ function togglePlayPause() {
 function stopVideoAndBack() {
   video.pause();
   video.currentTime = 0;
+  closeVideoKnowledge();
   document.getElementById('videoBox').classList.remove('playing');
   showPage(lastPageBeforeVideo);
 }
@@ -5061,7 +5451,13 @@ function showWordInfo(w, p, m, pos) {
   document.getElementById('modalPos').innerText = pos || '';
   document.getElementById('wordModal').style.display = 'block';
   document.getElementById('modalOverlay').style.display = 'block';
-  document.getElementById('modalStar').style.display = 'none';
+  const star = document.getElementById('modalStar');
+  const inNewsDetail = document.getElementById('bbcDetailPage').classList.contains('active');
+  star.style.display = inNewsDetail ? 'block' : 'none';
+  star.dataset.word = w;
+  const collected = inNewsDetail && isNewsWordCollected(w);
+  star.textContent = collected ? '★' : '☆';
+  star.classList.toggle('active', collected);
 }
 function closeWordModal() {
   document.getElementById('wordModal').style.display = 'none';
@@ -5077,7 +5473,16 @@ function closeAllModals() {
   document.getElementById('modalOverlay').style.display = 'none';
 }
 document.getElementById('modalStar').onclick = function () {
-  const word = document.getElementById('modalWord').innerText;
+  const word = this.dataset.word || document.getElementById('modalWord').innerText;
+  if (document.getElementById('bbcDetailPage').classList.contains('active')) {
+    const collected = toggleNewsCollectedWord(word);
+    this.textContent = collected ? '★' : '☆';
+    this.classList.toggle('active', collected);
+    if (document.getElementById('knowledgeOverlay').style.display === 'flex') {
+      openNewsKnowledge();
+    }
+    return;
+  }
   collectWord(word);
   this.classList.toggle('active');
 }
@@ -5699,6 +6104,8 @@ function bindProfileInputSave() {
 }
 
 let currentNewsList = [];
+let currentNewsItem = null;
+let newsDetailLoadToken = 0;
 let bbcAudio = document.getElementById('bbcAudioPlayer');
 let bbcSpeed = 1.0;
 let newsLoopMode = false;
@@ -5821,9 +6228,8 @@ window.deleteBbcNews = window.deleteBbcNews || function(index) {
 
 async function openBbcDetail(index) {
   const item = currentNewsList[index];
-
-  // 新闻字幕依赖 CET 词库生成高亮；等待加载完成，避免首次进入详情时没有单词卡。
-  await ensureWordLibrary();
+  currentNewsItem = item;
+  const loadToken = ++newsDetailLoadToken;
   
   const bannerImg = document.getElementById('bbcDetailBanner');
   bannerImg.src = '';
@@ -5835,43 +6241,15 @@ async function openBbcDetail(index) {
 
   const contentEl = document.getElementById('bbcDetailContent');
   contentEl.style.display = 'none';
-  contentEl.innerText = '';
-  let html = '';
-
-  if (item.content) {
-    contentEl.innerText = item.content;
-    html = contentEl.innerHTML;
-  }
-
-  Object.keys(cet4Words).forEach(word => {
-    const regex = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'gi');
-    html = html.replace(regex, `<span class="news-word-cet4" data-word="${escapeHtml(word.toLowerCase())}">$&</span>`);
-  });
-  Object.keys(cet6Words).forEach(word => {
-    const regex = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'gi');
-    html = html.replace(regex, `<span class="news-word-cet6" data-word="${escapeHtml(word.toLowerCase())}">$&</span>`);
-  });
-  Object.keys(wordLibrary).forEach(word => {
-    const info = wordLibrary[word];
-    if (info.type === 'vocabulary') {
-      const regex = new RegExp(`\\b${escapeRegExp(word)}\\b`, 'gi');
-      html = html.replace(regex, `<span class="news-word-vocabulary" data-word="${escapeHtml(word.toLowerCase())}">$&</span>`);
-    }
-  });
-
-  contentEl.innerHTML = html;
+  contentEl.textContent = item.content || '';
   
   // 音频设置
   bbcAudio.src = item.audio;
   bbcAudio.load();
 
-  // 初始化翻译状态为隐藏
-  window.newsShowZh = false;
-  const translateBtn = document.getElementById('translateFullBtn');
-  if (translateBtn) { translateBtn.style.background = 'transparent'; translateBtn.style.color = 'var(--color-text)'; }
-
-  // 🔥 关键修复：加载 NEWS 字幕
-  await loadNewsSubtitle(item.sub);
+  // 默认关闭字幕，用户可从“字幕”菜单选择中文、英文或双语。
+  window.newsLangMode = 'all';
+  window.newsShowZh = true;
 
   const playBtn = document.getElementById('bbcPlayBtn');
   if (playBtn) playBtn.innerText = '▶';
@@ -5882,7 +6260,7 @@ async function openBbcDetail(index) {
   const duration = document.getElementById('bbcAudioDuration');
   if (duration) duration.innerText = '00:00';
   const subtitleContainer = document.getElementById('newsSubtitleContainer');
-  const subBtn = document.getElementById('subToggleBtn');
+  const subBtn = document.getElementById('newsSubtitleMenuBtn');
   if (subtitleContainer) subtitleContainer.classList.add('hide-sub');
   if (subBtn) { subBtn.style.background = 'transparent'; subBtn.style.color = 'var(--color-text)'; }
   // 重置速度按钮
@@ -5895,12 +6273,63 @@ async function openBbcDetail(index) {
   const loopBtn = document.getElementById('newsLoopBtn');
   if (loopBtn) { loopBtn.style.background = 'transparent'; loopBtn.querySelector('svg').setAttribute('stroke', 'var(--color-text)'); }
 
+  // 先展示详情框架，词库和字幕在后台并行加载。
   showPage('bbcDetailPage');
+  await Promise.all([
+    ensureWordLibrary(),
+    loadNewsSubtitle(item.sub, loadToken)
+  ]);
+}
+
+function openNewsSubtitleMenu() {
+  const overlay = document.getElementById('newsSubtitleMenuOverlay');
+  const panel = document.getElementById('newsSubtitleMenuPanel');
+  const btn = document.getElementById('newsSubtitleMenuBtn');
+  const container = document.getElementById('newsSubtitleContainer');
+  const activeMode = container.classList.contains('hide-sub') ? 'off' : window.newsLangMode;
+  document.querySelectorAll('.news-subtitle-option').forEach(option => {
+    option.classList.toggle('active', option.dataset.mode === activeMode);
+  });
+  overlay.style.display = 'block';
+  const btnRect = btn.getBoundingClientRect();
+  const panelRect = panel.getBoundingClientRect();
+  const left = Math.max(6, Math.min(
+    window.innerWidth - panelRect.width - 6,
+    btnRect.left + btnRect.width / 2 - panelRect.width / 2
+  ));
+  panel.style.left = `${left}px`;
+  panel.style.top = `${Math.max(6, btnRect.top - panelRect.height - 6)}px`;
+}
+
+function closeNewsSubtitleMenu() {
+  document.getElementById('newsSubtitleMenuOverlay').style.display = 'none';
+}
+
+async function setNewsSubtitleMode(mode) {
+  const container = document.getElementById('newsSubtitleContainer');
+  const btn = document.getElementById('newsSubtitleMenuBtn');
+  closeNewsSubtitleMenu();
+  if (!container || !btn) return;
+
+  if (mode === 'off') {
+    container.classList.add('hide-sub');
+    btn.style.background = 'transparent';
+    btn.style.color = 'var(--color-text)';
+    return;
+  }
+
+  window.newsLangMode = mode;
+  window.newsShowZh = mode !== 'en';
+  container.classList.remove('hide-sub');
+  btn.style.background = '#20b876';
+  btn.style.color = '#fff';
+  await ensureWordLibrary();
+  renderNewsSubtitles();
 }
 
 window.toggleNewsSubtitle = window.toggleNewsSubtitle || function() {
   const container = document.getElementById('newsSubtitleContainer');
-  const btn = document.getElementById('subToggleBtn');
+  const btn = document.getElementById('newsSubtitleMenuBtn');
   if (!container || !btn) return;
 
   const hidden = container.classList.toggle('hide-sub');
@@ -5953,7 +6382,7 @@ let newsSubtitles = [];
 let currentNewsSubIndex = -1;
 
 // 🔥 修复：NEWS 音频对应的 VTT 字幕加载（直接使用传入的 sub 路径）
-window.loadNewsSubtitle = window.loadNewsSubtitle || async function(subSrc) {
+window.loadNewsSubtitle = window.loadNewsSubtitle || async function(subSrc, loadToken = newsDetailLoadToken) {
   try {
     console.log('[字幕加载] 尝试加载字幕文件:', subSrc);
     
@@ -5967,11 +6396,19 @@ window.loadNewsSubtitle = window.loadNewsSubtitle || async function(subSrc) {
     const text = await res.text();
     console.log(`[字幕加载] 成功读取 ${text.length} 字符`);
     
+    if (loadToken !== newsDetailLoadToken) return;
     newsSubtitles = parseVtt(text);
     console.log(`[字幕加载] 解析成功，共 ${newsSubtitles.length} 条字幕`);
-    
-    renderNewsSubtitles();
+
+    const container = document.getElementById('newsSubtitleContainer');
+    if (container && !container.classList.contains('hide-sub')) {
+      await ensureWordLibrary();
+      if (loadToken === newsDetailLoadToken) renderNewsSubtitles();
+    } else {
+      document.getElementById('newsSubtitleList').innerHTML = '';
+    }
   } catch (e) {
+    if (loadToken !== newsDetailLoadToken) return;
     console.error('[字幕加载] 错误详情:', e);
     console.warn('[字幕加载] 建议：使用 Web 服务器访问（如 python3 -m http.server 8000），不要用 file:// 协议');
     console.info('[字幕加载] 字幕文件应该与音频文件同名，如: audio_1.mp3 → audio_1.vtt');
@@ -5999,21 +6436,27 @@ window.renderNewsSubtitles = window.renderNewsSubtitles || function() {
   const practice = getPracticeSentences();
   newsSubtitles.forEach((sub, index) => {
     const div = document.createElement('div');
-    div.className = 'subtitle-item';
+    const englishOnly = window.newsLangMode === 'en';
+    div.className = `subtitle-item${englishOnly ? ' news-en-only' : ''}`;
     // 始终保存完整双语字幕，收藏不受当前中英文显示模式影响。
     div.dataset.subtitleEn = sub.en || '';
     div.dataset.subtitleZh = sub.zh || '';
 
     const highlighted = highlightNewsSubtitleText(sub.en, sub.zh);
-    const enHtml = highlighted.enHtml;
-    const zhHtml = window.newsShowZh && sub.zh ? highlighted.zhHtml : '';
+    const showEn = window.newsLangMode !== 'zh';
+    const showZh = window.newsLangMode !== 'en';
+    const enHtml = showEn ? highlighted.enHtml : '';
+    const zhHtml = showZh && sub.zh ? highlighted.zhHtml : '';
     const text = sub.en + ' ' + (sub.zh || '');
     const isCollected = practice.some(p => p.text === text);
 
-    div.innerHTML = `
-      <div class="sub-en">${enHtml}</div>
-      ${zhHtml ? `<div class="sub-zh"><span>${zhHtml}</span><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>` : `<div class="sub-zh"><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>`}
-    `;
+    div.innerHTML = englishOnly
+      ? `<div class="news-en-only-row">
+          <div class="sub-en">${enHtml}</div>
+          <button class="star-fav ${isCollected ? 'active' : ''}">★</button>
+        </div>`
+      : `${enHtml ? `<div class="sub-en">${enHtml}</div>` : ''}
+         ${zhHtml ? `<div class="sub-zh"><span>${zhHtml}</span><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>` : `<div class="sub-zh"><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>`}`;
     list.appendChild(div);
   });
 }
@@ -6033,11 +6476,7 @@ window.nextNewsSubtitle = window.nextNewsSubtitle || function() {
 }
 
 window.toggleNewsTranslation = window.toggleNewsTranslation || function() {
-  window.newsShowZh = !window.newsShowZh;
-  const btn = document.getElementById('translateFullBtn');
-  btn.style.background = window.newsShowZh ? '#20b876' : 'transparent';
-  btn.style.color = window.newsShowZh ? '#fff' : 'var(--color-text)';
-  renderNewsSubtitles();
+  setNewsSubtitleMode(window.newsLangMode === 'all' ? 'en' : 'all');
 }
 
 // 音频播放时同步字幕
@@ -6186,9 +6625,13 @@ document.getElementById('bbcAudioProgress').addEventListener('touchend', functio
 });
 
 window.stopBbcAudioAndBack = window.stopBbcAudioAndBack || function() {
+  newsDetailLoadToken++;
   bbcAudio.pause();
   bbcAudio.currentTime = 0;
   document.getElementById('bbcPlayBtn').innerText = '▶';
+  closeNewsSubtitleMenu();
+  closeVideoKnowledge();
+  currentNewsItem = null;
   
   // 🔥 重置字幕
   resetNewsSubtitle();

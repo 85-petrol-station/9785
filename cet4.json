@@ -804,27 +804,6 @@
     "meaning": "n. 合金v. 把……铸成合金；使……减低成色",
     "audio": "audio_small/a/alloy.mp3"
   },
-  "almost": {
-    "word": "almost",
-    "type": "cet4",
-    "phonetic": "/ˈɔːlmoʊst/",
-    "meaning": "差不多，几乎（adv.）",
-    "audio": "audio_small/a/almost.mp3"
-  },
-  "alone": {
-    "word": "alone",
-    "type": "cet4",
-    "phonetic": "/əˈloʊn/",
-    "meaning": "adj. 独自的；单独的；单干的；孤独的；仅仅的；唯一的adv.\n独自地；单独地；单干地；只，仅仅；仅仅……就；唯一地；独力地",
-    "audio": "audio_small/a/alone.mp3"
-  },
-  "along": {
-    "word": "along",
-    "type": "cet4",
-    "phonetic": "/əˈlɔːŋ/",
-    "meaning": "（好）；一直",
-    "audio": "audio_small/a/along.mp3"
-  },
   "aloud": {
     "word": "aloud",
     "type": "cet4",
@@ -836,21 +815,21 @@
     "word": "alphabet",
     "type": "cet4",
     "phonetic": "/ˈælfəbet/",
-    "meaning": "公司，改变Google原有公司架构，旨在使其当下主要业务和长期投资",
+    "meaning": "n.字母表；全套字母,基础入门知",
     "audio": "audio_small/a/alphabet.mp3"
   },
   "alter": {
     "word": "alter",
     "type": "cet4",
     "phonetic": "/ˈɔːltər/",
-    "meaning": "vt. 改变，更改vi. 改变；修改",
+    "meaning": "vt.改变，更改 vi.改变；修改",
     "audio": "audio_small/a/alter.mp3"
   },
   "alternative": {
     "word": "alternative",
     "type": "cet4",
     "phonetic": "/ɔːlˈtɜːrnətɪv/",
-    "meaning": "供选择的；选择性的；交替的n. 二中择一；供替代的选择（adj.）",
+    "meaning": "adj.供选择的；选择性的；交替的 n.备选方案；替代选择",
     "audio": "audio_small/a/alternative.mp3"
   },
   "although": {
@@ -871,22 +850,15 @@
     "word": "altogether",
     "type": "cet4",
     "phonetic": "/ˌɔːltəˈɡeðər/",
-    "meaning": "完全地；总共；总而言之n. 整个；裸体（adv.）",
+    "meaning": "adv.完全地；总共；总而言之 n.整个；裸体",
     "audio": "audio_small/a/altogether.mp3"
   },
   "aluminium": {
     "word": "aluminium",
     "type": "cet4",
     "phonetic": "/ˌæljəˈmɪniəm/",
-    "meaning": "铝adj. 铝的（n.）",
+    "meaning": "n.铝 adj.铝的",
     "audio": "audio_small/a/aluminium.mp3"
-  },
-  "amaze": {
-    "word": "amaze",
-    "type": "cet4",
-    "phonetic": "/əˈmeɪz/",
-    "meaning": "使吃惊（vt.）",
-    "audio": "audio_small/a/amaze.mp3"
   },
   "ambition": {
     "word": "ambition",
@@ -906,21 +878,21 @@
     "word": "among",
     "type": "cet4",
     "phonetic": "/əˈmʌŋ/",
-    "meaning": "起；在三者或以上（中选择）；以及；为……所特有；（群体内部）",
+    "meaning": "prep. 在……中间，周围是；在……之中，……之一；与……在一起；在三者或以上（中选择）；以及；为……所特有；（群体内部）相互间",
     "audio": "audio_small/a/among.mp3"
   },
   "amongst": {
     "word": "amongst",
     "type": "cet4",
     "phonetic": "/əˈmʌŋst/",
-    "meaning": "在……当中（等于 among）（prep.）",
+    "meaning": "在……当中（prep.）",
     "audio": "audio_small/a/amongst.mp3"
   },
   "amount": {
     "word": "amount",
     "type": "cet4",
     "phonetic": "/əˈmaʊnt/",
-    "meaning": "于，相当于；发展成，变成",
+    "meaning": "n. 数量，数额；总数；（感情、特质的）程度v. 总计，合计；等于，相当于；发展成，变成",
     "audio": "audio_small/a/amount.mp3"
   },
   "ampere": {
@@ -934,7 +906,7 @@
     "word": "amplify",
     "type": "cet4",
     "phonetic": "/ˈæmplɪfaɪ/",
-    "meaning": "放大，扩大；增强；详述vi. 详述（vt.）",
+    "meaning": "v.放大（声音、信号）,凸显（情绪、意境、内心，文案高频）,详述，补充说明（书面 / 论文）",
     "audio": "audio_small/a/amplify.mp3"
   },
   "amuse": {
@@ -3237,7 +3209,7 @@
     "word": "bucket",
     "type": "cet4",
     "phonetic": "/ˈbʌkɪt/",
-    "meaning": "n. 桶，水桶；铲斗；一桶的量；（俚）篮球得分v. 倾盆而下；颠簸着行进n. （Bucket）（德）布克特（人名）",
+    "meaning": "n. 桶，水桶；铲斗；一桶的量；（俚）篮球得分v. 倾盆而下；颠簸着行进",
     "audio": "audio_small/b/bucket.mp3"
   },
   "buckle": {
@@ -3426,15 +3398,8 @@
     "word": "cable",
     "type": "cet4",
     "phonetic": "/ˈkeɪbl/",
-    "meaning": "缆绳；电缆；海底电报vt. 打电报vi. 打海底电报（n.）",
+    "meaning": "n.缆绳；电缆；海底电报vt. 打电报vi. 打海底电报",
     "audio": "audio_small/c/cable.mp3"
-  },
-  "cafe": {
-    "word": "cafe",
-    "type": "cet4",
-    "phonetic": "/kæˈfeɪ/",
-    "meaning": "咖啡馆；小餐馆（n.）",
-    "audio": "audio_small/c/cafe.mp3"
   },
   "cafeteria": {
     "word": "cafeteria",
