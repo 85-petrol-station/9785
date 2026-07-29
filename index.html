@@ -1653,7 +1653,27 @@
 .cet-exam-phonetic-row { display:flex; align-items:center; gap:10px; color:var(--color-text-secondary); font-size:13px; text-align:left; }
 .cet-speaker-btn { background:none; border:none; cursor:pointer; padding:0; display:grid; place-items:center; }
 .cet-speaker-icon { object-fit:contain; }
-.cet-exam-options { padding:0 16px; margin-top:150px; display:flex; flex-direction:column; gap:12px; }
+.cet-exam-options {
+  padding:0 16px calc(72px + env(safe-area-inset-bottom));
+  margin-top:50px; display:flex; flex-direction:column; gap:9px;
+}
+.cet-exam-action-bar {
+  position:fixed; left:0; right:0; bottom:0; z-index:20;
+  display:flex; gap:10px; padding:8px 16px;
+  padding-bottom:calc(8px + env(safe-area-inset-bottom));
+  background:var(--bg-tabbar);
+  border-top:1px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+.cet-exam-action-btn {
+  flex:1; padding:9px; border-radius:999px; font-size:15px; cursor:pointer;
+}
+.cet-exam-collect-btn {
+  color:var(--color-accent); background:transparent; border:1px solid var(--color-outline);
+}
+.cet-exam-next-btn {
+  color:#fff; background:var(--color-accent); border:none;
+}
+.cet-exam-action-btn:disabled { opacity:.55; cursor:not-allowed; }
 .cet-spell-layout {
   padding:10px 16px 20px; display:flex; flex-direction:column;
   min-height:calc(100vh - 60px); min-height:calc(100dvh - 60px); box-sizing:border-box;
@@ -1664,7 +1684,10 @@
 .cet-spell-meta { display:flex; align-items:center; gap:6px; margin-bottom:4px; }
 .cet-spell-phonetic { font-size:14px; color:var(--color-accent); }
 .cet-spell-pos { font-size:13px; color:var(--color-text-secondary); }
-.cet-spell-answer-area { flex:1; display:flex; flex-direction:column; justify-content:center; overflow-y:auto; padding:4px 0; }
+.cet-spell-answer-area {
+  flex:1; display:flex; flex-direction:column; justify-content:flex-start;
+  overflow-y:auto; padding:clamp(32px, 9dvh, 72px) 0 4px;
+}
 .cet-spell-inputs { display:flex; gap:6px; justify-content:center; flex-wrap:wrap; }
 .cet-spell-inputs input {
   -webkit-appearance:none;
@@ -1681,6 +1704,26 @@
 .cet-spell-actions { display:flex; gap:10px; justify-content:center; padding:8px 0; padding-bottom:calc(8px + env(safe-area-inset-bottom)); }
 .cet-spell-mastered-btn { width:120px; padding:12px; background:transparent; color:var(--color-accent); border:1px solid var(--color-outline); border-radius:12px; font-size:16px; cursor:pointer; }
 .cet-spell-next-btn { width:120px; padding:12px; background:var(--color-accent); color:#fff; border:none; border-radius:12px; font-size:16px; }
+@media (max-width: 768px) {
+  .cet-spell-layout {
+    min-height:calc(100dvh - 60px);
+    padding-bottom:max(8px, env(safe-area-inset-bottom));
+  }
+  .cet-spell-answer-area {
+    padding-top:clamp(20px, 6dvh, 42px);
+  }
+  .cet-spell-inputs { gap:5px; align-content:flex-start; }
+  .cet-spell-inputs input {
+    width:32px !important;
+    height:42px !important;
+    font-size:20px !important;
+  }
+  .cet-spell-actions {
+    flex-shrink:0;
+    padding-top:5px;
+    padding-bottom:max(5px, env(safe-area-inset-bottom));
+  }
+}
 .cet4-tab-btn.active,
 .cet6-tab-btn.active {
   background:var(--bg-card-light);
@@ -1752,7 +1795,7 @@
 /* 答题选项样式 */
 .cet4-exam-option,
 .cet6-exam-option {
-  background:var(--bg-nav); border-radius:12px; padding:16px; font-size:16px; color:var(--color-text); cursor:pointer; transition:all 0.2s;
+  background:var(--bg-nav); border-radius:10px; padding:11px 14px; font-size:15px; color:var(--color-text); cursor:pointer; transition:all 0.2s;
   display:flex; gap:8px;
 }
 .cet4-exam-option:hover,
@@ -2514,13 +2557,19 @@ html.light #sentenceWritePage .fav-tab-btn.active {
 .cet6-sort-btn {
   min-height: 30px;
   border-color: var(--ios-separator);
-  border-radius: 8px;
+  border-radius: 999px;
 }
 .cet4-sort-btn.active,
 .cet6-sort-btn.active {
   background: var(--ios-accent);
   color: #fff;
   border-color: var(--ios-accent);
+}
+#cet4Page .cet-select-btn,
+#cet4Page .cet-start-btn,
+#cet6Page .cet-select-btn,
+#cet6Page .cet-start-btn {
+  border-radius: 999px !important;
 }
 .banner-card,
 .banner-img,
@@ -2982,6 +3031,11 @@ function fallbackImageFormat(img) {
 
   <!-- 选项列表 -->
   <div class="cet-exam-options" id="cet4ExamOptions"></div>
+
+  <div class="cet-exam-action-bar">
+    <button class="cet-exam-action-btn cet-exam-collect-btn" id="cet4ExamCollectBtn" onclick="collectCurrentCet4ExamWord()">收藏</button>
+    <button class="cet-exam-action-btn cet-exam-next-btn" id="cet4ExamNextBtn" onclick="nextCet4ExamQuestion()">下一题</button>
+  </div>
 </div>
 <!-- ===================== 文章默写模块（参考你手稿布局） ===================== -->
 <div id="articleWritePage" class="page">
@@ -3478,6 +3532,11 @@ function fallbackImageFormat(img) {
 
   <!-- 选项列表 -->
   <div class="cet-exam-options" id="cet6ExamOptions"></div>
+
+  <div class="cet-exam-action-bar">
+    <button class="cet-exam-action-btn cet-exam-collect-btn" id="cet6ExamCollectBtn" onclick="collectCurrentCet6ExamWord()">收藏</button>
+    <button class="cet-exam-action-btn cet-exam-next-btn" id="cet6ExamNextBtn" onclick="nextCet6ExamQuestion()">下一题</button>
+  </div>
 </div>
 
 <!-- 底部 Tab 栏（全局，由 JS 控制显隐） -->
@@ -3494,8 +3553,8 @@ function fallbackImageFormat(img) {
 </div>
 
 <!-- 答题对错弹窗图片 -->
-<div id="answerPopup" style="position:fixed; left:40px; right:0; top: 16%; display:flex; align-items:center; justify-content:center; z-index:9999; pointer-events:none; visibility:hidden;">
-  <img id="popupIcon" onerror="fallbackImageFormat(this)" style="width:220px; height:220px;">
+<div id="answerPopup" style="position:fixed; right:12px; top:72px; display:flex; align-items:center; justify-content:center; z-index:9999; pointer-events:none; visibility:hidden;">
+  <img id="popupIcon" onerror="fallbackImageFormat(this)" style="width:150px; height:150px; object-fit:contain;">
 </div>
 
 <!-- ===================== CET4 拼写答题页 ===================== -->
@@ -7195,6 +7254,11 @@ window.renderCet4ExamQuestion = window.renderCet4ExamQuestion || function() {
     <div class="cet4-exam-option" onclick="selectExamOption(this, ${correctAnswerArg})">${escapeHtml(option)}</div>`;
   });
   document.getElementById("cet4ExamOptions").innerHTML = html;
+  const collectBtn = document.getElementById("cet4ExamCollectBtn");
+  const nextBtn = document.getElementById("cet4ExamNextBtn");
+  const isCollected = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
+  if (collectBtn) { collectBtn.textContent = isCollected ? "已收藏" : "收藏"; collectBtn.disabled = false; }
+  if (nextBtn) nextBtn.disabled = false;
 
   // 只保留这一句，删掉原来的 autoSpeakExamWord()
   setTimeout(() => {
@@ -7225,6 +7289,7 @@ window.selectExamOption = window.selectExamOption || function(el, correctAnswer)
   if (isCorrect) {
     el.classList.add("correct");
     playRightSound();
+    document.getElementById("cet4ExamNextBtn").disabled = true;
   } else {
     el.classList.add("wrong");
     removeCetMastered(currentWord, 'cet4');
@@ -7243,14 +7308,29 @@ window.selectExamOption = window.selectExamOption || function(el, correctAnswer)
 
   setTimeout(() => {
     popup.style.visibility = "hidden";
-    currentExamIndex++;
-    if (currentExamIndex >= examWordList.length) {
-      alert("练习完成！");
-      stopCet4ExamAndBack();
-    } else {
-      renderCet4ExamQuestion();
-    }
+    if (isCorrect) nextCet4ExamQuestion();
   }, 1000);
+}
+
+window.collectCurrentCet4ExamWord = window.collectCurrentCet4ExamWord || function() {
+  const word = examWordList[currentExamIndex];
+  if (!word) return;
+  const exists = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
+  if (!exists) collectWord(word);
+  const btn = document.getElementById("cet4ExamCollectBtn");
+  if (btn) btn.textContent = "已收藏";
+}
+
+window.nextCet4ExamQuestion = window.nextCet4ExamQuestion || function() {
+  if (!examWordList.length) return;
+  document.getElementById("answerPopup").style.visibility = "hidden";
+  currentExamIndex++;
+  if (currentExamIndex >= examWordList.length) {
+    alert("练习完成！");
+    stopCet4ExamAndBack();
+  } else {
+    renderCet4ExamQuestion();
+  }
 }
 
 window.stopCet4ExamAndBack = window.stopCet4ExamAndBack || function() {
@@ -7744,6 +7824,11 @@ window.renderCet6ExamQuestion = window.renderCet6ExamQuestion || function() {
     html += `<div class="cet6-exam-option" onclick="selectExamOptionCet6(this, ${correctAnswerArg})">${escapeHtml(option)}</div>`;
   });
   document.getElementById("cet6ExamOptions").innerHTML = html;
+  const collectBtn = document.getElementById("cet6ExamCollectBtn");
+  const nextBtn = document.getElementById("cet6ExamNextBtn");
+  const isCollected = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
+  if (collectBtn) { collectBtn.textContent = isCollected ? "已收藏" : "收藏"; collectBtn.disabled = false; }
+  if (nextBtn) nextBtn.disabled = false;
   // 🔥 修复：六级每一题自动播放
   setTimeout(() => {
     const word = document.getElementById("cet6ExamWord").innerText;
@@ -7768,6 +7853,7 @@ window.selectExamOptionCet6 = window.selectExamOptionCet6 || function(el, correc
   if (isCorrect) {
     el.classList.add("correct");
     playRightSound();
+    document.getElementById("cet6ExamNextBtn").disabled = true;
   } else {
     el.classList.add("wrong");
     removeCetMastered(currentWord, 'cet6');
@@ -7784,14 +7870,29 @@ window.selectExamOptionCet6 = window.selectExamOptionCet6 || function(el, correc
 
   setTimeout(() => {
     popup.style.visibility = "hidden";
-    currentExamIndex6++;
-    if (currentExamIndex6 >= examWordList6.length) {
-      alert("练习完成！");
-      stopCet6ExamAndBack();
-    } else {
-      renderCet6ExamQuestion();
-    }
+    if (isCorrect) nextCet6ExamQuestion();
   }, 1000);
+}
+
+window.collectCurrentCet6ExamWord = window.collectCurrentCet6ExamWord || function() {
+  const word = examWordList6[currentExamIndex6];
+  if (!word) return;
+  const exists = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
+  if (!exists) collectWord(word);
+  const btn = document.getElementById("cet6ExamCollectBtn");
+  if (btn) btn.textContent = "已收藏";
+}
+
+window.nextCet6ExamQuestion = window.nextCet6ExamQuestion || function() {
+  if (!examWordList6.length) return;
+  document.getElementById("answerPopup").style.visibility = "hidden";
+  currentExamIndex6++;
+  if (currentExamIndex6 >= examWordList6.length) {
+    alert("练习完成！");
+    stopCet6ExamAndBack();
+  } else {
+    renderCet6ExamQuestion();
+  }
 }
 
 // 退出识词练习
