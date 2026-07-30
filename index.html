@@ -935,6 +935,126 @@
       max-height:75vh;
       overflow:auto;;
     }
+  .favorite-practice-overlay {
+    position:fixed;
+    inset:0;
+    z-index:12000;
+    display:none;
+    align-items:center;
+    justify-content:center;
+    padding:16px;
+    background:rgba(0,0,0,0.7);
+  }
+  .favorite-practice-modal {
+    width:min(100%, 480px);
+    max-height:82vh;
+    overflow:auto;
+    padding:20px;
+    border:1px solid color-mix(in srgb, var(--color-accent) 28%, transparent);
+    border-radius:16px;
+    background:var(--bg-card);
+    color:var(--color-text);
+    box-shadow:0 18px 50px rgba(0,0,0,0.42);
+  }
+  .favorite-practice-header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:12px;
+    margin-bottom:16px;
+  }
+  .favorite-practice-close {
+    border:0;
+    background:transparent;
+    color:var(--color-text-secondary);
+    font-size:22px;
+    cursor:pointer;
+  }
+  .favorite-practice-prompt {
+    margin-bottom:16px;
+    color:var(--color-text-secondary);
+    font-size:14px;
+    line-height:1.6;
+    text-align:center;
+  }
+  .favorite-practice-inputs {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:8px;
+    margin-bottom:18px;
+  }
+  .favorite-practice-input {
+    appearance:none;
+    -webkit-appearance:none;
+    width:88px;
+    min-width:52px;
+    padding:7px 2px 3px;
+    border:0 !important;
+    border-bottom:2px solid #aaa !important;
+    border-radius:0 !important;
+    background:transparent !important;
+    box-shadow:none !important;
+    color:var(--color-text);
+    text-align:center;
+    font-size:16px;
+    outline:none;
+  }
+  .favorite-practice-input.letter {
+    width:28px;
+    min-width:28px;
+  }
+  .favorite-practice-input.correct { border-bottom-color:var(--color-accent) !important; color:var(--color-accent); }
+  .favorite-practice-input.wrong { border-bottom-color:#ff4444 !important; color:#ff4444; }
+  .favorite-practice-actions {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+  }
+  .favorite-practice-actions button,
+  .fav-practice-btn {
+    border:0;
+    border-radius:999px;
+    background:var(--color-accent);
+    color:#fff;
+    cursor:pointer;
+  }
+  .favorite-practice-actions button {
+    min-width:auto !important;
+    min-height:auto !important;
+    padding:4px 12px;
+    font-size:12px;
+    line-height:1.35;
+  }
+  .fav-practice-btn {
+    flex:0 0 auto;
+    min-width:auto !important;
+    min-height:auto !important;
+    padding:2px 6px;
+    border-radius:6px;
+    font-size:10px;
+    line-height:1.3;
+    border:1px solid var(--color-accent) !important;
+    border-radius:999px !important;
+    background:transparent !important;
+    color:var(--color-accent) !important;
+  }
+  .fav-item > .fav-practice-btn {
+    position:absolute;
+    top:38px;
+    right:8px;
+    z-index:2;
+  }
+  .favorite-practice-result {
+    display:none;
+    margin:14px 0 0;
+    padding:8px;
+    border-radius:8px;
+    text-align:center;
+    font-size:14px;
+  }
+  .favorite-practice-result.right { display:block; color:var(--color-accent); background:color-mix(in srgb, var(--color-accent) 15%, transparent); }
+  .favorite-practice-result.wrong { display:block; color:#ff6961; background:rgba(255,68,68,0.15); }
   .modal-title { font-size:18px; font-weight:bold; color:var(--color-accent); margin-bottom:6px; }
   .translate-line { margin-bottom:8px; word-break:break-word; color:inherit; }
   .translate-token { color: var(--color-accent); cursor: pointer; font-weight: 600; }
@@ -1595,13 +1715,31 @@
 
   /* 错词集样式 */
   #wrongWordSet {
-    background: var(--bg-card) !important;
-    border-radius: 12px;
-    padding: 12px;
+    background: transparent !important;
+    border-radius: 0;
+    padding: 0;
     margin-top: 16px;
   }
   .fav-wrong-word-btn {
     flex-shrink: 0;
+    width: 28px;
+    height: 28px;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    background: transparent;
+    color: var(--color-accent);
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .fav-wrong-word-btn.active {
+    background: transparent;
+  }
+  .fav-wrong-word-btn:disabled {
+    opacity: 1;
+    cursor: default;
   }
   .sentence-word-hint {
     font-size: 12px;
@@ -2459,7 +2597,8 @@ html.light #sentenceWritePage .fav-tab-btn.active {
   color: transparent;
   background: var(--color-accent);
   border-radius: 3px;
-  padding: 1px 2px;
+  padding: 0 2px;
+  line-height: 1.1;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
   cursor: pointer;
@@ -2702,6 +2841,10 @@ button:focus-visible,
 button:active {
   border: none !important;
 }
+/* 全站原生按钮统一为胶囊形状；仅改变圆角，不影响原有交互与配色。 */
+button {
+  border-radius: 999px !important;
+}
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     scroll-behavior: auto !important;
@@ -2762,6 +2905,22 @@ function fallbackImageFormat(img) {
   <div id="translateContent" style="white-space:pre-wrap; line-height:1.6; color:var(--color-text);
              max-height:60vh; overflow:auto; margin-bottom:12px;"></div>
   <div class="modal-close" onclick="closeTranslateModal()">关闭</div>
+</div>
+
+<div class="favorite-practice-overlay" id="favoritePracticeOverlay" onclick="closeFavoritePractice(event)">
+  <div class="favorite-practice-modal" role="dialog" aria-modal="true" aria-labelledby="favoritePracticeTitle" onclick="event.stopPropagation()">
+    <div class="favorite-practice-header">
+      <div class="modal-title" id="favoritePracticeTitle" style="margin:0;">收藏练习</div>
+      <button type="button" class="favorite-practice-close" onclick="closeFavoritePractice()">×</button>
+    </div>
+    <div class="favorite-practice-prompt" id="favoritePracticePrompt"></div>
+    <div class="favorite-practice-inputs" id="favoritePracticeInputs"></div>
+    <div class="favorite-practice-actions">
+      <button type="button" id="favoritePracticeSpeakBtn" onclick="playFavoritePracticeAudio()">播放</button>
+      <button type="button" id="favoritePracticeCheckBtn" onclick="checkFavoritePractice()">检查答案</button>
+    </div>
+    <div class="favorite-practice-result" id="favoritePracticeResult"></div>
+  </div>
 </div>
 
 <div class="word-popup" id="wordPopup"></div>
@@ -3098,8 +3257,8 @@ function fallbackImageFormat(img) {
     <span>已默写正确：<span id="articleDoneWordCount" style="color:var(--color-accent); font-weight:bold;">0</span> 个</span>
   </div>
   <!-- 🔥 线段答题卡：每个单词一条横线 -->
-  <div style="padding:12px;height:calc(100vh - 220px);">
-    <div style="background:var(--bg-card); border-radius:14px; padding:16px; height:100%;overflow:auto;">
+  <div style="padding:8px 12px 0; height:calc(100vh - 150px - env(safe-area-inset-bottom)); height:calc(100dvh - 150px - env(safe-area-inset-bottom));">
+    <div style="background:transparent; border:none; border-radius:0; padding:4px; height:100%; overflow:auto;">
       <div id="articleAnswerCard" style="display:flex;flex-wrap:wrap;gap:8px 12px;justify-content:flex-start;align-items:center;line-height:2.2;">
         <!-- 自动生成单词输入框 -->
       </div>
@@ -3116,9 +3275,9 @@ function fallbackImageFormat(img) {
   </div>
 
   <!-- 底部操作按钮 -->
-  <div style="position:fixed; bottom:0; left:0; right:0; background:var(--bg-tabbar); border-top:1px solid rgba(95,171,246,0.2); padding:12px calc(16px + env(safe-area-inset-right)); padding-left: calc(16px + env(safe-area-inset-left)); padding-bottom: calc(12px + env(safe-area-inset-bottom)); display:flex; gap:10px; flex-wrap:wrap; box-sizing:border-box;">
-    <button onclick="saveArticleWriteProgress()" style="flex:1; min-width:0; background:var(--color-accent); color:#fff; border:none; padding:10px; border-radius:10px; font-size:15px;">保存进度</button>
-    <button onclick="resetArticleWrite()" style="flex:1; min-width:0; background:var(--bg-nav); color:var(--color-text); border:none; padding:10px; border-radius:10px; font-size:15px;">重置</button>
+  <div style="position:fixed; bottom:0; left:0; right:0; background:var(--bg-tabbar); border-top:1px solid rgba(95,171,246,0.2); padding:6px calc(16px + env(safe-area-inset-right)); padding-left:calc(16px + env(safe-area-inset-left)); padding-bottom:calc(6px + env(safe-area-inset-bottom)); display:flex; gap:10px; box-sizing:border-box;">
+    <button class="knowledge-btn" onclick="saveArticleWriteProgress()">保存进度</button>
+    <button class="subtitle-switch-btn" onclick="resetArticleWrite()">重置</button>
   </div>
 </div>
 
@@ -4611,9 +4770,9 @@ function setPracticeSentences(arr) {
 }
 
 function collectWord(word) {
-  const info = wordLibrary[word] || {};
+  const info = wordLibrary[word.toLowerCase()] || wordLibrary[word] || {};
   const list = getCollectedWords();
-  const exists = list.some(item => item.word === word);
+  const exists = list.some(item => (item.word || '').toLowerCase() === word.toLowerCase());
   if (!exists) {
     list.push({
       word: word,
@@ -4897,8 +5056,48 @@ function getWordFormMap() {
       }
     });
   });
+
+  // 常见不规则动词、名词的变体。仅在词库包含原形时建立映射。
+  var irregularForms = {
+    am: 'be', is: 'be', are: 'be', was: 'be', were: 'be', been: 'be',
+    went: 'go', gone: 'go', came: 'come', come: 'come',
+    did: 'do', done: 'do', had: 'have', made: 'make',
+    took: 'take', taken: 'take', gave: 'give', given: 'give',
+    saw: 'see', seen: 'see', knew: 'know', known: 'know',
+    got: 'get', gotten: 'get', found: 'find', thought: 'think',
+    told: 'tell', said: 'say', spoke: 'speak', spoken: 'speak',
+    wrote: 'write', written: 'write', read: 'read',
+    ran: 'run', run: 'run', ate: 'eat', eaten: 'eat',
+    drank: 'drink', drunk: 'drink', drove: 'drive', driven: 'drive',
+    chose: 'choose', chosen: 'choose', began: 'begin', begun: 'begin',
+    broke: 'break', broken: 'break', brought: 'bring', bought: 'buy',
+    caught: 'catch', taught: 'teach', felt: 'feel', left: 'leave',
+    kept: 'keep', held: 'hold', heard: 'hear', lost: 'lose',
+    met: 'meet', paid: 'pay', sent: 'send', spent: 'spend',
+    stood: 'stand', understood: 'understand', won: 'win',
+    children: 'child', men: 'man', women: 'woman',
+    people: 'person', feet: 'foot', teeth: 'tooth', mice: 'mouse'
+  };
+  Object.keys(irregularForms).forEach(function(form) {
+    var baseWord = irregularForms[form];
+    var info = wordLibrary[baseWord];
+    if (info) map[form] = { baseWord: baseWord, type: info.type };
+  });
+
   _wordFormCache = map;
   return map;
+}
+
+// 返回句中词形对应的词库原形和释义，例如 returned -> return。
+function resolveWordLibraryEntry(word) {
+  var normalized = String(word || '').trim().toLowerCase();
+  if (!normalized) return { baseWord: '', info: {} };
+  if (wordLibrary[normalized]) {
+    return { baseWord: normalized, info: wordLibrary[normalized] };
+  }
+  var mapped = getWordFormMap()[normalized];
+  var baseWord = mapped ? mapped.baseWord : normalized;
+  return { baseWord: baseWord, info: wordLibrary[baseWord] || {} };
 }
 
 function renderSubtitles() {
@@ -8066,8 +8265,30 @@ function validateArticleWordInput(input) {
   saveCurrentArticleWriteProgress();
 }
 
+function syncArticleProgressBeforeSave() {
+  if (!currentArticleProgress || !Array.isArray(currentArticleProgress.words)) return;
+  const inputs = document.querySelectorAll("#articleAnswerCard input");
+  inputs.forEach((input, idx) => {
+    const state = currentArticleProgress.words[idx];
+    if (!state) return;
+    const value = input.value.trim();
+    const correct = (input.dataset.correct || '').toLowerCase();
+    state.value = value;
+    if (value && value.toLowerCase() === correct) {
+      state.correct = true;
+      input.readOnly = true;
+      input.style.borderBottomColor = 'var(--color-accent)';
+      input.style.color = 'var(--color-accent)';
+      clearWordError(input);
+    }
+  });
+}
+
 function saveArticleWriteProgress() {
+  syncArticleProgressBeforeSave();
   saveCurrentArticleWriteProgress();
+  refreshArticleWriteCount();
+  markArticleAsWrittenIfComplete();
   alert('已保存当前默写进度');
 }
 
@@ -8204,10 +8425,6 @@ function openArticleWrite(index) {
 
     // 初始化顶部总单词计数
   document.getElementById('articleTotalWordCount').innerText = currentCorrectWords.length;
-  // 初始化已完成计数
-  saveCurrentArticleWriteProgress();
-  // 新增：校验完成后更新顶部完成数量
-  refreshArticleWriteCount();
   // 生成答题卡
   const container = document.getElementById("articleAnswerCard");
   container.innerHTML = "";
@@ -8219,6 +8436,8 @@ function openArticleWrite(index) {
       articleName: article.name,
       words: currentCorrectWords.map(() => ({ value: '', attempts: 0, correct: false }))
     };
+  // 载入进度后立即刷新顶部已完成数量。
+  refreshArticleWriteCount();
 
   currentCorrectWords.forEach((word, idx) => {
     const wrapper = document.createElement('div');
@@ -8416,6 +8635,7 @@ function resetArticleWrite() {
   });
   document.getElementById("scoreDisplay").style.display = "none";
   document.getElementById("wrongWordsContainer").style.display = "none";
+  refreshArticleWriteCount();
 }
 
 // 退出
@@ -8588,6 +8808,10 @@ function renderListenSentence() {
 
   resultEl.style.display = "none";
   answerEl.style.display = "none";
+  const wrongSetEl = document.getElementById("wrongWordSet");
+  const wrongListEl = document.getElementById("wrongWordList");
+  if (wrongSetEl) wrongSetEl.style.display = "none";
+  if (wrongListEl) wrongListEl.innerHTML = "";
   SentenceWriteLogic.resetCurrentSentence();
 
   const firstSentenceInput = container.querySelector('input');
@@ -8646,7 +8870,7 @@ function submitSentenceCheck() {
     } else {
       allCorrect = false;
       input.classList.add("wrong");
-      input.classList.remove("wrong");
+      input.classList.remove("correct");
 
       // 显示正确答案
       if (hint) {
@@ -8656,10 +8880,12 @@ function submitSentenceCheck() {
       }
 
       // 收集错词
-      const info = wordLibrary[correct.toLowerCase()] || wordLibrary[correct] || {};
+      const resolved = resolveWordLibraryEntry(correct);
+      const info = resolved.info;
       wrongWords.push({
         wrong: user || '(空)',
         correct: correct,
+        baseWord: resolved.baseWord,
         meaning: info.meaning || '无释义'
       });
     }
@@ -8677,20 +8903,37 @@ function submitSentenceCheck() {
       div.style.padding = '4px 0';
       div.style.borderBottom = '1px dashed rgba(255,255,255,0.1)';
 
+      const favoriteWord = item.baseWord || item.correct.toLowerCase();
+      const normalizedWord = favoriteWord.toLowerCase();
+      const isCollected = getCollectedWords().some(
+        saved => (saved.word || '').toLowerCase() === normalizedWord
+      );
+      const baseWordLabel = normalizedWord !== item.correct.toLowerCase()
+        ? `<span style="color:#999; margin-left:4px;">（原形 ${escapeHtml(favoriteWord)}）</span>`
+        : '';
+
       div.innerHTML = `
-        <div style="font-size:13px; color:#fff;">
+        <div style="font-size:13px; color:var(--color-text); min-width:0;">
           <span style="color:#ff4444">${escapeHtml(item.wrong)}</span>
           <span> → </span>
           <span style="color:var(--color-accent)">${escapeHtml(item.correct)}</span>
+          ${baseWordLabel}
           <span style="color:#999; margin-left:4px;">${escapeHtml(item.meaning)}</span>
         </div>
-        <div style="font-size:13px; color:#fff;">
-          <span style="color:#ff4444">${escapeHtml(item.wrong)}</span>
-          <span> → </span>
-          <span style="color:var(--color-accent)">${escapeHtml(item.correct)}</span>
-          <span style="color:#999; margin-left:4px;">${escapeHtml(item.meaning)}</span>
-        </div>
+        <button type="button" class="fav-wrong-word-btn${isCollected ? ' active' : ''}">
+          ${isCollected ? '★' : '☆'}
+        </button>
       `;
+
+      const favoriteBtn = div.querySelector('.fav-wrong-word-btn');
+      favoriteBtn.addEventListener('click', () => {
+        collectWord(favoriteWord);
+        favoriteBtn.classList.add('active');
+        favoriteBtn.textContent = '★';
+        favoriteBtn.disabled = true;
+      });
+      if (isCollected) favoriteBtn.disabled = true;
+
       wrongListEl.appendChild(div);
     });
   } else {
@@ -9201,11 +9444,13 @@ function renderFavSentences() {
                      cursor:pointer; z-index:2;">
         ×
       </button>
+      <button type="button" class="fav-practice-btn"
+              onclick="event.stopPropagation(); openFavoritePractice('sentence', ${actualIndex})">练习</button>
 
       <!-- 英文：按文字宽度逐行生成绿色遮罩 -->
-      <div class="fav-sentence-text" 
-           style="margin-bottom:6px; line-height:1.6;">
-        <span class="sentence-en-text sentence-mask" onclick="showSentenceText(this)">${escapeHtml(en)}</span>
+      <div class="fav-sentence-text"
+           style="display:flex; align-items:center; gap:8px; padding-right:44px; margin-bottom:6px; line-height:1.6;">
+        <span class="sentence-en-text sentence-mask" style="min-width:0;" onclick="showSentenceText(this)">${escapeHtml(en)}</span>
       </div>
 
       <!-- 中文 -->
@@ -9252,10 +9497,12 @@ function renderFavWords() {
                      cursor:pointer; z-index:2;">
         ×
       </button>
+      <button type="button" class="fav-practice-btn"
+              onclick="event.stopPropagation(); openFavoritePractice('word', ${actualIndex})">练习</button>
 
       <!-- 单词内容 -->
       <div style="flex:1;">
-        <div style="display:flex; align-items:center; gap:8px; margin-bottom:6px;">
+        <div style="display:flex; align-items:center; gap:8px; padding-right:44px; margin-bottom:6px;">
           <span style="position:relative; display:inline-block; white-space:nowrap; line-height:1.4;">
             <span class="word-only" style="visibility:hidden; font-weight:bold; color:var(--color-accent);">${escapeHtml(item.word)}</span>
             <span class="word-mask"
@@ -9270,6 +9517,168 @@ function renderFavWords() {
     </div>`;
   });
   container.innerHTML = html;
+}
+
+let favoritePracticeState = null;
+
+function splitFavoriteSentenceText(text) {
+  const value = String(text || '').trim();
+  const chineseIndex = value.search(/[\u3400-\u9fff]/);
+  if (chineseIndex === -1) return { english: value, translation: '' };
+  return {
+    english: value.slice(0, chineseIndex).trim(),
+    translation: value.slice(chineseIndex).trim()
+  };
+}
+
+function openFavoritePractice(type, index) {
+  const isSentence = type === 'sentence';
+  const item = isSentence ? getPracticeSentences()[index] : getCollectedWords()[index];
+  if (!item) return;
+
+  let answer = '';
+  let prompt = '';
+  if (isSentence) {
+    const parts = splitFavoriteSentenceText(item.text);
+    answer = parts.english;
+    prompt = parts.translation || '请听音频，默写当前句子';
+  } else {
+    answer = String(item.word || '').trim();
+    prompt = [item.phonetic, item.pos, item.meaning].filter(Boolean).join('　') || '请听音频，默写当前单词';
+  }
+  if (!answer) return;
+
+  favoritePracticeState = { type, answer, attempts: 0 };
+  document.getElementById('favoritePracticeTitle').innerText = isSentence ? '句子默写' : '单词默写';
+  document.getElementById('favoritePracticePrompt').innerText = prompt;
+  const resultEl = document.getElementById('favoritePracticeResult');
+  resultEl.className = 'favorite-practice-result';
+  resultEl.innerText = '';
+
+  renderFavoritePracticeInputs();
+  const checkBtn = document.getElementById('favoritePracticeCheckBtn');
+  checkBtn.innerText = '检查答案';
+  checkBtn.onclick = checkFavoritePractice;
+  document.getElementById('favoritePracticeOverlay').style.display = 'flex';
+
+  const firstInput = document.querySelector('#favoritePracticeInputs input');
+  if (firstInput) firstInput.focus();
+}
+
+function renderFavoritePracticeInputs() {
+  const container = document.getElementById('favoritePracticeInputs');
+  container.innerHTML = '';
+  if (!favoritePracticeState) return;
+
+  const isSentence = favoritePracticeState.type === 'sentence';
+  const units = isSentence
+    ? (favoritePracticeState.answer.match(/[a-zA-Z0-9']+/g) || [])
+    : Array.from(favoritePracticeState.answer);
+
+  units.forEach((unit, index) => {
+    if (!isSentence && !/[a-zA-Z0-9]/.test(unit)) {
+      const punctuation = document.createElement('span');
+      punctuation.innerText = unit;
+      punctuation.style.alignSelf = 'center';
+      container.appendChild(punctuation);
+      return;
+    }
+
+    const input = document.createElement('input');
+    input.type = 'text';
+    input.className = `favorite-practice-input${isSentence ? '' : ' letter'}`;
+    input.dataset.correct = unit;
+    input.autocomplete = 'off';
+    input.spellcheck = false;
+    input.maxLength = isSentence ? Math.max(20, unit.length + 4) : 1;
+    input.placeholder = '';
+    input.addEventListener('input', () => input.classList.remove('correct', 'wrong'));
+    input.addEventListener('keydown', event => handleFavoritePracticeKeydown(event, input));
+    container.appendChild(input);
+  });
+}
+
+function getFavoritePracticeInputs() {
+  return Array.from(document.querySelectorAll('#favoritePracticeInputs input'));
+}
+
+function handleFavoritePracticeKeydown(event, input) {
+  const inputs = getFavoritePracticeInputs();
+  const index = inputs.indexOf(input);
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    checkFavoritePractice();
+    return;
+  }
+  if (event.key === ' ') {
+    event.preventDefault();
+    if (inputs[index + 1]) inputs[index + 1].focus();
+    return;
+  }
+  if (event.key === 'Backspace' && !input.value && inputs[index - 1]) {
+    event.preventDefault();
+    inputs[index - 1].focus();
+  }
+}
+
+function checkFavoritePractice() {
+  if (!favoritePracticeState) return;
+  const inputs = getFavoritePracticeInputs();
+  if (!inputs.length) return;
+
+  let allCorrect = true;
+  inputs.forEach(input => {
+    const correct = (input.dataset.correct || '').toLowerCase();
+    const actual = input.value.trim().toLowerCase();
+    const matches = actual === correct;
+    input.classList.toggle('correct', matches);
+    input.classList.toggle('wrong', !matches);
+    if (!matches) allCorrect = false;
+  });
+
+  const resultEl = document.getElementById('favoritePracticeResult');
+  if (allCorrect) {
+    resultEl.className = 'favorite-practice-result right';
+    resultEl.innerText = '✅ 回答正确';
+    inputs.forEach(input => input.disabled = true);
+    playRightSound();
+    const checkBtn = document.getElementById('favoritePracticeCheckBtn');
+    checkBtn.innerText = '完成';
+    checkBtn.onclick = closeFavoritePractice;
+    return;
+  }
+
+  favoritePracticeState.attempts += 1;
+  playWrongSound();
+  resultEl.className = 'favorite-practice-result wrong';
+  if (favoritePracticeState.attempts >= 3) {
+    resultEl.innerText = `正确答案：${favoritePracticeState.answer}`;
+    inputs.forEach(input => {
+      input.value = input.dataset.correct || '';
+      input.classList.remove('wrong');
+      input.classList.add('correct');
+      input.disabled = true;
+    });
+    const checkBtn = document.getElementById('favoritePracticeCheckBtn');
+    checkBtn.innerText = '完成';
+    checkBtn.onclick = closeFavoritePractice;
+  } else {
+    resultEl.innerText = `答案有误，请再试一次（${favoritePracticeState.attempts}/3）`;
+    const firstWrong = inputs.find(input => input.classList.contains('wrong'));
+    if (firstWrong) firstWrong.focus();
+  }
+}
+
+function playFavoritePracticeAudio() {
+  if (!favoritePracticeState) return;
+  speakTextSafely(favoritePracticeState.answer, { lang: 'en-US' });
+}
+
+function closeFavoritePractice(event) {
+  const overlay = document.getElementById('favoritePracticeOverlay');
+  if (event && event.target !== overlay) return;
+  overlay.style.display = 'none';
+  favoritePracticeState = null;
 }
 
 // 删除收藏句子
