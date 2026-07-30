@@ -6437,7 +6437,7 @@ async function openBbcDetail(index) {
   bbcAudio.src = item.audio;
   bbcAudio.load();
 
-  // 默认关闭字幕，用户可从“字幕”菜单选择中文、英文或双语。
+  // 进入 NEWS 详情时默认打开双语字幕，用户选择“关闭”后再隐藏。
   window.newsLangMode = 'all';
   window.newsShowZh = true;
 
@@ -6451,8 +6451,8 @@ async function openBbcDetail(index) {
   if (duration) duration.innerText = '00:00';
   const subtitleContainer = document.getElementById('newsSubtitleContainer');
   const subBtn = document.getElementById('newsSubtitleMenuBtn');
-  if (subtitleContainer) subtitleContainer.classList.add('hide-sub');
-  if (subBtn) { subBtn.style.background = 'transparent'; subBtn.style.color = 'var(--color-text)'; }
+  if (subtitleContainer) subtitleContainer.classList.remove('hide-sub');
+  if (subBtn) { subBtn.style.background = 'var(--color-accent)'; subBtn.style.color = '#fff'; }
   // 重置速度按钮
   document.querySelectorAll('#speed12Btn, #speed08Btn').forEach(b => {
     b.style.background = 'transparent'; b.style.color = 'var(--color-text)';
