@@ -3,7 +3,7 @@
   "_说明_accent": "全站主题强调色：按钮、高亮文字、选中状态和主要图标",
 
   "dark": {
-    "backgroundOpacity": 0.3,
+    "backgroundOpacity": 0.6,
     "_说明_backgroundOpacity": "深色模式全局背景图片透明度，范围0到1"
   },
   "light": {

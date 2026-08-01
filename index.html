@@ -937,7 +937,10 @@
     }
   .favorite-practice-overlay {
     position:fixed;
-    inset:0;
+    top:var(--favorite-viewport-top, 0px);
+    left:0;
+    right:0;
+    height:var(--favorite-viewport-height, 100dvh);
     z-index:12000;
     display:none;
     align-items:center;
@@ -964,11 +967,26 @@
     margin-bottom:16px;
   }
   .favorite-practice-close {
-    border:0;
-    background:transparent;
+    appearance:none;
+    -webkit-appearance:none;
+    border:0 !important;
+    background:transparent !important;
+    background-color:transparent !important;
+    box-shadow:none !important;
     color:var(--color-text-secondary);
     font-size:22px;
+    line-height:1;
+    width:32px;
+    height:32px;
+    padding:0;
     cursor:pointer;
+  }
+  .favorite-practice-close:hover,
+  .favorite-practice-close:focus,
+  .favorite-practice-close:active {
+    background:transparent !important;
+    background-color:transparent !important;
+    box-shadow:none !important;
   }
   .favorite-practice-prompt {
     margin-bottom:16px;
@@ -1055,6 +1073,25 @@
   }
   .favorite-practice-result.right { display:block; color:var(--color-accent); background:color-mix(in srgb, var(--color-accent) 15%, transparent); }
   .favorite-practice-result.wrong { display:block; color:#ff6961; background:rgba(255,68,68,0.15); }
+  @media (max-width: 768px) {
+    .favorite-practice-overlay {
+      padding:10px;
+      box-sizing:border-box;
+    }
+    .favorite-practice-modal {
+      width:100%;
+      max-width:420px;
+      max-height:calc(var(--favorite-viewport-height, 100dvh) - 20px);
+      padding:16px;
+      box-sizing:border-box;
+    }
+    .favorite-practice-overlay.keyboard-open {
+      align-items:flex-start;
+    }
+    .favorite-practice-overlay.keyboard-open .favorite-practice-modal {
+      max-height:calc(var(--favorite-viewport-height, 100dvh) - 12px);
+    }
+  }
   .modal-title { font-size:18px; font-weight:bold; color:var(--color-accent); margin-bottom:6px; }
   .translate-line { margin-bottom:8px; word-break:break-word; color:inherit; }
   .translate-token { color: var(--color-accent); cursor: pointer; font-weight: 600; }
@@ -2844,6 +2881,19 @@ button:active {
 /* 全站原生按钮统一为胶囊形状；仅改变圆角，不影响原有交互与配色。 */
 button {
   border-radius: 999px !important;
+}
+/* 收藏页的关闭/删除 X 始终保持纯文字，不显示全站按钮的绿色悬停底色。 */
+#favoritePracticeOverlay .favorite-practice-close,
+#favoritePracticeOverlay .favorite-practice-close:hover,
+#favoritePracticeOverlay .favorite-practice-close:focus,
+#favoritePracticeOverlay .favorite-practice-close:active,
+#sentenceWritePage .fav-remove-btn,
+#sentenceWritePage .fav-remove-btn:hover,
+#sentenceWritePage .fav-remove-btn:focus,
+#sentenceWritePage .fav-remove-btn:active {
+  background:transparent !important;
+  background-color:transparent !important;
+  box-shadow:none !important;
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
@@ -4778,7 +4828,8 @@ function collectWord(word) {
       word: word,
       phonetic: info.phonetic || '',
       meaning: info.meaning || '',
-      pos: info.pos || ''
+      pos: info.pos || '',
+      audio: info.audio || ''
     });
     setCollectedWords(list);
   }
@@ -4788,11 +4839,18 @@ function removeCollectedWord(word) {
   list = list.filter(item => item.word !== word);
   setCollectedWords(list);
 }
-function collectSentence(text) {
+function collectSentence(text, audioInfo = {}) {
   const list = getPracticeSentences();
   const exists = list.some(item => item.text === text);
   if (!exists) {
-    list.push({ text: text });
+    list.push({
+      text: text,
+      audio: audioInfo.audio || '',
+      sourceType: audioInfo.sourceType || '',
+      videoSrc: audioInfo.videoSrc || '',
+      startTime: Number.isFinite(audioInfo.startTime) ? audioInfo.startTime : null,
+      endTime: Number.isFinite(audioInfo.endTime) ? audioInfo.endTime : null
+    });
     setPracticeSentences(list);
   }
 }
@@ -5111,6 +5169,7 @@ function renderSubtitles() {
     const isCollected = practice.some(p => p.text === text);
     const div = document.createElement("div");
     div.className = "subtitle-item";
+    div.dataset.subtitleIndex = String(index);
     div.innerHTML = `
       <div class="sub-en">${enHtml}</div>
       <div class="sub-zh">
@@ -5606,7 +5665,20 @@ document.addEventListener("click", e => {
       removeSentence(text);
       e.target.classList.remove('active');
     } else {
-      collectSentence(text);
+      const subtitleIndex = Number(item && item.dataset.subtitleIndex);
+      const cue = document.getElementById('bbcDetailPage').classList.contains('active')
+        ? newsSubtitles[subtitleIndex]
+        : subtitles[subtitleIndex];
+      const sourceAudio = document.getElementById('bbcDetailPage').classList.contains('active')
+        ? (currentNewsItem && currentNewsItem.audio)
+        : (getCurrentVideoInfo().audio || currentVideoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'));
+      collectSentence(text, {
+        audio: sourceAudio || '',
+        sourceType: document.getElementById('bbcDetailPage').classList.contains('active') ? 'news' : 'video',
+        videoSrc: document.getElementById('bbcDetailPage').classList.contains('active') ? '' : currentVideoSrc,
+        startTime: cue && Number(cue.start),
+        endTime: cue && Number(cue.end)
+      });
       e.target.classList.add('active');
     }
   } else if (!wordPopup.contains(e.target)) {
@@ -6830,6 +6902,7 @@ window.renderNewsSubtitles = window.renderNewsSubtitles || function() {
     // 始终保存完整双语字幕，收藏不受当前中英文显示模式影响。
     div.dataset.subtitleEn = sub.en || '';
     div.dataset.subtitleZh = sub.zh || '';
+    div.dataset.subtitleIndex = String(index);
 
     const highlighted = highlightNewsSubtitleText(sub.en, sub.zh);
     const showEn = window.newsLangMode !== 'zh';
@@ -9520,6 +9593,39 @@ function renderFavWords() {
 }
 
 let favoritePracticeState = null;
+let favoritePracticeAudio = null;
+let favoritePracticeAudioTimer = null;
+let favoritePracticeViewportBound = false;
+
+function updateFavoritePracticeViewport() {
+  const overlay = document.getElementById('favoritePracticeOverlay');
+  if (!overlay || overlay.style.display === 'none') return;
+  const viewport = window.visualViewport;
+  const height = viewport ? viewport.height : window.innerHeight;
+  const top = viewport ? viewport.offsetTop : 0;
+  overlay.style.setProperty('--favorite-viewport-height', `${height}px`);
+  overlay.style.setProperty('--favorite-viewport-top', `${top}px`);
+  overlay.classList.toggle('keyboard-open', height < window.innerHeight * 0.8);
+}
+
+function keepFavoritePracticeInputVisible(input) {
+  updateFavoritePracticeViewport();
+  window.setTimeout(() => {
+    if (!input || document.activeElement !== input) return;
+    input.scrollIntoView({ block: 'center', inline: 'nearest', behavior: 'smooth' });
+  }, 120);
+}
+
+function bindFavoritePracticeViewport() {
+  if (favoritePracticeViewportBound) return;
+  favoritePracticeViewportBound = true;
+  const viewport = window.visualViewport;
+  if (viewport) {
+    viewport.addEventListener('resize', updateFavoritePracticeViewport);
+    viewport.addEventListener('scroll', updateFavoritePracticeViewport);
+  }
+  window.addEventListener('resize', updateFavoritePracticeViewport);
+}
 
 function splitFavoriteSentenceText(text) {
   const value = String(text || '').trim();
@@ -9548,7 +9654,7 @@ function openFavoritePractice(type, index) {
   }
   if (!answer) return;
 
-  favoritePracticeState = { type, answer, attempts: 0 };
+  favoritePracticeState = { type, index, item, answer, attempts: 0 };
   document.getElementById('favoritePracticeTitle').innerText = isSentence ? '句子默写' : '单词默写';
   document.getElementById('favoritePracticePrompt').innerText = prompt;
   const resultEl = document.getElementById('favoritePracticeResult');
@@ -9560,6 +9666,8 @@ function openFavoritePractice(type, index) {
   checkBtn.innerText = '检查答案';
   checkBtn.onclick = checkFavoritePractice;
   document.getElementById('favoritePracticeOverlay').style.display = 'flex';
+  bindFavoritePracticeViewport();
+  updateFavoritePracticeViewport();
 
   const firstInput = document.querySelector('#favoritePracticeInputs input');
   if (firstInput) firstInput.focus();
@@ -9593,6 +9701,7 @@ function renderFavoritePracticeInputs() {
     input.maxLength = isSentence ? Math.max(20, unit.length + 4) : 1;
     input.placeholder = '';
     input.addEventListener('input', () => input.classList.remove('correct', 'wrong'));
+    input.addEventListener('focus', () => keepFavoritePracticeInputVisible(input));
     input.addEventListener('keydown', event => handleFavoritePracticeKeydown(event, input));
     container.appendChild(input);
   });
@@ -9669,8 +9778,133 @@ function checkFavoritePractice() {
   }
 }
 
-function playFavoritePracticeAudio() {
+async function resolveFavoriteSentenceAudio(state) {
+  const saved = state && state.item;
+  if (saved && saved.sourceType === 'video' && saved.videoSrc && Number.isFinite(saved.startTime)) {
+    return {
+      ...saved,
+      audio: saved.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3')
+    };
+  }
+  if (saved && saved.audio && Number.isFinite(saved.startTime)) return saved;
+
+  const wanted = splitFavoriteSentenceText(saved && saved.text).english.trim().toLowerCase();
+  if (!wanted) return null;
+  const cachedCue = (window.allSubtitlesCache || []).find(cue =>
+    String(cue.en || '').trim().toLowerCase() === wanted
+  );
+  if (cachedCue && cachedCue.videoSrc) {
+    return {
+      audio: cachedCue.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'),
+      sourceType: 'video',
+      videoSrc: cachedCue.videoSrc,
+      startTime: Number(cachedCue.start ?? cachedCue.time),
+      endTime: Number(cachedCue.end)
+    };
+  }
+
+  const articles = typeof getAllDictationArticles === 'function' ? getAllDictationArticles() : [];
+  for (const article of articles) {
+    if (!article || !article.audio || !article.sub) continue;
+    try {
+      const response = await fetch(article.sub);
+      if (!response.ok) continue;
+      const cue = parseVtt(await response.text()).find(entry =>
+        String(entry.en || '').trim().toLowerCase() === wanted
+      );
+      if (cue) return { audio: article.audio, startTime: cue.start, endTime: cue.end };
+    } catch (_) {}
+  }
+  return null;
+}
+
+function playFavoriteAudioSegment(source) {
+  if (!source || !source.audio) return false;
+  if (!favoritePracticeAudio) {
+    favoritePracticeAudio = new Audio();
+    favoritePracticeAudio.preload = 'metadata';
+  }
+  if (favoritePracticeAudioTimer) clearTimeout(favoritePracticeAudioTimer);
+  favoritePracticeAudio.pause();
+  favoritePracticeAudio.src = source.audio;
+  const expectedSrc = favoritePracticeAudio.src;
+  const seekToSentence = () => {
+    if (!favoritePracticeAudio || favoritePracticeAudio.src !== expectedSrc) return;
+    favoritePracticeAudio.currentTime = Number.isFinite(source.startTime) ? source.startTime : 0;
+    if (Number.isFinite(source.startTime) && Number.isFinite(source.endTime)) {
+      favoritePracticeAudioTimer = setTimeout(() => {
+        favoritePracticeAudio.pause();
+        favoritePracticeAudioTimer = null;
+      }, Math.max(500, (source.endTime - source.startTime) * 1000 + 100));
+    }
+  };
+  favoritePracticeAudio.load();
+  if (favoritePracticeAudio.readyState >= 1) seekToSentence();
+  else favoritePracticeAudio.addEventListener('loadedmetadata', seekToSentence, { once: true });
+  // 必须在按钮点击的同步调用链中立即 play，避免 iOS/手机浏览器拦截异步播放。
+  favoritePracticeAudio.play().catch(() => {
+    if (favoritePracticeState) speakTextSafely(favoritePracticeState.answer, { lang: 'en-US' });
+  });
+  return true;
+}
+
+async function playFavoritePracticeAudio() {
   if (!favoritePracticeState) return;
+  cancelSpeechSafely();
+  if (favoritePracticeState.type === 'word') {
+    await ensureWordLibrary();
+    const word = favoritePracticeState.answer;
+    const info = favoritePracticeState.item || {};
+    const libraryInfo = wordLibrary[word.toLowerCase()] || {};
+    const mp3 = info.audio || libraryInfo.audio;
+    if (mp3 && playFavoriteAudioSegment({ audio: mp3 })) return;
+    if (playWordFromAudio(word)) return;
+    speakTextSafely(word, { lang: 'en-US' });
+    return;
+  }
+
+  // 已保存来源的句子直接播放，不经过 await，保留手机浏览器的用户点击授权。
+  const saved = favoritePracticeState.item || {};
+  if (saved.sourceType === 'video' && saved.videoSrc && Number.isFinite(saved.startTime)) {
+    if (playFavoriteAudioSegment({
+      ...saved,
+      audio: saved.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3')
+    })) return;
+  }
+  if (saved.audio && Number.isFinite(saved.startTime)) {
+    if (playFavoriteAudioSegment(saved)) return;
+  }
+  const wantedSentence = splitFavoriteSentenceText(saved.text).english.trim().toLowerCase();
+  const savedVideoCue = (window.allSubtitlesCache || []).find(cue =>
+    cue.videoSrc && String(cue.en || '').trim().toLowerCase() === wantedSentence
+  );
+  if (savedVideoCue) {
+    const videoSource = {
+      audio: savedVideoCue.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'),
+      sourceType: 'video',
+      videoSrc: savedVideoCue.videoSrc,
+      startTime: Number(savedVideoCue.start ?? savedVideoCue.time),
+      endTime: Number(savedVideoCue.end)
+    };
+    const list = getPracticeSentences();
+    if (list[favoritePracticeState.index]) {
+      Object.assign(list[favoritePracticeState.index], videoSource);
+      setPracticeSentences(list);
+      favoritePracticeState.item = list[favoritePracticeState.index];
+    }
+    if (playFavoriteAudioSegment(videoSource)) return;
+  }
+
+  const source = await resolveFavoriteSentenceAudio(favoritePracticeState);
+  if (source) {
+    const list = getPracticeSentences();
+    if (list[favoritePracticeState.index]) {
+      Object.assign(list[favoritePracticeState.index], source);
+      setPracticeSentences(list);
+      favoritePracticeState.item = list[favoritePracticeState.index];
+    }
+    if (playFavoriteAudioSegment(source)) return;
+  }
   speakTextSafely(favoritePracticeState.answer, { lang: 'en-US' });
 }
 
@@ -9678,6 +9912,17 @@ function closeFavoritePractice(event) {
   const overlay = document.getElementById('favoritePracticeOverlay');
   if (event && event.target !== overlay) return;
   overlay.style.display = 'none';
+  overlay.classList.remove('keyboard-open');
+  overlay.style.removeProperty('--favorite-viewport-height');
+  overlay.style.removeProperty('--favorite-viewport-top');
+  if (favoritePracticeAudio) {
+    favoritePracticeAudio.pause();
+    favoritePracticeAudio.currentTime = 0;
+  }
+  if (favoritePracticeAudioTimer) {
+    clearTimeout(favoritePracticeAudioTimer);
+    favoritePracticeAudioTimer = null;
+  }
   favoritePracticeState = null;
 }
 
