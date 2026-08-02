@@ -709,6 +709,16 @@
   .header-back-btn:hover{
     background:color-mix(in srgb, var(--color-back-button) 40%, transparent);
   }
+  @media (max-width: 600px) {
+    #videoPage .secondary-title {
+      max-width: calc(100% - 52px);
+      font-size: 15px;
+      line-height: 1.3;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
   html.light .header-back-btn{
     background:color-mix(in srgb, var(--color-back-button) 12%, transparent);
   }
@@ -4415,7 +4425,7 @@ async function discoverNumberedVideoGroup(groupName) {
         img: `${base}.webp`,
         vid: `${base}.mp4`,
         title: `${groupName === 'drama' ? 'Drama' : 'GT'} ${assetNumber}`,
-        audio: `${base}.mp3`,
+        audio: `${base}.mp4`,
         sub: `${base}.vtt`
       };
     });
@@ -4429,9 +4439,8 @@ async function discoverNumberedVideoGroup(groupName) {
       if (consecutiveMisses >= 5) break;
       continue;
     }
-    const [img, audio, sub] = await Promise.all([
+    const [img, sub] = await Promise.all([
       resolveAsset([`${base}.webp`, `${base}.jpg`, `${base}.png`]),
-      resolveAsset([`${base}.mp3`, `${base}.m4a`, `${base}.wav`, `${base}.aac`, `${base}.ogg`]),
       resolveAsset([`${base}.vtt`])
     ]);
     if (!img) {
@@ -4444,7 +4453,7 @@ async function discoverNumberedVideoGroup(groupName) {
       img,
       vid,
       title: `${groupName === 'drama' ? 'Drama' : 'GT'} ${index}`,
-      audio: audio || `${base}.mp3`,
+      audio: vid,
       sub: sub || `${base}.vtt`
     });
   }
@@ -4641,7 +4650,7 @@ async function resolveSharedVideoAssets(inputName) {
     base,
     img: await resolveAsset(imgCandidates),
     vid: await resolveAsset(vidCandidates),
-    audio: `${assetBase}.mp3`,
+    audio: await resolveAsset(vidCandidates),
     sub: `${assetBase}.vtt`
   };
 }
@@ -5101,7 +5110,8 @@ async function buildVideoDictationArticle(item, sourceName) {
   const base = getBaseNameFromInput(item.vid || item.audio || item.sub || '');
   if (!base) return null;
 
-  const audio = item.audio || `${base}.mp3`;
+  // 视频本身已包含音轨；默写和收藏直接复用视频，避免维护重复的 MP3。
+  const audio = item.vid || item.videoSrc || item.audio || `${base}.mp4`;
   const sub = item.sub || `${base}.vtt`;
   try {
     const cues = await loadVttCuesCached(sub);
@@ -5940,7 +5950,7 @@ document.addEventListener("click", e => {
         : subtitles[subtitleIndex];
       const sourceAudio = document.getElementById('bbcDetailPage').classList.contains('active')
         ? (currentNewsItem && currentNewsItem.audio)
-        : (getCurrentVideoInfo().audio || currentVideoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'));
+        : currentVideoSrc;
       const sourceSub = document.getElementById('bbcDetailPage').classList.contains('active')
         ? (currentNewsItem && currentNewsItem.sub)
         : (getCurrentVideoInfo().sub || currentVideoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.vtt'));
@@ -10056,7 +10066,7 @@ async function resolveFavoriteSentenceAudio(state) {
   if (saved && saved.sourceType === 'video' && saved.videoSrc && Number.isFinite(saved.startTime)) {
     return {
       ...saved,
-      audio: saved.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3')
+      audio: saved.videoSrc
     };
   }
   if (saved && saved.audio && Number.isFinite(saved.startTime)) return saved;
@@ -10068,7 +10078,7 @@ async function resolveFavoriteSentenceAudio(state) {
   );
   if (cachedCue && cachedCue.videoSrc) {
     return {
-      audio: cachedCue.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'),
+      audio: cachedCue.videoSrc,
       sourceType: 'video',
       videoSrc: cachedCue.videoSrc,
       startTime: Number(cachedCue.start ?? cachedCue.time),
@@ -10139,7 +10149,7 @@ async function playFavoritePracticeAudio() {
   if (saved.sourceType === 'video' && saved.videoSrc && Number.isFinite(saved.startTime)) {
     if (playFavoriteAudioSegment({
       ...saved,
-      audio: saved.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3')
+      audio: saved.videoSrc
     })) return;
   }
   if (saved.audio && Number.isFinite(saved.startTime)) {
@@ -10151,7 +10161,7 @@ async function playFavoritePracticeAudio() {
   );
   if (savedVideoCue) {
     const videoSource = {
-      audio: savedVideoCue.videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'),
+      audio: savedVideoCue.videoSrc,
       sourceType: 'video',
       videoSrc: savedVideoCue.videoSrc,
       startTime: Number(savedVideoCue.start ?? savedVideoCue.time),
@@ -10943,6 +10953,16 @@ function deleteVoice(e, btn) {
 (function(){
   document.querySelectorAll('img.speaker-icon-fb').forEach(function(img){
     img.onerror = function(){ fallbackImageFormat(this); };
+  });
+})();
+
+// 首次访问后按需缓存已加载的图片、字幕、音频和视频；不支持时保持原有联网模式。
+(function registerOfflineCache() {
+  if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
+  window.addEventListener('load', function () {
+    navigator.serviceWorker.register('./sw.js').catch(function (error) {
+      console.warn('离线缓存未启用：', error);
+    });
   });
 })();
 </script>
