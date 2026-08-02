@@ -3008,8 +3008,6 @@ function fallbackImageFormat(img) {
 
 <div class="word-popup" id="wordPopup"></div>
 
-<button class="admin-login-btn" id="adminLoginBtn" onclick="toggleManagementMode()">管理</button>
-
 <div id="mainPage" class="page active">
   <div class="header">
     <img src="logo.webp" class="logo" onerror="fallbackImageFormat(this)">
@@ -3986,7 +3984,7 @@ function applySiteColorConfig(lightMode = document.documentElement.classList.con
 
 (async function loadSiteColorConfig() {
   try {
-    const response = await fetch(`${SITE_COLOR_CONFIG_URL}?${Date.now()}`);
+    const response = await fetch(SITE_COLOR_CONFIG_URL);
     if (!response.ok) throw new Error('颜色配置加载失败');
     siteColorConfig = await response.json();
     applySiteColorConfig();
@@ -4148,7 +4146,7 @@ function applySiteTextToDOM() {
 // 加载外链文字配置
 async function loadSiteText() {
   try {
-    const res = await fetch(SITE_TEXT_CONFIG_URL + '?t=' + Date.now());
+    const res = await fetch(SITE_TEXT_CONFIG_URL);
     if (res.ok) {
       const data = await res.json();
       // 深度合并到默认配置（保留默认值作为兜底）
@@ -4282,11 +4280,6 @@ function isAdminMode() {
 }
 function syncManagementUi() {
   document.body.classList.toggle('admin-on', deleteModeEnabled);
-  const btn = document.getElementById('adminLoginBtn');
-  if (btn) {
-    btn.innerText = deleteModeEnabled ? '完成' : '管理';
-    btn.classList.toggle('active', deleteModeEnabled);
-  }
 }
 function setDeleteMode(enabled) {
   deleteModeEnabled = Boolean(enabled);
@@ -4403,8 +4396,30 @@ function ignoreAutoAsset(path) {
   localStorage.setItem(getSharedStorageKey('ignoredAutoAssets'), JSON.stringify(Array.from(ignored)));
 }
 
+function sortAssetBasesNewestFirst(bases) {
+  return [...bases].sort((a, b) => {
+    const aNumber = Number((String(a).match(/(\d+)$/) || [0, 0])[1]);
+    const bNumber = Number((String(b).match(/(\d+)$/) || [0, 0])[1]);
+    return bNumber - aNumber;
+  });
+}
+
 async function discoverNumberedVideoGroup(groupName) {
   const items = [];
+  const manifest = window.mediaMetadata && window.mediaMetadata._assets;
+  const listedBases = manifest && Array.isArray(manifest[groupName]) ? manifest[groupName] : null;
+  if (listedBases) {
+    return sortAssetBasesNewestFirst(listedBases).map(base => {
+      const assetNumber = Number((String(base).match(/(\d+)$/) || [0, 0])[1]);
+      return {
+        img: `${base}.webp`,
+        vid: `${base}.mp4`,
+        title: `${groupName === 'drama' ? 'Drama' : 'GT'} ${assetNumber}`,
+        audio: `${base}.mp3`,
+        sub: `${base}.vtt`
+      };
+    });
+  }
   let consecutiveMisses = 0;
   for (let index = 1; index <= 200; index++) {
     const base = getAutoAssetBase(groupName, index);
@@ -4433,11 +4448,27 @@ async function discoverNumberedVideoGroup(groupName) {
       sub: sub || `${base}.vtt`
     });
   }
-  return items;
+  return items.reverse();
 }
 
 async function discoverNumberedNews() {
   const items = [];
+  const manifest = window.mediaMetadata && window.mediaMetadata._assets;
+  const listedBases = manifest && Array.isArray(manifest.news) ? manifest.news : null;
+  if (listedBases) {
+    return sortAssetBasesNewestFirst(listedBases).map(base => {
+      const assetNumber = Number((String(base).match(/(\d+)$/) || [0, 0])[1]);
+      return {
+        name: `audio ${assetNumber}`,
+        time: '',
+        img: `${base}.webp`,
+        banner: `${base}.webp`,
+        audio: `${base}.mp3`,
+        sub: `${base}.vtt`,
+        content: ''
+      };
+    });
+  }
   let consecutiveMisses = 0;
   for (let index = 1; index <= 200; index++) {
     const base = getAutoAssetBase('news', index);
@@ -4467,11 +4498,19 @@ async function discoverNumberedNews() {
       content: ''
     });
   }
-  return items;
+  return items.reverse();
 }
 
 async function discoverNumberedVoices() {
   const items = [];
+  const manifest = window.mediaMetadata && window.mediaMetadata._assets;
+  const listedBases = manifest && Array.isArray(manifest.voice) ? manifest.voice : null;
+  if (listedBases) {
+    return sortAssetBasesNewestFirst(listedBases).map(base => {
+      const assetNumber = Number((String(base).match(/(\d+)$/) || [0, 0])[1]);
+      return { name: `voice ${assetNumber}`, file: `${base}.mp3`, duration: '' };
+    });
+  }
   let consecutiveMisses = 0;
   for (let index = 1; index <= 200; index++) {
     const base = getAutoAssetBase('voice', index);
@@ -4486,7 +4525,7 @@ async function discoverNumberedVoices() {
     consecutiveMisses = 0;
     items.push({ name: `voice ${index}`, file, duration: '' });
   }
-  return items;
+  return items.reverse();
 }
 
 function applyAutoAssetMetadata(items, identityField) {
@@ -4584,9 +4623,8 @@ function loadContentForPage(pageId) {
   if (pageId === 'articleWritePage' || pageId === 'sentenceWritePage') {
     return ensureLearningSourcesLoaded();
   }
-  if (pageId === 'oilPage' || pageId.startsWith('cet4') || pageId.startsWith('cet6')) {
-    return ensureWordLibrary();
-  }
+  if (pageId.startsWith('cet4')) return ensureWordLibrary('cet4');
+  if (pageId.startsWith('cet6')) return ensureWordLibrary('cet6');
   return Promise.resolve();
 }
 
@@ -4894,7 +4932,7 @@ function initTheme() {
 // 答题错误调用
 // playWrongSound()
 
-let _wordLibPromise = null;
+const _wordLibPromises = {};
 
 // CET 词库历史上同时存在「按单词索引的对象」和「单词数组」两种格式。
 // 统一转成小写单词索引，保证字幕高亮、点击查询和练习页使用同一份结构。
@@ -4913,41 +4951,31 @@ function normalizeWordDictionary(data, defaultType) {
   return normalized;
 }
 
-function ensureWordLibrary() {
-  if (!_wordLibPromise) {
-    _wordLibPromise = (async () => {
-      const allWords = {};
-      // 三份词库并行加载，单个失败不阻塞其他词库。
-      const [cet4Data, cet6Data, vocabulary] = await Promise.all([
-        fetch("cet4.json").then(r => r.ok ? r.json() : null).catch(() => null),
-        fetch("cet6.json").then(r => r.ok ? r.json() : null).catch(() => null),
-        fetch("vocabulary.json").then(r => r.ok ? r.json() : null).catch(() => null)
-      ]);
-      if (cet4Data) {
-        cet4Words = normalizeWordDictionary(cet4Data, "cet4");
-        for (let w in cet4Words) allWords[w] = { ...cet4Words[w], type: "cet4" };
-        console.log("✅ CET4词库加载完成: " + Object.keys(cet4Words).length + "词");
-      } else {
-        console.log("⚠️ CET4词库加载失败");
-      }
-      if (cet6Data) {
-        cet6Words = normalizeWordDictionary(cet6Data, "cet6");
-        for (let w in cet6Words) allWords[w] = { ...cet6Words[w], type: "cet6" };
-        console.log("✅ CET6词库加载完成: " + Object.keys(cet6Words).length + "词");
-      } else {
-        console.log("⚠️ CET6词库加载失败");
-      }
-      if (vocabulary) {
-        for (let w in vocabulary) allWords[w] = { ...vocabulary[w], type: "vocabulary" };
-        console.log("✅ 词汇书加载完成: " + Object.keys(vocabulary).length + "词");
-      } else {
-        console.log("⚠️ 词汇书加载失败（如未使用可忽略）");
-      }
-      wordLibrary = allWords;
-      _wordFormCache = null; console.log("✅ 词库加载完成，共 " + Object.keys(wordLibrary).length + " 词");
-    })();
-  }
-  return _wordLibPromise;
+function loadWordLibraryPart(type) {
+  if (_wordLibPromises[type]) return _wordLibPromises[type];
+  const file = type === 'cet4' ? 'cet4.json' : type === 'cet6' ? 'cet6.json' : 'vocabulary.json';
+  _wordLibPromises[type] = fetch(file)
+    .then(r => r.ok ? r.json() : null)
+    .then(data => {
+      if (!data) return;
+      if (type === 'cet4') cet4Words = normalizeWordDictionary(data, type);
+      if (type === 'cet6') cet6Words = normalizeWordDictionary(data, type);
+      const words = type === 'cet4' ? cet4Words : type === 'cet6' ? cet6Words : data;
+      for (const word in words) wordLibrary[word] = { ...words[word], type };
+      _wordFormCache = null;
+      console.log(`✅ ${type} 词库加载完成: ${Object.keys(words).length}词`);
+    })
+    .catch(() => console.warn(`⚠️ ${type} 词库加载失败`));
+  return _wordLibPromises[type];
+}
+
+function ensureWordLibrary(type) {
+  if (type === 'cet4' || type === 'cet6') return loadWordLibraryPart(type);
+  return Promise.all([
+    loadWordLibraryPart('cet4'),
+    loadWordLibraryPart('cet6'),
+    loadWordLibraryPart('vocabulary')
+  ]);
 }
 function loadWordLibrary() { return ensureWordLibrary(); }
 
@@ -5997,9 +6025,6 @@ function showPage(id) {
   const themeBtn = document.getElementById('themeToggle');
   if (themeBtn) themeBtn.style.display = id === 'mainPage' ? 'grid' : 'none';
 
-  const adminBtn = document.getElementById('adminLoginBtn');
-  const managementPages = ['mainPage', 'dramaPage', 'TrendingPage', 'videoPage', 'bbcPage', 'bbcDetailPage'];
-  if (adminBtn) adminBtn.style.display = managementPages.includes(id) ? 'block' : 'none';
 }
 
 async function addNewVideoCard() {

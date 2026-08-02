@@ -1,4 +1,10 @@
 {
+  "_assets": {
+    "drama": ["Drama/Drama1", "Drama/Drama2"],
+    "gt": ["GT/gt1", "GT/gt2"],
+    "news": ["audio/audio1", "audio/audio2"],
+    "voice": ["voice/voice1", "voice/voice2", "voice/voice3", "voice/voice4", "voice/voice5", "voice/voice6", "voice/voice7", "voice/voice8"]
+  },
   "Drama/Drama1.mp4": {
     "title": "Exploring the Unknown with Wang Yibo 1-1"
   },
