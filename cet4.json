@@ -622,20 +622,6 @@
     "meaning": "（adj.）害怕的；恐怕；担心的",
     "audio": "audio_small/a/afraid.mp3"
   },
-  "after": {
-    "word": "after",
-    "type": "cet4",
-    "phonetic": "/ˈæftər/",
-    "meaning": "（prep.）在……之后；在……身后；反复；跟随；追求；以……命名（conj.）在……之后（adv.）后来，以后（adj.）后来的，以后的；后部的",
-    "audio": "audio_small/a/after.mp3"
-  },
-  "afternoon": {
-    "word": "afternoon",
-    "type": "cet4",
-    "phonetic": "/ˌæftərˈnuːn/",
-    "meaning": "（n.）午后，下午",
-    "audio": "audio_small/a/afternoon.mp3"
-  },
   "afterward": {
     "word": "afterward",
     "type": "cet4",
@@ -2882,13 +2868,6 @@
     "phonetic": "/bɑːks/",
     "meaning": "（n.）盒子,箱,包厢,岗亭,一拳（v.）装...入盒中,打耳光,拳击",
     "audio": "audio_small/b/box.mp3"
-  },
-  "boy": {
-    "word": "boy",
-    "type": "cet4",
-    "phonetic": "/bɔɪ/",
-    "meaning": "（n.）男孩；男人",
-    "audio": "audio_small/b/boy.mp3"
   },
   "brain": {
     "word": "brain",
@@ -7650,6 +7629,20 @@
     "meaning": "（n.）文件，公文；[计] 文档；证件（vt.）记录，记载",
     "audio": "audio_small/d/document.mp3"
   },
+  "documentary": {
+    "word": "documentary",
+    "type": "cet4",
+    "phonetic": "/ˌdɒkjuˈmentri/",
+    "meaning": "(n.)纪录片；纪实节目 (adj.)纪实的；文件的，文书的",
+    "audio": "audio_small/d/documentary.mp3"
+  },
+  "docuseries": {
+   "word": "docuseries",
+    "type": "cet4",
+    "phonetic": "/ˈdɒkjuˌsɪəriːz/",
+    "meaning": "(n.)纪实连续剧；系列纪录片",
+    "audio": "audio_small/d/docuseries.mp3"
+  },
   "dog": {
     "word": "dog",
     "type": "cet4",
@@ -8713,6 +8706,13 @@
     "phonetic": "/ˌentərˈteɪn/",
     "meaning": "（vt.）娱乐；招待；怀抱；容纳（vi.）款待",
     "audio": "audio_small/e/entertain.mp3"
+  },
+  "entertainer": {
+    "word": "entertainer",
+    "type": "cet4",
+    "phonetic": "/ˌentəˈteɪnə(r)/",
+    "meaning": "(n.)表演者；艺人；款待者",
+    "audio": "audio_small/e/entertainer.mp3"
   },
   "enthusiasm": {
     "word": "enthusiasm",
@@ -10674,13 +10674,6 @@
     "meaning": "（adj.）坦白的，直率的；老实的（n.）免费邮寄特权（vt.）免费邮寄",
     "audio": "audio_small/f/frank.mp3"
   },
-  "free": {
-    "word": "free",
-    "type": "cet4",
-    "phonetic": "/friː/",
-    "meaning": "（adj.）免费的；自由的，不受约束的；[化学] 游离的（vt.）使自由，解放；释放（adv.）自由地；免费",
-    "audio": "audio_small/f/free.mp3"
-  },
   "freedom": {
     "word": "freedom",
     "type": "cet4",
@@ -11226,13 +11219,6 @@
     "phonetic": "/ˈdʒestʃər/",
     "meaning": "（n.）姿态；手势（vi.）作手势；用动作示意（vt.）用动作表示",
     "audio": "audio_small/g/gesture.mp3"
-  },
-  "get": {
-    "word": "get",
-    "type": "cet4",
-    "phonetic": "/ɡet/",
-    "meaning": "（vt.）使得；获得；受到；变成（n.）生殖；幼兽（vi.）成为；变得；到达",
-    "audio": "audio_small/g/get.mp3"
   },
   "ghost": {
     "word": "ghost",
@@ -12326,26 +12312,12 @@
     "meaning": "（n.）地狱,苦境,阴间,地狱中的人,训斥（vi.）狂饮,飞驰（int.）该死!",
     "audio": "audio_small/h/hell.mp3"
   },
-  "hello": {
-    "word": "hello",
-    "type": "cet4",
-    "phonetic": "/həˈləʊ/",
-    "meaning": "（int.）喂；哈罗，你好，您好（表示问候， 惊奇或唤起注意时的用语）",
-    "audio": "audio_small/h/hello.mp3"
-  },
   "helmet": {
     "word": "helmet",
     "type": "cet4",
     "phonetic": "/ˈhelmɪt/",
     "meaning": "（n.）钢盔，头盔",
     "audio": "audio_small/h/helmet.mp3"
-  },
-  "help": {
-    "word": "help",
-    "type": "cet4",
-    "phonetic": "/help/",
-    "meaning": "（vt.）帮助；促进；治疗；补救（n.）帮助；补救办法；帮忙者；有益的东西（vi.）帮助；有用；招待",
-    "audio": "audio_small/h/help.mp3"
   },
   "helpful": {
     "word": "helpful",
@@ -12711,13 +12683,6 @@
     "meaning": "（n.）家庭主妇",
     "audio": "audio_small/h/housewife.mp3"
   },
-  "how": {
-    "word": "how",
-    "type": "cet4",
-    "phonetic": "/haʊ/",
-    "meaning": "（adv.）如何；多少；多么（n.）方法；方式（conj.）如何",
-    "audio": "audio_small/h/how.mp3"
-  },
   "however": {
     "word": "however",
     "type": "cet4",
@@ -12864,13 +12829,6 @@
     "phonetic": "/ˈaɪdl/",
     "meaning": "（adj.）闲置的；懒惰的；停顿的（vi.）无所事事；虚度；空转（vt.）虚度；使空转",
     "audio": "audio_small/i/idle.mp3"
-  },
-  "if": {
-    "word": "if",
-    "type": "cet4",
-    "phonetic": "/ɪf/",
-    "meaning": "（conj.）(表条件)如果,(表假设)要是,是否,即使（n.）条件,设想",
-    "audio": "audio_small/i/if.mp3"
   },
   "ignorant": {
     "word": "ignorant",
@@ -15021,6 +14979,13 @@
     "meaning": "（n.）生活，生存；寿命",
     "audio": "audio_small/l/life.mp3"
   },
+  "lifestyle": {
+    "word": "lifestyle",
+    "type": "cet4",
+    "phonetic": "/ˈlaɪfstaɪl/",
+    "meaning": "(n.)生活方式；生活风尚",
+    "audio": "audio_small/l/lifestyle.mp3"
+  },
   "lifetime": {
     "word": "lifetime",
     "type": "cet4",
@@ -16862,13 +16827,6 @@
     "meaning": "（n.）电影；电影院；电影业（adj.）电影的",
     "audio": "audio_small/m/movie.mp3"
   },
-  "much": {
-    "word": "much",
-    "type": "cet4",
-    "phonetic": "/mʌtʃ/",
-    "meaning": "（adv.）非常，很（adj.）大量的（n.）许多，大量（pron.）许多，大量",
-    "audio": "audio_small/m/much.mp3"
-  },
   "mud": {
     "word": "mud",
     "type": "cet4",
@@ -17330,13 +17288,6 @@
     "phonetic": "/ˌnevərðəˈles/",
     "meaning": "（adv.）然而，不过；虽然如此",
     "audio": "audio_small/n/nevertheless.mp3"
-  },
-  "new": {
-    "word": "new",
-    "type": "cet4",
-    "phonetic": "/nuː/",
-    "meaning": "（adj.）新的，新鲜的；更新的；初见的（adv.）新近",
-    "audio": "audio_small/n/new.mp3"
   },
   "newly": {
     "word": "newly",
@@ -17905,12 +17856,12 @@
     "meaning": "（adj.）官方的；正式的；公务的（n.）官员；公务员；高级职员",
     "audio": "audio_small/o/official.mp3"
   },
-  "often": {
-    "word": "often",
+  "officially": {
+    "word": "officially",
     "type": "cet4",
-    "phonetic": "/ˈɔːfn,ˈɔː(cid:332)ən/",
-    "meaning": "（adv.）常常，时常；往往，大多",
-    "audio": "audio_small/o/often.mp3"
+    "phonetic": "/əˈfɪʃəli/",
+    "meaning": "(adv.)正式地；官方地；据称（表面上）",
+    "audio": "audio_small/o/officially.mp3"
   },
   "oil": {
     "word": "oil",
@@ -17925,20 +17876,6 @@
     "phonetic": "/əˈmɪt/",
     "meaning": "（vt.）省略；遗漏；删除；疏忽",
     "audio": "audio_small/o/omit.mp3"
-  },
-  "once": {
-    "word": "once",
-    "type": "cet4",
-    "phonetic": "/wʌns/",
-    "meaning": "（adv.）一次；曾经（conj.）一旦（n.）一次，一回",
-    "audio": "audio_small/o/once.mp3"
-  },
-  "oneself": {
-    "word": "oneself",
-    "type": "cet4",
-    "phonetic": "/wʌnˈself/",
-    "meaning": "（pron.）自己；亲自；（不受他人影响的）自己",
-    "audio": "audio_small/o/oneself.mp3"
   },
   "onion": {
     "word": "onion",
@@ -19823,6 +19760,13 @@
     "meaning": "（adj.）有希望的，有前途的（v.）许诺，答应（promise的现在分词形式）",
     "audio": "audio_small/p/promising.mp3"
   },
+  "showcase": {
+    "word": "showcase",
+    "type": "cet4",
+    "phonetic": "/ˈʃəʊkeɪs/",
+    "meaning": "(n.)玻璃陈列柜；展示场合，典范 (vt.)展示，展现，推介",
+    "audio": "audio_small/s/showcase.mp3"
+  },
   "promote": {
     "word": "promote",
     "type": "cet4",
@@ -19836,6 +19780,13 @@
     "phonetic": "/prɑːmpt/",
     "meaning": "（n.）提示,付款期限（vt.）提示,鼓动,促使,(给演员)提白（adj.）敏捷的,迅速的,即时的（adv.）准时地",
     "audio": "audio_small/p/prompt.mp3"
+  },
+  "promotion": {
+    "word": "promotion",
+    "type": "cet4",
+    "phonetic": "/prəˈməʊʃn/",
+    "meaning": "(n.)提升，晋升；推广，宣传；促销活动；促进，推动",
+    "audio": "audio_small/p/promotion.mp3"
   },
   "pronoun": {
     "word": "pronoun",
@@ -22770,13 +22721,6 @@
     "meaning": "（vt.）旋，拧；压榨；强迫（n.）螺旋；螺丝钉；吝啬鬼（vi.）转动，拧",
     "audio": "audio_small/s/screw.mp3"
   },
-  "sea": {
-    "word": "sea",
-    "type": "cet4",
-    "phonetic": "/siː/",
-    "meaning": "（n.）海；海洋；许多；大量",
-    "audio": "audio_small/s/sea.mp3"
-  },
   "seal": {
     "word": "seal",
     "type": "cet4",
@@ -23736,20 +23680,6 @@
     "meaning": "（adj.）真诚的；诚挚的；真实的",
     "audio": "audio_small/s/sincere.mp3"
   },
-  "sing": {
-    "word": "sing",
-    "type": "cet4",
-    "phonetic": "/sɪŋ/",
-    "meaning": "（vi.）唱歌；歌颂；鸣叫；呼号（vt.）唱；用诗赞颂；唱着使（n.）演唱；鸣声；呼啸声",
-    "audio": "audio_small/s/sing.mp3"
-  },
-  "singer": {
-    "word": "singer",
-    "type": "cet4",
-    "phonetic": "/ˈsɪŋər/",
-    "meaning": "（n.）歌手，歌唱家",
-    "audio": "audio_small/s/singer.mp3"
-  },
   "single": {
     "word": "single",
     "type": "cet4",
@@ -23805,13 +23735,6 @@
     "phonetic": "/ˌsɪtʃuˈeɪʃn/",
     "meaning": "（n.）情况；形势；处境；位置",
     "audio": "audio_small/s/situation.mp3"
-  },
-  "six": {
-    "word": "six",
-    "type": "cet4",
-    "phonetic": "/sɪks/",
-    "meaning": "（num.）数字6；六个；六个人（或物）一组；六岁；六点钟",
-    "audio": "audio_small/s/six.mp3"
   },
   "sixteen": {
     "word": "sixteen",
@@ -24358,27 +24281,6 @@
     "phonetic": "/ˈsʌmwer/",
     "meaning": "（adv.）在某处；到某处（n.）某个地方",
     "audio": "audio_small/s/somewhere.mp3"
-  },
-  "son": {
-    "word": "son",
-    "type": "cet4",
-    "phonetic": "/sʌn/",
-    "meaning": "（n.）儿子；孩子（对年轻人的称呼）；男性后裔",
-    "audio": "audio_small/s/son.mp3"
-  },
-  "song": {
-    "word": "song",
-    "type": "cet4",
-    "phonetic": "/sɔŋ/",
-    "meaning": "（n.）歌曲；歌唱；诗歌；鸣声",
-    "audio": "audio_small/s/song.mp3"
-  },
-  "soon": {
-    "word": "soon",
-    "type": "cet4",
-    "phonetic": "/suːn/",
-    "meaning": "（adv.）快；不久，一会儿；立刻；宁愿",
-    "audio": "audio_small/s/soon.mp3"
   },
   "sophisticated": {
     "word": "sophisticated",
@@ -25682,13 +25584,6 @@
     "meaning": "（adj.）连续的；继承的；依次的；接替的",
     "audio": "audio_small/s/successive.mp3"
   },
-  "such": {
-    "word": "such",
-    "type": "cet4",
-    "phonetic": "/sʌtʃ/",
-    "meaning": "（adj.）这样的，如此的（pron.）这样的，类似的",
-    "audio": "audio_small/s/such.mp3"
-  },
   "suck": {
     "word": "suck",
     "type": "cet4",
@@ -25801,33 +25696,12 @@
     "meaning": "（n.）夏季；全盛时期（vi.）避暑；过夏天（adj.）夏季的",
     "audio": "audio_small/s/summer.mp3"
   },
-  "sun": {
-    "word": "sun",
-    "type": "cet4",
-    "phonetic": "/sʌn/",
-    "meaning": "（n.）太阳（vt.）使晒（vi.）晒太阳",
-    "audio": "audio_small/s/sun.mp3"
-  },
-  "sunday": {
-    "word": "sunday",
-    "type": "cet4",
-    "phonetic": "/'sʌndi/",
-    "meaning": "（n.）星期日；礼拜日",
-    "audio": "audio_small/s/sunday.mp3"
-  },
   "sunlight": {
     "word": "sunlight",
     "type": "cet4",
     "phonetic": "/ˈsʌnlaɪt/",
     "meaning": "（n.）日光",
     "audio": "audio_small/s/sunlight.mp3"
-  },
-  "sunny": {
-    "word": "sunny",
-    "type": "cet4",
-    "phonetic": "/ˈsʌni/",
-    "meaning": "（adj.）阳光充足的，和煦的；快活的；性情开朗的",
-    "audio": "audio_small/s/sunny.mp3"
   },
   "sunrise": {
     "word": "sunrise",
@@ -26309,7 +26183,7 @@
     "word": "target",
     "type": "cet4",
     "phonetic": "/ˈtɑːrɡɪt/",
-    "meaning": "（n.）目标，指标；（攻击的）对象；靶子（v.）把...作为目标；面向，对准（某群体）（n.）（Target）美国塔吉特公司",
+    "meaning": "（n.）目标，指标；（攻击的）对象；靶子（v.）把...作为目标；面向，对准（某群体）",
     "audio": "audio_small/t/target.mp3"
   },
   "task": {
@@ -26829,13 +26703,6 @@
     "phonetic": "/ˈθretn/",
     "meaning": "（vt.）威胁；恐吓；预示（vi.）威胁；可能来临",
     "audio": "audio_small/t/threaten.mp3"
-  },
-  "three": {
-    "word": "three",
-    "type": "cet4",
-    "phonetic": "/θriː/",
-    "meaning": "（n.）三，三个（num.）三（adj.）三的，三个的",
-    "audio": "audio_small/t/three.mp3"
   },
   "thrill": {
     "word": "thrill",
@@ -27698,6 +27565,13 @@
     "meaning": "（n.）管；电子管；隧道；电视机（vt.）使成管状；把…装管；用管输送（vi.）乘地铁；不及格",
     "audio": "audio_small/t/tube.mp3"
   },
+  "uber": {
+    "word": "uber",
+    "type": "cet4",
+    "phonetic": "/ˈuːbə(r)/",
+    "meaning": "(prefix.)超级，极度；(n.)优步（网约车平台）",
+    "audio": "audio_small/u/uber.mp3"
+  },
   "tuck": {
     "word": "tuck",
     "type": "cet4",
@@ -27943,12 +27817,12 @@
     "meaning": "（adj.）无把握的；多变的；不确定的；信心不足的；靠不住的",
     "audio": "audio_small/u/uncertain.mp3"
   },
-  "uncle": {
-    "word": "uncle",
+  "unfamiliar": {
+    "word": "unfamiliar",
     "type": "cet4",
-    "phonetic": "/ˈʌŋkl/",
-    "meaning": "（n.）叔叔；伯父；伯伯；舅父；姨丈；姑父",
-    "audio": "audio_small/u/uncle.mp3"
+    "phonetic": "/ˌʌnfəˈmɪliə(r)/",
+    "meaning": "(adj.)不熟悉的；陌生的；不熟知的",
+    "audio": "audio_small/u/unfamiliar.mp3"
   },
   "uncomfortable": {
     "word": "uncomfortable",
@@ -27963,6 +27837,13 @@
     "phonetic": "/ʌnˈkɑːnʃəs/",
     "meaning": "（adj.）无意识的；失去知觉的；不省人事的；未发觉的",
     "audio": "audio_small/u/unconscious.mp3"
+  },
+  "unveil": {
+    "word": "unveil",
+    "type": "cet4",
+    "phonetic": "/ʌnˈveɪl/",
+    "meaning": "(v.)揭去…的面纱；为…揭幕；公布，推出；揭露",
+    "audio": "audio_small/u/unveil.mp3"
   },
   "uncover": {
     "word": "uncover",
@@ -29910,33 +29791,12 @@
     "meaning": "（v.）出产（产品或作物）；产出（效果、收益等）；生息；屈服；放弃；停止争论；给（车辆）让路；（在外力、重压等下）屈曲（n.）产量；利润，红利率",
     "audio": "audio_small/y/yield.mp3"
   },
-  "you": {
-    "word": "you",
-    "type": "cet4",
-    "phonetic": "/jə,juː/",
-    "meaning": "（pron.）你；你们",
-    "audio": "audio_small/y/you.mp3"
-  },
   "young": {
     "word": "young",
     "type": "cet4",
     "phonetic": "/jʌŋ/",
     "meaning": "（adj.）年轻的；初期的；没有经验的（n.）年轻人；（动物的）崽，仔",
     "audio": "audio_small/y/young.mp3"
-  },
-  "your": {
-    "word": "your",
-    "type": "cet4",
-    "phonetic": "/jʊr,jər/",
-    "meaning": "（pron.）你的，你们的",
-    "audio": "audio_small/y/your.mp3"
-  },
-  "yourself": {
-    "word": "yourself",
-    "type": "cet4",
-    "phonetic": "/jɔːˈself/",
-    "meaning": "（pron.）你自己",
-    "audio": "audio_small/y/yourself.mp3"
   },
   "youth": {
     "word": "youth",
