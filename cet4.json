@@ -1893,7 +1893,7 @@
     "word": "back",
     "type": "cet4",
     "phonetic": "/bæk/",
-    "meaning": "（adj.）后面的,在后面,早过去的,前(欠)的钱（adv.）向后地（n.）背部,后面（v.）后退,支持",
+    "meaning": "（adj.）后面的；后部的（adv.）返回；回来（n.）背部,后面（v.）倒车,后退,支持",
     "audio": "audio_small/b/back.mp3"
   },
   "background": {
@@ -1917,13 +1917,6 @@
     "meaning": "（n.）[微] 细菌",
     "audio": "audio_small/b/bacteria.mp3"
   },
-  "bad": {
-    "word": "bad",
-    "type": "cet4",
-    "phonetic": "/bæd/",
-    "meaning": "（adj.）坏的；严重的；劣质的（n.）坏事；坏人（adv.）很，非常；坏地；邪恶地",
-    "audio": "audio_small/b/bad.mp3"
-  },
   "badly": {
     "word": "badly",
     "type": "cet4",
@@ -1942,7 +1935,7 @@
     "word": "bag",
     "type": "cet4",
     "phonetic": "/bæɡ/",
-    "meaning": "（n.）包；袋；猎获物；（俚）一瓶啤酒（vt.）猎获；把…装入袋中；放弃；得分；占据，私吞；使膨大；毁掉（vi.）松垂；变形",
+    "meaning": "（n.）包；袋；猎获物；（vt.）猎获；把…装入袋中；得分；占据，私吞；使膨大；毁掉（vi.）松垂；变形",
     "audio": "audio_small/b/bag.mp3"
   },
   "baggage": {
@@ -3365,13 +3358,6 @@
     "phonetic": "/baɪ/",
     "meaning": "（vt.）购买；买得起；获得；贿赂；相信（n.）购买；所购的物品；合算的东西",
     "audio": "audio_small/b/buy.mp3"
-  },
-  "by": {
-    "word": "by",
-    "type": "cet4",
-    "phonetic": "/baɪ/",
-    "meaning": "（prep.）由，被；通过；相差……；到……之前；在……旁边（adv.）经过；（时间）过去；在旁边；短暂访问（n.）（体育比赛）轮空晋级（adj.）旁边的，侧面的",
-    "audio": "audio_small/b/by.mp3"
   },
   "cabbage": {
     "word": "cabbage",
@@ -11416,20 +11402,6 @@
     "meaning": "（n.）高尔夫球；高尔夫球运动（vi.）打高尔夫球",
     "audio": "audio_small/g/golf.mp3"
   },
-  "good": {
-    "word": "good",
-    "type": "cet4",
-    "phonetic": "/ɡʊd/",
-    "meaning": "（adj.）好的；优良的；愉快的；虔诚的（n.）好处；善行；慷慨的行为（adv.）好",
-    "audio": "audio_small/g/good.mp3"
-  },
-  "goodbye": {
-    "word": "goodbye",
-    "type": "cet4",
-    "phonetic": "/ˌɡʊdˈbaɪ/",
-    "meaning": "（int.）再见；告别",
-    "audio": "audio_small/g/goodbye.mp3"
-  },
   "goodness": {
     "word": "goodness",
     "type": "cet4",
@@ -12192,13 +12164,6 @@
     "phonetic": "/ˈhæzərd/",
     "meaning": "（n.）冒险,危险,冒险的事（vt.）冒...的危险,赌运气,使遭危险",
     "audio": "audio_small/h/hazard.mp3"
-  },
-  "he": {
-    "word": "he",
-    "type": "cet4",
-    "phonetic": "/hi,iː,i,hiː/",
-    "meaning": "（pron.）他；（泛指的）人；上帝（n.）男性，男子；雄性动物",
-    "audio": "audio_small/h/he.mp3"
   },
   "head": {
     "word": "head",

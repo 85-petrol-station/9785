@@ -2257,20 +2257,6 @@ body.admin-on .bbc-del-btn {
   box-shadow: none !important;
   box-sizing: border-box;
 }
-body.admin-on [data-manage-title="true"] {
-  outline: 1px dashed color-mix(in srgb, var(--color-accent) 70%, transparent);
-  outline-offset: 1px;
-  cursor: text;
-  border-radius: 4px;
-}
-body.admin-on [data-manage-title="true"]:focus {
-  outline-style: solid;
-  background: color-mix(in srgb, var(--color-accent) 8%, transparent);
-}
-body.admin-on .news-list-time:empty::before {
-  content: '点击填写时间';
-  color: var(--color-text-secondary);
-}
 .news-list-title,
 .news-list-time {
   display: block;
@@ -4271,29 +4257,23 @@ function buildSharedContentPayload() {
   }
   return payload;
 }
-async function persistSharedContentToServer(payload = null) {
-  const metadata = {};
-  readSharedList('dramaVideos', []).forEach(item => {
-    if (item.vid) metadata[item.vid] = { title: item.title || '' };
-  });
-  readSharedList('gtVideos', []).forEach(item => {
-    if (item.vid) metadata[item.vid] = { title: item.title || '' };
-  });
-  readSharedList('bbcNewsList', []).forEach(item => {
-    if (item.audio) metadata[item.audio] = { name: item.name || '', time: item.time || '' };
-  });
-  localStorage.setItem('autoAssetMetadata', JSON.stringify(metadata));
+async function persistSharedContentToServer() {
+  // 纯静态模式：名称和时间只由 media-metadata.json 控制。
   return true;
 }
 async function loadRemoteContent() {
   window.remoteContentData = {};
-  if (localStorage.getItem('autoAssetMetadata') === null) {
-    await persistSharedContentToServer();
+  window.mediaMetadata = {};
+  try {
+    const response = await fetch('media-metadata.json', { cache: 'no-store' });
+    if (response.ok) {
+      const value = await response.json();
+      if (value && typeof value === 'object' && !Array.isArray(value)) window.mediaMetadata = value;
+    }
+  } catch (_) {
+    console.warn('media-metadata.json 加载失败，将显示自动生成的默认名称。');
   }
   return true;
-}
-async function exportSiteContentJson() {
-  await persistSharedContentToServer();
 }
 let deleteModeEnabled = false;
 
@@ -4302,10 +4282,6 @@ function isAdminMode() {
 }
 function syncManagementUi() {
   document.body.classList.toggle('admin-on', deleteModeEnabled);
-  document.querySelectorAll('[data-manage-title="true"]').forEach(element => {
-    element.contentEditable = deleteModeEnabled ? 'true' : 'false';
-    element.setAttribute('aria-label', deleteModeEnabled ? '点击修改名称' : '');
-  });
   const btn = document.getElementById('adminLoginBtn');
   if (btn) {
     btn.innerText = deleteModeEnabled ? '完成' : '管理';
@@ -4370,18 +4346,24 @@ function getFileExtension(raw) {
   return lastDot > 0 ? name.slice(lastDot + 1) : '';
 }
 
+const assetExistenceCache = new Map();
 async function assetExists(url) {
-  try {
-    const res = await fetch(url, { method: 'HEAD' });
-    if (res.ok) return true;
-    if (res.status === 405 || res.status === 403) {
-      const fallback = await fetch(url, { method: 'GET' });
-      return fallback.ok;
+  if (assetExistenceCache.has(url)) return assetExistenceCache.get(url);
+  const request = (async () => {
+    try {
+      const res = await fetch(url, { method: 'HEAD' });
+      if (res.ok) return true;
+      if (res.status === 405 || res.status === 403) {
+        const fallback = await fetch(url, { method: 'GET' });
+        return fallback.ok;
+      }
+      return false;
+    } catch (err) {
+      return false;
     }
-    return false;
-  } catch (err) {
-    return false;
-  }
+  })();
+  assetExistenceCache.set(url, request);
+  return request;
 }
 
 async function resolveAsset(candidates) {
@@ -4426,13 +4408,18 @@ async function discoverNumberedVideoGroup(groupName) {
   let consecutiveMisses = 0;
   for (let index = 1; index <= 200; index++) {
     const base = getAutoAssetBase(groupName, index);
-    const [img, vid, audio, sub] = await Promise.all([
+    const vid = await resolveAsset([`${base}.mp4`, `${base}.m4v`, `${base}.mov`, `${base}.webm`]);
+    if (!vid) {
+      consecutiveMisses++;
+      if (consecutiveMisses >= 5) break;
+      continue;
+    }
+    const [img, audio, sub] = await Promise.all([
       resolveAsset([`${base}.webp`, `${base}.jpg`, `${base}.png`]),
-      resolveAsset([`${base}.mp4`, `${base}.m4v`, `${base}.mov`, `${base}.webm`]),
       resolveAsset([`${base}.mp3`, `${base}.m4a`, `${base}.wav`, `${base}.aac`, `${base}.ogg`]),
       resolveAsset([`${base}.vtt`])
     ]);
-    if (!img || !vid) {
+    if (!img) {
       consecutiveMisses++;
       if (consecutiveMisses >= 5) break;
       continue;
@@ -4454,29 +4441,22 @@ async function discoverNumberedNews() {
   let consecutiveMisses = 0;
   for (let index = 1; index <= 200; index++) {
     const base = getAutoAssetBase('news', index);
-    const [audio, sub, banner] = await Promise.all([
-      resolveAsset([`${base}.mp3`, `${base}.m4a`, `${base}.wav`, `${base}.aac`, `${base}.ogg`]),
+    const audio = await resolveAsset([`${base}.mp3`, `${base}.m4a`, `${base}.wav`, `${base}.aac`, `${base}.ogg`]);
+    if (!audio) {
+      consecutiveMisses++;
+      if (consecutiveMisses >= 5) break;
+      continue;
+    }
+    const [sub, banner] = await Promise.all([
       resolveAsset([`${base}.vtt`]),
       resolveAsset([`${base}.webp`, `${base}.jpg`, `${base}.png`])
     ]);
-    if (!audio || !sub) {
+    if (!sub) {
       consecutiveMisses++;
       if (consecutiveMisses >= 5) break;
       continue;
     }
     consecutiveMisses = 0;
-    let content = '';
-    try {
-      const response = await fetch(sub);
-      if (response.ok) {
-        content = parseVtt(await response.text())
-          .map(item => [item.en, item.zh].filter(Boolean).join('\n'))
-          .filter(Boolean)
-          .join('\n\n');
-      }
-    } catch (err) {
-      console.warn('自动读取 NEWS 字幕失败:', sub, err);
-    }
     items.push({
       name: `audio ${index}`,
       time: '',
@@ -4484,7 +4464,7 @@ async function discoverNumberedNews() {
       banner: banner || 'logo.webp',
       audio,
       sub,
-      content
+      content: ''
     });
   }
   return items;
@@ -4510,7 +4490,7 @@ async function discoverNumberedVoices() {
 }
 
 function applyAutoAssetMetadata(items, identityField) {
-  const metadata = readLocalJson('autoAssetMetadata', {});
+  const metadata = window.mediaMetadata || {};
   items.forEach(item => {
     const saved = metadata[item[identityField]];
     if (!saved) return;
@@ -4533,6 +4513,81 @@ async function autoDiscoverNumberedAssets() {
   writeSharedList('bbcNewsList', applyAutoAssetMetadata(news, 'audio'));
   writeSharedList('voiceList', voices);
   return true;
+}
+
+const autoContentLoadPromises = {};
+
+function loadAutoContentGroup(group) {
+  if (autoContentLoadPromises[group]) return autoContentLoadPromises[group];
+  autoContentLoadPromises[group] = (async () => {
+    if (group === 'drama') {
+      const items = await discoverNumberedVideoGroup('drama');
+      writeSharedList('dramaVideos', applyAutoAssetMetadata(items, 'vid'));
+      renderDramaVideos();
+    } else if (group === 'gt') {
+      const items = await discoverNumberedVideoGroup('gt');
+      writeSharedList('gtVideos', applyAutoAssetMetadata(items, 'vid'));
+      renderGTVideos();
+    } else if (group === 'news') {
+      const items = await discoverNumberedNews();
+      writeSharedList('bbcNewsList', applyAutoAssetMetadata(items, 'audio'));
+      renderBbcNews();
+    } else if (group === 'voice') {
+      const items = await discoverNumberedVoices();
+      writeSharedList('voiceList', items);
+      renderVoiceList();
+    }
+  })().catch(error => {
+    delete autoContentLoadPromises[group];
+    console.warn(`自动加载 ${group} 资源失败:`, error);
+  });
+  return autoContentLoadPromises[group];
+}
+
+let learningSourcesPromise = null;
+async function hydrateNewsArticleContent() {
+  const list = readSharedList('bbcNewsList', []);
+  await Promise.all(list.map(async item => {
+    if (item.content || !item.sub) return;
+    try {
+      const cues = await loadVttCuesCached(item.sub);
+      item.content = cues
+        .map(cue => [cue.en, cue.zh].filter(Boolean).join('\n'))
+        .filter(Boolean)
+        .join('\n\n');
+    } catch (_) {}
+  }));
+  writeSharedList('bbcNewsList', list);
+}
+function ensureLearningSourcesLoaded() {
+  if (learningSourcesPromise) return learningSourcesPromise;
+  learningSourcesPromise = (async () => {
+    await Promise.all([
+      loadAutoContentGroup('drama'),
+      loadAutoContentGroup('gt'),
+      loadAutoContentGroup('news')
+    ]);
+    await hydrateNewsArticleContent();
+    await refreshVideoDictationArticles();
+    await repairFavoriteSentenceAudioLinks();
+  })().catch(error => {
+    learningSourcesPromise = null;
+    console.warn('学习资源延迟加载失败:', error);
+  });
+  return learningSourcesPromise;
+}
+
+function loadContentForPage(pageId) {
+  if (pageId === 'dramaPage') return loadAutoContentGroup('drama');
+  if (pageId === 'TrendingPage') return loadAutoContentGroup('gt');
+  if (pageId === 'bbcPage' || pageId === 'bbcDetailPage') return loadAutoContentGroup('news');
+  if (pageId === 'articleWritePage' || pageId === 'sentenceWritePage') {
+    return ensureLearningSourcesLoaded();
+  }
+  if (pageId === 'oilPage' || pageId.startsWith('cet4') || pageId.startsWith('cet6')) {
+    return ensureWordLibrary();
+  }
+  return Promise.resolve();
 }
 
 async function resolveSharedVideoAssets(inputName) {
@@ -4610,7 +4665,7 @@ async function addSharedVoiceFromAdmin() {
   renderVoiceList();
   document.getElementById('adminVoiceName').value = '';
   document.getElementById('adminVoiceFile').value = '';
-  exportSiteContentJson();
+  persistSharedContentToServer();
 }
 async function addSharedVideoFromAdmin() {
   if (!isAdminMode()) {
@@ -4635,7 +4690,7 @@ async function addSharedVideoFromAdmin() {
   await refreshVideoDictationArticles();
   document.getElementById('adminDramaVideoName').value = '';
   document.getElementById('adminDramaVideoTitle').value = '';
-  exportSiteContentJson();
+  persistSharedContentToServer();
 }
 async function addSharedVideoToGTFromAdmin() {
   if (!isAdminMode()) {
@@ -4660,7 +4715,7 @@ async function addSharedVideoToGTFromAdmin() {
   await refreshVideoDictationArticles();
   document.getElementById('adminGtVideoName').value = '';
   document.getElementById('adminGtVideoTitle').value = '';
-  exportSiteContentJson();
+  persistSharedContentToServer();
 }
 async function addSharedNewsFromAdmin() {
   if (!isAdminMode()) {
@@ -4708,7 +4763,7 @@ async function addSharedNewsFromAdmin() {
   document.getElementById('adminNewsBase').value = '';
   document.getElementById('adminNewsTitle').value = '';
   document.getElementById('adminNewsTime').value = '';
-  exportSiteContentJson();
+  persistSharedContentToServer();
 }
 
 // 全局共享缓存与计数，使用 window 以避免跨脚本重复声明冲突
@@ -4934,16 +4989,27 @@ function removeCollectedWord(word) {
 }
 function collectSentence(text, audioInfo = {}) {
   const list = getPracticeSentences();
-  const exists = list.some(item => item.text === text);
-  if (!exists) {
+  const existing = list.find(item => item.text === text);
+  if (!existing) {
     list.push({
       text: text,
       audio: audioInfo.audio || '',
       sourceType: audioInfo.sourceType || '',
       videoSrc: audioInfo.videoSrc || '',
+      sub: audioInfo.sub || '',
+      cueIndex: Number.isInteger(audioInfo.cueIndex) ? audioInfo.cueIndex : null,
       startTime: Number.isFinite(audioInfo.startTime) ? audioInfo.startTime : null,
       endTime: Number.isFinite(audioInfo.endTime) ? audioInfo.endTime : null
     });
+    setPracticeSentences(list);
+  } else if (audioInfo.audio && Number.isFinite(audioInfo.startTime)) {
+    existing.audio = audioInfo.audio;
+    existing.sourceType = audioInfo.sourceType || existing.sourceType || '';
+    existing.videoSrc = audioInfo.videoSrc || existing.videoSrc || '';
+    existing.sub = audioInfo.sub || existing.sub || '';
+    existing.cueIndex = Number.isInteger(audioInfo.cueIndex) ? audioInfo.cueIndex : existing.cueIndex;
+    existing.startTime = audioInfo.startTime;
+    existing.endTime = Number.isFinite(audioInfo.endTime) ? audioInfo.endTime : existing.endTime;
     setPracticeSentences(list);
   }
 }
@@ -4954,28 +5020,51 @@ function removeSentence(text) {
 }
 
 function parseVttTime(str){
-  const [h,m,s] = str.split(':');
-  const sec = parseFloat(s);
-  return parseInt(h)*3600 + parseInt(m)*60 + sec;
+  const parts = String(str || '').trim().replace(',', '.').split(':').map(Number);
+  if (parts.some(value => !Number.isFinite(value))) return 0;
+  if (parts.length === 3) return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  if (parts.length === 2) return parts[0] * 60 + parts[1];
+  return parts[0] || 0;
 }
 function parseVtt(text){
-  const lines = text.trim().split(/\n+/);
   const res = [];
-  let i = 0;
-  while(i < lines.length && !lines[i].includes('-->')) i++;
-  for(;i<lines.length;){
-    const timeLine = lines[i];
-    if(!timeLine.includes('-->')){i++;continue;}
-    const [startStr, endStr] = timeLine.split('-->').map(x=>x.trim());
+  const blocks = String(text || '').replace(/^\uFEFF/, '').trim().split(/\r?\n\s*\r?\n/);
+  blocks.forEach(block => {
+    const lines = block.split(/\r?\n/).map(line => line.trim()).filter(Boolean);
+    const timeIndex = lines.findIndex(line => line.includes('-->'));
+    if (timeIndex < 0) return;
+    const [startStr, rawEndStr] = lines[timeIndex].split('-->').map(value => value.trim());
+    const endStr = String(rawEndStr || '').split(/\s+/)[0];
     const start = parseVttTime(startStr);
     const end = parseVttTime(endStr);
-    i++;
-    let en = '', zh = '';
-    if(lines[i]) en = lines[i].trim();i++;
-    if(lines[i]) zh = lines[i].trim();i++;
+    const payload = lines.slice(timeIndex + 1);
+    const firstChineseIndex = payload.findIndex(line => /[\u3400-\u9fff]/.test(line));
+    const englishLines = firstChineseIndex < 0 ? payload : payload.slice(0, firstChineseIndex);
+    const chineseLines = firstChineseIndex < 0 ? [] : payload.slice(firstChineseIndex);
+    const en = englishLines.join(' ').trim();
+    const zh = chineseLines.join(' ').trim();
+    if (!en && !zh) return;
     res.push({time:start, start, end, en, zh});
-  }
+  });
   return res;
+}
+
+const vttCuePromiseCache = new Map();
+function loadVttCuesCached(url) {
+  if (!url) return Promise.resolve([]);
+  if (vttCuePromiseCache.has(url)) return vttCuePromiseCache.get(url);
+  const request = fetch(url)
+    .then(response => {
+      if (!response.ok) throw new Error(`字幕加载失败: ${response.status}`);
+      return response.text();
+    })
+    .then(parseVtt)
+    .catch(error => {
+      vttCuePromiseCache.delete(url);
+      throw error;
+    });
+  vttCuePromiseCache.set(url, request);
+  return request;
 }
 
 let videoDictationArticles = [];
@@ -4987,9 +5076,7 @@ async function buildVideoDictationArticle(item, sourceName) {
   const audio = item.audio || `${base}.mp3`;
   const sub = item.sub || `${base}.vtt`;
   try {
-    const res = await fetch(sub);
-    if (!res.ok) return null;
-    const cues = parseVtt(await res.text());
+    const cues = await loadVttCuesCached(sub);
     const content = cues
       .map(cue => [cue.en, cue.zh].filter(Boolean).join('\n'))
       .filter(Boolean)
@@ -5030,13 +5117,86 @@ function getAllDictationArticles() {
   ];
 }
 
+function normalizeSentenceAudioKey(text) {
+  return splitFavoriteSentenceText(text).english
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9']+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+
+function findClosestSentenceAudioSource(text, cueMap) {
+  const wanted = normalizeSentenceAudioKey(text);
+  if (!wanted) return null;
+  if (cueMap.has(wanted)) return cueMap.get(wanted);
+  const wantedTokens = new Set(wanted.split(' ').filter(Boolean));
+  if (wantedTokens.size < 3) return null;
+  let best = null;
+  let bestScore = 0;
+  let secondScore = 0;
+  cueMap.forEach((source, key) => {
+    const candidateTokens = new Set(key.split(' ').filter(Boolean));
+    const intersection = [...wantedTokens].filter(token => candidateTokens.has(token)).length;
+    const union = new Set([...wantedTokens, ...candidateTokens]).size;
+    const score = union ? intersection / union : 0;
+    if (score > bestScore) {
+      secondScore = bestScore;
+      bestScore = score;
+      best = source;
+    } else if (score > secondScore) {
+      secondScore = score;
+    }
+  });
+  return bestScore >= 0.72 && bestScore - secondScore >= 0.08 ? best : null;
+}
+
+async function repairFavoriteSentenceAudioLinks() {
+  const favorites = getPracticeSentences();
+  if (!favorites.length) return;
+  const articles = getAllDictationArticles().filter(article => article && article.audio && article.sub);
+  const cueMap = new Map();
+  const cueLocationMap = new Map();
+  await Promise.all(articles.map(async article => {
+    try {
+      const cues = await loadVttCuesCached(article.sub);
+      cues.forEach((cue, cueIndex) => {
+        const key = normalizeSentenceAudioKey(cue.en);
+        const source = {
+            audio: article.audio,
+            sub: article.sub,
+            sourceType: article.time === '追剧学习' || article.time === '热门视频' ? 'video' : 'news',
+            videoSrc: '',
+            cueIndex,
+            startTime: Number(cue.start),
+            endTime: Number(cue.end)
+          };
+        cueLocationMap.set(`${article.sub}#${cueIndex}`, source);
+        if (key && !cueMap.has(key)) cueMap.set(key, source);
+      });
+    } catch (_) {}
+  }));
+
+  let changed = false;
+  favorites.forEach(item => {
+    const locationKey = item.sub && Number.isInteger(item.cueIndex) ? `${item.sub}#${item.cueIndex}` : '';
+    const source = (locationKey && cueLocationMap.get(locationKey)) || findClosestSentenceAudioSource(item.text, cueMap);
+    if (!source) return;
+    const isSame = item.audio === source.audio &&
+      item.sub === source.sub &&
+      item.startTime === source.startTime &&
+      item.endTime === source.endTime;
+    if (isSame) return;
+    Object.assign(item, source);
+    changed = true;
+  });
+  if (changed) setPracticeSentences(favorites);
+}
+
 async function loadSubtitle(videoSrc){
   const subSrc = videoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.vtt');
   try{
-    const res = await fetch(subSrc);
-    if(!res.ok) throw 'no sub';
-    const text = await res.text();
-    subtitles = parseVtt(text);
+    subtitles = await loadVttCuesCached(subSrc);
     subtitles.forEach(sub => {
       sub.videoSrc = videoSrc;
       const exists = window.allSubtitlesCache.some(
@@ -5054,12 +5214,7 @@ async function loadSubtitle(videoSrc){
 
 async function refreshFromBackend() {
   await loadRemoteContent();
-  await autoDiscoverNumberedAssets();
-  renderVoiceList();
-  renderDramaVideos();
-  renderGTVideos();
-  renderBbcNews();
-  await refreshVideoDictationArticles();
+  await loadAutoContentGroup('voice');
 }
 
 function renderDramaVideos() {
@@ -5071,11 +5226,10 @@ function renderDramaVideos() {
     html += `
     <div class="video-item">
       <div class="video-card" onclick="openVideo(${videoId})">
-        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" loading="lazy" decoding="async" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       </div>
-      <div class="video-name" data-manage-title="true" data-video-src="${escapeHtml(String(item.vid || ''))}"
-           onblur="saveVideoTitleFromList(this)" onkeydown="handleManagedTitleKey(event)">${escapeHtml(item.title || '未命名视频')}</div>
+      <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
     </div>`;
   });
   container.innerHTML = html;
@@ -5090,11 +5244,10 @@ function renderGTVideos() {
     html += `
     <div class="video-item">
       <div class="video-card" onclick="openVideo(${videoId})">
-        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" onerror="fallbackImageFormat(this)">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" class="video-card-img" loading="lazy" decoding="async" onerror="fallbackImageFormat(this)">
         <div class="video-card-play"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div>
       </div>
-      <div class="video-name" data-manage-title="true" data-video-src="${escapeHtml(String(item.vid || ''))}"
-           onblur="saveVideoTitleFromList(this)" onkeydown="handleManagedTitleKey(event)">${escapeHtml(item.title || '未命名视频')}</div>
+      <div class="video-name">${escapeHtml(item.title || '未命名视频')}</div>
     </div>`;
   });
   container.innerHTML = html;
@@ -5102,8 +5255,6 @@ function renderGTVideos() {
 
 (async function boot() {
   initTheme();
-  loadWordLibrary(); // 后台加载，不阻塞首屏
-  await loadRemoteContent();
   await refreshFromBackend();
 
   video.addEventListener("timeupdate", syncSubtitles);
@@ -5116,11 +5267,6 @@ function renderGTVideos() {
   video.addEventListener("ended", resetSubtitleState);
 
   modalOverlay.onclick = closeAllModals;
-
-  renderVoiceList();
-  renderDramaVideos();
-  renderGTVideos();
-  renderBbcNews();
 
   document.addEventListener('click', function(e) {
     if (e.target.classList.contains("news-word-cet4") ||
@@ -5399,34 +5545,6 @@ function getCurrentVideoInfo() {
     ...readSharedList('gtVideos', [])
   ];
   return allVideos.find(item => item.vid === currentVideoSrc) || {};
-}
-
-async function saveVideoTitleFromList(titleElement) {
-  if (!deleteModeEnabled || !titleElement) return;
-  const videoSrc = titleElement.dataset.videoSrc || '';
-  const nextTitle = titleElement.innerText.trim();
-  if (!videoSrc) return;
-  if (!nextTitle) {
-    const original = [...readSharedList('dramaVideos', []), ...readSharedList('gtVideos', [])]
-      .find(videoItem => videoItem.vid === videoSrc);
-    titleElement.innerText = original && original.title ? original.title : '未命名视频';
-    return;
-  }
-  let changed = false;
-  ['dramaVideos', 'gtVideos'].forEach(key => {
-    const list = readSharedList(key, []);
-    const item = list.find(videoItem => videoItem.vid === videoSrc);
-    if (item && item.title !== nextTitle) {
-      item.title = nextTitle;
-      writeSharedList(key, list);
-      changed = true;
-    }
-  });
-  if (!changed) return;
-  renderDramaVideos();
-  renderGTVideos();
-  await refreshVideoDictationArticles();
-  await persistSharedContentToServer();
 }
 
 function getVideoCollectedWordMap() {
@@ -5795,10 +5913,15 @@ document.addEventListener("click", e => {
       const sourceAudio = document.getElementById('bbcDetailPage').classList.contains('active')
         ? (currentNewsItem && currentNewsItem.audio)
         : (getCurrentVideoInfo().audio || currentVideoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.mp3'));
+      const sourceSub = document.getElementById('bbcDetailPage').classList.contains('active')
+        ? (currentNewsItem && currentNewsItem.sub)
+        : (getCurrentVideoInfo().sub || currentVideoSrc.replace(/\.(mp4|m4v|mov|webm)$/i, '.vtt'));
       collectSentence(text, {
         audio: sourceAudio || '',
         sourceType: document.getElementById('bbcDetailPage').classList.contains('active') ? 'news' : 'video',
         videoSrc: document.getElementById('bbcDetailPage').classList.contains('active') ? '' : currentVideoSrc,
+        sub: sourceSub || '',
+        cueIndex: Number.isInteger(subtitleIndex) ? subtitleIndex : null,
         startTime: cue && Number(cue.start),
         endTime: cue && Number(cue.end)
       });
@@ -5840,6 +5963,7 @@ function stopVideoAndBack() {
 function showPage(id) {
   stopAllVoicePlay();
   cancelSpeechSafely();
+  loadContentForPage(id);
 
   // 🔧 跟踪当前CET上下文，用于单词音频查找
   if (id.startsWith('cet4')) window._currentCETType = 'cet4';
@@ -6105,7 +6229,7 @@ async function addNewVideoCardGT() {
   await refreshVideoDictationArticles();
   document.getElementById('gtVideoBaseName').value = '';
   document.getElementById('gtVideoTitle').value = '';
-  exportSiteContentJson();
+  persistSharedContentToServer();
 }
 
 function playThisVoice(el) {
@@ -6197,7 +6321,7 @@ function renderVoiceList() {
         <div class="voice-time">${escapeHtml(showDur)}</div>
       </div>
       <!-- 绑定音频加载完成自动获取时长 -->
-      <audio class="voice-src" src="${escapeHtml(item.file)}" onloadedmetadata="autoSetVoiceDuration(this)"></audio>
+      <audio class="voice-src" src="${escapeHtml(item.file)}" preload="metadata" onloadedmetadata="autoSetVoiceDuration(this)"></audio>
     </div>
     `;
   });
@@ -6741,17 +6865,13 @@ window.renderBbcNews = window.renderBbcNews || function() {
                 display:flex; align-items:center; justify-content:space-between;
                 box-shadow:0 2px 8px rgba(0,0,0,0.2); position:relative; cursor:pointer; overflow:hidden;">
       <div style="flex:1; min-width:0; padding-right:10px;">
-        <div class="news-list-title" data-manage-title="true" data-news-audio="${escapeHtml(String(item.audio || ''))}"
-             onclick="if(deleteModeEnabled) event.stopPropagation()"
-             onblur="saveNewsFieldFromList(this,'name')" onkeydown="handleManagedTitleKey(event)"
+        <div class="news-list-title"
              style="font-size:15px; font-weight:bold; color:var(--color-accent); margin-bottom:2px; line-height:1.3; word-break:break-word;">${escapeHtml(item.name)}</div>
-        <div class="news-list-time" data-manage-title="true" data-news-audio="${escapeHtml(String(item.audio || ''))}"
-             onclick="if(deleteModeEnabled) event.stopPropagation()"
-             onblur="saveNewsFieldFromList(this,'time')" onkeydown="handleManagedTitleKey(event)"
+        <div class="news-list-time"
              style="min-height:13px;font-size:10px; color:var(--color-text-secondary); overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${escapeHtml(item.time)}</div>
       </div>
       <div style="width:70px; height:70px; border-radius:10px; overflow:hidden; background:#000;flex-shrink:0;">
-        <img src="${escapeHtml(webpFirstImagePath(item.img))}" style="width:100%;height:100%;object-fit:cover;" onerror="fallbackImageFormat(this)">
+        <img src="${escapeHtml(webpFirstImagePath(item.img))}" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;" onerror="fallbackImageFormat(this)">
       </div>
     </div>
     `;
@@ -6873,67 +6993,7 @@ async function openBbcDetail(index) {
 
   // 先展示详情框架，词库和字幕在后台并行加载。
   showPage('bbcDetailPage');
-  await Promise.all([
-    ensureWordLibrary(),
-    loadNewsSubtitle(item.sub, loadToken)
-  ]);
-}
-
-async function saveNewsFieldFromList(element, field) {
-  if (!deleteModeEnabled || !element || !['name', 'time'].includes(field)) return;
-  const audio = element.dataset.newsAudio || '';
-  const list = readSharedList('bbcNewsList', []);
-  const item = list.find(newsItem => newsItem.audio === audio);
-  if (!item) return;
-  const nextValue = element.innerText.trim();
-  if (field === 'name' && !nextValue) {
-    element.innerText = item.name || '未命名 NEWS';
-    return;
-  }
-  if (item[field] === nextValue) return;
-  item[field] = nextValue;
-  writeSharedList('bbcNewsList', list);
-  renderBbcNews();
-  refreshArticleListWhenOpen();
-  await persistSharedContentToServer();
-}
-
-async function saveCurrentNewsTitle() {
-  if (!deleteModeEnabled || !currentNewsItem) return;
-  const titleElement = document.getElementById('bbcDetailTitle');
-  const nextTitle = titleElement ? titleElement.innerText.trim() : '';
-  if (!nextTitle) {
-    if (titleElement) titleElement.innerText = currentNewsItem.name || '未命名 NEWS';
-    return;
-  }
-  const list = readSharedList('bbcNewsList', []);
-  const item = list.find(newsItem =>
-    (currentNewsItem.audio && newsItem.audio === currentNewsItem.audio) || newsItem === currentNewsItem
-  );
-  if (!item || item.name === nextTitle) return;
-  item.name = nextTitle;
-  currentNewsItem = item;
-  writeSharedList('bbcNewsList', list);
-  renderBbcNews();
-  refreshArticleListWhenOpen();
-  await persistSharedContentToServer();
-}
-
-async function saveCurrentNewsTime() {
-  if (!deleteModeEnabled || !currentNewsItem) return;
-  const timeElement = document.getElementById('bbcDetailTime');
-  const nextTime = timeElement ? timeElement.innerText.trim() : '';
-  const list = readSharedList('bbcNewsList', []);
-  const item = list.find(newsItem =>
-    (currentNewsItem.audio && newsItem.audio === currentNewsItem.audio) || newsItem === currentNewsItem
-  );
-  if (!item || item.time === nextTime) return;
-  item.time = nextTime;
-  currentNewsItem = item;
-  writeSharedList('bbcNewsList', list);
-  renderBbcNews();
-  refreshArticleListWhenOpen();
-  await persistSharedContentToServer();
+  await loadNewsSubtitle(item.sub, loadToken);
 }
 
 function openNewsSubtitleMenu() {
@@ -7040,25 +7100,17 @@ let currentNewsSubIndex = -1;
 window.loadNewsSubtitle = window.loadNewsSubtitle || async function(subSrc, loadToken = newsDetailLoadToken) {
   try {
     console.log('[字幕加载] 尝试加载字幕文件:', subSrc);
-    
-    // 直接使用传入的字幕路径，不再二次替换！
-    const res = await fetch(subSrc);
-    if (!res.ok) {
-      console.error(`[字幕加载] HTTP ${res.status}: ${res.statusText} - 文件: ${subSrc}`);
-      throw `HTTP ${res.status}: ${res.statusText}`;
-    }
-    
-    const text = await res.text();
-    console.log(`[字幕加载] 成功读取 ${text.length} 字符`);
-    
+    const cues = await loadVttCuesCached(subSrc);
     if (loadToken !== newsDetailLoadToken) return;
-    newsSubtitles = parseVtt(text);
+    newsSubtitles = cues;
     console.log(`[字幕加载] 解析成功，共 ${newsSubtitles.length} 条字幕`);
 
     const container = document.getElementById('newsSubtitleContainer');
     if (container && !container.classList.contains('hide-sub')) {
-      await ensureWordLibrary();
-      if (loadToken === newsDetailLoadToken) renderNewsSubtitles();
+      renderNewsSubtitles();
+      ensureWordLibrary().then(() => {
+        if (loadToken === newsDetailLoadToken) renderNewsSubtitles();
+      });
     } else {
       document.getElementById('newsSubtitleList').innerHTML = '';
     }
@@ -9984,10 +10036,10 @@ async function resolveFavoriteSentenceAudio(state) {
   }
   if (saved && saved.audio && Number.isFinite(saved.startTime)) return saved;
 
-  const wanted = splitFavoriteSentenceText(saved && saved.text).english.trim().toLowerCase();
+  const wanted = normalizeSentenceAudioKey(saved && saved.text);
   if (!wanted) return null;
   const cachedCue = (window.allSubtitlesCache || []).find(cue =>
-    String(cue.en || '').trim().toLowerCase() === wanted
+    normalizeSentenceAudioKey(cue.en) === wanted
   );
   if (cachedCue && cachedCue.videoSrc) {
     return {
@@ -10003,10 +10055,8 @@ async function resolveFavoriteSentenceAudio(state) {
   for (const article of articles) {
     if (!article || !article.audio || !article.sub) continue;
     try {
-      const response = await fetch(article.sub);
-      if (!response.ok) continue;
-      const cue = parseVtt(await response.text()).find(entry =>
-        String(entry.en || '').trim().toLowerCase() === wanted
+      const cue = (await loadVttCuesCached(article.sub)).find(entry =>
+        normalizeSentenceAudioKey(entry.en) === wanted
       );
       if (cue) return { audio: article.audio, startTime: cue.start, endTime: cue.end };
     } catch (_) {}
@@ -10070,9 +10120,9 @@ async function playFavoritePracticeAudio() {
   if (saved.audio && Number.isFinite(saved.startTime)) {
     if (playFavoriteAudioSegment(saved)) return;
   }
-  const wantedSentence = splitFavoriteSentenceText(saved.text).english.trim().toLowerCase();
+  const wantedSentence = normalizeSentenceAudioKey(saved.text);
   const savedVideoCue = (window.allSubtitlesCache || []).find(cue =>
-    cue.videoSrc && String(cue.en || '').trim().toLowerCase() === wantedSentence
+    cue.videoSrc && normalizeSentenceAudioKey(cue.en) === wantedSentence
   );
   if (savedVideoCue) {
     const videoSource = {
@@ -10753,18 +10803,13 @@ function playSentenceFromNewsAudio() {
 function loadSentenceTimeForListen(article) {
   if (!article || !article.sub) return Promise.resolve();
 
-  return fetch(article.sub)
-    .then(r => {
-      if (!r.ok) throw new Error('字幕加载失败');
-      return r.text();
-    })
-    .then(vttText => {
-      const subs = parseVtt(vttText);
+  return loadVttCuesCached(article.sub)
+    .then(subs => {
       const sentences = SentenceWriteLogic.getSentenceList();
 
       sentences.forEach(sen => {
         const matchSub = subs.find(sub =>
-          sen.text.trim().toLowerCase() === sub.en.trim().toLowerCase()
+          normalizeSentenceAudioKey(sen.text) === normalizeSentenceAudioKey(sub.en)
         );
         if (matchSub) {
           sen.startTime = matchSub.start;
