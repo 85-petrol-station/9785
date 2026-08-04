@@ -6775,7 +6775,14 @@ function closeMoodPopup() {
 }
 
 // ===================== 模块4：学习进度 =====================
-function updateIdolStats() {
+async function updateIdolStats() {
+  // 学习进度必须独立加载完整数据，不能依赖用户是否先访问过词汇或文章页面。
+  await Promise.all([
+    ensureWordLibrary('cet4'),
+    ensureWordLibrary('cet6'),
+    ensureLearningSourcesLoaded()
+  ]);
+
   const mastered4 = getCetMastered('cet4').length;
   const mastered6 = getCetMastered('cet6').length;
   const totalWords = (Object.keys(cet4Words).length || 0) + (Object.keys(cet6Words).length || 0);
@@ -6783,9 +6790,10 @@ function updateIdolStats() {
   document.getElementById('idolWordTotal').textContent = totalWords;
 
   const written = readLocalJson('writtenArticles', []);
-  const allNews = readSharedList('bbcNewsList', []);
-  document.getElementById('idolArticleLearned').textContent = written.length;
-  document.getElementById('idolArticleTotal').textContent = allNews.length;
+  const allArticles = getAllDictationArticles();
+  const availableNames = new Set(allArticles.map(article => article.name));
+  document.getElementById('idolArticleLearned').textContent = written.filter(name => availableNames.has(name)).length;
+  document.getElementById('idolArticleTotal').textContent = allArticles.length;
 }
 function uploadIdolBanner(e, type) {
   const file = e.target.files[0];

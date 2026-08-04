@@ -29735,13 +29735,6 @@
     "meaning": "（v.）打哈欠；张得很开；（令人恐惧地）豁开（n.）打哈欠；乏味的人（事物）",
     "audio": "audio_small/y/yawn.mp3"
   },
-  "year": {
-    "word": "year",
-    "type": "cet4",
-    "phonetic": "/jɪr/",
-    "meaning": "（n.）年；年度；历年；年纪；一年的期间；某年级的学生",
-    "audio": "audio_small/y/year.mp3"
-  },
   "yearly": {
     "word": "yearly",
     "type": "cet4",
@@ -29762,20 +29755,6 @@
     "phonetic": "/ˈjeloʊ/",
     "meaning": "（adj.）黄色的；黄皮肤的（adj.）胆小的（n.）黄色；黄种人；黄色颜料（vi.）变黄或发黄（vt.）使变黄或发黄",
     "audio": "audio_small/y/yellow.mp3"
-  },
-  "yes": {
-    "word": "yes",
-    "type": "cet4",
-    "phonetic": "/jes/",
-    "meaning": "（adv.）是, 是的（n.）是（表示肯定）",
-    "audio": "audio_small/y/yes.mp3"
-  },
-  "yesterday": {
-    "word": "yesterday",
-    "type": "cet4",
-    "phonetic": "/ˈjestədeɪ/",
-    "meaning": "（adv.）在昨天（n.）昨天；最近，往昔",
-    "audio": "audio_small/y/yesterday.mp3"
   },
   "yet": {
     "word": "yet",
@@ -29847,11 +29826,4 @@
     "meaning": "（n.）地带；地区；联防（vi.）分成区（vt.）使分成地带；环绕",
     "audio": "audio_small/z/zone.mp3"
   },
-  "zoo": {
-    "word": "zoo",
-    "type": "cet4",
-    "phonetic": "/zuː/",
-    "meaning": "（n.）动物园",
-    "audio": "audio_small/z/zoo.mp3"
-  }
 }
