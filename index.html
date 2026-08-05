@@ -8572,8 +8572,18 @@ function markArticleAsWrittenIfComplete() {
     const article = allNewsArticles[currentArticleIndex];
     if (article && !writtenArticles.includes(article.name)) {
       writtenArticles.push(article.name);
-      localStorage.setItem('writtenArticles', JSON.stringify(writtenArticles)); autoCheckin('article');
+      localStorage.setItem('writtenArticles', JSON.stringify(writtenArticles));
+      autoCheckin('article');
+      syncArticleWriteCompletionUI();
     }
+  }
+}
+
+function syncArticleWriteCompletionUI() {
+  refreshArticleList();
+  refreshArticleWriteCount();
+  if (typeof updateIdolStats === 'function') {
+    updateIdolStats();
   }
 }
 
@@ -8963,12 +8973,23 @@ function checkArticleWriteSmart() {
   } else {
     wrongContainer.style.display = "none";
     playRightSound();
-    
+
+    // 保存全对结果，确保已完成状态在进度统计中实时生效
+    if (currentArticleProgress && Array.isArray(currentArticleProgress.words)) {
+      currentArticleProgress.words.forEach((wordState, idx) => {
+        wordState.value = currentCorrectWords[idx] || '';
+        wordState.correct = true;
+      });
+      saveCurrentArticleWriteProgress();
+    }
+
     // 标记已默写
     const article = allNewsArticles[currentArticleIndex];
     if (!writtenArticles.includes(article.name)) {
       writtenArticles.push(article.name);
-      localStorage.setItem('writtenArticles', JSON.stringify(writtenArticles)); autoCheckin('article');
+      localStorage.setItem('writtenArticles', JSON.stringify(writtenArticles));
+      autoCheckin('article');
+      syncArticleWriteCompletionUI();
     }
   }
 }
