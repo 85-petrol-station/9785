@@ -201,6 +201,119 @@
     z-index: 1;
     transition: transform 0.25s ease, filter 0.25s ease;
   }
+  .phrase-library-summary{
+    padding: 2px 16px 10px;
+    color: var(--color-text-secondary);
+    font-size: 12px;
+  }
+  .phrase-library-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 0 16px calc(110px + env(safe-area-inset-bottom));
+  }
+  .phrase-library-card{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px 14px;
+    border: 1px solid color-mix(in srgb, var(--color-accent) 22%, transparent);
+    border-radius: 12px;
+    background: var(--bg-card);
+    cursor: pointer;
+  }
+  .phrase-library-checkbox{
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    border: 1.5px solid var(--color-text-secondary);
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .phrase-library-checkbox.checked{
+    border-color: var(--color-accent);
+    background: var(--color-accent);
+    box-shadow: inset 0 0 0 3px var(--bg-card);
+  }
+  .phrase-library-body{min-width:0;flex:1;}
+  .phrase-library-term{
+    color: var(--color-accent);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .phrase-library-meaning{
+    margin-top: 5px;
+    color: var(--color-text);
+    font-size: 13px;
+    line-height: 1.55;
+  }
+  .phrase-library-variants{
+    margin-top: 5px;
+    color: var(--color-text-secondary);
+    font-size: 11px;
+    line-height: 1.45;
+  }
+  .phrase-practice-tabs{
+    display:flex;
+    flex:1;
+    padding:3px;
+    border-radius:999px;
+    background:var(--bg-nav);
+  }
+  .phrase-practice-tab{
+    flex:1;
+    min-height:28px;
+    height:28px;
+    box-sizing:border-box;
+    padding:0 8px;
+    border-radius:999px;
+    color:var(--color-text-secondary);
+    font-size:13px;
+    line-height:1;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    cursor:pointer;
+    transition:all 0.2s;
+  }
+  .phrase-practice-tab.active{
+    background:var(--ios-surface-raised);
+    color:var(--color-text);
+    font-weight:600;
+    box-shadow:0 1px 4px rgba(0,0,0,0.14);
+  }
+  .phrase-sort-btn{
+    flex:0 0 auto;
+    min-height:30px;
+    padding:4px 10px;
+    border:1px solid var(--ios-separator);
+    border-radius:999px;
+    background:transparent;
+    color:var(--color-text-secondary);
+    font-size:12px;
+    cursor:pointer;
+    transition:all 0.2s;
+  }
+  .phrase-sort-btn.active{
+    background:var(--ios-accent);
+    color:#fff;
+    border-color:var(--ios-accent);
+  }
+  .phrase-spell-input{
+    width:100%;
+    box-sizing:border-box;
+    padding:13px 14px;
+    border:1px solid var(--border-color);
+    border-radius:12px;
+    outline:none;
+    background:var(--bg-input);
+    color:var(--color-text);
+    font-size:17px;
+    text-align:center;
+  }
   .search-box{padding:10px 16px;}
   .search-input{
     width:100%;
@@ -3155,6 +3268,14 @@ function fallbackImageFormat(img) {
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:var(--color-accent);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">CET6</div>
         <img class="practice-icon" src="icon_cet6.webp" onerror="fallbackImageFormat(this)" alt="CET6" style="width:100%;height:100%;object-fit:cover;display:block;">
     </div>
+    <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);cursor:pointer;" onclick="showPage('cet4PhrasePage')">
+        <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:var(--color-accent);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">四级词组</div>
+        <img class="practice-icon" src="icon_cet4.webp" onerror="fallbackImageFormat(this)" alt="四级词组" style="width:100%;height:100%;object-fit:cover;display:block;">
+    </div>
+    <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);cursor:pointer;" onclick="showPage('cet6PhrasePage')">
+        <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:var(--color-accent);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">六级词组</div>
+        <img class="practice-icon" src="icon_cet6.webp" onerror="fallbackImageFormat(this)" alt="六级词组" style="width:100%;height:100%;object-fit:cover;display:block;">
+    </div>
     <div class="practice-btn-item" style="position:relative;height:110px;border-radius:14px;overflow:hidden;border:1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);cursor:pointer;" onclick="showPage('articleWritePage')">
         <div style="position:absolute;bottom:10px;left:10px;z-index:2;color:var(--color-accent);padding:2px 6px;font-size:12px;font-weight:600;letter-spacing:0.5px;">文章默写</div>
         <img class="practice-icon" src="icon_article.webp" onerror="fallbackImageFormat(this)" alt="文章默写" style="width:100%;height:100%;object-fit:cover;display:block;">
@@ -3166,6 +3287,112 @@ function fallbackImageFormat(img) {
 </div>
 
 </div>
+<!-- ===================== 四六级词组页 ===================== -->
+<div id="cet4PhrasePage" class="page">
+  <div class="secondary-header">
+    <div class="secondary-title">四级高频词组</div>
+    <div class="header-back-btn" onclick="showPage('oilPage')">
+      <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6 1.4 1.4-4.6 4.6 4.6 4.6z"/></svg>
+    </div>
+  </div>
+  <div style="display:flex;gap:8px;margin:10px 16px;align-items:center;">
+    <div class="phrase-practice-tabs">
+      <div class="phrase-practice-tab active" data-level="cet4" data-tab="todo" onclick="setPhraseTab('cet4','todo')">未学</div>
+      <div class="phrase-practice-tab" data-level="cet4" data-tab="learned" onclick="setPhraseTab('cet4','learned')">已学</div>
+      <div class="phrase-practice-tab" data-level="cet4" data-tab="mastered" onclick="setPhraseTab('cet4','mastered')">熟练</div>
+      <div class="phrase-practice-tab" data-level="cet4" data-tab="all" onclick="setPhraseTab('cet4','all')">全部</div>
+    </div>
+  </div>
+  <div style="display:flex;gap:6px;padding:0 16px;margin-bottom:8px;align-items:center;">
+    <span style="font-size:13px;color:var(--color-text-secondary);flex-shrink:0;">排序：</span>
+    <button class="phrase-sort-btn active" data-level="cet4" data-sort="default" onclick="setPhraseSort('cet4','default',this)">默认</button>
+    <button class="phrase-sort-btn" data-level="cet4" data-sort="asc" onclick="setPhraseSort('cet4','asc',this)">A→Z</button>
+    <button class="phrase-sort-btn" data-level="cet4" data-sort="desc" onclick="setPhraseSort('cet4','desc',this)">Z→A</button>
+    <button class="phrase-sort-btn" data-level="cet4" data-sort="random" onclick="setPhraseSort('cet4','random',this)">乱序</button>
+  </div>
+  <div id="cet4PhraseSummary" class="phrase-library-summary">正在加载词组…</div>
+  <div id="cet4PhraseList" class="phrase-library-list"></div>
+  <div class="cet-action-bar">
+    <button class="cet-select-btn" id="cet4PhraseSelectAll" onclick="togglePhraseSelectVisible('cet4')">选取20个</button>
+    <div class="cet-selected-wrap"><span class="cet-selected-label">已选</span><span class="cet-selected-count" id="cet4PhraseSelectedCount">0</span></div>
+    <div class="cet-start-actions">
+      <button class="cet-start-btn" id="cet4PhraseSpellBtn" onclick="startPhraseSpell('cet4')">拼写</button>
+      <button class="cet-start-btn" id="cet4PhraseExamBtn" onclick="startPhraseExam('cet4')">识词</button>
+    </div>
+  </div>
+</div>
+
+<div id="cet6PhrasePage" class="page">
+  <div class="secondary-header">
+    <div class="secondary-title">六级高频词组</div>
+    <div class="header-back-btn" onclick="showPage('oilPage')">
+      <svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6 1.4 1.4-4.6 4.6 4.6 4.6z"/></svg>
+    </div>
+  </div>
+  <div style="display:flex;gap:8px;margin:10px 16px;align-items:center;">
+    <div class="phrase-practice-tabs">
+      <div class="phrase-practice-tab active" data-level="cet6" data-tab="todo" onclick="setPhraseTab('cet6','todo')">未学</div>
+      <div class="phrase-practice-tab" data-level="cet6" data-tab="learned" onclick="setPhraseTab('cet6','learned')">已学</div>
+      <div class="phrase-practice-tab" data-level="cet6" data-tab="mastered" onclick="setPhraseTab('cet6','mastered')">熟练</div>
+      <div class="phrase-practice-tab" data-level="cet6" data-tab="all" onclick="setPhraseTab('cet6','all')">全部</div>
+    </div>
+  </div>
+  <div style="display:flex;gap:6px;padding:0 16px;margin-bottom:8px;align-items:center;">
+    <span style="font-size:13px;color:var(--color-text-secondary);flex-shrink:0;">排序：</span>
+    <button class="phrase-sort-btn active" data-level="cet6" data-sort="default" onclick="setPhraseSort('cet6','default',this)">默认</button>
+    <button class="phrase-sort-btn" data-level="cet6" data-sort="asc" onclick="setPhraseSort('cet6','asc',this)">A→Z</button>
+    <button class="phrase-sort-btn" data-level="cet6" data-sort="desc" onclick="setPhraseSort('cet6','desc',this)">Z→A</button>
+    <button class="phrase-sort-btn" data-level="cet6" data-sort="random" onclick="setPhraseSort('cet6','random',this)">乱序</button>
+  </div>
+  <div id="cet6PhraseSummary" class="phrase-library-summary">正在加载词组…</div>
+  <div id="cet6PhraseList" class="phrase-library-list"></div>
+  <div class="cet-action-bar">
+    <button class="cet-select-btn" id="cet6PhraseSelectAll" onclick="togglePhraseSelectVisible('cet6')">选取20个</button>
+    <div class="cet-selected-wrap"><span class="cet-selected-label">已选</span><span class="cet-selected-count" id="cet6PhraseSelectedCount">0</span></div>
+    <div class="cet-start-actions">
+      <button class="cet-start-btn" id="cet6PhraseSpellBtn" onclick="startPhraseSpell('cet6')">拼写</button>
+      <button class="cet-start-btn" id="cet6PhraseExamBtn" onclick="startPhraseExam('cet6')">识词</button>
+    </div>
+  </div>
+</div>
+
+<div id="phraseExamPage" class="page">
+  <div class="secondary-header">
+    <div class="secondary-title" id="phraseExamTitle">词组识词</div>
+    <div class="header-back-btn" onclick="stopPhrasePractice()"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6 1.4 1.4-4.6 4.6 4.6 4.6z"/></svg></div>
+  </div>
+  <div class="cet-exam-toolbar"><div class="cet-exam-progress" id="phraseExamProgress">1/10</div></div>
+  <div class="cet-exam-word-panel">
+    <div class="cet-exam-word" id="phraseExamTerm"></div>
+    <div class="cet-exam-phonetic-row"><span>词组</span><button class="cet-speaker-btn" onclick="speakCurrentPhrase()"><img class="speaker-icon-fb cet-speaker-icon" src="speaker_icon.webp" alt="喇叭" width="20" height="20"></button></div>
+  </div>
+  <div class="cet-exam-options" id="phraseExamOptions"></div>
+  <div class="cet-exam-action-bar">
+    <button class="cet-exam-action-btn cet-exam-collect-btn" onclick="markCurrentPhraseMastered()">熟练</button>
+    <button class="cet-exam-action-btn cet-exam-next-btn" id="phraseExamNextBtn" onclick="nextPhraseExam()">下一题</button>
+  </div>
+</div>
+
+<div id="phraseSpellPage" class="page">
+  <div class="secondary-header">
+    <div class="secondary-title" id="phraseSpellTitle">词组拼写</div>
+    <div class="header-back-btn" onclick="stopPhrasePractice()"><svg viewBox="0 0 24 24"><path d="M15 18l-6-6 6-6 1.4 1.4-4.6 4.6 4.6 4.6z"/></svg></div>
+  </div>
+  <div class="cet-spell-layout">
+    <div class="cet-spell-toolbar"><div class="cet-spell-progress" id="phraseSpellProgress">1/10</div></div>
+    <div class="cet-spell-meaning" id="phraseSpellMeaning"></div>
+    <div style="width:min(560px,100%);margin:24px auto 0;">
+      <input id="phraseSpellInput" class="phrase-spell-input" autocomplete="off" autocapitalize="none" placeholder="请输入完整英文词组" onkeydown="handlePhraseSpellKey(event)">
+      <div id="phraseSpellFeedback" style="min-height:44px;padding:10px 4px;text-align:center;color:var(--color-text-secondary);font-size:13px;"></div>
+    </div>
+    <div class="cet-spell-actions">
+      <button class="cet-spell-mastered-btn" onclick="markCurrentPhraseMastered()">熟练</button>
+      <button class="cet-spell-next-btn" onclick="checkPhraseSpell()">提交</button>
+      <button class="cet-spell-next-btn" onclick="nextPhraseSpell()">下一题</button>
+    </div>
+  </div>
+</div>
+
 <!-- ===================== CET4 选择单词页（复刻图1） ===================== -->
 <div id="cet4Page" class="page">
   <div class="secondary-header">
@@ -4632,9 +4859,351 @@ function loadContentForPage(pageId) {
   if (pageId === 'articleWritePage' || pageId === 'sentenceWritePage') {
     return ensureLearningSourcesLoaded();
   }
+  if (pageId === 'cet4PhrasePage') return loadPhraseLibrary('cet4');
+  if (pageId === 'cet6PhrasePage') return loadPhraseLibrary('cet6');
   if (pageId.startsWith('cet4')) return ensureWordLibrary('cet4');
   if (pageId.startsWith('cet6')) return ensureWordLibrary('cet6');
   return Promise.resolve();
+}
+
+const phraseLibraries = { cet4: [], cet6: [] };
+const phraseLibraryPromises = {};
+const phrasePracticeState = {
+  cet4: { tab: 'todo', sort: 'default', selected: new Set(), randomRanks: null, visible: [] },
+  cet6: { tab: 'todo', sort: 'default', selected: new Set(), randomRanks: null, visible: [] }
+};
+let activePhraseLevel = 'cet4';
+let activePhraseMode = '';
+let activePhraseQuestions = [];
+let activePhraseIndex = 0;
+let phraseExamAnswered = false;
+let phraseSpellAttempts = 0;
+
+function getPhraseProgress(level) {
+  const value = readLocalJson(`phraseProgress_${level}`, { learned: [], mastered: [] });
+  return {
+    learned: Array.isArray(value.learned) ? value.learned : [],
+    mastered: Array.isArray(value.mastered) ? value.mastered : []
+  };
+}
+
+function savePhraseProgress(level, progress) {
+  localStorage.setItem(`phraseProgress_${level}`, JSON.stringify(progress));
+}
+
+function addPhraseProgress(level, phrase, status) {
+  const progress = getPhraseProgress(level);
+  if (status === 'mastered') {
+    if (!progress.mastered.includes(phrase)) progress.mastered.push(phrase);
+    progress.learned = progress.learned.filter(item => item !== phrase);
+  } else if (!progress.mastered.includes(phrase) && !progress.learned.includes(phrase)) {
+    progress.learned.push(phrase);
+  }
+  savePhraseProgress(level, progress);
+}
+
+function getPhraseItem(level, phrase) {
+  return (phraseLibraries[level] || []).find(item => item.phrase === phrase) || null;
+}
+
+function getVisiblePhraseItems(level) {
+  const state = phrasePracticeState[level];
+  const progress = getPhraseProgress(level);
+  const learned = new Set(progress.learned);
+  const mastered = new Set(progress.mastered);
+  const search = document.getElementById(`${level}PhraseSearch`);
+  const query = String(search ? search.value : '').trim().toLowerCase();
+  let items = (phraseLibraries[level] || []).filter(item => {
+    const phrase = String(item.phrase || '');
+    if (state.tab === 'todo' && (learned.has(phrase) || mastered.has(phrase))) return false;
+    if (state.tab === 'learned' && (!learned.has(phrase) || mastered.has(phrase))) return false;
+    if (state.tab === 'mastered' && !mastered.has(phrase)) return false;
+    if (!query) return true;
+    const variants = Array.isArray(item.variants) ? item.variants.join(' ') : '';
+    return `${phrase} ${item.meaning || ''} ${variants}`.toLowerCase().includes(query);
+  });
+  if (state.sort === 'asc') items.sort((a, b) => a.phrase.localeCompare(b.phrase, 'en'));
+  if (state.sort === 'desc') items.sort((a, b) => b.phrase.localeCompare(a.phrase, 'en'));
+  if (state.sort === 'random') {
+    if (!state.randomRanks) {
+      state.randomRanks = new Map((phraseLibraries[level] || []).map(item => [item.phrase, Math.random()]));
+    }
+    items.sort((a, b) => (state.randomRanks.get(a.phrase) || 0) - (state.randomRanks.get(b.phrase) || 0));
+  }
+  return items;
+}
+
+function renderPhraseLibrary(level) {
+  const allItems = phraseLibraries[level] || [];
+  const items = getVisiblePhraseItems(level);
+  const state = phrasePracticeState[level];
+  state.visible = items.map(item => item.phrase);
+  const search = document.getElementById(`${level}PhraseSearch`);
+  const query = String(search ? search.value : '').trim().toLowerCase();
+  const summary = document.getElementById(`${level}PhraseSummary`);
+  const list = document.getElementById(`${level}PhraseList`);
+  if (!summary || !list) return;
+  summary.innerText = query
+    ? `找到 ${items.length} / ${allItems.length} 条词组`
+    : `共 ${items.length} 条词组`;
+  if (!items.length) {
+    list.innerHTML = '<div style="padding:24px 0;text-align:center;color:var(--color-text-secondary);font-size:13px;">没有找到匹配的词组</div>';
+    updatePhraseSelectedCount(level);
+    return;
+  }
+  list.innerHTML = items.map(item => {
+    const variants = Array.isArray(item.variants) ? item.variants.filter(Boolean) : [];
+    const phraseArg = escapeHtml(JSON.stringify(String(item.phrase || '')));
+    return `<article class="phrase-library-card" onclick="togglePhraseSelection('${level}',${phraseArg})">
+      <div class="phrase-library-checkbox ${state.selected.has(item.phrase) ? 'checked' : ''}"></div>
+      <div class="phrase-library-body">
+        <div class="phrase-library-term">${escapeHtml(item.phrase || '')}</div>
+        <div class="phrase-library-meaning">${escapeHtml(item.meaning || '暂无释义')}</div>
+        ${variants.length ? `<div class="phrase-library-variants">变体：${escapeHtml(variants.join(' / '))}</div>` : ''}
+      </div>
+    </article>`;
+  }).join('');
+  updatePhraseSelectedCount(level);
+}
+
+function filterPhraseLibrary(level) {
+  renderPhraseLibrary(level);
+}
+
+function setPhraseTab(level, tab) {
+  phrasePracticeState[level].tab = tab;
+  document.querySelectorAll(`.phrase-practice-tab[data-level="${level}"]`).forEach(button => {
+    button.classList.toggle('active', button.dataset.tab === tab);
+  });
+  renderPhraseLibrary(level);
+}
+
+function setPhraseSort(level, sort, button) {
+  const state = phrasePracticeState[level];
+  state.sort = sort;
+  state.randomRanks = sort === 'random' ? null : state.randomRanks;
+  document.querySelectorAll(`.phrase-sort-btn[data-level="${level}"]`).forEach(item => item.classList.remove('active'));
+  if (button) button.classList.add('active');
+  renderPhraseLibrary(level);
+}
+
+function togglePhraseSelection(level, phrase) {
+  const selected = phrasePracticeState[level].selected;
+  if (selected.has(phrase)) selected.delete(phrase);
+  else selected.add(phrase);
+  renderPhraseLibrary(level);
+}
+
+function togglePhraseSelectVisible(level) {
+  const state = phrasePracticeState[level];
+  const unselected = state.visible.filter(phrase => !state.selected.has(phrase));
+  if (unselected.length) unselected.slice(0, 20).forEach(phrase => state.selected.add(phrase));
+  else state.visible.forEach(phrase => state.selected.delete(phrase));
+  renderPhraseLibrary(level);
+}
+
+function updatePhraseSelectedCount(level) {
+  const state = phrasePracticeState[level];
+  const count = state.selected.size;
+  const countNode = document.getElementById(`${level}PhraseSelectedCount`);
+  const selectButton = document.getElementById(`${level}PhraseSelectAll`);
+  const examButton = document.getElementById(`${level}PhraseExamBtn`);
+  const spellButton = document.getElementById(`${level}PhraseSpellBtn`);
+  if (countNode) countNode.innerText = count;
+  if (selectButton) {
+    const hasUnselected = state.visible.some(phrase => !state.selected.has(phrase));
+    selectButton.innerText = hasUnselected ? '选取20个' : '取消本页选中';
+  }
+  [examButton, spellButton].forEach(button => {
+    if (!button) return;
+    button.style.opacity = count ? '1' : '0.6';
+    button.style.cursor = count ? 'pointer' : 'not-allowed';
+  });
+}
+
+function startPhraseExam(level) {
+  const selected = [...phrasePracticeState[level].selected];
+  if (!selected.length) return;
+  activePhraseLevel = level;
+  activePhraseMode = 'exam';
+  activePhraseQuestions = selected.map(phrase => getPhraseItem(level, phrase)).filter(Boolean);
+  activePhraseIndex = 0;
+  document.getElementById('phraseExamTitle').innerText = level === 'cet6' ? '六级词组识词' : '四级词组识词';
+  showPage('phraseExamPage');
+  renderPhraseExam();
+}
+
+function renderPhraseExam() {
+  const item = activePhraseQuestions[activePhraseIndex];
+  if (!item) return finishPhrasePractice('识词练习完成！');
+  phraseExamAnswered = false;
+  document.getElementById('phraseExamProgress').innerText = `${activePhraseIndex + 1}/${activePhraseQuestions.length}`;
+  document.getElementById('phraseExamTerm').innerText = item.phrase;
+  const candidates = (phraseLibraries[activePhraseLevel] || []).filter(other => other.phrase !== item.phrase && other.meaning !== item.meaning);
+  const wrong = [];
+  while (wrong.length < 3 && candidates.length) {
+    wrong.push(candidates.splice(Math.floor(Math.random() * candidates.length), 1)[0]);
+  }
+  const options = [item, ...wrong].sort(() => Math.random() - 0.5);
+  document.getElementById('phraseExamOptions').innerHTML = options.map(option => {
+    const phraseArg = escapeHtml(JSON.stringify(String(option.phrase)));
+    return `<button class="${activePhraseLevel}-exam-option" data-phrase="${escapeHtml(option.phrase)}" onclick="answerPhraseExam(${phraseArg},this)">${escapeHtml(option.meaning || '暂无释义')}</button>`;
+  }).join('');
+  document.getElementById('phraseExamNextBtn').style.opacity = '0.6';
+  setTimeout(() => safeSpeak(item.phrase), 350);
+}
+
+function answerPhraseExam(chosenPhrase, button) {
+  if (phraseExamAnswered) return;
+  phraseExamAnswered = true;
+  const current = activePhraseQuestions[activePhraseIndex];
+  const correct = chosenPhrase === current.phrase;
+  document.querySelectorAll('#phraseExamOptions button').forEach(option => {
+    option.disabled = true;
+    if (option.dataset.phrase === current.phrase) option.classList.add('correct');
+  });
+  if (!correct) button.classList.add('wrong');
+  if (correct) {
+    addPhraseProgress(activePhraseLevel, current.phrase, 'learned');
+    showPopup(true);
+    playRightSound();
+  } else {
+    showPopup(false);
+    playWrongSound();
+  }
+  document.getElementById('phraseExamNextBtn').style.opacity = '1';
+}
+
+function nextPhraseExam() {
+  if (!phraseExamAnswered) return;
+  activePhraseIndex++;
+  renderPhraseExam();
+}
+
+function startPhraseSpell(level) {
+  const selected = [...phrasePracticeState[level].selected];
+  if (!selected.length) return;
+  activePhraseLevel = level;
+  activePhraseMode = 'spell';
+  activePhraseQuestions = selected.map(phrase => getPhraseItem(level, phrase)).filter(Boolean);
+  activePhraseIndex = 0;
+  document.getElementById('phraseSpellTitle').innerText = level === 'cet6' ? '六级词组拼写' : '四级词组拼写';
+  showPage('phraseSpellPage');
+  renderPhraseSpell();
+}
+
+function renderPhraseSpell() {
+  const item = activePhraseQuestions[activePhraseIndex];
+  if (!item) return finishPhrasePractice('拼写练习完成！');
+  phraseSpellAttempts = 0;
+  document.getElementById('phraseSpellProgress').innerText = `${activePhraseIndex + 1}/${activePhraseQuestions.length}`;
+  document.getElementById('phraseSpellMeaning').innerText = item.meaning || '暂无释义';
+  const input = document.getElementById('phraseSpellInput');
+  input.value = '';
+  input.style.borderColor = 'var(--border-color)';
+  input.disabled = false;
+  document.getElementById('phraseSpellFeedback').innerText = item.phrase.includes('...') ? '提示：题目中的 ... 请也输入三个英文句点' : '';
+  setTimeout(() => input.focus(), 80);
+}
+
+function normalizePhraseAnswer(value) {
+  return String(value || '').toLowerCase().replace(/[’‘]/g, "'").replace(/…/g, '...').replace(/\s+/g, ' ').trim();
+}
+
+function checkPhraseSpell() {
+  const item = activePhraseQuestions[activePhraseIndex];
+  if (!item) return;
+  const input = document.getElementById('phraseSpellInput');
+  const answer = normalizePhraseAnswer(input.value);
+  if (!answer) return;
+  const accepted = [item.phrase, ...(Array.isArray(item.variants) ? item.variants : [])].map(normalizePhraseAnswer);
+  const feedback = document.getElementById('phraseSpellFeedback');
+  if (accepted.includes(answer)) {
+    addPhraseProgress(activePhraseLevel, item.phrase, 'learned');
+    input.style.borderColor = 'var(--color-accent)';
+    input.disabled = true;
+    feedback.innerText = '拼写正确';
+    feedback.style.color = 'var(--color-accent)';
+    showPopup(true);
+    playRightSound();
+    setTimeout(nextPhraseSpell, 850);
+    return;
+  }
+  phraseSpellAttempts++;
+  input.style.borderColor = '#ff4444';
+  feedback.style.color = '#ff4444';
+  feedback.innerText = phraseSpellAttempts >= 3 ? `正确答案：${item.phrase}` : `拼写不正确，还可尝试 ${3 - phraseSpellAttempts} 次`;
+  showPopup(false);
+  playWrongSound();
+  input.select();
+}
+
+function handlePhraseSpellKey(event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    checkPhraseSpell();
+  }
+}
+
+function nextPhraseSpell() {
+  activePhraseIndex++;
+  renderPhraseSpell();
+}
+
+function speakCurrentPhrase() {
+  const item = activePhraseQuestions[activePhraseIndex];
+  if (item) safeSpeak(item.phrase);
+}
+
+function markCurrentPhraseMastered() {
+  const item = activePhraseQuestions[activePhraseIndex];
+  if (!item) return;
+  addPhraseProgress(activePhraseLevel, item.phrase, 'mastered');
+  if (activePhraseMode === 'exam') {
+    phraseExamAnswered = true;
+    nextPhraseExam();
+  } else {
+    nextPhraseSpell();
+  }
+}
+
+function finishPhrasePractice(message) {
+  alert(message);
+  stopPhrasePractice();
+}
+
+function stopPhrasePractice() {
+  const level = activePhraseLevel;
+  activePhraseQuestions = [];
+  activePhraseIndex = 0;
+  activePhraseMode = '';
+  phrasePracticeState[level].selected.clear();
+  showPage(`${level}PhrasePage`);
+  setTimeout(() => renderPhraseLibrary(level), 60);
+}
+
+function loadPhraseLibrary(level) {
+  if (phraseLibraryPromises[level]) return phraseLibraryPromises[level];
+  const file = level === 'cet6' ? 'cet6_phrases.json' : 'cet4_phrases.json';
+  phraseLibraryPromises[level] = fetch(file)
+    .then(response => {
+      if (!response.ok) throw new Error(`词组库加载失败: ${response.status}`);
+      return response.json();
+    })
+    .then(data => {
+      phraseLibraries[level] = Array.isArray(data) ? data : [];
+      renderPhraseLibrary(level);
+      return phraseLibraries[level];
+    })
+    .catch(error => {
+      delete phraseLibraryPromises[level];
+      const summary = document.getElementById(`${level}PhraseSummary`);
+      const list = document.getElementById(`${level}PhraseList`);
+      if (summary) summary.innerText = '词组加载失败';
+      if (list) list.innerHTML = `<div style="padding:24px 0;text-align:center;color:var(--color-text-secondary);font-size:13px;">${escapeHtml(error.message)}</div>`;
+      throw error;
+    });
+  return phraseLibraryPromises[level];
 }
 
 async function resolveSharedVideoAssets(inputName) {
@@ -5699,6 +6268,130 @@ function buildFallbackKnowledge(sourceSubtitles = subtitles) {
   return { words, phrases };
 }
 
+const compiledPhraseKnowledge = { cet4: null, cet6: null };
+const phraseKnowledgeMatchCache = new Map();
+
+function normalizePhraseMatchText(value) {
+  return String(value || '')
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[^a-z0-9'\-]+/g, ' ')
+    .trim()
+    .replace(/\s+/g, ' ');
+}
+
+function buildPhraseMatchPattern(value) {
+  let source = String(value || '')
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/…/g, '...')
+    .replace(/\.{2,}/g, ' qqgapqq ')
+    .replace(/\bone['']s\b/g, ' qqpossessiveqq ')
+    .replace(/\bsb\b\.?/g, ' qqpersonqq ')
+    .replace(/\bsth\b\.?/g, ' qqthingqq ')
+    .replace(/[(),;:]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const rawTokens = source.split(' ').filter(Boolean);
+  const lexicalCount = rawTokens.filter(token => !/^qq(?:gap|possessive|person|thing)qq$/.test(token)).length;
+  if (lexicalCount < 2) return null;
+  const tokenPatterns = rawTokens.map(token => {
+    if (token === 'qqgapqq') return "[a-z0-9'-]+(?:\\s+[a-z0-9'-]+){0,5}";
+    if (token === 'qqpossessiveqq') return "(?:my|your|his|her|its|our|their|one's)";
+    if (token === 'qqpersonqq') return "(?:somebody|someone|[a-z][a-z'-]*)";
+    if (token === 'qqthingqq') return "(?:something|[a-z][a-z'-]*(?:\\s+[a-z][a-z'-]*){0,3})";
+    const alternatives = token.split('/').map(part => part.replace(/[^a-z0-9'\-]/g, '')).filter(Boolean);
+    if (!alternatives.length) return '';
+    if (alternatives.length === 1) return escapeRegExp(alternatives[0]);
+    return `(?:${alternatives.map(escapeRegExp).join('|')})`;
+  }).filter(Boolean);
+  if (tokenPatterns.length < 2) return null;
+  try {
+    return new RegExp(`(?:^|\\s)${tokenPatterns.join('\\s+')}(?=\\s|$)`, 'i');
+  } catch (_) {
+    return null;
+  }
+}
+
+function getCompiledPhraseKnowledge(level) {
+  if (compiledPhraseKnowledge[level]) return compiledPhraseKnowledge[level];
+  const compiled = [];
+  (phraseLibraries[level] || []).forEach(item => {
+    const expressions = [item.phrase, ...(Array.isArray(item.variants) ? item.variants : [])]
+      .filter(Boolean);
+    const patterns = expressions.map(buildPhraseMatchPattern).filter(Boolean);
+    if (!patterns.length) return;
+    compiled.push({ item, patterns, length: String(item.phrase || '').split(/\s+/).length });
+  });
+  compiledPhraseKnowledge[level] = compiled.sort((a, b) => b.length - a.length);
+  return compiledPhraseKnowledge[level];
+}
+
+async function ensurePhraseKnowledgeLibraries() {
+  await Promise.all([loadPhraseLibrary('cet4'), loadPhraseLibrary('cet6')]);
+}
+
+async function matchSubtitlePhrases(sourceSubtitles, cacheKey) {
+  await ensurePhraseKnowledgeLibraries();
+  const key = `${cacheKey || 'media'}|${sourceSubtitles.length}`;
+  if (phraseKnowledgeMatchCache.has(key)) return phraseKnowledgeMatchCache.get(key);
+  const matchesByPhrase = new Map();
+  sourceSubtitles.forEach((cue, cueIndex) => {
+    const text = normalizePhraseMatchText(cue.en);
+    if (!text) return;
+    ['cet4', 'cet6'].forEach(level => {
+      getCompiledPhraseKnowledge(level).forEach(entry => {
+        if (!entry.patterns.some(pattern => pattern.test(text))) return;
+        const phraseKey = String(entry.item.phrase || '').toLowerCase();
+        const existing = matchesByPhrase.get(phraseKey);
+        if (existing) {
+          if (!existing.levels.includes(level)) existing.levels.push(level);
+          return;
+        }
+        matchesByPhrase.set(phraseKey, {
+          phrase: entry.item.phrase,
+          meaning: entry.item.meaning || '暂无释义',
+          levels: [level],
+          cue,
+          cueIndex,
+          length: entry.length
+        });
+      });
+    });
+  });
+  const matches = [...matchesByPhrase.values()]
+    .sort((a, b) => a.cueIndex - b.cueIndex || b.length - a.length);
+  phraseKnowledgeMatchCache.set(key, matches);
+  return matches;
+}
+
+function renderMatchedPhraseSection(matches) {
+  if (!matches.length) {
+    return `<section class="knowledge-section">
+      <div class="knowledge-section-title">字幕匹配词组</div>
+      <div class="knowledge-card" style="color:var(--color-text-secondary);font-size:12px;">未从当前英文字幕中匹配到四、六级词组。</div>
+    </section>`;
+  }
+  const cards = matches.map(match => {
+    const levelLabel = match.levels.map(level => level.toUpperCase()).join(' / ');
+    return `<div class="knowledge-card">
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;">
+        <div class="knowledge-term">${escapeHtml(match.phrase)}</div>
+        <span style="flex-shrink:0;padding:2px 6px;border-radius:999px;background:color-mix(in srgb,var(--color-accent) 18%,transparent);color:var(--color-accent);font-size:9px;font-weight:700;">${escapeHtml(levelLabel)}</span>
+      </div>
+      <div class="knowledge-meaning">${escapeHtml(match.meaning)}</div>
+      <div style="height:1px;background:rgba(128,128,128,0.18);margin:8px 0;"></div>
+      <div style="font-size:10px;font-weight:600;color:var(--color-accent);margin-bottom:3px;">字幕对应例句</div>
+      <div class="knowledge-example-en">${escapeHtml(match.cue.en || '')}</div>
+      <div class="knowledge-example-zh">${escapeHtml(match.cue.zh || '')}</div>
+    </div>`;
+  }).join('');
+  return `<section class="knowledge-section">
+    <div class="knowledge-section-title">字幕匹配词组 <span style="font-size:10px;color:var(--color-text-secondary);font-weight:400;">${matches.length}个</span></div>
+    ${cards}
+  </section>`;
+}
+
 function findKnowledgeExample(term) {
   const ignored = new Set([
     'a', 'an', 'the', 'to', 'of', 'in', 'on', 'at', 'for',
@@ -5753,10 +6446,13 @@ function renderKnowledgeSection(title, items, type) {
   </section>`;
 }
 
-function openVideoKnowledge() {
+async function openVideoKnowledge() {
   const base = getBaseNameFromInput(currentVideoSrc);
   const videoInfo = getCurrentVideoInfo();
-  const knowledge = curatedVideoKnowledge[base] || buildFallbackKnowledge();
+  const curatedKnowledge = curatedVideoKnowledge[base] || null;
+  const curatedPhraseSection = curatedKnowledge
+    ? renderKnowledgeSection('精选词组', curatedKnowledge.phrases || [], 'phrase')
+    : '';
   const collectedWords = getVideoKnowledgeWords();
   const wordSection = collectedWords.length
     ? renderKnowledgeSection('重点单词', collectedWords, 'word')
@@ -5769,17 +6465,26 @@ function openVideoKnowledge() {
 
   document.getElementById('knowledgeVideoName').innerText =
     videoInfo.title || base || '当前视频';
-  document.getElementById('knowledgeContent').innerHTML =
-    wordSection +
-    renderKnowledgeSection('重点词组', knowledge.phrases || [], 'phrase') ||
-    '<div style="padding:24px 0;text-align:center;color:var(--color-text-secondary);">暂无可提取的知识点</div>';
   document.getElementById('knowledgeOverlay').classList.remove('news-knowledge-compact');
   document.getElementById('knowledgeOverlay').style.display = 'flex';
+  document.getElementById('knowledgeContent').innerHTML = wordSection +
+    '<div style="padding:20px 0;text-align:center;color:var(--color-text-secondary);font-size:12px;">正在识别字幕词组…</div>';
+  try {
+    const matches = await matchSubtitlePhrases(subtitles, `video:${currentVideoSrc}`);
+    document.getElementById('knowledgeContent').innerHTML =
+      wordSection +
+      curatedPhraseSection +
+      renderMatchedPhraseSection(matches);
+  } catch (error) {
+    document.getElementById('knowledgeContent').innerHTML =
+      wordSection +
+      curatedPhraseSection +
+      `<div style="padding:18px 0;text-align:center;color:var(--color-text-secondary);font-size:12px;">词组识别暂不可用：${escapeHtml(error.message)}</div>`;
+  }
 }
 
-function openNewsKnowledge() {
+async function openNewsKnowledge() {
   const words = getNewsKnowledgeWords();
-  const fallback = buildFallbackKnowledge(newsSubtitles);
   const wordSection = words.length
     ? renderKnowledgeSection('重点单词', words, 'word')
     : `<section class="knowledge-section">
@@ -5791,11 +6496,17 @@ function openNewsKnowledge() {
 
   document.getElementById('knowledgeVideoName').innerText =
     currentNewsItem ? currentNewsItem.name : '当前 NEWS';
-  document.getElementById('knowledgeContent').innerHTML =
-    wordSection +
-    renderKnowledgeSection('重点词组', fallback.phrases || [], 'phrase');
   document.getElementById('knowledgeOverlay').classList.add('news-knowledge-compact');
   document.getElementById('knowledgeOverlay').style.display = 'flex';
+  document.getElementById('knowledgeContent').innerHTML = wordSection +
+    '<div style="padding:20px 0;text-align:center;color:var(--color-text-secondary);font-size:12px;">正在识别字幕词组…</div>';
+  try {
+    const matches = await matchSubtitlePhrases(newsSubtitles, `news:${getNewsKnowledgeKey()}`);
+    document.getElementById('knowledgeContent').innerHTML = wordSection + renderMatchedPhraseSection(matches);
+  } catch (error) {
+    document.getElementById('knowledgeContent').innerHTML = wordSection +
+      `<div style="padding:18px 0;text-align:center;color:var(--color-text-secondary);font-size:12px;">词组识别暂不可用：${escapeHtml(error.message)}</div>`;
+  }
 }
 
 function closeVideoKnowledge() {

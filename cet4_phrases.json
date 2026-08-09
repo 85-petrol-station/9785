@@ -1,0 +1,5306 @@
+[
+  {
+    "phrase": "a host of",
+    "meaning": "大量",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      1
+    ]
+  },
+  {
+    "phrase": "a test for",
+    "meaning": "检测目的",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      2
+    ]
+  },
+  {
+    "phrase": "a test on",
+    "meaning": "对...进行测试",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      3
+    ]
+  },
+  {
+    "phrase": "a test with",
+    "meaning": "检测手段",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      4
+    ]
+  },
+  {
+    "phrase": "above all",
+    "meaning": "最重要的；首先；尤其是",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      5
+    ]
+  },
+  {
+    "phrase": "according to",
+    "meaning": "根据",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      6
+    ]
+  },
+  {
+    "phrase": "achieve equilibrium",
+    "meaning": "取得平衡",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      7
+    ]
+  },
+  {
+    "phrase": "achieve one's purpose",
+    "meaning": "达到目的",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      8
+    ]
+  },
+  {
+    "phrase": "achieve success",
+    "meaning": "获得成功",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      9
+    ]
+  },
+  {
+    "phrase": "achieve victory",
+    "meaning": "获得胜利",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      10
+    ]
+  },
+  {
+    "phrase": "act on",
+    "meaning": "遵照...行动，作用于；对...有影响",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      11,
+      12
+    ]
+  },
+  {
+    "phrase": "add up to",
+    "meaning": "总计，合计",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      13
+    ]
+  },
+  {
+    "phrase": "add ... to",
+    "meaning": "把...加到...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      14
+    ]
+  },
+  {
+    "phrase": "adhere to",
+    "meaning": "坚持，奉行；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      15
+    ]
+  },
+  {
+    "phrase": "after all",
+    "meaning": "毕竟，均不合题意；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      16
+    ]
+  },
+  {
+    "phrase": "agree on",
+    "meaning": "对...取得一致意见",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      17
+    ]
+  },
+  {
+    "phrase": "agree to",
+    "meaning": "同意",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      18
+    ]
+  },
+  {
+    "phrase": "agree with sb",
+    "meaning": "同意某人的话",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      19
+    ]
+  },
+  {
+    "phrase": "along with",
+    "meaning": "和...一道，和...一起；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      20
+    ]
+  },
+  {
+    "phrase": "alternate (with)",
+    "meaning": "交替；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      21
+    ]
+  },
+  {
+    "phrase": "amount to",
+    "meaning": "合计，共计；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      22
+    ]
+  },
+  {
+    "phrase": "an equal to",
+    "meaning": "与...相当的人/物，(地位)相同的人",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      23
+    ]
+  },
+  {
+    "phrase": "and yet",
+    "meaning": "然而",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      24
+    ]
+  },
+  {
+    "phrase": "anything but",
+    "meaning": "一点也不；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      25
+    ]
+  },
+  {
+    "phrase": "anything like",
+    "meaning": "像...那样的东西",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      26
+    ]
+  },
+  {
+    "phrase": "anywhere near",
+    "meaning": "接近于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      27
+    ]
+  },
+  {
+    "phrase": "apart from",
+    "meaning": "除...之外尚有",
+    "variants": [
+      "apart form"
+    ],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      28
+    ]
+  },
+  {
+    "phrase": "apply to",
+    "meaning": "向...申请，适用于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      29
+    ]
+  },
+  {
+    "phrase": "appreciation of",
+    "meaning": "对...的欣赏/赞赏",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      30
+    ]
+  },
+  {
+    "phrase": "argue against",
+    "meaning": "反对",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      31
+    ]
+  },
+  {
+    "phrase": "as a result of",
+    "meaning": "作为...的结果，由于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      32
+    ]
+  },
+  {
+    "phrase": "as a result",
+    "meaning": "作为结果，因此；表结果，用不用逗号隔开看情况而定；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      33
+    ]
+  },
+  {
+    "phrase": "as a whole",
+    "meaning": "作为一个整体，整个看来",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      34
+    ]
+  },
+  {
+    "phrase": "as far as .../are concerned",
+    "meaning": "就...而言",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      35
+    ]
+  },
+  {
+    "phrase": "as for",
+    "meaning": "至于，就...方面说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      36
+    ]
+  },
+  {
+    "phrase": "as if",
+    "meaning": "好像，仿佛",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      37
+    ]
+  },
+  {
+    "phrase": "as soon as",
+    "meaning": "一...就...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      38
+    ]
+  },
+  {
+    "phrase": "as though",
+    "meaning": "好像，仿佛",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      39
+    ]
+  },
+  {
+    "phrase": "as to",
+    "meaning": "至于，关于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      40
+    ]
+  },
+  {
+    "phrase": "as well",
+    "meaning": "也，一样",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      41
+    ]
+  },
+  {
+    "phrase": "as yet",
+    "meaning": "迄今，到目前为止",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      42
+    ]
+  },
+  {
+    "phrase": "aside from",
+    "meaning": "除...之外；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      43
+    ]
+  },
+  {
+    "phrase": "associate ... with..",
+    "meaning": "由...联想到...，把...联系起来",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      44
+    ]
+  },
+  {
+    "phrase": "association with",
+    "meaning": "与...的交往",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      45
+    ]
+  },
+  {
+    "phrase": "at a disadvantage",
+    "meaning": "处于不利地位",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      46
+    ]
+  },
+  {
+    "phrase": "at a loss",
+    "meaning": "不知所措",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      47
+    ]
+  },
+  {
+    "phrase": "at a time",
+    "meaning": "每次，一次",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      48
+    ]
+  },
+  {
+    "phrase": "at all",
+    "meaning": "丝毫，根本；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      49
+    ]
+  },
+  {
+    "phrase": "at any moment",
+    "meaning": "即使，随时。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      50
+    ]
+  },
+  {
+    "phrase": "at first",
+    "meaning": "首先，开始的时候；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      51
+    ]
+  },
+  {
+    "phrase": "at large",
+    "meaning": "未被捕获的，大多数；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      52
+    ]
+  },
+  {
+    "phrase": "at last",
+    "meaning": "终于，最终；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      53
+    ]
+  },
+  {
+    "phrase": "at least",
+    "meaning": "至少",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      54
+    ]
+  },
+  {
+    "phrase": "at length",
+    "meaning": "最终，详细地；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      55
+    ]
+  },
+  {
+    "phrase": "at most",
+    "meaning": "最多",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      56
+    ]
+  },
+  {
+    "phrase": "at no time",
+    "meaning": "从不，决不",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      57
+    ]
+  },
+  {
+    "phrase": "at one time",
+    "meaning": "曾经，从前曾",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      58
+    ]
+  },
+  {
+    "phrase": "at the cost of",
+    "meaning": "以...为代价",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      59
+    ]
+  },
+  {
+    "phrase": "at the least",
+    "meaning": "至少；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      60
+    ]
+  },
+  {
+    "phrase": "at times",
+    "meaning": "有时，间或；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      61
+    ]
+  },
+  {
+    "phrase": "at ... speed",
+    "meaning": "以...的速度",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      62
+    ]
+  },
+  {
+    "phrase": "attend on",
+    "meaning": "照顾，侍候；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      63
+    ]
+  },
+  {
+    "phrase": "attribute ... to",
+    "meaning": "把...归于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      64
+    ]
+  },
+  {
+    "phrase": "back up",
+    "meaning": "后退，支持；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      65
+    ]
+  },
+  {
+    "phrase": "base on",
+    "meaning": "基于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      66
+    ]
+  },
+  {
+    "phrase": "be able to",
+    "meaning": "能够，胜任",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      67
+    ]
+  },
+  {
+    "phrase": "be about to",
+    "meaning": "正打算",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      68
+    ]
+  },
+  {
+    "phrase": "be accustomed to",
+    "meaning": "习惯于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      69
+    ]
+  },
+  {
+    "phrase": "be associated with",
+    "meaning": "与...有关，与...有关系",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      70
+    ]
+  },
+  {
+    "phrase": "be aware of",
+    "meaning": "意识到；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      71
+    ]
+  },
+  {
+    "phrase": "be capable of",
+    "meaning": "有能力干；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      72
+    ]
+  },
+  {
+    "phrase": "be caught",
+    "meaning": "遇到，陷入",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      73
+    ]
+  },
+  {
+    "phrase": "be committed to",
+    "meaning": "被交给...，答应承担...义务；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      74
+    ]
+  },
+  {
+    "phrase": "be confined to",
+    "meaning": "限制在，局限于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      75
+    ]
+  },
+  {
+    "phrase": "be confined/be restricted",
+    "meaning": "受...限制",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      76
+    ]
+  },
+  {
+    "phrase": "be dedicated to",
+    "meaning": "奉献，献给；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      77
+    ]
+  },
+  {
+    "phrase": "be devoted to",
+    "meaning": "被用于，贡献给",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      78
+    ]
+  },
+  {
+    "phrase": "be directed to",
+    "meaning": "指向，针对",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      79
+    ]
+  },
+  {
+    "phrase": "be drawn to",
+    "meaning": "被...所吸引；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      80
+    ]
+  },
+  {
+    "phrase": "be due to",
+    "meaning": "由于，因此",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      81
+    ]
+  },
+  {
+    "phrase": "be exposed to",
+    "meaning": "暴露在...下，处在...的作用之下；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      82
+    ]
+  },
+  {
+    "phrase": "be fond of",
+    "meaning": "喜爱",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      83
+    ]
+  },
+  {
+    "phrase": "be full of",
+    "meaning": "充满他",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      84
+    ]
+  },
+  {
+    "phrase": "be habitual to(him)",
+    "meaning": "对(他来说)习以为常",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      85
+    ]
+  },
+  {
+    "phrase": "be in order",
+    "meaning": "合适，恰当。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      86
+    ]
+  },
+  {
+    "phrase": "be involved in",
+    "meaning": "参与，参加；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      87
+    ]
+  },
+  {
+    "phrase": "be involved with",
+    "meaning": "与...有关连，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      88
+    ]
+  },
+  {
+    "phrase": "be left to",
+    "meaning": "由...来决定，由...来想办法；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      89
+    ]
+  },
+  {
+    "phrase": "be limited to",
+    "meaning": "限制在...，限定在...；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      90
+    ]
+  },
+  {
+    "phrase": "be linked to/with something",
+    "meaning": "与...连接",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      91
+    ]
+  },
+  {
+    "phrase": "be proud of",
+    "meaning": "为...而骄傲。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      92
+    ]
+  },
+  {
+    "phrase": "be referred to",
+    "meaning": "被提及，被提交",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      93
+    ]
+  },
+  {
+    "phrase": "be related to",
+    "meaning": "与...有关",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      94
+    ]
+  },
+  {
+    "phrase": "be sick of",
+    "meaning": "厌恶...，讨厌...；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      95
+    ]
+  },
+  {
+    "phrase": "be subject to",
+    "meaning": "经受，遭受；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      96
+    ]
+  },
+  {
+    "phrase": "be suitable for",
+    "meaning": "适合于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      97
+    ]
+  },
+  {
+    "phrase": "be sure of",
+    "meaning": "对...的肯定；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      98
+    ]
+  },
+  {
+    "phrase": "be thrown in",
+    "meaning": "额外赠送",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      99
+    ]
+  },
+  {
+    "phrase": "be tied by/with",
+    "meaning": "被...捆绑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      100
+    ]
+  },
+  {
+    "phrase": "be tied to",
+    "meaning": "束缚于，捆绑于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      101
+    ]
+  },
+  {
+    "phrase": "be tired of",
+    "meaning": "厌倦...，厌烦...；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      102
+    ]
+  },
+  {
+    "phrase": "behind time",
+    "meaning": "晚点",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      103
+    ]
+  },
+  {
+    "phrase": "belief in",
+    "meaning": "对...的真实性或正确性具有的信心",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      104
+    ]
+  },
+  {
+    "phrase": "believe( ... to be)",
+    "meaning": "相信...是",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      105
+    ]
+  },
+  {
+    "phrase": "better than",
+    "meaning": "好于...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      106
+    ]
+  },
+  {
+    "phrase": "beyond question",
+    "meaning": "毋庸置疑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      107
+    ]
+  },
+  {
+    "phrase": "break away",
+    "meaning": "脱离，逃跑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      108
+    ]
+  },
+  {
+    "phrase": "break down",
+    "meaning": "损坏，分解，瓦解",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      109
+    ]
+  },
+  {
+    "phrase": "break into",
+    "meaning": "闯入",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      110
+    ]
+  },
+  {
+    "phrase": "break in",
+    "meaning": "强行进行，打断",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      111
+    ]
+  },
+  {
+    "phrase": "break off",
+    "meaning": "断绝，结束",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      112
+    ]
+  },
+  {
+    "phrase": "break out",
+    "meaning": "突发，爆发",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      113
+    ]
+  },
+  {
+    "phrase": "break through",
+    "meaning": "突破",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      114
+    ]
+  },
+  {
+    "phrase": "break up",
+    "meaning": "终止，结束，打碎",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      115
+    ]
+  },
+  {
+    "phrase": "bring about",
+    "meaning": "产生；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      116
+    ]
+  },
+  {
+    "phrase": "bring forward",
+    "meaning": "提出。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      117
+    ]
+  },
+  {
+    "phrase": "bring out",
+    "meaning": "使出现；公布；出版；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      118
+    ]
+  },
+  {
+    "phrase": "bring up",
+    "meaning": "培养，养大；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      119
+    ]
+  },
+  {
+    "phrase": "by accident",
+    "meaning": "偶然，含有不幸的因素",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      120
+    ]
+  },
+  {
+    "phrase": "by all means",
+    "meaning": "无论如何，必定",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      121
+    ]
+  },
+  {
+    "phrase": "by chance",
+    "meaning": "偶然，意外地",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      122
+    ]
+  },
+  {
+    "phrase": "by choice",
+    "meaning": "处于选择",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      123
+    ]
+  },
+  {
+    "phrase": "by contrast",
+    "meaning": "对比之下；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      124
+    ]
+  },
+  {
+    "phrase": "by means of",
+    "meaning": "用，依靠； 借助于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      125,
+      126
+    ]
+  },
+  {
+    "phrase": "by mistake",
+    "meaning": "错误地",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      127
+    ]
+  },
+  {
+    "phrase": "by the way",
+    "meaning": "顺便提一下",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      128
+    ]
+  },
+  {
+    "phrase": "by virtue of",
+    "meaning": "凭借，借助；因为，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      129
+    ]
+  },
+  {
+    "phrase": "by way of",
+    "meaning": "经由，通过...方式",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      130
+    ]
+  },
+  {
+    "phrase": "call forth",
+    "meaning": "唤起，引起",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      131
+    ]
+  },
+  {
+    "phrase": "call for",
+    "meaning": "邀请，要求，需要",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      132
+    ]
+  },
+  {
+    "phrase": "call off",
+    "meaning": "放弃，取消",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      133
+    ]
+  },
+  {
+    "phrase": "call on/upon",
+    "meaning": "访问，拜访",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      134
+    ]
+  },
+  {
+    "phrase": "care for",
+    "meaning": "照顾，关心",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      135
+    ]
+  },
+  {
+    "phrase": "carry out",
+    "meaning": "贯彻，执行，实现",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      136
+    ]
+  },
+  {
+    "phrase": "cast light on",
+    "meaning": "阐明某事；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      137
+    ]
+  },
+  {
+    "phrase": "catch up with",
+    "meaning": "赶上；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      138
+    ]
+  },
+  {
+    "phrase": "catch sight of",
+    "meaning": "看见；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      139
+    ]
+  },
+  {
+    "phrase": "center on",
+    "meaning": "把...集中在，以...为中心；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      140
+    ]
+  },
+  {
+    "phrase": "characterized by",
+    "meaning": "以...为特征；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      141
+    ]
+  },
+  {
+    "phrase": "coincide with",
+    "meaning": "与...相符",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      142
+    ]
+  },
+  {
+    "phrase": "come from",
+    "meaning": "来自，来源于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      143
+    ]
+  },
+  {
+    "phrase": "come off",
+    "meaning": "成功；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      144
+    ]
+  },
+  {
+    "phrase": "come on",
+    "meaning": "涉及，谈及，到达，结束，总共，共计，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      145
+    ]
+  },
+  {
+    "phrase": "come out",
+    "meaning": "出版，出现，结局是",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      146
+    ]
+  },
+  {
+    "phrase": "come to",
+    "meaning": "等于，结果是； 总计，达到",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      147
+    ]
+  },
+  {
+    "phrase": "come under attack",
+    "meaning": "受到打击",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      148
+    ]
+  },
+  {
+    "phrase": "come under",
+    "meaning": "归人，受到",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      149
+    ]
+  },
+  {
+    "phrase": "come up",
+    "meaning": "发生，形成；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      150
+    ]
+  },
+  {
+    "phrase": "comment on",
+    "meaning": "评论，发表意见；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      151
+    ]
+  },
+  {
+    "phrase": "commit to",
+    "meaning": "交付，把...投入",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      152
+    ]
+  },
+  {
+    "phrase": "comply with",
+    "meaning": "遵守，服从；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      153
+    ]
+  },
+  {
+    "phrase": "conform to",
+    "meaning": "遵守，符合，顺应",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      154
+    ]
+  },
+  {
+    "phrase": "consist of",
+    "meaning": "组成",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      155
+    ]
+  },
+  {
+    "phrase": "consistent in",
+    "meaning": "在(某方面)一致",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      156
+    ]
+  },
+  {
+    "phrase": "consistent with",
+    "meaning": "与...一致",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      157
+    ]
+  },
+  {
+    "phrase": "contribute to",
+    "meaning": "有助于 ，促进，加剧；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      158
+    ]
+  },
+  {
+    "phrase": "copy out",
+    "meaning": "抄写；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      159
+    ]
+  },
+  {
+    "phrase": "correlate with",
+    "meaning": "找出一一对应的关系",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      160
+    ]
+  },
+  {
+    "phrase": "count on",
+    "meaning": "指望；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      161
+    ]
+  },
+  {
+    "phrase": "cut away",
+    "meaning": "砍掉；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      162
+    ]
+  },
+  {
+    "phrase": "cut down",
+    "meaning": "削减；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      163
+    ]
+  },
+  {
+    "phrase": "cut off",
+    "meaning": "打断，中断；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      164
+    ]
+  },
+  {
+    "phrase": "cut out",
+    "meaning": "删掉；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      165
+    ]
+  },
+  {
+    "phrase": "dedicate ... to",
+    "meaning": "奉献；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      166
+    ]
+  },
+  {
+    "phrase": "depend on",
+    "meaning": "依靠，依赖",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      167
+    ]
+  },
+  {
+    "phrase": "die back",
+    "meaning": "枯死；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      168
+    ]
+  },
+  {
+    "phrase": "die down",
+    "meaning": "逐渐消失；止息；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      169
+    ]
+  },
+  {
+    "phrase": "die off",
+    "meaning": "相继死去；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      170
+    ]
+  },
+  {
+    "phrase": "die out",
+    "meaning": "消失；死绝；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      171
+    ]
+  },
+  {
+    "phrase": "difference in",
+    "meaning": "在...方面的差别",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      172
+    ]
+  },
+  {
+    "phrase": "do something for/to",
+    "meaning": "改进，增强",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      173
+    ]
+  },
+  {
+    "phrase": "doubt about",
+    "meaning": "怀疑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      174
+    ]
+  },
+  {
+    "phrase": "due to",
+    "meaning": "由于，因为",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      175
+    ]
+  },
+  {
+    "phrase": "dwell on",
+    "meaning": "利用",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      176
+    ]
+  },
+  {
+    "phrase": "enter for",
+    "meaning": "报名参加；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      177
+    ]
+  },
+  {
+    "phrase": "enter into",
+    "meaning": "开始 (谈话，讨论)",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      178
+    ]
+  },
+  {
+    "phrase": "entertain a proposal",
+    "meaning": "愿意考虑这一建设",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      179
+    ]
+  },
+  {
+    "phrase": "entertain an idea",
+    "meaning": "抱着一种想法",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      180
+    ]
+  },
+  {
+    "phrase": "even if",
+    "meaning": "甚至，即使",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      181
+    ]
+  },
+  {
+    "phrase": "even though",
+    "meaning": "虽然，尽管)表让步；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      182
+    ]
+  },
+  {
+    "phrase": "ever since",
+    "meaning": "自从...之后，从此以后)表时间；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      183
+    ]
+  },
+  {
+    "phrase": "faithful to",
+    "meaning": "忠心于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      184
+    ]
+  },
+  {
+    "phrase": "fall from",
+    "meaning": "从...落下；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      185
+    ]
+  },
+  {
+    "phrase": "far from",
+    "meaning": "毫不，远非",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      186
+    ]
+  },
+  {
+    "phrase": "favor of",
+    "meaning": "喜欢",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      187
+    ]
+  },
+  {
+    "phrase": "figure out",
+    "meaning": "计算出",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      188
+    ]
+  },
+  {
+    "phrase": "find out",
+    "meaning": "查明",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      189
+    ]
+  },
+  {
+    "phrase": "focus on",
+    "meaning": "集中于，集中研究",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      190
+    ]
+  },
+  {
+    "phrase": "followed by",
+    "meaning": "接着是；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      191
+    ]
+  },
+  {
+    "phrase": "for all",
+    "meaning": "尽管；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      192
+    ]
+  },
+  {
+    "phrase": "for example",
+    "meaning": "举例来说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      193
+    ]
+  },
+  {
+    "phrase": "for instance",
+    "meaning": "和 such as 都表示举例，前者常接句子，后者常接名词或名词短语；例如",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      194,
+      195
+    ]
+  },
+  {
+    "phrase": "for the purpose of",
+    "meaning": "为了...目的；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      196
+    ]
+  },
+  {
+    "phrase": "for the sake of",
+    "meaning": "为了...起见",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      197
+    ]
+  },
+  {
+    "phrase": "frankly speaking",
+    "meaning": "坦白来说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      198
+    ]
+  },
+  {
+    "phrase": "freedom from",
+    "meaning": "免于...(的自由)",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      199
+    ]
+  },
+  {
+    "phrase": "from all appearances",
+    "meaning": "从所能见到和知道的情况判断",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      200
+    ]
+  },
+  {
+    "phrase": "from all sides",
+    "meaning": "从四面八方，全面地",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      201
+    ]
+  },
+  {
+    "phrase": "from now on",
+    "meaning": "从现在开始",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      202
+    ]
+  },
+  {
+    "phrase": "from/by all accounts",
+    "meaning": "根据方面所说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      203
+    ]
+  },
+  {
+    "phrase": "gather up",
+    "meaning": "拾起，集拢；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      204
+    ]
+  },
+  {
+    "phrase": "generally speaking",
+    "meaning": "一般来说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      205
+    ]
+  },
+  {
+    "phrase": "get along with",
+    "meaning": "进展，相处融洽",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      206
+    ]
+  },
+  {
+    "phrase": "get away",
+    "meaning": "逃脱，离开",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      207,
+      208
+    ]
+  },
+  {
+    "phrase": "get down to",
+    "meaning": "开始，着手",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      209
+    ]
+  },
+  {
+    "phrase": "get in",
+    "meaning": "进入，收获，收集",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      210
+    ]
+  },
+  {
+    "phrase": "give in",
+    "meaning": "妥协，让步，投降，屈服",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      211
+    ]
+  },
+  {
+    "phrase": "give off",
+    "meaning": "放出，释放",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      212
+    ]
+  },
+  {
+    "phrase": "give out",
+    "meaning": "分发，放出",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      213
+    ]
+  },
+  {
+    "phrase": "give something away",
+    "meaning": "泄露",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      214
+    ]
+  },
+  {
+    "phrase": "give up",
+    "meaning": "停止，放弃",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      215
+    ]
+  },
+  {
+    "phrase": "give way",
+    "meaning": "让路，让步",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      216
+    ]
+  },
+  {
+    "phrase": "go beyond",
+    "meaning": "超越，超过；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      217
+    ]
+  },
+  {
+    "phrase": "go by",
+    "meaning": "从...旁走过，顺访",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      218
+    ]
+  },
+  {
+    "phrase": "go for",
+    "meaning": "追求",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      219
+    ]
+  },
+  {
+    "phrase": "go in",
+    "meaning": "进入，参加",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      220
+    ]
+  },
+  {
+    "phrase": "go through",
+    "meaning": "经历",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      221
+    ]
+  },
+  {
+    "phrase": "hand on",
+    "meaning": "传下来，依次传递",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      222
+    ]
+  },
+  {
+    "phrase": "hand out",
+    "meaning": "分发，散发",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      223
+    ]
+  },
+  {
+    "phrase": "hand over",
+    "meaning": "交出，移交",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      224
+    ]
+  },
+  {
+    "phrase": "have a bearing on",
+    "meaning": "与...有关系",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      225
+    ]
+  },
+  {
+    "phrase": "have difficulty with",
+    "meaning": "与---有分歧，相处不好",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      226
+    ]
+  },
+  {
+    "phrase": "hold back",
+    "meaning": "踌躇，退缩，阻止",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      227
+    ]
+  },
+  {
+    "phrase": "hold down",
+    "meaning": "控制",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      228
+    ]
+  },
+  {
+    "phrase": "hold on to",
+    "meaning": "紧紧抓住，坚持",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      229
+    ]
+  },
+  {
+    "phrase": "hold on",
+    "meaning": "继续，握住不放，坚持",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      230
+    ]
+  },
+  {
+    "phrase": "hold out",
+    "meaning": "维持，伸出，提出，坚持",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      231
+    ]
+  },
+  {
+    "phrase": "hold up",
+    "meaning": "保持良好，停止；阻滞；举起，承载，阻挡",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      232,
+      233
+    ]
+  },
+  {
+    "phrase": "if only",
+    "meaning": "要是，只要)表条件；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      234
+    ]
+  },
+  {
+    "phrase": "in use",
+    "meaning": "在使用；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      235
+    ]
+  },
+  {
+    "phrase": "in ... degree",
+    "meaning": "在...速度上",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      236
+    ]
+  },
+  {
+    "phrase": "in a sense",
+    "meaning": "从某种意义上说)它可以放在句首、句中或者句尾，一般不用逗号隔开；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      237
+    ]
+  },
+  {
+    "phrase": "in a state of",
+    "meaning": "处于...的状态",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      238
+    ]
+  },
+  {
+    "phrase": "in a way",
+    "meaning": "从某一点上看",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      239
+    ]
+  },
+  {
+    "phrase": "in accord with",
+    "meaning": "与...一致",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      240
+    ]
+  },
+  {
+    "phrase": "in addition to",
+    "meaning": "除...之外，并且",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      241
+    ]
+  },
+  {
+    "phrase": "in all",
+    "meaning": "总共；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      242
+    ]
+  },
+  {
+    "phrase": "in any case",
+    "meaning": "无论如何，不管怎样；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      243
+    ]
+  },
+  {
+    "phrase": "in case of",
+    "meaning": "万一发生 ...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      244
+    ]
+  },
+  {
+    "phrase": "in case",
+    "meaning": "假使，以防；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      245
+    ]
+  },
+  {
+    "phrase": "in circles=in a circle",
+    "meaning": "在原地兜圈子，毫无进展",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      246
+    ]
+  },
+  {
+    "phrase": "in consequence",
+    "meaning": "因此；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      247
+    ]
+  },
+  {
+    "phrase": "in doubt",
+    "meaning": "有怀疑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      248
+    ]
+  },
+  {
+    "phrase": "in effect",
+    "meaning": "实质上，实际上)它在句中一般不需要用逗号隔开；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      249
+    ]
+  },
+  {
+    "phrase": "in essence",
+    "meaning": "实质上，本质上，根本上",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      250
+    ]
+  },
+  {
+    "phrase": "in fact",
+    "meaning": "实际上",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      251
+    ]
+  },
+  {
+    "phrase": "in firm voice",
+    "meaning": "用清晰，坚定的声音。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      252
+    ]
+  },
+  {
+    "phrase": "in general",
+    "meaning": "总的来说，大体上；一般来说：",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      253,
+      254
+    ]
+  },
+  {
+    "phrase": "in line with",
+    "meaning": "与...一致，符合...；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      255
+    ]
+  },
+  {
+    "phrase": "in mind",
+    "meaning": "心里想着某人或某事；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      256
+    ]
+  },
+  {
+    "phrase": "in need of",
+    "meaning": "需要",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      257
+    ]
+  },
+  {
+    "phrase": "in no way",
+    "meaning": "决不",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      258
+    ]
+  },
+  {
+    "phrase": "in one's opinion",
+    "meaning": "在某人看来",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      259
+    ]
+  },
+  {
+    "phrase": "in one's terms",
+    "meaning": "用...的话来说",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      260
+    ]
+  },
+  {
+    "phrase": "in one's way/in the way",
+    "meaning": "妨碍，阻碍",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      261
+    ]
+  },
+  {
+    "phrase": "in order to",
+    "meaning": "为了",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      262
+    ]
+  },
+  {
+    "phrase": "in order",
+    "meaning": "整齐，恰当",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      263
+    ]
+  },
+  {
+    "phrase": "in particular",
+    "meaning": "尤其，特别；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      264
+    ]
+  },
+  {
+    "phrase": "in perspective",
+    "meaning": "关系恰当地，观察合理地；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      265
+    ]
+  },
+  {
+    "phrase": "in point of",
+    "meaning": "说到，关于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      266
+    ]
+  },
+  {
+    "phrase": "in question",
+    "meaning": "对...表示 怀疑，有疑问",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      267
+    ]
+  },
+  {
+    "phrase": "in reference to",
+    "meaning": "关于，就...而论；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      268
+    ]
+  },
+  {
+    "phrase": "in regard to",
+    "meaning": "关于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      269
+    ]
+  },
+  {
+    "phrase": "in relation to",
+    "meaning": "关于，至于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      270
+    ]
+  },
+  {
+    "phrase": "in reply to",
+    "meaning": "作为回答；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      271
+    ]
+  },
+  {
+    "phrase": "in response to",
+    "meaning": "作为对...的回答，作为对...的反应；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      272
+    ]
+  },
+  {
+    "phrase": "in return for",
+    "meaning": "作为对...的汇报/交换；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      273
+    ]
+  },
+  {
+    "phrase": "in short",
+    "meaning": "总之，简言之；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      274
+    ]
+  },
+  {
+    "phrase": "in spite of",
+    "meaning": "尽管；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      275
+    ]
+  },
+  {
+    "phrase": "in terms of",
+    "meaning": "用...的话；从...方面来说；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      276
+    ]
+  },
+  {
+    "phrase": "in the analysis of",
+    "meaning": "在对...进行分析时",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      277
+    ]
+  },
+  {
+    "phrase": "in the bargain",
+    "meaning": "此外，还",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      278
+    ]
+  },
+  {
+    "phrase": "in the case of",
+    "meaning": "至于...，就...来说；就...而论",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      279
+    ]
+  },
+  {
+    "phrase": "in the company of",
+    "meaning": "陪伴，伴随 ；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      280
+    ]
+  },
+  {
+    "phrase": "in the course of",
+    "meaning": "在...过程中，在...期间",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      281
+    ]
+  },
+  {
+    "phrase": "in the end",
+    "meaning": "最后",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      282
+    ]
+  },
+  {
+    "phrase": "in the event of",
+    "meaning": "万一发生；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      283
+    ]
+  },
+  {
+    "phrase": "in the form of",
+    "meaning": "以...形状，以...形式；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      284
+    ]
+  },
+  {
+    "phrase": "in the light of",
+    "meaning": "鉴于，由于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      285
+    ]
+  },
+  {
+    "phrase": "in the process of",
+    "meaning": "在...的过程中；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      286
+    ]
+  },
+  {
+    "phrase": "in time",
+    "meaning": "后来渐渐，终于 ；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      287
+    ]
+  },
+  {
+    "phrase": "in turn",
+    "meaning": "依次地，反过来；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      288
+    ]
+  },
+  {
+    "phrase": "in vain",
+    "meaning": "徒劳",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      289
+    ]
+  },
+  {
+    "phrase": "in whole",
+    "meaning": "整个地",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      290
+    ]
+  },
+  {
+    "phrase": "infuse ... into",
+    "meaning": "注入",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      291
+    ]
+  },
+  {
+    "phrase": "insist on",
+    "meaning": "坚持，一定要",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      292
+    ]
+  },
+  {
+    "phrase": "instead of",
+    "meaning": "代替",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      293
+    ]
+  },
+  {
+    "phrase": "interest in",
+    "meaning": "对...的兴趣",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      294
+    ]
+  },
+  {
+    "phrase": "irrespective of",
+    "meaning": "不顾的，不考虑的；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      295
+    ]
+  },
+  {
+    "phrase": "isolate ... from",
+    "meaning": "使...与...隔离；使孤立 ；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      296
+    ]
+  },
+  {
+    "phrase": "it used to be",
+    "meaning": "过去的情况是...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      297
+    ]
+  },
+  {
+    "phrase": "join in",
+    "meaning": "参加(某种活动)；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      298
+    ]
+  },
+  {
+    "phrase": "lay emphasis on",
+    "meaning": "强调；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      299
+    ]
+  },
+  {
+    "phrase": "lay/put blame on",
+    "meaning": "责怪，归咎于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      300
+    ]
+  },
+  {
+    "phrase": "lead off",
+    "meaning": "开始；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      301
+    ]
+  },
+  {
+    "phrase": "lead on",
+    "meaning": "继续引领；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      302
+    ]
+  },
+  {
+    "phrase": "lead out",
+    "meaning": "开始；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      303
+    ]
+  },
+  {
+    "phrase": "lead to",
+    "meaning": "导致；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      304
+    ]
+  },
+  {
+    "phrase": "less than",
+    "meaning": "不如，少于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      305
+    ]
+  },
+  {
+    "phrase": "link together",
+    "meaning": "联系在一起",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      306
+    ]
+  },
+  {
+    "phrase": "long before",
+    "meaning": "早在...之前，很久以前",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      307
+    ]
+  },
+  {
+    "phrase": "look on",
+    "meaning": "旁观，观看",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      308
+    ]
+  },
+  {
+    "phrase": "loyal to",
+    "meaning": "忠诚于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      309
+    ]
+  },
+  {
+    "phrase": "make a step",
+    "meaning": "走一步",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      310
+    ]
+  },
+  {
+    "phrase": "make for",
+    "meaning": "有助于，有利于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      311
+    ]
+  },
+  {
+    "phrase": "make one's way",
+    "meaning": "前进，行进",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      312
+    ]
+  },
+  {
+    "phrase": "make out",
+    "meaning": "弄懂；辨认，开出(支票，药方等)",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      313
+    ]
+  },
+  {
+    "phrase": "make sure",
+    "meaning": "查明，弄确实；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      314
+    ]
+  },
+  {
+    "phrase": "make towards",
+    "meaning": "朝...走去",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      315
+    ]
+  },
+  {
+    "phrase": "make way",
+    "meaning": "开路，让路",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      316
+    ]
+  },
+  {
+    "phrase": "mean by ..",
+    "meaning": "的意思，...意味着",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      317
+    ]
+  },
+  {
+    "phrase": "more ... than",
+    "meaning": "比...更...，与其说...不如说...，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      318
+    ]
+  },
+  {
+    "phrase": "more than",
+    "meaning": "不仅，不止；多于...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      319
+    ]
+  },
+  {
+    "phrase": "much as",
+    "meaning": "虽然，尽管)表让步；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      320
+    ]
+  },
+  {
+    "phrase": "no less ... than",
+    "meaning": "和...一样...，既...又...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      321
+    ]
+  },
+  {
+    "phrase": "no more ... than",
+    "meaning": "既不会...也不会",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      322
+    ]
+  },
+  {
+    "phrase": "not ... but ..",
+    "meaning": "不是...而是...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      323
+    ]
+  },
+  {
+    "phrase": "now that",
+    "meaning": "既然，由于)表原因；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      324
+    ]
+  },
+  {
+    "phrase": "object to",
+    "meaning": "反对；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      325
+    ]
+  },
+  {
+    "phrase": "of course",
+    "meaning": "当然",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      326
+    ]
+  },
+  {
+    "phrase": "on a large scale",
+    "meaning": "大规模的(地)",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      327
+    ]
+  },
+  {
+    "phrase": "on a national scale",
+    "meaning": "在全国范围内",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      328
+    ]
+  },
+  {
+    "phrase": "on account of",
+    "meaning": "由于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      329
+    ]
+  },
+  {
+    "phrase": "on average",
+    "meaning": "按平均值，通常；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      330
+    ]
+  },
+  {
+    "phrase": "on behalf of",
+    "meaning": "代表，为了；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      331
+    ]
+  },
+  {
+    "phrase": "on campus",
+    "meaning": "在校园",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      332
+    ]
+  },
+  {
+    "phrase": "on occasion",
+    "meaning": "偶尔；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      333
+    ]
+  },
+  {
+    "phrase": "on radio",
+    "meaning": "用无线电，通过广播；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      334
+    ]
+  },
+  {
+    "phrase": "on the average",
+    "meaning": "按平均值，通常；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      335
+    ]
+  },
+  {
+    "phrase": "on the basis of",
+    "meaning": "根据，在...的基础上",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      336
+    ]
+  },
+  {
+    "phrase": "on the contrary",
+    "meaning": "相反",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      337
+    ]
+  },
+  {
+    "phrase": "on the grounds of",
+    "meaning": "以...为理由",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      338
+    ]
+  },
+  {
+    "phrase": "on the occasion of",
+    "meaning": "在...场合，值...之际；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      339
+    ]
+  },
+  {
+    "phrase": "on the other hand",
+    "meaning": "另一方面",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      340
+    ]
+  },
+  {
+    "phrase": "on the radio",
+    "meaning": "通过广播，无线电广播中；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      341
+    ]
+  },
+  {
+    "phrase": "on the side",
+    "meaning": "额外地，作为兼职；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      342
+    ]
+  },
+  {
+    "phrase": "on the side of",
+    "meaning": "在... 一边",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      343
+    ]
+  },
+  {
+    "phrase": "on the whole",
+    "meaning": "总的来看；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      344
+    ]
+  },
+  {
+    "phrase": "on time",
+    "meaning": "准时；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      345
+    ]
+  },
+  {
+    "phrase": "one another",
+    "meaning": "相互",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      346
+    ]
+  },
+  {
+    "phrase": "one or other",
+    "meaning": "不管哪一个",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      347
+    ]
+  },
+  {
+    "phrase": "only if",
+    "meaning": "只要，只有)表条件；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      348
+    ]
+  },
+  {
+    "phrase": "other than",
+    "meaning": "除了，不同于；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      349
+    ]
+  },
+  {
+    "phrase": "out of step",
+    "meaning": "不一致，不协调",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      350
+    ]
+  },
+  {
+    "phrase": "out of the question",
+    "meaning": "不可能的",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      351
+    ]
+  },
+  {
+    "phrase": "out of use",
+    "meaning": "不使用",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      352
+    ]
+  },
+  {
+    "phrase": "owe ... to..",
+    "meaning": "把 ...归功于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      353
+    ]
+  },
+  {
+    "phrase": "pass out",
+    "meaning": "分发，分配；昏倒，死去；失去知觉，晕倒；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      354,
+      357
+    ]
+  },
+  {
+    "phrase": "pass off",
+    "meaning": "中止，停止；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      355
+    ]
+  },
+  {
+    "phrase": "pass on",
+    "meaning": "把...传递给另外一个人；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      356
+    ]
+  },
+  {
+    "phrase": "pay attention to",
+    "meaning": "注意；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      358
+    ]
+  },
+  {
+    "phrase": "pay by check",
+    "meaning": "用支票支付",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      359
+    ]
+  },
+  {
+    "phrase": "pay in cash",
+    "meaning": "或 pay cash 付现金。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      360
+    ]
+  },
+  {
+    "phrase": "pay off",
+    "meaning": "赢利，取得好结果，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      361
+    ]
+  },
+  {
+    "phrase": "persist in",
+    "meaning": "坚持",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      362
+    ]
+  },
+  {
+    "phrase": "pick up",
+    "meaning": "捡起，提高；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      363
+    ]
+  },
+  {
+    "phrase": "plan for",
+    "meaning": "为...订计划；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      364
+    ]
+  },
+  {
+    "phrase": "point to",
+    "meaning": "指向；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      365
+    ]
+  },
+  {
+    "phrase": "properly speaking",
+    "meaning": "正确(公正)地讲",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      366
+    ]
+  },
+  {
+    "phrase": "provided that",
+    "meaning": "假若，倘如)表条件；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      367
+    ]
+  },
+  {
+    "phrase": "put together",
+    "meaning": "加在一起；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      368
+    ]
+  },
+  {
+    "phrase": "put up with",
+    "meaning": "忍受；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      369
+    ]
+  },
+  {
+    "phrase": "quite other",
+    "meaning": "完全不同的",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      370
+    ]
+  },
+  {
+    "phrase": "rather than",
+    "meaning": "宁愿...)与其；是...而不是",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      371
+    ]
+  },
+  {
+    "phrase": "refer to ( ... as)",
+    "meaning": "提到，把...称为；参考",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      372
+    ]
+  },
+  {
+    "phrase": "reflect discredit on",
+    "meaning": "使丧失名誉",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      373
+    ]
+  },
+  {
+    "phrase": "reflect on",
+    "meaning": "思考，反省，怀疑",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      374
+    ]
+  },
+  {
+    "phrase": "rely on",
+    "meaning": "依靠，指望；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      375
+    ]
+  },
+  {
+    "phrase": "remove ... from..",
+    "meaning": "把...从...去掉；撤职",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      376
+    ]
+  },
+  {
+    "phrase": "responsible for",
+    "meaning": "对...负责。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      377
+    ]
+  },
+  {
+    "phrase": "result from",
+    "meaning": "由...产生，因...而造成",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      378
+    ]
+  },
+  {
+    "phrase": "result in",
+    "meaning": "导致",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      379
+    ]
+  },
+  {
+    "phrase": "ripe for",
+    "meaning": "为什么做好准备。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      380
+    ]
+  },
+  {
+    "phrase": "root out",
+    "meaning": "发现",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      381
+    ]
+  },
+  {
+    "phrase": "run a risk",
+    "meaning": "意为“冒风险”",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      382
+    ]
+  },
+  {
+    "phrase": "sacrifice something to",
+    "meaning": "为...牺牲某事",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      383
+    ]
+  },
+  {
+    "phrase": "secure sth. from attack",
+    "meaning": "使...受攻击",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      384
+    ]
+  },
+  {
+    "phrase": "set about",
+    "meaning": "开始，着手",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      385
+    ]
+  },
+  {
+    "phrase": "set aside",
+    "meaning": "掩饰出，留出",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      386
+    ]
+  },
+  {
+    "phrase": "set back",
+    "meaning": "推迟，延缓；阻碍",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      387
+    ]
+  },
+  {
+    "phrase": "set down",
+    "meaning": "卸下，放下；记下",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      388
+    ]
+  },
+  {
+    "phrase": "set forth",
+    "meaning": "阐明，陈述",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      389
+    ]
+  },
+  {
+    "phrase": "set off",
+    "meaning": "出发，使爆炸",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      390
+    ]
+  },
+  {
+    "phrase": "set out",
+    "meaning": "陈列，显示，启程",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      391
+    ]
+  },
+  {
+    "phrase": "share with",
+    "meaning": "与...分享；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      392
+    ]
+  },
+  {
+    "phrase": "shoot a film",
+    "meaning": "拍摄一个镜头",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      393
+    ]
+  },
+  {
+    "phrase": "side with",
+    "meaning": "站在...一边，支持；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      394
+    ]
+  },
+  {
+    "phrase": "similar to",
+    "meaning": "与...类似；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      395
+    ]
+  },
+  {
+    "phrase": "since then",
+    "meaning": "从那时起",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      396
+    ]
+  },
+  {
+    "phrase": "something like",
+    "meaning": "大约，有几分像...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      397
+    ]
+  },
+  {
+    "phrase": "sooner than",
+    "meaning": "早于...；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      398
+    ]
+  },
+  {
+    "phrase": "speed up",
+    "meaning": "加速；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      399
+    ]
+  },
+  {
+    "phrase": "stand for",
+    "meaning": "代表，意味着",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      400
+    ]
+  },
+  {
+    "phrase": "step up",
+    "meaning": "增加，加速 在 ...方面不同。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      401
+    ]
+  },
+  {
+    "phrase": "stick to",
+    "meaning": "坚持，坚持干，遵循；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      402
+    ]
+  },
+  {
+    "phrase": "stimulated by",
+    "meaning": "受...的刺激(或激励)；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      403
+    ]
+  },
+  {
+    "phrase": "stir up",
+    "meaning": "激起，引起，挑起；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      404
+    ]
+  },
+  {
+    "phrase": "such as",
+    "meaning": "比方说，例如；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      405
+    ]
+  },
+  {
+    "phrase": "support for",
+    "meaning": "对...的支持",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      406
+    ]
+  },
+  {
+    "phrase": "sure enough",
+    "meaning": "果然，果然不出所料；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      407
+    ]
+  },
+  {
+    "phrase": "take away",
+    "meaning": "拿走，夺走；消耗，清除",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      408,
+      411
+    ]
+  },
+  {
+    "phrase": "take a step",
+    "meaning": "采取措施；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      409
+    ]
+  },
+  {
+    "phrase": "take advantage of",
+    "meaning": "利用。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      410
+    ]
+  },
+  {
+    "phrase": "take care of",
+    "meaning": "照管；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      412
+    ]
+  },
+  {
+    "phrase": "take for",
+    "meaning": "把...看作，把...误以为；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      413
+    ]
+  },
+  {
+    "phrase": "take in",
+    "meaning": "接受，吸收，欺骗",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      414
+    ]
+  },
+  {
+    "phrase": "take on",
+    "meaning": "呈现，从事",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      415
+    ]
+  },
+  {
+    "phrase": "take over",
+    "meaning": "接管",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      416
+    ]
+  },
+  {
+    "phrase": "take to",
+    "meaning": "开始喜欢，开始从事，开始沉湎于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      417
+    ]
+  },
+  {
+    "phrase": "take up with",
+    "meaning": "开始于...来往；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      418
+    ]
+  },
+  {
+    "phrase": "take up",
+    "meaning": "专用",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      419
+    ]
+  },
+  {
+    "phrase": "thanks to",
+    "meaning": "由于，幸亏",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      420
+    ]
+  },
+  {
+    "phrase": "the bulk of..",
+    "meaning": "的主要部分，大多数",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      421
+    ]
+  },
+  {
+    "phrase": "the former ... the latter..",
+    "meaning": "前者...，后者...)",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      422
+    ]
+  },
+  {
+    "phrase": "to ... extent",
+    "meaning": "在...范围，到...程度",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      423
+    ]
+  },
+  {
+    "phrase": "to caution against",
+    "meaning": "对...予以警告",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      424
+    ]
+  },
+  {
+    "phrase": "to center around",
+    "meaning": "以...为中心",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      425
+    ]
+  },
+  {
+    "phrase": "to some extent",
+    "meaning": "某种程度上，有一点",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      426
+    ]
+  },
+  {
+    "phrase": "to such an extent that",
+    "meaning": "到了这样的程度，以至...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      427
+    ]
+  },
+  {
+    "phrase": "to the extent",
+    "meaning": "到...的程度",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      428,
+      429,
+      430
+    ]
+  },
+  {
+    "phrase": "to turn something into",
+    "meaning": "把...转换为",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      431
+    ]
+  },
+  {
+    "phrase": "together with",
+    "meaning": "一起",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      432
+    ]
+  },
+  {
+    "phrase": "transition to",
+    "meaning": "向...过渡，向...转变",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      433
+    ]
+  },
+  {
+    "phrase": "turn away",
+    "meaning": "转来脸去",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      434
+    ]
+  },
+  {
+    "phrase": "turn over",
+    "meaning": "把... 翻过",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      435
+    ]
+  },
+  {
+    "phrase": "turn round",
+    "meaning": "转过身来",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      436
+    ]
+  },
+  {
+    "phrase": "turn to",
+    "meaning": "求助于",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      437
+    ]
+  },
+  {
+    "phrase": "turn up",
+    "meaning": "意外地发生；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      438
+    ]
+  },
+  {
+    "phrase": "what is more",
+    "meaning": "而且，再者",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      439
+    ]
+  },
+  {
+    "phrase": "with regard to",
+    "meaning": "关于，至于，就...而论，",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      440
+    ]
+  },
+  {
+    "phrase": "with that",
+    "meaning": "说罢。",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      441
+    ]
+  },
+  {
+    "phrase": "with the exception of",
+    "meaning": "除...外",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      442
+    ]
+  },
+  {
+    "phrase": "with ... speed",
+    "meaning": "以...的速度",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      443
+    ]
+  },
+  {
+    "phrase": "work away",
+    "meaning": "一直在工作",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      444
+    ]
+  },
+  {
+    "phrase": "work out",
+    "meaning": "解决，算出，制定出",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      445
+    ]
+  },
+  {
+    "phrase": "work up",
+    "meaning": "逐步建立，逐步发展；",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      446
+    ]
+  },
+  {
+    "phrase": "worse than",
+    "meaning": "坏于...",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      447
+    ]
+  },
+  {
+    "phrase": "write away",
+    "meaning": "不停地写",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      448
+    ]
+  },
+  {
+    "phrase": "write in",
+    "meaning": "提出书面要求",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      449
+    ]
+  },
+  {
+    "phrase": "write off",
+    "meaning": "报废；勾销",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      450
+    ]
+  },
+  {
+    "phrase": "write on",
+    "meaning": "写，记述",
+    "variants": [],
+    "level": "CET4",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      451
+    ]
+  }
+]

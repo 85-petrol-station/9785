@@ -1,0 +1,7913 @@
+[
+  {
+    "phrase": "abide by",
+    "meaning": "忠于；遵守。",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      1
+    ]
+  },
+  {
+    "phrase": "be absent from ...",
+    "meaning": "缺席，不在",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      2
+    ]
+  },
+  {
+    "phrase": "absence of mind",
+    "meaning": "心不在焉",
+    "variants": [
+      "absence or mind"
+    ],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      3
+    ]
+  },
+  {
+    "phrase": "absorb",
+    "meaning": "吸引...的注意力(被动语态) absorbed in 全神贯注于...近:be engrossed in ; be lost in ; be rapt in ;be concentrated on ; be focused on ; be centered on",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      4
+    ]
+  },
+  {
+    "phrase": "be abundant in",
+    "meaning": "富于,富有",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      5
+    ]
+  },
+  {
+    "phrase": "access to",
+    "meaning": "不可数名词) 能接近,进入,了解",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      6
+    ]
+  },
+  {
+    "phrase": "by accident",
+    "meaning": "偶然地,意外. Without accident(=safely) 安全地,",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      7
+    ]
+  },
+  {
+    "phrase": "of one's own accord",
+    "meaning": "自愿地 ,主动地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      8
+    ]
+  },
+  {
+    "phrase": "in accord with",
+    "meaning": "与...一致 . out of one's accord with 同....不一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      9
+    ]
+  },
+  {
+    "phrase": "with one accord",
+    "meaning": "一致地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      10
+    ]
+  },
+  {
+    "phrase": "in accordance with",
+    "meaning": "依照,根据",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      11
+    ]
+  },
+  {
+    "phrase": "on one's own account 1)",
+    "meaning": "为了某人的缘故, 为了某人自己的利益 2) (=at one's own risk) 自行负责 3) (=by oneself)依靠自己 on account 赊账; on account of 因为; on no account 不论什么原因也不;of ...account 有.....重 要性.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      12
+    ]
+  },
+  {
+    "phrase": "take ... into account",
+    "meaning": "把...考虑进去",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      13
+    ]
+  },
+  {
+    "phrase": "give sb. an account of",
+    "meaning": "说明, 解释 (理由)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      14
+    ]
+  },
+  {
+    "phrase": "account for",
+    "meaning": "解释, 说明.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      15
+    ]
+  },
+  {
+    "phrase": "on account of",
+    "meaning": "由于,因为.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      16
+    ]
+  },
+  {
+    "phrase": "on no account",
+    "meaning": "绝不要,无论如何不要(放句首时句子要倒装)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      17
+    ]
+  },
+  {
+    "phrase": "accuse ... of..",
+    "meaning": "指控,控 告",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      18
+    ]
+  },
+  {
+    "phrase": "be accustomed to",
+    "meaning": "习惯于.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      19
+    ]
+  },
+  {
+    "phrase": "be acquainted with",
+    "meaning": "了解; (=to have met socially) 熟悉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      20
+    ]
+  },
+  {
+    "phrase": "act on",
+    "meaning": "奉行,按照...行动; act as 扮演; act for 代理",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      21
+    ]
+  },
+  {
+    "phrase": "adapt oneself to",
+    "meaning": "使自己适应于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      22
+    ]
+  },
+  {
+    "phrase": "adapt ... for",
+    "meaning": "改编, 改写(以适应新的需要)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      23
+    ]
+  },
+  {
+    "phrase": "in addition",
+    "meaning": "此外, 又, 加之",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      24
+    ]
+  },
+  {
+    "phrase": "in addition to",
+    "meaning": "除...外",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      25
+    ]
+  },
+  {
+    "phrase": "adhere to",
+    "meaning": "粘附; 坚持, 遵循",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      26
+    ]
+  },
+  {
+    "phrase": "adjacent",
+    "meaning": "毗邻的, 临近的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      27
+    ]
+  },
+  {
+    "phrase": "adjust.. to",
+    "meaning": "调节; 适应;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      28
+    ]
+  },
+  {
+    "phrase": "admit of ..",
+    "meaning": "的可能，留有...的余地.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      29
+    ]
+  },
+  {
+    "phrase": "in advance (before in time)",
+    "meaning": "预告, 事先.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      30
+    ]
+  },
+  {
+    "phrase": "to advantage",
+    "meaning": "有利的,使优点更加突出地.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      31
+    ]
+  },
+  {
+    "phrase": "have an advantage over",
+    "meaning": "胜过. have the advantage of 由于...处于有利条件 have the advantage of sb.知道某人所不知道的事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      32
+    ]
+  },
+  {
+    "phrase": "take advantage of",
+    "meaning": "利用.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      33
+    ]
+  },
+  {
+    "phrase": "agree with",
+    "meaning": "赞同(某人意见) agree to 同意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      34
+    ]
+  },
+  {
+    "phrase": "in agreement with",
+    "meaning": "同意, 一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      35
+    ]
+  },
+  {
+    "phrase": "ahead of",
+    "meaning": "在...之前, 超过...;.......... ahead of time 提前.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      36
+    ]
+  },
+  {
+    "phrase": "in the air 1)",
+    "meaning": "不肯定, 不具体. 2)在谣传中.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      37
+    ]
+  },
+  {
+    "phrase": "above all",
+    "meaning": "尤其是, 最重要的.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      38
+    ]
+  },
+  {
+    "phrase": "in all",
+    "meaning": "总共, 总计",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      39
+    ]
+  },
+  {
+    "phrase": "after all",
+    "meaning": "毕竟,到底; (not) at all 一点也不; all at once(=suddenly)突然; once and for all 只此一次; above all 最重要的; first of all 首先; all in all 大体上说; be all in 累极了; all but 几乎.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      40
+    ]
+  },
+  {
+    "phrase": "allow for",
+    "meaning": "考虑到, 估计到.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      41
+    ]
+  },
+  {
+    "phrase": "amount to",
+    "meaning": "总计, 等于.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      42
+    ]
+  },
+  {
+    "phrase": "answer for (undertake responsibility for, be liable for, take charge for)",
+    "meaning": "对...负责.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      43
+    ]
+  },
+  {
+    "phrase": "answer to",
+    "meaning": "适合,符合.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      44
+    ]
+  },
+  {
+    "phrase": "be anxious about",
+    "meaning": "为...焦急不安; 或 anxious for",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      45
+    ]
+  },
+  {
+    "phrase": "apologize to sb. for sth",
+    "meaning": "为...向...道歉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      46
+    ]
+  },
+  {
+    "phrase": "appeal to sb. for sth",
+    "meaning": "为某事向某人呼吁. appeal to sb. 对某人有吸引力",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      47
+    ]
+  },
+  {
+    "phrase": "apply to sb. for sth",
+    "meaning": "为...向...申请 ; apply for 申请; apply to 适用.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      48
+    ]
+  },
+  {
+    "phrase": "apply to",
+    "meaning": "与...有关;适用",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      49
+    ]
+  },
+  {
+    "phrase": "approve of",
+    "meaning": "赞成, approve vt. 批准",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      50
+    ]
+  },
+  {
+    "phrase": "arise from",
+    "meaning": "由...引起.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      51
+    ]
+  },
+  {
+    "phrase": "arrange for sb./sth. to do sth",
+    "meaning": "安排...做...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      52
+    ]
+  },
+  {
+    "phrase": "arrive on",
+    "meaning": "到达; arrive at 到达某地(小地方);得出,作出; arrive in 到达某地(大地方);",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      53
+    ]
+  },
+  {
+    "phrase": "be ashamed of",
+    "meaning": "以...为羞耻",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      54
+    ]
+  },
+  {
+    "phrase": "assure sb. of sth",
+    "meaning": "向...保证, 使...确信.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      55
+    ]
+  },
+  {
+    "phrase": "attach to",
+    "meaning": "缚, 系 ,结",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      56
+    ]
+  },
+  {
+    "phrase": "make an attempt at doing sth. (to do sth.)",
+    "meaning": "试图做...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      57
+    ]
+  },
+  {
+    "phrase": "attend to",
+    "meaning": "注意,照顾;attend on(upon)(=wait upon, serve, look after) 侍候,照料",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      58
+    ]
+  },
+  {
+    "phrase": "attitude to/toward ..",
+    "meaning": "对...的态度.看法",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      59
+    ]
+  },
+  {
+    "phrase": "attribute ... to..",
+    "meaning": "把..归因于.., 认为..是..的结果",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      60
+    ]
+  },
+  {
+    "phrase": "on the average",
+    "meaning": "平均",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      61
+    ]
+  },
+  {
+    "phrase": "be aware of",
+    "meaning": "意识到,知道.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      62
+    ]
+  },
+  {
+    "phrase": "at the back of",
+    "meaning": "在...后面",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      63
+    ]
+  },
+  {
+    "phrase": "in the back of",
+    "meaning": "在...后部(里面); on the back of 在...后部(外面); be on one's back(=be ill in bed) 卧病不起.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      64
+    ]
+  },
+  {
+    "phrase": "at one's back",
+    "meaning": "支持,维护; have sb. at one's back 有...支持, 有...作后台",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      65
+    ]
+  },
+  {
+    "phrase": "turn one's back on sb",
+    "meaning": "不理睬(某人),背弃,抛弃",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      66
+    ]
+  },
+  {
+    "phrase": "behind one's back",
+    "meaning": "背着某人(说坏话)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      67
+    ]
+  },
+  {
+    "phrase": "be based on/upon",
+    "meaning": "基于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      68
+    ]
+  },
+  {
+    "phrase": "on the basis of",
+    "meaning": "根据..., 在...基础上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      69
+    ]
+  },
+  {
+    "phrase": "beat ... at",
+    "meaning": "在...运动项目上打赢",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      70
+    ]
+  },
+  {
+    "phrase": "begin with",
+    "meaning": "以...开始. to begin with (=first of all) 首先, 第一(经常用于开始语)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      71
+    ]
+  },
+  {
+    "phrase": "on behalf of",
+    "meaning": "以...名义",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      72
+    ]
+  },
+  {
+    "phrase": "believe in",
+    "meaning": "相信,依赖,信仰.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      73
+    ]
+  },
+  {
+    "phrase": "benefit from",
+    "meaning": "受益,得到好处.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      74
+    ]
+  },
+  {
+    "phrase": "for the benefit of",
+    "meaning": "为了...的利益(好处)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      75
+    ]
+  },
+  {
+    "phrase": "for the better",
+    "meaning": "好转",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      76
+    ]
+  },
+  {
+    "phrase": "get the better of",
+    "meaning": "打败, 胜过.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      77
+    ]
+  },
+  {
+    "phrase": "by birth",
+    "meaning": "在出生上,论出身,按血统 at birth 在出生时; give birth to 出生",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      78
+    ]
+  },
+  {
+    "phrase": "blame sb. for sth",
+    "meaning": "因...责备某人 . blame sth. on sb. 把...推在某人身上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      79
+    ]
+  },
+  {
+    "phrase": "in blossom",
+    "meaning": "开花(指树木) be in blossom 开花(强调状态) come into blossom 开花(强调动作)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      80
+    ]
+  },
+  {
+    "phrase": "on board",
+    "meaning": "到船上, 在船上, 上火车或飞机",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      81
+    ]
+  },
+  {
+    "phrase": "boast of (or about)",
+    "meaning": "吹嘘",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      82
+    ]
+  },
+  {
+    "phrase": "out of breath",
+    "meaning": "喘不过气来",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      83
+    ]
+  },
+  {
+    "phrase": "in brief",
+    "meaning": "简言之",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      84
+    ]
+  },
+  {
+    "phrase": "in bulk",
+    "meaning": "成批地,不散装的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      85
+    ]
+  },
+  {
+    "phrase": "take the floor",
+    "meaning": "起立发言",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      86
+    ]
+  },
+  {
+    "phrase": "on business",
+    "meaning": "出差办事.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      87
+    ]
+  },
+  {
+    "phrase": "be busy with sth",
+    "meaning": "于某事 。 be busy doing sth. 忙于做某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      88
+    ]
+  },
+  {
+    "phrase": "last but one",
+    "meaning": "倒数第二.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      89
+    ]
+  },
+  {
+    "phrase": "but for",
+    "meaning": "要不是. 表示假设",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      90
+    ]
+  },
+  {
+    "phrase": "buy sth. for ... money",
+    "meaning": "用多少钱买",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      91
+    ]
+  },
+  {
+    "phrase": "be capable of",
+    "meaning": "能够, 有能力 be capable of being +过去分词:是能够被...的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      92
+    ]
+  },
+  {
+    "phrase": "in any case",
+    "meaning": "无论如何",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      93
+    ]
+  },
+  {
+    "phrase": "in case",
+    "meaning": "万一;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      94
+    ]
+  },
+  {
+    "phrase": "in case of",
+    "meaning": "如果发生...万一 in the case of 至于..., 就...而言",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      95
+    ]
+  },
+  {
+    "phrase": "in no case",
+    "meaning": "在任何情况下都不(放句首倒装句)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      96
+    ]
+  },
+  {
+    "phrase": "be cautious of",
+    "meaning": "谨防",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      97
+    ]
+  },
+  {
+    "phrase": "center one's attention on",
+    "meaning": "把某人的注意力集中在...上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      98
+    ]
+  },
+  {
+    "phrase": "be certain of",
+    "meaning": "有把握, 一定.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      99
+    ]
+  },
+  {
+    "phrase": "for certain of",
+    "meaning": "肯定地,有把握地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      100
+    ]
+  },
+  {
+    "phrase": "by chance",
+    "meaning": "偶然",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      101
+    ]
+  },
+  {
+    "phrase": "for a change",
+    "meaning": "换换环境(花样等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      102
+    ]
+  },
+  {
+    "phrase": "charge sb. with ..",
+    "meaning": "控告某人犯有...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      103
+    ]
+  },
+  {
+    "phrase": "in charge of",
+    "meaning": "负责(某事) in the charge of ...由...管",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      104
+    ]
+  },
+  {
+    "phrase": "take charge of",
+    "meaning": "负责管理(照顾)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      105
+    ]
+  },
+  {
+    "phrase": "charge ... for",
+    "meaning": "因...索取(费用) , charge sb. with sth. 控告某人犯有...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      106
+    ]
+  },
+  {
+    "phrase": "round the clock",
+    "meaning": "昼夜不停地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      107
+    ]
+  },
+  {
+    "phrase": "comment on",
+    "meaning": "评论",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      108
+    ]
+  },
+  {
+    "phrase": "commit oneself to",
+    "meaning": "使自己承担... commit sb. to prison 把某人送进监狱; commit one's idea to writing 把某人的想法写下来; commit a matter to a committee 把某事交给委员会讨论",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      109
+    ]
+  },
+  {
+    "phrase": "in common",
+    "meaning": "和...)有共同之处,共用. be common to sb. 是与某人所共有的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      110
+    ]
+  },
+  {
+    "phrase": "keep company with",
+    "meaning": "和...要好.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      111
+    ]
+  },
+  {
+    "phrase": "compare ... with ..",
+    "meaning": "把...与...比较",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      112
+    ]
+  },
+  {
+    "phrase": "compare ... to..",
+    "meaning": "把...比作...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      113
+    ]
+  },
+  {
+    "phrase": "by comparison",
+    "meaning": "比较起来",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      114
+    ]
+  },
+  {
+    "phrase": "in comparison with",
+    "meaning": "和...比起来",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      115
+    ]
+  },
+  {
+    "phrase": "compensate for",
+    "meaning": "补偿, 赔偿,弥补 compensate sb. for sth. 赔偿, 弥补",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      116
+    ]
+  },
+  {
+    "phrase": "complain of (or about)",
+    "meaning": "抱怨;诉苦;控告;complain about 抱怨某人或事情; complain to sb. about sth. (or sb.) 向某人抱怨...; complain (抱怨); complement (补充); compliment (恭维)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      117
+    ]
+  },
+  {
+    "phrase": "comply with",
+    "meaning": "遵守, 依从",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      118
+    ]
+  },
+  {
+    "phrase": "conceive of (think of, imagine, consider)",
+    "meaning": "想象,设想",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      119
+    ]
+  },
+  {
+    "phrase": "concentrate on (or upon)",
+    "meaning": "集中,专心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      120
+    ]
+  },
+  {
+    "phrase": "be concerned with",
+    "meaning": "与...有关",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      121
+    ]
+  },
+  {
+    "phrase": "concern oneself about/with",
+    "meaning": "关心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      122
+    ]
+  },
+  {
+    "phrase": "in conclusion",
+    "meaning": "最后一点; at the conclusion of 当...结束时;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      123
+    ]
+  },
+  {
+    "phrase": "condemn sb. to",
+    "meaning": "判决",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      124
+    ]
+  },
+  {
+    "phrase": "on condition that",
+    "meaning": "以...为条件, 假如. in that = because 因为; now that = since 既然 for all that = although 尽管",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      125
+    ]
+  },
+  {
+    "phrase": "in/out of condition",
+    "meaning": "健康状况好/不好 . in good (bad) condition 处于良好(坏)状态",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      126
+    ]
+  },
+  {
+    "phrase": "confess to",
+    "meaning": "承认, 供认; confess to a crime 承认罪行.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      127
+    ]
+  },
+  {
+    "phrase": "confide in",
+    "meaning": "对...讲真心话, 依赖",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      128
+    ]
+  },
+  {
+    "phrase": "in confidence",
+    "meaning": "推心置腹地; with confidence 满怀信心地; have confidence in 对...有信心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      129
+    ]
+  },
+  {
+    "phrase": "confidence in sb./sth",
+    "meaning": "对...的信赖",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      130
+    ]
+  },
+  {
+    "phrase": "be confident of",
+    "meaning": "有信心; confidential 机密的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      131
+    ]
+  },
+  {
+    "phrase": "confine ... to..",
+    "meaning": "把...限制在某范围内",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      132
+    ]
+  },
+  {
+    "phrase": "confirm sb. in",
+    "meaning": "使某人更坚定(信念等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      133
+    ]
+  },
+  {
+    "phrase": "conform to",
+    "meaning": "符合,遵照,遵守;1)obey 服从; 2) observe; 3)comply with 照...办; 4)keep to 遵循; 5)abide by 服从;6)stick to 按..做",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      134
+    ]
+  },
+  {
+    "phrase": "be confronted with",
+    "meaning": "面对, 面临",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      135
+    ]
+  },
+  {
+    "phrase": "congratulate sb. on",
+    "meaning": "祝贺",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      136
+    ]
+  },
+  {
+    "phrase": "in connection with",
+    "meaning": "关于,",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      137
+    ]
+  },
+  {
+    "phrase": "be conscious of",
+    "meaning": "觉察,知道",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      138
+    ]
+  },
+  {
+    "phrase": "consent to",
+    "meaning": "同意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      139
+    ]
+  },
+  {
+    "phrase": "in consequence",
+    "meaning": "结果",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      140
+    ]
+  },
+  {
+    "phrase": "in consequence of",
+    "meaning": "由于...的结果",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      141
+    ]
+  },
+  {
+    "phrase": "under consideration",
+    "meaning": "在考虑中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      142
+    ]
+  },
+  {
+    "phrase": "in consideration of",
+    "meaning": "由于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      143
+    ]
+  },
+  {
+    "phrase": "on no consideration(in no case)",
+    "meaning": "无论如何也不",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      144
+    ]
+  },
+  {
+    "phrase": "take ... into consideration",
+    "meaning": "考虑到, 把...考虑进去",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      145
+    ]
+  },
+  {
+    "phrase": "considerate",
+    "meaning": "体贴的, 考虑他人需要的, considerable 相当大的,值 得考虑的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      146
+    ]
+  },
+  {
+    "phrase": "consist of",
+    "meaning": "由...组成的. consist in 主要在于. consist with 符合,与...一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      147
+    ]
+  },
+  {
+    "phrase": "be consistent with",
+    "meaning": "与...一致. be consistent in 一贯的,",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      148
+    ]
+  },
+  {
+    "phrase": "consult sb. on/about sth",
+    "meaning": "向...征求...方面的意见, 就...向...请教",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      149
+    ]
+  },
+  {
+    "phrase": "to one's heart's content",
+    "meaning": "尽情地,痛痛快快",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      150,
+      369
+    ]
+  },
+  {
+    "phrase": "be content with",
+    "meaning": "满足于 be content to do sth. 愿意做某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      151
+    ]
+  },
+  {
+    "phrase": "contrary to",
+    "meaning": "与...相反",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      152
+    ]
+  },
+  {
+    "phrase": "on the contrary",
+    "meaning": "相反",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      153
+    ]
+  },
+  {
+    "phrase": "contrast ... with",
+    "meaning": "把...与...相对(对照)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      154
+    ]
+  },
+  {
+    "phrase": "in contrast to/with",
+    "meaning": "和...形成对比 by contrast 对比之下",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      155
+    ]
+  },
+  {
+    "phrase": "contribute to",
+    "meaning": "有助于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      156
+    ]
+  },
+  {
+    "phrase": "under control",
+    "meaning": "被)控制住 out of control无法控制",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      157
+    ]
+  },
+  {
+    "phrase": "at one's convenience",
+    "meaning": "在方便的时间或地点 . be convenient to / for 对...方便",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      158
+    ]
+  },
+  {
+    "phrase": "convince sb. of",
+    "meaning": "使某人确信,try to persuade sb. to do sth.劝说某人做...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      159
+    ]
+  },
+  {
+    "phrase": "cope with",
+    "meaning": "应付, 处理",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      160
+    ]
+  },
+  {
+    "phrase": "in the corner of",
+    "meaning": "在角落里;on(at) the comer of a street 在街道拐弯处;round the comer 拐过 弯; be in a tight corner 陷入困境",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      161
+    ]
+  },
+  {
+    "phrase": "correspond with",
+    "meaning": "通信",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      162
+    ]
+  },
+  {
+    "phrase": "correspond to",
+    "meaning": "相当于 . correspond with 符合,一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      163
+    ]
+  },
+  {
+    "phrase": "at all costs",
+    "meaning": "不惜任何代价 . at the cost of 以...为代价",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      164
+    ]
+  },
+  {
+    "phrase": "a matter of course",
+    "meaning": "理所当然的事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      165
+    ]
+  },
+  {
+    "phrase": "as a matter of course",
+    "meaning": "当然地, 自然地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      166
+    ]
+  },
+  {
+    "phrase": "in during the course",
+    "meaning": "在...过程中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      167
+    ]
+  },
+  {
+    "phrase": "in due course",
+    "meaning": "没经过太久, 到一定时候",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      168
+    ]
+  },
+  {
+    "phrase": "on credit",
+    "meaning": "赊购; with credit 以优异成绩; to one's credit 使某人感到光荣; do sb. credit 使... 感到光荣",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      169
+    ]
+  },
+  {
+    "phrase": "be critical of",
+    "meaning": "爱挑毛病的，批评的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      170
+    ]
+  },
+  {
+    "phrase": "cure sb. of+",
+    "meaning": "某种疾病 治好某人的疾病",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      171
+    ]
+  },
+  {
+    "phrase": "a danger to",
+    "meaning": "对...的危险; be in danger(of)处于...危险中; be out of danger 脱离危险",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      172
+    ]
+  },
+  {
+    "phrase": "to date",
+    "meaning": "到目前为止",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      173
+    ]
+  },
+  {
+    "phrase": "out of date",
+    "meaning": "过时的；up to date 新式的,时兴的; date back to 可追溯到; date from 从某时期 开始(有)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      174
+    ]
+  },
+  {
+    "phrase": "deal with",
+    "meaning": "论及",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      175
+    ]
+  },
+  {
+    "phrase": "be in debt to sb",
+    "meaning": "欠...的债",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      176
+    ]
+  },
+  {
+    "phrase": "on the decline",
+    "meaning": "在衰退中, 在减少中 in decline 下降; on the increase 在增加",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      177
+    ]
+  },
+  {
+    "phrase": "to one's delight",
+    "meaning": "令某人感到高兴 to one's regret 遗憾; sorrow 悲痛; relief 安心; distress 苦恼; shame 羞愧; surprise 惊奇; astonishment 惊奇;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      178
+    ]
+  },
+  {
+    "phrase": "delight in",
+    "meaning": "喜欢, 取乐",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      179
+    ]
+  },
+  {
+    "phrase": "take a delight in",
+    "meaning": "喜欢干..., 以...为乐",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      180
+    ]
+  },
+  {
+    "phrase": "demand sth. of sb",
+    "meaning": "向某人要求(非物质的)东西. demand sth. from sb. 向某人要求(物质的) 东西",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      181
+    ]
+  },
+  {
+    "phrase": "in demand",
+    "meaning": "有需求;on demand 受到要求时",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      182
+    ]
+  },
+  {
+    "phrase": "be dependent on",
+    "meaning": "依靠",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      183
+    ]
+  },
+  {
+    "phrase": "deprive sb. of sth",
+    "meaning": "剥夺某人某物",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      184
+    ]
+  },
+  {
+    "phrase": "derive ... from",
+    "meaning": "从...取得,由...来的.derive from(=come from)起源于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      185
+    ]
+  },
+  {
+    "phrase": "despair of",
+    "meaning": "绝望",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      186
+    ]
+  },
+  {
+    "phrase": "in despair",
+    "meaning": "绝望",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      187
+    ]
+  },
+  {
+    "phrase": "despite",
+    "meaning": "不管, 尽管",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      188
+    ]
+  },
+  {
+    "phrase": "in detail",
+    "meaning": "详细地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      189
+    ]
+  },
+  {
+    "phrase": "deviate from",
+    "meaning": "偏离, 不按...办",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      190
+    ]
+  },
+  {
+    "phrase": "on a diet",
+    "meaning": "吃某种特殊饮食, 节食",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      191
+    ]
+  },
+  {
+    "phrase": "differ from ... in",
+    "meaning": "与...的区别在于...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      192
+    ]
+  },
+  {
+    "phrase": "in difficulties..",
+    "meaning": "有困难,处境困难,",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      193
+    ]
+  },
+  {
+    "phrase": "discharge sb. from ... for",
+    "meaning": "因...解雇, 开除",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      194
+    ]
+  },
+  {
+    "phrase": "fall back",
+    "meaning": "撤退; in disorder 慌乱地, 狼狈不堪",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      195
+    ]
+  },
+  {
+    "phrase": "on display",
+    "meaning": "陈列",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      196
+    ]
+  },
+  {
+    "phrase": "dispose of",
+    "meaning": "处理掉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      197
+    ]
+  },
+  {
+    "phrase": "beyond dispute",
+    "meaning": "不容争议的,无可争议",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      198
+    ]
+  },
+  {
+    "phrase": "in dispute",
+    "meaning": "在争议中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      199
+    ]
+  },
+  {
+    "phrase": "in the distance",
+    "meaning": "在远处. make out 辩认出",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      200
+    ]
+  },
+  {
+    "phrase": "be distinct from",
+    "meaning": "与...截然不同",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      201
+    ]
+  },
+  {
+    "phrase": "distinguish between",
+    "meaning": "辨别",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      202
+    ]
+  },
+  {
+    "phrase": "distinguish ... from",
+    "meaning": "把...与...区别开",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      203
+    ]
+  },
+  {
+    "phrase": "do away with",
+    "meaning": "除去,废除,取消; do away with (=kill) 杀掉, 镇压",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      204
+    ]
+  },
+  {
+    "phrase": "have ... to do with",
+    "meaning": "与...有关系",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      205
+    ]
+  },
+  {
+    "phrase": "without doubt",
+    "meaning": "无可置疑地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      206
+    ]
+  },
+  {
+    "phrase": "in doubt",
+    "meaning": "对...表示疑惑",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      207
+    ]
+  },
+  {
+    "phrase": "be due to",
+    "meaning": "是由于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      208
+    ]
+  },
+  {
+    "phrase": "come off duty",
+    "meaning": "下班",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      209
+    ]
+  },
+  {
+    "phrase": "go on duty",
+    "meaning": "上班",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      210
+    ]
+  },
+  {
+    "phrase": "be on duty",
+    "meaning": "值班, 值日, 在上班时",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      211
+    ]
+  },
+  {
+    "phrase": "be in duty bound to do",
+    "meaning": "有义务(做)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      212
+    ]
+  },
+  {
+    "phrase": "be eager for",
+    "meaning": "想得到, 盼望",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      213
+    ]
+  },
+  {
+    "phrase": "by ear",
+    "meaning": "凭记忆,不看乐谱",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      214
+    ]
+  },
+  {
+    "phrase": "have an ear for",
+    "meaning": "对..有鉴赏力",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      215
+    ]
+  },
+  {
+    "phrase": "a word in one's ear",
+    "meaning": "私房话, 秘密话",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      216
+    ]
+  },
+  {
+    "phrase": "on earth",
+    "meaning": "究竟, 到底, 全然",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      217
+    ]
+  },
+  {
+    "phrase": "with ease",
+    "meaning": "容易, 不费力",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      218
+    ]
+  },
+  {
+    "phrase": "at (one's) ease",
+    "meaning": "自在,不拘束",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      219
+    ]
+  },
+  {
+    "phrase": "put sb. at his/her ease",
+    "meaning": "使某人感到无拘束",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      220
+    ]
+  },
+  {
+    "phrase": "economize on",
+    "meaning": "节省",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      221
+    ]
+  },
+  {
+    "phrase": "have an effect on",
+    "meaning": "对...有影响",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      222
+    ]
+  },
+  {
+    "phrase": "be in effect",
+    "meaning": "有效",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      223
+    ]
+  },
+  {
+    "phrase": "go into effect",
+    "meaning": "生效. ( 近: come into effect; take effect; be brought into effect)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      224
+    ]
+  },
+  {
+    "phrase": "in effect",
+    "meaning": "实际上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      225
+    ]
+  },
+  {
+    "phrase": "give effect to",
+    "meaning": "实行,使...生效",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      226
+    ]
+  },
+  {
+    "phrase": "to no effect",
+    "meaning": "不起作用,没有取得任何效果",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      227
+    ]
+  },
+  {
+    "phrase": "be of no effect",
+    "meaning": "无效",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      228
+    ]
+  },
+  {
+    "phrase": "to the effect that",
+    "meaning": "大意是...,主要内容是...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      229
+    ]
+  },
+  {
+    "phrase": "to that effect",
+    "meaning": "是那个意思的...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      230
+    ]
+  },
+  {
+    "phrase": "emerge from",
+    "meaning": "出现, 暴露(问题. 意见等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      231
+    ]
+  },
+  {
+    "phrase": "place(or put, lay) an emphasis on",
+    "meaning": "强调, 把重点放在...上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      232
+    ]
+  },
+  {
+    "phrase": "encourage sb. in",
+    "meaning": "鼓励; encourage sb. in his/her work 鼓励某人工作; encourage sb. in his/her idleness 怂恿某人游手好闲",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      233
+    ]
+  },
+  {
+    "phrase": "encourage sb. in ... with sth",
+    "meaning": "用...鼓励某人做某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      234
+    ]
+  },
+  {
+    "phrase": "on end",
+    "meaning": "连续地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      235
+    ]
+  },
+  {
+    "phrase": "be at an end",
+    "meaning": "结束了",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      236
+    ]
+  },
+  {
+    "phrase": "no end of",
+    "meaning": "很多,大量",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      237
+    ]
+  },
+  {
+    "phrase": "in the end",
+    "meaning": "最终",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      238
+    ]
+  },
+  {
+    "phrase": "at one's wit's end",
+    "meaning": "无法可想, 智穷计尽",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      239
+    ]
+  },
+  {
+    "phrase": "end up with",
+    "meaning": "以...而结束",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      240
+    ]
+  },
+  {
+    "phrase": "come to and end",
+    "meaning": "结束",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      241
+    ]
+  },
+  {
+    "phrase": "end in",
+    "meaning": "以...为结束",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      242
+    ]
+  },
+  {
+    "phrase": "engage in",
+    "meaning": "或 be engaged in 忙于,从事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      243
+    ]
+  },
+  {
+    "phrase": "enter for",
+    "meaning": "报名参加",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      244
+    ]
+  },
+  {
+    "phrase": "enter into",
+    "meaning": "开始(谈话, 谈判等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      245
+    ]
+  },
+  {
+    "phrase": "enter on/upon",
+    "meaning": "开始 (一个时代. 一种涯. 一段任期等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      246
+    ]
+  },
+  {
+    "phrase": "be entitled to",
+    "meaning": "有权...,有资格...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      247
+    ]
+  },
+  {
+    "phrase": "be equal to",
+    "meaning": "等于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      248
+    ]
+  },
+  {
+    "phrase": "be/feel equal to",
+    "meaning": "某人)能胜任,能应付 on equal terms(=on and equal footing)平等地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      249
+    ]
+  },
+  {
+    "phrase": "be equipped with",
+    "meaning": "装备有,装有",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      250
+    ]
+  },
+  {
+    "phrase": "be equivalent to",
+    "meaning": "相等于, 相当于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      251
+    ]
+  },
+  {
+    "phrase": "in essence",
+    "meaning": "本质上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      252
+    ]
+  },
+  {
+    "phrase": "at all events",
+    "meaning": "不论怎样, 无论如何",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      253
+    ]
+  },
+  {
+    "phrase": "in any event",
+    "meaning": "无论如何, 不管(将来)怎么样",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      254
+    ]
+  },
+  {
+    "phrase": "in the event that",
+    "meaning": "假如, 如果. in the event 结果, 实际情况是(常与 but 连用)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      255
+    ]
+  },
+  {
+    "phrase": "in the event of",
+    "meaning": "万一,即使发生..时",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      256
+    ]
+  },
+  {
+    "phrase": "except",
+    "meaning": "除...以外; besides 除...以外还有..；除了。",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      257,
+      258
+    ]
+  },
+  {
+    "phrase": "except for",
+    "meaning": "除...以外",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      259
+    ]
+  },
+  {
+    "phrase": "an exception to ..",
+    "meaning": "的例外",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      260
+    ]
+  },
+  {
+    "phrase": "with the exception of",
+    "meaning": "除去...., 除...以外",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      261
+    ]
+  },
+  {
+    "phrase": "in excess of",
+    "meaning": "超过",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      262
+    ]
+  },
+  {
+    "phrase": "exchange ... for",
+    "meaning": "以...交换",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      263
+    ]
+  },
+  {
+    "phrase": "exclusive of",
+    "meaning": "不包括",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      264
+    ]
+  },
+  {
+    "phrase": "in excuse of",
+    "meaning": "作为...的借口",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      265
+    ]
+  },
+  {
+    "phrase": "exert ... on..",
+    "meaning": "对...施加...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      266
+    ]
+  },
+  {
+    "phrase": "exert oneself to do sth",
+    "meaning": "努力,使劲",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      267
+    ]
+  },
+  {
+    "phrase": "come into existence",
+    "meaning": "开始存在; come into use 开始使用; come into effect 开 始运转; come into fashion 开始时新; come into action 开始行动; come into power 开始执政; come into sight 进入视野;come into blossom 开花;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      268
+    ]
+  },
+  {
+    "phrase": "be in existence",
+    "meaning": "存在 come into existence 出现",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      269
+    ]
+  },
+  {
+    "phrase": "expect ... of",
+    "meaning": "在...期望...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      270
+    ]
+  },
+  {
+    "phrase": "at the expense of",
+    "meaning": "在损害...情况下,以...为牺牲",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      271
+    ]
+  },
+  {
+    "phrase": "expose ... to..",
+    "meaning": "使暴露于..., 使...受(危险,风险)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      272
+    ]
+  },
+  {
+    "phrase": "be exposed to..",
+    "meaning": "面临..., 受到....",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      273
+    ]
+  },
+  {
+    "phrase": "beyond expression",
+    "meaning": "无法形容, 说不出的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      274
+    ]
+  },
+  {
+    "phrase": "give expression to",
+    "meaning": "表达, 表现 find expression in 表现",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      275
+    ]
+  },
+  {
+    "phrase": "to ... extent",
+    "meaning": "在...程度上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      276
+    ]
+  },
+  {
+    "phrase": "in the extreme",
+    "meaning": "极其",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      277
+    ]
+  },
+  {
+    "phrase": "look sb. in the eye",
+    "meaning": "正视, 打量(某人)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      278
+    ]
+  },
+  {
+    "phrase": "close shut one's eyes to",
+    "meaning": "不理会,视而不见",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      279
+    ]
+  },
+  {
+    "phrase": "in one's mind's eye",
+    "meaning": "在心目中, 在想象中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      280
+    ]
+  },
+  {
+    "phrase": "in the twinkling of an eye",
+    "meaning": "一眨眼,转眼间",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      281
+    ]
+  },
+  {
+    "phrase": "keep an eye on",
+    "meaning": "照看,监视",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      282
+    ]
+  },
+  {
+    "phrase": "in the eyes of in one's eyes",
+    "meaning": "在某人看来, 在某人眼里",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      283
+    ]
+  },
+  {
+    "phrase": "on the face of it",
+    "meaning": "表面看来",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      284
+    ]
+  },
+  {
+    "phrase": "in the face of",
+    "meaning": "面对着(困难等情况)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      285
+    ]
+  },
+  {
+    "phrase": "in one's face",
+    "meaning": "当着某人的面; face to faced 面对面; face up to 大胆面向",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      286
+    ]
+  },
+  {
+    "phrase": "fail in",
+    "meaning": "失败",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      287
+    ]
+  },
+  {
+    "phrase": "in good faith",
+    "meaning": "真诚地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      288
+    ]
+  },
+  {
+    "phrase": "keep faith with",
+    "meaning": "对...守信用",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      289
+    ]
+  },
+  {
+    "phrase": "lose faith in",
+    "meaning": "对...失去信心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      290
+    ]
+  },
+  {
+    "phrase": "on faith",
+    "meaning": "毫无怀疑地, 依赖地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      291
+    ]
+  },
+  {
+    "phrase": "faithful to",
+    "meaning": "对...忠诚",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      292
+    ]
+  },
+  {
+    "phrase": "fall into the habit of",
+    "meaning": "养成...习惯",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      293
+    ]
+  },
+  {
+    "phrase": "fall short of",
+    "meaning": "没达到, 低于；达不到",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      294,
+      628
+    ]
+  },
+  {
+    "phrase": "familiar with",
+    "meaning": "熟悉,了解",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      295
+    ]
+  },
+  {
+    "phrase": "have a fancy for",
+    "meaning": "没有道理地)喜欢, 想要",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      296
+    ]
+  },
+  {
+    "phrase": "take a fancy to",
+    "meaning": "喜欢",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      297
+    ]
+  },
+  {
+    "phrase": "by far",
+    "meaning": "远, 非常 (与比较级或最高级连用)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      298
+    ]
+  },
+  {
+    "phrase": "far from",
+    "meaning": "远远不是；非但不...(而且)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      299,
+      300
+    ]
+  },
+  {
+    "phrase": "in fashion",
+    "meaning": "时兴,流行",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      301
+    ]
+  },
+  {
+    "phrase": "after the fashion of",
+    "meaning": "依照...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      302
+    ]
+  },
+  {
+    "phrase": "find fault with",
+    "meaning": "找毛病，对...吹毛求疵",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      303
+    ]
+  },
+  {
+    "phrase": "at fault",
+    "meaning": "有错",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      304
+    ]
+  },
+  {
+    "phrase": "in favour of",
+    "meaning": "赞成",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      305
+    ]
+  },
+  {
+    "phrase": "be in favour with",
+    "meaning": "受宠, 受偏爱; out of favour with 失宠, 不受宠",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      306
+    ]
+  },
+  {
+    "phrase": "in one's favour",
+    "meaning": "对.有利",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      307
+    ]
+  },
+  {
+    "phrase": "be favourable to",
+    "meaning": "有利的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      308
+    ]
+  },
+  {
+    "phrase": "fear for",
+    "meaning": "为...担心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      309
+    ]
+  },
+  {
+    "phrase": "for fear of",
+    "meaning": "以防, 由于怕",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      310
+    ]
+  },
+  {
+    "phrase": "in fear of",
+    "meaning": "担心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      311
+    ]
+  },
+  {
+    "phrase": "feed (sb.) on sth",
+    "meaning": "靠吃..., 用...喂养",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      312
+    ]
+  },
+  {
+    "phrase": "be fed up with",
+    "meaning": "厌烦, 腻了",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      313
+    ]
+  },
+  {
+    "phrase": "feel like",
+    "meaning": "想要",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      314
+    ]
+  },
+  {
+    "phrase": "fill in",
+    "meaning": "填写",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      315
+    ]
+  },
+  {
+    "phrase": "fill out",
+    "meaning": "填写",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      316
+    ]
+  },
+  {
+    "phrase": "set the world on fire=set the flames on fire",
+    "meaning": "有突出成就",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      317
+    ]
+  },
+  {
+    "phrase": "play with fire",
+    "meaning": "干冒险事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      318
+    ]
+  },
+  {
+    "phrase": "set sth. on fire",
+    "meaning": "使..着火,放火",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      319
+    ]
+  },
+  {
+    "phrase": "at first sight",
+    "meaning": "乍一看,一见",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      320
+    ]
+  },
+  {
+    "phrase": "for the first time",
+    "meaning": "第一次 (作状语)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      321
+    ]
+  },
+  {
+    "phrase": "in the first place",
+    "meaning": "首先, 第一",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      322
+    ]
+  },
+  {
+    "phrase": "fit into",
+    "meaning": "刚好放入",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      323
+    ]
+  },
+  {
+    "phrase": "fit in with",
+    "meaning": "合适, 相配, 一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      324
+    ]
+  },
+  {
+    "phrase": "be fit for",
+    "meaning": "适合",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      325
+    ]
+  },
+  {
+    "phrase": "focus on",
+    "meaning": "集中在...上 focus sth. on 把...集中在...上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      326
+    ]
+  },
+  {
+    "phrase": "be fond of",
+    "meaning": "喜欢",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      327
+    ]
+  },
+  {
+    "phrase": "be in force",
+    "meaning": "有效 , 实施",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      328
+    ]
+  },
+  {
+    "phrase": "go into force",
+    "meaning": "开始生效",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      329
+    ]
+  },
+  {
+    "phrase": "by force",
+    "meaning": "靠武力, 强行",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      330
+    ]
+  },
+  {
+    "phrase": "force ... on",
+    "meaning": "把...强加给...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      331
+    ]
+  },
+  {
+    "phrase": "in the form of",
+    "meaning": "以...形式",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      332
+    ]
+  },
+  {
+    "phrase": "be fortunate in",
+    "meaning": "幸运,有好运气",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      333
+    ]
+  },
+  {
+    "phrase": "free of charge",
+    "meaning": "免费",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      334
+    ]
+  },
+  {
+    "phrase": "be freed from",
+    "meaning": "免受, 没有...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      335
+    ]
+  },
+  {
+    "phrase": "in front of",
+    "meaning": "在...前面 in the front of 在...前部",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      336
+    ]
+  },
+  {
+    "phrase": "furnish ... with",
+    "meaning": "向...提供",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      337
+    ]
+  },
+  {
+    "phrase": "in general",
+    "meaning": "通常",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      338
+    ]
+  },
+  {
+    "phrase": "catch (or get) a glimpse of",
+    "meaning": "瞥见(强调结果) take a glance(or look) at 看一眼(强调动作)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      339
+    ]
+  },
+  {
+    "phrase": "be good for",
+    "meaning": "对...有好处;对...有作用 be good at 擅长于; be good to 对...好",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      340
+    ]
+  },
+  {
+    "phrase": "in good time",
+    "meaning": "早早地(做完.到达等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      341
+    ]
+  },
+  {
+    "phrase": "for good",
+    "meaning": "永远地, 长期地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      342
+    ]
+  },
+  {
+    "phrase": "take ... for granted",
+    "meaning": "把...认为理所当然的.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      343
+    ]
+  },
+  {
+    "phrase": "be grateful to sb. for sth",
+    "meaning": "因...感谢某人",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      344
+    ]
+  },
+  {
+    "phrase": "on the ground s fo",
+    "meaning": "由于...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      345
+    ]
+  },
+  {
+    "phrase": "fall to the ground",
+    "meaning": "计划.希望等)失败,落空",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      346
+    ]
+  },
+  {
+    "phrase": "on one's guard against",
+    "meaning": "谨防, 警惕 (be) on guard 站岗",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      347
+    ]
+  },
+  {
+    "phrase": "guard against",
+    "meaning": "警惕,防止 guard...against 警卫...防止",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      348
+    ]
+  },
+  {
+    "phrase": "guess at",
+    "meaning": "猜, 估计",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      349
+    ]
+  },
+  {
+    "phrase": "by guess",
+    "meaning": "靠猜",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      350
+    ]
+  },
+  {
+    "phrase": "be guilty of",
+    "meaning": "犯有...罪或过失",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      351
+    ]
+  },
+  {
+    "phrase": "be in the habit of",
+    "meaning": "习惯于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      352
+    ]
+  },
+  {
+    "phrase": "break off (a habit)",
+    "meaning": "改掉(某种习惯)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      353
+    ]
+  },
+  {
+    "phrase": "break sb. of (a habit)",
+    "meaning": "使某人改掉(某习惯)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      354
+    ]
+  },
+  {
+    "phrase": "get fall into the habit of",
+    "meaning": "养成了...的习惯",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      355
+    ]
+  },
+  {
+    "phrase": "come to a halt",
+    "meaning": "停止; 停住",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      356
+    ]
+  },
+  {
+    "phrase": "at hand",
+    "meaning": "在手边, 眼前(附近)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      357
+    ]
+  },
+  {
+    "phrase": "by hand",
+    "meaning": "用手工(做)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      358
+    ]
+  },
+  {
+    "phrase": "hand in glove with",
+    "meaning": "狼狈为奸, 密切合作",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      359
+    ]
+  },
+  {
+    "phrase": "in hand 1)",
+    "meaning": "在手边 2)(=under control)控制住",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      360
+    ]
+  },
+  {
+    "phrase": "in the hands of",
+    "meaning": "由...掌握, 控制, 负责",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      361
+    ]
+  },
+  {
+    "phrase": "live from hand to mouth",
+    "meaning": "勉强度日,现挣现吃",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      362
+    ]
+  },
+  {
+    "phrase": "at the head of",
+    "meaning": "在...的前头",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      363
+    ]
+  },
+  {
+    "phrase": "head for",
+    "meaning": "向...方向前进",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      364
+    ]
+  },
+  {
+    "phrase": "hear of",
+    "meaning": "听人说起, 听说过",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      365
+    ]
+  },
+  {
+    "phrase": "at heart",
+    "meaning": "内心里, 实际上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      366
+    ]
+  },
+  {
+    "phrase": "in one's heart (of hearts)",
+    "meaning": "内心深处,事实上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      367
+    ]
+  },
+  {
+    "phrase": "by heart",
+    "meaning": "熟记, 背(诵)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      368
+    ]
+  },
+  {
+    "phrase": "with all one's heart",
+    "meaning": "全心全意地,真心实意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      370
+    ]
+  },
+  {
+    "phrase": "hinder ... form",
+    "meaning": "阻碍,使..不能做",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      371
+    ]
+  },
+  {
+    "phrase": "be go on holiday",
+    "meaning": "在(去)度假 go on holiday = go for a holiday",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      372
+    ]
+  },
+  {
+    "phrase": "be feel at home",
+    "meaning": "感觉合适，无拘束，熟悉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      373
+    ]
+  },
+  {
+    "phrase": "be honest in",
+    "meaning": "诚实",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      374
+    ]
+  },
+  {
+    "phrase": "in one's honour (or in honour of)",
+    "meaning": "祝贺,纪念",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      375
+    ]
+  },
+  {
+    "phrase": "on one's honour",
+    "meaning": "以某人的名誉担保",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      376
+    ]
+  },
+  {
+    "phrase": "hope for",
+    "meaning": "希望(某事发生),希望有",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      377
+    ]
+  },
+  {
+    "phrase": "to one's horror",
+    "meaning": "令某人感到恐惧的是",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      378
+    ]
+  },
+  {
+    "phrase": "in a hurry",
+    "meaning": "匆忙地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      379
+    ]
+  },
+  {
+    "phrase": "be identical with",
+    "meaning": "和完全相同",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      380
+    ]
+  },
+  {
+    "phrase": "be identified with",
+    "meaning": "被视为与...等同",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      381
+    ]
+  },
+  {
+    "phrase": "in ignorance of",
+    "meaning": "不知道...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      382
+    ]
+  },
+  {
+    "phrase": "be ignorant of",
+    "meaning": "对...不了解,不知道",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      383
+    ]
+  },
+  {
+    "phrase": "an impact on",
+    "meaning": "对...的强烈影响",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      384
+    ]
+  },
+  {
+    "phrase": "impose ... on",
+    "meaning": "把...强加给",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      385
+    ]
+  },
+  {
+    "phrase": "impress ... on",
+    "meaning": "给...留下印象",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      386
+    ]
+  },
+  {
+    "phrase": "make leave an impression on sb. =give sb. an impression",
+    "meaning": "给...留下印象",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      387
+    ]
+  },
+  {
+    "phrase": "under the impression that",
+    "meaning": "有..的印象,认为",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      388
+    ]
+  },
+  {
+    "phrase": "improve sth.(make sth. better)",
+    "meaning": "把原物改进 improve on(=produce or be sth. better than...) 另做一物比原物更好",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      389
+    ]
+  },
+  {
+    "phrase": "improve in",
+    "meaning": "有改进, 好些",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      390
+    ]
+  },
+  {
+    "phrase": "improvement in",
+    "meaning": "表示原物有改进,好转",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      391
+    ]
+  },
+  {
+    "phrase": "include ... in",
+    "meaning": "把...列在...里面",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      392
+    ]
+  },
+  {
+    "phrase": "inclusive of",
+    "meaning": "把...包括在内",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      393
+    ]
+  },
+  {
+    "phrase": "independent of",
+    "meaning": "独立的,不受约束的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      394
+    ]
+  },
+  {
+    "phrase": "indicative of",
+    "meaning": "表明, 说明",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      395
+    ]
+  },
+  {
+    "phrase": "be indifferent to",
+    "meaning": "对...漠不关心, 冷淡, 不在乎",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      396
+    ]
+  },
+  {
+    "phrase": "be inferior to",
+    "meaning": "比...差; superior to 比...好",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      397
+    ]
+  },
+  {
+    "phrase": "inform sb. of sth",
+    "meaning": "通知, 告诉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      398
+    ]
+  },
+  {
+    "phrase": "be innocent of",
+    "meaning": "无罪的,无辜的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      399
+    ]
+  },
+  {
+    "phrase": "insist on",
+    "meaning": "坚持要",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      400
+    ]
+  },
+  {
+    "phrase": "instead of",
+    "meaning": "代替，而不是...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      401
+    ]
+  },
+  {
+    "phrase": "instruct ... in",
+    "meaning": "教.指导.训练某人...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      402
+    ]
+  },
+  {
+    "phrase": "insure ... for",
+    "meaning": "把...保险(多少钱); ensure 使安全; assure...(of) 使...确信,保证",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      403
+    ]
+  },
+  {
+    "phrase": "insure ... against",
+    "meaning": "保险...以防",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      404
+    ]
+  },
+  {
+    "phrase": "intend ... for",
+    "meaning": "打算把...给",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      405
+    ]
+  },
+  {
+    "phrase": "be intent on",
+    "meaning": "专心致志, 坚决",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      406
+    ]
+  },
+  {
+    "phrase": "in the interests of",
+    "meaning": "符合...的利益 be interested in 对...感兴趣",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      407
+    ]
+  },
+  {
+    "phrase": "interfere in",
+    "meaning": "干涉, interfere with 打搅,干扰",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      408
+    ]
+  },
+  {
+    "phrase": "at intervals",
+    "meaning": "每隔一会儿, 每隔一段距离",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      409
+    ]
+  },
+  {
+    "phrase": "intervene in",
+    "meaning": "干预",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      410
+    ]
+  },
+  {
+    "phrase": "invest in",
+    "meaning": "投资",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      411
+    ]
+  },
+  {
+    "phrase": "be involved in",
+    "meaning": "卷入, 参加",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      412
+    ]
+  },
+  {
+    "phrase": "by itself",
+    "meaning": "单独地,靠自己",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      413
+    ]
+  },
+  {
+    "phrase": "in itself",
+    "meaning": "本身; of itself 自发,自然",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      414
+    ]
+  },
+  {
+    "phrase": "be jealous of",
+    "meaning": "妒忌",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      415
+    ]
+  },
+  {
+    "phrase": "jump at",
+    "meaning": "抢着接受,",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      416
+    ]
+  },
+  {
+    "phrase": "jump on",
+    "meaning": "叱责",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      417
+    ]
+  },
+  {
+    "phrase": "junior to sb",
+    "meaning": "年纪较...轻, 职位较...低.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      418
+    ]
+  },
+  {
+    "phrase": "be keen on",
+    "meaning": "喜爱, 渴望",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      419
+    ]
+  },
+  {
+    "phrase": "keep a close watch on",
+    "meaning": "密切注视",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      420
+    ]
+  },
+  {
+    "phrase": "keep ... to oneself",
+    "meaning": "不告诉别人",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      421
+    ]
+  },
+  {
+    "phrase": "to(the best of) one's knowledge",
+    "meaning": "据...所知",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      422
+    ]
+  },
+  {
+    "phrase": "at large",
+    "meaning": "在逃, 逍遥法外 at large(=in general) 一般来说, 大体上 at large(=at full length; with details)详细地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      423
+    ]
+  },
+  {
+    "phrase": "lean against",
+    "meaning": "背)靠着...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      424
+    ]
+  },
+  {
+    "phrase": "at least",
+    "meaning": "至少; at most 至多",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      425
+    ]
+  },
+  {
+    "phrase": "not in the least",
+    "meaning": "一点(也不), 丝毫(也不)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      426
+    ]
+  },
+  {
+    "phrase": "at one's leisure",
+    "meaning": "在...有空的时候",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      427
+    ]
+  },
+  {
+    "phrase": "lend itself/themselves to",
+    "meaning": "适合于(某用途)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      428
+    ]
+  },
+  {
+    "phrase": "at length",
+    "meaning": "终于 at length (=in detail, thoroughly)详细地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      429
+    ]
+  },
+  {
+    "phrase": "go to any length",
+    "meaning": "想一切办法, 尽一切力量",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      430
+    ]
+  },
+  {
+    "phrase": "be liable to",
+    "meaning": "易于..的,应受(罚)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      431
+    ]
+  },
+  {
+    "phrase": "be liable for",
+    "meaning": "对...应负责任的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      432
+    ]
+  },
+  {
+    "phrase": "lie in",
+    "meaning": "在于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      433
+    ]
+  },
+  {
+    "phrase": "in life",
+    "meaning": "一生中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      434
+    ]
+  },
+  {
+    "phrase": "for life",
+    "meaning": "终身",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      435
+    ]
+  },
+  {
+    "phrase": "in the light of",
+    "meaning": "考虑到, 根据",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      436
+    ]
+  },
+  {
+    "phrase": "throw light on",
+    "meaning": "使...更为清楚, 提供线索, 阐明",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      437
+    ]
+  },
+  {
+    "phrase": "in line with",
+    "meaning": "符合,一致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      438
+    ]
+  },
+  {
+    "phrase": "long for",
+    "meaning": "渴望,希望得到",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      439
+    ]
+  },
+  {
+    "phrase": "for long",
+    "meaning": "很久,很长时间(否定句.疑问句中)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      440
+    ]
+  },
+  {
+    "phrase": "before long",
+    "meaning": "不久, 过了不久以后.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      441
+    ]
+  },
+  {
+    "phrase": "in the long run",
+    "meaning": "从长远来说,最后; in the short term (从短期来说)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      442
+    ]
+  },
+  {
+    "phrase": "be at a loss",
+    "meaning": "不知所措",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      443
+    ]
+  },
+  {
+    "phrase": "major in",
+    "meaning": "主修（某课程）",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      444
+    ]
+  },
+  {
+    "phrase": "as a matter of fact",
+    "meaning": "实际上, 事实是",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      445
+    ]
+  },
+  {
+    "phrase": "by all means",
+    "meaning": "不惜一切. (=certainly) 当然行;by means of 用...; by no means 完全不, 决不",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      446
+    ]
+  },
+  {
+    "phrase": "in memory of",
+    "meaning": "为纪念...",
+    "variants": [
+      "on memory of"
+    ],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      447
+    ]
+  },
+  {
+    "phrase": "on the mend",
+    "meaning": "好转, 在康复中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      448
+    ]
+  },
+  {
+    "phrase": "mention sth. to sb",
+    "meaning": "向某人提起某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      449
+    ]
+  },
+  {
+    "phrase": "at the mercy of",
+    "meaning": "任...摆布, 在...支配下",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      450
+    ]
+  },
+  {
+    "phrase": "be in a mess",
+    "meaning": "乱七八糟, 处境困难 make a mess of 弄乱, 打乱",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      451
+    ]
+  },
+  {
+    "phrase": "bear(or keep) ... in mind",
+    "meaning": "牢记",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      452
+    ]
+  },
+  {
+    "phrase": "bring(or call)to mind",
+    "meaning": "使回想起",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      453
+    ]
+  },
+  {
+    "phrase": "by mistake",
+    "meaning": "由于粗心,健忘原因而)错误地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      454
+    ]
+  },
+  {
+    "phrase": "at the moment",
+    "meaning": "此刻,现在 for the moment (=for the time being)暂时 just a moment 稍等片刻 at the last moment 在最后一刻",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      455
+    ]
+  },
+  {
+    "phrase": "in the mood for",
+    "meaning": "有情绪去做..,有心境做.",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      456
+    ]
+  },
+  {
+    "phrase": "no more ... than",
+    "meaning": "和...一样都不...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      457
+    ]
+  },
+  {
+    "phrase": "for the most part",
+    "meaning": "多半,大多数,一般来说",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      458
+    ]
+  },
+  {
+    "phrase": "at the most",
+    "meaning": "最多, 至多",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      459
+    ]
+  },
+  {
+    "phrase": "make the most of",
+    "meaning": "充分利用",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      460
+    ]
+  },
+  {
+    "phrase": "be not much of",
+    "meaning": "不是很好的... be something of 有点...,像...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      461
+    ]
+  },
+  {
+    "phrase": "name after",
+    "meaning": "用...的名字命名",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      462
+    ]
+  },
+  {
+    "phrase": "native to",
+    "meaning": "所产的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      463
+    ]
+  },
+  {
+    "phrase": "by nature",
+    "meaning": "天生的, 生来",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      464
+    ]
+  },
+  {
+    "phrase": "in mature",
+    "meaning": "本质上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      465
+    ]
+  },
+  {
+    "phrase": "be in the nature of",
+    "meaning": "属...性质",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      466
+    ]
+  },
+  {
+    "phrase": "none other that",
+    "meaning": "不是别人,正是...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      467
+    ]
+  },
+  {
+    "phrase": "above normal",
+    "meaning": "高于正常(温度)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      468
+    ]
+  },
+  {
+    "phrase": "for nothing",
+    "meaning": "免费",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      469
+    ]
+  },
+  {
+    "phrase": "nothing but",
+    "meaning": "只有, 不过...而已",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      470
+    ]
+  },
+  {
+    "phrase": "to say nothing of",
+    "meaning": "更不用说...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      471
+    ]
+  },
+  {
+    "phrase": "do sth. at short notice",
+    "meaning": "只给很少时间准备",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      472
+    ]
+  },
+  {
+    "phrase": "until further notice",
+    "meaning": "在另行通知前",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      473
+    ]
+  },
+  {
+    "phrase": "take notice of",
+    "meaning": "注意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      474
+    ]
+  },
+  {
+    "phrase": "object to",
+    "meaning": "反对",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      475
+    ]
+  },
+  {
+    "phrase": "objection to",
+    "meaning": "接动名词) 反对",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      476
+    ]
+  },
+  {
+    "phrase": "on occasion",
+    "meaning": "不时地,必要时",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      477
+    ]
+  },
+  {
+    "phrase": "by occasion of",
+    "meaning": "由于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      478
+    ]
+  },
+  {
+    "phrase": "occupy oneself with in",
+    "meaning": "忙于(某事)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      479
+    ]
+  },
+  {
+    "phrase": "it occurs to sb. that..",
+    "meaning": "某人想到...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      480
+    ]
+  },
+  {
+    "phrase": "once and for all =once and forever",
+    "meaning": "永远地 all at once (=suddenly, now) 立即,马上 once in a while (=occasionally) 偶尔 (just) for once 就这一次",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      481
+    ]
+  },
+  {
+    "phrase": "all by oneself",
+    "meaning": "独自(没有别人帮助)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      482
+    ]
+  },
+  {
+    "phrase": "operate on sb",
+    "meaning": "给某人做手术 operation n. come/ go into operation 开始运转 put/bring sth. into operation 使...投产,运转",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      483
+    ]
+  },
+  {
+    "phrase": "be of the opinion",
+    "meaning": "持有...的看法",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      484
+    ]
+  },
+  {
+    "phrase": "in one's opinion",
+    "meaning": "按某人的看法",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      485
+    ]
+  },
+  {
+    "phrase": "be opposed to..",
+    "meaning": "反对...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      486
+    ]
+  },
+  {
+    "phrase": "be opposite to",
+    "meaning": "与...相反的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      487
+    ]
+  },
+  {
+    "phrase": "be in order",
+    "meaning": "合适的,恰当的 in order 井井有条,处于良好状态; out of order(=in bad condition)出毛病,发生故障",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      488
+    ]
+  },
+  {
+    "phrase": "made to order",
+    "meaning": "定做的(衣服)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      489
+    ]
+  },
+  {
+    "phrase": "originate in/from",
+    "meaning": "起源于,由..引起",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      490
+    ]
+  },
+  {
+    "phrase": "on the outskirts of",
+    "meaning": "在城郊",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      491
+    ]
+  },
+  {
+    "phrase": "owe ... to",
+    "meaning": "把...归于...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      492
+    ]
+  },
+  {
+    "phrase": "on one's own",
+    "meaning": "单独",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      493
+    ]
+  },
+  {
+    "phrase": "of one's own",
+    "meaning": "某人自己的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      494
+    ]
+  },
+  {
+    "phrase": "keep pace with",
+    "meaning": "跟...齐步前进",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      495
+    ]
+  },
+  {
+    "phrase": "go to great pains=take pains",
+    "meaning": "下功夫,努力",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      496
+    ]
+  },
+  {
+    "phrase": "part with",
+    "meaning": "舍弃,卖掉",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      497
+    ]
+  },
+  {
+    "phrase": "participate in",
+    "meaning": "参加",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      498
+    ]
+  },
+  {
+    "phrase": "be particular about",
+    "meaning": "讲究,挑剔(吃,穿)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      499
+    ]
+  },
+  {
+    "phrase": "in particular",
+    "meaning": "特别是,尤其",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      500
+    ]
+  },
+  {
+    "phrase": "a passion for",
+    "meaning": "对...的热爱,热情",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      501
+    ]
+  },
+  {
+    "phrase": "be patient with",
+    "meaning": "对...耐心",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      502
+    ]
+  },
+  {
+    "phrase": "pay for",
+    "meaning": "赔偿, 付款, 报偿, 处罚",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      503
+    ]
+  },
+  {
+    "phrase": "pay ... for",
+    "meaning": "付...的钱",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      504
+    ]
+  },
+  {
+    "phrase": "be at peace with",
+    "meaning": "与...和睦相处 in peace (=peacefully)安静,平安",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      505
+    ]
+  },
+  {
+    "phrase": "peculiar to..",
+    "meaning": "特有的, 独具的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      506
+    ]
+  },
+  {
+    "phrase": "penalty for",
+    "meaning": "对...的处罚,罚金",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      507
+    ]
+  },
+  {
+    "phrase": "perform on the piano",
+    "meaning": "演奏钢琴",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      508
+    ]
+  },
+  {
+    "phrase": "persist in",
+    "meaning": "坚持,固执",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      509
+    ]
+  },
+  {
+    "phrase": "in person",
+    "meaning": "亲自, 当面",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      510
+    ]
+  },
+  {
+    "phrase": "in place (in right or proper place)",
+    "meaning": "放在应放的地方",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      511
+    ]
+  },
+  {
+    "phrase": "in place of",
+    "meaning": "代替",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      512
+    ]
+  },
+  {
+    "phrase": "take a pleasure in",
+    "meaning": "喜欢做某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      513
+    ]
+  },
+  {
+    "phrase": "be on the point of doing sth",
+    "meaning": "刚要去做",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      514
+    ]
+  },
+  {
+    "phrase": "beside the point",
+    "meaning": "不切正题,无关紧要",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      515
+    ]
+  },
+  {
+    "phrase": "come to the point",
+    "meaning": "谈主要问题",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      516
+    ]
+  },
+  {
+    "phrase": "there is no point in doing sth",
+    "meaning": "没必要做某事",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      517
+    ]
+  },
+  {
+    "phrase": "to the point",
+    "meaning": "中肯, 切题",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      518
+    ]
+  },
+  {
+    "phrase": "point at",
+    "meaning": "指着 point out (=indicate, show) 指出,指明",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      519
+    ]
+  },
+  {
+    "phrase": "popular with/among",
+    "meaning": "大众所喜爱的,拥戴",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      520
+    ]
+  },
+  {
+    "phrase": "in the position of",
+    "meaning": "处在...位置上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      521
+    ]
+  },
+  {
+    "phrase": "in practice",
+    "meaning": "实际上(状语);业务熟练(表语)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      522
+    ]
+  },
+  {
+    "phrase": "be get out of practice",
+    "meaning": "荒疏,不熟练",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      523
+    ]
+  },
+  {
+    "phrase": "bring put ... into practice",
+    "meaning": "使...成为现实",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      524
+    ]
+  },
+  {
+    "phrase": "prefer ... to ... (choose rather, like better)",
+    "meaning": "宁要, 更喜欢",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      525
+    ]
+  },
+  {
+    "phrase": "prepare for breakfast",
+    "meaning": "准备吃早饭 prepare breakfast 作早饭",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      526
+    ]
+  },
+  {
+    "phrase": "in the presence of",
+    "meaning": "在...在场的情况下",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      527
+    ]
+  },
+  {
+    "phrase": "for the present",
+    "meaning": "暂且,就现在来说; at present 现在,此刻",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      528
+    ]
+  },
+  {
+    "phrase": "preside over/at",
+    "meaning": "主持(会议,业务等)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      529
+    ]
+  },
+  {
+    "phrase": "prevail over",
+    "meaning": "占优势, 压倒, 战胜",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      530
+    ]
+  },
+  {
+    "phrase": "prevent ... from",
+    "meaning": "使...不, 防止...做",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      531
+    ]
+  },
+  {
+    "phrase": "previous to",
+    "meaning": "在...之前",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      532
+    ]
+  },
+  {
+    "phrase": "take pride in",
+    "meaning": "以...自豪",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      533
+    ]
+  },
+  {
+    "phrase": "pride oneself on/upon",
+    "meaning": "以...自豪",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      534
+    ]
+  },
+  {
+    "phrase": "in principle",
+    "meaning": "原则上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      535
+    ]
+  },
+  {
+    "phrase": "prior to",
+    "meaning": "在...之前",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      536
+    ]
+  },
+  {
+    "phrase": "in private",
+    "meaning": "私下, 秘密地 in public 公开地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      537
+    ]
+  },
+  {
+    "phrase": "proceed from",
+    "meaning": "由...发出, 由...引起(产生)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      538
+    ]
+  },
+  {
+    "phrase": "proceed with",
+    "meaning": "继续进行",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      539
+    ]
+  },
+  {
+    "phrase": "in progress",
+    "meaning": "进行中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      540
+    ]
+  },
+  {
+    "phrase": "prohibit ... from",
+    "meaning": "禁止, 阻止",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      541
+    ]
+  },
+  {
+    "phrase": "in proportion to",
+    "meaning": "与...成比例",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      542
+    ]
+  },
+  {
+    "phrase": "protect ... from",
+    "meaning": "阻止..不受,保护不受",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      543
+    ]
+  },
+  {
+    "phrase": "be proud of",
+    "meaning": "为...自豪",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      544
+    ]
+  },
+  {
+    "phrase": "provide for",
+    "meaning": "为...做准备",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      545
+    ]
+  },
+  {
+    "phrase": "in public",
+    "meaning": "公开地, 当众",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      546
+    ]
+  },
+  {
+    "phrase": "on purpose",
+    "meaning": "故意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      547
+    ]
+  },
+  {
+    "phrase": "to the purpose",
+    "meaning": "得要领的, 中肯的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      548
+    ]
+  },
+  {
+    "phrase": "be qualified in",
+    "meaning": "在某种科目或学科上合格 be qualified for 在某种职业上合格",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      549
+    ]
+  },
+  {
+    "phrase": "call ... in question",
+    "meaning": "对...表示怀疑",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      550
+    ]
+  },
+  {
+    "phrase": "beyond all question",
+    "meaning": "毫无疑问",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      551
+    ]
+  },
+  {
+    "phrase": "out of the question",
+    "meaning": "不可能的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      552
+    ]
+  },
+  {
+    "phrase": "in question",
+    "meaning": "所谈及的;",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      553
+    ]
+  },
+  {
+    "phrase": "without question",
+    "meaning": "毫无疑问",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      554
+    ]
+  },
+  {
+    "phrase": "be caught in the rain",
+    "meaning": "被雨淋了",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      555
+    ]
+  },
+  {
+    "phrase": "at random",
+    "meaning": "随便地, 任意地, 胡乱地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      556
+    ]
+  },
+  {
+    "phrase": "range over",
+    "meaning": "范围包括",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      557
+    ]
+  },
+  {
+    "phrase": "range between",
+    "meaning": "范围在..与..之间不等",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      558
+    ]
+  },
+  {
+    "phrase": "at any rate",
+    "meaning": "无论如何,总之",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      559
+    ]
+  },
+  {
+    "phrase": "beyond the reach of",
+    "meaning": "无法达到(得到,理解)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      560
+    ]
+  },
+  {
+    "phrase": "out of reach of",
+    "meaning": "无法够到. within reach of (or within one's reach) 够得到,能拿到",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      561
+    ]
+  },
+  {
+    "phrase": "react to",
+    "meaning": "对...作出反应",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      562
+    ]
+  },
+  {
+    "phrase": "react on/upon",
+    "meaning": "对...产生影响",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      563
+    ]
+  },
+  {
+    "phrase": "react against",
+    "meaning": "作出反抗或反对反应",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      564
+    ]
+  },
+  {
+    "phrase": "be ready for",
+    "meaning": "准备好做...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      565
+    ]
+  },
+  {
+    "phrase": "in reality",
+    "meaning": "事实上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      566
+    ]
+  },
+  {
+    "phrase": "beyond all reason",
+    "meaning": "没有道理的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      567
+    ]
+  },
+  {
+    "phrase": "by reason of",
+    "meaning": "由于,因为",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      568
+    ]
+  },
+  {
+    "phrase": "it stands to reason that ..",
+    "meaning": "理所当然",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      569
+    ]
+  },
+  {
+    "phrase": "reason with",
+    "meaning": "劝说",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      570
+    ]
+  },
+  {
+    "phrase": "in the red",
+    "meaning": "亏损,负债,赤字 (be) get out of red 不再亏损",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      571
+    ]
+  },
+  {
+    "phrase": "refer to ... as",
+    "meaning": "把...称做...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      572
+    ]
+  },
+  {
+    "phrase": "refer ... to..",
+    "meaning": "送交,呈交",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      573
+    ]
+  },
+  {
+    "phrase": "with/in reference to",
+    "meaning": "关于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      574
+    ]
+  },
+  {
+    "phrase": "with/in regard to",
+    "meaning": "有关,关于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      575
+    ]
+  },
+  {
+    "phrase": "give one's regards to sb",
+    "meaning": "向...问候",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      576
+    ]
+  },
+  {
+    "phrase": "regardless of",
+    "meaning": "不顾,不考虑",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      577
+    ]
+  },
+  {
+    "phrase": "in/with relation to",
+    "meaning": "关于, 有关",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      578
+    ]
+  },
+  {
+    "phrase": "relevant to",
+    "meaning": "与...有关的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      579
+    ]
+  },
+  {
+    "phrase": "to one's relief",
+    "meaning": "令...感到放心的是",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      580
+    ]
+  },
+  {
+    "phrase": "relieve ... of..",
+    "meaning": "解除,解脱;帮助拿,辞退",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      581
+    ]
+  },
+  {
+    "phrase": "rely on",
+    "meaning": "依靠, 信赖",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      582
+    ]
+  },
+  {
+    "phrase": "remark on upon",
+    "meaning": "对...发表评论",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      583
+    ]
+  },
+  {
+    "phrase": "remedy for",
+    "meaning": "对...治疗法, 补救, 药物",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      584
+    ]
+  },
+  {
+    "phrase": "remind sb. of",
+    "meaning": "提醒某人...,使某人向想起",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      585
+    ]
+  },
+  {
+    "phrase": "in good repair",
+    "meaning": "处于良好状态; be under repair 在修理中",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      586
+    ]
+  },
+  {
+    "phrase": "reply to",
+    "meaning": "答复, 回答",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      587
+    ]
+  },
+  {
+    "phrase": "beyond reproach",
+    "meaning": "不受责备的 ;beyond(all) reason 毫无道理 ;beyond question 毫无疑 问;beyond belief 以相信;beyond hope 绝望",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      588
+    ]
+  },
+  {
+    "phrase": "resort to",
+    "meaning": "诉诸于.., 求助于... resort to force 诉诸于武力",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      589
+    ]
+  },
+  {
+    "phrase": "in/with respect to",
+    "meaning": "有关,关于",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      590
+    ]
+  },
+  {
+    "phrase": "respond to",
+    "meaning": "对...反应, 响应, 对(药)有效",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      591
+    ]
+  },
+  {
+    "phrase": "in response to",
+    "meaning": "回答,反应",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      592
+    ]
+  },
+  {
+    "phrase": "be responsible for",
+    "meaning": "对...负责, 是造成...原因",
+    "variants": [
+      "be response for"
+    ],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      593
+    ]
+  },
+  {
+    "phrase": "rest on/upon",
+    "meaning": "依靠,寄托",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      594
+    ]
+  },
+  {
+    "phrase": "rest with",
+    "meaning": "在...手中, 是...的责任; 由...决定; 依靠",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      595
+    ]
+  },
+  {
+    "phrase": "restrain ... from",
+    "meaning": "抑制..不..",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      596
+    ]
+  },
+  {
+    "phrase": "restrict ... to",
+    "meaning": "把..限制于..",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      597
+    ]
+  },
+  {
+    "phrase": "result in",
+    "meaning": "导致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      598
+    ]
+  },
+  {
+    "phrase": "with the result that",
+    "meaning": "其结果是",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      599
+    ]
+  },
+  {
+    "phrase": "in return for",
+    "meaning": "作为报答; 以报答(for)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      600
+    ]
+  },
+  {
+    "phrase": "get rid of",
+    "meaning": "摆脱, 去掉, 除去",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      601
+    ]
+  },
+  {
+    "phrase": "be in the right",
+    "meaning": "正确的;in the wrong 错误的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      602
+    ]
+  },
+  {
+    "phrase": "be within one's rights(to do)",
+    "meaning": "有权(做)",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      603
+    ]
+  },
+  {
+    "phrase": "give rise to",
+    "meaning": "引起, 导致",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      604
+    ]
+  },
+  {
+    "phrase": "at the risk of",
+    "meaning": "冒...的风险",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      605
+    ]
+  },
+  {
+    "phrase": "run takerisk of",
+    "meaning": "的风险",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      606
+    ]
+  },
+  {
+    "phrase": "rule out",
+    "meaning": "排除",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      607
+    ]
+  },
+  {
+    "phrase": "in safety",
+    "meaning": "安全地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      608
+    ]
+  },
+  {
+    "phrase": "for the sake of",
+    "meaning": "为了...起见",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      609
+    ]
+  },
+  {
+    "phrase": "be for sale",
+    "meaning": "待售",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      610
+    ]
+  },
+  {
+    "phrase": "on sale",
+    "meaning": "出售, 上市",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      611
+    ]
+  },
+  {
+    "phrase": "be satisfied with",
+    "meaning": "满意",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      612
+    ]
+  },
+  {
+    "phrase": "on a large scale",
+    "meaning": "大规模地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      613
+    ]
+  },
+  {
+    "phrase": "on schedule",
+    "meaning": "按时,准时;ahead of schedule 提前; in advance 预先;behind schedule 落后于计划进度,晚于规定时间",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      614
+    ]
+  },
+  {
+    "phrase": "be scheduled for",
+    "meaning": "定在某时(进行)",
+    "variants": [
+      "be schedule for"
+    ],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      615
+    ]
+  },
+  {
+    "phrase": "scrape through in",
+    "meaning": "勉强通过",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      616
+    ]
+  },
+  {
+    "phrase": "from scratch",
+    "meaning": "从头开始",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      617
+    ]
+  },
+  {
+    "phrase": "in search of",
+    "meaning": "寻找;in honor of 为了...表示敬意;in me of 为追求..;in behalf of 为...的利益;in favor of 为赞成...;in support of 为支持...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      618
+    ]
+  },
+  {
+    "phrase": "in season",
+    "meaning": "旺季",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      619
+    ]
+  },
+  {
+    "phrase": "in secret",
+    "meaning": "秘密地; in private 私下",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      620
+    ]
+  },
+  {
+    "phrase": "senior to",
+    "meaning": "比...年长; junior to 比...轻; superior to 比...更好; inferior to 比...差",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      621
+    ]
+  },
+  {
+    "phrase": "in a sense",
+    "meaning": "在某种意义上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      622
+    ]
+  },
+  {
+    "phrase": "sensitive to",
+    "meaning": "对...敏感; sensible (of)觉察到的; sensational 耸人听闻的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      623
+    ]
+  },
+  {
+    "phrase": "in sequence",
+    "meaning": "按顺序, 按先后次序",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      624
+    ]
+  },
+  {
+    "phrase": "share in",
+    "meaning": "分摊, 分担",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      625
+    ]
+  },
+  {
+    "phrase": "share sth. with",
+    "meaning": "与...分享,分担,分摊,共用",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      626
+    ]
+  },
+  {
+    "phrase": "be shocked at/by",
+    "meaning": "对...感到震惊",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      627
+    ]
+  },
+  {
+    "phrase": "go short of",
+    "meaning": "缺乏",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      629
+    ]
+  },
+  {
+    "phrase": "for short (in a short form)",
+    "meaning": "为简便,简称",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      630
+    ]
+  },
+  {
+    "phrase": "in short",
+    "meaning": "简称",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      631
+    ]
+  },
+  {
+    "phrase": "in short supply",
+    "meaning": "供应不足",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      632
+    ]
+  },
+  {
+    "phrase": "be short of",
+    "meaning": "缺乏,不够",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      633
+    ]
+  },
+  {
+    "phrase": "be shy of",
+    "meaning": "难为情, 不好意思",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      634
+    ]
+  },
+  {
+    "phrase": "at the side of",
+    "meaning": "与...相比",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      635
+    ]
+  },
+  {
+    "phrase": "take the side of",
+    "meaning": "站在...一边",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      636
+    ]
+  },
+  {
+    "phrase": "catch the sight of",
+    "meaning": "瞥见",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      637
+    ]
+  },
+  {
+    "phrase": "at the sight of",
+    "meaning": "一看见...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      638
+    ]
+  },
+  {
+    "phrase": "bein sight",
+    "meaning": "看得见 out of sight 看不见",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      639
+    ]
+  },
+  {
+    "phrase": "know sb. by sight",
+    "meaning": "与...只面熟",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      640
+    ]
+  },
+  {
+    "phrase": "on the sly",
+    "meaning": "偷偷地",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      641
+    ]
+  },
+  {
+    "phrase": "smell of",
+    "meaning": "有...的气味",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      642
+    ]
+  },
+  {
+    "phrase": "be sorry about/for",
+    "meaning": "懊悔的,后悔的,难过的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      643
+    ]
+  },
+  {
+    "phrase": "speak ill of",
+    "meaning": "说...的坏话; speak well of 说...的好话",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      644
+    ]
+  },
+  {
+    "phrase": "specialize in",
+    "meaning": "专门研究, 专攻",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      645
+    ]
+  },
+  {
+    "phrase": "in spite of",
+    "meaning": "尽管",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      646
+    ]
+  },
+  {
+    "phrase": "on the spot",
+    "meaning": "在现场, 在出事地点; 或(=at once) 立即",
+    "variants": [
+      "on the pot"
+    ],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      647
+    ]
+  },
+  {
+    "phrase": "take a stand against",
+    "meaning": "采取某种立场反对 take a stand for 采取某种立场支持...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      648
+    ]
+  },
+  {
+    "phrase": "stare at",
+    "meaning": "目不转睛地看, 凝视, 盯着",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      649
+    ]
+  },
+  {
+    "phrase": "in step",
+    "meaning": "步伐一致; out of step 步伐不齐",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      650
+    ]
+  },
+  {
+    "phrase": "stick sth. on",
+    "meaning": "把...贴在...上",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      651
+    ]
+  },
+  {
+    "phrase": "stick to",
+    "meaning": "粘着, 坚持；坚持; stick to one's promise 比喻食言 stick to one's friend 忠于朋友",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      652,
+      654
+    ]
+  },
+  {
+    "phrase": "stick at",
+    "meaning": "继续勤奋地致力于...;stick one's work 坚持工作; stick at one's books 勤奋读书",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      653
+    ]
+  },
+  {
+    "phrase": "in stock",
+    "meaning": "有....货",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      655
+    ]
+  },
+  {
+    "phrase": "be strict with",
+    "meaning": "对...严格要求",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      656
+    ]
+  },
+  {
+    "phrase": "be/go on strike",
+    "meaning": "罢工",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      657
+    ]
+  },
+  {
+    "phrase": "subject ... to",
+    "meaning": "使受..到 subject (adj.) to 易受到...的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      658
+    ]
+  },
+  {
+    "phrase": "submit ... to",
+    "meaning": "提交",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      659
+    ]
+  },
+  {
+    "phrase": "substitute ... for",
+    "meaning": "以...代替...",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      660
+    ]
+  },
+  {
+    "phrase": "suffer from",
+    "meaning": "患...病; 受...苦痛",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      661
+    ]
+  },
+  {
+    "phrase": "be suitable for",
+    "meaning": "合适...的",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      662
+    ]
+  },
+  {
+    "phrase": "in sum",
+    "meaning": "大体上, 总之",
+    "variants": [],
+    "level": "CET6",
+    "tags": [
+      "高频词组"
+    ],
+    "source_indices": [
+      663
+    ]
+  }
+]
