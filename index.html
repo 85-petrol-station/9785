@@ -6368,7 +6368,7 @@ async function matchSubtitlePhrases(sourceSubtitles, cacheKey) {
 function renderMatchedPhraseSection(matches) {
   if (!matches.length) {
     return `<section class="knowledge-section">
-      <div class="knowledge-section-title">字幕匹配词组</div>
+      <div class="knowledge-section-title">词组</div>
       <div class="knowledge-card" style="color:var(--color-text-secondary);font-size:12px;">未从当前英文字幕中匹配到四、六级词组。</div>
     </section>`;
   }
@@ -6387,7 +6387,7 @@ function renderMatchedPhraseSection(matches) {
     </div>`;
   }).join('');
   return `<section class="knowledge-section">
-    <div class="knowledge-section-title">字幕匹配词组 <span style="font-size:10px;color:var(--color-text-secondary);font-weight:400;">${matches.length}个</span></div>
+    <div class="knowledge-section-title">词组 <span style="font-size:10px;color:var(--color-text-secondary);font-weight:400;">${matches.length}个</span></div>
     ${cards}
   </section>`;
 }
@@ -6449,10 +6449,6 @@ function renderKnowledgeSection(title, items, type) {
 async function openVideoKnowledge() {
   const base = getBaseNameFromInput(currentVideoSrc);
   const videoInfo = getCurrentVideoInfo();
-  const curatedKnowledge = curatedVideoKnowledge[base] || null;
-  const curatedPhraseSection = curatedKnowledge
-    ? renderKnowledgeSection('精选词组', curatedKnowledge.phrases || [], 'phrase')
-    : '';
   const collectedWords = getVideoKnowledgeWords();
   const wordSection = collectedWords.length
     ? renderKnowledgeSection('重点单词', collectedWords, 'word')
@@ -6473,12 +6469,10 @@ async function openVideoKnowledge() {
     const matches = await matchSubtitlePhrases(subtitles, `video:${currentVideoSrc}`);
     document.getElementById('knowledgeContent').innerHTML =
       wordSection +
-      curatedPhraseSection +
       renderMatchedPhraseSection(matches);
   } catch (error) {
     document.getElementById('knowledgeContent').innerHTML =
       wordSection +
-      curatedPhraseSection +
       `<div style="padding:18px 0;text-align:center;color:var(--color-text-secondary);font-size:12px;">词组识别暂不可用：${escapeHtml(error.message)}</div>`;
   }
 }
