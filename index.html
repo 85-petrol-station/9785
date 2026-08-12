@@ -249,12 +249,45 @@
     font-size: 13px;
     line-height: 1.55;
   }
-  .phrase-library-variants{
+  .phrase-library-examples{
     margin-top: 5px;
     color: var(--color-text-secondary);
     font-size: 11px;
     line-height: 1.45;
   }
+  .phrase-answer-example{
+    position:relative;
+    width:min(680px,calc(100% - 24px));
+    margin:7px auto 0;
+    padding:10px 82px 10px 12px;
+    border:1px solid color-mix(in srgb, var(--color-accent) 28%, transparent);
+    border-radius:12px;
+    background:var(--bg-card);
+    color:var(--color-text);
+    font-size:13px;
+    line-height:1.45;
+  }
+  .phrase-answer-example[hidden]{display:none;}
+  .phrase-answer-example-en{font-size:14px;}
+  .phrase-answer-example-zh{margin-top:2px;color:var(--color-text-secondary);}
+  .phrase-answer-highlight{color:var(--color-accent);font-weight:700;}
+  .phrase-answer-collect{
+    position:absolute;
+    top:9px;
+    right:10px;
+    width:30px;
+    height:30px;
+    padding:0;
+    border:none;
+    border-radius:50%;
+    background:transparent;
+    color:var(--color-accent);
+    font-size:22px;
+    line-height:30px;
+    text-align:center;
+    cursor:pointer;
+  }
+  .phrase-answer-collect.collected{background:transparent;color:var(--color-accent);}
   .phrase-practice-tabs{
     display:flex;
     flex:1;
@@ -670,7 +703,7 @@
   .star-fav {
     position: static;
     font-size: 14px;
-    color: #9c9c9c;
+    color:var(--color-text-secondary);
     cursor: pointer;
     background: none;
     border: none;
@@ -680,6 +713,55 @@
   }
   .star-fav.active {
     color: var(--color-accent);
+  }
+  .star-fav,
+  .popup-star,
+  #modalStar,
+  .fav-wrong-word-btn,
+  .phrase-answer-collect,
+  .cet-word-collect-star {
+    background:transparent !important;
+    background-color:transparent !important;
+    border:none !important;
+    box-shadow:none !important;
+    color:var(--color-text-secondary);
+  }
+  .star-fav.active,
+  .popup-star.collected,
+  #modalStar.active,
+  .fav-wrong-word-btn.active,
+  .phrase-answer-collect.collected,
+  .cet-word-collect-star.collected {
+    color:var(--color-accent);
+  }
+  .star-fav:hover,
+  .star-fav:focus,
+  .star-fav:focus-visible,
+  .star-fav:active,
+  .popup-star:hover,
+  .popup-star:focus,
+  .popup-star:active,
+  #modalStar:hover,
+  #modalStar:focus,
+  #modalStar:active,
+  .fav-wrong-word-btn:hover,
+  .fav-wrong-word-btn:focus,
+  .fav-wrong-word-btn:focus-visible,
+  .fav-wrong-word-btn:active,
+  .phrase-answer-collect:hover,
+  .phrase-answer-collect:focus,
+  .phrase-answer-collect:focus-visible,
+  .phrase-answer-collect:active,
+  .cet-word-collect-star:hover,
+  .cet-word-collect-star:focus,
+  .cet-word-collect-star:focus-visible,
+  .cet-word-collect-star:active {
+    background:transparent !important;
+    background-color:transparent !important;
+    border-color:transparent !important;
+    box-shadow:none !important;
+    outline:none !important;
+    filter:none !important;
   }
   .sub-en {
     font-weight: 500;
@@ -1961,8 +2043,8 @@
 .cet-speaker-btn { background:none; border:none; cursor:pointer; padding:0; display:grid; place-items:center; }
 .cet-speaker-icon { object-fit:contain; }
 .cet-exam-options {
-  padding:0 16px calc(72px + env(safe-area-inset-bottom));
-  margin-top:50px; display:flex; flex-direction:column; gap:9px;
+  padding:0 16px;
+  margin-top:50px; display:flex; flex-direction:column; gap:7px;
 }
 .cet-exam-action-bar {
   position:fixed; left:0; right:0; bottom:0; z-index:20;
@@ -1972,10 +2054,15 @@
   border-top:1px solid color-mix(in srgb, var(--color-accent) 20%, transparent);
 }
 .cet-exam-action-btn {
-  flex:1; padding:9px; border-radius:999px; font-size:15px; cursor:pointer;
+  flex:1; min-height:32px; padding:5px 9px; border-radius:999px; font-size:14px; cursor:pointer;
 }
 .cet-exam-collect-btn {
   color:var(--color-accent); background:transparent; border:1px solid var(--color-outline);
+}
+.cet-word-collect-star {
+  flex:0 0 42px;
+  border:none;
+  font-size:23px;
 }
 .cet-exam-next-btn {
   color:#fff; background:var(--color-accent); border:none;
@@ -2012,6 +2099,18 @@
 .cet-spell-mastered-btn { width:120px; padding:12px; background:transparent; color:var(--color-accent); border:1px solid var(--color-outline); border-radius:12px; font-size:16px; cursor:pointer; }
 .cet-spell-next-btn { width:120px; padding:12px; background:var(--color-accent); color:#fff; border:none; border-radius:12px; font-size:16px; }
 @media (max-width: 768px) {
+  #phraseExamPage .cet-exam-options { gap:6px; }
+  .phrase-answer-example {
+    width:calc(100% - 24px);
+    margin-top:6px;
+    margin-bottom:calc(58px + env(safe-area-inset-bottom));
+    padding:8px 42px 8px 10px;
+    font-size:12px;
+    line-height:1.35;
+  }
+  .phrase-answer-example-en { font-size:13px; }
+  .phrase-answer-example-zh { margin-top:1px; }
+  .phrase-answer-collect { top:5px; right:7px; width:28px; height:28px; font-size:21px; line-height:28px; }
   .cet-spell-layout {
     min-height:calc(100dvh - 60px);
     padding-bottom:max(8px, env(safe-area-inset-bottom));
@@ -2030,6 +2129,7 @@
     padding-top:5px;
     padding-bottom:5px;
   }
+  #phraseSpellPage .phrase-answer-example { margin-bottom:4px; }
 }
 .cet4-tab-btn.active,
 .cet6-tab-btn.active {
@@ -3102,7 +3202,7 @@ function fallbackImageFormat(img) {
   <div class="modal-meaning" id="modalMeaning">n. 单词；话语</div>
   <div style="display:flex;justify-content:space-between;color:var(--color-text)">
     <div id="modalPos">n.</div>
-    <div class="modal-star" id="modalStar">⭐</div>
+    <div class="modal-star" id="modalStar" aria-label="收藏单词">★</div>
   </div>
   <div class="modal-close" onclick="closeWordModal()">关闭</div>
 </div>
@@ -3367,6 +3467,7 @@ function fallbackImageFormat(img) {
     <div class="cet-exam-phonetic-row"><span>词组</span><button class="cet-speaker-btn" onclick="speakCurrentPhrase()"><img class="speaker-icon-fb cet-speaker-icon" src="speaker_icon.webp" alt="喇叭" width="20" height="20"></button></div>
   </div>
   <div class="cet-exam-options" id="phraseExamOptions"></div>
+  <div class="phrase-answer-example" id="phraseExamExample" hidden></div>
   <div class="cet-exam-action-bar">
     <button class="cet-exam-action-btn cet-exam-collect-btn" onclick="markCurrentPhraseMastered()">熟练</button>
     <button class="cet-exam-action-btn cet-exam-next-btn" id="phraseExamNextBtn" onclick="nextPhraseExam()">下一题</button>
@@ -3381,9 +3482,10 @@ function fallbackImageFormat(img) {
   <div class="cet-spell-layout">
     <div class="cet-spell-toolbar"><div class="cet-spell-progress" id="phraseSpellProgress">1/10</div></div>
     <div class="cet-spell-meaning" id="phraseSpellMeaning"></div>
-    <div style="width:min(560px,100%);margin:24px auto 0;">
+    <div style="width:min(560px,100%);margin:10px auto 0;">
       <input id="phraseSpellInput" class="phrase-spell-input" autocomplete="off" autocapitalize="none" placeholder="请输入完整英文词组" onkeydown="handlePhraseSpellKey(event)">
-      <div id="phraseSpellFeedback" style="min-height:44px;padding:10px 4px;text-align:center;color:var(--color-text-secondary);font-size:13px;"></div>
+      <div id="phraseSpellFeedback" style="min-height:30px;padding:6px 4px;text-align:center;color:var(--color-text-secondary);font-size:13px;"></div>
+      <div class="phrase-answer-example" id="phraseSpellExample" hidden></div>
     </div>
     <div class="cet-spell-actions">
       <button class="cet-spell-mastered-btn" onclick="markCurrentPhraseMastered()">熟练</button>
@@ -3486,7 +3588,7 @@ function fallbackImageFormat(img) {
   <div class="cet-exam-options" id="cet4ExamOptions"></div>
 
   <div class="cet-exam-action-bar">
-    <button class="cet-exam-action-btn cet-exam-collect-btn" id="cet4ExamCollectBtn" onclick="collectCurrentCet4ExamWord()">收藏</button>
+    <button class="cet-exam-action-btn cet-word-collect-star" id="cet4ExamCollectBtn" aria-label="收藏单词" title="收藏单词" onclick="collectCurrentCet4ExamWord()">★</button>
     <button class="cet-exam-action-btn cet-exam-next-btn" id="cet4ExamNextBtn" onclick="nextCet4ExamQuestion()">下一题</button>
   </div>
 </div>
@@ -3977,7 +4079,7 @@ function fallbackImageFormat(img) {
   <div class="cet-exam-options" id="cet6ExamOptions"></div>
 
   <div class="cet-exam-action-bar">
-    <button class="cet-exam-action-btn cet-exam-collect-btn" id="cet6ExamCollectBtn" onclick="collectCurrentCet6ExamWord()">收藏</button>
+    <button class="cet-exam-action-btn cet-word-collect-star" id="cet6ExamCollectBtn" aria-label="收藏单词" title="收藏单词" onclick="collectCurrentCet6ExamWord()">★</button>
     <button class="cet-exam-action-btn cet-exam-next-btn" id="cet6ExamNextBtn" onclick="nextCet6ExamQuestion()">下一题</button>
   </div>
 </div>
@@ -4919,8 +5021,10 @@ function getVisiblePhraseItems(level) {
     if (state.tab === 'learned' && (!learned.has(phrase) || mastered.has(phrase))) return false;
     if (state.tab === 'mastered' && !mastered.has(phrase)) return false;
     if (!query) return true;
-    const variants = Array.isArray(item.variants) ? item.variants.join(' ') : '';
-    return `${phrase} ${item.meaning || ''} ${variants}`.toLowerCase().includes(query);
+    const examples = Array.isArray(item.examples)
+      ? item.examples.map(example => typeof example === 'string' ? example : `${example.en || ''} ${example.zh || ''}`).join(' ')
+      : '';
+    return `${phrase} ${item.meaning || ''} ${examples}`.toLowerCase().includes(query);
   });
   if (state.sort === 'asc') items.sort((a, b) => a.phrase.localeCompare(b.phrase, 'en'));
   if (state.sort === 'desc') items.sort((a, b) => b.phrase.localeCompare(a.phrase, 'en'));
@@ -4952,14 +5056,18 @@ function renderPhraseLibrary(level) {
     return;
   }
   list.innerHTML = items.map(item => {
-    const variants = Array.isArray(item.variants) ? item.variants.filter(Boolean) : [];
+    const examples = Array.isArray(item.examples) ? item.examples.filter(Boolean) : [];
     const phraseArg = escapeHtml(JSON.stringify(String(item.phrase || '')));
     return `<article class="phrase-library-card" onclick="togglePhraseSelection('${level}',${phraseArg})">
       <div class="phrase-library-checkbox ${state.selected.has(item.phrase) ? 'checked' : ''}"></div>
       <div class="phrase-library-body">
         <div class="phrase-library-term">${escapeHtml(item.phrase || '')}</div>
         <div class="phrase-library-meaning">${escapeHtml(item.meaning || '暂无释义')}</div>
-        ${variants.length ? `<div class="phrase-library-variants">变体：${escapeHtml(variants.join(' / '))}</div>` : ''}
+        ${examples.map(example => {
+          const en = typeof example === 'string' ? example : example.en || '';
+          const zh = typeof example === 'object' && example ? example.zh || '' : '';
+          return `<div class="phrase-library-examples">例句：${escapeHtml(en)}${zh ? `<br>翻译：${escapeHtml(zh)}` : ''}</div>`;
+        }).join('')}
       </div>
     </article>`;
   }).join('');
@@ -5033,12 +5141,148 @@ function startPhraseExam(level) {
   renderPhraseExam();
 }
 
+function getPhraseExample(item) {
+  const example = Array.isArray(item && item.examples) ? item.examples.find(Boolean) : null;
+  if (typeof example === 'string') return { en: example, zh: '' };
+  if (example && typeof example === 'object') return { en: example.en || '', zh: example.zh || '' };
+  return { en: '', zh: '' };
+}
+
+function buildPhraseHighlightPattern(phrase) {
+  const irregular = {
+    be: '(?:be|am|is|are|was|were|been|being)',
+    begin: '(?:begin|begins|began|begun|beginning)',
+    bring: '(?:bring|brings|brought|bringing)',
+    come: '(?:come|comes|came|coming)',
+    do: '(?:do|does|did|done|doing)',
+    fall: '(?:fall|falls|fell|fallen|falling)',
+    get: '(?:get|gets|got|gotten|getting)',
+    give: '(?:give|gives|gave|given|giving)',
+    go: '(?:go|goes|went|gone|going)',
+    have: '(?:have|has|had|having)',
+    hold: '(?:hold|holds|held|holding)',
+    keep: '(?:keep|keeps|kept|keeping)',
+    make: '(?:make|makes|made|making)',
+    pay: '(?:pay|pays|paid|paying)',
+    put: '(?:put|puts|putting)',
+    run: '(?:run|runs|ran|running)',
+    see: '(?:see|sees|saw|seen|seeing)',
+    take: '(?:take|takes|took|taken|taking)',
+    write: '(?:write|writes|wrote|written|writing)'
+  };
+  let source = String(phrase || '')
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/\.{2,}|\bsb\.?\b|\bsth\.?\b|\bone['’]s\b/gi, ' __gap__ ')
+    .replace(/\([^)]*\)/g, ' ')
+    .replace(/[.,;:]+/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  const tokens = source.split(' ').filter(Boolean);
+  const parts = tokens.map((token, index) => {
+    if (token === '__gap__') return "[A-Za-z0-9'-]+(?:\\s+[A-Za-z0-9'-]+){0,4}";
+    const alternatives = token.split('/').map(value => value.replace(/[^a-z'-]/g, '')).filter(Boolean);
+    const patterns = alternatives.map(value => {
+      if (irregular[value]) return irregular[value];
+      if (index === 0 && /^[a-z]+$/.test(value) && value.length > 3) {
+        const stem = value.endsWith('e') ? value.slice(0, -1) : value;
+        return `(?:${escapeRegExp(value)}|${escapeRegExp(value)}s|${escapeRegExp(stem)}ed|${escapeRegExp(stem)}ing)`;
+      }
+      return escapeRegExp(value);
+    });
+    return patterns.length > 1 ? `(?:${patterns.join('|')})` : patterns[0] || '';
+  }).filter(Boolean);
+  if (!parts.length) return null;
+  try {
+    return new RegExp(`\\b${parts.join('\\s+')}\\b`, 'i');
+  } catch (_) {
+    return null;
+  }
+}
+
+function highlightPhraseInExample(sentence, phrase) {
+  const text = String(sentence || '');
+  const directPattern = buildPhraseHighlightPattern(phrase);
+  const directMatch = directPattern ? directPattern.exec(text) : null;
+  if (directMatch) {
+    const start = directMatch.index;
+    const end = start + directMatch[0].length;
+    return `${escapeHtml(text.slice(0, start))}<span class="phrase-answer-highlight">${escapeHtml(text.slice(start, end))}</span>${escapeHtml(text.slice(end))}`;
+  }
+  const pattern = buildPhraseMatchPattern(phrase);
+  if (pattern) {
+    const match = pattern.exec(normalizePhraseMatchText(text));
+    if (match && match[0]) {
+      const normalizedMatch = match[0].trim();
+      const literalPattern = new RegExp(escapeRegExp(normalizedMatch).replace(/\\ /g, '\\s+'), 'i');
+      const literalMatch = literalPattern.exec(text);
+      if (literalMatch) {
+        const start = literalMatch.index;
+        const end = start + literalMatch[0].length;
+        return `${escapeHtml(text.slice(0, start))}<span class="phrase-answer-highlight">${escapeHtml(text.slice(start, end))}</span>${escapeHtml(text.slice(end))}`;
+      }
+    }
+  }
+  const words = String(phrase || '').match(/[A-Za-z][A-Za-z'-]*/g) || [];
+  const anchor = words.find(word => !['be', 'sb', 'sth', 'one', 'ones'].includes(word.toLowerCase()));
+  if (!anchor) return escapeHtml(text);
+  const fallback = new RegExp(`\\b${escapeRegExp(anchor)}[a-z]*\\b`, 'i');
+  const found = fallback.exec(text);
+  if (!found) return escapeHtml(text);
+  return `${escapeHtml(text.slice(0, found.index))}<span class="phrase-answer-highlight">${escapeHtml(found[0])}</span>${escapeHtml(text.slice(found.index + found[0].length))}`;
+}
+
+function renderPhraseAnswerExample(containerId, item) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  const example = getPhraseExample(item);
+  if (!example.en && !example.zh) {
+    container.hidden = true;
+    container.innerHTML = '';
+    return;
+  }
+  const savedText = `${example.en} ${example.zh}`.trim();
+  const collected = getPracticeSentences().some(saved => String(saved.text || '').trim() === savedText);
+  const itemArg = escapeHtml(JSON.stringify({ phrase: item.phrase || '', en: example.en, zh: example.zh }));
+  container.innerHTML = `${example.en ? `<div class="phrase-answer-example-en">${highlightPhraseInExample(example.en, item.phrase)}</div>` : ''}${example.zh ? `<div class="phrase-answer-example-zh">${escapeHtml(example.zh)}</div>` : ''}<button type="button" class="phrase-answer-collect${collected ? ' collected' : ''}" aria-label="${collected ? '取消收藏' : '收藏例句'}" title="${collected ? '取消收藏' : '收藏例句'}" onclick="togglePhraseExampleCollection(${itemArg},this)">★</button>`;
+  container.hidden = false;
+}
+
+function togglePhraseExampleCollection(example, button) {
+  const en = String(example && example.en || '').trim();
+  const zh = String(example && example.zh || '').trim();
+  if (!en) return;
+  const text = `${en} ${zh}`.trim();
+  const collected = getPracticeSentences().some(item => String(item.text || '').trim() === text);
+  if (collected) {
+    removeSentence(text);
+    button.classList.remove('collected');
+    button.innerText = '★';
+    button.setAttribute('aria-label', '收藏例句');
+    button.title = '收藏例句';
+  } else {
+    collectSentence(text, { sourceType: 'phrase-example' });
+    button.classList.add('collected');
+    button.innerText = '★';
+    button.setAttribute('aria-label', '取消收藏');
+    button.title = '取消收藏';
+  }
+}
+
+function clearPhraseAnswerExample(containerId) {
+  const container = document.getElementById(containerId);
+  if (!container) return;
+  container.hidden = true;
+  container.innerHTML = '';
+}
+
 function renderPhraseExam() {
   const item = activePhraseQuestions[activePhraseIndex];
   if (!item) return finishPhrasePractice('识词练习完成！');
   phraseExamAnswered = false;
   document.getElementById('phraseExamProgress').innerText = `${activePhraseIndex + 1}/${activePhraseQuestions.length}`;
   document.getElementById('phraseExamTerm').innerText = item.phrase;
+  clearPhraseAnswerExample('phraseExamExample');
   const candidates = (phraseLibraries[activePhraseLevel] || []).filter(other => other.phrase !== item.phrase && other.meaning !== item.meaning);
   const wrong = [];
   while (wrong.length < 3 && candidates.length) {
@@ -5071,6 +5315,7 @@ function answerPhraseExam(chosenPhrase, button) {
     showPopup(false);
     playWrongSound();
   }
+  renderPhraseAnswerExample('phraseExamExample', current);
   document.getElementById('phraseExamNextBtn').style.opacity = '1';
 }
 
@@ -5102,6 +5347,7 @@ function renderPhraseSpell() {
   input.value = '';
   input.style.borderColor = 'var(--border-color)';
   input.disabled = false;
+  clearPhraseAnswerExample('phraseSpellExample');
   document.getElementById('phraseSpellFeedback').innerText = item.phrase.includes('...') ? '提示：题目中的 ... 请也输入三个英文句点' : '';
   setTimeout(() => input.focus(), 80);
 }
@@ -5116,7 +5362,7 @@ function checkPhraseSpell() {
   const input = document.getElementById('phraseSpellInput');
   const answer = normalizePhraseAnswer(input.value);
   if (!answer) return;
-  const accepted = [item.phrase, ...(Array.isArray(item.variants) ? item.variants : [])].map(normalizePhraseAnswer);
+  const accepted = [item.phrase].map(normalizePhraseAnswer);
   const feedback = document.getElementById('phraseSpellFeedback');
   if (accepted.includes(answer)) {
     addPhraseProgress(activePhraseLevel, item.phrase, 'learned');
@@ -5126,13 +5372,17 @@ function checkPhraseSpell() {
     feedback.style.color = 'var(--color-accent)';
     showPopup(true);
     playRightSound();
-    setTimeout(nextPhraseSpell, 850);
+    renderPhraseAnswerExample('phraseSpellExample', item);
     return;
   }
   phraseSpellAttempts++;
   input.style.borderColor = '#ff4444';
   feedback.style.color = '#ff4444';
   feedback.innerText = phraseSpellAttempts >= 3 ? `正确答案：${item.phrase}` : `拼写不正确，还可尝试 ${3 - phraseSpellAttempts} 次`;
+  if (phraseSpellAttempts >= 3) {
+    input.disabled = true;
+    renderPhraseAnswerExample('phraseSpellExample', item);
+  }
   showPopup(false);
   playWrongSound();
   input.select();
@@ -6019,7 +6269,7 @@ function renderSubtitles() {
       <div class="sub-en">${enHtml}</div>
       <div class="sub-zh">
         <span>${zhHtml}</span>
-        <button class="star-fav ${isCollected ? 'active' : ''}">★</button>
+        <button class="star-fav ${isCollected ? 'active' : ''}" aria-label="${isCollected ? '取消收藏' : '收藏句子'}">★</button>
       </div>
     `;
     subtitleList.appendChild(div);
@@ -6317,8 +6567,7 @@ function getCompiledPhraseKnowledge(level) {
   if (compiledPhraseKnowledge[level]) return compiledPhraseKnowledge[level];
   const compiled = [];
   (phraseLibraries[level] || []).forEach(item => {
-    const expressions = [item.phrase, ...(Array.isArray(item.variants) ? item.variants : [])]
-      .filter(Boolean);
+    const expressions = [item.phrase].filter(Boolean);
     const patterns = expressions.map(buildPhraseMatchPattern).filter(Boolean);
     if (!patterns.length) return;
     compiled.push({ item, patterns, length: String(item.phrase || '').split(/\s+/).length });
@@ -6557,7 +6806,7 @@ document.addEventListener("click", e => {
     wordPopup.innerHTML = `
       <div class="popup-row">
         <span class="word-text">${escapeHtml(word)}</span>
-        <span class="popup-star${isWordCollected1 ? ' collected' : ''}" data-word="${escapeHtml(word)}" style="cursor:pointer;font-size:14px;color:var(--color-accent);">${isWordCollected1 ? '★' : '☆'}</span>
+        <span class="popup-star${isWordCollected1 ? ' collected' : ''}" data-word="${escapeHtml(word)}" style="cursor:pointer;font-size:18px;">★</span>
       </div>
       <p>释义：${escapeHtml(info.meaning)}</p>
       <p>音标：${escapeHtml(info.phonetic)}</p>
@@ -6575,7 +6824,7 @@ document.addEventListener("click", e => {
     wordPopup.innerHTML = `
       <div class="popup-row">
         <div class="popup-word">${escapeHtml(token)}</div>
-        <span class="popup-star${isWordCollected2 ? ' collected' : ''}" data-word="${escapeHtml(token)}" style="cursor:pointer;font-size:14px;color:var(--color-accent);flex-shrink:0;">${isWordCollected2 ? '★' : '☆'}</span>
+        <span class="popup-star${isWordCollected2 ? ' collected' : ''}" data-word="${escapeHtml(token)}" style="cursor:pointer;font-size:18px;flex-shrink:0;">★</span>
         <div class="popup-info">
           <span class="info-meaning">${escapeHtml(info.meaning || '暂无释义')}</span>
           <span class="info-phonetic">${escapeHtml(info.phonetic || '暂无音标')}</span>
@@ -6618,7 +6867,7 @@ document.addEventListener("click", e => {
       removeCollectedWord(word);
       if (inVideoPage) removeVideoCollectedWord(word);
       s.classList.remove('collected');
-      s.textContent = '☆';
+      s.textContent = '★';
     } else {
       collectWord(word);
       if (inVideoPage) addVideoCollectedWord(word);
@@ -6648,6 +6897,8 @@ document.addEventListener("click", e => {
     if (isActive) {
       removeSentence(text);
       e.target.classList.remove('active');
+      e.target.textContent = '★';
+      e.target.setAttribute('aria-label', '收藏句子');
     } else {
       const subtitleIndex = Number(item && item.dataset.subtitleIndex);
       const cue = document.getElementById('bbcDetailPage').classList.contains('active')
@@ -6669,6 +6920,8 @@ document.addEventListener("click", e => {
         endTime: cue && Number(cue.end)
       });
       e.target.classList.add('active');
+      e.target.textContent = '★';
+      e.target.setAttribute('aria-label', '取消收藏');
     }
   } else if (!wordPopup.contains(e.target)) {
     wordPopup.style.display = "none";
@@ -6900,7 +7153,7 @@ function showWordInfo(w, p, m, pos) {
   star.style.display = inNewsDetail ? 'block' : 'none';
   star.dataset.word = w;
   const collected = inNewsDetail && isNewsWordCollected(w);
-  star.textContent = collected ? '★' : '☆';
+  star.textContent = '★';
   star.classList.toggle('active', collected);
 }
 function closeWordModal() {
@@ -6920,7 +7173,7 @@ document.getElementById('modalStar').onclick = function () {
   const word = this.dataset.word || document.getElementById('modalWord').innerText;
   if (document.getElementById('bbcDetailPage').classList.contains('active')) {
     const collected = toggleNewsCollectedWord(word);
-    this.textContent = collected ? '★' : '☆';
+    this.textContent = '★';
     this.classList.toggle('active', collected);
     if (document.getElementById('knowledgeOverlay').style.display === 'flex') {
       openNewsKnowledge();
@@ -7909,10 +8162,10 @@ window.renderNewsSubtitles = window.renderNewsSubtitles || function() {
     div.innerHTML = englishOnly
       ? `<div class="news-en-only-row">
           <div class="sub-en">${enHtml}</div>
-          <button class="star-fav ${isCollected ? 'active' : ''}">★</button>
+          <button class="star-fav ${isCollected ? 'active' : ''}" aria-label="${isCollected ? '取消收藏' : '收藏句子'}">★</button>
         </div>`
       : `${enHtml ? `<div class="sub-en">${enHtml}</div>` : ''}
-         ${zhHtml ? `<div class="sub-zh"><span>${zhHtml}</span><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>` : `<div class="sub-zh"><button class="star-fav ${isCollected ? 'active' : ''}">★</button></div>`}`;
+         ${zhHtml ? `<div class="sub-zh"><span>${zhHtml}</span><button class="star-fav ${isCollected ? 'active' : ''}" aria-label="${isCollected ? '取消收藏' : '收藏句子'}">★</button></div>` : `<div class="sub-zh"><button class="star-fav ${isCollected ? 'active' : ''}" aria-label="${isCollected ? '取消收藏' : '收藏句子'}">★</button></div>`}`;
     list.appendChild(div);
   });
 }
@@ -8531,7 +8784,7 @@ window.renderCet4ExamQuestion = window.renderCet4ExamQuestion || function() {
   const collectBtn = document.getElementById("cet4ExamCollectBtn");
   const nextBtn = document.getElementById("cet4ExamNextBtn");
   const isCollected = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
-  if (collectBtn) { collectBtn.textContent = isCollected ? "已收藏" : "收藏"; collectBtn.disabled = false; }
+  if (collectBtn) { collectBtn.textContent = '★'; collectBtn.classList.toggle('collected', isCollected); collectBtn.setAttribute('aria-label', isCollected ? '取消收藏' : '收藏单词'); collectBtn.disabled = false; }
   if (nextBtn) nextBtn.disabled = false;
 
   // 只保留这一句，删掉原来的 autoSpeakExamWord()
@@ -8590,9 +8843,9 @@ window.collectCurrentCet4ExamWord = window.collectCurrentCet4ExamWord || functio
   const word = examWordList[currentExamIndex];
   if (!word) return;
   const exists = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
-  if (!exists) collectWord(word);
+  if (exists) removeCollectedWord(word); else collectWord(word);
   const btn = document.getElementById("cet4ExamCollectBtn");
-  if (btn) btn.textContent = "已收藏";
+  if (btn) { btn.textContent = '★'; btn.classList.toggle('collected', !exists); btn.setAttribute('aria-label', exists ? '收藏单词' : '取消收藏'); }
 }
 
 window.nextCet4ExamQuestion = window.nextCet4ExamQuestion || function() {
@@ -9101,7 +9354,7 @@ window.renderCet6ExamQuestion = window.renderCet6ExamQuestion || function() {
   const collectBtn = document.getElementById("cet6ExamCollectBtn");
   const nextBtn = document.getElementById("cet6ExamNextBtn");
   const isCollected = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
-  if (collectBtn) { collectBtn.textContent = isCollected ? "已收藏" : "收藏"; collectBtn.disabled = false; }
+  if (collectBtn) { collectBtn.textContent = '★'; collectBtn.classList.toggle('collected', isCollected); collectBtn.setAttribute('aria-label', isCollected ? '取消收藏' : '收藏单词'); collectBtn.disabled = false; }
   if (nextBtn) nextBtn.disabled = false;
   // 🔥 修复：六级每一题自动播放
   setTimeout(() => {
@@ -9152,9 +9405,9 @@ window.collectCurrentCet6ExamWord = window.collectCurrentCet6ExamWord || functio
   const word = examWordList6[currentExamIndex6];
   if (!word) return;
   const exists = getCollectedWords().some(item => item.word.toLowerCase() === word.toLowerCase());
-  if (!exists) collectWord(word);
+  if (exists) removeCollectedWord(word); else collectWord(word);
   const btn = document.getElementById("cet6ExamCollectBtn");
-  if (btn) btn.textContent = "已收藏";
+  if (btn) { btn.textContent = '★'; btn.classList.toggle('collected', !exists); btn.setAttribute('aria-label', exists ? '收藏单词' : '取消收藏'); }
 }
 
 window.nextCet6ExamQuestion = window.nextCet6ExamQuestion || function() {
@@ -10006,7 +10259,7 @@ function submitSentenceCheck() {
           <span style="color:#999; margin-left:4px;">${escapeHtml(item.meaning)}</span>
         </div>
         <button type="button" class="fav-wrong-word-btn${isCollected ? ' active' : ''}">
-          ${isCollected ? '★' : '☆'}
+          ★
         </button>
       `;
 

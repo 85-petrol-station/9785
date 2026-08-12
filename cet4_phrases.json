@@ -2,7 +2,12 @@
   {
     "phrase": "a host of",
     "meaning": "大量",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our career fair attracted a host of local employers this spring.",
+        "zh": "今年春天，我们的招聘会吸引了许多本地雇主。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -14,7 +19,12 @@
   {
     "phrase": "a test for",
     "meaning": "检测目的",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before boarding, Mia took a test for COVID-19 at the airport.",
+        "zh": "登机前，米娅在机场做了新冠病毒检测。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -26,7 +36,12 @@
   {
     "phrase": "a test on",
     "meaning": "对...进行测试",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Tomorrow our chemistry class will conduct a test on river water.",
+        "zh": "明天我们的化学课将对河水进行检测。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -38,7 +53,12 @@
   {
     "phrase": "a test with",
     "meaning": "检测手段",
-    "variants": [],
+    "examples": [
+      {
+        "en": "To check the battery, the mechanic ran a test with a small meter.",
+        "zh": "为了检查电池，机械师用一个小仪表进行了测试。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -50,7 +70,12 @@
   {
     "phrase": "above all",
     "meaning": "最重要的；首先；尤其是",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Above all, remember to keep your passport in a safe place.",
+        "zh": "最重要的是，记得把护照放在安全的地方。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -62,7 +87,12 @@
   {
     "phrase": "according to",
     "meaning": "根据",
-    "variants": [],
+    "examples": [
+      {
+        "en": "According to the campus notice, the library will close at nine.",
+        "zh": "根据校园通知，图书馆将在九点关门。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -74,7 +104,12 @@
   {
     "phrase": "achieve equilibrium",
     "meaning": "取得平衡",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By adjusting food production to demand, the market may achieve equilibrium.",
+        "zh": "通过使食品产量适应需求，市场可能达到平衡。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -86,7 +121,12 @@
   {
     "phrase": "achieve one's purpose",
     "meaning": "达到目的",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Although the route was longer, the guide achieved her purpose of avoiding traffic.",
+        "zh": "尽管路线更长，导游还是达到了避开拥堵的目的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -98,7 +138,12 @@
   {
     "phrase": "achieve success",
     "meaning": "获得成功",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With steady practice, even a shy speaker can achieve success.",
+        "zh": "通过持续练习，即使害羞的演讲者也能取得成功。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -110,7 +155,12 @@
   {
     "phrase": "achieve victory",
     "meaning": "获得胜利",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Only by trusting one another did the volleyball team achieve victory.",
+        "zh": "排球队只有相互信任才取得了胜利。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -122,7 +172,12 @@
   {
     "phrase": "act on",
     "meaning": "遵照...行动，作用于；对...有影响",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Once the doctor received the results, she acted on them immediately.",
+        "zh": "医生一收到检查结果，就立即据此采取了行动。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -135,7 +190,12 @@
   {
     "phrase": "add up to",
     "meaning": "总计，合计",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Rent, transport, and meals add up to most of my monthly spending.",
+        "zh": "房租、交通和吃饭的费用加起来占了我每月开支的大部分。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -147,7 +207,12 @@
   {
     "phrase": "add ... to",
     "meaning": "把...加到...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Could you add my name to the list of weekend volunteers?",
+        "zh": "你能把我的名字加到周末志愿者名单里吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -159,7 +224,12 @@
   {
     "phrase": "adhere to",
     "meaning": "坚持，奉行；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Every visitor must adhere to the museum rules on photography.",
+        "zh": "每位游客都必须遵守博物馆的摄影规定。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -171,7 +241,12 @@
   {
     "phrase": "after all",
     "meaning": "毕竟，均不合题意；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Let us invite Leo; after all, he helped organize the picnic.",
+        "zh": "我们邀请利奥吧，毕竟他帮忙组织了这次野餐。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -183,7 +258,12 @@
   {
     "phrase": "agree on",
     "meaning": "对...取得一致意见",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After an hour of discussion, the roommates agreed on a cleaning schedule.",
+        "zh": "经过一小时的讨论，室友们就清洁安排达成了一致。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -195,7 +275,12 @@
   {
     "phrase": "agree to",
     "meaning": "同意",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My landlord agreed to repair the broken heater before Friday.",
+        "zh": "房东同意在星期五之前修好坏掉的暖气。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -207,7 +292,12 @@
   {
     "phrase": "agree with sb",
     "meaning": "同意某人的话",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On this point, I agree with our history teacher.",
+        "zh": "在这一点上，我同意历史老师的看法。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -219,7 +309,12 @@
   {
     "phrase": "along with",
     "meaning": "和...一道，和...一起；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Along with her laptop, Nina packed a paper notebook for the trip.",
+        "zh": "除了笔记本电脑，尼娜还为旅行带上了一个纸质笔记本。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -231,7 +326,12 @@
   {
     "phrase": "alternate (with)",
     "meaning": "交替；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "During the workshop, short lectures alternate with practical activities.",
+        "zh": "研讨班期间，简短讲座与实践活动交替进行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -243,7 +343,12 @@
   {
     "phrase": "amount to",
     "meaning": "合计，共计；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The damage to the rented bicycle amounted to two hundred yuan.",
+        "zh": "租来的自行车的损坏赔偿总计两百元。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -255,7 +360,12 @@
   {
     "phrase": "an equal to",
     "meaning": "与...相当的人/物，(地位)相同的人",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After years of training, no one in the club was an equal to Chen in chess.",
+        "zh": "经过多年训练，俱乐部里没有人在国际象棋方面能与陈匹敌。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -267,7 +377,12 @@
   {
     "phrase": "and yet",
     "meaning": "然而",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The room looked tiny, and yet it held everything I needed.",
+        "zh": "房间看起来很小，然而它容纳了我需要的一切。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -279,7 +394,12 @@
   {
     "phrase": "anything but",
     "meaning": "一点也不；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Despite the bright advertisement, the new phone was anything but cheap.",
+        "zh": "尽管广告很亮眼，这款新手机一点也不便宜。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -291,7 +411,12 @@
   {
     "phrase": "anything like",
     "meaning": "像...那样的东西",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Does the online photograph look anything like the actual hotel room?",
+        "zh": "网上的照片看起来和真实的酒店房间像吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -303,7 +428,12 @@
   {
     "phrase": "anywhere near",
     "meaning": "接近于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My first drawing was not anywhere near as good as my sister’s.",
+        "zh": "我的第一幅画远没有姐姐的画得好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -315,8 +445,11 @@
   {
     "phrase": "apart from",
     "meaning": "除...之外尚有",
-    "variants": [
-      "apart form"
+    "examples": [
+      {
+        "en": "Apart from taking classes, Sam works evenings at the campus café.",
+        "zh": "除了上课，萨姆晚上还在校园咖啡馆工作。"
+      }
     ],
     "level": "CET4",
     "tags": [
@@ -329,7 +462,12 @@
   {
     "phrase": "apply to",
     "meaning": "向...申请，适用于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The discount applies to students who travel during the winter break.",
+        "zh": "这项折扣适用于寒假期间出行的学生。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -341,7 +479,12 @@
   {
     "phrase": "appreciation of",
     "meaning": "对...的欣赏/赞赏",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Reading poetry gave the engineering student a new appreciation of language.",
+        "zh": "阅读诗歌使这名工科学生对语言有了新的认识。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -353,7 +496,12 @@
   {
     "phrase": "argue against",
     "meaning": "反对",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Several residents argued against building a car park beside the lake.",
+        "zh": "几位居民提出理由反对在湖边建停车场。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -365,7 +513,12 @@
   {
     "phrase": "as a result of",
     "meaning": "作为...的结果，由于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As a result of heavy snow, all flights from the city were delayed.",
+        "zh": "由于大雪，所有从这座城市起飞的航班都延误了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -377,7 +530,12 @@
   {
     "phrase": "as a result",
     "meaning": "作为结果，因此；表结果，用不用逗号隔开看情况而定；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Lena missed the last bus; as a result, she walked home.",
+        "zh": "莉娜错过了末班车，因此她步行回了家。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -389,7 +547,12 @@
   {
     "phrase": "as a whole",
     "meaning": "作为一个整体，整个看来",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The class as a whole responded warmly to the exchange student.",
+        "zh": "全班同学总体上都热情地接纳了这名交换生。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -401,7 +564,12 @@
   {
     "phrase": "as far as .../are concerned",
     "meaning": "就...而言",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As far as new students are concerned, clear directions are especially helpful.",
+        "zh": "对新生而言，清楚的指引尤其有帮助。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -413,7 +581,12 @@
   {
     "phrase": "as for",
     "meaning": "至于，就...方面说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As for dinner, we can try the noodle shop across the street.",
+        "zh": "至于晚饭，我们可以试试街对面的面馆。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -425,7 +598,12 @@
   {
     "phrase": "as if",
     "meaning": "好像，仿佛",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The child stared at the robot as if it were alive.",
+        "zh": "那个孩子盯着机器人，仿佛它是活的一样。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -437,7 +615,12 @@
   {
     "phrase": "as soon as",
     "meaning": "一...就...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Please text me as soon as your train reaches Hangzhou.",
+        "zh": "你的火车一到杭州就请给我发消息。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -449,7 +632,12 @@
   {
     "phrase": "as though",
     "meaning": "好像，仿佛",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Clouds covered the hills as though a storm were approaching.",
+        "zh": "乌云笼罩着群山，仿佛暴风雨即将来临。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -461,7 +649,12 @@
   {
     "phrase": "as to",
     "meaning": "至于，关于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "There is still some doubt as to whether the old bridge is safe.",
+        "zh": "关于这座旧桥是否安全，仍然存在一些疑问。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -473,7 +666,12 @@
   {
     "phrase": "as well",
     "meaning": "也，一样",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The course teaches basic coding and offers career advice as well.",
+        "zh": "这门课程教授基础编程，也提供职业建议。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -485,7 +683,12 @@
   {
     "phrase": "as yet",
     "meaning": "迄今，到目前为止",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The missing museum ticket has not been found as yet.",
+        "zh": "那张遗失的博物馆门票至今仍未找到。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -497,7 +700,12 @@
   {
     "phrase": "aside from",
     "meaning": "除...之外；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Aside from a sore throat, Jin felt well enough to attend class.",
+        "zh": "除了嗓子疼，金感觉还不错，可以去上课。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -509,7 +717,12 @@
   {
     "phrase": "associate ... with..",
     "meaning": "由...联想到...，把...联系起来",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Many foreign visitors associate paper cutting with Chinese culture.",
+        "zh": "许多外国游客把剪纸与中国文化联系在一起。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -521,7 +734,12 @@
   {
     "phrase": "association with",
     "meaning": "与...的交往",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Researchers found an association between regular walks and better sleep.",
+        "zh": "研究人员发现，经常散步与更好的睡眠之间存在关联。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -533,7 +751,12 @@
   {
     "phrase": "at a disadvantage",
     "meaning": "处于不利地位",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Without reliable internet access, rural learners may be at a disadvantage.",
+        "zh": "没有可靠的网络，农村学习者可能处于不利地位。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -545,7 +768,12 @@
   {
     "phrase": "at a loss",
     "meaning": "不知所措",
-    "variants": [],
+    "examples": [
+      {
+        "en": "When both paths disappeared in the fog, the hikers were at a loss.",
+        "zh": "当两条路都消失在雾中时，徒步者们不知所措。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -557,7 +785,12 @@
   {
     "phrase": "at a time",
     "meaning": "每次，一次",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The nurse asked us to enter the clinic one at a time.",
+        "zh": "护士让我们一次一个地进入诊所。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -569,7 +802,12 @@
   {
     "phrase": "at all",
     "meaning": "丝毫，根本；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I did not recognize my primary school classmate at all.",
+        "zh": "我完全没有认出我的小学同学。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -581,7 +819,12 @@
   {
     "phrase": "at any moment",
     "meaning": "即使，随时。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With those dark clouds overhead, rain could begin at any moment.",
+        "zh": "头顶乌云密布，随时都可能下雨。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -593,7 +836,12 @@
   {
     "phrase": "at first",
     "meaning": "首先，开始的时候；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At first, living away from home made the freshman nervous.",
+        "zh": "起初，离家生活让这名大一新生很不安。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -605,7 +853,12 @@
   {
     "phrase": "at large",
     "meaning": "未被捕获的，大多数；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The mayor promised to listen to the public at large.",
+        "zh": "市长承诺听取广大公众的意见。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -617,7 +870,12 @@
   {
     "phrase": "at last",
     "meaning": "终于，最终；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After three failed attempts, our model plane flew at last.",
+        "zh": "三次尝试失败后，我们的模型飞机终于飞起来了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -629,7 +887,12 @@
   {
     "phrase": "at least",
     "meaning": "至少",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Even if the meal is late, at least the ingredients are fresh.",
+        "zh": "即使上菜晚了，至少食材是新鲜的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -641,7 +904,12 @@
   {
     "phrase": "at length",
     "meaning": "最终，详细地；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "During the interview, the scientist spoke at length about ocean pollution.",
+        "zh": "采访中，这位科学家详细谈论了海洋污染。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -653,7 +921,12 @@
   {
     "phrase": "at most",
     "meaning": "最多",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This lift can carry at most eight passengers.",
+        "zh": "这部电梯最多可载八名乘客。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -665,7 +938,12 @@
   {
     "phrase": "at no time",
     "meaning": "从不，决不",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At no time should medicine be left where children can reach it.",
+        "zh": "任何时候都不应把药放在儿童够得着的地方。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -677,7 +955,12 @@
   {
     "phrase": "at one time",
     "meaning": "曾经，从前曾",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At one time, people here paid for bus rides with coins.",
+        "zh": "这里的人们曾经用硬币支付公交车费。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -689,7 +972,12 @@
   {
     "phrase": "at the cost of",
     "meaning": "以...为代价",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The factory increased production at the cost of workers’ health.",
+        "zh": "这家工厂以工人的健康为代价提高了产量。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -701,7 +989,12 @@
   {
     "phrase": "at the least",
     "meaning": "至少；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At the least, wear a helmet if you cycle through busy streets.",
+        "zh": "如果你骑车穿过繁忙街道，至少要戴头盔。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -713,7 +1006,12 @@
   {
     "phrase": "at times",
     "meaning": "有时，间或；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My grandfather lives alone but stays with us at times.",
+        "zh": "我爷爷独自生活，但有时会和我们住在一起。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -725,7 +1023,12 @@
   {
     "phrase": "at ... speed",
     "meaning": "以...的速度",
-    "variants": [],
+    "examples": [
+      {
+        "en": "An ambulance passed us at great speed on the highway.",
+        "zh": "一辆救护车在高速公路上飞快地超过了我们。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -737,7 +1040,12 @@
   {
     "phrase": "attend on",
     "meaning": "照顾，侍候；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Two nurses attended on the injured traveler throughout the night.",
+        "zh": "两名护士整夜照料那位受伤的旅客。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -749,7 +1057,12 @@
   {
     "phrase": "attribute ... to",
     "meaning": "把...归于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Eva attributes her clear pronunciation to years of listening practice.",
+        "zh": "伊娃把自己清晰的发音归功于多年的听力练习。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -761,7 +1074,12 @@
   {
     "phrase": "back up",
     "meaning": "后退，支持；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "If anyone questions your figures, these receipts will back you up.",
+        "zh": "如果有人质疑你的数据，这些收据会支持你。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -773,7 +1091,12 @@
   {
     "phrase": "base on",
     "meaning": "基于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The director based the film on a true story from his hometown.",
+        "zh": "导演根据家乡的一个真实故事拍摄了这部电影。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -785,7 +1108,12 @@
   {
     "phrase": "be able to",
     "meaning": "能够，胜任",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After the repair, wheelchair users will be able to enter the hall easily.",
+        "zh": "维修后，轮椅使用者将能够轻松进入大厅。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -797,7 +1125,12 @@
   {
     "phrase": "be about to",
     "meaning": "正打算",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I was about to leave the office when the client called.",
+        "zh": "客户打来电话时，我正要离开办公室。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -809,7 +1142,12 @@
   {
     "phrase": "be accustomed to",
     "meaning": "习惯于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Having lived near the station for years, we are accustomed to the noise.",
+        "zh": "在车站附近住了多年，我们已经习惯了这种噪音。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -821,7 +1159,12 @@
   {
     "phrase": "be associated with",
     "meaning": "与...有关，与...有关系",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In some studies, long screen time is associated with poor sleep.",
+        "zh": "在一些研究中，长时间看屏幕与睡眠不佳有关。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -833,7 +1176,12 @@
   {
     "phrase": "be aware of",
     "meaning": "意识到；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Are you aware of the risks of sharing passwords online?",
+        "zh": "你知道在网上分享密码的风险吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -845,7 +1193,12 @@
   {
     "phrase": "be capable of",
     "meaning": "有能力干；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This simple app is capable of translating signs within seconds.",
+        "zh": "这个简单的应用程序能在几秒内翻译标牌。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -857,7 +1210,12 @@
   {
     "phrase": "be caught",
     "meaning": "遇到，陷入",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We were caught in a sudden shower halfway across the park.",
+        "zh": "走到公园半路时，我们遇上了一场突如其来的阵雨。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -869,7 +1227,12 @@
   {
     "phrase": "be committed to",
     "meaning": "被交给...，答应承担...义务；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our university is committed to reducing plastic waste on campus.",
+        "zh": "我们大学致力于减少校园里的塑料垃圾。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -881,7 +1244,12 @@
   {
     "phrase": "be confined to",
     "meaning": "限制在，局限于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Because of road repairs, bus service is confined to the eastern district.",
+        "zh": "由于道路维修，公交服务仅限于东部城区。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -893,7 +1261,12 @@
   {
     "phrase": "be confined/be restricted",
     "meaning": "受...限制",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Photography is restricted to the ground floor of the gallery.",
+        "zh": "这家美术馆只允许在一楼拍照。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -905,7 +1278,12 @@
   {
     "phrase": "be dedicated to",
     "meaning": "奉献，献给；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A small team is dedicated to protecting the ancient wall.",
+        "zh": "一个小团队专门致力于保护这堵古墙。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -917,7 +1295,12 @@
   {
     "phrase": "be devoted to",
     "meaning": "被用于，贡献给",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Much of the weekend was devoted to preparing for Monday’s exam.",
+        "zh": "周末的大部分时间都用来准备星期一的考试了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -929,7 +1312,12 @@
   {
     "phrase": "be directed to",
     "meaning": "指向，针对",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Questions about fees should be directed to the student office.",
+        "zh": "有关费用的问题应提交给学生办公室。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -941,7 +1329,12 @@
   {
     "phrase": "be drawn to",
     "meaning": "被...所吸引；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As a child, Omar was drawn to maps of distant countries.",
+        "zh": "小时候，奥马尔就被遥远国家的地图所吸引。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -953,7 +1346,12 @@
   {
     "phrase": "be due to",
     "meaning": "由于，因此",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The match was canceled, but the change was due to bad weather.",
+        "zh": "比赛取消了，但这一变动是由恶劣天气造成的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -965,7 +1363,12 @@
   {
     "phrase": "be exposed to",
     "meaning": "暴露在...下，处在...的作用之下；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Workers in that laboratory may be exposed to harmful chemicals.",
+        "zh": "那个实验室的工作人员可能会接触有害化学品。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -977,7 +1380,12 @@
   {
     "phrase": "be fond of",
     "meaning": "喜爱",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My aunt is fond of collecting postcards from small towns.",
+        "zh": "我姑姑喜欢收集小镇的明信片。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -989,7 +1397,12 @@
   {
     "phrase": "be full of",
     "meaning": "充满他",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After the summer rain, the garden was full of color.",
+        "zh": "夏雨过后，花园里色彩斑斓。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1001,7 +1414,12 @@
   {
     "phrase": "be habitual to(him)",
     "meaning": "对(他来说)习以为常",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Checking the news before breakfast had become habitual to him.",
+        "zh": "早餐前查看新闻已经成了他的习惯。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1013,7 +1431,12 @@
   {
     "phrase": "be in order",
     "meaning": "合适，恰当。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Everything appears to be in order, so the event can begin.",
+        "zh": "一切似乎都安排妥当了，因此活动可以开始。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1025,7 +1448,12 @@
   {
     "phrase": "be involved in",
     "meaning": "参与，参加；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "More than fifty students are involved in the tree-planting project.",
+        "zh": "五十多名学生参与了植树项目。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1037,7 +1465,12 @@
   {
     "phrase": "be involved with",
     "meaning": "与...有关连，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I avoid being involved with companies that ignore environmental rules.",
+        "zh": "我避免与无视环保规定的公司有牵连。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1049,7 +1482,12 @@
   {
     "phrase": "be left to",
     "meaning": "由...来决定，由...来想办法；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The final choice of music was left to the dance teacher.",
+        "zh": "最后选择什么音乐由舞蹈老师决定。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1061,7 +1499,12 @@
   {
     "phrase": "be limited to",
     "meaning": "限制在...，限定在...；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Because seats are limited to thirty, please register early.",
+        "zh": "由于座位限于三十个，请尽早报名。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1073,7 +1516,12 @@
   {
     "phrase": "be linked to/with something",
     "meaning": "与...连接",
-    "variants": [],
+    "examples": [
+      {
+        "en": "High stress can be linked with frequent headaches.",
+        "zh": "压力过大可能与频繁头痛有关。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1085,7 +1533,12 @@
   {
     "phrase": "be proud of",
     "meaning": "为...而骄傲。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Seeing her photograph in the newspaper made the young athlete proud of herself.",
+        "zh": "在报纸上看到自己的照片，让这名年轻运动员为自己感到骄傲。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1097,7 +1550,12 @@
   {
     "phrase": "be referred to",
     "meaning": "被提及，被提交",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In class, this period is often referred to as the golden age of drama.",
+        "zh": "课堂上，这一时期常被称为戏剧的黄金时代。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1109,7 +1567,12 @@
   {
     "phrase": "be related to",
     "meaning": "与...有关",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The rise in online shopping is closely related to faster delivery services.",
+        "zh": "网上购物的增长与更快的配送服务密切相关。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1121,7 +1584,12 @@
   {
     "phrase": "be sick of",
     "meaning": "厌恶...，讨厌...；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By Friday, everyone was sick of eating the same sandwiches.",
+        "zh": "到了星期五，大家都吃腻了同样的三明治。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1133,7 +1601,12 @@
   {
     "phrase": "be subject to",
     "meaning": "经受，遭受；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "All outdoor activities are subject to changes in the weather.",
+        "zh": "所有户外活动都可能因天气变化而调整。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1145,7 +1618,12 @@
   {
     "phrase": "be suitable for",
     "meaning": "适合于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "These light shoes are suitable for walking around the old town.",
+        "zh": "这双轻便的鞋适合在古城里步行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1157,7 +1635,12 @@
   {
     "phrase": "be sure of",
     "meaning": "对...的肯定；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before sending the email, be sure of the address.",
+        "zh": "发送邮件前，要确认地址无误。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1169,7 +1652,12 @@
   {
     "phrase": "be thrown in",
     "meaning": "额外赠送",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Breakfast is free, with a city map thrown in.",
+        "zh": "早餐免费，还附送一张城市地图。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1181,7 +1669,12 @@
   {
     "phrase": "be tied by/with",
     "meaning": "被...捆绑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The boxes were tied with strong rope before being loaded.",
+        "zh": "这些箱子在装车前用结实的绳子捆好了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1193,7 +1686,12 @@
   {
     "phrase": "be tied to",
     "meaning": "束缚于，捆绑于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The success of local shops is tied to the number of tourists.",
+        "zh": "当地商店的生意与游客数量密切相关。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1205,7 +1703,12 @@
   {
     "phrase": "be tired of",
     "meaning": "厌倦...，厌烦...；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Tired of waiting indoors, the children went out to play.",
+        "zh": "孩子们厌倦了在室内等待，便出去玩了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1217,7 +1720,12 @@
   {
     "phrase": "behind time",
     "meaning": "晚点",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our flight arrived behind time because of thick fog.",
+        "zh": "由于大雾，我们的航班晚点到达。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1229,7 +1737,12 @@
   {
     "phrase": "belief in",
     "meaning": "对...的真实性或正确性具有的信心",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Her belief in lifelong learning led her back to college at forty.",
+        "zh": "她对终身学习的信念使她四十岁时重返大学。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1241,7 +1754,12 @@
   {
     "phrase": "believe( ... to be)",
     "meaning": "相信...是",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Experts believe the vase to be more than five hundred years old.",
+        "zh": "专家认为这个花瓶已有五百多年的历史。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1253,7 +1771,12 @@
   {
     "phrase": "better than",
     "meaning": "好于...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "For short journeys, cycling is often better than driving.",
+        "zh": "短途出行时，骑自行车往往比开车更好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1265,7 +1788,12 @@
   {
     "phrase": "beyond question",
     "meaning": "毋庸置疑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Her honesty in returning the wallet is beyond question.",
+        "zh": "她归还钱包的诚信是毋庸置疑的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1277,7 +1805,12 @@
   {
     "phrase": "break away",
     "meaning": "脱离，逃跑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "One branch broke away from the old tree during the storm.",
+        "zh": "暴风雨中，一根树枝从老树上断了下来。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1289,7 +1822,12 @@
   {
     "phrase": "break down",
     "meaning": "损坏，分解，瓦解",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our bus broke down outside a village with no repair shop.",
+        "zh": "我们的公交车在一个没有修理店的村庄外抛锚了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1301,7 +1839,12 @@
   {
     "phrase": "break into",
     "meaning": "闯入",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Someone broke into the bookshop and stole two computers.",
+        "zh": "有人闯入书店，偷走了两台电脑。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1313,7 +1856,12 @@
   {
     "phrase": "break in",
     "meaning": "强行进行，打断",
-    "variants": [],
+    "examples": [
+      {
+        "en": "“That date is wrong,” Mei broke in before I finished.",
+        "zh": "“那个日期错了，”我还没说完，梅就插话道。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1325,7 +1873,12 @@
   {
     "phrase": "break off",
     "meaning": "断绝，结束",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Talks broke off when neither side would change its price.",
+        "zh": "由于双方都不肯改变价格，谈判中断了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1337,7 +1890,12 @@
   {
     "phrase": "break out",
     "meaning": "突发，爆发",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A fire broke out in the kitchen, but nobody was hurt.",
+        "zh": "厨房发生了火灾，但无人受伤。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1349,7 +1907,12 @@
   {
     "phrase": "break through",
     "meaning": "突破",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A research team hopes to break through the language barrier with new software.",
+        "zh": "一个研究团队希望用新软件突破语言障碍。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1361,7 +1924,12 @@
   {
     "phrase": "break up",
     "meaning": "终止，结束，打碎",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The outdoor concert broke up shortly after midnight.",
+        "zh": "午夜过后不久，露天音乐会便散场了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1373,7 +1941,12 @@
   {
     "phrase": "bring about",
     "meaning": "产生；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Better public transport could bring about cleaner air in the city.",
+        "zh": "更好的公共交通可以使城市空气更清洁。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1385,7 +1958,12 @@
   {
     "phrase": "bring forward",
     "meaning": "提出。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The professor brought forward a practical plan for saving energy.",
+        "zh": "教授提出了一个切实可行的节能方案。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1397,7 +1975,12 @@
   {
     "phrase": "bring out",
     "meaning": "使出现；公布；出版；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Soft morning light brings out the warm colors in this painting.",
+        "zh": "柔和的晨光使这幅画的暖色更加突出。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1409,7 +1992,12 @@
   {
     "phrase": "bring up",
     "meaning": "培养，养大；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Whenever food safety is discussed, my father brings up farm chemicals.",
+        "zh": "每当讨论食品安全时，我父亲都会提到农用化学品。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1421,7 +2009,12 @@
   {
     "phrase": "by accident",
     "meaning": "偶然，含有不幸的因素",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By accident, I left my umbrella in the campus gym.",
+        "zh": "我不小心把雨伞落在了校园体育馆。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1433,7 +2026,12 @@
   {
     "phrase": "by all means",
     "meaning": "无论如何，必定",
-    "variants": [],
+    "examples": [
+      {
+        "en": "“May I borrow your dictionary?” “By all means.”",
+        "zh": "“我可以借你的词典吗？”“当然可以。”"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1445,7 +2043,12 @@
   {
     "phrase": "by chance",
     "meaning": "偶然，意外地",
-    "variants": [],
+    "examples": [
+      {
+        "en": "While changing trains in Suzhou, I met an old neighbor by chance.",
+        "zh": "在苏州换乘火车时，我偶然遇到了一位老邻居。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1457,7 +2060,12 @@
   {
     "phrase": "by choice",
     "meaning": "处于选择",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Rui lives without a television by choice, not because she cannot afford one.",
+        "zh": "睿自愿过着没有电视的生活，并不是因为买不起。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1469,7 +2077,12 @@
   {
     "phrase": "by contrast",
     "meaning": "对比之下；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "City rents rose last year; by contrast, prices in nearby villages fell.",
+        "zh": "去年城市房租上涨；相比之下，附近村庄的价格下降了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1481,7 +2094,12 @@
   {
     "phrase": "by means of",
     "meaning": "用，依靠； 借助于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The cave can be reached only by means of a narrow path.",
+        "zh": "只有通过一条狭窄的小路才能到达这个洞穴。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1494,7 +2112,12 @@
   {
     "phrase": "by mistake",
     "meaning": "错误地",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I picked up someone else’s suitcase by mistake at the station.",
+        "zh": "我在车站误拿了别人的手提箱。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1506,7 +2129,12 @@
   {
     "phrase": "by the way",
     "meaning": "顺便提一下",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By the way, have you returned the novel to the library?",
+        "zh": "顺便问一下，你把那本小说还给图书馆了吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1518,7 +2146,12 @@
   {
     "phrase": "by virtue of",
     "meaning": "凭借，借助；因为，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By virtue of her calm manner, the guide gained everyone’s trust.",
+        "zh": "凭借沉着的举止，导游赢得了大家的信任。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1530,7 +2163,12 @@
   {
     "phrase": "by way of",
     "meaning": "经由，通过...方式",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We flew to Rome by way of Istanbul to save money.",
+        "zh": "为了省钱，我们经伊斯坦布尔飞往罗马。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1542,7 +2180,12 @@
   {
     "phrase": "call forth",
     "meaning": "唤起，引起",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The graduation song called forth memories of our first day at college.",
+        "zh": "毕业歌唤起了我们大学第一天的回忆。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1554,7 +2197,12 @@
   {
     "phrase": "call for",
     "meaning": "邀请，要求，需要",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Solving the water shortage calls for cooperation across the region.",
+        "zh": "解决缺水问题需要整个地区的合作。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1566,7 +2214,12 @@
   {
     "phrase": "call off",
     "meaning": "放弃，取消",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Since lightning was approaching, the school called off the football match.",
+        "zh": "由于闪电逼近，学校取消了足球比赛。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1578,7 +2231,12 @@
   {
     "phrase": "call on/upon",
     "meaning": "访问，拜访",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At the meeting, the principal called upon students to save water.",
+        "zh": "会上，校长号召学生节约用水。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1590,7 +2248,12 @@
   {
     "phrase": "care for",
     "meaning": "照顾，关心",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Who will care for your cat while you are abroad?",
+        "zh": "你在国外期间谁来照顾你的猫？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1602,7 +2265,12 @@
   {
     "phrase": "carry out",
     "meaning": "贯彻，执行，实现",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Next month, the class will carry out a survey of reading habits.",
+        "zh": "下个月，全班将开展一项阅读习惯调查。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1614,7 +2282,12 @@
   {
     "phrase": "cast light on",
     "meaning": "阐明某事；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "These old letters cast light on daily life a century ago.",
+        "zh": "这些旧信件使人们了解一百年前的日常生活。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1626,7 +2299,12 @@
   {
     "phrase": "catch up with",
     "meaning": "赶上；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By studying during lunch, Dan caught up with the rest of his class.",
+        "zh": "丹利用午饭时间学习，赶上了班里的其他同学。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1638,7 +2316,12 @@
   {
     "phrase": "catch sight of",
     "meaning": "看见；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Turning the corner, I caught sight of the sea for the first time.",
+        "zh": "转过街角时，我第一次看见了大海。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1650,7 +2333,12 @@
   {
     "phrase": "center on",
     "meaning": "把...集中在，以...为中心；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Tonight’s campus debate centers on the future of artificial intelligence.",
+        "zh": "今晚的校园辩论以人工智能的未来为中心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1662,7 +2350,12 @@
   {
     "phrase": "characterized by",
     "meaning": "以...为特征；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The northern winter is characterized by long nights and strong winds.",
+        "zh": "北方的冬天以长夜和大风为特征。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1674,7 +2367,12 @@
   {
     "phrase": "coincide with",
     "meaning": "与...相符",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This year’s art festival will coincide with the university’s anniversary.",
+        "zh": "今年的艺术节将与校庆同期举行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1686,7 +2384,12 @@
   {
     "phrase": "come from",
     "meaning": "来自，来源于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Much of the plastic in the ocean comes from waste on land.",
+        "zh": "海洋中的许多塑料来自陆地垃圾。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1698,7 +2401,12 @@
   {
     "phrase": "come off",
     "meaning": "成功；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Despite the rain, our school play came off remarkably well.",
+        "zh": "尽管下雨了，我们的校园话剧还是演得非常成功。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1710,7 +2418,12 @@
   {
     "phrase": "come on",
     "meaning": "涉及，谈及，到达，结束，总共，共计，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Come on, or we will miss the opening scene of the film!",
+        "zh": "快点，不然我们会错过电影的开场！"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1722,7 +2435,12 @@
   {
     "phrase": "come out",
     "meaning": "出版，出现，结局是",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The truth about the damaged statue eventually came out.",
+        "zh": "关于雕像受损的真相最终被揭露了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1734,7 +2452,12 @@
   {
     "phrase": "come to",
     "meaning": "等于，结果是； 总计，达到",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After checking the bill twice, the total came to ninety-six yuan.",
+        "zh": "把账单核对两遍后，总额为九十六元。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1746,7 +2469,12 @@
   {
     "phrase": "come under attack",
     "meaning": "受到打击",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The new parking rule came under attack from local shop owners.",
+        "zh": "新的停车规定遭到了当地店主的批评。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1758,7 +2486,12 @@
   {
     "phrase": "come under",
     "meaning": "归人，受到",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Complaints about dormitory heating come under the housing office.",
+        "zh": "有关宿舍供暖的投诉归住宿办公室处理。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1770,7 +2503,12 @@
   {
     "phrase": "come up",
     "meaning": "发生，形成；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A question about online privacy came up during the lecture.",
+        "zh": "讲座期间有人提出了一个关于网络隐私的问题。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1782,7 +2520,12 @@
   {
     "phrase": "comment on",
     "meaning": "评论，发表意见；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Asked to comment on the rumor, the actor smiled and changed the subject.",
+        "zh": "当被要求评论传闻时，那位演员笑了笑，换了话题。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1794,7 +2537,12 @@
   {
     "phrase": "commit to",
     "meaning": "交付，把...投入",
-    "variants": [],
+    "examples": [
+      {
+        "en": "If you commit to the course, you should attend every workshop.",
+        "zh": "如果你承诺参加这门课程，就应该出席每次研讨课。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1806,7 +2554,12 @@
   {
     "phrase": "comply with",
     "meaning": "遵守，服从；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Restaurants must comply with the city’s new food-safety rules.",
+        "zh": "餐馆必须遵守该市新的食品安全规定。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1818,7 +2571,12 @@
   {
     "phrase": "conform to",
     "meaning": "遵守，符合，顺应",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Does your application photo conform to the stated size requirements?",
+        "zh": "你的申请照片符合规定的尺寸要求吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1830,7 +2588,12 @@
   {
     "phrase": "consist of",
     "meaning": "组成",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The tour consists of a boat ride, a farm visit, and lunch.",
+        "zh": "这次游览包括乘船、参观农场和午餐。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1842,7 +2605,12 @@
   {
     "phrase": "consistent in",
     "meaning": "在(某方面)一致",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Throughout the semester, Aya was consistent in completing her work early.",
+        "zh": "整个学期，阿雅都始终提前完成作业。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1854,7 +2622,12 @@
   {
     "phrase": "consistent with",
     "meaning": "与...一致",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The witness’s account is consistent with the video from the street camera.",
+        "zh": "证人的陈述与街头摄像头的视频一致。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1866,7 +2639,12 @@
   {
     "phrase": "contribute to",
     "meaning": "有助于 ，促进，加剧；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Planting trees along busy roads can contribute to cleaner air.",
+        "zh": "在繁忙道路两旁植树有助于改善空气质量。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1878,7 +2656,12 @@
   {
     "phrase": "copy out",
     "meaning": "抄写；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Please copy out the poem neatly before tomorrow’s class.",
+        "zh": "请在明天上课前把这首诗工整地抄下来。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1890,7 +2673,12 @@
   {
     "phrase": "correlate with",
     "meaning": "找出一一对应的关系",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Daily exercise appears to correlate with lower levels of stress.",
+        "zh": "日常锻炼似乎与较低的压力水平相关。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1902,7 +2690,12 @@
   {
     "phrase": "count on",
     "meaning": "指望；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "You can count on the night bus to arrive every half hour.",
+        "zh": "你可以相信夜班公交每半小时会来一班。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1914,7 +2707,12 @@
   {
     "phrase": "cut away",
     "meaning": "砍掉；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before building the path, workers cut away the thick bushes.",
+        "zh": "修建小路前，工人们砍掉了茂密的灌木。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1926,7 +2724,12 @@
   {
     "phrase": "cut down",
     "meaning": "削减；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "To save electricity, the supermarket has cut down its lighting at night.",
+        "zh": "为了节约用电，超市减少了夜间照明。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1938,7 +2741,12 @@
   {
     "phrase": "cut off",
     "meaning": "打断，中断；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A fallen tree cut off the mountain village from the main road.",
+        "zh": "一棵倒下的树切断了山村与主干道的联系。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1950,7 +2758,12 @@
   {
     "phrase": "cut out",
     "meaning": "删掉；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My dentist advised me to cut out sugary drinks for a month.",
+        "zh": "牙医建议我一个月内不喝含糖饮料。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1962,7 +2775,12 @@
   {
     "phrase": "dedicate ... to",
     "meaning": "奉献；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The doctor dedicated her weekends to serving families in remote areas.",
+        "zh": "这位医生把周末时间用于为偏远地区的家庭服务。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1974,7 +2792,12 @@
   {
     "phrase": "depend on",
     "meaning": "依靠，依赖",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Whether we picnic tomorrow will depend on the weather.",
+        "zh": "我们明天是否野餐将取决于天气。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1986,7 +2809,12 @@
   {
     "phrase": "die back",
     "meaning": "枯死；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In autumn, the flowers die back but their roots remain alive.",
+        "zh": "秋天，花朵枯萎，但根部仍然存活。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -1998,7 +2826,12 @@
   {
     "phrase": "die down",
     "meaning": "逐渐消失；止息；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The noise from the street did not die down until midnight.",
+        "zh": "街上的喧闹声直到午夜才渐渐平息。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2010,7 +2843,12 @@
   {
     "phrase": "die off",
     "meaning": "相继死去；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Without enough rain, young trees may die off one by one.",
+        "zh": "没有足够的雨水，幼树可能会一棵接一棵地死去。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2022,7 +2860,12 @@
   {
     "phrase": "die out",
     "meaning": "消失；死绝；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Unless it is taught to children, this local song may die out.",
+        "zh": "除非把这首地方歌曲教给孩子们，否则它可能会失传。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2034,7 +2877,12 @@
   {
     "phrase": "difference in",
     "meaning": "在...方面的差别",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We noticed a clear difference in air quality after the factory closed.",
+        "zh": "工厂关闭后，我们注意到空气质量有了明显差异。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2046,7 +2894,12 @@
   {
     "phrase": "do something for/to",
     "meaning": "改进，增强",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A few colorful cushions would do a lot for this plain room.",
+        "zh": "几个彩色靠垫会让这个朴素的房间增色不少。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2058,7 +2911,12 @@
   {
     "phrase": "doubt about",
     "meaning": "怀疑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "There is little doubt about the value of learning basic first aid.",
+        "zh": "学习基本急救知识的价值几乎是毋庸置疑的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2070,7 +2928,12 @@
   {
     "phrase": "due to",
     "meaning": "由于，因为",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Due to a signal problem, the subway stopped between two stations.",
+        "zh": "由于信号问题，地铁停在了两站之间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2082,7 +2945,12 @@
   {
     "phrase": "dwell on",
     "meaning": "利用",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Rather than dwell on her mistake, Zoe prepared for the next interview.",
+        "zh": "佐伊没有老想着自己的错误，而是为下一次面试做准备。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2094,7 +2962,12 @@
   {
     "phrase": "enter for",
     "meaning": "报名参加；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Three classmates entered for the national public-speaking contest.",
+        "zh": "三名同学报名参加了全国演讲比赛。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2106,7 +2979,12 @@
   {
     "phrase": "enter into",
     "meaning": "开始 (谈话，讨论)",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before entering into a rental agreement, read every page carefully.",
+        "zh": "签订租赁协议前，要仔细阅读每一页。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2118,7 +2996,12 @@
   {
     "phrase": "entertain a proposal",
     "meaning": "愿意考虑这一建设",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At first the manager would not entertain a proposal to shorten working hours.",
+        "zh": "起初，经理不愿考虑缩短工时的提议。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2130,7 +3013,12 @@
   {
     "phrase": "entertain an idea",
     "meaning": "抱着一种想法",
-    "variants": [],
+    "examples": [
+      {
+        "en": "For a moment, I entertained the idea of studying abroad.",
+        "zh": "有那么一会儿，我考虑过出国留学。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2142,7 +3030,12 @@
   {
     "phrase": "even if",
     "meaning": "甚至，即使",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Even if the shop is closed, we can order the medicine online.",
+        "zh": "即使商店关门了，我们也可以在网上订药。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2154,7 +3047,12 @@
   {
     "phrase": "even though",
     "meaning": "虽然，尽管)表让步；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Even though her ankle hurt, Lin finished the charity walk.",
+        "zh": "尽管脚踝疼，林还是完成了慈善步行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2166,7 +3064,12 @@
   {
     "phrase": "ever since",
     "meaning": "自从...之后，从此以后)表时间；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Ever since I joined the choir, Mondays have felt more cheerful.",
+        "zh": "自从我加入合唱团以来，星期一变得更愉快了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2178,7 +3081,12 @@
   {
     "phrase": "faithful to",
     "meaning": "忠心于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The film is faithful to the spirit of the original novel.",
+        "zh": "这部电影忠实于原著的精神。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2190,7 +3098,12 @@
   {
     "phrase": "fall from",
     "meaning": "从...落下；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Temperatures may fall from twenty degrees to ten overnight.",
+        "zh": "气温可能在一夜之间从二十度降到十度。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2202,7 +3115,12 @@
   {
     "phrase": "far from",
     "meaning": "毫不，远非",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The guesthouse was far from luxurious, but it felt like home.",
+        "zh": "这家旅馆远谈不上豪华，但感觉像家一样。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2214,7 +3132,12 @@
   {
     "phrase": "favor of",
     "meaning": "喜欢",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Most parents at the meeting spoke in favor of longer library hours.",
+        "zh": "会上，大多数家长发言支持延长图书馆开放时间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2226,7 +3149,12 @@
   {
     "phrase": "figure out",
     "meaning": "计算出",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Using the subway map, we figured out how to reach the science museum.",
+        "zh": "我们借助地铁图弄清了去科学博物馆的路线。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2238,7 +3166,12 @@
   {
     "phrase": "find out",
     "meaning": "查明",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Call this number to find out whether your passport is ready.",
+        "zh": "拨打这个号码，查询你的护照是否办好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2250,7 +3183,12 @@
   {
     "phrase": "focus on",
     "meaning": "集中于，集中研究",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Instead of memorizing every detail, focus on the main argument.",
+        "zh": "不要记住每个细节，要把注意力集中在主要论点上。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2262,7 +3200,12 @@
   {
     "phrase": "followed by",
     "meaning": "接着是；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A brief introduction was followed by questions from the audience.",
+        "zh": "简短的介绍之后是观众提问。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2274,7 +3217,12 @@
   {
     "phrase": "for all",
     "meaning": "尽管；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "For all his experience, the driver still felt nervous on the icy road.",
+        "zh": "尽管经验丰富，这名司机在结冰的路上仍感到紧张。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2286,7 +3234,12 @@
   {
     "phrase": "for example",
     "meaning": "举例来说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Some daily habits save energy; for example, turning off unused lights helps.",
+        "zh": "一些日常习惯可以节能，例如关掉不用的灯就有帮助。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2298,7 +3251,12 @@
   {
     "phrase": "for instance",
     "meaning": "和 such as 都表示举例，前者常接句子，后者常接名词或名词短语；例如",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Several campus services, for instance the health center, remain open in summer.",
+        "zh": "几项校园服务，例如健康中心，暑假期间仍然开放。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2311,7 +3269,12 @@
   {
     "phrase": "for the purpose of",
     "meaning": "为了...目的；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The room was reserved for the purpose of holding student interviews.",
+        "zh": "这个房间被预留用于进行学生面试。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2323,7 +3286,12 @@
   {
     "phrase": "for the sake of",
     "meaning": "为了...起见",
-    "variants": [],
+    "examples": [
+      {
+        "en": "For the sake of her eyes, Keira takes a break from the screen each hour.",
+        "zh": "为了保护眼睛，凯拉每小时都会离开屏幕休息一下。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2335,7 +3303,12 @@
   {
     "phrase": "frankly speaking",
     "meaning": "坦白来说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Frankly speaking, this fashionable jacket is not worth the price.",
+        "zh": "坦率地说，这件时髦的夹克不值这个价钱。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2347,7 +3320,12 @@
   {
     "phrase": "freedom from",
     "meaning": "免于...(的自由)",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A quiet weekend in the countryside offered freedom from city noise.",
+        "zh": "在乡村度过一个安静的周末，让人摆脱了城市噪音。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2359,7 +3337,12 @@
   {
     "phrase": "from all appearances",
     "meaning": "从所能见到和知道的情况判断",
-    "variants": [],
+    "examples": [
+      {
+        "en": "From all appearances, the little bookstore is doing good business.",
+        "zh": "从种种迹象看，这家小书店生意不错。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2371,7 +3354,12 @@
   {
     "phrase": "from all sides",
     "meaning": "从四面八方，全面地",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Encouragement came from all sides after her first article was published.",
+        "zh": "她的第一篇文章发表后，各方面都给予了鼓励。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2383,7 +3371,12 @@
   {
     "phrase": "from now on",
     "meaning": "从现在开始",
-    "variants": [],
+    "examples": [
+      {
+        "en": "From now on, household waste must be placed in separate bins.",
+        "zh": "从现在起，生活垃圾必须放入不同的垃圾桶。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2395,7 +3388,12 @@
   {
     "phrase": "from/by all accounts",
     "meaning": "根据方面所说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By all accounts, the island is most beautiful in early autumn.",
+        "zh": "据大家所说，这座岛在初秋最美。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2407,7 +3405,12 @@
   {
     "phrase": "gather up",
     "meaning": "拾起，集拢；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As the bell rang, the children gathered up their sports equipment.",
+        "zh": "铃声响起时，孩子们收拾起了运动器材。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2419,7 +3422,12 @@
   {
     "phrase": "generally speaking",
     "meaning": "一般来说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Generally speaking, fresh food contains less salt than packaged meals.",
+        "zh": "一般来说，新鲜食物比包装食品含盐更少。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2431,7 +3439,12 @@
   {
     "phrase": "get along with",
     "meaning": "进展，相处融洽",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Although they share a tiny kitchen, the four roommates get along with one another.",
+        "zh": "尽管共用一个小厨房，四名室友相处得很好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2443,7 +3456,12 @@
   {
     "phrase": "get away",
     "meaning": "逃脱，离开",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We left the crowded beach early to get away from the noise.",
+        "zh": "我们早早离开拥挤的海滩，以远离喧闹。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2456,7 +3474,12 @@
   {
     "phrase": "get down to",
     "meaning": "开始，着手",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With the guests seated, the host got down to explaining the game.",
+        "zh": "客人坐好后，主人开始认真讲解游戏规则。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2468,7 +3491,12 @@
   {
     "phrase": "get in",
     "meaning": "进入，收获，收集",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The key would not turn, so I could not get in.",
+        "zh": "钥匙转不动，所以我进不去。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2480,7 +3508,12 @@
   {
     "phrase": "give in",
     "meaning": "妥协，让步，投降，屈服",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Under growing pressure from customers, the company finally gave in.",
+        "zh": "在顾客日益增大的压力下，公司终于让步了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2492,7 +3525,12 @@
   {
     "phrase": "give off",
     "meaning": "放出，释放",
-    "variants": [],
+    "examples": [
+      {
+        "en": "These kitchen plants give off a pleasant smell after watering.",
+        "zh": "这些厨房植物浇水后会散发出宜人的气味。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2504,7 +3542,12 @@
   {
     "phrase": "give out",
     "meaning": "分发，放出",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Halfway up the hill, our water supplies began to give out.",
+        "zh": "走到半山腰时，我们的饮用水开始用完了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2516,7 +3559,12 @@
   {
     "phrase": "give something away",
     "meaning": "泄露",
-    "variants": [],
+    "examples": [
+      {
+        "en": "One careless comment gave away the ending of the movie.",
+        "zh": "一句不经意的评论泄露了电影的结局。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2528,7 +3576,12 @@
   {
     "phrase": "give up",
     "meaning": "停止，放弃",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Never give up simply because progress seems slow.",
+        "zh": "绝不要仅仅因为进展缓慢就放弃。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2540,7 +3593,12 @@
   {
     "phrase": "give way",
     "meaning": "让路，让步",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After hours of heavy rain, the old bridge gave way.",
+        "zh": "连续下了几个小时的大雨后，那座老桥坍塌了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2552,7 +3610,12 @@
   {
     "phrase": "go beyond",
     "meaning": "超越，超过；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Learning a language goes beyond remembering lists of words.",
+        "zh": "学习一门语言不只是记忆单词表。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2564,7 +3627,12 @@
   {
     "phrase": "go by",
     "meaning": "从...旁走过，顺访",
-    "variants": [],
+    "examples": [
+      {
+        "en": "As the weeks went by, I became more confident at work.",
+        "zh": "随着一周周过去，我在工作中变得更自信了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2576,7 +3644,12 @@
   {
     "phrase": "go for",
     "meaning": "追求",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Given the sunny forecast, let us go for a hike on Sunday.",
+        "zh": "既然天气预报说是晴天，我们星期天去远足吧。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2588,7 +3661,12 @@
   {
     "phrase": "go in",
     "meaning": "进入，参加",
-    "variants": [],
+    "examples": [
+      {
+        "en": "When the alarm sounded, a firefighter went in to search the building.",
+        "zh": "警报响起时，一名消防员进入大楼搜查。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2600,7 +3678,12 @@
   {
     "phrase": "go through",
     "meaning": "经历",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Anyone starting a new job goes through a period of adjustment.",
+        "zh": "任何开始新工作的人都会经历一段适应期。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2612,7 +3695,12 @@
   {
     "phrase": "hand on",
     "meaning": "传下来，依次传递",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Please hand these safety tips on to the next group of visitors.",
+        "zh": "请把这些安全提示传给下一组游客。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2624,7 +3712,12 @@
   {
     "phrase": "hand out",
     "meaning": "分发，散发",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At the station entrance, volunteers were handing out city maps.",
+        "zh": "在车站入口处，志愿者们正在分发城市地图。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2636,7 +3729,12 @@
   {
     "phrase": "hand over",
     "meaning": "交出，移交",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before retiring, the shop owner handed the business over to her daughter.",
+        "zh": "退休前，店主把生意移交给了女儿。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2648,7 +3746,12 @@
   {
     "phrase": "have a bearing on",
     "meaning": "与...有关系",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The time of departure may have a bearing on the price of your ticket.",
+        "zh": "出发时间可能会影响你的票价。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2660,7 +3763,12 @@
   {
     "phrase": "have difficulty with",
     "meaning": "与---有分歧，相处不好",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Mina has difficulty with spoken English when people talk quickly.",
+        "zh": "别人说得很快时，米娜听说英语有困难。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2672,7 +3780,12 @@
   {
     "phrase": "hold back",
     "meaning": "踌躇，退缩，阻止",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Fear of failure should not hold you back from trying again.",
+        "zh": "对失败的恐惧不应阻止你再次尝试。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2684,7 +3797,12 @@
   {
     "phrase": "hold down",
     "meaning": "控制",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The café uses smaller menus to hold down printing costs.",
+        "zh": "这家咖啡馆使用较小的菜单来控制印刷成本。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2696,7 +3814,12 @@
   {
     "phrase": "hold on to",
     "meaning": "紧紧抓住，坚持",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Even after moving abroad, Leo held on to his childhood dream.",
+        "zh": "即使移居国外，利奥仍坚持儿时的梦想。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2708,7 +3831,12 @@
   {
     "phrase": "hold on",
     "meaning": "继续，握住不放，坚持",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Hold on while I check whether the doctor is free.",
+        "zh": "请稍等，我看看医生是否有空。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2720,7 +3848,12 @@
   {
     "phrase": "hold out",
     "meaning": "维持，伸出，提出，坚持",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our food supplies will hold out until the rescue team arrives.",
+        "zh": "我们的食物储备能维持到救援队到达。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2732,7 +3865,12 @@
   {
     "phrase": "hold up",
     "meaning": "保持良好，停止；阻滞；举起，承载，阻挡",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Heavy snow held up several trains outside the city.",
+        "zh": "大雪耽搁了城外的几趟列车。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2745,7 +3883,12 @@
   {
     "phrase": "if only",
     "meaning": "要是，只要)表条件；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "If only I had brought an umbrella this morning!",
+        "zh": "要是我今天早上带了伞就好了！"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2757,7 +3900,12 @@
   {
     "phrase": "in use",
     "meaning": "在使用；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This printer is still in use despite its age.",
+        "zh": "这台打印机虽然用了很久，却仍在使用。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2769,7 +3917,12 @@
   {
     "phrase": "in ... degree",
     "meaning": "在...速度上",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The two solutions differ in some degree, but both are practical.",
+        "zh": "这两种解决办法在某种程度上不同，但都很实用。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2781,7 +3934,12 @@
   {
     "phrase": "in a sense",
     "meaning": "从某种意义上说)它可以放在句首、句中或者句尾，一般不用逗号隔开；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In a sense, losing that match taught us how to cooperate.",
+        "zh": "从某种意义上说，输掉那场比赛教会了我们如何合作。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2793,7 +3951,12 @@
   {
     "phrase": "in a state of",
     "meaning": "处于...的状态",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After the earthquake, many families lived in a state of fear.",
+        "zh": "地震后，许多家庭生活在恐惧之中。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2805,7 +3968,12 @@
   {
     "phrase": "in a way",
     "meaning": "从某一点上看",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Working from home has, in a way, brought us closer.",
+        "zh": "居家办公从某种角度来说让我们更亲近了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2817,7 +3985,12 @@
   {
     "phrase": "in accord with",
     "meaning": "与...一致",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The new school rules are in accord with parents' wishes.",
+        "zh": "新的校规符合家长们的意愿。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2829,7 +4002,12 @@
   {
     "phrase": "in addition to",
     "meaning": "除...之外，并且",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In addition to milk, the recipe requires two eggs.",
+        "zh": "除了牛奶，这个食谱还需要两个鸡蛋。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2841,7 +4019,12 @@
   {
     "phrase": "in all",
     "meaning": "总共；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "There were thirty guests in all at Nora's birthday dinner.",
+        "zh": "诺拉的生日晚餐总共有三十位客人。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2853,7 +4036,12 @@
   {
     "phrase": "in any case",
     "meaning": "无论如何，不管怎样；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The bus may be late; in any case, we have enough time.",
+        "zh": "公交车可能晚点；无论如何，我们有足够的时间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2865,7 +4053,12 @@
   {
     "phrase": "in case of",
     "meaning": "万一发生 ...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In case of fire, leave the building by the stairs.",
+        "zh": "万一发生火灾，请从楼梯离开大楼。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2877,7 +4070,12 @@
   {
     "phrase": "in case",
     "meaning": "假使，以防；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Take some water in case the walk lasts longer than expected.",
+        "zh": "带些水吧，以防步行时间比预想的长。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2889,7 +4087,12 @@
   {
     "phrase": "in circles=in a circle",
     "meaning": "在原地兜圈子，毫无进展",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Without clear leadership, the talks went in circles for hours.",
+        "zh": "由于缺乏明确的领导，谈判几小时都毫无进展。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2901,7 +4104,12 @@
   {
     "phrase": "in consequence",
     "meaning": "因此；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The road was flooded; in consequence, classes were canceled.",
+        "zh": "道路被淹，因此课程取消了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2913,7 +4121,12 @@
   {
     "phrase": "in doubt",
     "meaning": "有怀疑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "When in doubt, ask the librarian where to find the book.",
+        "zh": "有疑问时，就问图书管理员去哪里找这本书。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2925,7 +4138,12 @@
   {
     "phrase": "in effect",
     "meaning": "实质上，实际上)它在句中一般不需要用逗号隔开；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The price cut is in effect a warm welcome to new customers.",
+        "zh": "这次降价实际上是对新顾客的一种热情欢迎。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2937,7 +4155,12 @@
   {
     "phrase": "in essence",
     "meaning": "实质上，本质上，根本上",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Though their customs differ, the two festivals are in essence alike.",
+        "zh": "尽管习俗不同，这两个节日本质上是相似的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2949,7 +4172,12 @@
   {
     "phrase": "in fact",
     "meaning": "实际上",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I thought the bag was leather, but in fact it was plastic.",
+        "zh": "我以为这个包是皮的，但实际上它是塑料的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2961,7 +4189,12 @@
   {
     "phrase": "in firm voice",
     "meaning": "用清晰，坚定的声音。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "\"Please return to your seats,\" the guide said in a firm voice.",
+        "zh": "“请回到座位上，”导游用坚定的声音说道。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2973,7 +4206,12 @@
   {
     "phrase": "in general",
     "meaning": "总的来说，大体上；一般来说：",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In general, fresh vegetables contain more vitamins than canned ones.",
+        "zh": "一般来说，新鲜蔬菜比罐装蔬菜含有更多维生素。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2986,7 +4224,12 @@
   {
     "phrase": "in line with",
     "meaning": "与...一致，符合...；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Her daily actions are in line with her promise to save energy.",
+        "zh": "她每天的行动符合她节约能源的承诺。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -2998,7 +4241,12 @@
   {
     "phrase": "in mind",
     "meaning": "心里想着某人或某事；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The designer had young families in mind when creating the chairs.",
+        "zh": "设计师设计这些椅子时考虑的是年轻家庭。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3010,7 +4258,12 @@
   {
     "phrase": "in need of",
     "meaning": "需要",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After years without repairs, the bridge is in need of attention.",
+        "zh": "多年未修后，这座桥需要维护。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3022,7 +4275,12 @@
   {
     "phrase": "in no way",
     "meaning": "决不",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This small mistake in no way reduces the value of your work.",
+        "zh": "这个小错误决不会降低你工作的价值。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3034,7 +4292,12 @@
   {
     "phrase": "in one's opinion",
     "meaning": "在某人看来",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In my opinion, public parks make cities more pleasant.",
+        "zh": "在我看来，公共公园让城市更宜居。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3046,7 +4309,12 @@
   {
     "phrase": "in one's terms",
     "meaning": "用...的话来说",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In a child's terms, the scientist explained why stars shine.",
+        "zh": "这位科学家用孩子能懂的话解释了星星为什么发光。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3058,7 +4326,12 @@
   {
     "phrase": "in one's way/in the way",
     "meaning": "妨碍，阻碍",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A fallen bicycle was in the way of passing cars.",
+        "zh": "一辆倒下的自行车挡住了过往车辆。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3070,7 +4343,12 @@
   {
     "phrase": "in order to",
     "meaning": "为了",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Ella left early in order to catch the first subway.",
+        "zh": "埃拉早早离开，以便赶上首班地铁。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3082,7 +4360,12 @@
   {
     "phrase": "in order",
     "meaning": "整齐，恰当",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before the guests arrive, please put the cups in order.",
+        "zh": "客人到来之前，请把杯子摆放整齐。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3094,7 +4377,12 @@
   {
     "phrase": "in particular",
     "meaning": "尤其，特别；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Kai enjoys outdoor sports, hiking in particular.",
+        "zh": "凯喜欢户外运动，尤其喜欢徒步旅行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3106,7 +4394,12 @@
   {
     "phrase": "in perspective",
     "meaning": "关系恰当地，观察合理地；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Talking to the nurse put my minor injury in perspective.",
+        "zh": "和护士交谈后，我对自己的轻伤有了恰当的认识。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3118,7 +4411,12 @@
   {
     "phrase": "in point of",
     "meaning": "说到，关于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In point of safety, the newer route is clearly better.",
+        "zh": "说到安全性，新路线显然更好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3130,7 +4428,12 @@
   {
     "phrase": "in question",
     "meaning": "对...表示 怀疑，有疑问",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The painting in question was created by a local student.",
+        "zh": "所谈到的那幅画是一名当地学生创作的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3142,7 +4445,12 @@
   {
     "phrase": "in reference to",
     "meaning": "关于，就...而论；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I am writing in reference to your advertisement for a tutor.",
+        "zh": "我写信是想咨询你们招聘家教的广告。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3154,7 +4462,12 @@
   {
     "phrase": "in regard to",
     "meaning": "关于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Several residents spoke in regard to the proposed night market.",
+        "zh": "几位居民就拟建的夜市发表了意见。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3166,7 +4479,12 @@
   {
     "phrase": "in relation to",
     "meaning": "关于，至于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The study examines sleep in relation to memory.",
+        "zh": "这项研究考察睡眠与记忆之间的关系。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3178,7 +4496,12 @@
   {
     "phrase": "in reply to",
     "meaning": "作为回答；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In reply to my email, the hotel offered another room.",
+        "zh": "作为对我邮件的回复，酒店提供了另一个房间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3190,7 +4513,12 @@
   {
     "phrase": "in response to",
     "meaning": "作为对...的回答，作为对...的反应；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Prices fell in response to weaker demand for winter coats.",
+        "zh": "由于冬衣需求减弱，价格随之下降。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3202,7 +4530,12 @@
   {
     "phrase": "in return for",
     "meaning": "作为对...的汇报/交换；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We gave our neighbor fresh bread in return for her help.",
+        "zh": "为了答谢邻居的帮助，我们送给她新鲜面包。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3214,7 +4547,12 @@
   {
     "phrase": "in short",
     "meaning": "总之，简言之；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In short, the plan is affordable, simple, and useful.",
+        "zh": "简言之，这个计划经济、简单而且实用。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3226,7 +4564,12 @@
   {
     "phrase": "in spite of",
     "meaning": "尽管；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In spite of the cold wind, the children finished the race.",
+        "zh": "尽管寒风凛冽，孩子们还是完成了比赛。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3238,7 +4581,12 @@
   {
     "phrase": "in terms of",
     "meaning": "用...的话；从...方面来说；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In terms of comfort, this old sofa is hard to beat.",
+        "zh": "从舒适度来说，这张旧沙发很难被超越。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3250,7 +4598,12 @@
   {
     "phrase": "in the analysis of",
     "meaning": "在对...进行分析时",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A small error emerged in the analysis of the survey data.",
+        "zh": "在分析调查数据时出现了一个小错误。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3262,7 +4615,12 @@
   {
     "phrase": "in the bargain",
     "meaning": "此外，还",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The apartment is cheap and, in the bargain, close to my office.",
+        "zh": "这套公寓价格便宜，而且还离我的办公室很近。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3274,7 +4632,12 @@
   {
     "phrase": "in the case of",
     "meaning": "至于...，就...来说；就...而论",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In the case of online orders, payment must be made first.",
+        "zh": "就网上订单而言，必须先付款。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3286,7 +4649,12 @@
   {
     "phrase": "in the company of",
     "meaning": "陪伴，伴随 ；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Children often feel safer in the company of familiar adults.",
+        "zh": "孩子们有熟悉的成年人陪伴时通常会更有安全感。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3298,7 +4666,12 @@
   {
     "phrase": "in the course of",
     "meaning": "在...过程中，在...期间",
-    "variants": [],
+    "examples": [
+      {
+        "en": "She met several inspiring teachers in the course of her studies.",
+        "zh": "她在求学期间遇到了几位鼓舞人心的老师。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3310,7 +4683,12 @@
   {
     "phrase": "in the end",
     "meaning": "最后",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After considering three offers, Jamal chose the smallest firm in the end.",
+        "zh": "在考虑了三份工作邀请后，贾马尔最终选择了最小的公司。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3322,7 +4700,12 @@
   {
     "phrase": "in the event of",
     "meaning": "万一发生；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In the event of rain, the concert will move indoors.",
+        "zh": "万一下雨，音乐会将移到室内举行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3334,7 +4717,12 @@
   {
     "phrase": "in the form of",
     "meaning": "以...形状，以...形式；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The artist presented local history in the form of a comic book.",
+        "zh": "这位艺术家以漫画书的形式呈现当地历史。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3346,7 +4734,12 @@
   {
     "phrase": "in the light of",
     "meaning": "鉴于，由于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In the light of recent complaints, the store extended its opening hours.",
+        "zh": "鉴于最近的投诉，商店延长了营业时间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3358,7 +4751,12 @@
   {
     "phrase": "in the process of",
     "meaning": "在...的过程中；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We learned patience in the process of caring for the injured bird.",
+        "zh": "在照料受伤小鸟的过程中，我们学会了耐心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3370,7 +4768,12 @@
   {
     "phrase": "in time",
     "meaning": "后来渐渐，终于 ；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With regular practice, your pronunciation will improve in time.",
+        "zh": "通过经常练习，你的发音最终会提高。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3382,7 +4785,12 @@
   {
     "phrase": "in turn",
     "meaning": "依次地，反过来；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Each runner carried the flag in turn around the field.",
+        "zh": "每位赛跑者依次举着旗帜绕过操场。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3394,7 +4802,12 @@
   {
     "phrase": "in vain",
     "meaning": "徒劳",
-    "variants": [],
+    "examples": [
+      {
+        "en": "For an hour, I searched in vain for my missing key.",
+        "zh": "我徒劳地找了一个小时，仍没找到丢失的钥匙。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3406,7 +4819,12 @@
   {
     "phrase": "in whole",
     "meaning": "整个地",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The village was destroyed in whole by the sudden flood.",
+        "zh": "这个村庄被突如其来的洪水彻底摧毁了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3418,7 +4836,12 @@
   {
     "phrase": "infuse ... into",
     "meaning": "注入",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Good teachers infuse confidence into nervous learners.",
+        "zh": "优秀的老师会给紧张的学习者注入信心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3430,7 +4853,12 @@
   {
     "phrase": "insist on",
     "meaning": "坚持，一定要",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My grandfather insists on walking to the market every morning.",
+        "zh": "我爷爷坚持每天早晨步行去市场。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3442,7 +4870,12 @@
   {
     "phrase": "instead of",
     "meaning": "代替",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Instead of blaming each other, let us find a solution.",
+        "zh": "与其互相责怪，不如让我们找个解决办法。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3454,7 +4887,12 @@
   {
     "phrase": "interest in",
     "meaning": "对...的兴趣",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Her interest in photography began during a family trip.",
+        "zh": "她对摄影的兴趣始于一次家庭旅行。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3466,7 +4904,12 @@
   {
     "phrase": "irrespective of",
     "meaning": "不顾的，不考虑的；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The rule applies to every passenger, irrespective of age.",
+        "zh": "这条规定适用于每位乘客，不论年龄。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3478,7 +4921,12 @@
   {
     "phrase": "isolate ... from",
     "meaning": "使...与...隔离；使孤立 ；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Thick curtains isolate the bedroom from street noise.",
+        "zh": "厚窗帘使卧室免受街道噪声的干扰。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3490,7 +4938,12 @@
   {
     "phrase": "it used to be",
     "meaning": "过去的情况是...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "It used to be difficult to buy fresh fruit here in winter.",
+        "zh": "过去冬天在这里很难买到新鲜水果。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3502,7 +4955,12 @@
   {
     "phrase": "join in",
     "meaning": "参加(某种活动)；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Seeing everyone dance, Ruth gladly joined in.",
+        "zh": "看到大家都在跳舞，露丝高兴地加入了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3514,7 +4972,12 @@
   {
     "phrase": "lay emphasis on",
     "meaning": "强调；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our coach lays emphasis on teamwork rather than individual fame.",
+        "zh": "我们的教练强调团队合作，而不是个人名声。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3526,7 +4989,12 @@
   {
     "phrase": "lay/put blame on",
     "meaning": "责怪，归咎于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "It is unfair to put the blame on one careless worker.",
+        "zh": "把责任归咎于一名粗心的工人是不公平的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3538,7 +5006,12 @@
   {
     "phrase": "lead off",
     "meaning": "开始；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A cheerful song will lead off tonight's school performance.",
+        "zh": "一首欢快的歌曲将为今晚的校园演出开场。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3550,7 +5023,12 @@
   {
     "phrase": "lead on",
     "meaning": "继续引领；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The narrow path led us on through a field of yellow flowers.",
+        "zh": "狭窄的小路继续引领我们穿过一片黄色花田。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3562,7 +5040,12 @@
   {
     "phrase": "lead out",
     "meaning": "开始；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A guide led the visitors out through a quiet side door.",
+        "zh": "一名向导带领游客从安静的侧门出去。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3574,7 +5057,12 @@
   {
     "phrase": "lead to",
     "meaning": "导致；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Too little sleep can lead to poor concentration.",
+        "zh": "睡眠太少会导致注意力不集中。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3586,7 +5074,12 @@
   {
     "phrase": "less than",
     "meaning": "不如，少于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The repair took less than an hour.",
+        "zh": "这次修理用了不到一个小时。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3598,7 +5091,12 @@
   {
     "phrase": "link together",
     "meaning": "联系在一起",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A shared love of music linked the two strangers together.",
+        "zh": "对音乐共同的热爱把两个陌生人联系在一起。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3610,7 +5108,12 @@
   {
     "phrase": "long before",
     "meaning": "早在...之前，很久以前",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Long before sunrise, fishing boats had left the harbor.",
+        "zh": "早在日出之前，渔船就已驶离港口。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3622,7 +5125,12 @@
   {
     "phrase": "look on",
     "meaning": "旁观，观看",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We cannot simply look on while the river becomes polluted.",
+        "zh": "我们不能在河流受到污染时只是袖手旁观。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3634,7 +5142,12 @@
   {
     "phrase": "loyal to",
     "meaning": "忠诚于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Despite a higher salary elsewhere, Ava remained loyal to her team.",
+        "zh": "尽管别处薪水更高，艾娃仍忠于自己的团队。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3646,7 +5159,12 @@
   {
     "phrase": "make a step",
     "meaning": "走一步",
-    "variants": [],
+    "examples": [
+      {
+        "en": "By apologizing sincerely, he made a step toward peace.",
+        "zh": "通过真诚道歉，他朝和解迈出了一步。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3658,7 +5176,12 @@
   {
     "phrase": "make for",
     "meaning": "有助于，有利于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Wide windows make for a bright and welcoming classroom.",
+        "zh": "宽大的窗户有助于营造明亮宜人的教室。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3670,7 +5193,12 @@
   {
     "phrase": "make one's way",
     "meaning": "前进，行进",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Through the crowd, the nurse made her way to the injured man.",
+        "zh": "护士穿过人群，走向那名受伤的男子。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3682,7 +5210,12 @@
   {
     "phrase": "make out",
     "meaning": "弄懂；辨认，开出(支票，药方等)",
-    "variants": [],
+    "examples": [
+      {
+        "en": "From the hilltop, we could just make out the distant tower.",
+        "zh": "从山顶上，我们勉强能辨认出远处的塔。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3694,7 +5227,12 @@
   {
     "phrase": "make sure",
     "meaning": "查明，弄确实；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Make sure the windows are closed before you leave.",
+        "zh": "离开前务必确认窗户已经关好。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3706,7 +5244,12 @@
   {
     "phrase": "make towards",
     "meaning": "朝...走去",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Hearing her name, the passenger made towards the front desk.",
+        "zh": "听到自己的名字，那名乘客朝前台走去。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3718,7 +5261,12 @@
   {
     "phrase": "make way",
     "meaning": "开路，让路",
-    "variants": [],
+    "examples": [
+      {
+        "en": "People quickly made way for the approaching ambulance.",
+        "zh": "人们迅速为驶来的救护车让路。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3730,7 +5278,12 @@
   {
     "phrase": "mean by ..",
     "meaning": "的意思，...意味着",
-    "variants": [],
+    "examples": [
+      {
+        "en": "What do you mean by calling the task impossible?",
+        "zh": "你说这项任务不可能是什么意思？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3742,7 +5295,12 @@
   {
     "phrase": "more ... than",
     "meaning": "比...更...，与其说...不如说...，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The lecture was more amusing than informative.",
+        "zh": "这场讲座与其说信息丰富，不如说很有趣。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3754,7 +5312,12 @@
   {
     "phrase": "more than",
     "meaning": "不仅，不止；多于...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Volunteering offers more than a chance to meet people.",
+        "zh": "志愿服务提供的不只是结识他人的机会。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3766,7 +5329,12 @@
   {
     "phrase": "much as",
     "meaning": "虽然，尽管)表让步；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Much as I respect Ben, I cannot accept his argument.",
+        "zh": "尽管我尊重本，但我无法接受他的观点。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3778,7 +5346,12 @@
   {
     "phrase": "no less ... than",
     "meaning": "和...一样...，既...又...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The rescue required no less courage than skill.",
+        "zh": "这次救援既需要技巧，也同样需要勇气。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3790,7 +5363,12 @@
   {
     "phrase": "no more ... than",
     "meaning": "既不会...也不会",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A fish can no more live without water than we can live without air.",
+        "zh": "鱼离不开水，正如我们离不开空气。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3802,7 +5380,12 @@
   {
     "phrase": "not ... but ..",
     "meaning": "不是...而是...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The noise came not from the street but from upstairs.",
+        "zh": "噪声不是来自街上，而是来自楼上。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3814,7 +5397,12 @@
   {
     "phrase": "now that",
     "meaning": "既然，由于)表原因；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Now that the rain has stopped, we can continue our picnic.",
+        "zh": "既然雨停了，我们可以继续野餐了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3826,7 +5414,12 @@
   {
     "phrase": "object to",
     "meaning": "反对；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Many neighbors objected to cutting down the old trees.",
+        "zh": "许多邻居反对砍掉这些老树。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3838,7 +5431,12 @@
   {
     "phrase": "of course",
     "meaning": "当然",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Of course, you may borrow my dictionary for the weekend.",
+        "zh": "当然，你周末可以借我的词典。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3850,7 +5448,12 @@
   {
     "phrase": "on a large scale",
     "meaning": "大规模的(地)",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The company plans to produce electric bikes on a large scale.",
+        "zh": "这家公司计划大规模生产电动自行车。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3862,7 +5465,12 @@
   {
     "phrase": "on a national scale",
     "meaning": "在全国范围内",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A reading campaign was launched on a national scale.",
+        "zh": "一场阅读活动在全国范围内展开。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3874,7 +5482,12 @@
   {
     "phrase": "on account of",
     "meaning": "由于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Our flight was delayed on account of thick fog.",
+        "zh": "由于浓雾，我们的航班延误了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3886,7 +5499,12 @@
   {
     "phrase": "on average",
     "meaning": "按平均值，通常；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On average, this battery lasts about ten hours.",
+        "zh": "这块电池平均能用大约十小时。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3898,7 +5516,12 @@
   {
     "phrase": "on behalf of",
     "meaning": "代表，为了；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On behalf of my classmates, I thanked the visiting writer.",
+        "zh": "我代表同学们感谢了来访的作家。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3910,7 +5533,12 @@
   {
     "phrase": "on campus",
     "meaning": "在校园",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Free concerts are held on campus every Friday evening.",
+        "zh": "每周五晚上校园里都会举办免费音乐会。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3922,7 +5550,12 @@
   {
     "phrase": "on occasion",
     "meaning": "偶尔；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My aunt travels for work and stays with us on occasion.",
+        "zh": "我姑姑因工作出差，偶尔会住在我们家。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3934,7 +5567,12 @@
   {
     "phrase": "on radio",
     "meaning": "用无线电，通过广播；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The final result was announced on radio before noon.",
+        "zh": "最终结果中午前通过广播公布了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3946,7 +5584,12 @@
   {
     "phrase": "on the average",
     "meaning": "按平均值，通常；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On the average, each household uses three bags of rice a month.",
+        "zh": "平均而言，每户每月用三袋大米。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3958,7 +5601,12 @@
   {
     "phrase": "on the basis of",
     "meaning": "根据，在...的基础上",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Scholarships are awarded on the basis of ability and need.",
+        "zh": "奖学金根据能力和需求发放。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3970,7 +5618,12 @@
   {
     "phrase": "on the contrary",
     "meaning": "相反",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The room is not too small; on the contrary, it feels quite spacious.",
+        "zh": "这个房间并不太小；相反，它感觉相当宽敞。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3982,7 +5635,12 @@
   {
     "phrase": "on the grounds of",
     "meaning": "以...为理由",
-    "variants": [],
+    "examples": [
+      {
+        "en": "He was refused entry on the grounds of safety.",
+        "zh": "他以安全为由被拒绝入内。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -3994,7 +5652,12 @@
   {
     "phrase": "on the occasion of",
     "meaning": "在...场合，值...之际；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On the occasion of her graduation, Mei received a family watch.",
+        "zh": "梅毕业之际，收到了一块家传手表。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4006,7 +5669,12 @@
   {
     "phrase": "on the other hand",
     "meaning": "另一方面",
-    "variants": [],
+    "examples": [
+      {
+        "en": "City life is convenient; on the other hand, it can be stressful.",
+        "zh": "城市生活很方便；另一方面，也可能压力很大。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4018,7 +5686,12 @@
   {
     "phrase": "on the radio",
     "meaning": "通过广播，无线电广播中；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I first heard this folk song on the radio.",
+        "zh": "我第一次是在广播里听到这首民歌的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4030,7 +5703,12 @@
   {
     "phrase": "on the side",
     "meaning": "额外地，作为兼职；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "During college, Luis repaired bicycles on the side.",
+        "zh": "大学期间，路易斯兼职修理自行车。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4042,7 +5720,12 @@
   {
     "phrase": "on the side of",
     "meaning": "在... 一边",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In the debate, Carla stood on the side of local farmers.",
+        "zh": "在辩论中，卡拉站在当地农民一边。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4054,7 +5737,12 @@
   {
     "phrase": "on the whole",
     "meaning": "总的来看；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On the whole, our weekend trip went smoothly.",
+        "zh": "总的来看，我们的周末旅行很顺利。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4066,7 +5754,12 @@
   {
     "phrase": "on time",
     "meaning": "准时；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Although traffic was heavy, the interview began on time.",
+        "zh": "尽管交通拥堵，面试还是准时开始了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4078,7 +5771,12 @@
   {
     "phrase": "one another",
     "meaning": "相互",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Roommates should respect one another's need for quiet.",
+        "zh": "室友应该相互尊重彼此对安静环境的需要。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4090,7 +5788,12 @@
   {
     "phrase": "one or other",
     "meaning": "不管哪一个",
-    "variants": [],
+    "examples": [
+      {
+        "en": "One or other of these keys must open the garden gate.",
+        "zh": "这两把钥匙中总有一把能打开花园门。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4102,7 +5805,12 @@
   {
     "phrase": "only if",
     "meaning": "只要，只有)表条件；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "You may enter the lab only if a teacher is present.",
+        "zh": "只有老师在场时，你才可以进入实验室。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4114,7 +5822,12 @@
   {
     "phrase": "other than",
     "meaning": "除了，不同于；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "No one other than Priya knew the safe password.",
+        "zh": "除了普丽娅，没有人知道保险柜的密码。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4126,7 +5839,12 @@
   {
     "phrase": "out of step",
     "meaning": "不一致，不协调",
-    "variants": [],
+    "examples": [
+      {
+        "en": "His bright tie looked out of step with the formal meeting.",
+        "zh": "他的鲜艳领带与正式会议很不协调。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4138,7 +5856,12 @@
   {
     "phrase": "out of the question",
     "meaning": "不可能的",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Buying a car is out of the question on my present income.",
+        "zh": "以我目前的收入，买车是不可能的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4150,7 +5873,12 @@
   {
     "phrase": "out of use",
     "meaning": "不使用",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Fax machines have fallen out of use in many offices.",
+        "zh": "传真机在许多办公室已经不再使用。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4162,7 +5890,12 @@
   {
     "phrase": "owe ... to..",
     "meaning": "把 ...归功于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I owe my love of books to my primary school teacher.",
+        "zh": "我把对书籍的热爱归功于小学老师。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4174,7 +5907,12 @@
   {
     "phrase": "pass out",
     "meaning": "分发，分配；昏倒，死去；失去知觉，晕倒；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Two students passed out leaflets near the museum entrance.",
+        "zh": "两名学生在博物馆入口附近分发传单。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4187,7 +5925,12 @@
   {
     "phrase": "pass off",
     "meaning": "中止，停止；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The storm passed off without causing serious damage.",
+        "zh": "暴风雨过去了，没有造成严重损失。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4199,7 +5942,12 @@
   {
     "phrase": "pass on",
     "meaning": "把...传递给另外一个人；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Please pass this message on to anyone who missed class.",
+        "zh": "请把这条消息转告给没来上课的人。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4211,7 +5959,12 @@
   {
     "phrase": "pay attention to",
     "meaning": "注意；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Cyclists must pay attention to pedestrians at crossings.",
+        "zh": "骑车人在路口必须注意行人。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4223,7 +5976,12 @@
   {
     "phrase": "pay by check",
     "meaning": "用支票支付",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We paid by check because the shop did not accept cards.",
+        "zh": "因为商店不收银行卡，我们用支票付款。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4235,7 +5993,12 @@
   {
     "phrase": "pay in cash",
     "meaning": "或 pay cash 付现金。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At the market, customers often pay in cash.",
+        "zh": "在这个市场，顾客经常用现金付款。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4247,7 +6010,12 @@
   {
     "phrase": "pay off",
     "meaning": "赢利，取得好结果，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Months of careful training paid off when Lina won the race.",
+        "zh": "数月的认真训练有了回报，莉娜赢得了比赛。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4259,7 +6027,12 @@
   {
     "phrase": "persist in",
     "meaning": "坚持",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Despite several failures, the inventor persisted in his experiments.",
+        "zh": "尽管失败了几次，这位发明家仍坚持做实验。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4271,7 +6044,12 @@
   {
     "phrase": "pick up",
     "meaning": "捡起，提高；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "On my walk home, I picked up a lost wallet.",
+        "zh": "我步行回家时捡到了一个丢失的钱包。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4283,7 +6061,12 @@
   {
     "phrase": "plan for",
     "meaning": "为...订计划；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "It is wise to plan for unexpected travel expenses.",
+        "zh": "为意外的旅行开支做计划是明智的。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4295,7 +6078,12 @@
   {
     "phrase": "point to",
     "meaning": "指向；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Dark clouds over the hills point to an evening storm.",
+        "zh": "山丘上方的乌云预示着傍晚会有暴风雨。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4307,7 +6095,12 @@
   {
     "phrase": "properly speaking",
     "meaning": "正确(公正)地讲",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Properly speaking, a tomato is a fruit rather than a vegetable.",
+        "zh": "严格来说，西红柿是水果而不是蔬菜。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4319,7 +6112,12 @@
   {
     "phrase": "provided that",
     "meaning": "假若，倘如)表条件；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "You can use my laptop provided that you handle it carefully.",
+        "zh": "只要你小心使用，就可以用我的笔记本电脑。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4331,7 +6129,12 @@
   {
     "phrase": "put together",
     "meaning": "加在一起；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Put together, these small changes could save much energy.",
+        "zh": "综合起来，这些小改变可以节省大量能源。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4343,7 +6146,12 @@
   {
     "phrase": "put up with",
     "meaning": "忍受；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I cannot put up with loud music after midnight.",
+        "zh": "我无法忍受午夜后的吵闹音乐。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4355,7 +6163,12 @@
   {
     "phrase": "quite other",
     "meaning": "完全不同的",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Her actual experience was quite other than what we had imagined.",
+        "zh": "她的实际经历与我们想象的完全不同。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4367,7 +6180,12 @@
   {
     "phrase": "rather than",
     "meaning": "宁愿...)与其；是...而不是",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Sam chose to cycle rather than wait for the crowded bus.",
+        "zh": "萨姆选择骑车，而不是等拥挤的公交车。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4379,7 +6197,12 @@
   {
     "phrase": "refer to ( ... as)",
     "meaning": "提到，把...称为；参考",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The term \"green energy\" refers to power from clean sources.",
+        "zh": "“绿色能源”一词指来自清洁来源的能源。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4391,7 +6214,12 @@
   {
     "phrase": "reflect discredit on",
     "meaning": "使丧失名誉",
-    "variants": [],
+    "examples": [
+      {
+        "en": "His rude remarks reflect discredit on the whole organization.",
+        "zh": "他的无礼言论使整个组织蒙羞。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4403,7 +6231,12 @@
   {
     "phrase": "reflect on",
     "meaning": "思考，反省，怀疑",
-    "variants": [],
+    "examples": [
+      {
+        "en": "During the quiet journey, she reflected on her future.",
+        "zh": "在安静的旅途中，她思考了自己的未来。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4415,7 +6248,12 @@
   {
     "phrase": "rely on",
     "meaning": "依靠，指望；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Small farms often rely on family members during harvest time.",
+        "zh": "小农场在收获季常常依靠家庭成员。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4427,7 +6265,12 @@
   {
     "phrase": "remove ... from..",
     "meaning": "把...从...去掉；撤职",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The dentist removed a tiny stone from my tooth.",
+        "zh": "牙医从我的牙齿里取出了一小块石头。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4439,7 +6282,12 @@
   {
     "phrase": "responsible for",
     "meaning": "对...负责。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Who is responsible for locking the sports hall tonight?",
+        "zh": "今晚谁负责锁体育馆的门？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4451,7 +6299,12 @@
   {
     "phrase": "result from",
     "meaning": "由...产生，因...而造成",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Most kitchen accidents result from carelessness.",
+        "zh": "大多数厨房事故源于粗心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4463,7 +6316,12 @@
   {
     "phrase": "result in",
     "meaning": "导致",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Regular exercise can result in better sleep.",
+        "zh": "经常锻炼可以带来更好的睡眠。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4475,7 +6333,12 @@
   {
     "phrase": "ripe for",
     "meaning": "为什么做好准备。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After years of preparation, the town is ripe for change.",
+        "zh": "经过多年的准备，这座小镇已具备变革的条件。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4487,7 +6350,12 @@
   {
     "phrase": "root out",
     "meaning": "发现",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Police hope to root out the cause of the false alarms.",
+        "zh": "警方希望查清这些虚假警报的根源。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4499,7 +6367,12 @@
   {
     "phrase": "run a risk",
     "meaning": "意为“冒风险”",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Anyone climbing alone in winter runs a serious risk.",
+        "zh": "任何人在冬季独自登山都会冒很大风险。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4511,7 +6384,12 @@
   {
     "phrase": "sacrifice something to",
     "meaning": "为...牺牲某事",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Never sacrifice your health to short-term success.",
+        "zh": "绝不要为了短期成功而牺牲健康。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4523,7 +6401,12 @@
   {
     "phrase": "secure sth. from attack",
     "meaning": "使...受攻击",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A strong fence secured the garden from animal attack.",
+        "zh": "一道坚固的围栏保护花园免受动物袭击。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4535,7 +6418,12 @@
   {
     "phrase": "set about",
     "meaning": "开始，着手",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After breakfast, we set about cleaning the beach.",
+        "zh": "早餐后，我们开始清理海滩。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4547,7 +6435,12 @@
   {
     "phrase": "set aside",
     "meaning": "掩饰出，留出",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Nadia sets aside part of her salary for travel.",
+        "zh": "纳迪娅把一部分工资留作旅行费用。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4559,7 +6452,12 @@
   {
     "phrase": "set back",
     "meaning": "推迟，延缓；阻碍",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A broken machine set back production by two days.",
+        "zh": "一台坏机器使生产延误了两天。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4571,7 +6469,12 @@
   {
     "phrase": "set down",
     "meaning": "卸下，放下；记下",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The driver set down the passengers beside the library.",
+        "zh": "司机让乘客在图书馆旁下车。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4583,7 +6486,12 @@
   {
     "phrase": "set forth",
     "meaning": "阐明，陈述",
-    "variants": [],
+    "examples": [
+      {
+        "en": "In her speech, the doctor set forth three practical suggestions.",
+        "zh": "医生在演讲中阐述了三条实用建议。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4595,7 +6503,12 @@
   {
     "phrase": "set off",
     "meaning": "出发，使爆炸",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We set off at dawn to avoid the midday heat.",
+        "zh": "我们黎明时出发，以避开中午的炎热。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4607,7 +6520,12 @@
   {
     "phrase": "set out",
     "meaning": "陈列，显示，启程",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Maps and guidebooks were set out on a long table.",
+        "zh": "地图和旅游指南陈列在一张长桌上。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4619,7 +6537,12 @@
   {
     "phrase": "share with",
     "meaning": "与...分享；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Would you share your umbrella with the child?",
+        "zh": "你愿意和那个孩子共用雨伞吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4631,7 +6554,12 @@
   {
     "phrase": "shoot a film",
     "meaning": "拍摄一个镜头",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The director will shoot a film about life on the island.",
+        "zh": "这位导演将拍摄一部关于岛上生活的电影。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4643,7 +6571,12 @@
   {
     "phrase": "side with",
     "meaning": "站在...一边，支持；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "To everyone's surprise, my brother sided with our neighbor.",
+        "zh": "令大家惊讶的是，我哥哥支持了我们的邻居。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4655,7 +6588,12 @@
   {
     "phrase": "similar to",
     "meaning": "与...类似；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This teaching method is similar to the one used in Japan.",
+        "zh": "这种教学方法与日本使用的方法相似。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4667,7 +6605,12 @@
   {
     "phrase": "since then",
     "meaning": "从那时起",
-    "variants": [],
+    "examples": [
+      {
+        "en": "I moved here in 2022 and have worked nearby since then.",
+        "zh": "我在2022年搬到这里，从那时起一直在附近工作。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4679,7 +6622,12 @@
   {
     "phrase": "something like",
     "meaning": "大约，有几分像...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The box weighed something like twenty kilograms.",
+        "zh": "这个箱子大约重二十公斤。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4691,7 +6639,12 @@
   {
     "phrase": "sooner than",
     "meaning": "早于...；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The package arrived sooner than we had expected.",
+        "zh": "包裹比我们预料的更早到达。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4703,7 +6656,12 @@
   {
     "phrase": "speed up",
     "meaning": "加速；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A second cashier was hired to speed up service.",
+        "zh": "店里又雇了一名收银员来加快服务。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4715,7 +6673,12 @@
   {
     "phrase": "stand for",
     "meaning": "代表，意味着",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The red heart on this map stands for the city hospital.",
+        "zh": "这张地图上的红心代表市医院。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4727,7 +6690,12 @@
   {
     "phrase": "step up",
     "meaning": "增加，加速 在 ...方面不同。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Local factories have stepped up efforts to reduce waste.",
+        "zh": "当地工厂加大了减少废物的力度。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4739,7 +6707,12 @@
   {
     "phrase": "stick to",
     "meaning": "坚持，坚持干，遵循；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "If you stick to the schedule, the project will finish in May.",
+        "zh": "如果你坚持按计划进行，项目将在五月完成。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4751,7 +6724,12 @@
   {
     "phrase": "stimulated by",
     "meaning": "受...的刺激(或激励)；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Stimulated by the lively discussion, Chen offered a new idea.",
+        "zh": "受到热烈讨论的激励，陈提出了一个新想法。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4763,7 +6741,12 @@
   {
     "phrase": "stir up",
     "meaning": "激起，引起，挑起；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The article stirred up public concern about food safety.",
+        "zh": "这篇文章引起了公众对食品安全的担忧。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4775,7 +6758,12 @@
   {
     "phrase": "such as",
     "meaning": "比方说，例如；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Simple habits, such as turning off lights, can save power.",
+        "zh": "关灯等简单习惯可以节约电力。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4787,7 +6775,12 @@
   {
     "phrase": "support for",
     "meaning": "对...的支持",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Public support for the new library continues to grow.",
+        "zh": "公众对新图书馆的支持持续增加。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4799,7 +6792,12 @@
   {
     "phrase": "sure enough",
     "meaning": "果然，果然不出所料；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We expected an empty beach, and sure enough, nobody was there.",
+        "zh": "我们料想海滩上没人，果然那里空无一人。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4811,7 +6809,12 @@
   {
     "phrase": "take away",
     "meaning": "拿走，夺走；消耗，清除",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Please take away your empty bottles after the picnic.",
+        "zh": "野餐后请带走你们的空瓶子。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4824,7 +6827,12 @@
   {
     "phrase": "take a step",
     "meaning": "采取措施；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The school has taken a step to make lunches healthier.",
+        "zh": "学校已采取措施让午餐更加健康。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4836,7 +6844,12 @@
   {
     "phrase": "take advantage of",
     "meaning": "利用。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "During the sale, shoppers took advantage of lower prices.",
+        "zh": "促销期间，购物者利用了较低的价格。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4848,7 +6861,12 @@
   {
     "phrase": "take care of",
     "meaning": "照管；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Could you take care of my plants while I am away?",
+        "zh": "我不在时，你能照料我的植物吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4860,7 +6878,12 @@
   {
     "phrase": "take for",
     "meaning": "把...看作，把...误以为；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "From a distance, I took the stranger for my uncle.",
+        "zh": "从远处看，我把那个陌生人误认为了我叔叔。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4872,7 +6895,12 @@
   {
     "phrase": "take in",
     "meaning": "接受，吸收，欺骗",
-    "variants": [],
+    "examples": [
+      {
+        "en": "It took me several minutes to take in the surprising news.",
+        "zh": "我花了几分钟才理解这个令人惊讶的消息。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4884,7 +6912,12 @@
   {
     "phrase": "take on",
     "meaning": "呈现，从事",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At sunset, the lake took on a golden color.",
+        "zh": "日落时，湖面呈现出金色。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4896,7 +6929,12 @@
   {
     "phrase": "take over",
     "meaning": "接管",
-    "variants": [],
+    "examples": [
+      {
+        "en": "A younger chef will take over the family restaurant next spring.",
+        "zh": "明年春天，一位更年轻的厨师将接管这家家庭餐馆。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4908,7 +6946,12 @@
   {
     "phrase": "take to",
     "meaning": "开始喜欢，开始从事，开始沉湎于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "After one lesson, Pablo quickly took to swimming.",
+        "zh": "上了一节课后，巴勃罗很快就喜欢上了游泳。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4920,7 +6963,12 @@
   {
     "phrase": "take up with",
     "meaning": "开始于...来往；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "At university, she took up with a group of young actors.",
+        "zh": "在大学里，她开始和一群年轻演员来往。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4932,7 +6980,12 @@
   {
     "phrase": "take up",
     "meaning": "专用",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Gardening took up most of my Sunday afternoon.",
+        "zh": "园艺占用了我星期天下午的大部分时间。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4944,7 +6997,12 @@
   {
     "phrase": "thanks to",
     "meaning": "由于，幸亏",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Thanks to a stranger's directions, we found the station.",
+        "zh": "多亏一位陌生人指路，我们找到了车站。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4956,7 +7014,12 @@
   {
     "phrase": "the bulk of..",
     "meaning": "的主要部分，大多数",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The bulk of the museum's collection came from private gifts.",
+        "zh": "博物馆藏品的大部分来自私人捐赠。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4968,7 +7031,12 @@
   {
     "phrase": "the former ... the latter..",
     "meaning": "前者...，后者...)",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Tea and coffee are both served here; the former is free, while the latter costs two yuan.",
+        "zh": "这里既供应茶也供应咖啡；前者免费，后者两元。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4980,7 +7048,12 @@
   {
     "phrase": "to ... extent",
     "meaning": "在...范围，到...程度",
-    "variants": [],
+    "examples": [
+      {
+        "en": "To a certain extent, weather influences people's moods.",
+        "zh": "天气在一定程度上会影响人们的情绪。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -4992,7 +7065,12 @@
   {
     "phrase": "to caution against",
     "meaning": "对...予以警告",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The notice serves to caution visitors against feeding the bears.",
+        "zh": "这则告示用于警告游客不要给熊喂食。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5004,7 +7082,12 @@
   {
     "phrase": "to center around",
     "meaning": "以...为中心",
-    "variants": [],
+    "examples": [
+      {
+        "en": "This year's town festival will center around traditional music.",
+        "zh": "今年的小镇节日将以传统音乐为中心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5016,7 +7099,12 @@
   {
     "phrase": "to some extent",
     "meaning": "某种程度上，有一点",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Online lessons have changed our study habits to some extent.",
+        "zh": "网络课程在某种程度上改变了我们的学习习惯。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5028,7 +7116,12 @@
   {
     "phrase": "to such an extent that",
     "meaning": "到了这样的程度，以至...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The room was crowded to such an extent that we could hardly move.",
+        "zh": "房间拥挤到了我们几乎无法移动的程度。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5040,7 +7133,12 @@
   {
     "phrase": "to the extent",
     "meaning": "到...的程度",
-    "variants": [],
+    "examples": [
+      {
+        "en": "We trust people to the extent that their actions match their words.",
+        "zh": "我们对一个人的信任程度取决于其言行是否一致。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5054,7 +7152,12 @@
   {
     "phrase": "to turn something into",
     "meaning": "把...转换为",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Heat can turn ice into water within minutes.",
+        "zh": "热量可以在几分钟内把冰变成水。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5066,7 +7169,12 @@
   {
     "phrase": "together with",
     "meaning": "一起",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The violinist, together with two dancers, opened the show.",
+        "zh": "小提琴手和两名舞者一起为演出开场。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5078,7 +7186,12 @@
   {
     "phrase": "transition to",
     "meaning": "向...过渡，向...转变",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The transition to a new school can feel difficult at first.",
+        "zh": "刚开始时，向新学校的过渡可能让人感到困难。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5090,7 +7203,12 @@
   {
     "phrase": "turn away",
     "meaning": "转来脸去",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Unable to watch the injection, Omar turned away.",
+        "zh": "奥马尔不敢看打针，便把脸转开了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5102,7 +7220,12 @@
   {
     "phrase": "turn over",
     "meaning": "把... 翻过",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Turn over the card to read the answer.",
+        "zh": "把卡片翻过来就能看到答案。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5114,7 +7237,12 @@
   {
     "phrase": "turn round",
     "meaning": "转过身来",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Someone called her name, and she turned round with a smile.",
+        "zh": "有人叫她的名字，她微笑着转过身来。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5126,7 +7254,12 @@
   {
     "phrase": "turn to",
     "meaning": "求助于",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Whenever I face a hard choice, I turn to my sister.",
+        "zh": "每当面临艰难选择时，我都会向姐姐求助。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5138,7 +7271,12 @@
   {
     "phrase": "turn up",
     "meaning": "意外地发生；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "My missing glove turned up under the car seat.",
+        "zh": "我丢失的手套竟在汽车座位下面找到了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5150,7 +7288,12 @@
   {
     "phrase": "what is more",
     "meaning": "而且，再者",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The hotel is comfortable; what is more, it faces the sea.",
+        "zh": "这家酒店很舒适，而且面朝大海。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5162,7 +7305,12 @@
   {
     "phrase": "with regard to",
     "meaning": "关于，至于，就...而论，",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With regard to your request, I will send the details tomorrow.",
+        "zh": "关于你的请求，我明天会发送详细信息。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5174,7 +7322,12 @@
   {
     "phrase": "with that",
     "meaning": "说罢。",
-    "variants": [],
+    "examples": [
+      {
+        "en": "\"Meet me outside at six,\" he said, and with that he left.",
+        "zh": "“六点在外面见我，”他说罢便离开了。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5186,7 +7339,12 @@
   {
     "phrase": "with the exception of",
     "meaning": "除...外",
-    "variants": [],
+    "examples": [
+      {
+        "en": "With the exception of one rainy morning, our holiday was sunny.",
+        "zh": "除一个下雨的早晨外，我们假期里都是晴天。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5198,7 +7356,12 @@
   {
     "phrase": "with ... speed",
     "meaning": "以...的速度",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The train crossed the open plain with surprising speed.",
+        "zh": "火车以惊人的速度穿过了开阔的平原。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5210,7 +7373,12 @@
   {
     "phrase": "work away",
     "meaning": "一直在工作",
-    "variants": [],
+    "examples": [
+      {
+        "en": "While others chatted, Iris worked away at her model plane.",
+        "zh": "别人聊天时，艾丽丝一直在制作她的模型飞机。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5222,7 +7390,12 @@
   {
     "phrase": "work out",
     "meaning": "解决，算出，制定出",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Can you work out how much each person should pay?",
+        "zh": "你能算出每个人应该付多少钱吗？"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5234,7 +7407,12 @@
   {
     "phrase": "work up",
     "meaning": "逐步建立，逐步发展；",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Before the speech, I walked around to work up my confidence.",
+        "zh": "演讲前，我四处走动以逐步建立信心。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5246,7 +7424,12 @@
   {
     "phrase": "worse than",
     "meaning": "坏于...",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Ignoring the leak would be worse than paying for repairs now.",
+        "zh": "忽视漏水问题会比现在花钱维修更糟。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5258,7 +7441,12 @@
   {
     "phrase": "write away",
     "meaning": "不停地写",
-    "variants": [],
+    "examples": [
+      {
+        "en": "All afternoon, the novelist wrote away beside the window.",
+        "zh": "整个下午，这位小说家都在窗边不停地写作。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5270,7 +7458,12 @@
   {
     "phrase": "write in",
     "meaning": "提出书面要求",
-    "variants": [],
+    "examples": [
+      {
+        "en": "Several listeners wrote in to request a repeat of the program.",
+        "zh": "几位听众写信要求重播这个节目。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5282,7 +7475,12 @@
   {
     "phrase": "write off",
     "meaning": "报废；勾销",
-    "variants": [],
+    "examples": [
+      {
+        "en": "The garage wrote off the damaged van after the crash.",
+        "zh": "事故后，修车厂把受损的货车作了报废处理。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
@@ -5293,8 +7491,13 @@
   },
   {
     "phrase": "write on",
-    "meaning": "写，记述",
-    "variants": [],
+    "meaning": "就…… 撰文、围绕…… 来写，记述",
+    "examples": [
+      {
+        "en": "For the school magazine, Hana wrote on the value of friendship.",
+        "zh": "哈娜为校刊撰文讨论友谊的价值。"
+      }
+    ],
     "level": "CET4",
     "tags": [
       "高频词组"
