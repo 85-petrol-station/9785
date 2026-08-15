@@ -1549,6 +1549,15 @@
   }
   .search-result-item:hover { background: var(--bg-input-focus); }
   .search-result-tip { padding: 8px 16px; font-size: 12px; color: var(--color-text-secondary); }
+  .cet4-word-item.search-target-highlight,
+  .cet6-word-item.search-target-highlight {
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--color-accent) 22%, transparent);
+    animation: search-target-pulse 0.8s ease-in-out 2;
+  }
+  @keyframes search-target-pulse {
+    50% { background: color-mix(in srgb, var(--color-accent) 38%, transparent); }
+  }
 
 /* 音频进度条 - 完整可拖拽版 */
 #bbcAudioProgress {
@@ -6968,6 +6977,8 @@ function stopVideoAndBack() {
   document.getElementById('videoBox').classList.remove('playing');
   showPage(lastPageBeforeVideo);
 }
+let pageActivationTimer = null;
+
 function showPage(id) {
   stopAllVoicePlay();
   cancelSpeechSafely();
@@ -6980,7 +6991,8 @@ function showPage(id) {
   document.querySelectorAll('.page').forEach(p => {
     p.classList.remove('active');
   });
-  setTimeout(() => {
+  clearTimeout(pageActivationTimer);
+  pageActivationTimer = setTimeout(() => {
     document.getElementById(id).classList.add('active');
   }, 50);
 
@@ -7333,8 +7345,12 @@ function renderVoiceList() {
   container.innerHTML = html;
 }
 
-function globalSearch() {
-  const kw = document.getElementById('mainSearchInput').value.trim().toLowerCase();
+let globalSearchRequestId = 0;
+
+async function globalSearch() {
+  const requestId = ++globalSearchRequestId;
+  const input = document.getElementById('mainSearchInput');
+  const kw = input.value.trim().toLowerCase();
   const pop = document.getElementById('searchResultPop');
   pop.innerHTML = '';
 
@@ -7342,6 +7358,11 @@ function globalSearch() {
     pop.style.display = 'none';
     return;
   }
+
+  pop.innerHTML = '<div class="search-result-tip">正在搜索…</div>';
+  pop.style.display = 'block';
+  await Promise.all([loadWordLibraryPart('cet4'), loadWordLibraryPart('cet6')]);
+  if (requestId !== globalSearchRequestId || input.value.trim().toLowerCase() !== kw) return;
 
   let resultHtml = '';
   let hasResult = false;
@@ -7418,14 +7439,15 @@ document.addEventListener('click', function(e){
     const src = popItem.dataset.src;
     const time = parseFloat(popItem.dataset.time || 0);
 
-    if(type === 'cet4'){
-      window.searchTargetWord = val;
-      showPage('cet4Page');
-      setTimeout(scrollToSearchWord,150);
-    }else if(type === 'cet6'){
-      window.searchTargetWord = val;
-      showPage('cet6Page');
-      setTimeout(scrollToSearchWord,150);
+    if(type === 'cet4' || type === 'cet6'){
+      if (type === 'cet4') currentCet4Tab = 'all';
+      else currentCet6Tab = 'all';
+      document.querySelectorAll(`.${type}-tab-btn`).forEach(button => {
+        button.classList.toggle('active', button.dataset.tab === 'all');
+      });
+      showPage(`${type}Page`);
+      clearTimeout(window.searchWordScrollTimer);
+      window.searchWordScrollTimer = setTimeout(() => scrollToSearchWord(type, val), 150);
     }else if(type === 'sub'){
       openVideo(src, time);
     }else if(type === 'video'){
@@ -7438,26 +7460,37 @@ document.addEventListener('click', function(e){
   }
 
   if(!popBox.contains(e.target) && e.target !== input){
+    globalSearchRequestId++;
     popBox.style.display = 'none';
   }
 });
 
-function scrollToSearchWord() {
-  const target = window.searchTargetWord;
-  if (!target) return;
+function scrollToSearchWord(level, targetWord) {
+  const word = String(targetWord || '').trim().toLowerCase();
+  if (!word || (level !== 'cet4' && level !== 'cet6')) return;
 
-  const cards = document.querySelectorAll('.word-card');
-  cards.forEach(card => {
-    card.style.border = '';
-    card.style.boxShadow = '';
+  const itemSelector = `.${level}-word-item`;
+  const nameSelector = `.${level}-word-name`;
 
-    const wordTextEl = card.querySelector('span[style*="color:var(--color-accent)"]');
-    const wordText = wordTextEl ? wordTextEl.innerText : '';
-    if (wordText.toLowerCase() === target.toLowerCase()) {
-      card.style.border = '2px solid var(--color-accent)';
-      card.style.boxShadow = '0 0 10px rgba(95,171,246,0.4)';
-      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  requestAnimationFrame(() => {
+    if (!document.getElementById(`${level}Page`)?.classList.contains('active')) return;
+    let target = null;
+    for (const item of document.querySelectorAll(itemSelector)) {
+      if (item.querySelector(nameSelector)?.innerText.trim().toLowerCase() === word) {
+        target = item;
+        break;
+      }
     }
+    if (!target) return;
+
+    target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    target.classList.remove('search-target-highlight');
+    void target.offsetWidth;
+    target.classList.add('search-target-highlight');
+    clearTimeout(window.searchTargetHighlightTimer);
+    window.searchTargetHighlightTimer = setTimeout(() => {
+      target.classList.remove('search-target-highlight');
+    }, 2200);
   });
 }
 
