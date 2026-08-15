@@ -2171,6 +2171,18 @@
 .cet6-word-name {
   font-size:19px; color:var(--color-text);
 }
+.cet4-word-body,
+.cet6-word-body {
+  min-width:0;
+  flex:1;
+}
+.cet4-word-meaning,
+.cet6-word-meaning {
+  margin-top:2px;
+  color:var(--color-text-secondary);
+  font-size:13px;
+  line-height:1.45;
+}
 /* 四、六级词汇列表：紧凑间距，并让选择圆点与单词垂直居中 */
 .cet4-date-group,
 .cet6-date-group {
@@ -8508,7 +8520,10 @@ window.renderCet4WordList = window.renderCet4WordList || async function() {
       html += `
       <div class="cet4-word-item" onclick="toggleWordSelect(${wordArg}, this)">
         <div class="cet4-word-checkbox ${isSelected ? 'checked' : ''}"></div>
-        <div class="cet4-word-name" onclick="speakWord(${wordArg})">${escapeHtml(item.word)}</div>
+        <div class="cet4-word-body">
+          <div class="cet4-word-name" onclick="speakWord(${wordArg})">${escapeHtml(item.word)}</div>
+          <div class="cet4-word-meaning">${escapeHtml(item.meaning || '暂无词性与释义')}</div>
+        </div>
       </div>`;
     });
     html += `</div>`;
@@ -9085,7 +9100,10 @@ window.renderCet6WordList = window.renderCet6WordList || async function() {
       html += `
       <div class="cet6-word-item" onclick="toggleWordSelectCet6(${wordArg}, this)">
         <div class="cet6-word-checkbox ${isSelected ? 'checked' : ''}"></div>
-        <div class="cet6-word-name" onclick="speakWord(${wordArg})">${escapeHtml(item.word)}</div>
+        <div class="cet6-word-body">
+          <div class="cet6-word-name" onclick="speakWord(${wordArg})">${escapeHtml(item.word)}</div>
+          <div class="cet6-word-meaning">${escapeHtml(item.meaning || '暂无词性与释义')}</div>
+        </div>
       </div>`;
     });
     html += `</div>`;
