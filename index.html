@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>IDEO学习站</title>
+<meta name="description" content="英语听说、词汇、阅读与练习学习站。">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="theme-color" content="#20b876">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; connect-src 'self'; worker-src 'self' blob:">
+<link rel="canonical" href="https://85-petrol-station.github.io/9785/">
 <style>
   /* 🔧 修复：去掉 * { max-width: 100% }，只对媒体元素限制宽度 */
   button, [onclick], .banner-card, .nav-item, .tab {
@@ -443,6 +448,23 @@
     font-weight:bold;
     text-shadow:0 1px 4px rgba(0,0,0,0.7);
   }
+  @media (min-width: 769px) {
+    #mainPage .swiper {
+      display:grid;
+      grid-template-columns:repeat(3, minmax(0, 1fr));
+      gap:16px;
+      overflow:visible;
+      padding:0 16px;
+    }
+    #mainPage .banner-card {
+      width:auto;
+      min-width:0;
+      padding:0;
+    }
+    #mainPage .banner-text {
+      left:16px;
+    }
+  }
 
   .section-title{
     padding:14px 16px 8px;
@@ -699,6 +721,26 @@
     margin: 0;
     overflow: hidden;
     border: none;
+  }
+  @media (min-width: 769px) {
+    #videoPage .video-player-wrapper {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(320px, 2fr);
+      align-items: start;
+      gap: 20px;
+      max-width: 1440px;
+      margin: 0 auto 10px;
+    }
+    #videoPage .video-box {
+      min-width: 0;
+    }
+    #videoPage .subtitle-container {
+      min-width: 0;
+      min-height: 0;
+      max-height: calc(100dvh - 130px);
+      padding: 0 4px 0 0;
+      overscroll-behavior: contain;
+    }
   }
   .star-fav {
     position: static;
@@ -4280,6 +4322,41 @@ function fallbackImageFormat(img) {
   }, true);
 })();
 
+// 为保留的 div/span onclick 控件补齐键盘操作；动态插入的卡片也会被处理。
+(function () {
+  var selector = 'div[onclick], span[onclick]';
+  function enhance(root) {
+    var controls = [];
+    if (root && root.nodeType === 1 && root.matches && root.matches(selector)) controls.push(root);
+    var scope = root && root.querySelectorAll ? root : document;
+    scope.querySelectorAll(selector).forEach(function (element) {
+      controls.push(element);
+    });
+    controls.forEach(function (element) {
+      if (!element.hasAttribute('role')) element.setAttribute('role', 'button');
+      if (!element.hasAttribute('tabindex')) element.tabIndex = 0;
+      if (element.dataset.keyboardReady === 'true') return;
+      element.dataset.keyboardReady = 'true';
+      element.addEventListener('keydown', function (event) {
+        if (event.key === 'Enter' || event.key === ' ') {
+          event.preventDefault();
+          element.click();
+        }
+      });
+    });
+  }
+  document.addEventListener('DOMContentLoaded', function () {
+    enhance(document);
+    new MutationObserver(function (records) {
+      records.forEach(function (record) {
+        record.addedNodes.forEach(function (node) {
+          if (node.nodeType === 1) enhance(node);
+        });
+      });
+    }).observe(document.body, { childList: true, subtree: true });
+  });
+})();
+
 function cancelSpeechSafely() {
   if (window.speechSynthesis && window.speechSynthesis.cancel) {
     window.speechSynthesis.cancel();
@@ -4556,7 +4633,6 @@ let subVisible = true;
 let currentVideoSrc = '';
 let wordLibrary = {};
 let cet4Words = {}, cet6Words = {};
-let adminLoggedIn = true;
 
 function getSharedStorageKey(key) {
   return `shared_${key}`;
@@ -4600,25 +4676,6 @@ function writeSharedList(key, value) {
   window.remoteContentData[key] = value;
   localStorage.setItem(getSharedStorageKey(key), JSON.stringify(value));
 }
-function buildSharedContentPayload() {
-  const payload = {};
-  const sharedKeys = ['voiceList', 'dramaVideos', 'gtVideos', 'bbcNewsList'];
-  sharedKeys.forEach(key => {
-    payload[key] = readSharedList(key, []);
-  });
-  if (window.remoteContentData) {
-    Object.keys(window.remoteContentData).forEach(key => {
-      if (!Object.prototype.hasOwnProperty.call(payload, key)) {
-        payload[key] = window.remoteContentData[key];
-      }
-    });
-  }
-  return payload;
-}
-async function persistSharedContentToServer() {
-  // 纯静态模式：名称和时间只由 media-metadata.json 控制。
-  return true;
-}
 async function loadRemoteContent() {
   window.remoteContentData = {};
   window.mediaMetadata = {};
@@ -4632,57 +4689,6 @@ async function loadRemoteContent() {
     console.warn('media-metadata.json 加载失败，将显示自动生成的默认名称。');
   }
   return true;
-}
-let deleteModeEnabled = false;
-
-function isAdminMode() {
-  return adminLoggedIn;
-}
-function syncManagementUi() {
-  document.body.classList.toggle('admin-on', deleteModeEnabled);
-}
-function setDeleteMode(enabled) {
-  deleteModeEnabled = Boolean(enabled);
-  syncManagementUi();
-}
-function toggleManagementMode() {
-  setDeleteMode(!deleteModeEnabled);
-}
-function handleManagedTitleKey(event) {
-  if (event.key === 'Enter') {
-    event.preventDefault();
-    event.currentTarget.blur();
-  }
-}
-async function saveToBackend(key, value) {
-  try {
-    const res = await fetch('/api/content', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ key, value })
-    });
-    const data = await res.json();
-    if (!res.ok || !data.ok) {
-      throw new Error(data.error || '保存失败');
-    }
-    return true;
-  } catch (err) {
-    console.error(err);
-    return false;
-  }
-}
-async function loadFromBackend(key, fallback = []) {
-  try {
-    const res = await fetch(`/api/content?key=${encodeURIComponent(key)}`);
-    const data = await res.json();
-    if (!res.ok || !data || data.value === null || data.value === undefined) {
-      return fallback;
-    }
-    return data.value;
-  } catch (err) {
-    console.error(err);
-    return fallback;
-  }
 }
 function getBaseNameFromInput(raw) {
   const value = (raw || '').trim();
@@ -5521,136 +5527,6 @@ function utf8ToBase64(value) {
   }
   // 兼容旧浏览器（百度、夸克等）
   return btoa(unescape(encodeURIComponent(value)));
-}
-
-async function addSharedVoiceFromAdmin() {
-  if (!isAdminMode()) {
-    alert('请先登录管理员');
-    return;
-  }
-  const name = document.getElementById('adminVoiceName').value.trim();
-  const file = document.getElementById('adminVoiceFile').value.trim();
-  if (!name || !file) {
-    alert('请填写语音名称和音频文件');
-    return;
-  }
-  // 验证音频文件是否存在
-  const ext = getFileExtension(file);
-  const voiceBase = getBaseNameFromInput(file);
-  const voicePath = /^voice\d+$/i.test(voiceBase) ? `voice/${voiceBase}` : file;
-  const candidates = ['mp3', 'm4a', 'wav', 'aac', 'ogg'].includes(ext)
-    ? [file]
-    : [`${voicePath}.mp3`, `${voicePath}.m4a`, `${voicePath}.wav`, `${voicePath}.aac`, `${voicePath}.ogg`];
-  const resolved = await resolveAsset(candidates);
-  if (!resolved) {
-    alert(`音频文件不存在，请确认 ${file} 已放在项目根目录（支持 mp3/m4a/wav/aac/ogg 格式）`);
-    return;
-  }
-  const list = readSharedList('voiceList', []);
-  list.unshift({ name, file: resolved, duration: '' });
-  writeSharedList('voiceList', list);
-  renderVoiceList();
-  document.getElementById('adminVoiceName').value = '';
-  document.getElementById('adminVoiceFile').value = '';
-  persistSharedContentToServer();
-}
-async function addSharedVideoFromAdmin() {
-  if (!isAdminMode()) {
-    alert('请先登录管理员');
-    return;
-  }
-  const inputName = document.getElementById('adminDramaVideoName').value.trim();
-  const title = document.getElementById('adminDramaVideoTitle').value.trim();
-  if (!inputName || !title) {
-    alert('请填写视频名称和基础名，例如 Drama1');
-    return;
-  }
-  const { base, img, vid, audio, sub } = await resolveSharedVideoAssets(inputName);
-  if (!img || !vid) {
-    alert(`无法自动匹配到同名资源，请确认 ${base}.jpg 和 ${base}.mp4 等文件已经放在项目根目录`);
-    return;
-  }
-  const list = readSharedList('dramaVideos', []);
-  list.unshift({ img, vid, title, audio, sub });
-  writeSharedList('dramaVideos', list);
-  renderDramaVideos();
-  await refreshVideoDictationArticles();
-  document.getElementById('adminDramaVideoName').value = '';
-  document.getElementById('adminDramaVideoTitle').value = '';
-  persistSharedContentToServer();
-}
-async function addSharedVideoToGTFromAdmin() {
-  if (!isAdminMode()) {
-    alert('请先登录管理员');
-    return;
-  }
-  const inputName = document.getElementById('adminGtVideoName').value.trim();
-  const title = document.getElementById('adminGtVideoTitle').value.trim();
-  if (!inputName || !title) {
-    alert('请填写视频名称和基础名，例如 gt1');
-    return;
-  }
-  const { base, img, vid, audio, sub } = await resolveSharedVideoAssets(inputName);
-  if (!img || !vid) {
-    alert(`无法自动匹配到同名资源，请确认 ${base}.jpg 和 ${base}.mp4 等文件已经放在项目根目录`);
-    return;
-  }
-  const list = readSharedList('gtVideos', []);
-  list.unshift({ img, vid, title, audio, sub });
-  writeSharedList('gtVideos', list);
-  renderGTVideos();
-  await refreshVideoDictationArticles();
-  document.getElementById('adminGtVideoName').value = '';
-  document.getElementById('adminGtVideoTitle').value = '';
-  persistSharedContentToServer();
-}
-async function addSharedNewsFromAdmin() {
-  if (!isAdminMode()) {
-    alert('请先登录管理员');
-    return;
-  }
-  const inputName = document.getElementById('adminNewsBase').value.trim();
-  const name = document.getElementById('adminNewsTitle').value.trim();
-  const time = document.getElementById('adminNewsTime').value.trim();
-  if (!name || !time || !inputName) {
-    alert('请填写新闻标题、时间和基础名');
-    return;
-  }
-
-  const { base, audio, sub, banner } = await resolveSharedNewsAssets(inputName);
-  const audioUrl = audio || inputName;
-  const subUrl = sub || '';
-  const bannerUrl = banner || 'logo.webp';
-  if (!audioUrl || !subUrl) {
-    alert(`无法自动匹配到同名资源，请确认 ${base}.mp3/.m4a 和 ${base}.vtt 已经放在项目根目录`);
-    return;
-  }
-
-  let content = `${name}\n${time}`;
-  try {
-    const res = await fetch(subUrl);
-    if (res.ok) {
-      const vttText = await res.text();
-      const subs = parseVtt(vttText);
-      const extracted = subs
-        .map(item => [item.en, item.zh].filter(Boolean).join('\n'))
-        .filter(Boolean)
-        .join('\n\n');
-      if (extracted) content = extracted.trim();
-    }
-  } catch (err) {
-    console.warn('VTT 提取失败，使用默认内容', err);
-  }
-
-  const list = readSharedList('bbcNewsList', []);
-  list.unshift({ name, time, img: bannerUrl, banner: bannerUrl, audio: audioUrl, sub: subUrl, content });
-  writeSharedList('bbcNewsList', list);
-  renderBbcNews();
-  refreshArticleListWhenOpen();
-  document.getElementById('adminNewsBase').value = '';
-  document.getElementById('adminNewsTitle').value = '';
-  document.getElementById('adminNewsTime').value = '';
-  persistSharedContentToServer();
 }
 
 // 全局共享缓存与计数，使用 window 以避免跨脚本重复声明冲突
@@ -6993,7 +6869,14 @@ function showPage(id) {
   });
   clearTimeout(pageActivationTimer);
   pageActivationTimer = setTimeout(() => {
-    document.getElementById(id).classList.add('active');
+    const nextPage = document.getElementById(id);
+    if (!nextPage) return;
+    nextPage.classList.add('active');
+    const pageTitle = nextPage.querySelector('h1, h2, .secondary-title, .practice-title');
+    if (pageTitle) {
+      pageTitle.tabIndex = -1;
+      pageTitle.focus({ preventScroll: true });
+    }
   }, 50);
 
   // ===================== 🔥 修复：底部Tab自动显隐（所有答题页自动隐藏） =====================
@@ -7047,7 +6930,6 @@ function deleteVideo(e, btn) {
   writeSharedList('gtVideos', gtList);
   item.remove();
   refreshVideoDictationArticles();
-  persistSharedContentToServer();
 }
 
 // ===================== IBO 图片裁切器 =====================
@@ -7246,7 +7128,6 @@ async function addNewVideoCardGT() {
   await refreshVideoDictationArticles();
   document.getElementById('gtVideoBaseName').value = '';
   document.getElementById('gtVideoTitle').value = '';
-  persistSharedContentToServer();
 }
 
 function playThisVoice(el) {
@@ -7964,7 +7845,6 @@ window.addBbcNews = window.addBbcNews || async function() {
     writeSharedList('bbcNewsList', list);
     renderBbcNews();
     refreshArticleListWhenOpen();
-    persistSharedContentToServer();
     alert('✅ 添加成功！正文已自动从 VTT 读取');
 
     // 清空表单
@@ -7987,7 +7867,6 @@ window.deleteBbcNews = window.deleteBbcNews || function(index) {
   writeSharedList('bbcNewsList', list);
   renderBbcNews();
   refreshArticleListWhenOpen();
-  persistSharedContentToServer();
 }
 
 async function openBbcDetail(index) {
@@ -8391,15 +8270,6 @@ window.stopBbcAudioAndBack = window.stopBbcAudioAndBack || function() {
   resetNewsSubtitle();
   
   showPage('bbcPage');
-}
-
-window.syncBbcAdminDisplay = window.syncBbcAdminDisplay || function() {
-  const bbcDels = document.querySelectorAll('.bbc-del-btn');
-  if (deleteModeEnabled) {
-    bbcDels.forEach(el => el.style.display = 'flex');
-  } else {
-    bbcDels.forEach(el => el.style.display = 'none');
-  }
 }
 
 // ================== CET4 单词选择+答题逻辑 ==================
@@ -11288,6 +11158,8 @@ var wordAudioStopTimer = null;      // 播放停止定时器
 var cet4WavMapCache = {};           // CET4 独立 WAV：{ word: wavUrl }
 var cet4WavMapReady = false;
 var cet4WavMapPromise = null;
+// 当前项目未包含 cet4/group_*_word_time.json；默认直接使用 audio_small 或浏览器语音。
+const CET4_WAV_INDEX_ENABLED = false;
 
 function normalizeAudioWord(value) {
   return String(value || '')
@@ -11300,6 +11172,10 @@ function normalizeAudioWord(value) {
 function loadCet4WavMap() {
   if (cet4WavMapReady) return Promise.resolve(cet4WavMapCache);
   if (cet4WavMapPromise) return cet4WavMapPromise;
+  if (!CET4_WAV_INDEX_ENABLED) {
+    cet4WavMapReady = true;
+    return Promise.resolve(cet4WavMapCache);
+  }
 
   var requests = [];
   for (var group = 1; group <= 36; group++) {
@@ -11548,10 +11424,6 @@ function playWordFromAudio(word) {
 
   return true;
 }
-
-// 预加载单词音频映射（页面加载时调用）
-loadWordAudioMap();
-loadCet4WavMap();
 
 function safeSpeak(word) {
   setTimeout(function() {

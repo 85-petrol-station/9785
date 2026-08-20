@@ -1,5 +1,6 @@
 const CACHE_PREFIX = 'ibo-learning-';
-const CACHE_NAME = `${CACHE_PREFIX}v1`;
+const CACHE_NAME = `${CACHE_PREFIX}v2`;
+const MAX_MEDIA_CACHE_ENTRIES = 12;
 const MEDIA_PATTERN = /\.(?:mp4|m4v|mov|webm|mp3|m4a|wav|aac|ogg)(?:$|[?#])/i;
 const STATIC_PATTERN = /\.(?:webp|jpg|jpeg|png|svg|vtt|json|css|js)(?:$|[?#])/i;
 const fullAssetJobs = new Map();
@@ -31,6 +32,14 @@ async function safeCachePut(cache, key, response) {
   }
 }
 
+async function pruneMediaCache(cache) {
+  const requests = await cache.keys();
+  const mediaRequests = requests.filter(request => MEDIA_PATTERN.test(new URL(request.url).pathname));
+  const excess = mediaRequests.length - MAX_MEDIA_CACHE_ENTRIES;
+  if (excess <= 0) return;
+  await Promise.all(mediaRequests.slice(0, excess).map(request => cache.delete(request)));
+}
+
 async function runFullAssetCache(url) {
   const cache = await caches.open(CACHE_NAME);
   const cached = await cache.match(url);
@@ -38,7 +47,10 @@ async function runFullAssetCache(url) {
   try {
     // 不携带视频播放器的 Range 头，保存一份可供下次离线读取的完整文件。
     const response = await fetch(new Request(url, { cache: 'default', credentials: 'same-origin' }));
-    if (response.ok && response.status === 200) await safeCachePut(cache, url, response.clone());
+    if (response.ok && response.status === 200) {
+      await safeCachePut(cache, url, response.clone());
+      await pruneMediaCache(cache);
+    }
     return response;
   } catch (_) {
     return cached || null;
@@ -89,7 +101,10 @@ async function cacheFirst(request) {
   const cached = await cache.match(request);
   if (cached) return cached;
   const response = await fetch(request);
-  if (response.ok && response.status === 200) await safeCachePut(cache, request, response.clone());
+  if (response.ok && response.status === 200) {
+    await safeCachePut(cache, request, response.clone());
+    await pruneMediaCache(cache);
+  }
   return response;
 }
 
